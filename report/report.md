@@ -1,6 +1,10 @@
 # Routable historical road networks from old map sheets: a feasibility demonstration
 
-*Alexander Hellervik, Chalmers University of Technology. Version 1.0, October 2026.*
+*Alexander Hellervik, Chalmers University of Technology. Version 1.0.1, October 2026.*
+
+Cite as: Hellervik, A. (2026). *Routable historical road networks from old map sheets: a
+feasibility demonstration (historical-networks-prestudy)*. Zenodo.
+<https://doi.org/10.5281/zenodo.23187623>
 
 This is a pilot feasibility study. It is not a historical accessibility series, and it contains
 no analysis of population response. It demonstrates, on one corridor in western Sweden, that a

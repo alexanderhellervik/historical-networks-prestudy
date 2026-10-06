@@ -45,11 +45,15 @@ reproduced the report's travel times, exact values and HierX values to the last 
 
 ## How to cite
 
-Cite the archived release on Zenodo (DOI on the Zenodo record) or use `CITATION.cff`:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23187623.svg)](https://doi.org/10.5281/zenodo.23187623)
+
+Cite the archive on Zenodo, or use `CITATION.cff`:
 
 > Hellervik, A. (2026). *Routable historical road networks from old map sheets: a feasibility
-> demonstration (historical-networks-prestudy)*, version 1.0.0. Chalmers University of
-> Technology.
+> demonstration (historical-networks-prestudy)*. Zenodo. https://doi.org/10.5281/zenodo.23187623
+
+That DOI always resolves to the latest version. To cite one exact version, use its own DOI from
+the Zenodo record (version 1.0.0: https://doi.org/10.5281/zenodo.23187624).
 
 ## Licences
 
