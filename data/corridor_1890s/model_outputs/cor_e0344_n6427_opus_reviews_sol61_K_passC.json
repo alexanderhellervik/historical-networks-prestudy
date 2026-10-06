@@ -1,0 +1,85 @@
+{
+  "tile_id": "cor_e0344_n6427",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thick red-brown line edged with a black dotted line runs from the top-left, around (80,0)-(95,45)-(185,80), along about (280,110)-(370,120), then rises to about (560,65) and leaves the top edge near (780,0). Its colour and weight match the brown road line that the worked example reads as Sämre körväg.",
+      "uncertainty_note": "The black dotted edge also works as a meadow/marsh outline, so the far top-left hook (80,0)-(180,60) might be only an area boundary. The class is inferred from colour and weight; no dotted double line can be resolved."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line leaves f01 near (368,122) as a dark line curving to (455,245), crosses the straight crimson diagonal and then runs as a thin orange line with a black dotted line beside it: (465,300), (440,380), (380,420), (330,480), (310,560), (285,650), (275,780), (240,880), (160,950), then out at the bottom-left near (100,1000). The overlay follows it closely.",
+      "uncertainty_note": "The dotted form suggests Gångstig, but the orange colour could also mean a minor körväg (single_line). North of the diagonal the dots are not visible, so the class may change there."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line branches south from f01 near (182,72) and runs through about (195,120), (230,170), (290,215) to a hooked end near (325,258). There is no dotted edge. Its brown road colour separates it from the black dashed lines and the blue/green streams.",
+      "uncertainty_note": "It ends about 40 px short of the dashed double line, so it may be a dead-end track or may be meant to reach that line. A thin brown line could also be an enclosure edge."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[862, 772], [856, 820], [855, 865], [875, 905]],
+      "evidence_note": "The orange-brown line runs from the meadow edge at the black cross mark (~862,775) south to the junction near (875,905). The overlay's first part, from the lake corner (822,752) to (855,780), follows a short black dashed segment with no road colour; this sheet uses that form for boundaries/skifteslinjer.",
+      "uncertainty_note": "The road might continue under the cross symbol to the shore. The difference covers only about 45 px."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-brown line runs south-west from the junction near (875,905) through about (820,925) and (770,955) and leaves the bottom edge near (725,1000). The overlay follows it.",
+      "uncertainty_note": "Near the bottom it runs close to a dotted meadow outline, so the exact course in the last ~40 px is slightly uncertain."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short red-brown line runs east-south-east from the junction near (875,905) towards about (930,940) and the dotted edge of the marsh/lake in the bottom-right corner.",
+      "uncertainty_note": "Its end is unclear where it reaches the dotted outline and hatched area. It could stop there or continue off the tile; its colour is slightly redder than f04/f05, so a boundary cannot be ruled out entirely."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin reddish line runs from the lake shore at about (437,945) straight down to the bottom edge at about (432,1000). Its hue is closer to the crimson boundary lines (like the long diagonal) than to the orange-brown road lines, and it starts exactly at the shoreline.",
+      "uncertainty_note": "Two readings are possible. It could be a boundary running into the lake, or a track reaching the shore (a landing). Only 55 px are visible inside the tile, which is too little to decide."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [455, 245],
+      "what_is_contested": "Whether f02 forms a junction with the long straight diagonal line from (0,560) to (830,0), or only crosses it. This depends on whether the diagonal is a road.",
+      "evidence_note": "The diagonal is a perfectly straight crimson line with a dark line and light brown wash beside it, the same form as the crimson boundary in the worked example. I read it as a boundary, so this is a crossing rather than a road junction. A narrow landsväg with red fill is the alternative."
+    },
+    {
+      "uv": [390, 285],
+      "what_is_contested": "Whether the dashed double line from (210,0) to (390,285) is a road (a winter road, Vinterväg, or a track) meeting the diagonal here, or a boundary/skifteslinje ending on another boundary. Also whether f03, ending at (325,258), was meant to join it.",
+      "evidence_note": "One heavy black dashed line with a fainter parallel line and a grey band. It carries no brown road colour, so I do not count it as a road, but the double form is close to the Vinterväg symbol."
+    },
+    {
+      "uv": [875, 905],
+      "what_is_contested": "The number of branches. f04 and f05 are clear; the f06 branch to the east-south-east is short and its end is unclear.",
+      "evidence_note": "Three brown strokes appear to meet at a point. The eastern stroke fades into the dotted marsh outline within about 60 px."
+    },
+    {
+      "uv": [862, 772],
+      "what_is_contested": "Where f04 starts: at the cross mark / meadow edge, or at the lake shore (822,752) by way of the short dashed segment.",
+      "evidence_note": "A black cross symbol and a dotted meadow outline cover the start of the brown line. The connection to the shore is drawn black-dashed, not brown."
+    }
+  ],
+  "overall_note": "The overlay captures the brown road lines on this tile well; the only course correction is f04's start, and f07 cannot be decided inside the tile. I add no missed roads, because the remaining long lines (the straight crimson diagonal, the dashed double line and the short dashed lines) carry no brown road colour and read as boundaries. The dashed double line is the most doubtful of these and is recorded as contested."
+}

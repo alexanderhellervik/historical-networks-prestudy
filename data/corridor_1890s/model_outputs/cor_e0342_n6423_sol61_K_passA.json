@@ -1,0 +1,235 @@
+{
+  "tile_id": "cor_e0342_n6423",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [541, 0],
+        [545, 30],
+        [546, 61],
+        [543, 91],
+        [532, 118],
+        [515, 151],
+        [495, 180],
+        [488, 197],
+        [491, 214],
+        [503, 230],
+        [529, 252],
+        [553, 273],
+        [575, 296],
+        [591, 319],
+        [601, 334],
+        [593, 352],
+        [586, 379],
+        [579, 407],
+        [575, 438],
+        [574, 469],
+        [575, 499],
+        [578, 530],
+        [587, 557],
+        [599, 584],
+        [609, 601],
+        [621, 611],
+        [628, 625],
+        [635, 644],
+        [637, 676],
+        [638, 710],
+        [641, 749],
+        [646, 782],
+        [650, 814],
+        [661, 846],
+        [674, 870],
+        [695, 891],
+        [716, 914],
+        [728, 934],
+        [738, 958],
+        [746, 980],
+        [753, 1000]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close dark dotted or broken margins, roughly 7–12 px apart, enclose a tan band; black rectangular symbols sit alongside, and separate red and blue-black strokes follow parts of the course.",
+      "uncertainty_note": "The tan band is visible on both sides of the black clusters around [601,334] and [614,610], supporting continuity, although its center beneath them is approximate. A connection to f06 is not established.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [165, 1000],
+        [165, 968],
+        [167, 931],
+        [169, 897],
+        [173, 865],
+        [177, 841],
+        [187, 806],
+        [193, 780],
+        [207, 750],
+        [229, 716],
+        [247, 687],
+        [254, 661],
+        [257, 642],
+        [257, 625]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre strip has two rows of dark dots and short strokes about 6–10 px apart; its upper end touches a solid black rectangular symbol.",
+      "uncertainty_note": "The drawing becomes indistinct among the rectangular symbols above [257,625]; no continuation through that cluster is supplied. The red stroke crossing near [175,854] is not counted as a road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [635, 644],
+        [652, 649],
+        [671, 638],
+        [691, 619],
+        [711, 611],
+        [737, 609],
+        [764, 613],
+        [795, 614],
+        [823, 616],
+        [849, 613],
+        [859, 620],
+        [870, 603],
+        [887, 579],
+        [905, 554],
+        [926, 525],
+        [949, 501],
+        [972, 475],
+        [989, 456],
+        [1000, 445]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "One uncased row of dark round dots and occasional short strokes, spaced roughly 9–14 px apart, curves below a blue-black outline and then crosses the orange fill.",
+      "uncertainty_note": "This is a path-like dotted symbol, which has no exact class in the supplied list. The first dots are crowded against the blue-black outline; the junction position is approximate within about 8 px.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Suitable if this class includes a single dotted line as well as short dashes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [0, 506],
+        [19, 495],
+        [39, 507],
+        [57, 492],
+        [75, 494],
+        [95, 509],
+        [115, 491],
+        [143, 473],
+        [171, 453],
+        [185, 453],
+        [204, 468],
+        [207, 480]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two very pale grey strokes, generally 10–18 px apart, form an angular winding band above a heavier blue-black outline; there is no crisp dark casing.",
+      "uncertainty_note": "The paired trace may be a faded route, but its printing and its turn near [207,480] are unclear. Its connection to f05 cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The pale strokes could be the two edges of a broad road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a pale water or land-division outline, or transferred ink rather than an intended route."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [
+        [223, 484],
+        [242, 490],
+        [262, 503],
+        [290, 517],
+        [316, 533],
+        [343, 547],
+        [365, 552]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Faint grey, approximately parallel strokes descend southeast with roughly 8–15 px spacing, fading beside a red stroke and heavy black marks at the eastern end.",
+      "uncertainty_note": "This could continue f04 across [207,480]–[223,484], or be a separate trace. Neither that connection nor a continuation beyond [365,552] is sufficiently visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible faded paired road symbol, potentially part of the same feature as f04."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: faint division or transferred linework; the two grey strokes need not be road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [
+        [776, 0],
+        [758, 30],
+        [744, 57],
+        [726, 94],
+        [714, 127],
+        [702, 161],
+        [692, 194],
+        [686, 225],
+        [677, 252],
+        [661, 278],
+        [640, 299],
+        [615, 318]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A red-purple stroke follows a heavier blue-black stroke, leaving a pale strip about 4–10 px wide between them; clearly repeated road-edge dots are absent.",
+      "uncertainty_note": "A narrow route beside the blue line is possible, but a red boundary following that line is at least as plausible. The trace enters black symbols at its lower end, so no road junction is asserted there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible road interpretation if the red and adjacent dark strokes are paired edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a red property boundary beside a blue-black water outline; their spacing would not constitute road casing."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [635, 644],
+      "branch_count": 3,
+      "evidence_note": "An apparent three-way meeting: the tan band with close broken margins continues northwest and south, while one uncased row of dark dots leaves east beside a blue-black outline; the contact is blurred."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [194, 464, 235, 499],
+      "why": "Very pale grey strokes overlap pale blue marks; the connection between f04 and f05 cannot be resolved."
+    },
+    {
+      "bbox_uv": [243, 569, 281, 630],
+      "why": "Black and grey rectangular symbols obscure any continuation of f02 through the small cluster."
+    },
+    {
+      "bbox_uv": [582, 308, 628, 357],
+      "why": "Heavy black symbols overlap tan, red and blue linework; f01 has visible continuation on both sides, but a connection involving f06 is unreadable."
+    },
+    {
+      "bbox_uv": [590, 591, 636, 623],
+      "why": "Dense black marks and blue outlines obscure the exact edges of f01; the tan route is visible on both sides, but finer branching cannot be resolved."
+    }
+  ],
+  "overall_note": "Dotted road edges, red boundaries and blue water outlines overlap at the central symbols. The pale western pieces and northeastern red/pale trace are retained as doubtful candidates with non-road alternatives, without supplying links across their unreadable gaps. Coordinates are approximate where the ink is blurred."
+}

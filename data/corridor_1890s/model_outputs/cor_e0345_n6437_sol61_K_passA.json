@@ -1,0 +1,153 @@
+{
+  "tile_id": "cor_e0345_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 791], [25, 791], [53, 802], [80, 814], [108, 826], [137, 832], [164, 830], [191, 820], [220, 814], [250, 810], [280, 803], [309, 800], [338, 792], [349, 767], [362, 738], [384, 712], [408, 686], [434, 665], [461, 646], [487, 627], [514, 611]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One narrow, irregularly dotted dark line follows the western bends, with a faint connecting stroke between some marks; no broad casing or flanking tree symbols are visible.",
+      "uncertainty_note": "The eastern portion increasingly coincides with edges of ochre fill and horizontal hatching. Its identification as a path is less secure there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Part of the eastern course could be a land-cover or field outline rather than a continuing path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[514, 611], [541, 602], [568, 593], [595, 584], [622, 578], [649, 573], [678, 570], [708, 567], [737, 562], [766, 556], [789, 548], [811, 541]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow dark line with repeated thicker dots runs along the lower edge of ochre-filled polygons; it crosses the heavy blue stroke and approaches a red rectangular symbol.",
+      "uncertainty_note": "This could continue the western dotted path, but the same marks also outline the filled polygons. The trace stops at the red symbol and adjacent large black lettering; an eastward continuation is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the intermittent dark marks as the continuation of f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the line as a field perimeter rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[514, 611], [516, 589], [513, 570], [507, 551], [497, 533], [488, 516]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine, uneven dark stroke rises from the dotted route beside an angular ochre polygon; near its upper end it overlaps horizontal hatching and a diagonal coloured line.",
+      "uncertainty_note": "This is a tentative branch. The stroke may simply be the polygon edge, and no independent continuation can be separated at its upper end.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If independent of the polygon outline, it could be a short single-stroke access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be solely a field boundary; under that reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[754, 1000], [785, 979], [814, 950], [841, 917], [868, 884], [896, 850], [924, 815], [951, 780], [978, 745], [1000, 716]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A curved strip has dark, locally thick edges, a pale interval, and a broad pink wash chiefly on its southeast side; the apparent edge spacing varies roughly between 10 and 20 pixels.",
+      "uncertainty_note": "The road-like pale strip is difficult to separate from the broad coloured boundary marking. Coordinates follow the apparent strip, with approximately 10–15 pixels of lateral uncertainty.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale interval between dark edges could represent a road accompanied by a separate pink boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire strip could instead be boundary symbology; the more inward fragments f05 and f06 would then be the road candidates."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[810, 929], [823, 906], [824, 884], [831, 861], [839, 840], [844, 818], [853, 800], [866, 786], [871, 768]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A crooked pale interval lies between fine dark strokes beside narrow ochre polygons and small rectangular marks; its apparent width is approximately 4–10 pixels.",
+      "uncertainty_note": "Some strokes are also polygon outlines. Neither its lower connection to f04 nor its continuation through the heavy black lettering at the upper end is sufficiently clear to carry through.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could outline a narrow lane between the rectangular symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "These could be field edges, or part of the same corridor represented by f04 rather than a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[895, 686], [904, 666], [915, 643], [913, 622], [916, 603]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short, closely spaced dark strokes flank a pale, bending interval among small outlined rectangles; black lettering overlaps its northern approach.",
+      "uncertainty_note": "The strokes cannot consistently be distinguished from the neighbouring rectangular outlines. A connection southward to f05 is possible but obscured by symbols and lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "This could be an upper fragment of the lane proposed in f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent lane could instead be spaces between field and building outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[746, 284], [763, 267], [783, 254], [790, 250]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short oblique dark strokes enclose a pale sliver approximately 4–7 pixels wide beside a heavy blue curve and horizontally hatched fill.",
+      "uncertainty_note": "This is a weak road candidate. Both ends merge into blue strokes or hatch outlines, and no continuation toward the nearby letter B can be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The short pale sliver could be a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be the edge of the hatched area beside the blue line."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [514, 611],
+      "branch_count": 3,
+      "evidence_note": "The west and east dotted strokes meet a finer northward stroke at an angular ochre corner. This three-branch road reading is tentative because the northward stroke may be only a polygon outline."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [805, 480, 1000, 592],
+      "why": "Large black lettering and red symbols obscure fine strokes and prevent a secure continuation of the western route or upper lane."
+    },
+    {
+      "bbox_uv": [823, 694, 916, 770],
+      "why": "Heavy black lettering overlaps clustered rectangular outlines and prevents a secure connection between the possible lane fragments."
+    }
+  ],
+  "overall_note": "The western dotted route is the strongest path reading, although its eastern continuation overlaps polygon edges. The southeastern pale corridors are difficult to separate from field outlines and a broad pink boundary, so their alternatives remain explicit. Straight coloured and long-dashed boundary lines, heavy blue water lines, and hatch outlines were otherwise excluded."
+}

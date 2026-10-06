@@ -1,0 +1,167 @@
+{
+  "tile_id": "cor_e0367_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 288], [40, 264], [85, 232], [130, 202], [180, 169], [225, 138], [275, 106], [325, 74], [375, 42], [425, 11], [443, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink-red ribbon follows the diagonal, with darker longitudinal edges; a separate blue-grey band lies immediately below it. The pink ribbon is approximately 15–30 px wide.",
+      "uncertainty_note": "The coloured ribbon could represent a wide road, but its edges also merge with adjoining coloured parcel outlines. Its road status is uncertain; these coordinates follow the ribbon's approximate centre.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Read the darker parallel margins as road casing around a coloured interior."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a coloured bank or parcel strip alongside the blue-grey band."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 330], [35, 304], [75, 278], [120, 250], [165, 222], [210, 195], [251, 173], [273, 162]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A closely spaced chain of dark dots follows the lower side of the blue-grey diagonal band. A faint parallel edge is present, but a second independent dotted row is difficult to resolve.",
+      "uncertainty_note": "This may be a dotted path or a marking belonging to the adjacent band. The green patch and coloured building interrupt its reading at the northeastern end; no connection through them is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint parallel edge may constitute a second side of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: dots associated with a bank or another linear structure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[310, 157], [320, 192], [331, 230], [342, 269], [353, 307], [364, 346], [375, 385], [387, 425], [398, 464], [410, 505], [420, 533], [452, 519], [494, 503], [536, 488], [578, 472], [630, 452], [677, 435], [721, 420], [768, 403], [813, 387], [860, 371], [908, 355], [952, 343], [1000, 332]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two dark dotted rows, approximately 7–10 px apart, enclose a pale strip. They descend from beside the coloured buildings, make a sharp corner near [420,533], and continue diagonally right with the same paired symbol.",
+      "uncertainty_note": "The upper endpoint overlaps the small building and green patch; connection to the diagonal-side dotted line is unresolved. The two dotted sides remain distinguishable along most of the reported course.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "An alternative classification emphasizes the interrupted dotted strokes rather than their paired arrangement."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[559, 223], [568, 253], [579, 290], [590, 328], [602, 367], [614, 409], [630, 452]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two narrow, nearly parallel rows of dark dots descend from the small cluster of coloured and black rectangles, separated by roughly 7–9 px, and meet the transverse paired track.",
+      "uncertainty_note": "Buildings obscure the northern termination. A connection to either the upper dotted approach or the eastward dotted link cannot be traced confidently through the symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dotted strokes could instead be classified by their interrupted line form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[494, 66], [506, 101], [518, 135], [530, 170], [540, 195]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A single row of regularly spaced dark dots runs diagonally downward between the pale outlined shape near the lettering and the small green-and-red building cluster. No consistent second row is visible.",
+      "uncertainty_note": "Both ends encounter outlines or building symbols. The southern continuation into the paired track is plausible but obscured; a dotted boundary is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a dotted boundary terminating at the outlined symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[582, 216], [612, 203], [647, 190], [653, 213], [664, 251], [676, 289], [689, 330], [701, 369], [712, 401], [721, 420]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A single dotted link runs eastward from beside a black rectangle, bends beside another black symbol near [647,190], and continues south as two closely spaced dotted rows with a pale interior. A small red rectangle stands east of the upper portion.",
+      "uncertainty_note": "The symbol changes from one dotted row to two, and the bend touches a black symbol. The visible strokes support this course, but the upper link could be a separate path or boundary rather than part of the paired track.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Treat the whole course as one narrow track whose northern second edge is faint or obscured."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Treat the northern link as a separate dotted path ending beside the black symbol; the southern portion remains a paired track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative for the northern link: a dotted boundary meeting the track beside the black symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[908, 355], [929, 368], [956, 378], [982, 383], [1000, 385]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two closely spaced dotted curves peel downward from the diagonal paired line and flatten toward the right edge. Their pale intervening strip and dark dot weight resemble the adjoining track.",
+      "uncertainty_note": "The fork overlaps thin outlines beside the tree symbols, making its exact meeting point approximate. A boundary interpretation is less clear but remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: paired dotted parcel or vegetation-edge markings beside the continuing diagonal track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[23, 121], [52, 109], [82, 98], [113, 87], [137, 79]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint single dotted course crosses the pale upper-left enclosure, close to its lower outline, and approaches a dark angular outline at the eastern end. No clear casing or paired row is visible.",
+      "uncertainty_note": "A short dotted path is possible, but the dots may belong to the enclosure boundary. Both terminations merge with heavier outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the faint dots as a short path across the enclosure."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the dotted lower boundary of the enclosure."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [630, 452],
+      "branch_count": 3,
+      "evidence_note": "The descending pair of dark dotted rows meets the oblique pair, which continues left and right. The pale strips meet without a visible separating outline."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [721, 420],
+      "branch_count": 3,
+      "evidence_note": "A paired dotted stroke from above terminates against the diagonal paired dotted stroke. Three pale corridors are visible between dots of similar weight and spacing."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [908, 355],
+      "branch_count": 3,
+      "evidence_note": "The diagonal dotted pair continues toward the upper-right edge while another dotted pair curves toward the lower-right edge, producing three apparent branches amid thin parcel outlines."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The paired dotted tracks are the clearest road symbols. The upper-left coloured diagonal corridor and its adjacent dots support competing road and non-road readings. Small building symbols obscure several endpoints, so connections through them are not assumed."
+}

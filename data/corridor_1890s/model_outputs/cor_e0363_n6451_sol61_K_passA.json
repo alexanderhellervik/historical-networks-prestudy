@@ -1,0 +1,93 @@
+{
+  "tile_id": "cor_e0363_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 325], [24, 296], [60, 268], [100, 239], [143, 208], [185, 179], [226, 150], [267, 121], [307, 92], [339, 66]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre band has two irregular dark edges about 6–9 px apart, with stippling along the edges. Small coloured building rectangles sit beside its northeastern portion.",
+      "uncertainty_note": "The northeastern end disappears into the broad red-and-green boundary marking; no continuation is resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled edges could be read as a dotted track symbol rather than two continuous casing lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 566], [18, 549]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short ochre strip between dark irregular edges enters from the western edge and reaches the fork.",
+      "uncertainty_note": "Only a short portion is inside the tile.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[18, 549], [51, 520], [88, 488], [125, 456], [163, 421], [199, 390], [224, 366], [241, 349], [258, 353], [280, 362]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two dark, partly dotted edges enclose an ochre strip approximately 7–10 px wide. The strip bends beside the large B and reaches a small orange building rectangle.",
+      "uncertainty_note": "The visible strip ends at the building group; separate nearby coloured rectangles do not establish a continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The edge stippling makes the precise symbol form uncertain, although the ochre strip is clearly drawn."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[18, 549], [45, 584], [77, 622], [108, 659], [139, 694], [169, 727], [199, 747], [222, 747], [250, 754], [282, 751], [300, 761], [315, 785], [333, 802], [354, 808], [375, 809], [411, 827], [445, 845], [478, 860], [508, 868], [539, 859], [563, 865], [590, 883], [620, 894], [645, 907], [662, 927], [692, 946], [727, 967], [761, 984], [783, 986], [807, 986]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "An ochre band, generally 8–13 px wide, runs between dark irregular and stippled edges. Its paired edges reappear across the Glofsbo lettering and continue through the lower ST lettering toward small outlined buildings.",
+      "uncertainty_note": "Continuity through the large lettering is supported by aligned visible edges. At the southeastern building group, the outgoing dark strokes cannot confidently be separated from enclosure outlines, so the feature stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The partly dotted casing could represent a track symbol rather than continuous double lines."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A possible continuation reaches the bottom edge near (827,1000), but the building and enclosure strokes do not establish it securely."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[520, 644], [552, 645], [584, 644], [619, 636], [651, 623], [677, 601], [686, 626], [697, 652], [704, 671], [734, 668], [767, 671], [792, 685], [811, 704], [846, 701], [881, 703], [914, 708], [943, 720], [969, 724], [1000, 731]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A faint grey-to-dark dotted thread runs above the broad southern red-and-green marking. It consists of separated small marks without a clear second casing line; star-shaped tree symbols occur alongside it.",
+      "uncertainty_note": "This is a tentative path reading. Some dots are faint or mingle with tree marks, particularly around the northward bend; its western extension cannot be resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted thread may be a property or subdivision boundary rather than a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The western bending sequence and eastern dotted run may be separate lines rather than one continuous feature."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [18, 549],
+      "branch_count": 3,
+      "evidence_note": "Three ochre strips with dark irregular edges meet: a short arm toward the western edge, an arm rising northeast, and an arm descending southeast."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The ochre tracks are substantially clearer than the faint dotted candidate in the southeastern part of the tile. Broad red-and-green markings, straight red lines, and blue enclosure or drainage lines were read as non-road symbols. Lettering and building outlines obscure two road endpoints."
+}

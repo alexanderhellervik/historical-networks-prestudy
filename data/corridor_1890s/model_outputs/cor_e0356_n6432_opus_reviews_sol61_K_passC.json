@@ -1,0 +1,64 @@
+{
+  "tile_id": "cor_e0356_n6432",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown dotted line runs from the top edge near (900,5) SW through (860,92), (805,150), (785,235), (725,298) down to about (684,322) above the croft Sörboku. The proposal follows it. It crosses the magenta boundary near (860,92) and the stream near (795,185). The colour and fine dotting match the brown road lines in the worked example, not the black dashed boundaries.",
+      "uncertainty_note": "The course is certain. The class is not: the line is very fine and dotted, so a footpath (Gångstig) or a poorer cart track are both possible, and at this resolution it could also be read as single_line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A second fine orange-brown dotted line runs almost straight N-S from the south shore of Skörbosjön at about (668,212) down to (683,322), where it meets f01 above the croft. It has the same colour and dotting as f01.",
+      "uncertainty_note": "Its north end stops at the lake shore. Whether it ends there (a path to the water) or carries on across or along the shore cannot be seen."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f03 sits where f01 and f02 run on from their meeting point at about (683,322) to the croft building at about (672,355). The black dashed boundary also passes through this spot, near (680,340). It makes sense that the paths end at the croft.",
+      "uncertainty_note": "The connector is only about 30 px long and lies under the boundary dashes and the start of the 'Sörboku' lettering. I cannot see a separate road stroke there, so whether it is drawn or only inferred is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dead-straight pale band about 20-25 px wide runs from the left edge at about v 470-500, through (200,585), (430,705) and (660,860), and leaves the bottom edge near (870,1000). It has thin dark lines on both sides, which is the Landsväg/Bygdeväg double-line form. The proposal follows the band.",
+      "uncertainty_note": "There is no brown road wash, the band is exactly parallel to the black-dashed skifte lines, and no road ends are visible on this tile. So it could instead be a cleared ride or strip (rågång) or some other corridor, not a road. I rate it a probable rather than certain road."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The proposed line runs from (0,705) through (210,850) to (395,1000), steeper than every line family on the tile. Along that course I see only the pink field and building outlines near (0,700) and (220-300,880-1000), conifer symbols, and black dashed lines, which this sheet uses for boundaries. There is no brown dotted stroke and no parallel-edged band along it.",
+      "uncertainty_note": "The lower-left corner is crowded and partly faded. There may be a faint pale strip parallel to f04 near (0,800)-(300,950), and f05 could be a badly placed attempt at that. If so, it would be partly_agree with a different course, but I cannot confirm that strip."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [683, 322],
+      "what_is_contested": "How many branches meet: f01 and f02 clearly meet here. Whether a separate third branch (f03) continues to the croft is unclear, and so is whether this is a junction at all rather than two paths each ending at the farmyard.",
+      "evidence_note": "Both dotted brown lines come together just above the croft building. The black dashed boundary passes through the same spot, so a short connector cannot be told apart from the boundary dashes and the lettering."
+    },
+    {
+      "uv": [860, 92],
+      "what_is_contested": "Whether f01 only crosses the magenta boundary here, or whether a second path branches off along the lake edge toward the NE.",
+      "evidence_note": "The orange dotted line bends where it crosses the magenta line. Near (870-900,95-120) there are short orange strokes that may be a branch or just the bend."
+    },
+    {
+      "uv": [660, 860],
+      "what_is_contested": "Whether the two parallel black dashed lines running SSW to the bottom edge (around (660,860)-(590,1000) and (700,890)-(650,1000)) meet the f04 band as a road junction, or are only boundaries ending at it.",
+      "evidence_note": "Both lines are black dashes like the skifte lines, which the worked example reads as boundaries. They are about 50 px apart, too wide for one road, so I read them as not roads and this as no junction."
+    }
+  ],
+  "overall_note": "The fine orange-brown dotted paths converging on the croft Sörboku (f01-f03) are clearly drawn, though their exact class is uncertain. The long straight pale double-edged band (f04) is probably a road but carries no road colour. f05 does not follow any drawn road that I can see, and I found no confident missed roads; the black dashed and magenta lines are boundaries."
+}

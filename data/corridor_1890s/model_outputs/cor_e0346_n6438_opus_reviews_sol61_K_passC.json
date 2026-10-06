@@ -1,0 +1,83 @@
+{
+  "tile_id": "cor_e0346_n6438",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of black dots with a thin orange-red line beside it runs from the top edge near (60,0) along the east shore of the lake via (190,180), (205,300), (190,450), (165,600) to the small building at about (140,665). The orange tint is the road colour this sheet uses (cf. the worked example), and the line is not the dash-dot boundary pattern. The marsh outlines nearby are dotted too, but they have no orange tint.",
+      "uncertainty_note": "Class is uncertain. It reads as a single dotted row (Gångstig-like), but the orange line next to the dots could also mean a dotted-plus-line körväg symbol. The thin grey line that leaves it westward at about (200,330) toward the lake and eastward to the marsh looks like a ditch or stream, not a branch of this road."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (135,690) to the bottom edge the polyline follows the broad pink-washed band with black dashes and dots on its west edge, i.e. a boundary symbol (socken/hemman type), running from (135,690) to about (185,1000). There is no orange road tint and no dotted road row separate from the boundary. In its lower part (v>880) the polyline drifts west of the band, where there is no drawn line at all.",
+      "uncertainty_note": "A path running along the boundary is possible but cannot be seen. If f01 really continues south past the building at (140,665), it would be here, but nothing drawn shows that."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line with orange-red tint runs from the top edge at about (712,40) via (740,200), (785,330), (810,450), (845,530) down to the farm buildings at about (875,570). It is drawn like f01 and is clearly separate from the dotted black outline of the marsh to the east.",
+      "uncertainty_note": "Its class (path or poorer cart track) is not decidable at this resolution. It may continue north beyond the map face border."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "South of the farm, a dotted line continues from about (880,600) between the marsh hatching and the brown building/tomt plots via (905,690), (920,740), then down past 'Lång' via (905,860) to the bottom edge near (885,1000). It carries the same dot pattern as f03.",
+      "uncertainty_note": "Between v 600 and 760 it is crowded by plot outlines and the small building with the red square, so the exact course there is approximate. Part of the dotting could be plot or marsh edging rather than the road."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line with orange tint runs from the 'T' buildings at about (215,985) east via (310,940), (450,920), (620,880), then turns NE via (660,820) and (700,765) to the pink boundary at about (740,715). This differs from the straight black dashed skifteslinjer at v 690-760 and from the thin red lines.",
+      "uncertainty_note": "It is unclear whether it stops at the pink boundary near (740,715) or crosses into the marsh/Lång area. Its class cannot be decided between path and poorer cart track."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short segment around (235,845)-(222,890) lies inside the small cluster of building outlines at the torp marked 'T'. What is drawn there is house and plot outlines. No separate road line with orange tint can be told apart from them.",
+      "uncertainty_note": "It could be a short access stub from f05 to the buildings, or just a building edge. The resolution does not decide."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[765, 580], [820, 577], [872, 572]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Along the top of the pink boundary between the corner at (760,585) and the farm at (875,570), there is a row of black dots distinct from the dash-dot boundary further west. It may link f03/f04 at the farm westward along the boundary.",
+      "uncertainty_note": "Low confidence. It may only be the dotted edge of the boundary or of the tomt plots, not a road; no clear orange tint.",
+      "alternatives": ["boundary dotting (not a road)", "edge of farm plot outline"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [878, 590],
+      "what_is_contested": "Whether f03 and f04 form one continuous road through the farm, and whether a third branch (m01) leaves west along the boundary.",
+      "evidence_note": "The dotted line reaches the farm buildings at about (875,570), where the boundary, plot outlines and a building rectangle (880-905, 570-625) overlap. The overlay leaves a gap between f03's end and f04's start."
+    },
+    {
+      "uv": [140, 680],
+      "what_is_contested": "Whether f01 ends at the small building or continues south (f02 position) along the boundary.",
+      "evidence_note": "The dotted, orange-tinted line of f01 reaches the building at about (140,665). South of it, only the pink boundary band with black dash-dot edging is visible."
+    },
+    {
+      "uv": [740, 715],
+      "what_is_contested": "Whether f05 ends at the pink boundary or crosses it toward the marsh and Lång farm.",
+      "evidence_note": "The dotted line climbs NE to the vertical pink boundary at u about 745. Beyond it there is only marsh hatching, with no clear continuation."
+    }
+  ],
+  "overall_note": "Roads on this tile are drawn as dotted lines with an orange-red tint (f01, f03, f04, f05), and I agree with those courses. f02 follows a pink boundary band, not a road, and f06 cannot be judged inside the building cluster. The straight black dashed lines in the lower block are skifteslinjer, the pink bands and thin red lines are boundaries, and the thin grey lines near the lake and marsh look like ditches; none of these are roads."
+}

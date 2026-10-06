@@ -1,0 +1,89 @@
+{
+  "tile_id": "cor_e0359_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[130, 402], [165, 409], [202, 418], [237, 431], [273, 447], [310, 464], [347, 480], [380, 491]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow red-brown strip runs diagonally between the two blue-edged bands. Dark edging is visible, particularly along its lower side, but two separate casing lines are not consistently resolved.",
+      "uncertainty_note": "Possible track, but a coloured boundary is also plausible. Both ends merge with stronger red and blue strokes; no definite bridge or road continuation is resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the dark strokes on either side are road casing, this is a narrow double-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a red boundary connecting the coloured lines within the two channels."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 894], [25, 881], [49, 868], [72, 856], [87, 850]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short red-brown diagonal strip has closely spaced dark edges. Several solid black rectangular symbols lie beside its northeastern portion.",
+      "uncertainty_note": "The strip becomes difficult to separate from the black rectangles near its northeastern end. Its colouring also permits a boundary interpretation; no continuation through the symbols is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The red stroke could be a boundary beside the rectangular symbols rather than a separately cased road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[522, 332], [516, 360], [505, 392], [490, 424], [472, 456], [454, 486], [440, 522], [438, 555], [449, 591], [459, 626], [460, 661], [451, 700], [437, 738], [430, 772], [428, 791]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint, thin, intermittently broken grey-blue trace follows the eastern side of the broad blue-edged band. Its spacing from the heavier bank stroke varies by several tens of pixels; it has no clear casing.",
+      "uncertainty_note": "Possible path, but the pale colour and irregular breaks also support a ditch or land-cover edge. The upper end is lost at the dark seam and the lower end beneath lettering; neither is extended.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the short separated marks belong to a path symbol, this is a broken-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a faint ditch or the edge of the pale strip beside the channel."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[565, 233], [547, 252], [529, 271], [521, 293], [519, 305]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A very faint narrow trace with separated grey-blue marks appears outside the heavier eastern bank stroke. Small open oval symbols occur nearby, and the lower portion approaches the dark seam.",
+      "uncertainty_note": "This may be an upper fragment of a path, but some marks may belong to vegetation or the channel margin. Its relationship to f03 across the seam is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible short broken-line path fragment."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: channel-margin strokes mixed with nearby vegetation symbols."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 291, 1000, 335],
+      "why": "An opaque dark seam crosses the face obliquely and hides the underlying strokes."
+    },
+    {
+      "bbox_uv": [407, 778, 451, 878],
+      "why": "Heavy black lettering prevents reliable separation or continuation of the faint eastern trace."
+    }
+  ],
+  "overall_note": "The reported lines are road candidates with substantial competing readings; none supports a certain three-branch road junction. The blue-edged channels, field outlines, long diagonal boundary strokes and patterned railway at the southeastern corner are excluded. The seam and lettering prevent confident continuity."
+}

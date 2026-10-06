@@ -1,0 +1,218 @@
+{
+  "tile_id": "cor_e0366_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[232, 0], [237, 49], [243, 99], [249, 150], [254, 201], [260, 251], [264, 300], [268, 328], [290, 359], [321, 397], [350, 434], [379, 472], [407, 508], [432, 534], [463, 575], [492, 613], [520, 654], [548, 693], [579, 727], [613, 758], [650, 793], [688, 827], [732, 866], [775, 906], [817, 944], [860, 979], [884, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink strip, approximately 15–25 px across, follows two dark margins; conspicuous heavy broken black marks occur along its western margin. The strip continues across the blue channel near [650,793].",
+      "uncertainty_note": "Its course is visible, but its identification as a road is doubtful: the heavy broken marks also support a boundary or railway reading. Junctions involving this feature are conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the two dark margins delimit a road, this is a wide, pink-filled double-line symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a highlighted administrative boundary with heavy broken black marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: railway linework with alternating heavy and light portions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 449], [38, 433], [79, 413], [119, 395], [151, 378], [180, 361], [218, 347], [245, 337], [268, 328]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A pink band approximately 10–15 px wide runs between dark marks, including thick elongated broken portions, and meets the broader pink strip.",
+      "uncertainty_note": "This resembles f01, so road, highlighted boundary and railway interpretations remain possible. Its crossing with f03 is visible, but a road junction there is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The pink band could be a road bounded by two dark edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a highlighted boundary joining the diagonal boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: railway linework joining the diagonal line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[143, 285], [155, 307], [165, 333], [180, 361], [189, 392], [207, 422], [232, 449], [259, 476], [287, 501], [316, 529], [338, 549], [365, 574], [391, 599], [418, 629], [441, 660], [452, 691], [463, 724], [469, 752], [468, 770], [459, 799], [444, 829], [425, 863], [407, 899], [394, 934], [381, 968], [372, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04", "j05", "j06", "j07"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two thin dark edges enclose an ochre strip, generally about 6–12 px wide. The edges curve together through the tile; lettering crosses the strip near its upper end and in the lower half.",
+      "uncertainty_note": "The upper continuation is obscured by large lettering, so the trace stops at [143,285]. Short lettering overlaps farther south have aligned visible edges on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 584], [25, 563], [51, 544], [83, 524], [113, 511], [143, 500], [171, 499], [194, 502], [221, 510], [249, 517], [281, 522], [301, 525], [316, 529]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Small dark dots or short broken strokes follow a winding ochre-toned strip. Portions appear paired, with approximately 5–8 px between rows, beside thin continuous parcel outlines.",
+      "uncertainty_note": "Near the western edge and around [230,513], the broken line is difficult to separate from adjoining parcel outlines; the exact centreline is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some portions could be broken property-boundary marks beside a continuous field edge."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the small breaks are reproduction losses, the paired marks could be a narrow double-line track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[338, 549], [355, 536], [378, 524], [399, 517], [416, 518], [432, 534], [452, 524], [471, 506], [491, 485], [513, 464], [535, 449], [551, 443], [544, 460], [553, 472], [570, 471], [587, 457]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j06"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A narrow ochre strip has paired dark edges, locally broken or dotted, about 4–8 px apart. It crosses the broad pink strip and bends beside a small red-and-black rectangular symbol near [587,457].",
+      "uncertainty_note": "The final bends are partly crowded by lettering and small symbols. A broken diagonal line continues northeast from around [551,443], but its longer dash pattern supports a boundary reading rather than a certain road continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken portions may be intrinsic to the track symbol rather than interruptions of continuous edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Near [535,449], a road edge and a diagonal boundary may overlap."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[338, 549], [314, 577], [289, 604], [264, 632], [238, 660], [213, 686], [193, 703], [181, 712]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two thin, roughly parallel dark lines enclose a pale ochre corridor about 5–9 px wide. Large black lettering interrupts portions, and the southwest end meets dense horizontal hatching.",
+      "uncertainty_note": "The southwest endpoint cannot be followed confidently into the hatching. The paired lines could alternatively be adjacent parcel edges enclosing a narrow strip.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: two closely spaced field boundaries."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[1000, 397], [982, 420], [961, 450], [939, 477], [920, 503], [905, 527], [886, 560], [869, 590], [851, 621], [834, 652], [820, 674], [795, 687], [771, 693], [752, 690], [736, 680], [725, 661], [710, 647], [692, 647], [669, 657], [640, 666], [610, 676], [578, 685], [548, 693], [523, 712], [499, 739], [480, 757], [468, 770]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j07"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Paired dark edges, approximately 5–10 px apart, enclose ochre colour. The line curves beside horizontal hatching, then bends repeatedly westward before crossing the broad pink strip.",
+      "uncertainty_note": "Near [905,527], a thin straight reddish line crosses the route; that line is read as a boundary, so no road junction is recorded there. The crossing of f01 is conditional on f01 being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some western portions have broken edges and could be a paired broken-line track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[737, 190], [755, 179], [774, 158], [793, 145], [819, 136], [844, 142], [869, 138], [895, 129], [922, 118], [949, 105], [976, 88], [1000, 73]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A yellow-ochre line lies between two fine dark edges, generally 5–10 px apart. It bends across the upper-right portion beside green horizontal hatching.",
+      "uncertainty_note": "The western end disappears among heavy lettering and overlapping dark outlines. Its continuation toward the central red-and-black symbols cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the western end, paired field or wetland outlines could account for part of the apparent corridor."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[432, 209], [454, 202], [478, 197], [506, 192], [534, 188]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short ochre-toned band with thin dark margins runs beside small red-and-black rectangular marks; the eastern part is overlain by heavy black lettering.",
+      "uncertainty_note": "This may be a short access track, but the lower margin also coincides with a polygon outline. Neither a western continuation nor a connection to f08 is sufficiently visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The short band could be a paired-edge access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a coloured parcel edge beside building symbols."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [268, 328],
+      "branch_count": 3,
+      "evidence_note": "Three pink arms meet among heavy broken black marks: two belong to the diagonal strip and one enters from the southwest. This is a three-branch road junction only under the road interpretation of f01 and f02."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [432, 534],
+      "branch_count": 4,
+      "evidence_note": "The narrow ochre strip is visible approaching both sides of the broad pink strip; dark edges overlap at the crossing. Four road branches are conditional on f01 being a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [548, 693],
+      "branch_count": 4,
+      "evidence_note": "A narrow ochre double line crosses the broad diagonal pink band, with both lines visible on either side. Four road branches are conditional on the pink band being a road."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [180, 361],
+      "branch_count": 4,
+      "evidence_note": "Two edges of the north–south ochre strip cross the pink, heavily marked transverse strip. Four road branches are conditional on f02 being a road."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [316, 529],
+      "branch_count": 3,
+      "evidence_note": "The winding broken line from the west reaches the paired ochre edges of f03. Two arms continue along f03 and the finer broken arm enters from the west."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [338, 549],
+      "branch_count": 4,
+      "evidence_note": "Paired narrow lines depart northeast and southwest beside the continuing northwest–southeast ochre strip. Their dark margins converge within a small crowded patch."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [468, 770],
+      "branch_count": 3,
+      "evidence_note": "The paired ochre line descending from the northwest curves south; a second paired ochre line arrives from the northeast and merges with it."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [479, 154, 738, 221],
+      "why": "Heavy place-name lettering overlaps thin outlines and possible track edges; a continuous connection between f09 and f08 cannot be read."
+    },
+    {
+      "bbox_uv": [119, 250, 168, 303],
+      "why": "Large black lettering obscures the upper continuation of the narrow paired-edge route f03."
+    }
+  ],
+  "overall_note": "Paired ochre routes are more legible than short broken lines beside parcel outlines. The broad pink lines are retained as doubtful candidates because boundary or railway readings remain possible; their reported road junctions are conditional. No connection has been supplied across the obscured upper lettering."
+}

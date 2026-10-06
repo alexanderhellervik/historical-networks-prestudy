@@ -1,0 +1,68 @@
+{
+  "tile_id": "cor_e0343_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[346, 427], [377, 401], [409, 374], [443, 346], [474, 320], [504, 288], [535, 258], [555, 241], [586, 235], [622, 225], [659, 214], [695, 200], [726, 181], [754, 156], [779, 128], [807, 94], [835, 67], [866, 46], [903, 22], [934, 0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown trace carries irregular dark dots and short strokes; no clearly separated casing lines are visible. Its southwestern end meets dotted marsh-edge marks.",
+      "uncertainty_note": "The brown component appears continuous in places, making the symbol form uncertain. A boundary interpretation remains possible; continuation southwest through the marsh-edge marks is not sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches appear to be one continuous fine brown stroke with dark irregularities."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a boundary rather than a path; the southwestern connection overlaps the marsh perimeter."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 557], [9, 553], [30, 582], [57, 608], [86, 629], [119, 643], [151, 658], [185, 674], [219, 689], [247, 707], [265, 726], [278, 749], [292, 766], [323, 782], [350, 799], [377, 820], [386, 850], [393, 882], [405, 918], [415, 958], [423, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Dark dots and short uneven strokes follow a narrow ochre trace, beside pale yellow colouring. The same fine trace is visible on both sides of the broad pink diagonal band.",
+      "uncertainty_note": "This resembles the example's dotted paths, but parts also follow coloured parcel edges. The crossing of the pink band briefly masks the marks; the aligned strokes on both sides support the connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the dotted trace could delimit the yellow parcel rather than represent a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[9, 553], [36, 545], [66, 540], [95, 532], [119, 524]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short dark broken trace follows a narrow yellowish strip between the blue shoreline and the yellow area; its eastern end merges with heavier marsh-outline strokes.",
+      "uncertainty_note": "A short path branch is possible, but the trace may instead be a parcel or marsh edge. No continuation through the hatch marks is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The short dark marks could constitute a dotted path joining f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire segment could be land-cover or parcel delineation, in which case j01 is not a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [9, 553],
+      "branch_count": 3,
+      "evidence_note": "On the candidate path reading, three dark broken strands meet: a short strand to the left edge, one curving southeast, and one extending east-northeast beside the blue shoreline. The third strand's road interpretation is uncertain."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The fine dotted traces are difficult to distinguish from parcel and marsh edges, so all reported candidates retain alternatives. The broad pink diagonal band, red parcel lines, blue-green water lines and long straight black dashes are read as non-road linework. No route is completed through the marsh hatching."
+}

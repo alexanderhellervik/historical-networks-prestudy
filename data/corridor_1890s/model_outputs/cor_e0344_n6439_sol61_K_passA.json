@@ -1,0 +1,84 @@
+{
+  "tile_id": "cor_e0344_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 315], [32, 304], [65, 285], [96, 260], [126, 237], [153, 214], [178, 198], [204, 198], [229, 204], [252, 203], [270, 197], [281, 199], [297, 180], [305, 151], [305, 120], [314, 99], [337, 77], [367, 53], [399, 27], [434, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark outlines enclose an ochre-pink strip approximately 10–18 px wide; both edges follow the bends.",
+      "uncertainty_note": "The course and paired-edge symbol are clear; positions at the two branch contacts are approximate within several pixels.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[281, 199], [292, 221], [307, 238], [326, 235], [349, 240], [374, 247], [388, 262], [398, 292], [405, 328], [408, 367], [434, 381], [455, 399], [473, 419], [496, 431], [514, 442], [523, 461], [523, 489], [518, 515], [512, 536], [522, 558], [531, 578], [524, 605], [515, 631], [504, 654], [491, 685], [479, 711], [467, 743], [455, 775], [449, 793], [461, 808], [462, 826], [446, 854], [429, 882], [413, 910], [397, 936], [382, 960], [368, 982], [359, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A single row of dark dots and short rectangular marks follows a narrow ochre stroke. It crosses the heavier continuous blue line and later runs beside, then across, outlined pink patches.",
+      "uncertainty_note": "The broken marks are mostly dots rather than long dashes. Near v=970, the horizontal sheet seam briefly interrupts the symbol; aligned marks and the ochre strip on both sides support continuation, with the final coordinates less precise.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "If dashed_line requires elongated dashes, this single dotted symbol has no exact class in the supplied list."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[119, 0], [130, 35], [140, 69], [151, 108], [163, 148], [173, 179], [178, 198]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow reddish continuous stroke has dark intermittent marks along its right side, roughly 6–10 px away. It meets the paired-edge line beside the corner of a green-filled patch.",
+      "uncertainty_note": "This could be a track with differently drawn edges, or a coloured boundary. Its inclusion as a road and the corresponding junction are uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road reading: the reddish stroke and adjacent broken dark row form two narrow edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: a boundary following the edge of the coloured parcels."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[210, 0], [214, 17], [221, 34], [244, 26], [272, 16], [306, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark outlines flank a narrow pale yellow-green strip near the top edge. At its bend, the fill merges with a broader green patch and other parcel outlines.",
+      "uncertainty_note": "The paired outlines resemble a narrow road, but their shared green fill and connection to the broader patch also support a land-cover or parcel-edge reading. The bend is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road reading: a narrow paired-edge strip enters and leaves through the top edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: an elongated portion of the green-filled polygon bounded by parcel outlines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [178, 198],
+      "branch_count": 3,
+      "evidence_note": "The reddish stroke with adjacent intermittent marks touches the continuous paired-edge ochre strip; that strip continues left and right. Three road branches are present only under the road reading of f03."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [281, 199],
+      "branch_count": 3,
+      "evidence_note": "The single dotted ochre line leaves the lower side of the paired-edge strip at its bend; the paired strip continues west and northeast."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The principal difficulty is distinguishing narrow coloured strips from parcel edges, so f03 and f04 retain explicit non-road alternatives. The continuous blue line, marsh outlines and broad grey washes were read as non-road markings. A horizontal sheet seam reduces precision near the bottom."
+}

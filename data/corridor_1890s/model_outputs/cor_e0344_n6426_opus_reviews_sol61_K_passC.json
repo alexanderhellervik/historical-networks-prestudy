@@ -1,0 +1,130 @@
+{
+  "tile_id": "cor_e0344_n6426",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin solid brown line runs from the top edge at about (430,0) down to the fork at about (405,103). It is the same brown as the other forest paths on this tile.",
+      "uncertainty_note": "The class is certain only as a single brown line; it is most likely a footpath (Gångstig) or a lesser track."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous thin brown line runs SW from the fork at (405,105) through about (330,220), (250,330), (175,435) and (105,530) to the left edge at about (0,645). The overlay follows it closely.",
+      "uncertainty_note": "Low. It crosses the thin dark horizontal line at v~445 without any change."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line leaves the fork at (405,105), bends through (435,200), (400,285), (350,380), (350,445) and (390,530), and ends at about (458,625) just right of the elevation number '44'. The overlay follows it.",
+      "uncertainty_note": "It ends there with no visible continuation, so it is read as a dead end."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short thin brown line runs from about (100,580) through (122,680) to the edge of the dotted marsh at about (148,775).",
+      "uncertainty_note": "Its north end stops about 35 px short of f02 with no drawn connection. It may be a dead end or a faded link to f02."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[755, 497], [738, 560], [718, 615], [698, 665], [675, 715], [652, 765], [630, 820], [610, 870], [597, 920]],
+      "evidence_note": "The overlay line traces the crimson edge of the arable field ((785,712) → (680,760) → (600,940)) and the crimson edge of the lower-left field near (490,925–1000). The road actually drawn here is a brown dashed line that runs from the stream crossing at (755,497) SW to about (597,920). In its lower half that road lies only 20–30 px west of the field edge.",
+      "uncertainty_note": "The crimson field edge looks like a boundary or field outline, not a road. Only the lower stretch (v>800) is close to the real road. Whether the dashed road continues south of (600,930), between the two fields, cannot be seen clearly."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along (790,710) → (1000,780) the overlay follows a crimson/magenta line on the outside of the black field outline. This crimson matches the colour the worked example reads as boundary (Gräns), not the brown used for roads on this sheet. No brown road line runs beside it.",
+      "uncertainty_note": "In the example, one field-edge line in red-brown was read as Sämre körväg, so a road along this field edge cannot be fully excluded. Here the colour is more crimson than brown."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (768,518) and (785,710) I can see no drawn line, only pale paper and the soft edge of the light wash around the Skog settlement. The road leaving the stream crossing at (755,497) goes SW as a dashed brown line (see f05 corrected), not south to the field corner.",
+      "uncertainty_note": "Faint pencil or wash edges might have been taken for a line. No ink line is visible."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The label sits at the east edge by the farmyard (~985,385), but I cannot see the overlay line itself in the render. Near there, a short red-brown line runs along the farmyard edge from about (930,400) to (1000,390), and the dotted line from the lake reaches the farm at about (950,355).",
+      "uncertainty_note": "I cannot tell whether f08 follows the farmyard-edge line (more likely a tomt or fence outline) or a road leaving east, and the drawing does not decide it."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dashed/dotted line runs from the junction at the stream crossing (755,495) NE through (800,435) to the Skog farm buildings at about (840,395). The overlay follows it.",
+      "uncertainty_note": "Whether the stroke is dashed or a fine broken solid line is marginal at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line runs from the top edge at about (82,0) through (45,75) to the left edge at about (0,165), just outside the hatched marsh.",
+      "uncertainty_note": "The line is short and has no junctions, so the class beyond 'single brown line' is uncertain."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[735, 0], [755, 70], [772, 150], [778, 250], [770, 340], [760, 420], [755, 495]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin brown line comes in from the top edge west of Lillesjön, runs S through the forest and reaches the stream crossing at (755,495). There it meets the dashed road going SW and the dashed branch to Skog (f09). Its colour and weight match the other forest paths, and the overlay does not show it.",
+      "uncertainty_note": "In parts (v 250–450) the stroke may be finely broken, so dashed_line is possible. In principle it could be a boundary, but its colour is road brown, not a boundary colour.",
+      "alternatives": ["dashed_line", "boundary drawn in brown (less likely)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[888, 222], [905, 260], [925, 300], [942, 335], [952, 360]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A dotted brown-black line runs from the south tip of Lillesjön at (888,222) SSE to the Skog farmyard at about (952,360). Its form matches the legend's dotted Gångstig.",
+      "uncertainty_note": "Dotted lines are also used for boundary symbols, and a line from a lake shore to a farmyard could be an estate or hemman boundary. Its colour leans brown, which favours a path to the lake.",
+      "alternatives": ["boundary (Hemmansgräns/Skifteslinje)", "unknown"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [755, 495],
+      "what_is_contested": "The number of branches and which lines meet. I read three road branches here: m01 from the north, f09 NE to Skog and the dashed road SW (f05 corrected), plus the stream crossing. The overlay instead has f07 going south and lacks m01.",
+      "evidence_note": "The brown lines converge exactly where the blue stream bends. I see no ink line going due south to the field corner at (785,710)."
+    },
+    {
+      "uv": [598, 930],
+      "what_is_contested": "Whether the dashed road ends at the corner where the two crimson-edged fields meet, or continues south through the gap to the bottom edge, and whether it joins the field-edge lines there.",
+      "evidence_note": "The dashed line fades into the dark field outlines around (600,930–945). Below that the drawing is too crowded to follow."
+    },
+    {
+      "uv": [100, 580],
+      "what_is_contested": "Whether f04 joins f02 (about 35 px NW) or is a dead end.",
+      "evidence_note": "No connecting stroke is visible between the top of f04 and f02."
+    },
+    {
+      "uv": [405, 103],
+      "what_is_contested": "Only the exact position. The three-way fork of f01, f02 and f03 itself is clear.",
+      "evidence_note": "The three brown lines meet in a clear Y at about (405,103)."
+    }
+  ],
+  "overall_note": "Roads on this tile are thin brown lines. The forest paths f01–f04 and f10 and the dashed branch f09 are drawn well, but the overlay misses the brown line north of the stream crossing (m01) and puts the dashed road south of the crossing on the crimson field edges (f05, f06) and on an undrawn line (f07). The crimson field-edge lines and the thin straight dark lines at v~450 and u~550 read as boundaries or sheet lines, not roads."
+}

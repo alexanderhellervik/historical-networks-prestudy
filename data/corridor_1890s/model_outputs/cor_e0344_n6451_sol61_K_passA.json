@@ -1,0 +1,119 @@
+{
+  "tile_id": "cor_e0344_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 643],
+        [34, 627],
+        [76, 612],
+        [119, 608],
+        [161, 605],
+        [190, 606],
+        [220, 615],
+        [258, 627],
+        [299, 632],
+        [339, 639],
+        [376, 651],
+        [415, 666],
+        [449, 683],
+        [480, 698],
+        [496, 700],
+        [521, 686],
+        [548, 674],
+        [588, 666],
+        [627, 661],
+        [659, 658],
+        [676, 666],
+        [687, 690],
+        [694, 727],
+        [704, 763],
+        [720, 783],
+        [742, 789],
+        [773, 775],
+        [809, 760],
+        [846, 746],
+        [883, 730],
+        [917, 713],
+        [946, 700],
+        [976, 690],
+        [1000, 684]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of heavy dark dots border a reddish ochre strip, approximately 8–12 px wide overall. Both dotted edges follow the bends and remain identifiable beside the large lettering.",
+      "uncertainty_note": "The road course is clear. Its interrupted parallel edges make the choice between dashed_line and double_line_narrow less certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dotted edges could be classified by their narrow parallel spacing rather than their interruptions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [941, 769],
+        [919, 785],
+        [892, 804],
+        [866, 819],
+        [840, 840],
+        [812, 863],
+        [786, 885],
+        [775, 901],
+        [784, 919],
+        [772, 941],
+        [757, 966],
+        [738, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow pale ochre ribbon curves southwest between darker grey outlines; portions have a fine reddish stroke alongside. Its edges are less regular and less heavily dotted than f01.",
+      "uncertainty_note": "This may be a narrow track, but a coloured boundary or strip between land-cover outlines is also plausible. At the northeastern end, the small peach polygon and overlapping strokes prevent a secure continuation to f01.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two outlines belong to one route, they form a narrow double-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is boundary or land-cover edging, with no road represented."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [0, 387],
+        [8, 411],
+        [24, 424],
+        [54, 439]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short reddish brown stroke with a dark uneven edge bends away from the left margin. No consistent pair of dotted edges is resolved.",
+      "uncertainty_note": "A short path is possible, but the colour and weight also resemble the tile's boundary strokes. The southeastern tip fades without a securely readable continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a single narrow path stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a boundary fragment and therefore not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [505, 692, 643, 760],
+      "why": "Fine grey and ochre strokes overlap small building outlines, circular vegetation symbols and coloured parcel edges; possible short access paths cannot be separated confidently or assigned a secure connection to f01."
+    }
+  ],
+  "overall_note": "The dotted east–west road is clearly readable; the southeastern ribbon and short western stroke retain possible non-road interpretations. Long red diagonals and dark parcel outlines were read as boundaries using the worked example. No three-branch road meeting is securely resolved."
+}

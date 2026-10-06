@@ -1,0 +1,67 @@
+{
+  "tile_id": "cor_e0366_n6441",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f01 traces the black line with perpendicular ticks (ticks about every 90-100 px, at u~50, 135, 235) inside the misregistered mosaic patch at u 0-285, v 0-105. That patch repeats the main-sheet corridor band displaced upward, and the main-sheet band lies just below it at v~110-130. A ticked black line matches no road symbol in the legend and looks like a railway or telegraph line. The real band is already covered by f03.",
+      "uncertainty_note": "Stitching artefact. If the ticked line were itself a road, this would still be a displaced duplicate of the f03 course, not a separate road. Railway or line is my inference; the tick symbol is not in the crop of the legend."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f02 traces the ticked black line at v~45-55 in the upper mosaic patch at u 540-800. This is the same ticked line that appears on the main sheet about 30-40 px lower (ticks at u~575, 670, 775). It is a displaced duplicate in a seam patch, and the tick symbol is not a road form.",
+      "uncertainty_note": "As for f01. A second parallel road at this position is not supported because nothing continues outside the patch."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous red-filled band with darker red edges crosses the whole tile, from about (0,120) through (300,105), (500,85) and (800,65) to (1000,45). A dark green strip runs along its south side, and the black ticked line runs along or just over its north edge. f03 follows the red band. A broad red-filled double line is how the main road (landsväg or bygdeväg) is drawn.",
+      "uncertainty_note": "The ticked black line runs right on top of the band, so the band may be a railway corridor or embankment rather than a road, or a road and a railway may run side by side. At this resolution I cannot separate the two edges of the band with confidence. The left end under the patch (u<285) is partly hidden."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted orange-brown line leaves the farmyard at about (515,910) and runs NE to about (715,825). From there a narrow band with a thin dark-red edge and a dotted infill runs east across the pink arable to about (1000,850). This matches the körväg form (double line or dotted pair). f04 follows both parts.",
+      "uncertainty_note": "The diagonal part inside the yard is fainter and may be a single dotted line (single_line or dashed_line) rather than a double line. Where it starts inside the yard (about u 505-520) is unclear among the building symbols."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[500, 345], [580, 352], [660, 372], [740, 392], [820, 412], [885, 432]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A thin continuous yellow-orange line crosses the field 't. Mo N:o 1' from near the 'N:o 9' lettering at about (500,345) and runs ESE to the river bank at about (885,432), where it meets the crimson parcel boundaries. Its colour differs from the crimson parcel boundaries and from the black dashed skifteslinjer. It is also not blue, so it is not drawn as a ditch.",
+      "uncertainty_note": "Single faint line with no dotting visible at this resolution. It could be a field track or path (single_line or Gångstig), but it could also be a coloured boundary or ditch line. I cannot tell whether its west end is a true dead end or fades out under the lettering.",
+      "alternatives": ["dashed_line (Gångstig whose dots merge at this resolution)", "not a road: boundary or ditch drawn in a non-standard colour"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [715, 825],
+      "what_is_contested": "Whether the diagonal dotted track from the farmyard joins the eastward band here as one bend (2 branches), or whether the band also continues west along the yard's north edge towards (650,815), which would make it a 3-way junction.",
+      "evidence_note": "The yard outline, a short double vertical parcel line at u~715-720, and the band's edge all meet within a few pixels, so the branch count cannot be read."
+    },
+    {
+      "uv": [885, 432],
+      "what_is_contested": "Whether m01 ends at the river or meets the parcel boundaries and river bank there as a junction, and so whether a crossing (ford or bridge) is implied.",
+      "evidence_note": "The orange line reaches the river's north bank where the crimson boundary from (930,90) also comes down. No line continues on the south bank."
+    },
+    {
+      "uv": [287, 100],
+      "what_is_contested": "Whether f01, f02 and f03 are separate parallel lines or one feature repeated by misregistered mosaic patches.",
+      "evidence_note": "The edge of the patch at u~287 shows the ticked line jumping between v~88 (patch) and the main-sheet band at about v~100-110. The patch at u 540-800 shows the same ticks about 35 px above their main-sheet position."
+    }
+  ],
+  "overall_note": "The tile's linear features are dominated by crimson parcel boundaries, black dashed skifteslinjer, the river and a broad red band along the top. I read the band as the one through route (f03), while f01 and f02 are duplicates from misregistered seam patches. Apart from the farm track f04, the only other road candidate is the faint orange line m01, and it is uncertain."
+}

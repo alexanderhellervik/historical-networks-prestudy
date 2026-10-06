@@ -1,0 +1,183 @@
+{
+  "tile_id": "cor_e0356_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[55, 0], [40, 23], [24, 48], [10, 68], [0, 85]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "One winding chain of heavy black dots or short strokes follows a narrow ochre trace; it crosses a thin red diagonal.",
+      "uncertainty_note": "The ochre trace is clearer than the separation of the black marks; a second dotted margin cannot be resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a narrow track with two poorly resolved dotted margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 314], [34, 297], [68, 281], [97, 262], [120, 237], [143, 215], [172, 202], [200, 181], [219, 155], [237, 130], [255, 107], [277, 90], [299, 80], [321, 76], [348, 78], [370, 91], [389, 107]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A sinuous ochre strip carries conspicuous black dots and short strokes, crossing several straight red lines; small black building marks and outlined ochre patches flank its upper end.",
+      "uncertainty_note": "Dotted margins sometimes appear paired, but their spacing is inconsistent at this resolution. The eastern end becomes inseparable from patch outlines and lettering, so it is stopped there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches may show two dotted edges around a narrow ochre centre."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[200, 181], [201, 213], [205, 247], [214, 278], [230, 306], [249, 326], [254, 335]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thinner ochre line with intermittent black dots curves away from f02 and reaches the black outline beside the small ochre rectangular patch.",
+      "uncertainty_note": "The last few pixels merge with the patch outline; no continuation beyond that outline is distinguishable.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A plot-edge interpretation is possible where the lower stretch follows the ochre patch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[350, 0], [340, 24], [331, 48], [321, 76]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Short dark strokes beside an ochre trace descend between outlined patches toward the dotted line at approximately [321, 76]; black marks and a red diagonal crowd the northern end.",
+      "uncertainty_note": "This is a tentative branch: the strokes could belong to patch outlines rather than a separate path. Junction j02 depends on the road interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The interrupted dark trace could be a dotted path joining f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: adjoining patch boundaries and black symbols create the apparent branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[631, 61], [659, 72], [691, 87], [727, 98], [764, 106], [802, 119], [838, 134], [875, 147], [911, 157], [946, 172], [976, 184], [1000, 197]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A single winding row of dark dots follows a faint ochre stroke across the upper-right portion, crossing red diagonals and the horizontally hatched patch.",
+      "uncertainty_note": "The western end is lost among a small outlined patch and nearby dark linework. A boundary interpretation remains possible because a second road margin is not visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a dotted boundary or patch edge rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[650, 271], [662, 302], [656, 330], [649, 358], [641, 382], [618, 410], [597, 438], [582, 468], [573, 493], [574, 525], [581, 565], [597, 591], [590, 618], [583, 649], [581, 681], [586, 718], [598, 754], [609, 789], [614, 821], [607, 852], [592, 878], [580, 892]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "An ochre trace with intermittent heavy black dots runs beside blue-black water outlines. Its middle portion overlaps red and black patch edges; below the lettering, a single dotted chain curves down the western side.",
+      "uncertainty_note": "The northern portion may combine a boundary with a path. Continuity through the crowded middle is tentative, and the lower end becomes mixed with a blue outline and a thin ochre line; no continuation is asserted beyond it.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dotted stretches could constitute one continuous path beside the water outline."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: some or all stretches are outlines of the ochre patches; the apparent continuous feature may instead comprise separate lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 961], [40, 932], [81, 903], [121, 875], [157, 850], [196, 827], [238, 801], [280, 772], [322, 742], [364, 711], [407, 675], [450, 647], [492, 618], [531, 591], [560, 576], [581, 565]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "The diagonal has a narrow ochre-red band between darker edges, approximately 5–9 pixels apart in clearer stretches. Other thin red diagonals terminate against or cross it.",
+      "uncertainty_note": "This is an ambiguous road candidate: its red component and alignment with the parcel pattern also support a boundary reading. Its apparent meeting with f06 is crowded by dark outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a reinforced parcel boundary, with colour and adjacent patch edges producing apparent casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[602, 256], [599, 281], [590, 306], [580, 328], [565, 348]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One curved row of dark short strokes descends southwest from beside a small outlined ochre patch toward a red diagonal and a heavier black patch corner.",
+      "uncertainty_note": "Neither end has an unambiguous road connection. The line could outline the adjoining patch rather than represent a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a broken patch boundary; the apparent path ends merge with other outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[636, 635], [643, 665], [654, 698], [667, 729], [682, 751], [701, 763]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint narrow trace with small dark dots curves southeast between the central ochre patch and the blue-black outline, becoming heavier near its southern end.",
+      "uncertainty_note": "Lettering and black patch outlines obscure the northern end. The southern end merges with the water outline; this may be a patch boundary throughout rather than a path.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possibly a separate dotted path along the eastern side of the narrow ochre patch."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the dotted edge of a land-use patch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [200, 181],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre trace continues southwest and northeast, while a thinner dotted ochre branch curves south from the same position."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [321, 76],
+      "branch_count": 3,
+      "evidence_note": "The east-west dotted trace appears to receive a short dark-and-ochre branch from above; this three-branch reading is tentative because patch outlines crowd the meeting."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [581, 565],
+      "branch_count": 3,
+      "evidence_note": "The ochre-red diagonal ends against the north-south ochre and dark trace, which is visible above and below; the three-branch interpretation depends on treating both ambiguous traces as roads."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [325, 65, 445, 160],
+      "why": "Large lettering, small black symbols and closely spaced patch outlines prevent reliable separation of short possible path continuations."
+    },
+    {
+      "bbox_uv": [595, 535, 710, 650],
+      "why": "Lettering overlaps black building marks, ochre patch edges and blue-black outlines; short connections between the visible dotted stretches cannot be resolved reliably."
+    }
+  ],
+  "overall_note": "The clearest paths are the winding dotted traces in the upper-left and upper-right portions. Several central traces and the southwest diagonal also support boundary or patch-edge readings, retained explicitly as alternatives. Straight red parcel lines, blue drainage outlines and isolated dotted patch perimeters were otherwise excluded."
+}

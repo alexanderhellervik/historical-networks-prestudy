@@ -1,0 +1,119 @@
+{
+  "tile_id": "cor_e0344_n6422",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 111], [16, 137], [44, 162], [75, 193], [106, 225], [133, 258], [162, 292], [190, 329], [218, 375], [251, 381], [298, 385], [303, 424], [307, 459], [310, 491]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A broad reddish-brown strip has two close, irregular dark margins, approximately 7–12 px apart; dark dots or short strokes recur along its edges. It bends along the top and right side of the green enclosure.",
+      "uncertainty_note": "The paired margins become less distinct beside the enclosure, where its outline overlaps the strip.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The reddish strip and interrupted margins could be treated as a road symbol whose form does not clearly fit the available classes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[310, 491], [314, 519], [319, 544]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The brown strip continues south with closely spaced dark, partly dotted edges and then turns sharply east.",
+      "uncertainty_note": "The short section has uneven margins, making the precise symbol form less certain than its continuity.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A narrow brown strip with dark interrupted edging, without consistently separable paired lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[319, 544], [365, 544], [413, 544], [464, 544], [516, 544], [567, 544], [618, 544], [670, 544], [719, 544], [768, 545]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A nearly horizontal reddish-brown band carries closely spaced dark dots or short strokes along its margins. It remains visibly heavier than the thin red line above it and reaches the thick blue shoreline.",
+      "uncertainty_note": "The symbol resembles the adjoining road strips, but its position along a colour division also permits a boundary reading. No continuation beyond the shoreline is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the dark edges as two close margins of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly an emphasized field or property boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[310, 491], [273, 490], [235, 488], [202, 488], [201, 531], [201, 575], [200, 617], [198, 644], [160, 648], [120, 651], [80, 653], [40, 655], [0, 658]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A dark-edged brown strip crosses the enclosure's lower edge, turns south, and then west. The vertical section has repeated dark marks beside a narrow brown band; the westward section retains similar heavy edging.",
+      "uncertainty_note": "Along the enclosure, road edging and enclosure outlines coincide. The continuous strip suggests a track, but an emphasized parcel outline remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the close dark edges around the brown band as narrow road margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the course may be an enclosure or field boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[319, 544], [323, 590], [328, 636], [332, 681], [337, 727], [342, 773], [349, 816], [353, 845]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin brownish line with repeated black dots and short dashes runs south from the bend. It has no clearly separated casing and ends against the thin red diagonal line.",
+      "uncertainty_note": "The varying dash lengths could denote a boundary rather than a path. The junction at its northern end is conditional on the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a field or property boundary; the interrupted pattern is not consistently that of a dotted path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[730, 0], [736, 28], [746, 47], [768, 61], [796, 73], [805, 97], [813, 120], [812, 141], [798, 165], [784, 188], [777, 209], [781, 234], [791, 259], [805, 287], [819, 314], [831, 331]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "A narrow winding brown line carries spaced dark dashes or blobs. It is uncased, passes among outlined vegetation patches, and terminates at the heavy blue shoreline.",
+      "uncertainty_note": "The brown backing and dark interruptions support a path reading, but also resemble an emphasized boundary. No road junction is visible along it.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a property boundary rather than a path; the dash pattern is irregular."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [310, 491],
+      "branch_count": 3,
+      "evidence_note": "Brown strips with dark interrupted edging meet from north, south and west at the enclosure's lower-right corner; the west branch overlaps the enclosure outline."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [319, 544],
+      "branch_count": 3,
+      "evidence_note": "The heavier brown strip bends from north to east, while a thinner dotted brown line continues south; three road branches are present if the southern line is a path."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The strongest road reading is the broad brown approach and its continuations around the enclosure. Interrupted brown lines can also represent boundaries here, so the eastward strip and thinner southern and upper-right courses retain alternatives; j02 is conditional on those road readings. Thin red parcel lines, long-dashed divisions, vegetation outlines and the blue shoreline are excluded."
+}

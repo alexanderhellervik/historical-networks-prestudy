@@ -1,0 +1,61 @@
+{
+  "tile_id": "cor_e0354_n6428",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous solid red-brown line with a reddish/orange wash runs from the east edge at about (1000,515) west to (870,510), bends south past the west side of the upper marsh (800,650), continues down to (810,790), then curves SW to (740,925), (690,935), west to (540,882) and turns south to leave the bottom edge at about (495,1000). The overlay follows it closely along its whole length. It looks like the red-brown solid line that the worked example reads as Sämre körväg.",
+      "uncertainty_note": "Fairly confident it is a road, because it is solid, red-brown and has dotted lines joining it at T-junctions. The alternative is a coloured boundary line, but the boundaries in the example are thinner, purer crimson lines. Single line vs narrow double line cannot be settled at this resolution; I see no clear pair of parallel edges."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A fine dotted black line with a yellow-orange band enters at the west edge at about (0,525) and runs in gentle waves through (170,575), (260,545), (320,572), (420,545). It crosses the blue stream at about (443,548), meets the top of f03 at about (467,577), then climbs NE through (600,520) and (720,412), runs east to (800,410) and descends through (870,462) and (945,488) to merge with f01 near (965,500). The overlay follows this line, with small offsets of about 10-15 px around (235-310, 545-575) and (800-870, 410-460).",
+      "uncertainty_note": "The line is clearly drawn. Its meaning is less certain. A pure dot sequence matches Gångstig in the model legend, and the boundary symbols there all contain dashes. The winding course through forest also suits a path. However, a dotted line with a colour band could be a coloured boundary, so a boundary reading remains possible. The overlay's own class is not visible to me, so 'agree' refers to the course."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line with a yellow-orange band runs from the f02 junction at about (468,578) south through (478,650), (490,730), (510,810) to a T-junction with f01 at about (535,882). The overlay traces it closely.",
+      "uncertainty_note": "This line is drawn in the same symbol as f02, so the same path-vs-boundary doubt applies. Its almost straight course is slightly more boundary-like than f02. I still read it as a footpath (Gångstig) because it is dotted and has no dashes."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A fine dotted line leaves f01 at about (812,800) and runs SSE west of the lower marsh through (825,870) to about (845,930). From there a line with an orange band runs east along the south end of the marsh through (900,927) and (950,918) to the east edge at about (1000,912). The overlay follows this course.",
+      "uncertainty_note": "The dotted section between v=800 and v=930 is faint, and its connection to f01 near (812,800) is not crisp. The eastern section after (850,930) looks more like a solid line with an orange band than a dotted one, so its class could differ from the dotted part (single_line, or the edge of a boundary band). It is also possible that the dotted part marks the edge of the marsh and is not a path."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [467, 577],
+      "what_is_contested": "Whether this is a 3-way junction where f03 leaves f02, or a bend where two separate dotted lines meet. Also, the stream crossing at (443,548) is close by and could be mistaken for a fourth branch.",
+      "evidence_note": "The dotted f02 dips to a small V at about (467,577) and f03 drops south from the tip of the V. The blue stream crosses f02 about 25 px to the west, with no visible junction symbol."
+    },
+    {
+      "uv": [962, 500],
+      "what_is_contested": "Whether f02 actually joins f01 before the east edge, or runs alongside it and leaves the tile separately at about (1000,515).",
+      "evidence_note": "The dotted line and the red-brown line converge between u=945 and u=1000. Their colour bands overlap, so it is not possible to tell whether they merge or simply touch."
+    },
+    {
+      "uv": [812, 800],
+      "what_is_contested": "Whether the dotted f04 branches from f01 here, or starts slightly off the road line as a marsh-edge or boundary line.",
+      "evidence_note": "The dots are faint where they leave the red-brown line at around v=790-810. There is no clear point where they attach to f01."
+    },
+    {
+      "uv": [535, 882],
+      "what_is_contested": "The position of the junction where f03 meets f01, and whether f01 continues straight south here or turns. The junction itself is not in doubt.",
+      "evidence_note": "f01 makes a sharp bend near (520,885), from heading west to heading south, very close to where f03 joins. The orange bands of the two lines run together over about 20 px."
+    }
+  ],
+  "overall_note": "The tile shows one solid red-brown road (f01) and three dotted lines with colour bands (f02-f04) that form a forest path network; the overlay traces all four correctly and misses no road. The main doubt is whether the dotted lines with colour bands are footpaths or coloured boundaries; the dot-only symbol and their winding forest courses favour paths. The thin straight black lines near u=95-120 and v=945-970 look like sheet or grid lines, and the blue line from the lake southwards is a stream, so neither is a road."
+}

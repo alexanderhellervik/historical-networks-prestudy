@@ -1,0 +1,156 @@
+{
+  "tile_id": "cor_e0350_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 480],
+        [39, 491],
+        [79, 503],
+        [119, 509],
+        [158, 510],
+        [195, 505],
+        [229, 498],
+        [255, 498],
+        [285, 507],
+        [323, 516],
+        [360, 526],
+        [393, 537],
+        [420, 545],
+        [443, 536],
+        [468, 528],
+        [493, 533],
+        [515, 530],
+        [535, 518],
+        [552, 491],
+        [571, 460],
+        [594, 435],
+        [615, 407],
+        [633, 380],
+        [656, 361],
+        [684, 344],
+        [711, 328],
+        [730, 304],
+        [744, 272],
+        [760, 240],
+        [777, 214],
+        [794, 189],
+        [810, 164],
+        [830, 140],
+        [854, 121],
+        [878, 102],
+        [893, 79],
+        [905, 48],
+        [917, 23],
+        [934, 0]
+      ],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy, approximately parallel dark edges enclose a tan to reddish strip, generally about 10–18 px wide. The casing continues around the bends and past orange polygons and small black building marks; blue strokes cross it near [425, 543] and [810, 164].",
+      "uncertainty_note": "The course remains readable through the crossings and lettering. The width varies with ink spread; an attachment from f04 cannot be established at the upper crossing.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The same paired-edge symbol could be described as narrow; the supplied symbol-form classes do not specify a width threshold."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 823],
+        [34, 834],
+        [69, 845],
+        [101, 851],
+        [136, 851],
+        [170, 847],
+        [194, 846],
+        [214, 853],
+        [234, 869],
+        [253, 894],
+        [273, 925],
+        [291, 959],
+        [313, 989],
+        [330, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A thin ochre stroke carries repeated short dark marks or dots, without broad casing. It passes above a patch of horizontal hatching before curving down beside its right edge.",
+      "uncertainty_note": "The short marks resemble the dotted paths in the worked example, but their blurred spacing also permits a boundary interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre connector is nearly continuous, so this could be read as a single line with dark stippling."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible property or land-cover boundary rather than a path; individual dark marks are insufficiently sharp to exclude that reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [593, 1000],
+        [615, 990],
+        [636, 983],
+        [655, 983],
+        [676, 990],
+        [696, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A shallow ochre arc clips the bottom edge, with small dark marks along it and no paired casing. Its appearance resembles f02.",
+      "uncertainty_note": "Only a short arc is visible, limiting the distinction between a dotted path and a boundary. No connection to f02 is drawn inside the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre stroke appears continuous beneath the short dark marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The clipped arc could be a boundary rather than a road or path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [856, 181],
+        [885, 180],
+        [914, 177],
+        [941, 175],
+        [958, 166],
+        [974, 148],
+        [989, 141],
+        [1000, 137]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow ochre line with intermittent dark dots runs beneath the red '108', then bends upward toward the right edge. It is separate from the much heavier blue-black, pink-edged line farther below.",
+      "uncertainty_note": "The western approach overlaps lettering and heavy crossing strokes. Its attachment to f01 is uncertain, so the feature stops at [856, 181] and no road junction is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The faint ochre connector could be read as a continuous single-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation remains possible because the short dark marks are blurred and the western connection is obscured."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [808, 157, 865, 211],
+      "why": "Overlapping dark crossing strokes, pink colouring and red lettering prevent a reliable reading of the possible western connection of f04; the broad road itself remains traceable."
+    }
+  ],
+  "overall_note": "The paired-edge road is clear, while three thin ochre dotted stretches admit path or boundary readings. Blue-filled lines and the long diagonal line with spaced boundary marks were excluded. No meeting of three road branches is securely readable."
+}

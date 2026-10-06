@@ -1,0 +1,155 @@
+{
+  "tile_id": "cor_e0365_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [353, 1000],
+        [393, 964],
+        [432, 934],
+        [469, 895],
+        [498, 854],
+        [522, 819],
+        [536, 791],
+        [568, 760],
+        [603, 730],
+        [638, 704],
+        [679, 679],
+        [721, 654],
+        [758, 637],
+        [800, 619],
+        [846, 606],
+        [893, 592],
+        [945, 578],
+        [1000, 562]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark, intermittently dotted edges, approximately 8–12 px apart, flank an ochre-brown strip. The paired strokes follow the bends and pass several small black outlined rectangles.",
+      "uncertainty_note": "The road course is clear. Whether the crossing at j02 is a road junction depends on the interpretation of f04.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken edge strokes could instead be classified as a paired dotted or dashed road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [344, 834],
+        [356, 854],
+        [377, 878],
+        [402, 905],
+        [432, 934],
+        [459, 955],
+        [487, 974],
+        [514, 990],
+        [537, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow brown stroke with dark, locally speckled margins runs southeast from overlapping red and blue strokes. It continues across f01 and curves toward the bottom edge; its margins are less distinctly separated than those of f01.",
+      "uncertainty_note": "The northwestern end merges with the thick red wash and dark water outlines near [344,834], so no continuation is supplied. The narrow symbol permits a road reading but could also be a coloured boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark margins may be two closely spaced road edges enclosing the brown stroke."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Some sections resolve as one dark stroke carrying brown colour."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property boundary remains possible; under that reading j01 is a boundary crossing rather than a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [747, 0],
+        [787, 29],
+        [827, 56],
+        [868, 83],
+        [901, 107],
+        [921, 134],
+        [944, 160],
+        [970, 183],
+        [1000, 195]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "An ochre-brown strip approximately 6–10 px wide has two dark, speckled edges. Both edges bend together before leaving the right edge.",
+      "uncertainty_note": "The course is readable, although individual dots and short edge strokes merge in places.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittently marked edges could be described as a paired dotted or dashed symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [446, 723],
+        [470, 746],
+        [499, 769],
+        [522, 784],
+        [536, 791],
+        [550, 810],
+        [559, 837],
+        [571, 862],
+        [582, 885],
+        [592, 906],
+        [615, 947],
+        [637, 985],
+        [647, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A thin continuous red stroke accompanies a finer dark stroke, with locally visible pale spacing. It crosses the brown dotted strip of f01 and continues past black polygon outlines.",
+      "uncertainty_note": "This is a doubtful road candidate: its thin red-and-dark drawing also resembles the sheet's coloured property boundaries. Its northwestern end is lost in overlapping bank strokes; j02 is conditional on a road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Where the red and dark strokes separate, they could be read as the two edges of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property boundary is a strong competing reading, in which case this feature is not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [432, 934],
+      "branch_count": 4,
+      "evidence_note": "The broader ochre strip with dotted dark margins crosses the narrower brown stroke; each trace is visible on both sides, giving four apparent arms. Road-junction status depends on the doubtful interpretation of f02."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [536, 791],
+      "branch_count": 4,
+      "evidence_note": "The brown strip with paired dotted edges intersects the thin red-and-dark trace; both continue through the crossing, giving four apparent arms if f04 is a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [329, 812, 368, 850],
+      "why": "Thick red wash and blue-black water outlines overlap the northwestern end of f02; a separate continuation cannot be followed."
+    },
+    {
+      "bbox_uv": [436, 706, 463, 735],
+      "why": "Overlapping red bank colour and dark water-edge strokes conceal the northwestern continuation of the doubtful f04 trace."
+    }
+  ],
+  "overall_note": "Two brown strips have clearly paired road-like margins; two narrower crossing traces retain road-versus-boundary ambiguity. Junction counts are conditional where a doubtful trace participates. Broad red water-edge colouring and the long dashed lines across the hatching were read as non-road symbols."
+}

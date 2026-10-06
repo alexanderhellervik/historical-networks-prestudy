@@ -1,0 +1,82 @@
+{
+  "tile_id": "cor_e0359_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 58], [25, 44], [51, 28], [77, 12], [101, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre band has dark, closely spaced short marks along both margins; it clips the upper-left corner.",
+      "uncertainty_note": "The road interpretation is strong, but the small visible fragment does not resolve whether its margins are continuous strokes with overprinted dots or two broken strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark margins may be paired narrow outlines."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated short dark marks may constitute the road symbol itself."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [306, 0], [275, 39], [244, 78], [211, 119],
+        [178, 160], [144, 202], [106, 244], [98, 280],
+        [90, 325], [82, 369], [74, 413], [65, 457],
+        [56, 502], [47, 547], [38, 592], [29, 637],
+        [20, 682], [10, 727], [0, 772]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Very fine pale gray strokes, approximately 5–9 px apart where distinguishable, follow the east side of a heavier red angular line; the gray trace continues across horizontal hatching near the left edge.",
+      "uncertainty_note": "This is a doubtful road candidate. The paired appearance is clearest below the bend around [106,244]; above it, the pale trace overlaps the red line and its separate margins are difficult to distinguish. Coordinates follow the pale trace rather than the red stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale strokes could be an offset or doubled boundary drawing rather than a road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Only the portion from [106,244] to [0,772] may be a separate track; the northeastern portion may belong entirely to the red boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [866, 55], [846, 82], [825, 111], [803, 141],
+        [779, 172], [754, 201], [730, 230], [707, 257],
+        [690, 281], [685, 301], [690, 331], [697, 361],
+        [703, 391], [710, 421], [720, 452], [731, 482],
+        [744, 513], [758, 543], [775, 574], [793, 605],
+        [809, 635], [820, 666], [829, 699], [839, 732],
+        [847, 765], [854, 796], [850, 821], [842, 850],
+        [838, 879], [840, 909], [844, 929], [835, 953],
+        [823, 977], [812, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "One winding row of heavy dark dots or short oval dashes, generally about 15–25 px apart, has a faint ochre trace between marks and no continuous casing.",
+      "uncertainty_note": "The dotted form supports a path reading. Its northern continuation becomes difficult to separate from the dark horizontal hatching, so the feature stops at the first distinguishable portion rather than being extended to the top edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some marks are nearly round rather than elongated; the supplied classes do not distinguish dotted paths from dashed lines."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [850, 0, 930, 60],
+      "why": "Dark horizontal hatching and its irregular outline prevent a confident trace of the northern continuation of the dotted path."
+    }
+  ],
+  "overall_note": "The faint paired trace beside the western red boundary is the principal road-versus-boundary ambiguity. The other prominent red angular line, blue-green outlines, and thin straight gray line are read as non-road markings. No meeting of three or more road branches is visible."
+}

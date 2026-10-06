@@ -1,0 +1,57 @@
+{
+  "tile_id": "cor_e0367_n6442",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay follows the long, perfectly straight, blurred grey-brown band from about (145,555) to (1000,140); the same band continues beyond the drawn start towards (0,630). It has no inked edges, no dots or double line, and it cuts straight across the hatching, the horizontal pink boundary at v~420-440 and the water area without any break or change. That looks like a fold or crease in the paper (or a stain along one), not a drawn road symbol.",
+      "uncertainty_note": "A faint construction or pencil line can't be fully excluded, but no road symbol from the legend is visible along it."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the bottom-left corner, about (0,890) to (60,1000), the only line is a single crimson line with a diffuse pink wash band beside it. It is drawn the same way as the other crimson lines on the tile (the V meeting at about (255,945), and the zigzag at (510,735)-(710,540)-(845,595)), which have the angular course of boundaries. The wash band fits a coloured boundary band, not a road. No double line, dotted line or brown road colour is present.",
+      "uncertainty_note": "This sits in a mosaic patch of different scan quality at the tile corner, so a road edge running just outside the tile can't be excluded."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the pale patch at the bottom right, a row of fine, evenly spaced dots runs from about (940,900) down to about (910,960), towards the thick red band. A single dotted line matches the Gångstig symbol in the legend.",
+      "uncertainty_note": "The line is only about 60 px long and lies in a mismatched mosaic patch. Fine dots could also be a dotted boundary or another dotted edge, and whether it really reaches the red band is unclear."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay follows a smooth, curved crimson line through the conifer area at the top left, from about (0,145) via (100,110) to (240,35), with the name 'Hum o Bredäng' lettered above it. Its colour and weight match the crimson lines elsewhere on this tile, which read as boundaries. Its smooth curve is more like a road, but it shows no clear double line or dotted companion line.",
+      "uncertainty_note": "Most likely a boundary between named meadows or properties. A road drawn in red can't be ruled out, because there may be a thin dark parallel line along part of it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[720, 965], [850, 962], [1000, 955]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "At the bottom edge, in a mosaic patch of a different scan, a bright red band about 20-25 px wide with a black edge below runs roughly east-west from about u=720 to the right edge. It is much wider than any boundary line on the tile and could be a main road drawn with red fill.",
+      "uncertainty_note": "Low confidence. It may instead be a coloured boundary band, a margin or colour artefact of the patched scan, or a water or field edge. It is cut off by the patch at u~720 and by the tile edge.",
+      "alternatives": ["coloured boundary wash band, not a road", "scan or mosaic artefact"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [910, 960],
+      "what_is_contested": "Whether the dotted line (f03) actually meets the red band (m01) and forms a junction, and whether either line is a road at all.",
+      "evidence_note": "The dots fade out at about v~955, just above the red band, inside a mismatched mosaic patch, so continuity can't be seen."
+    }
+  ],
+  "overall_note": "Most lines on this tile are crimson boundary lines, water or shore edges, and a long straight paper crease; I see little clear road drawing. Of the overlay's features, only the short dotted line f03 looks like a road symbol. The bottom-right red band is a possible road but can't be judged with confidence because of the patched scan."
+}

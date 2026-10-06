@@ -1,0 +1,91 @@
+{
+  "tile_id": "cor_e0346_n6431",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thicker red-brown line with a fine dotted edge runs from the Kopparhult farm buildings at about (810,465) south via (805,560), (790,650), (740,740), (745,790), (830,835), (900,880) and leaves the bottom edge at about (940,1000). Its weight and colour match the line the worked example reads as Sämre körväg, and the overlay polyline follows it closely.",
+      "uncertainty_note": "The overlay images do not show the overlay's class, so I can only confirm the course. The symbol could be read as a heavy single line instead of a narrow double line. The northern end inside the farmyard is not clear (see m01)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line, with a black dotted land-cover boundary beside it, runs from the top edge at about (742,0) via (750,80), (790,170), (812,250) to the junction above the farm at about (840,330). A thin orange line like this is what the worked example reads as Gångstig. The overlay line runs a few px west of it around v 100–250.",
+      "uncertainty_note": "The black dots are the forest and meadow edge rather than the path itself, but the orange line is continuous, so the path is real."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line, with black dots along it, branches east from the junction at about (840,330) through (900,305) and leaves the right edge at about (1000,290). The overlay follows it.",
+      "uncertainty_note": "The overlay class is not visible to me. The line could be a path or only a coloured field edge, but it matches the path colour on this sheet."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line, with black dots, enters at the left edge at about (0,665). It runs through (100,675), (200,655), (300,628), (400,600) to a junction at about (487,575), where the line from the north-west meets it. It then continues through (560,560), (640,535), (700,495), (750,472) to the farm buildings at about (795,465). The overlay follows this course.",
+      "uncertainty_note": "Where the east end joins the farmyard road f01 is not clear. Single line versus Sämre körväg: it is clearly thinner than f01."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line enters at the left edge at about (0,357) and runs through (100,368) to about (150,395). There it meets the crimson boundary coming down diagonally from (0,120). The overlay ends here, under the 'K' of 'Kopparhult'.",
+      "uncertainty_note": "On the map the line seems to continue under the lettering to f06, so f05 and f06 are probably one path. The overlay splits it, leaving a gap of about 100 px between (150,400) and (240,455)."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line runs from below the 'Kopparhult' lettering at about (235,455) south-east through (330,500) and (420,545) to the junction with f04 at about (487,575). The overlay follows it.",
+      "uncertainty_note": "This is probably the continuation of f05. The stretch between (150,400) and (235,455) is partly hidden by the place-name lettering."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the top-left corner, a thin orange line runs from the left edge at about (0,90) through (60,68) and (120,40) to the top edge at about (185,0). It sits beside a black dotted boundary and blue-green stream lines, and the overlay follows it.",
+      "uncertainty_note": "The corner is crowded with stream lines, dotted boundaries and orange, and the westernmost 40 px could be a coloured field edge rather than a path. It could also be cannot_tell for the class."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[842, 333], [852, 375], [845, 420], [825, 452], [810, 467]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Between the f02/f03 junction at about (842,333) and the north end of f01 at about (810,467), a dark line runs through the green farmyard (tomt) between the buildings. This would link the path from the north to the road going south.",
+      "uncertainty_note": "Inside the farmyard the buildings, the green fill and the lettering 'G' hide the line work. It may be only a building or plot outline, and the overlay may already end f02 or f01 partly inside it.",
+      "alternatives": ["No through road: f02 and f03 end at the farmyard edge, and f01 and f04 start at the buildings.", "The connector follows a more westerly line through (830,400) to (810,467)."]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [810, 465],
+      "what_is_contested": "Whether f04 (from the west), f01 (to the south) and the possible farmyard link m01 (to the north) meet at one point, or end separately at the farm buildings.",
+      "evidence_note": "The line ends are hidden among the pink buildings and the green farmyard fill, so the meeting point cannot be seen."
+    },
+    {
+      "uv": [842, 333],
+      "what_is_contested": "The number of branches: f02 and f03 clearly meet here. A third branch into the farmyard (m01) is uncertain.",
+      "evidence_note": "The orange lines and black dotted lines converge at the top edge of the farmyard enclosure, and the line south of the junction is hidden by the green fill."
+    },
+    {
+      "uv": [150, 395],
+      "what_is_contested": "Whether the path f05 continues under the 'Kopparhult' lettering to f06, so that there is no junction, or whether the crimson boundary crossing here is a real meeting point.",
+      "evidence_note": "The 'K' of the place name covers the stretch from about (150,395) to (235,455), and the orange path and the crimson boundary line cross or touch there."
+    }
+  ],
+  "overall_note": "The tile has one heavier red-brown road (f01) running south from the farm Kopparhult and a network of thin orange paths. The crimson lines are boundaries, the black dashed lines skifteslinjer and the black dotted lines land-cover edges, so none of these is a road. All overlay features follow real drawn lines; the main doubts are the link through the farmyard and the split of f05/f06 under the place-name."
+}

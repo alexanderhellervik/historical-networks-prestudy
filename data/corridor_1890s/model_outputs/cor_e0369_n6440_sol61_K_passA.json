@@ -1,0 +1,125 @@
+{
+  "tile_id": "cor_e0369_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 401],
+        [42, 395],
+        [83, 382],
+        [119, 374],
+        [150, 378],
+        [188, 366],
+        [229, 351],
+        [269, 339],
+        [306, 323],
+        [343, 309],
+        [380, 296],
+        [422, 290],
+        [463, 282],
+        [500, 274],
+        [531, 265],
+        [559, 259],
+        [590, 258],
+        [617, 264],
+        [649, 275],
+        [680, 263],
+        [716, 254],
+        [754, 246],
+        [791, 235],
+        [824, 230],
+        [854, 232],
+        [883, 226],
+        [902, 229],
+        [919, 250],
+        [946, 267],
+        [973, 280],
+        [1000, 287]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "East of approximately u=510, one row of heavy dark dots follows a bending course above a small rectangular symbol and below the large T; no continuous casing is clear. Westward, the apparent continuation is a thin ochre-red continuous stroke along the edge of pale blue and hatched shapes.",
+      "uncertainty_note": "The eastern dotted course is a clear path candidate. Its connection to the western continuous stroke is less secure: the western portion could instead be a coloured parcel edge, making this two different features. The supplied classes have no explicit dotted-line class.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applies to the eastern portion if this class includes a line formed from separate dots."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The western portion could be a continuously drawn path joining the dotted portion."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The western portion may be a parcel or land-cover boundary; under that reading, the road begins near [510,270]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 821],
+        [20, 834],
+        [38, 843],
+        [49, 848],
+        [52, 869],
+        [58, 892],
+        [63, 914],
+        [65, 936],
+        [75, 954],
+        [81, 974],
+        [77, 990],
+        [75, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A single row of dark dots enters from the left, bends sharply downward, and continues near the lower-left edge. It has no clear paired casing; a separate long-dashed diagonal crosses its upper bend.",
+      "uncertainty_note": "The dotted symbol supports a path reading, although individual dots become difficult to separate from nearby outlines near the bottom edge. The crossing long-dashed line reads as a boundary, so no road junction is recorded.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Use this class if separated dots are included among interrupted line symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some of the lowest dark marks could belong to the adjacent outline, slightly changing the course below v=940."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [610, 934],
+        [615, 950],
+        [625, 967],
+        [640, 984],
+        [657, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Very faint grey-blue curved strokes descend southeast from below the blurred brown symbol. Parts appear paired, roughly 8–15 pixels apart, with several dark star-like symbols alongside.",
+      "uncertainty_note": "This is a weak track candidate. The strokes could instead outline a drainage or land-cover feature; their upper connection is obscured and is not carried through the brown symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if the faint paired strokes are the two edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road reading: a pale watercourse or land-cover outline."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [539, 837, 619, 934],
+      "why": "Blurred brown and grey printing around the rectangular symbols prevents reliable separation of short connecting strokes and possible track endpoints."
+    }
+  ],
+  "overall_note": "The upper dotted path and the dotted line near the southwest corner are the strongest road readings. Their exact symbol class, the upper path's western continuation, and the faint course below the lower building remain uncertain. Long diagonal dashed lines and the numerous blue enclosing outlines read as boundaries or water and land-cover lines."
+}

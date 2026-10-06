@@ -1,0 +1,82 @@
+{
+  "tile_id": "cor_e0350_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[454, 0], [441, 43], [430, 83], [422, 116], [419, 134], [423, 178], [430, 226], [434, 268], [437, 311], [439, 352], [438, 395], [435, 440], [433, 484], [426, 527], [419, 572], [414, 617], [413, 662], [410, 708], [398, 740], [377, 766], [361, 786], [357, 802], [365, 824], [382, 848], [391, 868], [385, 892], [372, 924], [352, 958], [322, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two substantial dark edges enclose a red-brown strip approximately 12–18 px wide. The casing and fill continue through the bends and remain identifiable on both sides of overlapping lettering.",
+      "uncertainty_note": "The road itself is clear. Its listed junctions depend on treating the finer adjoining lines as road candidates.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[257, 210], [279, 216], [305, 209], [332, 199], [354, 182], [379, 164], [401, 147], [419, 134]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow ochre trace carries closely spaced dark dots or short strokes. It curves toward the western casing of the broad road; its western end meets the heavy dotted outline of a blue-green patch.",
+      "uncertainty_note": "A path reading is possible, but the broken trace may be a parcel boundary. Its western continuation cannot be separated confidently from the patch outline.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The ochre and broken dark line could mark a parcel boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[430, 226], [452, 220], [473, 211], [490, 206]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A short narrow yellow-brown line with dark broken marks extends from the eastern road casing to the heavy blue-black shore outline. No clearly spaced pair of road edges is visible.",
+      "uncertainty_note": "The line is visible, but its road interpretation is uncertain; it could be a division between coloured areas. No continuation beyond the shore outline is drawn.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel or land-cover division rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[332, 199], [329, 229], [333, 262], [340, 298], [348, 335], [355, 373], [361, 411], [363, 448], [360, 478], [359, 494]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin brown trace with dark short strokes bends southward from the transverse dotted line. It has no clear broad casing; near its lower end it merges visually with the dotted eastern edge of a blue-green patch.",
+      "uncertainty_note": "This may be a boundary throughout. The broken trace above and below the lettering supports the plotted course, but its southern continuation cannot be distinguished from the patch perimeter.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel boundary joining the dotted land-cover outline, rather than a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [419, 134],
+      "branch_count": 3,
+      "evidence_note": "The broad strip's two dark edges continue in both directions, while the narrow ochre broken trace touches its western edge. Three branches are counted if that trace is a path."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [430, 226],
+      "branch_count": 3,
+      "evidence_note": "The red-brown cased strip continues above and below a short eastward broken line. Three branches are counted under the uncertain road interpretation of that line."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [332, 199],
+      "branch_count": 3,
+      "evidence_note": "The narrow transverse ochre dotted trace continues east and west, with a thinner brown broken trace descending from the meeting point. This is a conditional three-branch path junction; the same drawing could represent boundaries."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad cased road is clearly readable. The three finer candidates have broken dark marks and brown or ochre tint that also permit boundary interpretations, so their junctions are conditional. Dotted outlines enclosing coloured patches and the blue shore and stream lines were not traced as roads."
+}

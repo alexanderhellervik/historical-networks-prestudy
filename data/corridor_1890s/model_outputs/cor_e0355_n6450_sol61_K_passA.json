@@ -1,0 +1,123 @@
+{
+  "tile_id": "cor_e0355_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,576],[25,561],[65,565],[115,573],[165,581],[220,589],[275,596],[325,603],[375,610],[425,617],[475,623],[525,628],[560,634],[590,644],[640,650],[690,657],[740,665],[790,672],[840,679],[890,685],[940,690],[1000,697]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A continuous ochre band between two heavy dark edges, approximately 10–15 px apart, has repeated small oval tree symbols along both sides.",
+      "uncertainty_note": "The avenue is clear. Its connection with the doubtful left-margin traces is less certain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[145,0],[137,52],[128,105],[120,157],[108,213],[98,262],[88,316],[77,367],[65,416],[34,423],[6,434],[2,472],[6,498]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two roughly parallel dark strokes enclose a pale grey band, generally 15–30 px wide; the right stroke is heavier. The band makes an angular westward bend near v=420.",
+      "uncertainty_note": "This could be a cased road or the outlined margin of a narrow shaded strip. Lettering obscures the southern continuation, so it is not joined across that gap.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may be land-cover or parcel outlines enclosing a shaded strip rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[10,541],[17,553],[25,561]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A short dark-edged pale segment emerges beside the black lettering and touches the ochre avenue at its bend.",
+      "uncertainty_note": "Possibly the continuation of f02, but the lettering prevents a certain connection. Its status as a road branch is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible fragment may preserve two edges of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be an outline adjoining the avenue."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[25,561],[23,610],[24,650],[24,669],[23,720],[24,775],[24,830],[24,885],[23,940],[23,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A near-vertical heavy dark stroke follows a narrow grey or pale band near the left edge; a weaker adjacent edge is intermittently visible. A reddish line runs close beside its upper portion.",
+      "uncertainty_note": "A marginal road is possible, but the uneven casing also supports an outlined strip or boundary. Both listed junctions depend on the road interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The heavy and weaker strokes may be the two sides of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may outline land cover, with the nearby reddish stroke representing a separate boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,677],[12,672],[24,669]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short oblique yellow or ochre segment with dark edging enters from the left and touches the near-vertical marginal trace.",
+      "uncertainty_note": "This resembles a short cased track, but it could be a parcel edge meeting another outline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale centre and dark edging may represent narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or land-cover outline is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[644,499],[680,503],[725,509],[770,515],[810,521],[825,523]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Two fine blue-black strokes, about 5–8 px apart, enclose a pale yellow strip immediately above the black rectangular building marks; the pair reaches the reddish vertical line.",
+      "uncertainty_note": "The paired strip could be a narrow track, but it also resembles a doubled enclosure edge. Its western end merges with building and water-outline strokes, so no continuation is traced there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pair may bound a narrow land-cover strip or enclosure rather than depict a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [25,561],
+      "branch_count": 4,
+      "evidence_note": "The ochre, dark-cased avenue bends here; short dark-edged traces touch it from above and below. Four road branches result if both marginal traces are roads."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [24,669],
+      "branch_count": 3,
+      "evidence_note": "A short ochre, dark-edged segment from the left touches the near-vertical dark trace. Three branches result under the tentative road interpretation."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,498,35,545],
+      "why": "Heavy black lettering overlaps the left-margin trace and prevents a certain connection between f02 and f03."
+    }
+  ],
+  "overall_note": "The east–west avenue is clear; the left-margin traces and paired strip above the buildings have plausible non-road interpretations. The two junctions are conditional on the doubtful marginal traces being roads. Straight reddish boundary lines, blue water lines, and the rectangular garden-bed pattern are excluded."
+}

@@ -1,0 +1,251 @@
+{
+  "tile_id": "cor_e0343_n6422",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,260],[40,243],[78,225],[108,208],[132,195],[151,186],[168,168],[183,144],[205,109],[232,70],[257,35],[282,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two strong dark edges enclose an orange strip roughly 12–18 px wide; the strip bends beside black building rectangles.",
+      "uncertainty_note": "The broad road is clear. The precise centers of its two closely spaced connections are approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[91,175],[98,190],[108,208],[125,248],[144,292],[163,337],[183,383],[202,428],[222,476],[244,527],[264,576],[283,625],[303,662],[319,700],[338,736],[358,766],[381,790],[411,812],[438,825],[444,837],[458,876],[477,922],[496,960],[529,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j03","j04","j06"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A narrow red-brown strip has dark, partly broken flanking strokes; it curves beside a small outlined symbol around [338,750] and continues through the lower fork.",
+      "uncertainty_note": "The upper endpoint disappears among building and enclosure strokes. Lettering overlaps the middle section, but the aligned drawing on both sides supports continuation. Some stretches resolve as a thick colored stroke rather than two distinct edges.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The narrow symbol may be a colored line with broken edging rather than a consistently paired road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[151,186],[143,168],[133,149],[124,131],[114,117]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short red-brown stroke with dark edging runs between black building symbols and the orange road; its width is approximately 5–8 px.",
+      "uncertainty_note": "The short connection is visible, but separate parallel edges are not consistently resolved. Its upper end is covered by building strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark edging may represent two closely spaced road margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[438,825],[478,812],[519,798],[560,785],[608,770],[654,756],[699,746],[731,739],[776,723],[824,707],[873,692],[919,678],[963,658],[988,655],[1000,655]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A red-brown band roughly 7–11 px wide lies between dark irregular margins; it has a distinct bend near the right edge.",
+      "uncertainty_note": "The road-like band is distinct from the thinner red angular line above it. Its margins are partly stippled and do not remain equally clear throughout.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some portions appear as one heavy colored stroke with dark edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[731,739],[742,775],[760,816],[778,861],[796,906],[806,931],[810,938]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrower red-brown line with a dark flank descends from the band beside several black rectangles and meets thin red strokes near large lettering.",
+      "uncertainty_note": "This could be a short road connection or a property boundary. The drawing does not establish a road continuation beyond the rectangles and lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The red-brown center and dark flanks could be a narrow road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may instead be a boundary adjoining the thin red angular lines at its lower end."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,752],[44,739],[88,725],[130,710],[174,698],[216,686],[257,673],[303,662]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "One row of dark dots and very short marks, spaced approximately 18–24 px apart, reaches the narrow red-brown line; there is no casing.",
+      "uncertainty_note": "The repeated dots resemble the model legend's footpath symbol, but a boundary interpretation remains possible. No continuation east of the meeting is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some dots may be short dashes forming a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted line could be a boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[250,880],[281,871],[315,861],[349,852],[384,844],[417,835],[444,837]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A single row of dark dots runs from an outlined, horizontally hatched patch, across a thin black line, toward the southern road leg.",
+      "uncertainty_note": "The western end is entangled with the patch outline. The eastern meeting is crowded and may lie at the main fork rather than just below it; the entire dotted feature could be a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dots and short marks could form a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation is possible; if it is a path, its eastern endpoint may meet j04 directly instead of forming j06."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[947,0],[960,27],[976,65],[990,99],[1000,123]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A heavy red-brown stroke with a dark irregular edge clips the upper-right corner; no clearly separated second margin is visible.",
+      "uncertainty_note": "This is a doubtful road candidate. Its color and form also resemble colored boundary lines in the worked example.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The corner stroke may be a boundary rather than a road."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark edging could represent closely spaced road margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[310,295],[339,287],[363,279],[387,292],[424,325],[461,360],[495,394],[532,424],[573,405],[614,383],[651,366],[678,354]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Very thin gray-brown separated strokes form an angular course, with neither colored infill nor paired margins.",
+      "uncertainty_note": "A faint track is possible, but the angular course and long thin dashes favor a subdivision boundary. Both ends fade, and individual waypoint positions are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "These strokes may be field or property subdivision lines rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[532,424],[503,443],[473,460],[443,478]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint sequence of thin gray oblique marks appears southwest of the angular dashed meeting.",
+      "uncertainty_note": "The connection and southwestern endpoint are weakly resolved. This may be a boundary branch or disconnected faint marks rather than a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may belong to a subdivision boundary, and their connection at j07 is uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[467,615],[493,607],[519,599],[529,596]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short run of pale gray-brown linear marks slopes upward to the right, without casing or colored infill.",
+      "uncertainty_note": "The fragment could be a track or a subdivision line. Its ends fade; no connection to another fragment is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment may be a boundary or indistinct background strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[642,597],[679,586],[714,576],[750,567]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Several very light, narrow gray-brown strokes form a shallow oblique fragment; no paired margins are resolved.",
+      "uncertainty_note": "A track reading is weak; a boundary is equally plausible. Faded gaps prevent a certain connection to f11 or to the thin red line farther right.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "These may be subdivision marks rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [108,208],
+      "branch_count": 4,
+      "evidence_note": "The broad orange band continues in two directions; a narrower red-brown stroke approaches from the building cluster and continues southeast, producing four visible arms."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [151,186],
+      "branch_count": 3,
+      "evidence_note": "The two dark margins of the broad orange band bend here, and a short red-brown stroke enters from the upper-left building symbols."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [303,662],
+      "branch_count": 3,
+      "evidence_note": "A row of dark dots reaches the red-brown band, which continues both ways; the three-branch count assumes the dotted feature is a path."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [438,825],
+      "branch_count": 3,
+      "evidence_note": "Three red-brown bands with dark edging meet: northwest, east-northeast and south-southeast."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [731,739],
+      "branch_count": 3,
+      "evidence_note": "A narrower red-brown stroke leaves the lower side of the continuing band; the third road branch is conditional because that stroke may be a boundary."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [444,837],
+      "branch_count": 3,
+      "evidence_note": "Dark dots approach the southern red-brown leg immediately below the fork; three branches are conditional on a path reading, and the meeting may coincide with j04."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [532,424],
+      "branch_count": 3,
+      "evidence_note": "Three faint gray dashed courses appear to meet at an angular point; both their connection and their interpretation as road branches are uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [78,88,151,181],
+      "why": "Overlapping black building and enclosure strokes obscure the ends of the two short red-brown connections."
+    },
+    {
+      "bbox_uv": [430,565,790,625],
+      "why": "Very pale linear marks blend with paper texture, preventing reliable tracing between the reported faint fragments."
+    }
+  ],
+  "overall_note": "The broad orange road and the narrower red-brown network are readable, but dotted and faint dashed features admit boundary interpretations. Thin red angular enclosure lines and black land-cover outlines were read as non-roads. Conditional junctions retain the ambiguity of their participating features."
+}

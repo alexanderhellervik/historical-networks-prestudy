@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0351_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 764],
+        [44, 766],
+        [86, 769],
+        [99, 763],
+        [105, 743],
+        [106, 717],
+        [117, 687],
+        [132, 655],
+        [148, 631],
+        [157, 629],
+        [182, 648],
+        [212, 673],
+        [242, 698],
+        [273, 721],
+        [304, 744],
+        [334, 765],
+        [365, 782]
+      ],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two thin gray-brown strokes enclose a pale ribbon approximately 10–16 px wide. The pair bends sharply near [150, 630], then runs diagonally southeast to the pale band beside the central black and pink marking.",
+      "uncertainty_note": "The paired road symbol is clear along most of this feature. Its final contact with the central band is blurred; j01 is conditional on that band also representing a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ribbon narrows along the diagonal section, so a narrow paired-line reading is also possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If the central band is entirely a boundary or railway marking, this road ends obscured near [355, 776] rather than at a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [507, 0],
+        [497, 48],
+        [488, 98],
+        [479, 150],
+        [470, 201],
+        [461, 251],
+        [452, 301],
+        [443, 352],
+        [434, 401],
+        [424, 450],
+        [415, 500],
+        [406, 550],
+        [398, 600],
+        [389, 650],
+        [380, 700],
+        [371, 749],
+        [365, 782],
+        [356, 827],
+        [348, 873],
+        [340, 921],
+        [332, 962],
+        [326, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow pale/tan band follows the west side of the central marking, with a fine gray-brown western edge and an intermittently separable eastern edge. Immediately east is a much heavier broken black stroke accompanied by broad pink wash.",
+      "uncertainty_note": "This traces the pale western band, not the pink strip. It may be a separate road beside a boundary, but the drawing does not consistently separate its eastern edge from the heavy marking; the entire band could belong to a boundary or railway symbol. The apparent junction with f01 is therefore uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the pale band has two independent edges, it is a narrow paired-line road running beside the black and pink marking."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the pale band is casing or shading belonging to the central boundary or railway, with no separately drawn road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [1000, 644],
+        [993, 662],
+        [984, 685],
+        [976, 708],
+        [971, 724]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "At the right edge, closely adjacent dark outlines leave a narrow pale interval beside peach-filled angular shapes. The interval slopes down-left and becomes difficult to distinguish near the corners around [971, 724].",
+      "uncertainty_note": "This is a weak road candidate: the apparent paired edges may instead be the separate outlines of adjoining parcels. Its continuation below the angular corners cannot be established, so the trace stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The narrow pale interval could be a road enclosed by two dark strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a gap between parcel outlines, with no road symbol."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [365, 782],
+      "branch_count": 3,
+      "evidence_note": "The diagonal pale pair appears to reach the pale north–south band, giving west, north and south arms beside the heavy black/pink marking. This is a conditional three-branch junction: the contact is blurred and the north–south band's road identity is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [958, 700, 1000, 747],
+      "why": "Clipped, closely spaced black parcel corners prevent a reliable reading of the possible narrow road's termination or continuation."
+    }
+  ],
+  "overall_note": "The lower-left pale paired line is the clearest road. Separating a possible parallel road from the central broken black marking and pink wash is the main ambiguity; the thin red lines elsewhere resemble the boundary lines in the worked example and are excluded. The right-edge candidate and the central junction remain conditional."
+}

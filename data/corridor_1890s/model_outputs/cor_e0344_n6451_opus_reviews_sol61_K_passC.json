@@ -1,0 +1,54 @@
+{
+  "tile_id": "cor_e0344_n6451",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the red-brown line with an orange casing and a parallel row of black dots. It runs from the west edge at about (0,635) through (200,605), (380,650), (490,700), (590,670), (680,665) and (720,770) to a bend at (740,785), then through (820,760) and (900,720) to the east edge at about (1000,690). The solid line plus parallel dotted line matches the 'Bättre körväg' symbol form, and the orange-cased red-brown line matches the road drawing in the worked example.",
+      "uncertainty_note": "The overlay class is not legible to me, so this verdict covers the course only. The row of dots could instead be a boundary drawn alongside the road. Where the line meets the field edges near (480-700, 660-780), its exact course may be off by a few pixels."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the south edge at about (740,1000) up to about (785,890), the polyline lies on a thin crimson line of the same kind as the straight boundary lines elsewhere on the tile. Further north-east, towards (870,815) and (960,755), it crosses meadow and forest edge lines and the blue stream near (910,790). Along that stretch I see no orange-cased or dotted road symbol.",
+      "uncertainty_note": "The lower-right area is dense with field edges, the stream and boundary lines. A faint path to the small building at about (960,750) cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the west edge, around (0,395)-(50,440), the only line is a thin crimson line ending near (50,440). It has the colour and weight of the boundary lines, with no road casing or dots.",
+      "uncertainty_note": "The segment is short and enters from the tile edge, so its character outside the tile is unknown."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[740, 788], [733, 830], [722, 880], [710, 930], [698, 970], [690, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j1"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A row of black dots leaves the bend of the main road at about (740,788) and runs south along the east edge of the pink field to the south edge. A plain dotted line is the 'Gångstig' form in the model legend.",
+      "uncertainty_note": "The dots run along a field boundary, so this could be a boundary or field-edge symbol rather than a path. They are faint south of v≈900.",
+      "alternatives": ["field or property boundary drawn dotted (not a road)", "continuation of the dotted edging of the main road rather than a separate path"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [740, 788],
+      "what_is_contested": "Whether this is a three-way junction (main road west, main road north-east, dotted path south) or only a bend in the main road where the blue stream crosses.",
+      "evidence_note": "The main road bends sharply here, the stream passes just below, and a row of dots leaves southward along the field edge. The dots may be a path or a boundary."
+    },
+    {
+      "uv": [905, 718],
+      "what_is_contested": "Whether a branch leaves the main road towards the small building and field at about (960,750), or the road simply continues to the east edge.",
+      "evidence_note": "Near (900-960, 700-760) the dotted edging and field outlines cluster around a pink enclosure with a building. I cannot tell from the drawing whether a separate spur is drawn."
+    }
+  ],
+  "overall_note": "The only clear road on the tile is the orange-cased, dot-edged line from (0,635) to (1000,690), which f01 follows. f02 and f03 sit on thin crimson boundary lines. Two other lines might look like roads but I read them as not roads: the straight crimson lines with a pale parallel fringe (290,150)-(530,500)-(1000,660) look like boundaries, and the grey double line along the east edge of the Arlös bog, (970,230)-(820,540), looks like a ditch."
+}

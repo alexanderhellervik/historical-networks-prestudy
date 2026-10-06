@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0361_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[704, 1000], [720, 977], [736, 952], [751, 929], [768, 903], [784, 879], [800, 854], [817, 831], [832, 817]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One row of closely spaced, heavy black dots or short strokes runs diagonally upward from the bottom edge, without clear casing. A thinner orange-brown line runs separately to its left.",
+      "uncertainty_note": "The path itself is clear. Its upper endpoint meets a pale strip whose interpretation as a road is uncertain, so j01 is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks are nearly dotted rather than long dashes; dashed_line is the closest available symbol-form class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 996], [43, 978], [88, 962], [135, 948], [183, 938], [219, 940], [259, 954], [296, 974], [322, 985], [338, 978], [370, 953], [407, 923], [447, 895], [487, 881], [529, 865], [571, 847], [612, 829], [650, 807], [687, 785], [721, 758], [750, 735], [772, 761], [793, 785], [815, 807], [832, 817]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A pale grey-tan strip has a stronger thin southern edge and a weaker roughly parallel northern edge, generally about 12–20 pixels apart. It follows the margin between star-shaped and oval vegetation symbols and turns sharply near [750,735].",
+      "uncertainty_note": "This is a doubtful road candidate: the unequal edges and wash may instead delineate land cover. The trace records the strip's approximate centre, not a certain road centreline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If both edges belong to a road symbol, they define a relatively broad, lightly filled double-line way."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, the entire strip is a shaded land-use boundary and should not be counted as a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[832, 817], [850, 817], [868, 822], [885, 813], [924, 799], [960, 784], [985, 775], [1000, 765]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The pale strip continues east with one stronger dark edge and a weaker parallel edge approximately 12–20 pixels away. A narrow black scan join interrupts it near u=872; matching edges are visible immediately on both sides.",
+      "uncertainty_note": "As with f02, this may be a shaded land-use edge rather than a way. Its short continuation across the scan join is supported by the aligned strip on either side.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The paired edges could depict the eastern continuation of a broad double-line way."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, this continues a land-use boundary; under that reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[574, 0], [606, 33], [639, 67], [674, 102], [708, 137], [742, 172], [777, 205], [813, 238], [848, 271], [878, 298], [912, 327], [946, 356], [974, 382], [1000, 405]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad, pale grey-tan diagonal strip has a darker fine southwestern edge and a weaker parallel edge. A red line runs close along its northeastern side; blue-green outlines cross it, and the black scan join interrupts it near u=890.",
+      "uncertainty_note": "The pale strip could be a way, but its colouring and position along the edge of star-marked ground also support a land-use boundary. The red line is not independently interpreted as a road. The strip's alignment across the narrow scan join is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the pale strip is a road symbol, its separated edges suggest a broad double-line way."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, this is boundary shading beside the red property line and represents no road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [832, 817],
+      "branch_count": 3,
+      "evidence_note": "The heavy dotted line reaches the pale strip where it continues northwest and east. Three road branches are present only if that strip is a road; otherwise this is simply the dotted path's visible termination."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [886, 0, 903, 250],
+      "why": "A dark scan join hides a narrow sloping portion of the drawing within this box."
+    },
+    {
+      "bbox_uv": [878, 250, 893, 500],
+      "why": "The dark scan join obscures fine linework immediately beneath it."
+    },
+    {
+      "bbox_uv": [870, 500, 884, 750],
+      "why": "The scan join continues downward, hiding a narrow strip."
+    },
+    {
+      "bbox_uv": [862, 750, 877, 1000],
+      "why": "The lower scan join obscures small portions of the pale strip and adjoining outlines."
+    }
+  ],
+  "overall_note": "The lower-right dotted path is the clearest road or path symbol. The pale strips are retained as doubtful candidates because double-line ways and shaded land-use edges are both plausible readings; their proposed junction is conditional. The long, heavy diagonal dashes match division boundaries and are excluded."
+}

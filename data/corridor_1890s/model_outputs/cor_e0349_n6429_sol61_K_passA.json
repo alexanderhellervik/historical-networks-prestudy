@@ -1,0 +1,97 @@
+{
+  "tile_id": "cor_e0349_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 902], [20, 867], [40, 829], [59, 791], [78, 753], [95, 714], [111, 675], [123, 637], [133, 598], [139, 561], [145, 527], [157, 489], [168, 462], [174, 439], [173, 421], [161, 399], [148, 381], [141, 373]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow reddish trace carries regularly spaced dark dots or short dashes, without clear paired casing. Its upper curve approaches heavy black lettering and small outlined symbols.",
+      "uncertainty_note": "The separated marks sometimes look like dots rather than dashes. Continuation through the black symbols at the upper endpoint is not sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The symbol could be described as a dotted line over a continuous reddish hairline rather than a dashed line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[256, 29], [238, 49], [222, 66], [208, 83], [207, 107], [212, 135], [221, 171], [229, 208], [236, 244], [224, 258], [205, 274], [185, 290], [172, 297]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A narrow reddish band with dark edging and intermittent dark marks follows the right-hand outline of an orange-washed polygon. Portions appear bounded by two close strokes, several pixels apart.",
+      "uncertainty_note": "This is a road candidate, but the coincidence with the coloured polygon edge also supports a parcel-boundary reading. The northern end disappears into the horizontal fold; no certain road continuation is visible beyond the southern corner.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close dark edges could form a narrow track with reddish infill."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the strokes outline the orange-washed parcel."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[239, 0], [230, 6], [220, 14]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A very short oblique reddish mark with dark edging clips the top edge and disappears beside the horizontal dark strip.",
+      "uncertainty_note": "Too little survives to distinguish a road from a coloured parcel edge. A connection to f02 across the fold is possible but is not drawn here.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible fragment of the narrowly edged reddish track candidate."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a clipped parcel outline or damaged colour boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 446], [29, 425], [58, 403], [86, 382], [110, 362]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin, dark, substantially continuous diagonal stroke has orange wash immediately above it. No consistent second stroke, road casing or regular dotted pattern is discernible.",
+      "uncertainty_note": "A single-line access path is possible, but a field-outline reading is stronger. The stroke meets heavy black lettering, where its course and any connection to f01 cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible uncased path approaching the small outlined symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the lower boundary of the orange-washed field."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 14, 397, 32],
+      "why": "A horizontal fold and dark strip interrupt the drawing, including the possible continuation between f03 and f02."
+    },
+    {
+      "bbox_uv": [391, 24, 1000, 59],
+      "why": "The broad horizontal dark seam conceals fine linework."
+    },
+    {
+      "bbox_uv": [369, 28, 420, 1000],
+      "why": "The vertical fold, dark edge and adjoining blurred strip prevent reliable tracing of fine lines across it."
+    },
+    {
+      "bbox_uv": [100, 337, 151, 378],
+      "why": "Heavy lettering overlaps thin strokes near the candidate path endpoints; their connections cannot be read reliably."
+    }
+  ],
+  "overall_note": "The dotted western path is the clearest road; the other reported fragments retain road-versus-parcel ambiguity. Folds and overlapping lettering prevent certain connections, and no junction of three road branches is legible. The long black dashed diagonal and thin green linework are read as boundary or water-related drawing rather than roads."
+}

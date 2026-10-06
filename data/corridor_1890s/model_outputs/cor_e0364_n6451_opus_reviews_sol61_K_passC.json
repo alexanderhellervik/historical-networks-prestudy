@@ -1,0 +1,127 @@
+{
+  "tile_id": "cor_e0364_n6451",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pair of dark parallel lines with a brownish fill enters at the top edge near u 585-600 and runs south past the farm yard to about (615,160). The polyline sits on it.",
+      "uncertainty_note": "The overlay colours do not show its class, so I only give my own class. Wide versus narrow double line is a judgement call: this is the widest road casing on the tile, about 12-15 px."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the same double-line road continuing south-south-east through the 'Gammalsby' lettering to about (645,320), where the dotted track joins from the south-west.",
+      "uncertainty_note": "The lettering crosses the road around v 200-240, but both casing lines can be followed through it."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The double-line road bends east and south through (690,380), (745,450), (762,520) and (735,640), and reaches the north bank of the river at about (745,740). The polyline follows it closely.",
+      "uncertainty_note": "The road does not end at (745,740): its casing continues south-east across the river (see m01). The overlay stops f03 here without a matching continuation."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow brown double line enters at the east edge near (1000,475), bends at about (928,545) and runs south along u 925-940. A red boundary line runs beside it in the north-east part.",
+      "uncertainty_note": "In the north-east the red boundary line and the road casing run close together. The road is the brown double line, not the red line. Its casing is visibly narrower than the main road's."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the same narrow double-line road, continuing from about (935,878) to the bottom edge near u 915.",
+      "uncertainty_note": "f04 and f05 are one continuous road. The split point at about (935,878) is where the south-eastern continuation of the main road (m01) joins it."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the main road at (645,325) south-west to about (470,470) the polyline follows a pair of fine dotted lines, the 'Sämre körväg' form. From the building at (430,530) south-west to about (245,745) it follows a row of large dark beads with no brown road fill (a tree row or hedge), then faint dots and a bead-edged green strip to about (120,930).",
+      "uncertainty_note": "The north-east half is a road. The south-west half could be a tree-lined path (avenue_lined) leading to farm 'B', or a hedge. The bead symbol resembles both 'Häck' and 'Allébeteckning', and no road casing is visible under it. The class may need to change part-way along the feature."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (615-680,155-165) the farm yard enclosure touches the east side of the main road. No separate road casing or dotted line is visible from the road to the buildings; only the yard outline is.",
+      "uncertainty_note": "A yard access probably exists, but this map does not draw one as a separate road line."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin pair of brownish lines runs from the top edge at about (840,0) south-west to the north-east corner of the farm yard at about (795,85).",
+      "uncertainty_note": "The line is very thin, so it could equally be a single or dotted track (alternatives: single_line, dashed_line). Its start at the top edge is consistent with a road leaving the tile."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Inside the thick red-and-dark border of the south-west enclosure there is a pale strip from the west edge at about (0,845) to about (70,860). Nothing visible continues it down to (115,935); there the polyline meets the enclosure's heavy red border.",
+      "uncertainty_note": "The pale strip could be a drive into an enclosed garden or park, or just unpainted ground. The overlay's course from (60,875) to (115,935) does not follow any line I can see."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[748, 748], [790, 780], [840, 820], [890, 850], [932, 878]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown-filled double line leaves the main road (f03) where it reaches the river at about (748,748). It crosses the river band and runs south-east past the small buildings at (760,820) to meet the north-south road (f04/f05) at about (932,878).",
+      "uncertainty_note": "The casing is clear on the south-east bank. The bridge crossing itself, at about (745-760,740-765), is obscured by the river colouring and the blue and red bank lines. Its width looks closer to the main road's than to the eastern road's.",
+      "alternatives": ["double_line_narrow"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[645, 322], [662, 285], [685, 235], [715, 185]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Faint fine dotted or thin lines run from the point where f06 meets the main road north-north-east, under the 'Gammalsby' lettering, towards the south-west corner of the farm yard. This would continue the dotted track f06 across the main road to the farm.",
+      "uncertainty_note": "The line is very faint and partly hidden by the lettering. It could instead be a field boundary or plot line.",
+      "alternatives": ["not a road: field or plot boundary", "single_line"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [745, 745],
+      "what_is_contested": "The number of branches and the existence of a crossing. Either the main road ends at the river bank (overlay) or it crosses by a bridge and continues south-east as m01.",
+      "evidence_note": "The road casing is visible on both sides of the river, but the crossing itself is covered by the blue water band and the red and dark bank lines."
+    },
+    {
+      "uv": [645, 324],
+      "what_is_contested": "Whether this is a 3-way junction (f02, f03, f06) or a 4-way crossing where the dotted track continues north-east to the farm (m02).",
+      "evidence_note": "The dotted pair of f06 clearly reaches the east casing of the main road. On the far side there are only faint lines under the lettering."
+    },
+    {
+      "uv": [932, 878],
+      "what_is_contested": "Whether m01 meets the eastern road here, which the overlay's f04/f05 split implies but without drawing the branch, and the exact meeting point.",
+      "evidence_note": "The south-east double line meets the u≈935 road near v 870-880, next to a small pale enclosure at about (965,860)."
+    },
+    {
+      "uv": [115, 935],
+      "what_is_contested": "Whether any junction exists. The overlay joins f06 and f09 here, but there the south-west end of the bead row meets the heavy red border of the enclosure.",
+      "evidence_note": "No road casing is visible at this point. The pale strip inside the enclosure lies further north, at v≈850."
+    },
+    {
+      "uv": [615, 160],
+      "what_is_contested": "Whether there is a branch to the farm (f07) at all.",
+      "evidence_note": "The farm yard outline touches the road, but no access line is drawn."
+    }
+  ],
+  "overall_note": "The main double-line road (f01-f03) and the eastern road (f04/f05) are clear. The overlay misses the main road's continuation across the river to the eastern road (m01). The dotted track f06 is a road only in its north-east half; its south-west half is a bead row (avenue or hedge). The red line with a pale band in the top-left, and the red lines along the river, I read as boundaries, not roads."
+}

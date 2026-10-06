@@ -1,0 +1,174 @@
+{
+  "tile_id": "cor_e0359_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 419], [12, 409], [21, 392], [25, 370], [29, 345]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown band bends between close dark, partly dotted edges; small solid black rectangles crowd its eastern side.",
+      "uncertainty_note": "The edge marks merge with adjacent building marks in places.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Some stretches resolve as a dotted trace with brown tint rather than two distinguishable edges."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 357], [14, 351], [29, 345]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short oblique tan strip has two dark edges several pixels apart and touches the curved brown line.",
+      "uncertainty_note": "This small clipped strip could instead be an enclosed parcel edge; its status as a third road branch is uncertain.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The two close edges could delimit a short road branch."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a parcel outline adjoining the brown road."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[29, 345], [62, 336], [96, 328], [124, 315], [146, 297]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Close dark dotted edges enclose a brown strip, curving northeast past several heavy rectangular marks.",
+      "uncertainty_note": "Black rectangles locally obscure one edge, but the brown strip remains traceable.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The dotted edges sometimes merge into one visible sequence."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[146, 297], [156, 274], [165, 249], [180, 226], [211, 208], [244, 198], [273, 184], [288, 161], [303, 132], [320, 107], [335, 82], [344, 54], [352, 26]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A winding brown band carries closely spaced dark dotted margins; near [211,208] it briefly coincides with a stronger magenta line before bending north.",
+      "uncertainty_note": "The shared stretch with the magenta line makes the individual road margins less distinct.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Several northern stretches show only one clearly resolved row of dark marks."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[303, 0], [324, 15], [352, 26]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short brown diagonal band with dark intermittent edge marks reaches the northern branching point.",
+      "uncertainty_note": "The top crop removes part of the symbol, and nearby polygon outlines touch its margins.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The cropped drawing does not consistently resolve two separate margins."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[352, 26], [375, 14], [397, 5], [410, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A faint brown strip with intermittent dark edging runs northeast from the branching point into the top crop.",
+      "uncertainty_note": "Its margins and exact exit are difficult to distinguish from the adjoining black polygon outline; the third arm at j03 is consequently tentative.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The brown strip may continue the close dotted margins of f04 and f05."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: the apparent arm includes a polygon boundary rather than a separate road."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[146, 297], [166, 303], [187, 313], [221, 323], [256, 330], [263, 345], [260, 350]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin brown trace with a single prominent sequence of black dots or short strokes bends east and then south toward heavy lettering.",
+      "uncertainty_note": "The trace disappears into lettering at its eastern end. A connection to f08 is plausible but is not carried through.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "A faint second edge may accompany some of the dotted trace."},
+        {"proposed_class": "unknown", "note": "Some portions coincide with the outline of the tan polygon, allowing a parcel-boundary reading."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[347, 423], [372, 446], [397, 471], [419, 502], [433, 530], [442, 558], [444, 582], [447, 608], [454, 635], [466, 660]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Black dots and short strokes follow a thin brown curved trace southeast from the lettering, then south beside heavy polygon outlines and small rectangular marks.",
+      "uncertainty_note": "The northern connection beneath lettering is unresolved. Toward the southern end, the trace merges with parcel outlines, building marks and further lettering.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The lower portion could partly follow a parcel outline rather than a continuous path."},
+        {"proposed_class": "dashed_line", "note": "This may be the continuation of f07, forming one path through the intervening lettering."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[88, 1000], [124, 990], [164, 984], [205, 982], [247, 980], [287, 979], [324, 974], [359, 963], [398, 952], [439, 946], [481, 942], [522, 944], [558, 942], [593, 930], [627, 912], [660, 893], [689, 870], [710, 845], [731, 820], [757, 800], [791, 785], [830, 774], [871, 766], [913, 759], [956, 758], [1000, 762]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous winding ochre-brown band has close dark dotted margins, including where it crosses horizontal hatching and stronger straight magenta lines.",
+      "uncertainty_note": "Hatching locally merges with the edge dots. The straight magenta crossings do not show separate road branches.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Where the margins merge, the symbol can appear as a single heavy dotted trace."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[942, 1000], [953, 978], [966, 952], [979, 927], [990, 911], [1000, 899]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short oblique sequence of black dots and short strokes clips the southeast corner; tree symbols and nearby blue-edged outlines crowd it.",
+      "uncertainty_note": "The intermittent marks could represent a path or a boundary. Its upper course is difficult to separate from the adjacent symbols.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The short repeated marks could be a single dotted path."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a dashed property line intersecting nearby symbols."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[512, 0], [526, 30], [537, 60], [536, 91], [539, 118], [532, 150], [535, 181], [539, 217], [545, 254], [542, 293], [537, 332], [533, 367], [531, 386]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A very pale grey narrow strip has fine, intermittently visible near-parallel edges and runs roughly downward beside heavier black outlines and blue strokes.",
+      "uncertainty_note": "There is no consistently resolved road casing or dotted road margin. The strip may comprise adjacent non-road lines; it disappears into lettering at the lower end.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "If the pale paired edges belong to one symbol, they could delimit a narrow track."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: adjacent parcel, drainage or other linework creates the apparent strip."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [29, 345],
+      "branch_count": 3,
+      "evidence_note": "Two brown arms with close dark intermittent margins bend south and northeast; a short tan, dark-edged arm reaches them from the west. The western arm may instead be a parcel outline, making the three-branch reading tentative."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [146, 297],
+      "branch_count": 3,
+      "evidence_note": "The brown strip with close dotted edges continues southwest and north, while a thinner dark dotted trace turns east along the tan polygon edge."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [352, 26],
+      "branch_count": 3,
+      "evidence_note": "A brown arm with dark dotted margins rises from the south and meets short northwest and faint northeast brown traces. The top crop and adjoining solid polygon lines make the northeast arm tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [248, 350, 350, 425],
+      "why": "Heavy black lettering overlaps the possible connection between f07 and f08; the intervening dotted course cannot be established."
+    },
+    {
+      "bbox_uv": [451, 640, 510, 704],
+      "why": "Lettering, small solid rectangular marks and polygon outlines merge around the southern end of f08, preventing a reliable continuation."
+    }
+  ],
+  "overall_note": "Close dotted margins around brown bands are described as double_line_narrow, without assigning an official road class. Lettering interrupts the central path, and the pale upper strip and southeast fragment retain explicit non-road alternatives. Strong straight magenta lines and regular long-dash boundary symbols were otherwise read as non-road linework."
+}

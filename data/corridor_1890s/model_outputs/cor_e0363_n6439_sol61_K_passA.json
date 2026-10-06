@@ -1,0 +1,181 @@
+{
+  "tile_id": "cor_e0363_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 49], [39, 67], [77, 84], [108, 105], [133, 134], [150, 165], [159, 194], [169, 232], [179, 271], [188, 307], [201, 321], [240, 325], [280, 328], [316, 335], [346, 355], [379, 381], [407, 405], [438, 430], [465, 449], [479, 467], [469, 491], [448, 516], [433, 539], [433, 564], [441, 603], [445, 645], [449, 685], [453, 722], [467, 757], [481, 791], [486, 816], [480, 841], [465, 873], [448, 903], [438, 927], [440, 952], [451, 979], [460, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03", "j05", "j06"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark outlines enclose an orange band generally about 15–25 px wide; both outlines follow the bends. Large black lettering overlaps the middle section.",
+      "uncertainty_note": "The paired outlines remain identifiable on both sides of the lettering, supporting continuation. The small side connections at j05 and j06 are provisional.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[159, 194], [180, 167], [205, 134], [229, 100], [252, 68], [274, 35], [299, 0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre strip has closely spaced dark dotted or broken marks along its sides and meets the eastern outline of the broad orange road.",
+      "uncertainty_note": "One edge is more continuous than the other in places, making the symbol-form class uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The broken marks may be degraded narrow casing rather than an intentionally dashed symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 338], [25, 332], [47, 328], [83, 320], [119, 314], [154, 310], [188, 307]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow tan band carries repeated dark dots along its edges; a fine red line overlaps its lower side. It visibly meets the broad road at the bend.",
+      "uncertainty_note": "The overlapping red line complicates separation of the lower road edge from a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Parts of the upper edge appear continuous, so narrow mixed solid-and-dotted casing is another reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[379, 381], [350, 392], [319, 402], [286, 411], [255, 420]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close rows of small dark marks flank a pale orange strip running beneath black lettering toward a red rectangular symbol.",
+      "uncertainty_note": "The strip is visible on both sides of intervening lettering, but its western end merges with the red symbol and adjacent enclosure outlines; continuation is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some short sections resemble thin continuous edges rather than separate dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[47, 328], [35, 317], [26, 305], [21, 294]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Short dark dotted strokes beside a pale ochre strip turn toward a red-and-black rectangular symbol; the strip appears to meet f03.",
+      "uncertainty_note": "This may be a short access path, but enclosure marks and nearby lettering make its upper termination and symbol form uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated marks could be the same dotted road symbol used by f03."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The short strokes may belong to an enclosure outline rather than a road; j04 is conditional on the access-path reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[201, 321], [191, 335], [183, 344], [177, 350]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short pale strip between thin dark angular strokes extends southwest from the broad road toward a small red rectangle with black edging.",
+      "uncertainty_note": "The strokes could outline an access lane or the adjoining small enclosure. The endpoint is lost against the rectangular symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two angular strokes are road edges, they form a narrow access lane."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An enclosure-edge reading would remove this road and the provisional junction j05."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[246, 427], [237, 439], [228, 452]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two short oblique dark strokes enclose a light strip between the red rectangular symbol above and a dark rectangular symbol below.",
+      "uncertainty_note": "A short access path is possible, but these strokes also fit the edges of adjacent coloured enclosures. No clear connection through either symbol is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could be narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They may be enclosure outlines with no road represented."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[438, 927], [427, 908], [415, 889], [403, 873]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow pale diagonal strip between thin dark strokes lies beside a red rectangular symbol and appears to touch the broad orange road at its lower end.",
+      "uncertainty_note": "Its upper end merges with angular yellow enclosure outlines. Nearby strokes toward approximately [449, 877] could form another connection, but their road status and continuity are unclear.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip may be a narrow access lane."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent strip may instead be spacing between enclosure outlines; j06 is conditional on the access-lane reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [159, 194],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre strip meets the eastern dark casing of the broad orange band, which continues in two directions."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [188, 307],
+      "branch_count": 3,
+      "evidence_note": "The narrow dotted tan band enters from the left at the bend of the broad road; its two dark outlines continue northward and eastward."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [379, 381],
+      "branch_count": 3,
+      "evidence_note": "The close dotted rows approaching from the southwest reach the dark edge of the orange road, whose casing continues northwest and southeast."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [47, 328],
+      "branch_count": 3,
+      "evidence_note": "Short dotted ochre marks approaching from above touch the longer dotted strip, which continues left and right; three branches apply if the short marks represent access."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [201, 321],
+      "branch_count": 3,
+      "evidence_note": "Thin angular strokes beside a pale southwest spur touch the broad orange casing; three branches apply under the provisional access-lane reading."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [438, 927],
+      "branch_count": 3,
+      "evidence_note": "A pale strip with thin dark edges appears to enter the western casing of the broad road beside a red rectangle; three branches apply if this strip is a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [577, 700, 681, 755],
+      "why": "A pale rectangular patch suppresses the underlying drawing; any fine line within it cannot be assessed."
+    }
+  ],
+  "overall_note": "The broad cased road and three dotted branches are readable, while several short marks beside rectangular symbols admit access-path and enclosure-edge readings. Their provisional junctions are retained explicitly, and uncertain continuations stop at symbols or merged outlines. The long red-and-dark diagonals and the winding red line on the right are read as boundaries, not roads."
+}

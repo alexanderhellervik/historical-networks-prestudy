@@ -1,0 +1,182 @@
+{
+  "tile_id": "cor_e0345_n6425",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The tile's dominant road: a broad double line with red-brown fill, running from the top edge near (970,0) through (850,265), (690,385), (530,465), (420,555), (330,610) and (225,730) to the bottom edge near (165,1000). The overlay follows it the whole way.",
+      "uncertainty_note": "The course is certain. South of about (415,560) a crimson line runs along its western side; I read that as a boundary that follows the road, not as part of the road symbol."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous reddish-brown line runs diagonally from the stream crossing near (215,88) past (300,200), (390,300) and (430,360) to f01 at about (525,465). It has the same colour and weight as the minor road (Sämre körväg) in the worked example.",
+      "uncertainty_note": "On the 1890s sheet a brown single line can also be a field or property edge, but its length and the way it connects the stream crossing to the main road favour a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line runs from near (100,145), just south of the stream, SW past the Enen T. cottage to the west edge at about v 300. A brown line also follows the south bank of the stream from (100,145) to about (215,88).",
+      "uncertainty_note": "A crimson line (boundary) runs close by and parallel, from (0,245) to (95,150), so the two are easy to confuse at this resolution. Between u 100 and 215 the overlay sits very close to the stream line."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line runs north from the stream crossing at about (215,88) to the top edge near (238,0). It reads as f02 continuing north across the stream.",
+      "uncertainty_note": "It also coincides with the edge of the pink field and the green meadow, so it might only be a field edge. Moderate confidence."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted or doubled line runs from the west side through (100,530), (200,545) and (260,548), then bends down to meet f01 at the black dot near (330,608).",
+      "uncertainty_note": "The texture is dotted, so dashed_line or double_line_narrow are possible symbol-form classes. The course is clear."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[0, 511], [40, 518], [75, 524]],
+      "evidence_note": "The brown dotted road (f05) reaches the west edge almost straight, at about v 510. The overlay's westward stub instead seems to bend up towards about (0,470), along the black curved meadow edge that comes from (0,458).",
+      "uncertainty_note": "At this resolution the overlay stub and the two lines converge within a few pixels near u 30-70. If the stub was meant to be f05's continuation, only its western end is off."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a thin crisp crimson line from (415,558) through (640,725) and (720,860) to the bottom edge near (745,1000). In the worked example, lines of this colour and weight are boundaries, not roads, and it has no brown road colour.",
+      "uncertainty_note": "Two things make this less than certain. A black dotted line runs just north of it between about (420,560) and (505,610); I report that separately as m01. South of about (720,860) a darker line runs parallel to the crimson one, so a road may run alongside the boundary there."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown single line leaves f01 at about (575,455) and runs SSW through (540,535) to the farm marked G near (505,615).",
+      "uncertainty_note": "The course is clear. The class (single brown line) matches the minor roads elsewhere on the sheet."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short stub (about 490,630 to 465,655) lies inside the G farmyard, among building symbols and black hatch marks. No separate road line can be told apart from the yard and building outlines.",
+      "uncertainty_note": "A yard connection from f08 into the farm is plausible but is not visibly drawn."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted or doubled line leaves f01 near (850,265), runs SE to about (915,350), then runs almost straight south along u of about 920 to the farm buildings near (925,800).",
+      "uncertainty_note": "In places it looks like two fine parallel brown lines, so double_line_narrow is an alternative class."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the farm buildings at about (925,810), a brown line continues SSW past (935,850) and (915,900) towards the stream near (895,945).",
+      "uncertainty_note": "Near the stream junction it is confused with the blue stream and nearby brown or red lines. It probably carries on to the bottom edge (see m02)."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line branches east from f01 at about (185,870) and runs ESE through (260,910) and (330,945) to the bottom edge near (395,1000).",
+      "uncertainty_note": "It could be a brown property boundary rather than a road, but its colour matches f02 and f08. Moderate confidence."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along u of about 375-400, from v 790 to 1000, I see only black field or meadow outlines and a faint bluish (ditch- or meadow-coloured) line west of the 2G farm. There is no brown road line.",
+      "uncertainty_note": "The 2G farm at about (405,895) has no visible access road, so a faint track could exist that I cannot resolve. Low-moderate confidence."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short stub (about 410,350 to 440,335) sits where the black outline of the pink field meets f02 below the T. cottage. The only line there is black (field edge), with no road colour.",
+      "uncertainty_note": "A short access to the cottage is plausible but is not drawn as a road. cannot_tell would also be defensible."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[420, 558], [460, 582], [505, 610]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A black dotted line runs from f01 at about (420,558) along the north side of the crimson boundary (f07) towards the G farm, ending near (505,610).",
+      "uncertainty_note": "The dotted form fits a footpath (Gångstig), but it could also be a dotted field or meadow edge that runs alongside the boundary.",
+      "alternatives": ["field or meadow edge, not a road", "part of a road running along the f07 boundary"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[895, 945], [900, 975], [902, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Brown lines continue south of the f11 end, past the stream crossing near (895,945), to the bottom edge.",
+      "uncertainty_note": "This short stretch is mixed up with the blue stream and nearby red or brown lines. The overlay may be correct to stop at the stream.",
+      "alternatives": ["f11 ends at the stream", "the brown line here is a boundary"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[905, 905], [950, 915], [1000, 928]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A reddish-brown line runs east from the f11 line near (905,905) to the east edge.",
+      "uncertainty_note": "The colour sits between road brown and boundary red. This is low confidence.",
+      "alternatives": ["boundary, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [550, 460],
+      "what_is_contested": "Whether f02, arriving from the NW at about (525,465), and f08, leaving to the SSW at about (575,455), form one crossroads on f01 or two offset T-junctions about 50 px apart.",
+      "evidence_note": "Both brown lines touch the main road close together on opposite sides, but they do not visibly line up."
+    },
+    {
+      "uv": [330, 608],
+      "what_is_contested": "The exact junction position of f05 with f01, and whether the black dot there marks the junction or is a separate point symbol.",
+      "evidence_note": "f05 bends down to a solid black dot on the road's northern edge, and the crimson boundary leaves the road nearby."
+    },
+    {
+      "uv": [215, 88],
+      "what_is_contested": "How many branches meet at the stream crossing (f02, f03, f04, possibly the stream-side line), and whether f03 really joins here or follows the stream bank.",
+      "evidence_note": "The stream, a brown field edge, a crimson boundary and the brown roads all converge within a few pixels."
+    },
+    {
+      "uv": [418, 558],
+      "what_is_contested": "Whether any road leaves f01 here: the crimson f07 line and the black dotted m01 both start at this point.",
+      "evidence_note": "Only a boundary-coloured line and a dotted line begin here, with no brown road line."
+    },
+    {
+      "uv": [925, 805],
+      "what_is_contested": "How f10 and f11 connect through the farmyard, and whether further branches leave the yard.",
+      "evidence_note": "Building symbols cover the meeting point, so the lines cannot be followed through it."
+    },
+    {
+      "uv": [45, 518],
+      "what_is_contested": "Whether f05 and f06 meet the black meadow edge here, or whether f05 simply carries on to the west edge.",
+      "evidence_note": "The brown dotted road and the curved black outline converge at about u 30-75."
+    }
+  ],
+  "overall_note": "The main red-brown double road (f01) and the brown minor roads f02, f05, f08, f10 and f12 are clearly drawn and the overlay follows them well. I read the crimson line f07 as a boundary, not a road, and the short stubs f13 and f14 have no road colour. The thin dashed black curves east of the G farm look like Skifteslinje-type lines, not roads, and the dotted line m01 and the brown stretches near the SE stream (m02, m03) are the main uncertain additions."
+}

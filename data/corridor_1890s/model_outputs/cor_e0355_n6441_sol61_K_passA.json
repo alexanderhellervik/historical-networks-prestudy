@@ -1,0 +1,126 @@
+{
+  "tile_id": "cor_e0355_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[624, 0], [613, 43], [602, 87], [589, 130], [574, 177], [557, 223], [539, 268], [518, 314], [497, 357], [480, 391]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A pale narrow strip has a faint grey western edge and a heavier dark eastern edge, roughly 12–25 px apart; pink colouring follows the eastern edge.",
+      "uncertainty_note": "The eastern edge also belongs to the pink boundary-like marking. Near the southern endpoint, overlapping strokes prevent a secure reading of its connection to the dotted line.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent casing may instead be separate boundary strokes or the edge of a coloured boundary band."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[517, 0], [515, 35], [518, 76], [521, 117], [521, 158], [519, 199], [511, 239], [505, 276], [494, 314], [481, 351], [467, 387], [452, 427], [440, 463], [428, 496], [417, 530], [407, 548]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Closely spaced dark dots and short strokes follow a narrow yellowish strip; the course bends progressively left and reaches the large black lettering.",
+      "uncertainty_note": "The interrupted symbol resembles the tracks in the worked example, but its precise line structure is blurred. Lettering conceals the terminal strokes; continuity into the pale hooked shape below it is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A narrow paired dotted track symbol is possible; a boundary interpretation cannot be excluded from the blurred strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[985, 0], [979, 44], [972, 89], [964, 134], [955, 177], [943, 221], [932, 262], [922, 302], [909, 343], [898, 382], [883, 423], [872, 464], [861, 505], [852, 547], [843, 590], [834, 632], [827, 675], [823, 719], [822, 761], [821, 805], [819, 849], [819, 888], [821, 906], [834, 922], [854, 931], [889, 932], [922, 933], [937, 926]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow yellowish course carries repeated dark dots and short dashes. It curves down the right side, then turns sharply right beside green outlines and the peach-filled polygon.",
+      "uncertainty_note": "The repeated marks resemble a track, although a boundary symbol remains possible. At the eastern endpoint, polygon outlines interrupt the dotted course; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark interruptions could represent a boundary rather than a track, particularly where they coincide with polygon edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[490, 421], [503, 456], [526, 501], [550, 548], [574, 592], [601, 640], [625, 686], [650, 734], [669, 780], [687, 824], [703, 866], [720, 910], [738, 954]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A heavy dark oblique stroke borders a broad pink band; a weaker roughly parallel stroke and pale intervening strip occur along portions of its southwest side.",
+      "uncertainty_note": "This is primarily boundary-like colouring. A coincident narrow road is possible, but the apparent second edge sometimes merges with peach-polygon outlines; its northern connection is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the weaker parallel stroke is a road edge, a narrow road follows the southwest margin of the pink boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The whole course may be a coloured administrative boundary with adjacent polygon edges, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[253, 1000], [280, 966], [309, 929], [335, 901], [370, 902], [413, 909], [459, 916], [505, 922], [553, 928], [600, 935], [648, 942], [694, 949], [738, 954]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two heavy irregular dark margins enclose a grey-blue strip, with a broad pink band along its upper side. The strip makes an angular bend near [335, 901].",
+      "uncertainty_note": "The paired margins could be road casing, but the grey-blue fill and irregular edges also support water bordered by administrative colouring. This is retained as a doubtful road candidate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "A wide cased road coincident with the pink boundary is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strip may instead be water with a coloured boundary along its bank, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[738, 954], [779, 966], [820, 977], [860, 983], [889, 982], [922, 970], [959, 960], [1000, 963]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The heavy dark margins and grey-blue interior continue east beneath pink colouring, with a shallow downward bend and then an upward curve.",
+      "uncertainty_note": "The same road-versus-water ambiguity applies as on f05; the lower margin is partly clipped near the bottom of the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "This could continue a wide cased road along the coloured boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Water margins and boundary colouring could account for the entire symbol without a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [738, 954],
+      "branch_count": 3,
+      "evidence_note": "The oblique dark-and-pink course visibly meets the west–east dark-and-pink strip. Three branches meet geometrically; this is a road junction only under the uncertain road readings of f04–f06."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [452, 380, 505, 440],
+      "why": "Dark dotted strokes, pale parallel edges, polygon outlines and pink colouring overlap; the number and connections of possible road branches cannot be resolved."
+    },
+    {
+      "bbox_uv": [379, 537, 430, 581],
+      "why": "Large black lettering overlaps the dotted course and the pale hooked shape, concealing whether they connect and where the track ends."
+    }
+  ],
+  "overall_note": "The two narrow interrupted courses are the strongest track readings. The pale northern strip and broad pink-associated courses remain explicitly uncertain, particularly where boundary colouring can imitate road casing. Long isolated boundary dashes, green drainage outlines, marsh hatching and the faint transverse wash were not traced as roads."
+}

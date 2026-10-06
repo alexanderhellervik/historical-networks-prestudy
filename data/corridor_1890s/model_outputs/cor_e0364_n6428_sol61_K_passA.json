@@ -1,0 +1,84 @@
+{
+  "tile_id": "cor_e0364_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 104], [22, 76], [44, 50], [66, 29], [91, 17], [122, 14], [149, 13], [163, 9], [174, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy, mostly solid dark margins roughly 15–20 px apart enclose a pink-orange strip; both margins curve together.",
+      "uncertainty_note": "The centerline at the top edge is approximate because the casing is clipped.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[369, 0], [395, 15], [424, 26], [458, 31], [497, 33], [537, 34], [572, 36], [609, 42], [638, 44], [662, 35], [683, 28], [694, 23], [714, 10], [729, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two substantial dark casing lines, about 14–20 px apart, surround continuous pink-orange fill; a narrower paired line branches southeast near the eastern end.",
+      "uncertainty_note": "The eastern exit overlaps a dark red mark, making its exact center approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[694, 23], [711, 33], [733, 43], [765, 46], [797, 45], [823, 51], [850, 57], [873, 62], [894, 69], [915, 83], [932, 107], [948, 129], [969, 147], [986, 155], [1000, 151]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close dark margins, partly dotted or broken and approximately 6–12 px apart, flank an orange strip beneath red numerals and around the southeast curve.",
+      "uncertainty_note": "Red numerals obscure portions of the margins between roughly [733,43] and [873,62]. Visible orange fill and paired marks support continuity, but the precise course beneath the lettering is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Under the red numerals, a course several pixels above or below the supplied centerline remains possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some margins resolve as dots or short strokes rather than continuous casing, making the symbol-form classification less certain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[1000, 310], [980, 324], [957, 334], [927, 337], [900, 342], [872, 350], [846, 350], [823, 348], [805, 349], [786, 356], [773, 369], [776, 383], [797, 400], [818, 426], [837, 456], [850, 484], [865, 516], [886, 545], [907, 575], [923, 600], [944, 623], [965, 641], [982, 646], [1000, 653]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Close rows of dark dots and short strokes, roughly 6–12 px apart, border an orange strip. It bends beside horizontal hatching and black lettering, then crosses heavier solid polygon outlines.",
+      "uncertainty_note": "Near the western bend, lettering and the dotted edge of the hatched enclosure partly merge with the road margins; the centerline is approximate there. The crossing solid outlines do not show separate road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The intermittent paired margins could be classified as an unresolved road symbol rather than narrow double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 11], [20, 13], [39, 12], [34, 17], [29, 27], [36, 29], [46, 21], [62, 11], [75, 9], [86, 8]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One dark solid stroke about 2–3 px wide makes an angular indentation, with pink fill above it, before becoming indistinguishable from the broad road's upper casing; no separate parallel margin is visible.",
+      "uncertainty_note": "This is more consistent with a parcel outline than a road, but a single-line track reading cannot be excluded. It stops at the visible merge; an independent continuation or road junction is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The entire stroke may delimit the pink-filled parcel and represent no road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [694, 23],
+      "branch_count": 3,
+      "evidence_note": "The broad orange strip continues southwest and northeast between heavy casing lines; a narrower orange strip with paired broken margins opens southeast from its lower side."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Lettering makes the precise northeastern road course difficult to trace. The upper-left single stroke is retained as a doubtful road candidate. Winding dotted enclosures around hatching, long straight broken boundaries, water lines, and the southeastern line with alternating railway blocks are excluded."
+}

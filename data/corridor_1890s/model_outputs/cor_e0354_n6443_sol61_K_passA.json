@@ -1,0 +1,170 @@
+{
+  "tile_id": "cor_e0354_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 378], [31, 356], [65, 325], [106, 281], [143, 245], [180, 208], [215, 173], [249, 136], [284, 97], [318, 59], [351, 23], [372, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two strong, approximately parallel dark rules enclose a pale brown strip about 10–14 px wide; their separation remains visible beside the large lettering.",
+      "uncertainty_note": "The main course is clear. Both listed side connections are conditional on the doubtful features being roads.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[31, 356], [68, 382], [108, 409], [149, 436], [190, 464], [232, 493], [274, 522], [315, 550], [344, 569], [361, 580]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A prominent narrow red-purple stroke has a faint, roughly parallel grey edge on its upper side; the intervening strip is pale and no regular dots are clearly resolved.",
+      "uncertainty_note": "This could be a road with weak casing or a coloured boundary. At its southeastern end it merges with coloured river-edge ink and lettering; connection to f03 is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the faint upper rule is a second road margin, the line encloses a relatively broad pale strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red stroke may be boundary colouring that continues along the river rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[383, 611], [429, 621], [476, 633], [524, 645], [572, 657], [619, 670], [665, 683], [710, 695], [754, 707], [784, 714], [808, 721], [834, 725]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j04", "j05"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A reddish-brown strip is bounded by close dark margins, with repeated dark dots or short marks along the lower margin. Paired dark marks are visible at the western crossing.",
+      "uncertainty_note": "The eastward course is supported on both sides of the lettering. The western approach is hidden among the large label and river ink, so the feature stops at the visible crossing.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken lower margin and more continuous upper margin do not resolve into a uniformly drawn pair throughout."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[944, 0], [975, 11], [993, 21], [984, 43], [968, 72], [950, 102], [931, 137], [912, 172], [892, 209], [873, 246], [854, 283], [836, 320], [818, 358], [800, 398], [782, 439], [766, 475], [750, 502], [754, 523], [774, 549], [789, 576], [800, 605], [810, 639], [820, 678], [834, 725], [818, 754], [807, 784], [802, 820], [798, 860], [793, 901], [790, 941], [786, 979], [784, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A brown-red band has closely spaced dark, partly stippled margins. It bends sharply near the top-right corner and retains the same paired symbol above and below the central black crossing marks.",
+      "uncertainty_note": "Short stretches at the crossing near [750, 502] and beneath the eastern lettering are masked, but the visible margins on either side support continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches show dots and a coloured band more clearly than two distinct continuous rules."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[834, 725], [859, 712], [885, 700], [913, 692], [938, 694], [967, 701], [1000, 708]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close dark margins surround a reddish strip; short dark marks continue along the strip as it curves beneath large black letters.",
+      "uncertainty_note": "Letter strokes obscure parts of the margins, but matching road ink is visible between the letters and at the right edge.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[665, 683], [646, 713], [622, 748], [599, 783], [575, 820], [550, 858], [525, 898], [501, 938], [477, 975], [462, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-red strip carries dark parallel edging and repeated dots or short strokes, particularly along its southeastern side; it visibly meets the cross-tile strip.",
+      "uncertainty_note": "The course and meeting are clear; the fine edging alternates between apparently continuous and stippled.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "At this resolution the paired broken margins could be read as a dotted track symbol rather than continuous double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[106, 281], [85, 268], [65, 252], [47, 233], [32, 214], [24, 193], [27, 173], [36, 158]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A slender pale curved strip beside the upper-left building symbols contains small dark intermittent marks and weak grey-blue edging.",
+      "uncertainty_note": "A minor access track is plausible, but the strip could instead be the outlined edge of the coloured enclosure. Its northern end becomes indistinct beside the building and enclosure strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the intermittent central marks represent a path, its symbol is effectively one fine line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The curve may outline the enclosure rather than represent a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[784, 714], [785, 688], [785, 661], [791, 639], [797, 621]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Fine dark, locally intermittent strokes run approximately upward from the cross-tile band beside small red and black rectangles; no dependable coloured fill or paired casing is visible.",
+      "uncertainty_note": "This is a possible short access path, but lettering and building marks make both its exact course and its contact with f03 uncertain. It may instead be a parcel or enclosure edge; no connection to f04 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The fine strokes could represent an uncased access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes could be an enclosure boundary interspersed with building and letter ink."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [31, 356],
+      "branch_count": 3,
+      "evidence_note": "The red-purple diagonal touches the southeastern margin of the strong paired diagonal strip, which continues in both directions; three road branches are conditional on f02 being a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [106, 281],
+      "branch_count": 3,
+      "evidence_note": "The weak curved pale strip reaches the western margin of the strong paired diagonal line; that line continues both ways, giving three branches if f07 is an access track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [665, 683],
+      "branch_count": 3,
+      "evidence_note": "The dark-edged reddish diagonal joins the lower side of the similarly edged cross-tile band, whose margins continue left and right; three branches are visible."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [834, 725],
+      "branch_count": 4,
+      "evidence_note": "Reddish strips with close dark margins converge from above, below, left and right; their margins open into one shared patch beneath nearby black lettering."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [784, 714],
+      "branch_count": 3,
+      "evidence_note": "A fine upward dark stroke appears to contact the upper margin of the reddish cross-tile band, which continues both ways; three branches are conditional on the obscured f08 reading."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [313, 582, 402, 655],
+      "why": "Large black lettering, dense river outlines and crossing marks prevent a dependable reading of the western road approach and its possible connection to the red diagonal."
+    },
+    {
+      "bbox_uv": [766, 614, 813, 711],
+      "why": "Overlapping letters, small building rectangles and fine enclosure strokes obscure the possible access path and any additional short branches."
+    }
+  ],
+  "overall_note": "The paired main routes are readable, but coloured boundaries can resemble weakly cased roads. The western red diagonal and two possible access paths are retained as doubtful features, with conditional junction counts. Thin blue water lines and clearly patterned parcel boundaries are excluded."
+}

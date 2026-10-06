@@ -1,0 +1,187 @@
+{
+  "tile_id": "cor_e0362_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 714], [3, 714], [28, 679], [55, 645], [86, 613], [119, 584], [152, 559], [177, 548], [214, 541], [258, 535], [302, 523], [345, 508], [389, 491], [434, 475], [477, 460], [503, 450], [520, 433], [529, 403], [542, 386], [561, 368], [579, 348], [586, 324], [585, 301], [592, 287], [590, 265], [595, 242], [597, 218], [593, 195], [585, 169], [580, 142], [577, 111], [573, 88], [574, 64], [582, 40], [601, 19], [612, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03", "j04", "j06"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous reddish ribbon, approximately 12–20 px wide, has heavy dark margins on both sides; narrower reddish lines meet it at several positions.",
+      "uncertainty_note": "The main course is clear. The southernmost meeting lies within a few pixels of the tile edge; the candidate branch at j06 may instead be an enclosure.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[3, 714], [22, 745], [48, 785], [76, 827], [104, 870], [132, 912], [161, 955], [190, 996], [192, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j07"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow brown-red strip runs southeast from the broad road, with closely spaced dark edges and intermittent dark marks along its length.",
+      "uncertainty_note": "The strip is readable to the bottom edge. Its possible short branch beside the bottom-edge building is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[188, 0], [215, 33], [242, 68], [273, 105], [306, 143], [337, 181], [368, 220], [400, 259], [432, 298], [464, 337], [497, 374], [529, 403]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close dark margins contain a narrow reddish-brown strip, with repeated dark stippling; it crosses the horizontal hatching and continues into the broad ribbon.",
+      "uncertainty_note": "The junction centre is approximate because the two reddish symbols merge.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[601, 19], [613, 42], [624, 63], [633, 81]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow reddish-brown diagonal with dark sides leaves the inside of the upper bend and reaches another narrow line beside the outlined building plot.",
+      "uncertainty_note": "Its lower end overlaps the plot corner; an enclosure-edge reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The diagonal could be a coloured enclosure edge rather than a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[577, 111], [598, 99], [617, 90], [633, 81]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A short oblique brown-red band with closely spaced dark sides connects the broad ribbon to the corner beside the black and red building symbols.",
+      "uncertainty_note": "The final few pixels coincide with enclosure outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short band may incorporate the edge of the building enclosure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[633, 81], [656, 68], [680, 55], [703, 42], [724, 29]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin dark oblique line continues northeast beside the pale green enclosure; locally a second close line is visible, but the reddish infill is weak.",
+      "uncertainty_note": "This may be a continuation of the narrow access line or a property/enclosure boundary. It is stopped where small outlined shapes make its continuation indeterminate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally paired lines could represent a narrow road continuing northeast."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line could be entirely an enclosure or property boundary, with no road branch at j05."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[592, 287], [607, 282], [623, 276]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two dark edges enclose a short cream-coloured strip extending from the broad ribbon toward the small red building beside '50'; their spacing is roughly 15 px.",
+      "uncertainty_note": "The strip can be read as an access or as the two sides of a small enclosed plot. The endpoint is obscured by the building and plot outline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the paired edges depict an access, this is a short narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The paired edges may outline a plot, so no road or junction is present here."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0, 860], [10, 873], [22, 887]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short brownish diagonal with close dark sides clips the left edge and meets the outlined plot beside the red building labelled '43'.",
+      "uncertainty_note": "Only a short segment is visible; it could be an access or an enclosure edge. It cannot be followed through the plot corner.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The short paired brownish segment could be a narrow access road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be an enclosure boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[190, 996], [204, 986], [218, 978]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short dark oblique connection runs from the narrow reddish strip toward the outlined plot and red building beside '45'; separate margins are difficult to resolve.",
+      "uncertainty_note": "The connection overlaps the plot perimeter and may be its edge rather than a branch. It is stopped at the building enclosure.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If independent of the enclosure, the visible connection could be a single-line access."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The connection may be an enclosure edge, removing the candidate junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [3, 714],
+      "branch_count": 3,
+      "evidence_note": "The broad red band reaches the left edge and continues northeast; a narrower dark-edged brown strip leaves southeast. The edgeward broad arm is only a few pixels long."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [529, 403],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish diagonal merges into the west side of the broader cased ribbon, which continues north and southwest."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [577, 111],
+      "branch_count": 3,
+      "evidence_note": "A short dark-edged brown band leaves the east side of the broad red ribbon, whose two arms remain visible above and below."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [601, 19],
+      "branch_count": 3,
+      "evidence_note": "At the upper bend, a narrow reddish diagonal departs southeast while the broader dark-margined band continues to the top edge and southwest."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [633, 81],
+      "branch_count": 3,
+      "evidence_note": "Two narrow brownish bands meet beside a dark plot corner; a thinner oblique line continues northeast. The third arm may instead be an enclosure boundary."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [592, 287],
+      "branch_count": 3,
+      "evidence_note": "A short pale strip between two dark edges touches the east side of the broad red band, which continues above and below; the pale strip may be an enclosed plot."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [190, 996],
+      "branch_count": 3,
+      "evidence_note": "Near the bottom edge, a short dark oblique line meets the narrow reddish strip beside a building enclosure; its identification as a third road arm is uncertain."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The reddish cased routes are substantially clearer than the short connections around building plots. Several candidate accesses coincide with enclosure edges, and their junction counts are conditional on the road reading. Thin dashed field lines, blue-green drainage lines and horizontal hatching were not treated as roads."
+}

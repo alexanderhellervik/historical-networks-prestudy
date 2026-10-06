@@ -1,0 +1,45 @@
+{
+  "title": "Routable historical road networks from old map sheets: a feasibility demonstration (historical-networks-prestudy)",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-10-06",
+  "language": "eng",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Hellervik, Alexander",
+      "affiliation": "Chalmers University of Technology",
+      "orcid": "0000-0001-5899-718X"
+    }
+  ],
+  "description": "<p>A pilot feasibility study for one corridor in western Sweden (the former Västergötland–Göteborg railway between Sjövik, Anten, Gräfsnäs, Sollebrunn and Nossebro, north of Alingsås). It builds routable road networks for three periods and combines them with parish population to give accessibility surfaces:</p><ul><li><strong>1890s:</strong> roads read from Häradsekonomiska kartan by AI models, tile by tile, then reviewed, stitched and repaired;</li><li><strong>1960s:</strong> today's roads checked against the ink of Ekonomiska kartan (1963–74);</li><li><strong>today:</strong> OpenStreetMap.</li></ul><p>The deposit contains the pipeline code, the instructions given to the models, the shareable derived data (the models' answers, repairs, scored road edges, the corridor's OpenStreetMap network, and the worked example: the author's tracing of one tile), and a short report (<code>report/report.pdf</code>) with effort, accuracy and scaling estimates and ideas to test before scaling up. <code>make demo</code> rebuilds the networks, maps and travel times from the shipped data plus public downloads listed in <code>SOURCES.md</code>.</p><p>This is a pilot feasibility study. It is not a historical accessibility series, and it contains no analysis of population response.</p><p>Licences: code, report and the author's derived data under MIT; OpenStreetMap-derived files under ODbL 1.0 (© OpenStreetMap contributors); parish geometry under CC0. Per-path terms are in <code>LICENSES.md</code>. No map sheet or scan is included, apart from the 1 km worked-example tile and two legend images given to the reading model; no FOLKNET population figure and no other raw source file is included.</p>",
+  "notes": "Map origin of the 1890s and 1960s road data: Lantmäteriet (Häradsekonomiska kartan, out of copyright; Ekonomiska kartan, open data under CC0). Population source: Demografiska databasen, CEDAR, Umeå universitet (2022): Folkmängdsdatabasen, https://dx.doi.org/10.17197/folknetdb_v01. Parish boundaries: Riksarkivet, via histmaps (J. Junkka). VGJ running times transcribed from Sveriges Kommunikationer 1963 nr 6 (SJ), scans hosted by Timetable World (https://timetableworld.com/). The worked example is the author's own tracing of one 1 km tile. Accessibility computed with HierX 0.1.1. AI models (Codex gpt-6.1-sol, Claude Opus 5.5) are part of the method; AI assistance was also used to write the code and draft the report, which the author has reviewed and takes responsibility for.",
+  "keywords": [
+    "historical GIS",
+    "road networks",
+    "map digitisation",
+    "AI map reading",
+    "accessibility",
+    "Sweden",
+    "Häradsekonomiska kartan",
+    "Ekonomiska kartan"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17197/folknetdb_v01",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/junkka/histmaps",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/hierx/hierx",
+      "relation": "requires",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "tile_id": "cor_e0351_n6446",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow brown-filled band with dotted/fine edges runs from the top edge at about (350,0) SSW through (320,150) to (250,260); the polyline sits on it. Symbol matches a körväg (Bättre/Sämre körväg) rather than the darker wide main road.",
+      "uncertainty_note": "Overlay class not readable from the image; my class is double_line_narrow. The break where f01 hands over to f06 near (248,285) has no visible junction on the map."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Same brown dotted-edged band continues almost straight south at u~240-248 from v~285 past 'slätten' and 'sered' to the main road at about (240,575); polyline follows it.",
+      "uncertainty_note": "Partly overprinted by the 'sered' lettering around v 450-540, but continuity is clear above and below."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Double-edged road with brownish fill enters the left edge at about (0,590), dips to ~(100,615) through the 'ed' lettering and rises to the bend at ~(240,575); polyline follows it.",
+      "uncertainty_note": "Fill is lighter than f03 east of the bend; it may be the same Landsväg/Bygdeväg or a slightly narrower road, so double_line_narrow is an alternative."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The heaviest road on the tile: dark parallel edges with grey-brown fill from the bend at (240,575) down to (300,690), east along v~705-725 past 'Hökebacken T', across the red railway at ~(660,725), then SE through (840,830) to the right edge at ~(1000,858). Polyline follows it throughout.",
+      "uncertainty_note": "Minor: exact centreline where it crosses the red railway band at (660,725) is partly obscured."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted-edged narrow band leaves the main road at ~(395,712) beside building 128 and runs SW through (310,790), (285,870) to the bottom edge at ~(275,1000); polyline follows it.",
+      "uncertainty_note": "Exact attachment point at the main road is close to a short light double-line stub (see m03)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted band runs from the right edge at ~(995,530) west past houses 133, 132, 131 to ~(790,580), then turns south along u~780 to the red railway at ~(778,690) and on to the main road at ~(760,740); polyline follows this course.",
+      "uncertainty_note": "The short piece between the railway band and the main road (v 690-740) is faint; the road may end at the railway rather than joining f03."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown single line curves from ~(490,400) west through (420,395), (330,450) to ~(270,500). On the worked example this thin orange-brown line style is the one read as Gångstig; boundaries here are red/magenta and field edges black.",
+      "uncertainty_note": "Could alternatively be a brown-drawn field/ownership edge. Western end under the 'sered' lettering: may or may not reach f06 at ~(245,520)."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A black line of evenly spaced dots runs from ~(130,640) to ~(245,655) and ends at the main road; the polyline follows it. The pure-dot pattern resembles the model legend's Gångstig, but there is no orange-brown road colour, and on the worked example black broken lines were read as boundaries.",
+      "uncertainty_note": "Path (Gångstig) vs boundary/hemmansgräns is not decided by the drawing; the geometry itself is right."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange-brown single line from ~(175,15) down to ~(210,118) where it meets the red boundary around the 'T. 5' enclosure; same style as f07, read as a footpath.",
+      "uncertainty_note": "Short and isolated; could be a brown-drawn boundary. Its northern end near the top edge is in the water-hatched corner and may continue off-tile."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 445], [120, 430], [240, 420]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Black evenly dotted line below 'slätten T' from the left edge to the N-S road f06 at ~(240,420); same symbol as f08, which the overlay does include.",
+      "uncertainty_note": "Same doubt as f08: Gångstig vs boundary. Included for consistency with f08.",
+      "alternatives": ["boundary (not a road)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[200, 795], [240, 840], [276, 893]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Thin orange-brown single line from the V-shaped field at ~(200,795) SE to the road f04 at ~(276,893); same style as f07/f09.",
+      "uncertainty_note": "Could be a brown field edge; the NW end stops at the field outline.",
+      "alternatives": ["field boundary (not a road)"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[318, 752], [388, 713]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Short light grey double-edged strip west of building 128 running from the main road at ~(388,713) SW to ~(318,752).",
+      "uncertainty_note": "Might be a short lane/driveway, or just a field strip or ditch edge; no road colour.",
+      "alternatives": ["not a road (field strip)", "double_line_narrow"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [240, 577],
+      "what_is_contested": "Which lines are continuous: f02 + f03 as one main road bending, with f06 teeing in, or f06 + f03 continuous with f02 joining.",
+      "evidence_note": "Three branches clearly meet at the bend; f02 fill is lighter than f03, which hints the main road may be f06/f03 or that f02 is a different class."
+    },
+    {
+      "uv": [248, 285],
+      "what_is_contested": "Existence of a junction where the overlay splits f01 from f06.",
+      "evidence_note": "The brown band is continuous here; only the red property boundary crosses and a small building (n5) sits west of the road. No branch is visible."
+    },
+    {
+      "uv": [762, 740],
+      "what_is_contested": "Whether f05 actually reaches the main road or ends at the railway band at ~(778,690).",
+      "evidence_note": "Between the red railway and the main road the brown line is faint and close to the railway/main-road crossing area."
+    },
+    {
+      "uv": [393, 713],
+      "what_is_contested": "Number of branches: f04 alone, or f04 plus the light stub m03, leave the main road here.",
+      "evidence_note": "Building 128 and the light double-line strip sit right at the attachment point."
+    },
+    {
+      "uv": [255, 510],
+      "what_is_contested": "Whether the footpath f07 joins the N-S road f06.",
+      "evidence_note": "The thin orange line fades under the 'sered' lettering just short of the road."
+    }
+  ],
+  "overall_note": "The overlay's main roads (f01-f06) match the drawn double-line roads well and it correctly omits the red later-added railway (with km mark 90,3) that crosses f03 at ~(660,725). The thin orange-brown lines (f07, f09, missed m02) are read as footpaths after the worked example, while the black dotted lines (f08, missed m01) cannot be decided between path and boundary. Classes in the overlay were not readable from the image, so agreements concern geometry plus my own class."
+}

@@ -1,0 +1,51 @@
+{
+  "tile_id": "cor_e0350_n6430",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the one strong road on the tile. It is a wide pair of black lines with red-brown fill, running from the west edge at about (0,485) along the lake shore to the bend at (430,540), then NE past the buildings at (600,400) and (720,300) to the dark knot at (815,165), and on NE to the top edge near (935,0). This is the Landsväg/Bygdeväg form in the legend.",
+      "uncertainty_note": "The overlay's line is hard to see NE of about (885,85), where it lies under the dark drawn road and the pink wash. If it stops there, it falls short of the top edge at about (935,0) by roughly 90 px. Course and existence are certain."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a black dotted line with a continuous orange-brown wash band. It runs from the west edge at about (0,820) through (200,848) and (245,890) to the bottom edge near (325,1000), skirting the dotted, hatched marsh at (60-260,850-1000). The coloured band is how this sheet marks administrative boundaries. A Gångstig would be dots with no colour band.",
+      "uncertainty_note": "The dots alone look like the Gångstig symbol, so a path running along the boundary cannot be fully ruled out. The colour band and the course along the marsh edge make a boundary much more likely."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the bottom edge, around (590-700,985-1000), only a short arc of the same orange/red wash band with a thin dark line is visible. It matches the boundary band of f02, and there is no double or dotted road symbol.",
+      "uncertainty_note": "Only a few tens of px are visible, right at the tile edge. The neighbouring tile would decide this."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brownish single line runs east from the knot at (815,165), under the red figure '108', at about v=175-180 to about (950,172). It sits between the red label and the grey-filled double-edged channel below it, which has pink boundary wash. It has neither the road fill of f01 nor a dotted path pattern.",
+      "uncertainty_note": "It could be a minor single-line road leaving the main road at the bridge. It could also be the edge of a boundary band or a field or plot line belonging to the '108' parcel. The red label and the pink wash obscure it, so I cannot decide."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [815, 165],
+      "what_is_contested": "Whether this is a road junction or only a road crossing a watercourse, and so whether f04 really branches east here.",
+      "evidence_note": "The main road passes a dark knot here. A thick dark line comes from the lake inlet at (685,75) via (770,130), and a grey-filled double-edged channel leaves ESE via (850,240) to the east edge at about (1000,220). This reads as an outlet stream with a bridge, not a road. The only possible road branch is the thin line f04 under '108'."
+    },
+    {
+      "uv": [432, 540],
+      "what_is_contested": "Whether anything other than the main road meets at the bend.",
+      "evidence_note": "Two blue lines (streams) meet the road here: one from the shore at (350,450) and one running south via (420,700) to (370,1000). A blue line also leaves east via '76.6' to St. Hyggesjö. A pale, straight, uninked strip runs from (350,440) to (430,1000) close by. It has no black road edges and looks like a paper fold or seam, not a road. I read no road branching here, but the pale strip leaves some doubt."
+    }
+  ],
+  "overall_note": "The only road I can read with confidence is the wide double-line main road (f01). f02 and f03 follow coloured boundary bands, and f04 cannot be decided under the '108' label and boundary wash. The blue lines, the dotted marsh edges, the dash-dot line at (790,760)-(1000,880) and the pale straight strip at u≈350-430 are not roads in my reading."
+}

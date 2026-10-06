@@ -1,0 +1,131 @@
+{
+  "tile_id": "cor_e0348_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 276],
+        [35, 291],
+        [73, 310],
+        [106, 329],
+        [134, 341],
+        [171, 343],
+        [207, 338],
+        [233, 336],
+        [272, 354],
+        [313, 378],
+        [353, 403],
+        [389, 430],
+        [419, 456],
+        [453, 481],
+        [480, 500],
+        [513, 514],
+        [548, 527],
+        [575, 539],
+        [613, 550],
+        [646, 562],
+        [666, 579],
+        [678, 601],
+        [689, 626],
+        [709, 645],
+        [735, 661],
+        [751, 680],
+        [776, 713],
+        [804, 752],
+        [831, 790],
+        [851, 815],
+        [875, 833],
+        [907, 837],
+        [946, 835],
+        [977, 834],
+        [1000, 827]
+      ],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous, heavy dark outlines enclose a brown-pink strip approximately 12–20 px wide; the casing curves together throughout, with small outlined polygons alongside the western half and horizontal hatching beside the eastern half.",
+      "uncertainty_note": "The broad pink diagonal overlaps the casing near [553, 530], but the brown strip and both edges align on either side, supporting continuation. No separate road branch is clearly visible at that crossing.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 349],
+        [12, 354],
+        [21, 380],
+        [23, 414],
+        [29, 444],
+        [36, 466],
+        [62, 488],
+        [84, 518],
+        [90, 549],
+        [96, 579],
+        [116, 608],
+        [132, 644],
+        [152, 682],
+        [174, 708],
+        [206, 738],
+        [233, 759],
+        [252, 768],
+        [275, 762],
+        [298, 758],
+        [323, 766],
+        [346, 781],
+        [362, 799],
+        [374, 815]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A single winding row of dark dots and short strokes lies on a thin ochre trace without continuous paired casing; large black lettering overlaps it around v=470–510, and scattered star symbols flank the lower portion.",
+      "uncertainty_note": "The trace is readable through the lettering from its aligned approach and exit. Its southeastern end disappears into the broad pink diagonal; a connection to f03 is possible but cannot be carried through confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some elongated marks could belong to a boundary symbol rather than a dotted path, especially along the upper portion beside outlined parcels."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "f02 and f03 may be portions of one path concealed by the pink diagonal; they are reported separately because the connecting course is obscured."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [383, 844],
+        [390, 872],
+        [393, 894],
+        [387, 911],
+        [373, 928],
+        [351, 947],
+        [329, 967],
+        [305, 988],
+        [289, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow ochre trace with intermittent dark dots or short strokes curves along the eastern side of the broad pink band, crosses the thin blue line near [393, 899], and continues southwest to the bottom edge.",
+      "uncertainty_note": "The upper end merges with overlapping pink and dark marks, preventing a certain connection to f02. The trace is less distinct near that end than below the blue-line crossing.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The trace could be a boundary or a subsidiary edge of the adjacent diagonal symbol rather than an independent path."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "It may continue to f02 behind the pink band, but the hidden course is not supplied."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [362, 800, 405, 866],
+      "why": "Broad pink colouring and heavy segmented dark marks conceal the possible connection between the two dotted traces."
+    }
+  ],
+  "overall_note": "The broad pink diagonal with segmented dark marks is read as a boundary symbol rather than a road, so its crossing with f01 is not counted as a road junction. The blue-edged cyan strip through the small farm outlines is read as water, while the closed tan outlines do not clearly establish additional lanes. The main uncertainty is whether the two dotted traces are paths and whether they connect beneath the pink band."
+}

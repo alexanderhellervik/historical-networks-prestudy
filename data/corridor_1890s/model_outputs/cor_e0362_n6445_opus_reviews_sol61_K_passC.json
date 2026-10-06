@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0362_n6445",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Top-right diagonal from about (690,0) to (1000,210) is a broad crimson colour band carrying a black dash-dot line, with a thin black line running parallel about 20 px to the NE. That is the legend's administrative boundary symbol (dash-dot, Härads-/Sockengräns type) with boundary colouring. The strip between the lines is cream, not filled brown like the road bodies on this tile.",
+      "uncertainty_note": "The thin parallel line could be the edge of something running along the boundary, but a gap of about 20 m with no brown fill does not match how this sheet draws roads. I am fairly confident this is a boundary."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the main brown-filled road band with dotted/beaded edges. It runs from about (350,100) via (315,210), (390,330), (432,390), (420,470), (395,580), (365,690), (330,780), (355,860) and (368,940) to the bottom edge near (380,1000). The overlay line stays within a few px of the band all the way. In the worked example the same brown band is read as Sämre körväg.",
+      "uncertainty_note": "The overlay does not show which class it gave this line (the label colours look like they are per feature), so I am judging the course only. The northern end at about (350,100) stops at a field corner. Whether the road ends there or continues along the field edge to the top edge is not clear (see contested junctions)."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a second brown-filled dotted band, the same symbol as f02. It runs from the south edge of the green-hatched meadow at about (790,625) via (750,700), (700,770), (678,805), (690,870) and (688,940) to the bottom edge near (712,1000). The overlay follows it closely.",
+      "uncertainty_note": "The northern end stops at the meadow. It may be a dead end, or the road may continue unsymbolised across the meadow towards the thin path f05. The overlay's class is not visible."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-red solid line runs from about (175,760) ESE to f02 at about (355,860). This is the same thin coloured line the worked example reads as Gångstig. It is distinct from the black parcel and meadow outlines.",
+      "uncertainty_note": "The line is faint, and its west end in the meadow/hatched area near (160-190,750-770) is hard to place exactly. There may be a second faint orange line further SW (around (120,890)-(240,800)) that I cannot confirm."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint yellow-orange solid line runs north of the green meadow from about (665,548) to (895,520), where it meets the black dashed line going NE. It is a thin coloured line like the Gångstig in the worked example, not a black boundary or stream line.",
+      "uncertainty_note": "The line is very pale. A thin orange line on the far left at about v=520 shows that faint orange lines on this sheet are not always paths, so I am less sure of the class than of the line itself. f05 and f07 look like one path that the overlay has split."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At bottom-left, about (0,945)-(115,912), the overlay line sits on the dark outline of the green-hatched meadow below the small pink strip at (15-95,870-905). I see no brown fill or distinct orange path line there that is separate from the meadow edge.",
+      "uncertainty_note": "This short piece at the tile edge in dense hatching is at the limit of what the resolution shows. A faint thin line may run alongside the meadow edge, but I lean towards this being only the land-cover outline."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the western continuation of the same faint yellow-orange line as f05. It runs from the field corner at about (592,603) ENE to about (665,575) along the north side of the green meadow.",
+      "uncertainty_note": "Same caveats as f05 about how pale it is. The west end at (592,603) stops at a field edge, and I see no continuation across the field to f02."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[435, 358], [480, 338], [540, 305], [575, 268], [602, 232]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j1"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin orange line leaves the brown road f02 at about (435,358), just where f02 crosses the reed/meadow hatching. It runs NE across the grey-hatched area and past the small pink plot to about (602,232), where it meets the black dashed parcel line. It is the same thin coloured line type as f04/f05/f07.",
+      "uncertainty_note": "The line is clear in the middle section. Its NE end may simply join or follow the dashed parcel line rather than stop there. The SW end could also reach f02 a little further south, around (435,375).",
+      "alternatives": ["Continues NE beyond (602,232) along or beside the dashed line towards (640,200)", "Not a path but a coloured parcel/survey line (less likely given its colour matches f04)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [350, 100],
+      "what_is_contested": "Whether the north end of f02 is a dead end at the field corner or a junction/continuation along the field boundary to the top edge.",
+      "evidence_note": "The brown band fades out at the corner of the pink field (300-380, 0-100). North of it only black field-edge lines are visible."
+    },
+    {
+      "uv": [435, 360],
+      "what_is_contested": "Whether the path m01 joins f02 here (making a 3-way junction) and exactly where, since the road kinks at this point while crossing the meadow hatching.",
+      "evidence_note": "The thin orange line reaches the road band around v=355-375, but the hatching and the kink in the road make the meeting point unclear."
+    },
+    {
+      "uv": [790, 625],
+      "what_is_contested": "Whether f03 ends at the meadow or links across it to the path f05/f07 about 80 px to the north.",
+      "evidence_note": "The brown band of f03 stops at the south edge of the green-hatched meadow, and no symbol crosses the meadow."
+    },
+    {
+      "uv": [355, 860],
+      "what_is_contested": "Whether the path f04 actually joins f02 here or stops just short of it near the small building at (320,800).",
+      "evidence_note": "The faint orange line approaches the road band at about (350-358,855-862), but the join is not distinct."
+    }
+  ],
+  "overall_note": "Two brown-filled roads (f02, f03) are clear and the overlay traces them well. f04/f05/f07 follow faint thin orange path lines, f01 is an administrative boundary rather than a road, and f06 cannot be told apart from a meadow outline. The overlay misses a thin path (m01) running NE from f02 at about (435,358) to (602,232)."
+}

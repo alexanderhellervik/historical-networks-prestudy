@@ -1,0 +1,141 @@
+{
+  "tile_id": "cor_e0346_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[170,0],[163,24],[150,49],[142,68],[146,96],[154,125],[166,157],[178,186],[186,205],[188,235],[195,268],[190,292],[181,316],[158,345],[128,374],[101,399],[75,428],[47,460],[20,493],[0,518]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark edges enclose a pale reddish ribbon, approximately 8–14 px wide; the paired edges persist through the bends and the blue-line crossing near v=240.",
+      "uncertainty_note": "The possible branch at j04 is less certain than the main ribbon.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[186,205],[211,186],[235,169],[263,153]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow reddish diagonal strip has closely spaced dark, partly dotted margins and visibly reaches the cased line at its western end.",
+      "uncertainty_note": "Individual dots and the second margin are softened by the scan.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The reddish stroke and dotted margins could be described as a composite symbol whose two-line form is insufficiently resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[263,153],[285,146],[302,128],[315,107],[339,88],[355,79],[382,74],[408,79],[433,88],[458,98],[484,93],[513,86],[536,80],[552,73]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A thin ochre-red strip with dark closely repeated dots follows the irregular course; two close margins are clearest on the western bends.",
+      "uncertainty_note": "Along flatter portions, the margins merge into one dotted stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The merged dotted portions do not clearly establish a paired-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[552,73],[573,56],[590,38],[612,23],[639,20],[675,20],[711,18],[747,15],[781,9],[813,6],[841,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish narrow band accompanied by dark repeated dots turns northeast and then follows the upper edge; its lower margin adjoins blue-grey hatching farther east.",
+      "uncertainty_note": "The second margin is difficult to separate from the adjacent hatched-area outline near the top edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some eastern portions could be a dotted boundary adjoining the hatched-area outline rather than a separate road ribbon."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[552,73],[577,69],[598,68],[615,73],[626,82]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short reddish stroke with dark dots continues east from the fork, then meets a heavier blue line and the corner of a hatched area.",
+      "uncertainty_note": "Its road status is doubtful. No continuation is carried through the overlapping blue line or around the hatched area.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may be a short road branch using the same reddish, dotted-margin symbol as f03."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a parcel or land-cover edge; under that reading j03 has only two road branches and is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[263,153],[279,171],[298,194],[320,213],[343,235],[366,258],[389,280],[410,303],[437,332],[464,354],[483,338],[504,325],[519,325],[545,336],[572,350],[600,364],[632,369],[670,373],[709,375],[746,374],[780,367],[807,354],[836,344],[858,346],[888,355],[924,362],[962,365],[1000,372]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow reddish ribbon with dark dotted or broken margins passes several solid building marks, descends diagonally, and continues east through a sequence of visible bends.",
+      "uncertainty_note": "Lettering overlaps the diagonal section around u=365–410, but the reddish margins on either side support the traced continuation. The second margin becomes indistinct along parts of the eastern section.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Where the paired margins merge, the exact symbol form remains unresolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[88,386],[109,404],[124,411],[151,398],[177,378],[204,360],[235,349],[267,338],[299,328],[332,319],[363,312],[374,304],[369,287],[375,276]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A pale grey-tan strip, roughly 6–12 px across, lies between approximately parallel dark and grey strokes along the lower edge of the peach-coloured polygon; it bends sharply beside the cased road.",
+      "uncertainty_note": "This may be a narrow road, or a field outline accompanied by a pale halo. Its eastern end becomes confused with angular outlines and lettering; a connection to f06 is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the parallel strokes are independent road margins, they form a narrow track along the polygon edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may be a land-cover boundary and scan halo rather than a road; under that reading j04 is not a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [186,205],
+      "branch_count": 3,
+      "evidence_note": "The two dark margins of the pale cased ribbon continue north and south; a narrower reddish, dotted-margin strip meets its eastern side."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [263,153],
+      "branch_count": 3,
+      "evidence_note": "Three narrow reddish strokes meet: one southwest toward the cased ribbon, one northeast into the dotted winding line, and one southeast past solid building marks."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [552,73],
+      "branch_count": 3,
+      "evidence_note": "The reddish dotted line divides into a northeast arm and a short eastward arm. Three road branches are conditional on the eastward arm f05 being a road."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [88,386],
+      "branch_count": 3,
+      "evidence_note": "The broad cased ribbon continues in both directions beside a southeast-turning pale strip bounded by dark and grey strokes. Three road branches are conditional on f07 being a road."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The reddish dotted symbols are clearer as road courses than as exact symbol classes. The short eastern arm at the upper fork and the pale strip below the peach polygon support alternative readings, so their junctions are conditional. Blue continuous outlines, long separated boundary dashes, and the broad lower scan crease were excluded."
+}

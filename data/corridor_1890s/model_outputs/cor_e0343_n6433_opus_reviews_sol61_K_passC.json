@@ -1,0 +1,101 @@
+{
+  "tile_id": "cor_e0343_n6433",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the dead-straight diagonal pair (a carmine line beside a dark line) from about (393,0) to (0,465). It runs straight across the open water of the lake '...tnet' at about (110-200, 220-320) with no bridge or causeway, and the red lake-shore line from (0,290) joins it. It shows no railway barring and no road verge. A straight red line that ignores the terrain and crosses water is how this sheet draws administrative boundaries; the red lines on the example tile were read as Gräns.",
+      "uncertainty_note": "The doubled appearance could suggest a landsväg or railway, but the lake crossing and the lack of any railway pattern make a boundary much more likely."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a fine dotted dark line with an orange-brown edge from the left edge at (0,645) via (80,568), (200,530), (330,492) and (405,487) to about (445,458) at the stream. This matches the single-dotted Gångstig symbol and the orange dotted paths read as Gångstig on the example tile. The overlay's course follows it closely. My class is dashed_line (dotted), as the nearest form in the vocabulary.",
+      "uncertainty_note": "I cannot see the overlay's own class. If it already gave the dotted/dashed form, this is a plain agree. A dotted ownership boundary is a less likely reading."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same dotted orange-edged symbol runs from about (525,512) east past the south side of the farm buildings at 'T' (about 650,495; 760,490; 850,487). It then rises to (920,450) and reaches the right edge at about (1000,430). The overlay course is close throughout.",
+      "uncertainty_note": "Near the 'T' buildings (740-900, 470-510) the dots merge with the building outlines, so the exact course there is approximate. As with f02, the class difference may be only nominal."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A broad orange-brown band with dotted/doubled edges runs from the bottom edge at (330,1000) via (365,885), (480,830), (640,778) and (725,748). It then curves north-east past the 'Slereb..' farm through (790,680), (835,610) and (900,575) to the right edge at about (1000,540). This is the clearest road drawing on the tile, and the overlay follows it.",
+      "uncertainty_note": "East of about (900,570) the band runs close to the stream and the lake shore at '10..', so the exact edge exit could be anywhere between v 520 and 550. The class could be single_line with brown wash rather than a true double line."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A carmine line with a thin dark companion line and a pale verge band runs from the left edge at (0,888) via (95,884), (130,845), (200,770), (265,675) and (300,612) to about (345,592). The road spot height '98,6' sits directly on its continuation. This red-line-with-verge form is what the example tile reads as Sämre körväg.",
+      "uncertainty_note": "On the overlay the drawn line seems to stop near (345,592), although the same road clearly continues east to f06; see missed feature m01. At the left edge a red line also runs south along u≈5, so the road may turn rather than exit west."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the same carmine road with a pale verge as f05, here from about (522,543) via (565,550) to (650,562), just north of where the stream bends at (575,605). The overlay follows it for this stretch.",
+      "uncertainty_note": "The overlay appears to end near (650,562), but the red road continues east to about (805,610), where it reaches f04; see missed feature m02. The overlay may simply be hard to see over the red map line there."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (505-540, 788-808) the drawing is a small, closed, elongated outline (a building or plot symbol) lying beside f04. It is not a line that leads anywhere.",
+      "uncertainty_note": "It could be a very short access stub to f04, but the outline is closed at both ends."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[345, 592], [395, 600], [440, 584], [490, 561], [522, 543]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The carmine road line with its pale verge continues without a break between the overlay's end of f05 and the start of f06. It passes just above the red spot height '98,6' at about (400-545, 600-630).",
+      "uncertainty_note": "The overlay may already include this stretch under f05 or f06, because a thin overlay line is hard to tell apart from the red map line. I report it in case it is a real gap.",
+      "alternatives": ["part of f05", "part of f06"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[650, 562], [705, 566], [760, 582], [805, 610], [820, 623]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The red road with its verge goes on east from f06 along the north side of the stream. It passes below the 'T' buildings to about (805,610) and there appears to meet the brown road f04 near (820,623).",
+      "uncertainty_note": "East of (760,585) the red line runs into a tangle of the doubled blue stream, a thin red line rising NE between the buildings, and f04. It may join f04, or it may continue ENE along the stream to the right edge at about (1000,555).",
+      "alternatives": ["continues ENE via (880,580), (940,563) to the edge at (1000,555)", "ends at the junction with f04 at about (820,623)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [480, 485],
+      "what_is_contested": "Whether f02 and f03 form one continuous path that crosses the stream here, or are two separate paths that each end at it.",
+      "evidence_note": "The dotted line f02 ends at about (445,458) and f03 starts at about (525,512). The stream runs diagonally between them, and no dots are visible in the roughly 90 px gap."
+    },
+    {
+      "uv": [815, 618],
+      "what_is_contested": "The number of branches and which lines meet: the red road (f06/m02), the brown road f04, the doubled blue stream, and a thin red line rising NE between the 'T' buildings all converge here.",
+      "evidence_note": "The lines cross or touch within about 30 px. From the drawing alone it is unclear whether the red road ends on f04, crosses it, or carries on alongside the stream."
+    },
+    {
+      "uv": [5, 888],
+      "what_is_contested": "Whether the red road f05 leaves the tile westward at v≈888, or turns south along the red line that follows the left edge down to (8,1000).",
+      "evidence_note": "There is a red line both westward and southward at the corner. The southward one hugs the tile edge and may be a boundary."
+    }
+  ],
+  "overall_note": "The real roads are the carmine road with a verge (f05, m01, f06, m02), the brown road f04, and the dotted footpaths f02 and f03. The straight diagonal f01 crosses a lake and reads as a boundary, and f07 is a small closed outline. The thick dark-blue line from the lake outflow down to the pond at the bottom-left is a stream, and the black dashed lines are skifte/boundary lines; none of these are roads."
+}

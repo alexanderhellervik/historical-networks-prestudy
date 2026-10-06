@@ -1,0 +1,69 @@
+{
+  "tile_id": "cor_e0349_n6423",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a continuous orange-brown road line with dark edges running from the farm plots at about (755,115), SW past the long field at (590,265), under 'Lovik' and along the north edge of the orange field at (220-330,420-460) to the sheet seam at u≈215. It is drawn the same way as the Sämre körväg in the worked example, and the overlay polyline lies on it.",
+      "uncertainty_note": "The overlay's class cannot be read from its line colour, so I am stating the class myself. At this resolution I cannot tell double_line_narrow from single_line. The NE end may stop at the farm or may continue a short way to the grey/pink boundary band."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[102, 214], [140, 245], [178, 280], [212, 315], [232, 352]],
+      "evidence_note": "The SE limb follows a thin brown, apparently dotted line that runs from about (105,215) down to the seam at (212,315). It is drawn like the Gångstig in the example. The W limb (0,245)-(100,213) runs on a thin crimson line that continues NE to the boundary corner at (150,188), where the pink-edged and grey-edged boundary turns. In the example, thin red lines of this kind are boundaries.",
+      "uncertainty_note": "If the crimson line is a road and not a boundary, the overlay's W limb is right but stops short of the corner at (150,188). The SE end beyond the seam towards the Lovik buildings at (240,375) is not legible."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short segment (233,365)-(258,428) runs past the small building mark at (240,378) and along the dark outline of the small green meadow at (215-255,395-445). I can see no dotted or brown road stroke separate from that outline.",
+      "uncertainty_note": "It would make sense as the link from the f02 path through the Lovik buildings to the f01 road, but it may just be the meadow edge traced by mistake."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "West of the sheet seam, the f01 road carries on SW in the narrow strip between the two orange fields at (85-210,435-600). The overlay line keeps to that strip from (215,460) to about (85,575).",
+      "uncertainty_note": "The seam at u≈210-220 interrupts the drawing. Inside the strip the road stroke is faint and hard to separate from the black field outlines, so the course is likely but not certain."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At (820-950,28-40) the overlay follows the red line that continues the pink-edged boundary along the top of the tile and turns down at (955,45). This is the same boundary that has the grey band on its other side all the way back to (150,185). I see no road symbol there.",
+      "uncertainty_note": "A short farm road to Espevik could cross the boundary near (780-840,40-110), but nothing drawn there separates from the boundary band."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [102, 214],
+      "what_is_contested": "Whether this is a road junction at all. The brown dotted path (f02's SE limb) meets the thin crimson line here. If the crimson line is a road, this is a 3-way junction, with branches W to the edge and NE to (150,188). If it is a boundary, the path simply ends on a boundary.",
+      "evidence_note": "The crimson line is thinner and redder than the f01 road and it ends at a boundary corner, which suggests a boundary. The overlay treats it as a road."
+    },
+    {
+      "uv": [215, 458],
+      "what_is_contested": "How f01 and f04 join across the sheet seam, including whether they meet exactly here or offset by a few pixels.",
+      "evidence_note": "The vertical paper seam at u≈210-220 breaks the line drawing."
+    },
+    {
+      "uv": [258, 430],
+      "what_is_contested": "Whether f03 really meets f01 here, i.e. whether a path runs from the Lovik buildings down to the road.",
+      "evidence_note": "Only the outline of the green meadow is visible. There is no separate path stroke."
+    },
+    {
+      "uv": [755, 115],
+      "what_is_contested": "Whether f01 dead-ends at the farm plots or carries on NE to meet the boundary band or a road to Espevik.",
+      "evidence_note": "The road line fades into the orange plot outlines at (760-860,80-140)."
+    }
+  ],
+  "overall_note": "The main road (f01, continued as f04) is clearly drawn and I agree with it. f02 is right for its SE path limb, but its W limb is probably a thin red boundary, and f05 traces a boundary. The wide grey and pink bands along the top are boundary edging, not roads."
+}

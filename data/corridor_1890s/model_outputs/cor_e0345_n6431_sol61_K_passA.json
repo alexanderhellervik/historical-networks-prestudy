@@ -1,0 +1,216 @@
+{
+  "tile_id": "cor_e0345_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 395], [37, 411], [76, 429], [115, 449], [153, 471], [192, 497], [233, 526], [277, 550]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A reddish-brown diagonal stroke has a finer, approximately parallel gray-dark stroke below it, separated by a narrow pale strip.",
+      "uncertainty_note": "The finer stroke is faint; a coloured boundary beside another linear mark remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent pair could combine a boundary stroke with a separate faint line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[96, 0], [110, 44], [122, 87], [135, 126], [146, 164]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A pale brown-red strip descends diagonally between faint dark margins, approximately 8–12 pixels apart.",
+      "uncertainty_note": "The margins are unevenly preserved; j03 is conditional on the transverse line being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Fading prevents a firm distinction between a narrow road and a coloured boundary with adjacent marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[146, 164], [160, 204], [173, 245], [188, 286], [200, 328], [213, 369], [227, 412], [242, 456], [256, 499], [269, 534], [277, 550]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j01"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The pale brown-red strip continues with faint flanking strokes; green-blue curves cross it near v=300, and a dark rounded mark overlaps its lower contact.",
+      "uncertainty_note": "Some stretches show the coloured strip more clearly than its margins; the road interpretation and the conditional status of j03 remain uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation is possible where the parallel margins fade."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[277, 550], [310, 574], [347, 601], [387, 629], [427, 656], [464, 681], [461, 722], [452, 764], [444, 806], [435, 848], [429, 892], [423, 935], [417, 979]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish diagonal stroke with a faint nearby gray stroke crosses horizontal hatching, bends sharply near [464,681], and continues downward beside dark stippling and hatching.",
+      "uncertainty_note": "Hatching makes the second margin difficult to distinguish, particularly below the bend; j02 is conditional on f07 and f08 being roads.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The coloured stroke may be a property boundary, with nearby hatching or edging creating the apparent second margin."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[417, 979], [413, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short reddish stroke continues toward the bottom edge, with dark horizontal marks immediately beside it.",
+      "uncertainty_note": "This short section does not resolve a separate road margin; its connection to f04 is visible, but its road status follows that feature's uncertainty.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may continue the faint paired symbol of f04."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead continue a coloured property boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 815], [8, 837], [15, 865], [19, 901], [23, 927], [35, 945], [50, 960], [60, 980], [68, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A relatively heavy ochre-red winding strip clips the lower-left corner, with dark edging on both sides and a narrow lighter interior.",
+      "uncertainty_note": "The edging is locally blurred, so its exact spacing is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "If the dark edging belongs to one broad painted stroke, the symbol form is unresolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[337, 1000], [370, 989], [417, 979]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin ochre-reddish diagonal line has closely adjacent dark short marks and passes beside horizontal hatching.",
+      "uncertainty_note": "This may be a boundary rather than a track; its apparent crossing with f04 and f05 is consequently conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If a track, it could be represented by the thin continuous stroke with adjacent intermittent marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property boundary is an equally plausible reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[417, 979], [460, 966], [509, 949], [557, 933], [606, 916], [643, 894], [679, 862], [716, 834], [754, 809], [792, 779], [832, 750], [874, 720], [918, 693], [949, 679], [978, 673], [1000, 671]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin ochre-red line follows several bends, with dark intermittent marks closely alongside; it crosses long black dashed lines and passes through the 'Gäuntorp' lettering.",
+      "uncertainty_note": "The coloured course is visible on both sides of the lettering, but its symbol may be a property boundary rather than a road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A lightly drawn track with intermittent dark edging is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The continuous colour and adjacent dark marks may form a boundary symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0, 210], [35, 198], [72, 185], [110, 175], [146, 164]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin ochre-orange stroke rises gently rightward; no consistently separated second stroke or casing is visible.",
+      "uncertainty_note": "The line could be a boundary; its intersection with the descending pale strip is a road junction only under the track interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It could be a faint single-stroke track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be a faded coloured boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[146, 164], [186, 150], [229, 136], [272, 123], [316, 108], [359, 99], [405, 95], [453, 95], [503, 94], [553, 94], [603, 95], [653, 92], [703, 91], [753, 94], [803, 96], [853, 96], [903, 97], [953, 96], [1000, 92]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The thin ochre-orange stroke continues across the upper face, becoming nearly horizontal and crossing stronger red oblique strokes without a visible road casing.",
+      "uncertainty_note": "Its faint, largely uncased symbol supports both a track and a boundary reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A faint continuous track is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property boundary is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[1000, 359], [976, 363], [962, 377], [954, 397], [949, 425], [947, 460], [948, 499], [949, 538], [950, 577], [956, 611], [960, 632]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "A thin orange-brown stroke curves inward from the right edge and descends to a stronger red transverse line; a separate green-blue curve lies nearby.",
+      "uncertainty_note": "No clear paired margin is visible, and a curved property boundary is plausible; 'dead_end' records only where this drawn stroke terminates.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It may be a faint uncased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead outline a property compartment."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [277, 550],
+      "branch_count": 3,
+      "evidence_note": "The pale descending strip meets the diagonal reddish paired stroke beneath a dark rounded overprint; branches are visible toward the top, upper left and lower right, although their road classification remains uncertain."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [417, 979],
+      "branch_count": 4,
+      "evidence_note": "The downward reddish stroke intersects the ochre diagonal amid horizontal hatching, giving four visible arms; this is a four-branch road junction only if the ambiguous diagonal is a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [146, 164],
+      "branch_count": 4,
+      "evidence_note": "The thin ochre transverse stroke crosses the pale brown-red descending strip, with both continuing on either side; the four-branch road interpretation is conditional on the ochre stroke being a track."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Faint parallel strokes support the principal road candidates, but fading and marsh hatching weaken the distinction from coloured boundaries. The upper transverse line, lower diagonal and curved right-edge line are retained as ambiguous candidates, with conditional junctions where applicable. Straight red parcel strokes, long black dashed lines, green-blue meanders and stippled marsh outlines were otherwise read as non-road symbols."
+}

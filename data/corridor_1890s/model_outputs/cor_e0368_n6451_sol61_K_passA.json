@@ -1,0 +1,137 @@
+{
+  "tile_id": "cor_e0368_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 313], [48, 302], [96, 291], [144, 279], [190, 265], [231, 253], [276, 241], [323, 227], [368, 214], [414, 200], [460, 185], [508, 170], [552, 155], [579, 146], [621, 131], [664, 116], [708, 101], [746, 89], [790, 73], [835, 57], [880, 42], [924, 27], [965, 14], [1000, 4]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous dark outlines, approximately 8–12 px apart, enclose an ochre strip. Red and black rectangular symbols sit alongside both sides.",
+      "uncertainty_note": "The road is clear; the distinction between wide and narrow double-line forms has no specified width threshold. The small branch at j03 is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible alternative width label for the same clearly cased course."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[225, 0], [225, 50], [226, 100], [227, 150], [229, 200], [231, 253]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close rows of small dark dots descend almost vertically, approximately 7–9 px apart, with a pale tan strip between them. They reach the upper casing of f01 beside a red rectangular symbol.",
+      "uncertainty_note": "The paired dotted symbol supports a track reading, but does not exactly match a named dotted form in the supplied class list.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Applies if two dotted rows are included within the double-line category."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applies if the category includes short dotted marks; two parallel rows remain visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[691, 0], [711, 32], [730, 65], [746, 89]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two parallel rows of dark dots, approximately 7–9 px apart, run diagonally down-right and terminate against the upper casing of f01.",
+      "uncertainty_note": "The course and connection are clear; the paired dotted symbol has no exact class name in the supplied list.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible classification of the two closely spaced dotted rows."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible classification if dotted marks count as short dashes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[745, 708], [774, 725], [808, 733], [842, 736], [876, 739], [913, 746], [951, 752], [984, 756], [1000, 758]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "Two fine rows of dark dots, roughly 6–9 px apart, curve rightward from beside a small red-and-black rectangular symbol. They pass just above a green enclosure containing another red symbol.",
+      "uncertainty_note": "The western visible end meets the rectangular symbol; no continuation through it is established. The dotted form does not exactly match a supplied class.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible classification if narrow double lines may be dotted."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible classification if dots are treated as short interrupted strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 968], [24, 985], [51, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short diagonal pair of fine dotted rows with a pale center clips the lower-left corner, below the large black lettering.",
+      "uncertainty_note": "Only a short segment is visible. Its paired dots resemble the other dotted tracks, although individual marks are faint near the edges.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible classification of the paired dotted rows."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible classification of the interrupted marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[579, 146], [557, 135], [541, 129], [527, 124]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A short pale strip enclosed by two thin gray outlines angles up-left from the vicinity of f01. The outlines appear to curve together at its western tip.",
+      "uncertainty_note": "This may be a short cased spur, but the faint drawing could instead be a closed elongated outline beside the road. Its attachment to f01 and the resulting junction are tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If read as a road, the two thin outlines support a narrow cased spur."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a closed non-road outline; under that reading, omit this feature and j03."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [231, 253],
+      "branch_count": 3,
+      "evidence_note": "The paired vertical dotted rows meet the upper edge of the continuous ochre cased line, which continues left and right."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [746, 89],
+      "branch_count": 3,
+      "evidence_note": "The diagonal paired dotted rows meet the upper casing of the ochre road; its two continuous outlines extend in both directions."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [579, 146],
+      "branch_count": 3,
+      "evidence_note": "Tentative junction: two faint gray outlines approach the upper casing of the through road from the upper left. Three branches exist only under the spur reading of f06."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The paired dotted tracks are clearer than their mapping to the supplied symbol-form classes. The short pale outline above the main road admits both a spur and a non-road reading; thin long-dashed field lines and outlines within the green water bands were excluded."
+}

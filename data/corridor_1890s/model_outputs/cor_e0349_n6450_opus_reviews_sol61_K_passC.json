@@ -1,0 +1,101 @@
+{
+  "tile_id": "cor_e0349_n6450",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[0, 122], [50, 175], [100, 240], [150, 325], [200, 385], [245, 437], [320, 418], [395, 398]],
+      "evidence_note": "Two road stretches are clearly drawn. The eastern one runs from the lake's south shore at about (245,437) to (395,398) as a pale grey band between two fine lines. The western one is a fainter thin double line from the west edge at about (0,122) down to the lake's north-west shore near (150,325). The overlay draws a straight line that sits slightly west of the faint north-west line around u=100.",
+      "uncertainty_note": "Between (150,325) and (245,437) the line would cross the reed-hatched water. I can see no band drawn through the hatching, only faint pale streaks that may be scan artefacts. The two stretches may therefore be separate roads ending at the shore, with no crossing. The western stretch is faint, and its class (narrow double line or single line) is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A wide, continuous pale grey band with fine edge lines runs from the junction near (405,355) north-east through (600,265) and (750,232) to a corner at about (842,225). From there a similar grey band runs south along u≈845–850, east of the pink field, down to about (850,575). It then runs east along v≈570 to the neat line at about (975,585). The overlay follows all of this closely.",
+      "uncertainty_note": "The north-west stretch up to (842,225) is clearly a road. The southward and eastward legs look the same but also outline the pale enclosure east of the field. They could be a grey enclosure edge, like the field-edge bands the worked example did not count as roads, rather than a continuation of the road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A grey double-line band leaves the junction near (405,400), curves through (430,455) and (458,480), and runs south along u≈460 to (460,590). It then bends east and runs below the meadow's black outline through (600,628) and (720,645) to about (960,678) near the neat line. The overlay follows this band.",
+      "uncertainty_note": "The eastern half runs right next to the field's black outline and is fainter. It could be a field-edge band rather than a road, but its width and continuity with the clear northern stretch suggest a road."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint grey line is drawn from about (735,45) through (770,75), (830,72) and (885,80) and then bends down to about (930,160) at the dark hatched ridge and pink wedge. It roughly matches the overlay. The overlay's start near (690,0) runs over the teal stream and red boundary lines rather than over a grey band.",
+      "uncertainty_note": "The line is fainter than the clear roads and looks like the edge of a pale enclosure. It does not visibly connect to any other road. I cannot decide between a minor road and an enclosure edge."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a very short stub at the east edge around (945–985, 680–700), where the f03 band reaches the dark double neat line at u≈975–985. East of the neat line is outside the map face.",
+      "uncertainty_note": "It could just be the last few metres of f03 to the neat line. At this resolution there is no separate drawn road here that I can tell apart from f03 or from the neat line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a second very short stub at the same east-edge spot as f05, around (945–980, 665–690), beside the neat line. There is a small red mark near (960,665), but no separate grey band.",
+      "uncertainty_note": "It overlaps or duplicates the end of f03, or may join f02's end to f03 along the frame. Nothing drawn here separates it from the neat line."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line is a fine dotted line from (588,458) down to (618,515) and back up to (695,440). It encloses a small, slightly greener patch inside the meadow, so it reads as a land-cover (meadow-type) boundary, not a path.",
+      "uncertainty_note": "Gångstig is also a fine dotted line in the model legend, so a path cannot be ruled out entirely. Its closed, area-bounding shape and the lack of any destination make that unlikely."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a short fine dotted line from about (752,280) to (745,345), where it meets the pink field's outline. Like f07, it separates two land-cover areas inside the enclosure.",
+      "uncertainty_note": "The dot style is the same as Gångstig in the legend. A short path from the road band at the top to the field cannot be excluded."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow strip bounded by two parallel black lines runs from about (585,458) to (718,425) and opens into the pink field on the east. Its fill looks pale, not pink.",
+      "uncertainty_note": "The black outline is the same as the arable-field outline. It may be a narrow arm of the field or a cattle lane leading out of it, not a road with grey-band styling. Its west end stops at the dotted line, not at any road."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [402, 395],
+      "what_is_contested": "This is a three-way meeting of f01's eastern stretch, f02 and f03. It is unclear whether there is one junction, or whether f02 and f03 form one continuous curve that f01 joins from the west. The exact junction point could lie anywhere from (400,355) to (405,400).",
+      "evidence_note": "The grey bands widen into a blob around (395–415, 350–400), and a stream line also passes through it, so the branch geometry is unclear."
+    },
+    {
+      "uv": [245, 437],
+      "what_is_contested": "It is unclear whether the road ends at the lake shore here or continues across the reed-hatched water to the faint north-west road at (150,325).",
+      "evidence_note": "The band stops visibly at the hatching edge. Inside the hatching there are only faint pale diagonal streaks, which may be artefacts."
+    },
+    {
+      "uv": [843, 226],
+      "what_is_contested": "It is unclear whether this is just a corner of f02 or whether the road ends here and the southward grey band is only an enclosure edge. A link north to the faint f04 line is also possible.",
+      "evidence_note": "The clear road band meets a grey line running south along the enclosure. No band visibly continues north."
+    },
+    {
+      "uv": [975, 630],
+      "what_is_contested": "f02 (v≈585) and f03 (v≈680) both reach the neat line close together. It is unclear whether they join along the frame or beyond the tile, and whether the stubs f05 and f06 are separate branches.",
+      "evidence_note": "The dark double neat line at u≈975–985 hides anything at the very edge."
+    }
+  ],
+  "overall_note": "The clear roads are grey double-line bands. They meet near (402,395): one runs west to the lake shore, with a faint continuation north-west; one runs north-east to (843,225); one runs south and then east along the field edge to the neat line. The dotted lines f07/f08 look like land-cover boundaries, and the black-outlined strip f09 is ambiguous. The fainter grey bands bounding the eastern enclosures (the southern legs of f02, and f04) may be enclosure edges rather than roads."
+}

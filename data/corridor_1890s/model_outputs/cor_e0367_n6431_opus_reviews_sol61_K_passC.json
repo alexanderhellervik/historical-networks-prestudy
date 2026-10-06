@@ -1,0 +1,157 @@
+{
+  "tile_id": "cor_e0367_n6431",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Bold double line with brown-red fill runs from the left edge at ~(0,405) via (150,330), (270,275), (470,315), (540,355), (630,385), (800,340) to the right edge at ~(1000,235); the overlay line follows it all the way.",
+      "uncertainty_note": "Course is certain. The fill and width fit Landsväg/Bygdeväg."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Double line with pinkish-brown fill leaves f01 at ~(540,360) and runs south via (550,450), (595,580), (607,700), (615,850) to the bottom edge at ~(610,1000); the overlay follows it.",
+      "uncertainty_note": "Course is certain. The fill is paler than f01, so it may be a lower-ranked road (double_line_narrow), but the line spacing is about the same as f01."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "avenue_lined",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line with black dots runs from f01 at ~(630,395) ESE via (700,430) and (835,495) to the right edge at ~(1000,545). A row of small circles runs along its south side from ~(690,440) to the edge, which looks like the Allébeteckning/Häck symbol; the overlay follows the line.",
+      "uncertainty_note": "This is the same brown-dotted symbol as the field lines in the north part of the tile, so it could be a fenced or hedged boundary rather than a road. The class could be dashed_line, or avenue_lined if the circles are trees."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[268, 272], [258, 220], [248, 155], [250, 80], [254, 0]],
+      "evidence_note": "The southern part, from f01 at ~(265,272) north to ~(245,150), follows a brown-dotted line next to a black line, i.e. a real lane. North of (245,150) the brown-dotted line goes on north along u~250 to the top edge. The overlay instead turns NW along a very faint grey line to (0,50), which has no road colour and is hardly visible.",
+      "uncertainty_note": "The faint NW line could be a faded or erased road, but it cannot be confirmed. Whether the brown-dotted lines are roads (sämre körväg) or hedged boundaries is not certain."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay follows a very faint, pale grey line from ~(790,25) via (920,115) to (1000,100). It has no road fill, no dots and no clear double line.",
+      "uncertainty_note": "This could be a faded road, a pencil construction line or a parcel edge. The drawing is too faint to decide."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear row of black dots runs from near f01 at ~(80,395) SE via (160,460) and (240,540) to the building marker at ~(295,598), matching the Gångstig dotted symbol; the overlay follows it.",
+      "uncertainty_note": "Its exact connection to f01 at the NW end is slightly unclear."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between f01 at ~(460,320) and ~(465,270) there are only the building marker at (445,290), the letter 'T' and plot outlines; no road line is drawn along the overlay course.",
+      "uncertainty_note": "A short farmyard access may exist, but nothing on the drawing shows one."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay follows a long thin black wedge from ~(370,612) to ~(540,550), below the 'Vråna T' label. The wedge narrows to a point at its west end, which looks like the outline of a narrow parcel or a ditch, not a road symbol.",
+      "uncertainty_note": "Medium confidence: it could be a sunken track drawn as an outline, so cannot_tell is the alternative."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between the 'G.' and 'B.' labels near ~(530,955)-(610,948) there are building markers and short dashes, which are part of the 'G.-.B.' label lettering, plus a field outline. There is no clear road line between them.",
+      "uncertainty_note": "A short yard track from f02 to the buildings is plausible, but the dashes can just as well be label punctuation or small buildings."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[248, 140], [320, 128], [380, 125], [450, 145], [520, 165], [600, 198], [710, 232]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["J_265_272_north", "J_520_165", "J_710_232"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown line with black dots runs east along the north edge of the wooded meadow from the f04 lane at ~(248,140) to ~(710,232). It is the same symbol as f03.",
+      "uncertainty_note": "Brown-dotted lines here may be field roads (sämre körväg) or hedged/fenced parcel boundaries; the colour is not the carmine used for administrative boundaries.",
+      "alternatives": ["field boundary with fence or hedge, not a road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[520, 165], [535, 90], [548, 40], [555, 0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["J_520_165"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown-dotted line runs north from m01 at ~(520,165) to the top edge at ~(555,0), next to a carmine boundary at the top.",
+      "uncertainty_note": "Same symbol doubt as m01.",
+      "alternatives": ["parcel boundary"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[710, 232], [740, 140], [765, 70], [790, 0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["J_710_232"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown-dotted line runs NNE from ~(710,232) to the top edge at ~(790,0).",
+      "uncertainty_note": "Same symbol doubt as m01.",
+      "alternatives": ["parcel boundary"]
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[710, 235], [680, 285], [655, 330], [630, 382]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["J_710_232", "J_630_388"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown-dotted line runs SSW from ~(710,235) through the 'Nybygget' lettering to f01 at ~(630,382), roughly opposite the start of f03.",
+      "uncertainty_note": "Partly hidden by the lettering. Same symbol doubt as m01.",
+      "alternatives": ["parcel boundary", "continuation of f03 across f01 forming a crossroads"]
+    },
+    {
+      "feature_id": "m05",
+      "waypoints_uv": [[800, 515], [802, 580], [806, 640], [808, 690]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["J_800_515"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two close parallel thin black lines (u~798 and ~810) run south from f03 at ~(800,515), past 'Backen T', to ~(808,690), with a small V-shaped opening where they meet f03.",
+      "uncertainty_note": "This could be a narrow lane or two adjacent parcel or ditch edges. There is no road fill.",
+      "alternatives": ["parcel edges / ditch, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [630, 388],
+      "what_is_contested": "Whether f03 (south side) and m04 (north side) meet f01 at the same point to form a four-way crossroads, or are offset, and whether either is a road at all.",
+      "evidence_note": "Both brown-dotted lines reach the main road between u~625 and ~635. Building markers at (570,400) and (625,428) crowd the spot."
+    },
+    {
+      "uv": [540, 360],
+      "what_is_contested": "Exactly where f02 leaves f01: at ~(540,360) or further west near the black blob at ~(515,350).",
+      "evidence_note": "The double line of f02 widens into the main road between u 520 and 550, and building marks and the '110.7' elevation figure cover the area."
+    },
+    {
+      "uv": [248, 148],
+      "what_is_contested": "Number of branches: whether the lane from f01 continues north to the top edge, turns east as m01, follows the faint NW grey line (overlay f04), or does several of these.",
+      "evidence_note": "The brown-dotted lines meet here, and only a very faint grey line goes NW."
+    },
+    {
+      "uv": [80, 392],
+      "what_is_contested": "Whether the f06 footpath actually joins f01 or ends just short of it. A black line and a carmine boundary also branch south from f01 near (35,400).",
+      "evidence_note": "The dotted row fades out near (85,400), next to the main road and several converging lines."
+    },
+    {
+      "uv": [800, 515],
+      "what_is_contested": "Existence of a junction between f03 and the possible lane m05.",
+      "evidence_note": "There is a V-shaped meeting of thin black lines below the brown-dotted line near the building marker at (835,497)."
+    }
+  ],
+  "overall_note": "The two filled double-line roads (f01 east-west, f02 south) and the dotted footpath f06 are clear and the overlay follows them well. The main doubt is the network of brown-dotted lines (f03, the north part of f04, m01-m04), which I read as minor roads but which may be hedged or fenced boundaries. f05 and the NW part of f04 follow lines too faint to judge, and f07/f08 do not match a drawn road."
+}

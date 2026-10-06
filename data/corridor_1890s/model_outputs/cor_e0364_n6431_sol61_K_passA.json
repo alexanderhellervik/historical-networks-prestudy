@@ -1,0 +1,181 @@
+{
+  "tile_id": "cor_e0364_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,440],[28,417],[48,403],[76,376],[105,350],[133,323],[160,295],[186,272],[216,254],[245,235],[275,216],[308,190],[339,169],[369,147],[399,126],[432,103],[465,80],[497,57],[530,34],[560,13],[578,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown strip runs immediately northwest of the black-and-white railway; its dark margins contain short dots or strokes, roughly 5–8 px apart.",
+      "uncertainty_note": "The margins become difficult to separate from the magenta bank marking toward the northeast. A connection with f02 near [520,55] is possible but is not sufficiently visible to assert.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired margins could be described as narrow double lines, with intermittent rather than continuous edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[528,58],[560,79],[589,107],[616,136],[642,160],[666,184],[690,211],[716,240],[741,258],[756,272],[781,300],[807,328],[835,352],[861,371],[893,381],[925,390],[956,402],[982,416],[1000,428]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Two comparatively heavy, continuous dark lines enclose an orange strip approximately 10–14 px wide; the casing remains visible around the large black lettering.",
+      "uncertainty_note": "The northwest end overlaps the railway and bank markings. Its continuation to f01 cannot be established confidently; the course through the large lettering farther southeast is supported by matching casing on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The northwest endpoint might extend across the railway to f01 near [520,55], creating a three-branch junction, but that connection is overprinted."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[756,272],[753,294],[743,324],[735,356],[728,389],[719,421],[716,446],[722,464],[744,485],[770,505],[791,528],[805,555],[819,584],[838,613],[863,643],[889,669],[915,695],[938,719],[955,746],[967,774],[970,803],[970,833],[975,864],[982,895],[987,925],[987,950],[977,980],[967,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A winding orange-brown strip has two rows of dark dots or short strokes, about 6–9 px apart; it joins the continuously cased road and crosses the straight red diagonal.",
+      "uncertainty_note": "The paired dotted margins make the symbol-form classification debatable. The red diagonal crossing near [967,774] is read as a boundary, so no road junction is asserted there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The narrow strip could instead be classified by its two separated margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[48,403],[60,421],[74,442],[103,475],[111,490],[135,518],[161,547],[190,576],[218,610],[246,644],[270,676],[300,708],[329,741],[358,772],[388,805],[417,836],[446,865]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "An orange strip crosses the black-and-white railway, passes between outlined building rectangles, and continues southeast with paired dark dotted margins approximately 6–8 px apart.",
+      "uncertainty_note": "Lettering masks portions around [110,490]–[145,530], but matching orange segments support the through course. The dotted orange symbol stops near [446,865]; the thin black continuation is read as a parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired dotted margins could be classified as a narrow double-line symbol."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The black line continuing through approximately [477,907] to [540,978] could conceivably be a path, although its connections to angular parcel outlines favour a boundary reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,504],[21,521],[44,531],[68,537],[88,538],[105,533]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A curved orange-brown band, about 6–9 px wide and edged with dark short strokes, enters from the left and bends beneath the black lettering.",
+      "uncertainty_note": "The east end disappears beneath lettering and an angular black outline. It may meet f04 near [120,520], but the connecting road symbol is not clear enough to carry through or assert a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible curve has two separated margins, although both are intermittent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,539],[29,573],[61,609],[91,644],[122,679],[153,713],[185,748],[215,782],[246,818],[276,851],[304,882],[317,896],[313,919],[309,939],[318,955],[339,978],[359,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A separate orange-brown diagonal has two dark dotted margins around a roughly 6–8 px strip; near the bottom it bends sharply before crossing a blue outlined channel.",
+      "uncertainty_note": "The dark edging merges briefly with the channel outlines at the crossings, but the orange strip is visible on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Classification by the paired margins is also reasonable."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[21,190],[43,212],[61,237],[78,261],[94,279]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Two dark continuous strokes enclose a pale narrow strip, approximately 4–6 px wide along the lower portion; their southeast end projects into the pale blue outlined area.",
+      "uncertainty_note": "This is a doubtful road candidate: the pair could outline a narrow parcel or bank feature. No continuation from [94,279] to the nearby orange track is drawn clearly.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired strokes may be a narrow property strip or water-related structure rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[294,0],[291,24],[290,32],[314,40],[340,48],[366,56]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A thin dark line descends from the top and turns beside the blue outline; along the turn, a faint orange strip lies between a solid lower stroke and intermittent upper marks, approximately 5–8 px apart.",
+      "uncertainty_note": "The apparent paired strip is difficult to distinguish from a parcel edge combined with the water-bank outline. Its east end is masked by building symbols and lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two margins belong to one symbol, this may be a narrow track turning along the blue outline."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The vertical segment may be a parcel boundary and the horizontal marks separate bank and boundary strokes, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,861],[4,839],[8,818],[7,808]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short orange-brown strip with a dark margin clips the left edge beside the blue channel; its upper end merges into heavy dark strokes at the channel bend.",
+      "uncertainty_note": "The short exposed length does not establish whether this is a track or the coloured edge of a narrow parcel. No connection to another road is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The orange strip and adjacent dark strokes could represent a short narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a parcel or bank edge beside the blue channel."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [756,272],
+      "branch_count": 3,
+      "evidence_note": "The wide orange strip has continuous dark casing in two directions; a narrower orange branch with dotted margins meets its southwest casing, making three visible road arms."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [48,403],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange strip continues northeast and southwest beside the railway; an orange branch turns southeast across the black-and-white band toward the building rectangles, giving three arms."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [503,40,538,76],
+      "why": "Railway blocks, dark casing and the magenta bank marking overlap the possible connection between f01 and f02."
+    },
+    {
+      "bbox_uv": [96,488,146,541],
+      "why": "Heavy black lettering and an angular outline conceal the possible connection between the curved f05 and diagonal f04."
+    },
+    {
+      "bbox_uv": [365,27,407,65],
+      "why": "Building symbols and lettering conceal any continuation of the doubtful narrow strip f08."
+    }
+  ],
+  "overall_note": "The principal difficulty is separating narrow orange tracks from coloured parcel or bank edges, especially beside the railway and under lettering. The black-and-white railway, blue channels, straight red diagonal and clearly angular parcel outlines are excluded. Possible hidden connections are noted without completing them."
+}

@@ -1,0 +1,120 @@
+{
+  "tile_id": "cor_e0367_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[174,894],[200,872],[228,853],[256,841],[284,829],[311,816],[339,788],[367,755],[397,722],[426,688],[454,655],[483,623],[511,591],[540,559],[568,535],[598,513],[623,488],[648,460],[674,430],[699,398],[723,366],[747,332],[771,299],[795,267],[819,232],[844,198],[869,164],[893,135],[918,107],[942,83],[958,68]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two fine dark dotted margins, approximately 7–10 px apart, flank a pale yellow strip. They run diagonally through lettering and cross thin grey lines and solid red lines.",
+      "uncertainty_note": "Lettering near the lower end and upper-right portion masks individual dots. Aligned paired margins visible on both sides support continuation; the coordinates beneath letters are approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,842],[25,842],[49,847],[76,856],[103,867],[129,880],[153,890],[174,894]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two closely spaced rows of dark dots enclose a pale strip, bending downward toward the meeting point. Small red and dark building rectangles sit alongside.",
+      "uncertainty_note": "The solid red diagonal crossing this feature is a boundary, not an additional road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[174,894],[182,916],[198,938],[219,958],[241,980],[263,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Paired fine dark dotted margins continue southward from the meeting point, curve southeast, and pass beside and beneath the Kullen lettering.",
+      "uncertainty_note": "Letters obscure short portions, but the paired marks remain visible on either side. The continuation beyond the bottom edge is not traced.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[309,1000],[336,992],[366,986],[392,990],[418,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two fine dotted margins around a pale strip form a shallow arc that clips the bottom edge.",
+      "uncertainty_note": "This may continue the preceding feature outside the tile, but the clipped portions are reported separately.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[958,68],[965,48],[968,26],[970,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark dotted margins, roughly 7–9 px apart, bend upward beside the blue-green patch and small dark building symbols.",
+      "uncertainty_note": "Nearby dark symbols make the precise centre of the uppermost portion less distinct.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[958,68],[978,77],[1000,86]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short eastward arm has two fine dark dotted margins enclosing a pale strip, with spacing similar to the diagonal approach.",
+      "uncertainty_note": "The close meeting of dotted margins makes the junction position approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[868,530],[889,548],[909,572],[932,600],[953,629],[974,656],[994,682],[1000,691]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "One uncased row of relatively heavy dark dots runs southeast from the small red rectangle beside B. It crosses the solid red diagonal without branching.",
+      "uncertainty_note": "The repeated dots resemble the model legend's path symbol, but the supplied classes contain no explicit dotted-line class. The red rectangle hides the exact terminal contact.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if the closely spaced dots are treated as very short dashes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[389,75],[392,111],[397,151],[401,190],[404,213],[419,237],[434,261],[446,285]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "A faint single row of grey dots descends from the upper red line, then bends southeast beside the lettering toward the red and dark building marks. No clear casing is visible.",
+      "uncertainty_note": "This could be a lightly drawn path or a dotted parcel boundary. Its lower termination is confused with lettering and building ink; no connection through those marks is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A path reading treats the faint repeated marks as short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a dotted property or enclosure boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [174,894],
+      "branch_count": 3,
+      "evidence_note": "Three pale strips bounded by paired dark dots meet: westward, northeastward, and southeastward. The dotted margins converge beside small building rectangles."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [958,68],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted diagonal approach divides into a nearly vertical arm and an eastward arm; their pale interiors meet beside the blue-green patch."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [427,277,454,303],
+      "why": "Red and dark building ink overlaps the possible lower termination of the faint dotted feature f08."
+    }
+  ],
+  "overall_note": "Closely spaced dotted road margins are distinguishable from the solid red boundaries and the longer grey boundary dashes. Lettering obscures some road dots, while the faint upper-left dotted feature supports both path and boundary readings. Coordinates at obscured portions and the upper-right junction are approximate."
+}

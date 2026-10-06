@@ -1,0 +1,65 @@
+{
+  "tile_id": "cor_e0365_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [552, 1000],
+        [552, 977],
+        [555, 954],
+        [560, 932],
+        [566, 910],
+        [573, 885],
+        [579, 860],
+        [581, 839],
+        [587, 815],
+        [594, 790]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin row of dark dots or very short strokes, without parallel casing; visible below and above the final letter of Tofvered.",
+      "uncertainty_note": "The aligned portions support continuation beneath the letter. At the upper endpoint, the marks become indistinguishable from the horizontal hatching; no continuation is traced there.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 360],
+        [32, 341],
+        [66, 321],
+        [99, 302],
+        [128, 285],
+        [135, 303],
+        [144, 336],
+        [154, 372],
+        [165, 411],
+        [177, 449],
+        [188, 477]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A dark reddish stroke runs beside the blue channel to the bend; south of the bend, a finer gray stroke lies roughly 8–12 px beside the reddish stroke, enclosing a narrow pale strip.",
+      "uncertainty_note": "This is a doubtful road candidate. The western portion could be a channel bank, and the southern paired strokes could outline a narrow parcel or land-cover strip; the lower end merges with the hatched-area outline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both strokes belong to a road symbol, they define a narrow paired-line course through the bend."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road reading is plausible: channel-bank line west of [128, 285], then parcel or land-cover edges southward."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [610, 755, 710, 1000],
+      "why": "Very pale gray irregular strokes lack sufficiently clear edges or repeated marks to distinguish possible tracks from other outlines or image artifacts."
+    }
+  ],
+  "overall_note": "The fine dotted line is the clearest path candidate. The paired line near the upper-left channel remains ambiguous and is retained with a non-road alternative. Broad pink bands with dark dash marks, long slanted boundary dashes, and blue water outlines are excluded."
+}

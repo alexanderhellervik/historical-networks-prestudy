@@ -1,0 +1,165 @@
+{
+  "tile_id": "cor_e0357_n6440",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a drawn dotted road here. It runs from the top edge near the Kårtäs farm at about (110,0), down the left side to a corner at about (50,205), then east along v≈165–185 past the G farm at (350,190). West of about u=270 it is only a row of dots with a faint brown tint. East of that it becomes a red-brown line with dots, the same as the road in the neighbouring example tile that was read as Sämre körväg.",
+      "uncertainty_note": "The class is mixed along the feature. The eastern third looks more like a brown line with a dotted edge (double_line_narrow), so the overlay may have split it differently. The course itself is clear."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The red-brown road with dots continues east from about (560,185) through the '4G' farm at about (690,160). It then bends south-east past the buildings at (840,185) to the node at about (875,265). The line is continuous and clearly brown, not crimson like the boundaries.",
+      "uncertainty_note": "The symbol form could be read as single_line (brown line) rather than line plus dot row. The course is certain."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same red-brown road leaves the node at about (875,265), dips to about (920,280) and reaches the east edge at about (1000,245).",
+      "uncertainty_note": "Short segment, same class doubt as f02."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-tinted row of dots leaves the main road at about (565,190). It follows the field edge south through (555,255) and (585,300–340), down to about (570,375).",
+      "uncertainty_note": "The dots sit right on a black field-edge line, so in places path and boundary are hard to separate. The overall course is clear."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The dotted line continues south from about (570,375), along the east side of the narrow strip that holds the building at (545,450), to the farm marked '5 G' at about (540,500).",
+      "uncertainty_note": "It is unclear whether it ends at the farm or turns west into the dotted line on the north edge of the central field (see f06)."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[540, 482], [495, 476], [445, 470], [420, 495], [400, 540], [380, 590], [355, 650], [345, 700], [355, 745], [335, 800]],
+      "evidence_note": "The southern part matches. A dotted line runs along the west edge of the central field from about (445,470) down through (380,590) and (345,700) to the node at about (330,805). The overlay's northern start, though, is wrong: it runs up from (515,445) to (527,368), and that is a plain black field outline with no dots. Instead, the dots run east along the north field edge to the farm courtyard at about (540,480).",
+      "uncertainty_note": "The join between (500,476) and the farm is not crisp, so the link to f05 is my inference."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line continues south from the node at about (325,810), through (310,860) and (300,900), towards the 'Sr' buildings near the bottom edge. A crimson boundary runs close and parallel to it on its west side.",
+      "uncertainty_note": "Below about v=940 the dots are lost among the buildings and lettering. It is unclear whether the line reaches the edge or stops at the farm."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A black dotted line runs south-west from the brown road at about (875,270), through (850,340) and (810,420), to the node at about (780,462). Here several crimson boundaries meet.",
+      "uncertainty_note": "Low uncertainty."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A heavy dotted line continues from about (780,465) south through (740,570), (712,690), (715,790) and (690,900) to the bottom edge at about (668,1000). It looks like a double row of dots in places, which fits the Sämre körväg dot pattern.",
+      "uncertainty_note": "Whether it is one or two dot rows (Sämre körväg or Gångstig) does not change the dashed_line class."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a thin crimson line from the west edge at about (0,325), through (60,325), (130,460) and (210,640), to (320,740). Its pale wash band is typical of a parish or estate boundary, matching the lines read as Gräns in the example. It carries no road colour and no dots.",
+      "uncertainty_note": "The pale band beside it could be mistaken for an uncoloured double-line road. I read it as boundary wash."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a crimson boundary line with a pale wash band, running diagonally from about (780,465) to (515,825). It then follows the blue and black stream-and-boundary line west to (330,810). There are no dots and no brown road colour.",
+      "uncertainty_note": "Same boundary-wash caveat as f10."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a crimson line from about (780,460) to (860,400), then east along v≈430–440 to the edge. It has the same crimson boundary symbol as f10 and f11, with no road dots.",
+      "uncertainty_note": "Low uncertainty."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a crimson line from about (785,475), through (820,545) and (800,640), down to (700,1000). It runs parallel to the dotted road f09 but is a separate boundary line without dots.",
+      "uncertainty_note": "Low uncertainty."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between about (210,825) and (115,1000) I see no dotted or brown road line, only field colour and woodland symbols east of the dotted path near the 'III' farm. The path that is there is the one f15 partly follows.",
+      "uncertainty_note": "The area is crowded with lettering ('III T', 'Snurrebo') and field edges, so a faint line could be missed. The alternative reading is cannot_tell."
+    },
+    {
+      "reviewed_feature_id": "f15",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[180, 860], [160, 885], [143, 915], [130, 945]],
+      "evidence_note": "A brown dotted path leaves the red building at about (180,858) by 'III' and runs south-west to about (130,945). West of that, the overlay follows the line along v≈945 to the west edge, which looks like a crimson boundary rather than a road.",
+      "uncertainty_note": "The path may continue along or beside the boundary to the west edge, or south off the tile. The bottom-left corner is too crowded to decide."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[540, 482], [495, 476], [445, 470]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Dots run along the north edge of the central field, linking the '5 G' farm courtyard to the head of the dotted path that the overlay draws as f06. The overlay instead routes f06 up a plain field outline to (527,368).",
+      "uncertainty_note": "This is the same segment I give as a correction to f06. It is listed here because the overlay has no line on this course. Dot visibility between (500,476) and (540,482) is weak.",
+      "alternatives": ["The path ends at (445,470) and is not connected to the farm; the f06 head simply meets the field corner."]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [780, 463],
+      "what_is_contested": "Whether this is a road junction at all. The overlay meets five lines here (f08, f09, f11, f12, f13), but only f08 and f09 are road; they form one continuous dotted road passing a boundary node.",
+      "evidence_note": "The crimson boundaries converge on this point; the dotted road passes straight through without a branch."
+    },
+    {
+      "uv": [545, 480],
+      "what_is_contested": "How f05 connects to the dotted line along the field edge (f06 head): a junction at the farm, or two separate dead ends.",
+      "evidence_note": "The dots at the farm courtyard are broken by the building symbols and the '5 G' lettering."
+    },
+    {
+      "uv": [568, 375],
+      "what_is_contested": "Whether a third branch (the overlay's f06 start) leaves here or from (527,368). I see only f04 continuing into f05.",
+      "evidence_note": "West of the junction the field outline is a plain black line without dots."
+    },
+    {
+      "uv": [328, 805],
+      "what_is_contested": "Whether f06 and f07 are one through path, and whether the boundary/stream lines meeting here create a road junction.",
+      "evidence_note": "Dots approach from the north and leave to the south, but the node is overprinted by the stream, the boundary and the 'o' of 'Snurrebo'."
+    },
+    {
+      "uv": [875, 265],
+      "what_is_contested": "The position of the three-way junction of f02, f03 and f08.",
+      "evidence_note": "The brown road bends here and the dotted f08 starts just beside the bend, about 5–10 px from the overlay node."
+    }
+  ],
+  "overall_note": "I agree with the overlay's road network: the brown main road (f01–f03), the dotted paths f04–f09 and f07, with only f06's northern start rerouted. The crimson lines with pale wash bands (f10–f13) match the boundary symbol in the example reading, so I read them as not roads. The bottom-left lines (f14, f15) are only partly supported by a short dotted path from the 'III' farm."
+}

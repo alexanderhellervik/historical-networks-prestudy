@@ -1,0 +1,151 @@
+{
+  "tile_id": "cor_e0363_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,754],[45,744],[91,733],[140,717],[190,703],[239,688],[287,680],[334,674],[375,665],[400,653],[423,632],[446,608],[470,583],[493,562],[526,546],[571,536],[619,526],[668,516],[714,511],[764,512],[814,509],[864,508],[910,507],[955,506],[1000,501]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantial dark continuous edges enclose an orange-brown strip approximately 14–20 px wide. The casing continues across the pink and blue linework near (290,680) and through the red numerals beside the bend.",
+      "uncertainty_note": "The left portion has locally blurred casing and lettering, but the visible edges on either side support continuity.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[25,0],[37,43],[50,89],[65,136],[84,172],[119,191],[155,214],[190,240],[227,267],[263,296],[288,328],[313,361],[338,393],[361,427],[386,464],[411,501],[438,542],[470,583]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange-brown strip has closely spaced dark dotted or broken margins, generally about 7–11 px apart. It passes the small outlined angular symbol near (330,350) and meets the broad cased line at its bend.",
+      "uncertainty_note": "The margins are punctuated rather than uniformly continuous; their appearance does not fit the supplied classes perfectly. The crossing near (263,296) is blurred by pink and blue strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired broken margins could be classified by their punctuated strokes rather than their separation."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A paired dotted road symbol is not explicitly represented in the class list."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[955,506],[958,540],[964,579],[968,619]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "Two close dark, partly dotted margins enclose a narrow brown strip running down from the broad road to the upper outline of the building enclosure. A solid black building mark lies beside its lower end.",
+      "uncertainty_note": "The lower end merges with the enclosure outline; no separate continuation through the enclosure is clearly drawn.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted casing is too small to distinguish consistently from a single line with adjacent marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[91,733],[102,762],[116,790],[135,817],[156,837]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A thin brown-orange diagonal with dark broken margins descends from the lower edge of the broad road. Its margins remain partly visible beneath the large black lettering and approach the pink band at the lower junction.",
+      "uncertainty_note": "Lettering obscures short portions, and the final approximately 15 px overlap pink and blue strokes. The visible alignment supports a connection, but a parcel-edge reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could be a coloured parcel edge rather than a track; that reading would remove its road junctions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,925],[32,930],[53,909],[85,888],[120,863],[156,837],[184,859],[216,886],[248,913],[280,942],[312,971],[345,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown line with dark margins enters the left edge, turns northeast, then turns southeast near (156,837). Dark punctuations are visible along portions of the southeastern arm, which lies beside the pink band and outlined pale-blue shape.",
+      "uncertainty_note": "The short western arm has poorly resolved margins. At (156,837), overlapping pink and blue ink obscures whether the northeast and southeast arms form one road or separate lines.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of this line could be a coloured property or parcel boundary rather than a road."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two arms could be separate features ending in the overlap around (156,837), rather than a continuous feature with a junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,997],[23,977],[29,954],[32,930]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short bent orange-brown stroke with dark edging clips the lower-left corner and reaches the bend in f05. Its width and paired edging are less distinct than those of the longer tracks.",
+      "uncertainty_note": "The corner clipping and blurred ink make a road and a coloured parcel boundary both plausible. The junction is conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark edges may enclose a narrow track continuous with the northeastern arm of f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If this is a parcel boundary, omit it from the road network and remove j05."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[754,1000],[787,980],[820,968],[853,960],[886,955],[925,959],[963,970],[1000,981]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A curved orange-brown strip with two dark margins clips the bottom edge and continues to the right edge. Thin angular outlines meet its upper margin; a separate thin curved outline turns downward near (970,978).",
+      "uncertainty_note": "The bottom clipping limits inspection of the western end. Adjacent coloured parcel outlines make the distinction between narrow road casing and a parcel margin less secure here than on f01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The brown strip could instead be a coloured parcel margin; the thin curve turning toward the bottom edge is not counted as an additional road branch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [470,583],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange strip with punctuated dark margins joins the northwestern side of the broad, continuously cased orange bend; two broad-road arms and one narrow-track arm are visible."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [91,733],
+      "branch_count": 3,
+      "evidence_note": "A thin brown diagonal leaves the lower margin of the broad orange road, giving two broad-road arms and one descending arm; black lettering lies immediately below. The third road branch depends on the track reading of f04."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [955,506],
+      "branch_count": 3,
+      "evidence_note": "A close pair of dark punctuated margins descends from the broad road's lower casing; the broad strip continues left and right."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [156,837],
+      "branch_count": 3,
+      "evidence_note": "Narrow brown strokes approach from northwest, southwest and southeast, overlapping a heavy pink band and dark blue stroke. Three road arms are proposed, but their connection is partly obscured and depends on the road readings of f04 and f05."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [32,930],
+      "branch_count": 3,
+      "evidence_note": "Brown edged strokes extend west, northeast and downward from a small bend. Three branches are counted conditionally because the downward corner stroke and short western arm could be parcel boundaries."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad cased road and upper-left dotted track are the clearest readings. Lower-left connections and the bottom-edge strip retain road-versus-parcel-boundary alternatives. Pink bands, blue water outlines, the long diagonal dashed line and the faint vertical line are not counted as roads."
+}

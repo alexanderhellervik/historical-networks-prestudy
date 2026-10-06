@@ -1,0 +1,72 @@
+{
+  "tile_id": "cor_e0349_n6444",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin red-brown line with a dark edge enters at the top edge near (350,0), runs down past (275,150) and (230,235), turns south-west through (150,285), (110,350) and (50,450), and leaves the left edge near (0,680). It winds with the terrain between the hatched bog areas, which suits a road more than a surveyed boundary, and it matches the red-and-black road drawing that the worked example reads as Sämre körväg. The overlay polyline follows it closely along its whole length.",
+      "uncertainty_note": "South of about v=330 the colour turns the same crimson as the straight boundary line at u~600-700, so a boundary drawn along a natural line cannot be fully excluded. At this resolution I cannot see whether it is a narrow double line or a coloured single line. The overlay does not show its class, so only the course was checked."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A single row of bold black dots, the Gångstig symbol, runs from the left edge near (0,835) through (110,830), (150,790), (200,715), (215,668), (330,625), (460,595), (545,555), (600,490), (700,425) and (800,345) to the sheet seam near (815,335). The overlay follows the dots throughout, including the bend at (200-215, 670-720).",
+      "uncertainty_note": "The symbol is dotted rather than dashed, and `dashed_line` is the nearest form in the vocabulary. On the far left the overlay runs slightly low (about v=860 at u=0, where the dots are near v=835); this is minor."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The label is cut off at the right edge and shows only 'f0'; I take it to be f03, the only missing number in the sequence. The line marked there follows an orange dotted line on the neighbouring sheet strip (u>815), from the seam near (830,320) through (880,285), (930,220) and (970,130) to the top-right corner near (1000,80). It is the continuation of the f02 footpath across the sheet join.",
+      "uncertainty_note": "The id is inferred from a truncated label. The adjacent sheet colours the dots orange instead of black, so this path is identified by its continuity with f02 rather than by an exact symbol match."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line with a dark edge starts at the dotted path near (150,790) and runs east through (250,785), (350,810), (440,850), (500,895), (550,920) and (620,905) to the straight crimson boundary near (690,890). Its drawing matches f01 and the Sämre körväg drawing in the worked example. The overlay follows it.",
+      "uncertainty_note": "Double line or coloured single line cannot be decided at this resolution. Where it joins f05 at the boundary is contested (see contested junctions)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line runs from just east of the crimson boundary at about (700,930) north through (720,860) and (735,800) and then north-east to the sheet seam near (805,740). The overlay follows this course.",
+      "uncertainty_note": "The southern end is unclear. It may join f04 where f04 crosses the boundary at about (692,890), or it may reach the boundary further south near (698,940), as the overlay draws it. Close to the boundary the red of the road and the crimson boundary line merge. No continuation is visible on the adjacent strip east of the seam."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the bottom edge just west of the sheet seam, around (770-805, 960-1000), there is only a short reddish stroke next to a black dashed boundary line. The fragment is too short and too close to the seam and the tile edge to tell whether it is a road entering from the tile below or a boundary or colour fragment.",
+      "uncertainty_note": "If it is a road, it is a stub of a few tens of metres that is probably continued on the tile to the south. The neighbouring tile would be needed to decide."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [692, 892],
+      "what_is_contested": "Whether f04 and f05 form one road crossing the straight crimson boundary here, or f05 reaches the boundary further south near (698,940). Also whether a road continues south along the boundary towards (700,1000).",
+      "evidence_note": "f04 meets the boundary at about (690,890). East of the boundary the red-brown line of f05 runs close to it between v=880 and v=940. Below v=890 the boundary line looks heavier and redder, which could be a road running alongside it or just heavier colouring."
+    },
+    {
+      "uv": [150, 790],
+      "what_is_contested": "Whether the red road f04 ends in a T at the dotted footpath f02 or continues west under or beside the dots.",
+      "evidence_note": "The red-brown line fades out where the dots turn from running south-west to running north. West of this point only dots are visible, towards (110,830) and the left edge."
+    },
+    {
+      "uv": [815, 335],
+      "what_is_contested": "Whether the path continues across the sheet seam: the black dotted f02 and the orange dotted line on the adjacent strip (f03) are slightly offset at the join.",
+      "evidence_note": "Both lines approach the seam at about v=320-345 with the same direction, but the dots change colour and the sheet edges do not align perfectly."
+    }
+  ],
+  "overall_note": "The overlay's road lines (f01, f04, f05) and footpath (f02, f03) agree with my own reading of the bare tile. The straight crimson line at u~600-700, the black dashed lines on the right and the teal lines are read as boundaries, streams or bog edges, not roads, and I found no roads missing from the overlay. The main doubts are the f04/f05 connection at the boundary, the tiny f06 stub, and whether the crimson lower part of f01 is a road or a boundary."
+}

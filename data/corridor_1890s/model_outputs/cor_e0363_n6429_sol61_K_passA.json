@@ -1,0 +1,338 @@
+{
+  "tile_id": "cor_e0363_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[1000,24],[977,37],[952,51],[923,63],[893,71],[866,79],[851,91],[826,112],[799,138],[778,161],[763,179],[754,192],[748,215],[739,244],[734,275],[731,306],[726,342],[720,378],[711,408],[700,426]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two substantial black margins, approximately 8–12 px apart, enclose a pale ochre/pink strip. Small black rectangles stand beside it; the paired margins remain visible beside the large lettering.",
+      "uncertainty_note": "The fold hides the southern connection to f02. The road status of the red arm at j06 is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[703,447],[678,465],[649,486],[620,510],[589,533],[576,551],[554,579],[533,607],[511,634],[493,660],[479,688],[465,713],[452,724],[439,754],[418,796],[398,837],[378,878],[358,918],[340,955],[323,989],[319,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04","j14"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Two continuous black edges surround an ochre/pink strip about 7–11 px wide. Several short strokes and outlined rectangles abut the edges.",
+      "uncertainty_note": "Its northern end disappears into the fold opposite f01. Some attached narrow traces could instead be parcel outlines.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,195],[53,197],[109,197],[166,199],[223,204],[279,208],[332,216],[384,227],[428,237],[466,253],[497,252],[534,242],[576,231],[620,223],[664,214],[709,203],[754,192]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05","j07"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre strip has fine dark, partly stippled margins; its eastern portion carries stronger red colouring. It widens slightly at the blue crossing near [466,253].",
+      "uncertainty_note": "The mixed solid and stippled edging does not cleanly match one symbol-form class. The trace can be followed on both sides of the lettering and blue crossing.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The fine solid and stippled margins could be treated as a narrow paired-line road symbol."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[70,421],[113,398],[160,375],[207,353],[253,330],[295,316],[337,304],[378,288],[420,273],[466,253]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "An ochre band about 4–6 px wide runs between dark fine and dotted edges, joining the similarly coloured transverse trace.",
+      "uncertainty_note": "The southwest end is masked by the fold; f05 is a possible continuation, but the actual tie is hidden.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Its two fine margins could support this classification despite their interrupted ink."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,456],[20,449],[42,437]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short ochre/red diagonal stroke with dark, partly dotted edging emerges immediately below the fold.",
+      "uncertainty_note": "It approximately aligns with f04, but the seam obscures their connection and the detailed symbol.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The short exposed section appears to have two close margins."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,163],[30,148],[69,131],[109,111],[151,91],[193,73],[237,52],[283,28],[311,14],[331,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Close dark margins enclose a red/ochre diagonal strip, roughly 4–7 px wide. Fine dotted ink occurs along portions of its edge, beside a hatched patch and small outlined shapes.",
+      "uncertainty_note": "The western tip overlaps a large letter. The short red arm at j08 might be a boundary rather than another road.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The partly dotted margins make the paired-line classification imperfect."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[283,28],[276,14],[267,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short dark-edged red stroke runs into the red/ochre diagonal at an angle; no separate road casing is clearly resolved.",
+      "uncertainty_note": "This may be a red-emphasized property boundary meeting f06, rather than a road branch.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"If read as a road, the exposed stroke could be classified as one heavy line."},
+        {"proposed_class":"unknown","note":"Alternative interpretation: a boundary, not a road."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[866,79],[850,56],[833,28],[818,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A relatively straight red stroke with dark ink along it approaches the bend of the broad paired-line trace. Its two margins are not independently clear.",
+      "uncertainty_note": "The drawing also supports a boundary terminating at the broad road; the proposed road branch and j06 are conditional.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Possible road reading as a heavy single red/black line."},
+        {"proposed_class":"unknown","note":"Alternative interpretation: a red-emphasized boundary."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,613],[25,648],[52,684],[81,722],[110,757],[140,792],[171,830],[201,859],[229,878],[254,910],[280,942],[303,967],[323,989]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j09"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A pale ochre diagonal strip has fine dark and stippled edging. A stronger red line runs close to it over parts of the lower section.",
+      "uncertainty_note": "The ochre trace and adjacent red boundary are difficult to separate near [229,878] and farther southeast; the road could share the boundary's course there.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Two close margins are discernible over some exposed portions."},
+        {"proposed_class":"unknown","note":"Alternative interpretation: part of the apparent continuation is boundary ink rather than road edging."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[108,862],[149,863],[190,867],[213,873],[229,878],[259,868],[294,860],[327,858],[350,852],[356,835],[362,815]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "A thin ochre stroke with dark dotted edging bends through the crossing, then turns upward beside small outlined rectangles. Green and black parcel lines touch its western portion.",
+      "uncertainty_note": "The western exposed stroke ends where it meets a green/black outline. The northeastern end becomes mixed with a large T and a small rectangular symbol; no further connection is asserted.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The narrow exposed portions could be read as one fine, partly dotted track line."},
+        {"proposed_class":"unknown","note":"Some western ink could belong to the adjoining parcel outline."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[452,724],[426,746],[407,774],[393,798],[390,833],[394,881],[402,930],[413,979],[420,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j10"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A slender brown/ochre stroke with intermittent black dots curves away from the paired diagonal, then runs downward along the edge of a pale coloured strip.",
+      "uncertainty_note": "It could be a track with stippled edging, or an emphasized parcel edge. Its contact with the broad diagonal is less distinct than that of f13.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Possible road reading as a thin single track stroke."},
+        {"proposed_class":"unknown","note":"Alternative interpretation: a coloured parcel margin rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[313,649],[320,672],[315,704],[305,739],[299,761],[327,766],[360,780],[393,798]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Faint interrupted grey/black strokes descend toward a small ochre rectangle. A brown dotted stroke runs east from that rectangle toward the curved brown trace.",
+      "uncertainty_note": "The northern course disappears under the Strules lettering. The north–south and eastward portions may be separate parcel-edge strokes rather than one bent track.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The faint northern portion could represent an interrupted path symbol."},
+        {"proposed_class":"unknown","note":"Alternative interpretation: two unrelated parcel outlines; their apparent continuity at [299,761] is uncertain."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[479,688],[486,714],[496,746],[505,770],[527,796],[557,830],[581,847],[597,855],[620,900],[645,951],[674,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j11","j12"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A winding ochre strip has a fine solid dark edge and a closely spaced stippled edge, generally 4–7 px apart. It passes beside several black and ochre rectangular symbols.",
+      "uncertainty_note": "The mixed solid/stippled margins could warrant unknown instead. The status of the thin descending arm at j11 is less clear.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The edging differs from a uniformly continuous double-line symbol."}
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[505,770],[494,794],[489,824],[493,872],[496,922],[495,942]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j11"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A thin brown stroke with small dark dots bends downward from the winding ochre strip and reaches a sharp black parcel corner beside red numerals.",
+      "uncertainty_note": "Its termination at a parcel corner and its fine weight also support a parcel-boundary interpretation.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Possible road reading as one thin, dotted-edged stroke."},
+        {"proposed_class":"unknown","note":"Alternative interpretation: a parcel boundary, not a road."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[597,855],[649,849],[701,851],[751,859],[802,867],[855,879],[905,908],[952,936],[1000,960]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j12","j13"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "An ochre band with close dark dotted margins runs eastward, then bends southeast. It has similar weight and colouring to the winding trace entering from the northwest.",
+      "uncertainty_note": "The edges are partly stippled rather than two clean continuous lines.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The two fine margins could be classified as a narrow paired-line symbol."}
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[855,879],[886,878],[919,868],[949,846],[979,831],[1000,817]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j13"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A fine ochre trace with black dotted edging continues from the bend, then turns northeast toward the right edge.",
+      "uncertainty_note": "The narrow, interrupted edging does not clearly match a single listed symbol form.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The thin exposed trace could be treated as one dotted-edged line."}
+      ]
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[589,533],[572,514],[555,491],[541,481]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "Two close fine black strokes enclose a pale strip leading from the broad diagonal toward a small green outlined symbol, beside a large T.",
+      "uncertainty_note": "The short upper end touches the green symbol's outline; no continuation inside or beyond that symbol is resolved.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The uppermost ink may include the adjoining symbol's perimeter."}
+      ]
+    },
+    {
+      "feature_id": "f18",
+      "waypoints_uv": [[576,551],[599,580],[622,617],[642,651],[648,657]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j14"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow pale ribbon bounded by two fine black lines leaves the broad diagonal southeastward. Its lower end meets dense black and blue linework.",
+      "uncertainty_note": "It could instead be a long narrow enclosed parcel. The blue crossing and adjoining outlines prevent a certain continuation at its southeast end.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Alternative interpretation: the two lines are the sides of an elongated parcel rather than road casing."}
+      ]
+    },
+    {
+      "feature_id": "f19",
+      "waypoints_uv": [[466,253],[453,230],[440,205],[428,183],[418,166],[420,145],[438,122]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Close dark strokes border a narrow tan space beside the blue strip northwest of the ochre convergence. Large Åsen lettering covers the upper strokes.",
+      "uncertainty_note": "These strokes may be a track, a bank edge, or an enclosure outline. The northern course is stopped at the lettering rather than extended through it.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Possible road reading of the narrow tan space between black strokes."},
+        {"proposed_class":"unknown","note":"Alternative interpretation: blue-strip bank or parcel outline, not a road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[323,989],
+      "branch_count":3,
+      "evidence_note":"The broad paired black margins continue toward the bottom edge while a narrower ochre/dotted diagonal enters from the northwest, giving three apparent arms."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[452,724],
+      "branch_count":3,
+      "evidence_note":"Two arms of the broad paired-line trace pass a fine brown/dotted stroke curving southwest; the third arm could instead be parcel-edge ink."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[479,688],
+      "branch_count":3,
+      "evidence_note":"The broad paired black lines continue northeast and southwest; a narrower ochre strip with dark stippled edging bends southeast beside rectangular symbols."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[589,533],
+      "branch_count":3,
+      "evidence_note":"The broad paired-line strip has two through arms and a short, closely paired black spur entering from the northwest."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[754,192],
+      "branch_count":3,
+      "evidence_note":"A narrow red/ochre trace with fine dark edging meets the broader paired black strip, whose margins continue in both directions."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[866,79],
+      "branch_count":3,
+      "evidence_note":"At the paired-line bend, a straighter red/dark stroke enters from the northwest. Three road arms are present only if that stroke is a road rather than a boundary."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[466,253],
+      "branch_count":4,
+      "evidence_note":"Three ochre, dark-edged arms visibly converge beside blue hatching. A fourth narrow black/tan arm approaches beside the blue strip from the northwest, but may be bank or enclosure ink."
+    },
+    {
+      "junction_id":"j08",
+      "uv":[283,28],
+      "branch_count":3,
+      "evidence_note":"The close-edged red/ochre diagonal continues in two directions, with a short red/dark stroke entering from the top; its road status is uncertain."
+    },
+    {
+      "junction_id":"j09",
+      "uv":[229,878],
+      "branch_count":4,
+      "evidence_note":"An ochre/dotted northwest–southeast trace crosses a thinner bending ochre trace with west and northeast arms. Red and blue ink crowd the centre, making the four-arm road reading less secure."
+    },
+    {
+      "junction_id":"j10",
+      "uv":[393,798],
+      "branch_count":3,
+      "evidence_note":"A curved fine brown/dotted trace has upper and lower arms, and a similar thin stroke arrives from the west; some of this ink could be parcel edging."
+    },
+    {
+      "junction_id":"j11",
+      "uv":[505,770],
+      "branch_count":3,
+      "evidence_note":"The narrow winding ochre strip continues in two directions while a finer brown/dotted stroke turns south; the third arm may be a parcel boundary."
+    },
+    {
+      "junction_id":"j12",
+      "uv":[597,855],
+      "branch_count":3,
+      "evidence_note":"Close dark-edged ochre strokes form northwest, east and southeast arms at a sharp bend, with black lettering immediately alongside."
+    },
+    {
+      "junction_id":"j13",
+      "uv":[855,879],
+      "branch_count":3,
+      "evidence_note":"The ochre trace arriving from the west divides into a southeast arm and a finer northeast arm, both carrying dark dotted edging."
+    },
+    {
+      "junction_id":"j14",
+      "uv":[576,551],
+      "branch_count":3,
+      "evidence_note":"Two through arms of the broad paired-line strip meet a narrow southeast ribbon bounded by fine black strokes; the ribbon could instead be an enclosed parcel."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv":[0,418,1000,448],
+      "why":"The horizontal fold and scan join mask or displace fine strokes. The paired diagonal and southwest ochre trace are stopped on either side because their precise connections are hidden."
+    },
+    {
+      "bbox_uv":[286,613,340,655],
+      "why":"Heavy Strules lettering masks the upper end and detailed symbol of the faint candidate track."
+    },
+    {
+      "bbox_uv":[342,800,376,836],
+      "why":"A large T and adjoining rectangular symbol obscure the end of the thin bending farm-spur candidate."
+    }
+  ],
+  "overall_note":"The broad paired diagonal and ochre traces with stippled edging are clearest. The fold, lettering, and overlap with parcel outlines obscure several short courses; junction counts involving doubtful red or parcel-edge arms are conditional on their being roads."
+}

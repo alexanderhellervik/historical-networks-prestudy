@@ -1,0 +1,266 @@
+{
+  "tile_id": "cor_e0359_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[229,1000],[235,980],[250,956],[277,934],[306,916],[335,897],[362,893],[391,870],[420,841],[449,811],[479,779],[495,763],[517,740],[544,711],[571,680],[596,650],[615,626],[642,614],[670,612],[700,616],[730,622],[751,635],[767,655],[780,678],[790,691],[802,733],[820,776],[840,819],[861,862],[884,901],[910,927],[938,944],[968,954],[1000,962]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04","j05","j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A broad brown ribbon lies between two heavy, nearly continuous dark outlines, generally about 12–20 px apart; both edges remain visible through the large bend.",
+      "uncertainty_note": "The broad road is clear. The two short access branches at j02 and j03 are less certain than its other branches.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[25,0],[44,34],[66,70],[86,105],[100,140],[104,180],[109,220],[130,252],[154,279],[162,311],[184,345],[205,380],[237,422],[275,417],[313,412],[352,409],[392,409],[431,415],[469,423],[509,427],[550,427],[590,426],[627,419],[651,419],[673,382],[694,349],[713,317],[729,283],[739,252],[753,220],[780,192],[814,174],[851,160],[886,154],[918,150]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08","j09","j10"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two fine gray outlines enclose a pale strip down the northwest and along the northeast; across the middle, a faint pale band follows the dark edge of the star-marked area.",
+      "uncertainty_note": "The connection across approximately u=240–640 is substantially less distinct: one edge coincides with an irregular land-cover outline, and a separate second road edge is intermittent.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The middle section could be a shaded land-cover or parcel edge connecting two separate pale road segments, rather than one continuous road."
+        },
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The pale casing locally widens to roughly 15–20 px, especially on the northwest descent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[918,150],[943,141],[970,128],[1000,117]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A pale, finely outlined strip continues northeast, with conspicuous dark rounded or short oblong marks on both sides near u=920–970.",
+      "uncertainty_note": "The flanking marks are irregular and mingle with building symbols; their interpretation as avenue symbols is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The underlying pale road may simply retain its paired fine outlines, with adjacent marks representing other symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[851,160],[872,142],[877,114],[877,79],[875,42],[870,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow pale strip with two faint gray sides turns upward from the east–west pale strip; its sides are clearest around v=80–140.",
+      "uncertainty_note": "The outlines are weak near the top edge and lie close to the separate dark dotted line.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A narrow outlined division or margin remains possible where the paired gray strokes become faint."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[651,419],[663,395],[680,368],[697,342],[714,316],[727,288],[736,258],[743,228],[753,201],[771,174],[794,146],[813,119],[833,89],[849,58],[860,27],[866,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One dark chain of separated short, thick strokes or dots follows the western side of the pale route, then continues north where the pale route turns east.",
+      "uncertainty_note": "This could be a dotted path or a boundary beside the pale route. Its southern meeting with the other candidate roads is close enough that separate attachment cannot be resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark interrupted chain may be a boundary; if so, omit this feature and reduce j08 to three road branches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[918,150],[925,174],[945,201],[963,229],[982,256],[1000,280]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow reddish strip bends southeast beside a red rectangle; small dark marks border its two sides, approximately 5–9 px apart.",
+      "uncertainty_note": "Large dark marks and the red building interrupt the northernmost portion, making the exact attachment to the pale road approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The upper few strokes may combine an enclosure edge with roadside symbols rather than show an uninterrupted road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[535,469],[544,495],[555,523],[568,550],[585,580],[600,607],[615,626]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin reddish line with dark stippled margins descends beside the large black '2G' lettering and meets the broad brown casing.",
+      "uncertainty_note": "Its upper end meets the red building and heavy enclosure strokes near (535,455); continuation through those symbols to the pale route is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The narrow symbol could be read as one reddish stroke with bordering dots rather than two distinct road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[642,614],[673,589],[704,565],[734,540],[769,520],[805,502],[843,483],[881,464],[920,444],[960,420],[1000,393]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05","j07"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow red-brown strip runs diagonally from the broad road to the right edge, bordered by repeated small dark dots or short strokes.",
+      "uncertainty_note": "The paired stippling is clearer east of j07; immediately above the broad road, nearby dark water-margin strokes complicate the edges.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A property-edge interpretation is possible for portions sharing the diagonal parcel margin, although the reddish stippled symbol resembles the example's tracks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[651,419],[659,445],[668,476],[681,499],[706,522],[734,540]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08","j07"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A red-brown, dark-stippled strip curves downward from the pale route, passes beside a red rectangular building, and joins the diagonal reddish strip.",
+      "uncertainty_note": "The line also follows the edge of a pale pink area, so a boundary reading remains possible; the red-brown stippling supports the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could be a coloured parcel boundary rather than a separate track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[790,691],[828,680],[867,668],[906,653],[945,637],[975,621],[1000,609]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish strip with two closely spaced dark stippled margins leaves the eastern side of the broad road and continues to the right edge.",
+      "uncertainty_note": "Its junction is clear, although the broad road's heavy eastern casing partly covers the first few pixels.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,651],[28,655],[48,657],[56,684],[68,724],[81,766],[98,814],[121,852],[148,890],[177,929],[207,965],[235,980]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish course with dark dotted margins clips the left edge, turns downward, and approaches the broad road beside several red and black building symbols.",
+      "uncertainty_note": "The last approximately 20 px are crowded by black building marks; the meeting position is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The terminal dark strokes could include an enclosure edge, though the approaching reddish track is distinct."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[495,763],[503,779],[509,798]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short pale gap bordered by dark strokes extends southeast from the broad road toward a red rectangle and adjacent small black marks.",
+      "uncertainty_note": "The strokes may describe access to the red rectangle, but they may instead be building or enclosure outlines; no continuation beyond the symbols is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two bordering strokes form an access track, they define a short narrow cased branch."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If these are only building or enclosure edges, omit this feature and j03."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[362,893],[348,877],[333,872]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short pale opening with thin angular dark sides leads northwest from the broad casing toward red and black rectangles inside an outlined compound.",
+      "uncertainty_note": "The apparent branch may be an entrance track or simply part of the compound outline; it stops where the strokes merge with building symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale opening could represent a short access track between two fine outlines."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If the angular strokes belong entirely to the compound boundary, omit this feature and j02."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [235,980],
+      "branch_count": 3,
+      "evidence_note": "The broad brown, heavily cased line continues in two directions; a narrower reddish dotted line approaches from the northwest through crowded black symbols."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [362,893],
+      "branch_count": 3,
+      "evidence_note": "Two directions of the broad brown casing meet a short pale, thinly outlined opening on its northwest side; the third branch is tentative."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [495,763],
+      "branch_count": 3,
+      "evidence_note": "The broad brown ribbon continues southwest and northeast, with a short pale opening bordered by dark strokes on its southeast side; the third branch is tentative."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [615,626],
+      "branch_count": 3,
+      "evidence_note": "A narrow reddish stippled strip reaches the northwest casing of the broad brown curve, which continues on both sides."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [642,614],
+      "branch_count": 3,
+      "evidence_note": "The broad brown ribbon turns through this position; a thinner red-brown dotted strip departs northeast from its upper edge."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [790,691],
+      "branch_count": 3,
+      "evidence_note": "Two directions of the heavy brown casing meet a narrow red-brown strip with stippled sides extending east."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [734,540],
+      "branch_count": 3,
+      "evidence_note": "The diagonal reddish strip continues southwest and northeast, while another similarly stippled strip curves into it from the northwest."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [651,419],
+      "branch_count": 4,
+      "evidence_note": "The pale outlined strip turns from west to northeast; a reddish stippled strip descends southeast, and a dark interrupted chain approaches beside the northeastern arm. The fourth branch depends on reading that chain as a path."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [851,160],
+      "branch_count": 3,
+      "evidence_note": "The pale strip continues west and east, with a faint pair of gray outlines bending north from its upper side."
+    },
+    {
+      "junction_id": "j10",
+      "uv": [918,150],
+      "branch_count": 3,
+      "evidence_note": "The pale strip continues west and northeast among heavy rounded black marks; a narrow reddish stippled strip turns southeast beside a red rectangle."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad brown road and most reddish stippled tracks are distinguishable from the thin parcel lines and blue-green water lines. The pale middle connection, northern interrupted chain, and two short building-access candidates admit alternative readings; their junction counts are conditional on those features being roads. Coordinates near crowded building symbols are approximate."
+}

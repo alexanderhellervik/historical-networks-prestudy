@@ -1,0 +1,128 @@
+{
+  "tile_id": "cor_e0349_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[359, 474], [384, 469], [409, 465], [427, 465]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A narrow reddish stroke with darker edging runs from the blue outline to the three-arm meeting; separate parallel lines are not resolved.",
+      "uncertainty_note": "This is a candidate road, but its symbol could equally be a boundary. The western endpoint visibly meets the blue outline.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If read as a road, the visible mark may be one continuous stroke."},
+        {"proposed_class": "unknown", "note": "May be a boundary rather than a road, as with some reddish lines in the worked example."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[427, 465], [447, 468], [473, 474], [505, 479], [536, 490], [572, 497], [608, 507], [641, 514], [676, 518], [710, 519], [738, 521], [775, 522], [812, 520]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin reddish line with uneven dark edging extends rightward; matching strokes are visible on both sides of the vertical seam, and the eastern end touches a blue outline.",
+      "uncertainty_note": "Road versus boundary is unresolved. Continuation across the seam is supported by the aligned drawing on both sides; no continuation through the blue-filled shape is inferred.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Could be a continuous single-stroke road or track."},
+        {"proposed_class": "unknown", "note": "Could be a boundary connecting the two blue outlines."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[427, 465], [434, 449], [450, 430], [468, 400], [484, 374], [500, 345], [516, 314], [537, 280], [552, 255], [566, 222], [577, 190], [580, 162], [576, 136], [573, 110], [565, 87], [568, 66], [577, 51], [588, 45], [598, 47], [605, 39], [603, 23], [596, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "One winding rust-red band has irregular darker margins and local thickening; no regular dashes or consistently separated pair of lines can be distinguished.",
+      "uncertainty_note": "The course is visible, but the symbol does not securely distinguish a track from a boundary.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "May be a single continuous track symbol with colour spreading around its ink stroke."},
+        {"proposed_class": "unknown", "note": "May be a boundary; reddish colour alone is insufficient evidence of a road."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 82], [14, 62], [25, 41], [36, 20], [43, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown stroke with a dark margin clips the upper-left corner; no separate parallel stroke or accompanying symbols are resolved.",
+      "uncertainty_note": "Both ends leave the tile. Its short visible length does not establish whether it is a road or a boundary.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Possible single-stroke road or track."},
+        {"proposed_class": "unknown", "note": "Possible boundary of the same general appearance as the other reddish candidates."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[119, 654], [123, 684], [126, 711], [135, 728], [156, 742], [184, 754], [216, 766], [249, 779]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "A thin reddish stroke descends from the blue outline and bends rightward, with intermittent dark ink along it; it disappears at the horizontally hatched symbol.",
+      "uncertainty_note": "Could be a track or a boundary. Its course within the hatching cannot be read securely, so it is not connected to f06.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Possible continuous single-stroke track."},
+        {"proposed_class": "unknown", "note": "Possible boundary; f05 and f06 might be parts of one line obscured by hatching."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[332, 839], [342, 859], [357, 878], [374, 895]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short reddish band with dark edging emerges below the hatched symbol and runs toward a blue outline and heavy black lettering.",
+      "uncertainty_note": "Its northern continuation is hidden by hatching; its southern continuation is obscured at the blue outline and lettering. Connection to f05 is possible but unconfirmed.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Possible single-stroke track segment."},
+        {"proposed_class": "unknown", "note": "Possible boundary segment, potentially continuous with f05 beneath the hatching."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[1000, 526], [981, 544], [963, 560], [941, 575], [916, 587], [885, 597], [853, 605], [829, 616], [813, 633], [807, 659], [806, 695], [808, 731], [808, 767], [805, 800], [800, 830], [797, 860], [790, 886], [774, 912], [752, 934], [732, 951], [719, 959]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow orange-red stroke with intermittent darker edging curves left from the right edge, turns downward, and then bends toward the seam; it crosses a blue line near [790, 886].",
+      "uncertainty_note": "Road versus boundary remains unresolved. The lower course disappears into the seam and is stopped there; the blue crossing is not counted as a road junction.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Possible continuous single-stroke road or path."},
+        {"proposed_class": "unknown", "note": "Possible boundary; any continuation beyond the seam is unreadable."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[552, 994], [552, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A very short dark reddish mark reaches the bottom edge immediately below the blue outline; its width and any separate edging cannot be resolved.",
+      "uncertainty_note": "This is a particularly doubtful candidate: it may be a line emerging from beneath the blue outline, or merely part of the outline or colour overlap.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Possible short road or track clipping the bottom edge."},
+        {"proposed_class": "unknown", "note": "May be a boundary stub or an outline/printing artefact, with no road present."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [427, 465],
+      "branch_count": 3,
+      "evidence_note": "Three narrow reddish arms visibly meet: leftward, rightward, and upward. This is a candidate road junction only if these ambiguous strokes are roads; they could instead form a boundary meeting."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [711, 0, 746, 1000],
+      "why": "A dark, slightly slanting vertical seam hides local linework. The transverse reddish line has identifiable continuation on both sides, but the lower reddish candidate cannot be continued securely."
+    },
+    {
+      "bbox_uv": [245, 696, 462, 844],
+      "why": "Dense horizontal hatching and its dark outline obscure any possible connection between f05 and f06."
+    }
+  ],
+  "overall_note": "The reddish candidates are traceable, but their fine symbol structure does not securely distinguish roads from boundaries like those identified in the worked example. All are retained with that ambiguity, including the very doubtful bottom-edge stub. Blue linework, tree symbols, and broad scan creases are excluded."
+}

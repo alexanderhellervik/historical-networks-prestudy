@@ -1,0 +1,128 @@
+{
+  "tile_id": "cor_e0362_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 105],
+        [28, 139],
+        [55, 173],
+        [82, 209],
+        [106, 246],
+        [122, 267],
+        [150, 278],
+        [178, 285],
+        [220, 294],
+        [258, 310],
+        [294, 333],
+        [331, 347],
+        [371, 358],
+        [411, 372],
+        [453, 385],
+        [495, 400],
+        [535, 415],
+        [575, 431],
+        [612, 451],
+        [643, 475],
+        [670, 500],
+        [691, 528],
+        [705, 558],
+        [711, 598],
+        [717, 640],
+        [723, 684],
+        [729, 728],
+        [738, 769],
+        [752, 791],
+        [775, 800],
+        [801, 802],
+        [823, 810],
+        [846, 833],
+        [873, 865],
+        [900, 897],
+        [925, 928],
+        [946, 958],
+        [966, 1000]
+      ],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose an ochre strip approximately 12–20 px wide. The casing remains recognizable beneath lettering and on both sides of the broad red diagonal.",
+      "uncertainty_note": "The centre beneath lettering and at the red diagonal crossing is interpolated between clearly matching exposed sections. The two subsidiary junctions have different levels of certainty.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [178, 285],
+        [163, 306],
+        [145, 325],
+        [126, 336],
+        [111, 347],
+        [100, 360]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow ochre diagonal strip with dark margins leaves the lower edge of the broad road. Its margins are roughly 4–8 px apart where exposed, with small solid black building marks nearby.",
+      "uncertainty_note": "The lower portion overlaps lettering and parcel outlines; continuation beyond the final waypoint cannot be established. Part of the strip could instead belong to a cultivated parcel outline.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The narrow ochre strip may be a parcel margin rather than a separately drawn track, particularly near [126,336] and beneath the lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [122, 267],
+        [134, 286],
+        [142, 305],
+        [140, 320],
+        [126, 336]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A thin dark curved stroke descends beside ochre infill and joins the diagonal strip. No consistently separated pair of road edges or regular dotted pattern is visible.",
+      "uncertainty_note": "This is a doubtful track candidate: the stroke also reads as the outline of the ochre parcel. Both associated junctions are provisional and exist as road junctions only under the track reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If interpreted as a track, the exposed symbol is predominantly one thin continuous dark line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a cultivated parcel boundary, in which case this feature and junctions j02 and j03 are not part of the road network."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [178, 285],
+      "branch_count": 3,
+      "evidence_note": "The broad ochre strip continues in two directions; a much narrower ochre strip with dark margins touches its southern casing and runs southwest."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [122, 267],
+      "branch_count": 3,
+      "evidence_note": "Two arms belong to the broad cased road; a thin dark stroke turns south beside ochre infill. The third road arm is conditional on f03 being a track rather than a parcel outline."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [126, 336],
+      "branch_count": 3,
+      "evidence_note": "The narrow diagonal strip has two apparent continuing arms, and the curved dark stroke meets it from above. Lettering crowds the meeting, and the third road arm is conditional on the interpretation of f03."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [84, 340, 161, 390],
+      "why": "Heavy black lettering overlaps thin strokes, ochre parcel edges and building marks; possible continuation of the narrow track cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The broad cased ochre road is clear; the short lines among the upper-left buildings admit competing track and parcel-outline readings. The broad red diagonal is read as a boundary, and the sinuous blue lines as drainage, rather than roads. Junctions j02 and j03 are conditional on the doubtful feature f03."
+}

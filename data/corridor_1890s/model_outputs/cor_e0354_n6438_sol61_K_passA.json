@@ -1,0 +1,121 @@
+{
+  "tile_id": "cor_e0354_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 388], [23, 377], [49, 368], [76, 357], [104, 347], [132, 337], [158, 330], [182, 319], [198, 306], [213, 287], [234, 272], [253, 256]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One row of heavy dark dots or short strokes follows a faint reddish trace; no continuous paired casing is visible.",
+      "uncertainty_note": "The upper-right endpoint reaches the sheet join. It probably continues as f02, but the displaced linework prevents a certain connection.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[238, 247], [240, 232], [250, 218], [270, 208], [288, 209], [304, 212], [325, 202], [347, 193], [373, 190], [398, 188], [422, 184], [445, 178], [474, 162], [505, 148], [536, 133], [566, 120], [596, 107], [627, 94], [655, 82], [684, 67], [710, 51], [733, 32]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow reddish-brown band has dark, irregularly interrupted edges roughly 5–10 px apart; its bends remain visible across the pale polygon fills.",
+      "uncertainty_note": "The southwest end disappears into the sheet join near f01. The edges are sufficiently broken that the precise symbol form is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark edges could be read as paired dotted rows rather than continuous road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[733, 32], [752, 17], [773, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The same narrow reddish strip with dark interrupted edging continues northeast from the fork and clips the top edge.",
+      "uncertainty_note": "The short segment retains the indistinct edging seen on f02.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Its dark margins may represent paired dotted rows."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[733, 32], [747, 53], [762, 76], [774, 94], [783, 105]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A reddish-brown arm about 6–12 px wide leaves the diagonal trace; dark edging becomes merged with black rectangular marks at its lower end.",
+      "uncertainty_note": "This may be a short road branch, but an accented parcel edge is also plausible. Stop at the black marks because a continuation beyond them is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The reddish arm may have two closely spaced dark road edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a coloured parcel boundary; that reading removes j01 as a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[958, 0], [940, 22], [923, 44], [908, 68], [896, 94], [886, 120], [879, 145]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two dark, approximately parallel strokes enclose a pale strip about 10–18 px wide; large black lettering overlaps their southern portion.",
+      "uncertainty_note": "The paired strokes resemble a narrow road but could outline a narrow parcel. Their course beneath the lettering and any continuation toward the blue outline cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the two approximately parallel strokes as road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read them as separate parcel edges rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 381], [12, 364], [23, 345], [29, 333]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "A short curved pair of green-black strokes, approximately 7–12 px apart, clips the left edge and appears hooked or closed at its upper end.",
+      "uncertainty_note": "This could be a short track or an elongated closed enclosure. Its edge-clipping end lies close to f01, but no road junction is clearly visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired curved strokes may depict a short track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent closed tip may indicate an enclosure outline, making this a non-road feature."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [733, 32],
+      "branch_count": 3,
+      "evidence_note": "Three reddish arms converge: southwest and northeast arms share dark interrupted edging, while the southeast arm has heavier reddish fill and less distinct edges. The third arm's interpretation as a road is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [226, 244, 276, 272],
+      "why": "The dark sheet join and displaced drawing obscure the possible connection between f01 and f02."
+    },
+    {
+      "bbox_uv": [854, 68, 935, 163],
+      "why": "Heavy lettering overlaps the paired strokes of f05 and prevents reliable continuation through this area."
+    }
+  ],
+  "overall_note": "The sheet join interrupts the clearest southwest-to-northeast route. Short reddish and paired dark traces admit road and parcel-edge readings, which are retained as alternatives. Blue shore outlines and the conspicuous straight field outlines are excluded."
+}

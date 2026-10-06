@@ -1,0 +1,128 @@
+{
+  "tile_id": "cor_e0347_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,529],[22,502],[45,474],[58,442],[77,408],[101,382],[128,359],[155,337],[181,316],[207,292],[230,267],[245,239],[260,206],[273,172],[286,138],[297,104],[307,70],[323,35],[337,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A fine reddish stroke follows a curved row of heavy dark dots or short strokes; the combined mark is roughly 4–7 px wide and passes beside several horizontally hatched patches.",
+      "uncertainty_note": "The road reading is strong, but the mixed continuous and dotted symbol does not clearly fit a supplied symbol-form class. The pale horizontal mark near v=475 crosses it without a visible road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The reddish stroke and adjacent dark dotted row could be read as two closely spaced road margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "At this resolution the dark intermittent component dominates, although its marks look more like dots than regular dashes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[744,0],[766,21],[783,41],[793,58]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish-brown strip has dark, uneven margins approximately 6–9 px apart and curves southeast from the upper edge.",
+      "uncertainty_note": "One margin also borders a tan polygon, so the two road margins are not equally distinct throughout.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The reddish strip may be a road stroke adjoining a parcel outline rather than a consistently paired-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[793,58],[802,40],[818,24],[838,13],[858,9],[880,11],[900,18],[918,20]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A reddish strip bordered by dark dots and short strokes bends around the upper cluster of filled rectangular symbols; its margins are roughly 6–10 px apart.",
+      "uncertainty_note": "The eastern end enters crowded linework. Its connection to the possible southeast branch at j02 is less certain than the curved western portion.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Intermittent margins and nearby parcel outlines make the symbol form uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[793,58],[777,82],[759,106],[746,127],[740,145],[746,163],[761,176],[776,183],[781,198],[778,225],[776,258],[776,291]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A reddish-brown strip with close dark, partly dotted margins winds beside tan polygon outlines and small red or black rectangles; near its lower end it lies immediately beside a heavy blue outline.",
+      "uncertainty_note": "The reddish component fades near (776,291), where dark strokes and the blue outline overlap. No continuation is asserted through that overlap.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The lower portion may be a single road stroke adjacent to a separate polygon or water outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[918,20],[928,8],[934,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short dark and reddish mark angles northeast from the upper curved strip and clips the top edge; nearby black outlines crowd both sides.",
+      "uncertainty_note": "The short length and overlapping outlines prevent a firm distinction between a road continuation and a parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may continue the closely bordered reddish road represented by f03."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An alternative reading is a non-road parcel outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[918,20],[932,37],[945,56],[960,69],[978,78]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Short dark oblique strokes and localized reddish-brown marks run southeast among small rectangular symbols and angular black outlines; a continuous casing cannot be established.",
+      "uncertainty_note": "This is a tentative road branch. Its course and attachment at j02 may instead combine separate parcel outlines and building marks; it stops where those marks prevent further tracing.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The oblique strokes could represent a thin access path with interruptions beneath symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire candidate could be non-road parcel and building linework, in which case j02 would not be a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [793,58],
+      "branch_count": 3,
+      "evidence_note": "Three reddish, dark-bordered arms meet: one toward the northwest upper edge, one curving northeast, and one turning southwest beside the rectangular symbols."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [918,20],
+      "branch_count": 3,
+      "evidence_note": "Tentative three-arm meeting of the curved reddish strip, a short northeast dark/reddish mark, and southeast oblique strokes; nearby angular outlines make the third arm uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [908,0,1000,108],
+      "why": "Overlapping dark parcel outlines, small filled rectangles and blurred reddish marks prevent firm separation of the tentative road branches f05 and f06."
+    }
+  ],
+  "overall_note": "The dotted diagonal route and reddish route beside the upper buildings are the clearest road readings. The upper-right branches and junction j02 remain tentative. Long dash-pattern lines, blue water outlines, horizontal hatching and pale straight scan marks were excluded."
+}

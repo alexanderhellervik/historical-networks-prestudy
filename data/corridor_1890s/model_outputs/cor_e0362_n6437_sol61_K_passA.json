@@ -1,0 +1,226 @@
+{
+  "tile_id": "cor_e0362_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,706],[18,694],[49,674],[82,650],[119,624],[153,598],[190,567],[229,532],[270,504],[310,478],[350,461],[392,443],[438,433]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j08","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two heavy dark edges enclose a broad orange-pink strip. The casing remains visible through crossings with thin red and dashed lines.",
+      "uncertainty_note": "The possible branch at j08 is less clear than the main road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[438,433],[478,426],[519,416],[559,400],[598,383],[633,366]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The broad orange-pink strip has two dark continuous edges, with repeated small oval tree marks alongside both edges over much of this section.",
+      "uncertainty_note": "Tree marks are sparse near the western endpoint; the underlying wide casing is clearer than the avenue decoration there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Describes the continuous road casing if the intermittent tree decoration is treated separately."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[633,366],[673,354],[706,348],[731,348],[771,347],[801,344],[819,336],[831,317],[836,291],[839,263],[846,234],[859,207],[877,180],[897,151],[921,122],[947,92],[973,65],[1000,39]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two strong dark continuous edges enclose an orange-pink band. The band bends sharply upward beside the large K, with casing visible on both sides of the lettering.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,500],[15,469],[25,431],[34,392],[44,355],[59,325],[77,292],[96,260],[119,226],[132,207],[145,192],[169,188],[195,190],[222,179],[252,161],[288,138]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange strip is bordered by dark, closely spaced broken marks. It curves past the G and S lettering and then turns right toward the tree-marked approach.",
+      "uncertainty_note": "Individual edge marks merge locally, so two separate edges are less distinct than on the broad road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches could be read as one heavy dotted line over orange tint."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[288,138],[294,118],[298,99],[307,80],[318,62],[328,41],[333,20],[327,0]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow orange-dark course runs upward between repeated oval marks, with heavier black rectangular symbols nearby near the top.",
+      "uncertainty_note": "The upper course is crowded by black symbols; its exact centre near the top edge is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The narrow underlying line can be read separately from the oval decoration."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[288,138],[307,175],[326,214],[346,254],[365,293],[385,333],[405,373],[424,411],[438,433]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A slim orange band has close dark broken edging. It passes through the large O, with the same diagonal strip visible above and below the letter.",
+      "uncertainty_note": "The lettering hides portions of the edging, but the course on both sides supports carrying the line through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The small scale makes a single dotted path symbol difficult to distinguish from two narrow broken edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[438,433],[448,477],[458,524],[468,572],[479,622],[488,671],[499,721],[508,766],[516,798]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A narrow orange strip with dark dotted or broken edging continues downward across the red elevation lettering and ends at the outline above the horizontal water hatching.",
+      "uncertainty_note": "Its visible endpoint is at the hatched area's outline; no continuation is supported inside the hatching.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A single dotted path over orange tint remains possible where the two edges merge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[119,226],[133,242],[151,271],[175,306],[202,344],[229,382],[256,420],[283,456],[310,478]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow orange diagonal has close dark broken edges. Its upper portion crosses a red rectangular symbol and adjacent black marks; the same strip reappears below them.",
+      "uncertainty_note": "The red and black symbols partly hide the first approximately 35 pixels, including the precise attachment at j01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The upper attachment could instead be a short obscured gap between this track and f04."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[432,0],[451,34],[472,72],[492,112],[513,154],[535,197],[555,239],[577,281],[599,322],[618,349],[633,366]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange road line runs between repeated small oval tree symbols on both sides. The diagonal remains visible through the large C.",
+      "uncertainty_note": "The C locally covers the edging, but the aligned road and tree rows above and below make the continuation clear.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[731,348],[734,380],[739,415],[746,445],[779,444],[817,439],[856,434],[891,436],[929,445],[966,457],[1000,472]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06","j07"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow orange strip with closely spaced dark broken edging descends from the broad road, then turns right. Thin green-blue lines lie nearby but have different weight and colour.",
+      "uncertainty_note": "The descending portion shares its position with a darker outline, making its edge spacing less clear.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The descending portion could be read as a dotted path alongside a separate outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[746,445],[742,470],[738,494],[734,514]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "Below the rightward turn, orange tint and dark broken marks continue briefly along a heavier black outline. Farther down, only the single black outline remains.",
+      "uncertainty_note": "This may be a short road spur, or the orange marks may belong to the adjoining boundary. The endpoint marks where the road-like decoration ceases.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a boundary or land-cover outline with incidental orange colouring rather than a road branch; j07 would then have only two road branches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0,677],[9,685],[18,694]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short oblique dark-edged, reddish-orange stroke clips the left edge and touches the broad road, outlining a small triangular patch.",
+      "uncertainty_note": "The visible length is too short to establish a road symbol reliably.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may be a narrow track joining the broad road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be the edge of the triangular coloured patch; j08 would then have only two road branches."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [119,226],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange, broken-edged line continues northeast and southwest, while a similar diagonal leaves southeast beside the red rectangle. The attachment is partly crowded by the rectangle and black marks."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [288,138],
+      "branch_count": 3,
+      "evidence_note": "The western orange broken-edged line meets the northern oval-lined course and the southeast narrow orange line. A thin blue diagonal also crosses here but has no matching road casing."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [310,478],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange diagonal terminates against the broad orange-pink strip, whose two heavy dark edges continue in both directions."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [438,433],
+      "branch_count": 4,
+      "evidence_note": "The broad dark-cased orange-pink road crosses the narrow orange broken-edged course, with all four arms visible; the narrow southern arm changes angle slightly."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [633,366],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange course between paired oval tree rows meets the broad dark-cased strip. The broad strip continues west and east."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [731,348],
+      "branch_count": 3,
+      "evidence_note": "A narrow orange broken-edged line leaves the lower side of the broad orange-pink road, whose casing continues east and west."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [746,445],
+      "branch_count": 3,
+      "evidence_note": "The descending narrow orange line turns right, while a short orange and broken-marked extension continues downward along a black outline. The third branch is provisional because that extension may be boundary decoration."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [18,694],
+      "branch_count": 3,
+      "evidence_note": "A short reddish-orange oblique stroke touches the broad cased road, which continues northeast and southwest. The third branch is provisional because the stroke may outline the small triangular patch."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad casing and paired tree rows are readily distinguishable, but the narrow dotted symbols sometimes merge into single marks. Lettering and the red rectangular symbol obscure short stretches whose continuation is supported on both sides. Two short possible branches are retained with boundary alternatives, and their junction counts are provisional."
+}

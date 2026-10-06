@@ -1,0 +1,216 @@
+{
+  "tile_id": "cor_e0365_n6425",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 520], [33, 495], [66, 469], [96, 440], [124, 414], [158, 386], [191, 383], [222, 382], [259, 372], [293, 354], [325, 338], [362, 324], [383, 296], [405, 266], [421, 232], [442, 201], [457, 181], [484, 163], [499, 144], [507, 117], [519, 87], [532, 60], [541, 36], [557, 16], [572, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow orange band runs between closely spaced dark strokes, with repeated dark dots along its margins. It bends beside the heavy blue outline and crosses several thin parcel lines.",
+      "uncertainty_note": "The uppermost orange band meets additional oblique strokes; whether these make a separate branch is uncertain and recorded in f03 and j02.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as an orange stroke with dotted edging rather than two consistently distinct lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 364], [34, 367], [69, 373], [103, 380], [132, 386], [158, 386]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin orange stroke with a closely adjacent row of dark dots enters from the left and meets the wider orange trace at its bend.",
+      "uncertainty_note": "The dotted edge is clearer than any second continuous edge, so the exact symbol form is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The orange centre may be a single line accompanied by dots."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The orange stroke and dotted margin may be the two sides of a narrow road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[532, 60], [555, 43], [580, 27], [607, 12], [631, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A fine oblique dark stroke with orange immediately alongside diverges toward the upper edge from the more strongly marked orange trace.",
+      "uncertainty_note": "This is a doubtful branch. The stroke may instead outline the narrow peach-coloured patch beside f01, or belong to the margin of that same road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If independent, the branch has one clearly visible dark line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel outline or widening of f01 rather than a separate road; under this reading j02 is absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[727, 0], [724, 30], [719, 60], [714, 91], [709, 120], [703, 145], [692, 168], [680, 187], [667, 203]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange strip with dark, locally dotted edges descends beside the horizontally hatched patch. Its lower end reaches the meeting of two oblique dotted traces.",
+      "uncertainty_note": "The road edges and the outlines of adjacent coloured polygons overlap near the lower end, making the exact centre of the meeting uncertain by several pixels.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Parts of the dark edging may belong to the adjacent polygon outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[40, 511], [78, 507], [118, 502], [158, 496], [199, 489], [239, 479], [276, 461], [313, 443], [351, 424], [391, 404], [430, 384], [469, 365], [508, 346], [546, 329], [577, 307], [601, 281], [625, 253], [647, 226], [667, 203]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A fine orange trace accompanied by closely repeated dark dots runs diagonally across the pale ground. It crosses solid polygon outlines and curves into the upper meeting.",
+      "uncertainty_note": "The left end fades near [40, 511]; no connection to f01 is drawn clearly enough to carry it across the intervening gap. One dotted row is clearer than the other.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a single dotted path-like trace."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Orange between closely spaced dotted margins could represent a narrow paired-line road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted parcel division remains possible, although the repeated short dots differ from the conspicuous long-dash boundaries."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[251, 610], [283, 605], [319, 595], [355, 582], [392, 566], [428, 552], [456, 541], [481, 520], [502, 489], [523, 458], [545, 425], [566, 392], [587, 360], [607, 327], [625, 293], [641, 260], [654, 231], [667, 203]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A fine reddish-orange curved stroke becomes edged with short dark dots toward its northeastern part. It crosses a long dashed line and solid peach-polygon edges without following them.",
+      "uncertainty_note": "The western stretch is faint and looks more nearly continuous than the dotted upper stretch. Its visible end at [251, 610] has no certain continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The faint western portion can be read as one continuous path line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The upper portion may have two closely spaced dotted edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The western reddish stroke could be a parcel boundary joined visually to a separate dotted route farther east."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[1000, 264], [969, 287], [938, 308], [905, 328], [874, 347], [844, 367], [822, 391], [796, 418], [771, 441], [746, 466], [720, 489], [697, 511], [676, 538], [655, 566], [635, 594], [615, 624], [595, 654], [581, 684], [566, 715], [550, 749], [540, 781], [533, 813], [526, 845], [526, 868]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange ribbon with close dark edges and dotted portions follows the diagonal peach band. Black rectangular symbols lie beside it around [730, 438] and [760, 421]; the paired trace continues below them.",
+      "uncertainty_note": "Near the small black symbols, short angular strokes overlap the road margins and coloured-polygon outlines. They do not resolve into separately traceable access branches. The crimson line alongside the lower section is distinct from the narrower dotted road trace.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some sections show an orange line with dotted edging more clearly than a continuous pair of lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[526, 868], [549, 876], [570, 879], [585, 879], [593, 891], [587, 913], [570, 931], [548, 942], [523, 953], [500, 968], [486, 984], [482, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Closely spaced dark dotted edges enclose an orange strip that bends sharply right, then left and downward. The trace passes between heavy blue outlines and continues to the bottom edge.",
+      "uncertainty_note": "The bend around [585, 890] is crowded by dark polygon outlines, but matching orange and dotted marks on both sides support continuity.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "At the tight bend, the two road edges cannot be separated consistently from adjacent outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[401, 895], [431, 892], [462, 887], [491, 879], [512, 871], [526, 868]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Two dark, slightly curving strokes enclose a narrow pale-orange strip west of the lower road bend. They converge toward a pointed western end.",
+      "uncertainty_note": "This may be a short approach, but its pointed end and association with the peach polygon also support an elongated parcel outline. The third branch at j04 is conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close pair of strokes could be the edges of a short road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible boundary of a narrow coloured polygon rather than a road; under this reading j04 is only a bend."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[96, 822], [109, 840], [123, 858], [139, 876], [159, 879], [181, 879], [204, 877]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A close pair of thin dark strokes descends southeast beside the large lettering, then turns east. A pale interior separates the strokes, which approach the thick crimson vertical line at the eastern end.",
+      "uncertainty_note": "The northwestern continuation is obscured by lettering and a black symbol, so it is stopped at [96, 822]. The eastern end meets a crimson line read as a boundary, without a certain road continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired strokes could outline a narrow uncoloured strip adjoining the coloured polygons rather than an independent approach."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [158, 386],
+      "branch_count": 3,
+      "evidence_note": "The orange trace from the left meets the close dark-edged orange band at its bend; branches extend west, southwest and east-northeast."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [532, 60],
+      "branch_count": 3,
+      "evidence_note": "The orange band approaching from below meets two oblique upper traces. The finer northeastern trace may be a polygon edge, so the three-branch reading is conditional on f03."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [667, 203],
+      "branch_count": 3,
+      "evidence_note": "The orange strip descending beside the hatched patch meets two fine dotted traces approaching from the southwest at different angles; heavy polygon outlines overlap the meeting."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [526, 868],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange road bends from a northward branch into an eastward branch, while a close pair of dark strokes approaches from the west. The western strokes may instead enclose a parcel, making the third branch conditional on f09."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [68, 794, 113, 829],
+      "why": "Large black lettering and a compact black symbol obscure the possible northwestern continuation of f10; the underlying thin strokes cannot be followed confidently."
+    }
+  ],
+  "overall_note": "The strongest road evidence is orange colouring accompanied by closely spaced dark or dotted edges. Fine dotted interior traces and short paired strokes admit alternative readings, which are retained above. Long dashed divisions, heavy blue outlines and conspicuous crimson parcel lines were read as non-road symbols."
+}

@@ -1,0 +1,100 @@
+{
+  "tile_id": "cor_e0344_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 795],
+        [48, 769],
+        [96, 746],
+        [145, 722],
+        [192, 699],
+        [239, 674],
+        [280, 648],
+        [318, 620],
+        [351, 592],
+        [380, 568],
+        [410, 536],
+        [441, 508],
+        [472, 478],
+        [504, 447],
+        [536, 417],
+        [567, 389],
+        [598, 361],
+        [629, 332],
+        [659, 303],
+        [688, 278],
+        [712, 257]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A curving pink-red stroke has a narrow dark margin and locally a pale strip alongside it; the apparent width varies around 6–12 px. It crosses blue strokes and meets several thinner, straight red strokes.",
+      "uncertainty_note": "Tentative road reading. Separate road edges or regular dotted margins are not consistently resolved, and this could instead be a boundary with coloured emphasis. At the final endpoint, red and blue strokes overlap and the road interpretation cannot be carried through confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have two close edges enclosing a pale strip, consistent with a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire course could be a boundary rather than a road; its red colour also occurs on the straight diagonal lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [358, 0],
+        [354, 23],
+        [351, 45],
+        [345, 63],
+        [334, 80],
+        [345, 87],
+        [358, 91]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Short dark marks descend beside a finer, more continuous curved black line, with roughly 8–12 px between them locally. Their lower end approaches a small solid red rectangular symbol.",
+      "uncertainty_note": "A possible short access track, but the continuous stroke also outlines a tinted polygon, and the interrupted marks may belong to its edge. The final bend and connection to the red rectangle are poorly resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the continuous and interrupted strokes form one symbol, they could be the two edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "These may be polygon-edge marks rather than a road; the short terminal bend may not be a separate drawn connection."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [712, 257],
+        [745, 277],
+        [786, 306],
+        [829, 336],
+        [871, 365],
+        [914, 397],
+        [957, 425],
+        [1000, 452]
+      ],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A comparatively thin, nearly straight red stroke with a dark fringe runs southeast from the red-blue overlap. No clearly separated pair of road edges or repeated roadside symbols is visible.",
+      "uncertainty_note": "Included only as a doubtful continuation of f01. Its straight course and similarity to the other red diagonals favour a boundary reading; a road connection through the initial overlap is unconfirmed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Likely a boundary rather than a road, potentially continuing the boundary interpretation of f01."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [],
+  "overall_note": "No road interpretation is certain: the principal candidate resembles both a coloured track and a boundary, while the short northern candidate overlaps polygon-edge drawing. The other straight red diagonals, long black dashed lines, blue lines and hatched-area outlines are read as non-road symbols. Their intersections do not establish any junction with three road branches."
+}

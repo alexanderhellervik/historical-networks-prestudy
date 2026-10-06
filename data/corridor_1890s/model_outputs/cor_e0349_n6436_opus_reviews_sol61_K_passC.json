@@ -1,0 +1,152 @@
+{
+  "tile_id": "cor_e0349_n6436",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Short red-brown line cutting the top-left corner from about (0,85) to (125,0). It is heavier and browner than the thin crimson boundaries nearby, e.g. (0,215)-(330,40), but it has no dots and no pale corridor, and it leaves the tile almost at once.",
+      "uncertainty_note": "It could be a brown road stub or a boundary drawn in a slightly different ink. Only about 150 px of it is inside the tile, so its colour cannot be compared reliably with the road lines."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pale corridor about 15-20 px wide runs from the left edge near (0,395) through (185,480) to (250,590). Its upper edge is a thin grey line and its lower edge is the crimson boundary. The corridor continues without a break into f03/f06, so it reads as a double-line road with one edge shared with a boundary.",
+      "uncertainty_note": "The polyline sits on the crimson lower edge rather than on the centre of the corridor (about 8-10 px off). Part of the 'road' reading rests on how continuous the corridor is, because the corridor is not coloured."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Short connector at about (245,595)-(240,660). The pale corridor turns here from the NW-SE run (f02) into the W-E run below the ST meadow (f06), between the grey edge of the green area and the crimson line.",
+      "uncertainty_note": "The overlay drawing is very short and overlaps f04 and f06 here, so I can't be sure which segment the id covers. I assumed it is the f02-f06 link."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the corridor bend near (242,650) a line runs down to about (220,712). There the brown road f05 (from the west) and the brown road f07 (towards the SE) meet, so f04 connects the corridor to the brown road system.",
+      "uncertainty_note": "Here the crimson boundary runs along the same course and continues SW towards (130,1000). It is not clear whether this short piece is a road or only the boundary between the corridor and the junction. A gap would be a plausible alternative."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road line runs from about (215,715) through (190,758) and (100,800), past the red house marker at 'G', then out of the tile as a wider brown band at about (0,885). Its colour matches the brown roads f07, f08 and f09.",
+      "uncertainty_note": "West of 'G' the band looks wider and could be double_line_narrow. The overlay vertex near (190,760) cuts slightly inside the hatched field."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pale corridor runs W-E under the ST meadow from (245,650) to the fold at (590,635). It continues on the right sheet half from (595,605) to (945,550), with thin grey/dark upper edges and the crimson boundary as its lower edge. It is the clearest through-route on the tile.",
+      "uncertainty_note": "Again the polyline follows the crimson lower edge, about 10-15 px south of the corridor centre. The two sheet halves are slightly misaligned at the fold (u about 590). The corridor has no road colour, so the class is inferred from its form."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line runs over the hatched field from about (222,712) through (270,770) and (305,830) to (330,875). There it meets the brown dotted road f08 and the brown line f09.",
+      "uncertainty_note": "The line is thin and partly lost among the hatching around (260,750). Its course is clear at both ends."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Orange-brown line edged with black dots, the most clearly drawn road on the tile. It runs from the right edge at about (1000,645) through (900,710), (800,745), (700,790) and (600,845) to (500,878), then along the south side of the houses to (330,875). It runs past the label 't. Skogen' (road to the forest).",
+      "uncertainty_note": "Between u=650 and 950 the overlay runs about 15-20 px south of the drawn line, but it follows the same road. The class could also be read as dashed_line, because the dots are prominent."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line continues south from the junction at (330,875) past the building to about (310,940) and leaves the bottom edge near (275,1000).",
+      "uncertainty_note": "It runs tight against building outlines, so its exact course near (300,900)-(320,930) is hard to separate from them."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A black dotted line runs from the fold at about (588,462) west through (500,472) and (440,490), then down through the ST cottages at (380,520) and (320,560) to about (255,598). A thin brown trace sits alongside it in the cottage group.",
+      "uncertainty_note": "Among the small buildings, around (300-380, 520-580), the dots are hard to separate from building outlines. The western end could join the corridor at (250,595) or end at the cottages."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear black dotted line runs from the top edge at about (390,0) through (382,110), (360,230) and (315,340) to about (265,445), on the north edge of the ST meadow. It is the Gångstig dotted form.",
+      "uncertainty_note": "The southern end is unclear. It may stop at the meadow edge, or continue along the dashed field edge towards (300,430) and the ST houses."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line enters at the top around (530,0) and runs SE to about (590,150). From there it continues as an orange-tinted dotted line along (650,185) to the Lomme houses at (720,215), then south through (705,300) and (680,370) to about (655,440).",
+      "uncertainty_note": "The overlay ends near (665,450), but the dots seem to keep going SW towards the fold at about (600,458), which would join f10. The upper black-dotted part and the lower orange-dotted part may differ in class."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At this position there is only a faint thin grey straight line from about (40,390) towards (300,185). It has no dots, no colour and no paired edge, and it ends in open coniferous ground with no destination. It reads as a field/skifte line or construction line, like the uncoloured lines that the worked example records as not roads.",
+      "uncertainty_note": "The line is very faint. If it were a faint Gångstig its dots would not show at this resolution, but nothing visible supports that."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (945,552) the pale corridor of f06 turns NE and leaves the right edge near (1000,475). Its south-east edge is again the crimson line.",
+      "uncertainty_note": "A crimson boundary also runs south from the same point to about (850,1000), so the bend is a boundary junction as well as a road bend. Only about 90 px of this segment is inside the tile."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[745, 465], [800, 455], [860, 440], [895, 422], [912, 390], [925, 340]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A row of black dots runs along the south and east bank of the green stream/meadow strip. It starts near the building at (705,485) and runs along (800,455) and (895,422), then turns north up the stream's east edge.",
+      "uncertainty_note": "Dots that follow a watercourse edge this closely may be a boundary or bank symbol rather than a path. Further north the dots fade, and they may continue to the top-right dotted segment near (960,130)-(1000,50).",
+      "alternatives": ["not a road: dotted stream-bank or boundary line", "continues north along the stream to the top-right edge near (1000,50)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [598, 460],
+      "what_is_contested": "Whether f10 (dotted, west of the fold) and the lower end of f12 (dotted, east of the fold) join here into one continuous path.",
+      "evidence_note": "Both dotted lines approach the sheet fold at about the same v (about 460), but the paper is creased and misaligned there. The overlay ends f12 at (665,450) without reaching f10."
+    },
+    {
+      "uv": [245, 598],
+      "what_is_contested": "How many branches meet where the pale corridor bends (f02/f03/f04) and the dotted path f10 ends.",
+      "evidence_note": "The corridor, the crimson boundary, the edge of the green meadow and the f10 dots all converge within about 20 px. It cannot be seen whether f10 actually reaches the corridor."
+    },
+    {
+      "uv": [220, 712],
+      "what_is_contested": "Whether this is a real 3-way road junction (f04 / f05 / f07) or only brown roads f05-f07 crossing a boundary line.",
+      "evidence_note": "Two brown road lines meet here clearly. The link north to the corridor (f04) shares its line with a crimson boundary that continues SW, so the existence of that third branch is uncertain."
+    },
+    {
+      "uv": [330, 875],
+      "what_is_contested": "The exact position of the junction of f07, f08 and f09 among building outlines.",
+      "evidence_note": "The three brown lines converge beside a large building. The meeting point could be anywhere between about (320,865) and (340,885)."
+    }
+  ],
+  "overall_note": "The tile has two road systems: brown road lines (f05, f07, f08, f09) and an uncoloured pale double-line corridor (f02/f03/f06/f14) that crosses the tile and partly shares its edge with crimson boundaries. Black dotted lines (f10, f11, f12, possibly m01) read as paths. The overlay is largely right, except that f13 is an uncoloured thin line rather than a road, and several of its polylines follow the boundary edge instead of the corridor centre."
+}

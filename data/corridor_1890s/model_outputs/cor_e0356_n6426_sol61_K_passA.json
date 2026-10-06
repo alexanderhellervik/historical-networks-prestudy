@@ -1,0 +1,90 @@
+{
+  "tile_id": "cor_e0356_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[310, 0], [297, 35], [284, 72], [273, 108], [262, 145], [264, 179], [266, 216], [262, 246], [249, 280], [237, 312], [229, 352], [223, 387], [215, 416]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two dark, approximately parallel edges enclose a reddish strip about 9–14 px wide; the pair bends together and continues across the blue-green band.",
+      "uncertainty_note": "Lettering touches the casing in places, but the continuation is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[215, 416], [211, 452], [204, 487], [193, 521], [177, 554]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish strip remains between two dark edges, approximately 9–12 px apart; dark lettering and building marks crowd its southern end.",
+      "uncertainty_note": "The main line is readable; the short western branch at j02 is less certain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[177, 554], [169, 579], [151, 597], [130, 608], [107, 622], [91, 635], [82, 654], [80, 687], [81, 724], [81, 760], [77, 796], [69, 834], [61, 872], [55, 910], [49, 951], [49, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose reddish fill, bending southwest through the symbols and then continuing downward; both edges remain visible at the blue-green crossing.",
+      "uncertainty_note": "Small parts of the bend overlap lettering and building marks, but the paired line can be followed through them.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 482], [25, 467], [53, 453], [88, 440], [123, 431], [160, 421], [190, 413], [215, 416]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A curved reddish stroke has dark margins roughly 5–9 px apart and widens slightly where it meets the vertical cased line.",
+      "uncertainty_note": "The margins partly merge at this resolution; reddish boundaries elsewhere on the tile make its interpretation less secure than the main road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a reddish property boundary with a heavy outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[70, 563], [89, 546], [106, 536], [126, 532], [149, 532], [163, 541], [177, 554]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Short dark strokes outline a pale, irregularly narrow passage along the block-shaped black marks; some portions appear paired, about 4–8 px apart.",
+      "uncertainty_note": "A short access track is plausible, but building outlines and enclosure lines interfere with both its course and its apparent connection at j02. The western end disappears among black symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired portions may be the two edges of a narrow access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the trace may belong to building or enclosure outlines rather than a road; under that reading j02 has only two road branches."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [215, 416],
+      "branch_count": 3,
+      "evidence_note": "The reddish line from the left meets the western casing of the reddish vertical pair, which continues above and below; three branches are visible under the road reading of f04."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [177, 554],
+      "branch_count": 3,
+      "evidence_note": "The main reddish casing continues in two directions beside black block symbols; a short pale passage with dark margins appears to join from the west, giving a tentative third branch."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [45, 520, 222, 723],
+      "why": "Dense black building marks, lettering and green stippling merge with short thin lines; additional internal paths and the exact western spur connection cannot be resolved reliably."
+    }
+  ],
+  "overall_note": "The main cased road is clear, while the western approach and short trace among the buildings retain alternatives. Straight reddish parcel lines, blue water lines, the diagonal boundary pattern and the black-and-white railway at the lower-right edge were excluded. Junction j02 is conditional on the access-track interpretation of f05."
+}

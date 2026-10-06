@@ -1,0 +1,139 @@
+{
+  "tile_id": "cor_e0354_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [554, 0],
+        [566, 39],
+        [579, 81],
+        [592, 123],
+        [602, 165],
+        [615, 208],
+        [629, 251],
+        [642, 294],
+        [651, 335],
+        [660, 377],
+        [671, 421],
+        [684, 466],
+        [707, 509],
+        [714, 550],
+        [716, 590],
+        [716, 633],
+        [714, 675],
+        [714, 715],
+        [709, 746],
+        [701, 771]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One narrow ochre stroke carries repeated dark dots and short strokes, generally spaced about 10–20 px apart; there is no clearly separate second casing line. The heavier blue water outline runs alongside it.",
+      "uncertainty_note": "The dotted ochre symbol supports a path reading, although some marks merge into longer strokes. The southern endpoint disappears into lettering and dark marks; its connection to f02 or f03 cannot be traced securely.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The combination of a continuous ochre stroke and black dots may warrant unknown rather than dashed_line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [702, 817],
+        [692, 839],
+        [675, 853],
+        [662, 875],
+        [655, 907],
+        [648, 940],
+        [649, 970],
+        [653, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Dark separated marks follow a faint narrow ochre strip through the coloured enclosure and continue below it. They are lighter and narrower than the enclosure's heavy solid outline; no paired casing is clear.",
+      "uncertainty_note": "The first visible marks are interrupted by lettering, building marks and enclosure outlines. This may continue f01, but the intervening course is unresolved; the lower portion could also be an enclosure or property edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road enclosure or property boundary remains possible, particularly below [662,875]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [741, 784],
+        [777, 793],
+        [812, 791],
+        [849, 786],
+        [885, 786],
+        [919, 789],
+        [948, 793],
+        [967, 800],
+        [980, 812],
+        [989, 828]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin continuous ochre line has small dark or grey interrupted marks along its lower side. It runs beside the pale coloured enclosure and curves downward at the right; two distinct casing lines are not visible.",
+      "uncertainty_note": "This could be a path following the enclosure edge or the enclosure edge itself. Lettering hides its western connection and covers the eastern curve, so neither connection is completed.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could represent a dotted path, comparable to f01."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "If the ochre stroke is the road symbol and the dark marks are incidental, single_line is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road field or enclosure outline is also supported by its position along the coloured area's edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [888, 294],
+        [906, 314],
+        [928, 335],
+        [943, 359],
+        [955, 383],
+        [970, 407],
+        [984, 431],
+        [1000, 459]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow ochre stroke carries one row of distinct black dots and short strokes, approximately 10–20 px apart. It curves beside small coloured polygons, separately from the much heavier red dash-and-dot diagonal.",
+      "uncertainty_note": "A dark rectangular mark and lettering obscure the upper endpoint. The symbol suggests a path, but a dotted enclosure edge remains possible; no connection to the heavy diagonal is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted ochre line could delimit the adjacent enclosures rather than represent a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [694, 765, 741, 823],
+      "why": "Large black lettering overlaps the dotted and ochre lines, preventing a secure trace of their possible meeting."
+    },
+    {
+      "bbox_uv": [980, 818, 1000, 889],
+      "why": "Lettering merges with the curving ochre line and nearby heavy outline; continuation of f03 cannot be distinguished."
+    },
+    {
+      "bbox_uv": [875, 282, 901, 312],
+      "why": "A dark rectangular mark, lettering and coloured polygon edges obscure the beginning of f04."
+    }
+  ],
+  "overall_note": "Heavy red dash-and-dot diagonals were read as boundaries, and paired dotted margins enclosing hatching as land-cover outlines. The ochre lines with repeated dark marks support path readings, with enclosure-edge alternatives retained. Lettering prevents confirming a possible three-branch meeting near [704,783], so no junction is asserted."
+}

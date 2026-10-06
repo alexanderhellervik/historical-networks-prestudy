@@ -1,0 +1,75 @@
+{
+  "tile_id": "cor_e0344_n6448",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-filled band with black edges on both sides runs from the top edge at about (553,0) past the Hökas farm, through (530,100) and (500,200), to the junction near (480,258). The polyline follows it.",
+      "uncertainty_note": "The overlay's class cannot be seen, so only the course is confirmed. Wide or narrow double line is a judgement of band width (about 8-10 px); the band is the broadest road on the tile, which fits Landsväg/Bygdeväg."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown double-line band bends from (480,258) through (465,330) and (440,385) to (375,415), where it turns west. The polyline sits on the east/south edge of the band but follows its course.",
+      "uncertainty_note": "The polyline is offset a few pixels to the outer edge of the band at the bend. This is not a different course."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A reddish-brown dotted road leaves the double-line road at about (482,258) and runs east through (540,250), (600,262), (650,290) and (700,322) to the Sjögärde farmstead at about (745,325). The polyline follows it.",
+      "uncertainty_note": "The dotted form matches Sämre körväg (two dotted lines) more than Gångstig. It could be read as a narrow double line with dotted edges. Its end at the farm is a dead end, not an edge exit."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-filled double-line band enters at the west edge at about (0,487) and runs through (100,470), past the Mossen house at (170,483), through (200,455) and (300,430), to the bend at (375,415). The polyline follows it.",
+      "uncertainty_note": "This is the same road as f02/f01; the split at (375,415) is only the junction with f05. The class judgement is as for f01."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted road leaves the main road's bend at about (375,420) and runs east to (470,462), then down to (492,500). It swings back SW through (470,565), (410,590), (375,650), (360,720) and (330,820), crosses the carmine boundary near (315,865) and reaches the bottom edge at about (320,1000). The polyline follows it closely.",
+      "uncertainty_note": "The dotted double-row form fits Sämre körväg. The course is clear along its whole length."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line runs down the west side of the tile at about u=45-55, from below the farm with the grey-green tomt at (70,70) through (50,150) toward (45,200). The polyline follows it.",
+      "uncertainty_note": "From about v=90 down, the road is clear. Above that, near (45,0)-(45,90), the only visible marks are a short black vertical stroke and the tomt edge. It cannot be confirmed that the road reaches the top edge rather than ending at the farm."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown dotted road continues from about (45,210) SW through (25,260) and (8,300) and leaves the west edge at about (0,330). The short polyline here lies on it.",
+      "uncertainty_note": "No junction is visible where f06 ends and f07 begins, so the two look like one road split into two pieces. Near the edge the road runs close to the carmine boundary, which starts at about (0,360), but the brown dots are distinct from it."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [481, 258],
+      "what_is_contested": "This is a three-way junction of f01, f02 and f03, and a carmine boundary also meets the road at the same point. The exact point where the dotted road joins could be a few pixels south, and the boundary should not be counted as a fourth road branch.",
+      "evidence_note": "A pink/carmine mark sits on the road band where the dotted road begins. The boundary runs WNW from here and is not a road."
+    },
+    {
+      "uv": [45, 205],
+      "what_is_contested": "The overlay splits f06 and f07 here, but no junction is visible. The dotted road continues without a branch, so the existence of a junction is doubtful.",
+      "evidence_note": "There is a continuous brown dotted line with no side line meeting it at this point."
+    }
+  ],
+  "overall_note": "The overlay matches my independent reading of the bare tile: a brown double-line main road (west edge → bend at 375,415 → north to the top edge) and three dotted lesser roads (to Sjögärde, south past Mossen to the bottom edge, and down the west side). I found no drawn roads it misses; the other black and carmine lines are field boundaries, fences or parish/estate boundaries. The overlay's classes are not visible to me, so my verdicts confirm courses only; the doubts are the top end of f06 and the unexplained f06/f07 split."
+}

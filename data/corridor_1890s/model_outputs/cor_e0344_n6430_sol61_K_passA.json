@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0344_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[190,874],[220,853],[252,831],[278,805],[298,773],[321,749],[353,733],[388,721],[426,714],[457,718],[490,729],[522,742],[550,740],[582,728],[615,717],[648,707]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow chain of dark dots and short strokes curves above the blue lake outline, then continues east across the broad pink band. Some portions appear to have a second, faint parallel row.",
+      "uncertainty_note": "The western continuation disappears into lettering and the horizontal sheet join. The eastern course and its connection to the farm branch are less distinct where several dotted strokes overlap.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The intermittently paired dotted rows could represent a narrow track rather than a single dotted path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[648,707],[682,695],[714,680],[735,659],[748,638],[782,621],[817,605],[852,590],[887,577],[924,563],[963,549],[1000,535]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow pale ochre band has closely spaced dark margins, with dotted or broken portions along its lower side. It runs above the large black lettering and small red building symbol.",
+      "uncertainty_note": "The western portion is crowded by parcel outlines and broken marks. Some of the apparent casing may belong to adjoining narrow ochre polygons.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dotted course immediately below the ochre strip may be the road, with the strip itself representing a separate parcel."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Parts of the paired line could instead be parcel edges; their continuity as one road is uncertain near the farm."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[648,707],[637,729],[627,752],[621,774]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A curved chain of heavy dark spots and short strokes descends from the east–west dotted course beside pale green fill. No consistent continuous casing is visible.",
+      "uncertainty_note": "This is a doubtful branch. Its lower end merges with dark outlines and scattered marks; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the spots form a path, this is a short dotted branch into the farm."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may instead belong to a property boundary surrounding the coloured parcels; under that reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[900,264],[912,294],[926,327],[941,358],[957,387],[958,421],[959,455],[974,483],[970,508],[980,524],[1000,535]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A sinuous reddish-brown stroke with a heavier dark edge descends from the blue shoreline. Its width varies, and a separate parallel margin is not consistently resolved.",
+      "uncertainty_note": "A road reading is possible, but this stroke may be a coloured property edge. Its northern end overlaps the heavy shoreline.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It could be a single heavy road stroke approaching the line at the eastern edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel or property boundary is an equally plausible reading; the reddish colouring alone does not establish a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,973],[32,965],[62,951],[91,933],[120,919],[145,902],[174,885]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A thin ochre-brown diagonal band carries dark, intermittently broken edging through the lower-left strip. It disappears at the heavy horizontal join.",
+      "uncertainty_note": "The narrow visible strip does not clearly separate road edging from a coloured boundary. A connection across the sheet join to f01 is possible but is not traced.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale interior and intermittently paired dark edges could indicate a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be a coloured boundary or parcel edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[543,722],[575,708],[610,691],[644,681],[655,684]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Two thin dark edges enclose an ochre strip roughly 8–12 pixels wide. The strip has an angular widening or return at its eastern tip and meets the pink band at its western end.",
+      "uncertainty_note": "This may be an elongated enclosed parcel rather than a road. It is retained as a doubtful separate feature because its paired edges also admit a track reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If interpreted as a track, the centre follows the paired edges given here."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparently closing eastern tip favours a narrow ochre parcel rather than a through road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [648,707],
+      "branch_count": 3,
+      "evidence_note": "Provisional junction: the west and northeast chains of dark broken marks meet a southward curved chain beside green fill. Three branches are apparent only if the southward marks are a path; a boundary reading of f03 removes this junction."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,874,1000,913],
+      "why": "A heavy, slightly sloping horizontal sheet join and colour discontinuity obscure crossings, including the possible connection between f01 and f05."
+    },
+    {
+      "bbox_uv": [607,724,659,795],
+      "why": "Dark parcel outlines, coloured fill and scattered broken strokes cannot be reliably separated at the lower end of the possible farm branch."
+    }
+  ],
+  "overall_note": "The broad pink zigzag and the long oblique dashed lines are read as boundaries. The main difficulty is separating dotted tracks from parcel outlines around the farm; f03, f04, f05, f06 and j01 remain provisional. No connection is completed across the horizontal sheet join."
+}

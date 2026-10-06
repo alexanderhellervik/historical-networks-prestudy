@@ -1,0 +1,121 @@
+{
+  "tile_id": "cor_e0369_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[813, 0], [786, 43], [760, 85], [741, 130]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A broad dark blue-black band has a reddish strip along its left side; separate road casings are not clearly resolved.",
+      "uncertainty_note": "This is a doubtful road candidate. A highlighted boundary is the stronger alternative; the apparent junction is conditional on the road interpretation.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "Possible broad road if the dark and reddish margins represent its two sides."},
+        {"proposed_class": "unknown", "note": "Possible non-road boundary with coloured wash; exclude from a road network under this reading."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[741, 130], [709, 178], [676, 225], [644, 277], [610, 329], [577, 380], [546, 429], [511, 480], [476, 534], [442, 586], [408, 638], [374, 690], [342, 742], [309, 795], [277, 846], [244, 895], [217, 932], [194, 960]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The diagonal carries a heavy dark band, locally broken or mottled, with continuous reddish wash on its upper-left side and blue-grey colouring on its lower-right side.",
+      "uncertainty_note": "The band is traceable, but its identity as a road is uncertain. Its coloured margins and heavy interrupted ink also support a boundary interpretation.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "Possible broad cased road, with individual margins obscured by heavy ink and colour."},
+        {"proposed_class": "unknown", "note": "Possible non-road administrative boundary with coloured highlighting."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[741, 130], [775, 148], [813, 172], [851, 200], [892, 222], [934, 248], [970, 272], [1000, 290]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A broad dark blue-black band bends right from the diagonal; reddish wash lies above it, and short dark marks and dots occur below the bend.",
+      "uncertainty_note": "Its connection is visible, but the accompanying dots and coloured wash make a boundary reading plausible.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "Possible broad road whose lower casing is particularly heavy."},
+        {"proposed_class": "unknown", "note": "Possible non-road boundary continuing through the heavy-band intersection."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[194, 960], [180, 980], [164, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The dark diagonal band continues toward the bottom edge with reddish colouring on its left margin.",
+      "uncertainty_note": "This short continuation inherits the road-versus-boundary ambiguity of f02.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "Continuation of the possible broad road."},
+        {"proposed_class": "unknown", "note": "Continuation of a possible non-road highlighted boundary."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[194, 960], [213, 980], [233, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A heavy dark branch turns down-right from the diagonal, accompanied by a reddish band.",
+      "uncertainty_note": "The branch is visible, but it may be a boundary branch rather than a road.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "Possible broad road turning away from the diagonal."},
+        {"proposed_class": "unknown", "note": "Possible non-road boundary branch."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[42, 1000], [69, 974], [101, 947], [133, 920], [154, 906], [168, 918], [181, 940]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin ochre-reddish line with darker intermittent ink runs diagonally from the bottom edge, then bends beside and across horizontal blue hatching.",
+      "uncertainty_note": "A narrow path is plausible, but the line could be a parcel limit. Its final approach disappears into hatching and the heavy diagonal band; no connection is asserted.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Possible non-road parcel boundary."},
+        {"proposed_class": "dashed_line", "note": "Possible interrupted path symbol rather than a continuous single stroke."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 20], [30, 24], [60, 29], [88, 36]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Near the upper-left corner, approximately parallel dark strokes enclose a narrow pale strip and cross densely inked blue-green linework.",
+      "uncertainty_note": "This could be a short double-line road or crossing, but adjoining water-edge, hatching and reddish boundary strokes prevent a secure identification or continuation.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Possible narrow road represented by the parallel strokes."},
+        {"proposed_class": "unknown", "note": "Possible non-road water-edge or boundary linework."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [741, 130],
+      "branch_count": 3,
+      "evidence_note": "Three heavy dark bands meet: upper-right, lower-left and right-downward; reddish wash borders the meeting. This is a three-branch road junction only under the road interpretation of f01–f03."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [194, 960],
+      "branch_count": 3,
+      "evidence_note": "The heavy diagonal band divides into two bottom-edge continuations, with dark ink and reddish margins. Three branches are visible under the road interpretation; the thin approach f06 is obscured before contact."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [171, 934, 211, 975],
+      "why": "Horizontal hatching and the heavy coloured diagonal obscure the thin candidate path's endpoint and any attachment; the heavy branches themselves remain traceable."
+    },
+    {
+      "bbox_uv": [0, 0, 96, 48],
+      "why": "Overlapping hatching, dark parallel strokes and reddish lines prevent a secure reading of the small possible road fragment."
+    }
+  ],
+  "overall_note": "The heavy diagonal and its branches are retained as doubtful candidates, with a highlighted boundary interpretation stronger than a secure road identification. Thin dash-and-dot lines across the middle and lower-right are read as boundaries rather than roads, and pale green outlines as land-cover or water linework. No continuation through unresolved overlap is inferred."
+}

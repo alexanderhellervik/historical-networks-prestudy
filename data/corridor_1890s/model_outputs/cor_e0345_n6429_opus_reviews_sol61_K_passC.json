@@ -1,0 +1,43 @@
+{
+  "tile_id": "cor_e0345_n6429",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous row of black dots with an orange-brown line alongside runs from the top edge near (725,0) through (650,110), (645,200), (680,320), (750,430), (800,510), (825,570), (815,660), (870,760), (925,840), (935,900) to the bottom edge near (932,1000). This is the same brown road colouring the example uses for Sämre körväg. The overlay polyline follows it closely along its whole length.",
+      "uncertainty_note": "The road itself is clear. The symbol form is a dotted line plus a brown band, so 'dashed_line' versus 'single_line' is a judgement call. The legend's Sämre körväg and Gångstig are both dotted. A dotted boundary with a colour band is a less likely alternative, because no dash-dot rhythm of a gräns is visible. The bog outlines nearby are also dotted black but carry no brown."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the top-right corner, a dotted black line with a reddish-brown line beside it runs from the top edge near (870,0) through (940,25) to the right edge near (1000,48). The overlay traces it. It carries the same symbol as f01.",
+      "uncertainty_note": "Only about 140 px of it lie inside the tile, at the very edge, partly over the face border, so the class and road status rest on a short stretch. Its brown band looks slightly redder than f01's, so a coloured boundary cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-right corner there are very faint, grey, roughly parallel thin lines running diagonally from about (900,1000) toward (1000,890), roughly where the overlay draws f03. They carry no road colour and are much fainter than the ink lines of the sheet.",
+      "uncertainty_note": "These could be a lightly drawn double-line road entering the corner. They could also be a pencil or erased construction line, a later addition, or paper damage. At this resolution I cannot decide, and I cannot place the course to better than about 20 px."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [915, 1000],
+      "what_is_contested": "Whether the faint diagonal line (f03) meets the dotted road (f01) at or just beyond the bottom edge, which would form a junction, or whether the two stay separate.",
+      "evidence_note": "f01 reaches the bottom edge near u 932 and the faint diagonal line near u 900. They converge at the edge and the meeting point, if there is one, lies outside the face."
+    },
+    {
+      "uv": [800, 505],
+      "what_is_contested": "Whether the thin grey-green line that crosses f01 here (from (690,510) to (1000,550)) is a branching road or only a land-use boundary that crosses the road.",
+      "evidence_note": "The thin line is uncoloured and of the same weight as the many field and forest edge lines on the tile. I read it as not a road, so I see no junction. A reader who takes these thin lines as paths would count a 4-way junction here and at (815,650) and (740,410)."
+    }
+  ],
+  "overall_note": "The only clearly drawn road is the dotted, brown-banded line from top to bottom (f01), plus a short piece of the same symbol in the top-right corner (f02). The solid red and dashed magenta lines are boundaries, the dotted outlines enclose hatched bogs, and the many thin grey-green lines read as land-use edges or ditches rather than roads. The faint diagonal in the bottom-right corner (f03) cannot be decided from this scan."
+}

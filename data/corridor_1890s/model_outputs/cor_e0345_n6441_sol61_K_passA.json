@@ -1,0 +1,227 @@
+{
+  "tile_id": "cor_e0345_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,807],[43,794],[91,779],[140,762],[188,746],[239,730],[282,713],[323,690],[367,663],[398,641],[432,617],[461,594],[490,572],[512,558],[540,553],[567,553]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j08"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish ochre strip has two close dark edges, with repeated dots or short strokes along them; it remains visible through the approach to the garden.",
+      "uncertainty_note": "Some edging is stippled rather than continuous, making the symbol-form classification approximate. The garden access at j08 is less distinct than the main road.",
+      "alternatives": [{"proposed_class":"unknown","note":"The paired stippled edges do not exactly match a continuous double-line symbol."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,239],[39,261],[76,286],[104,320],[127,356],[150,386],[179,394],[211,403],[226,441],[240,482],[253,522],[270,556],[298,587],[329,620],[367,663]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A slim orange-red band carries close, dark, partly dotted edges; it bends sharply near (150,386) and continues diagonally to the western road.",
+      "uncertainty_note": "Lettering hides portions around v=490–550, but the same narrow band is visible in letter gaps and on both sides, supporting the continuation.",
+      "alternatives": [{"proposed_class":"unknown","note":"Its dotted margins could warrant an unclassified road symbol rather than double_line_narrow."}]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[398,0],[398,23],[418,43],[450,67],[476,92],[496,117],[516,149],[536,181],[549,211],[562,241],[577,264],[596,276],[627,283],[657,291],[681,309],[702,338],[721,365],[743,391]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two continuous dark outlines enclose a pale reddish strip, generally about 8–12 px across; there are no regular transverse railway bars.",
+      "uncertainty_note": "The outlines merge briefly at bends, but the course is readable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[567,553],[586,528],[609,506],[638,482],[669,456],[697,432],[722,410],[743,391]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow reddish, dark-edged strip runs diagonally, with regularly repeated small rounded tree symbols beside both margins.",
+      "uncertainty_note": "The stream crossing and nearby symbols obscure a short section around (596,519); aligned road edges on both sides support carrying it through.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[743,391],[762,372],[778,350],[792,332],[808,320],[818,309]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A slim ochre-red strip with close dark margins continues northeast from the avenue toward a small reddish rectangular symbol.",
+      "uncertainty_note": "The last few pixels merge with the rectangular symbol; no continuation beyond it is securely visible.",
+      "alternatives": [{"proposed_class":"avenue_lined","note":"A few rounded marks beside the lower part may continue the avenue treatment."}]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[567,553],[584,566],[606,585],[630,605],[658,626],[687,646],[716,666],[744,686],[773,704],[800,718]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j02","j04","j09"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two close dark road margins enclose an ochre strip, with repeated small rounded tree marks particularly clear along its southwest side.",
+      "uncertainty_note": "Tree marks and garden outlines crowd the upper section. The park connection at j09 is provisional.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[639,1000],[641,975],[648,948],[659,921],[674,896],[696,868],[719,840],[743,809],[765,778],[784,747],[800,718],[824,701],[850,688],[880,680],[912,677],[937,679],[969,682],[1000,684]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j04","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A comparatively broad pinkish ochre band lies between substantial continuous dark outlines; it curves from the bottom edge into the eastward strip.",
+      "uncertainty_note": "The possible attachment at j07 may instead be a field boundary touching the road margin.",
+      "alternatives": [{"proposed_class":"double_line_narrow","note":"The apparent width varies with the heavy outlines and scan blur."}]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[798,366],[822,387],[850,412],[879,435],[902,404],[923,373],[944,342]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A thin reddish line with spaced dark strokes follows two nearly straight segments and turns at (879,435); a consistently separated second edge is not clear.",
+      "uncertainty_note": "A parcel boundary is a strong alternative. Its northwest attachment is lost among thicker outlines, and its northeast end disappears into lettering; neither is extended.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"If a track, the visible symbol is principally a single thin reddish line."},
+        {"proposed_class":"dashed_line","note":"Some dark marks appear separated, although their rhythm also supports a boundary reading."},
+        {"proposed_class":"unknown","note":"It may be a property or field boundary and therefore not a road."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[879,435],[861,473],[843,511],[824,550],[806,590],[783,637]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A thin brown-red line carries separated dark marks, runs along pink patch margins, and terminates against a heavier blue-black outline.",
+      "uncertainty_note": "The drawing supports a boundary more strongly than a clearly cased road, but a small track cannot be excluded. Junctions involving it are conditional on the road reading.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The separated marks could represent a minor track."},
+        {"proposed_class":"unknown","note":"It may be a parcel boundary rather than a road; the terminal flag describes the visible line ending."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[824,550],[855,571],[888,593],[921,614],[958,637],[947,656],[937,679]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06","j07"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow reddish line with intermittent dark marks divides pink patches, turns sharply near (958,637), and reaches the broad road margin.",
+      "uncertainty_note": "It may be entirely a field or property boundary. Both reported junctions are provisional road junctions.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"A track interpretation would use the single visible thin line."},
+        {"proposed_class":"unknown","note":"The angular patch-edge course and separated marks also support a boundary reading."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[465,602],[479,617],[496,636],[518,659],[540,682]],
+      "proposed_class": "park_path",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint ochre strip, locally bounded by two thin dark strokes, separates green rectangular compartments containing repeated tree symbols.",
+      "uncertainty_note": "Both ends become indistinct among compartment outlines and tree marks. The precise course and crossing at j10 are tentative.",
+      "alternatives": [{"proposed_class":"unknown","note":"Some apparent path edges may be garden compartment boundaries."}]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[475,653],[496,636],[519,617],[541,598],[565,576]],
+      "proposed_class": "park_path",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Short pale ochre diagonal gaps with thin dark sides are visible between green, tree-marked compartments.",
+      "uncertainty_note": "The gaps suggest a crossing path, but tree and building symbols interrupt its edges. Connections to the surrounding roads cannot be established.",
+      "alternatives": [{"proposed_class":"unknown","note":"The fragments might be disconnected compartment edges rather than one continuous path."}]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[432,617],[450,640],[472,665],[494,689],[519,712],[543,690],[565,669],[588,646],[611,624],[630,605]],
+      "proposed_class": "park_path",
+      "junction_ids": ["j08","j09"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Thin dark edging and a narrow ochre strip follow the outside of the green, regularly subdivided garden block, turning at its southern corner.",
+      "uncertainty_note": "The outer strip may be a garden boundary rather than a walk; its attachments to the roads at both ends are provisional.",
+      "alternatives": [{"proposed_class":"unknown","note":"An enclosing garden or parcel outline can explain the same marks without a perimeter path."}]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[329,613],[350,591],[375,569],[397,589],[421,613]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Angular dark strokes, locally appearing parallel, surround a heavy black building symbol; pale space separates some of the strokes.",
+      "uncertainty_note": "This could be an access around the enclosure, but enclosure outlines and building walls are at least as plausible. Both apparent road attachments are obscured, so the feature stops short of them.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The locally paired strokes could depict a narrow access."},
+        {"proposed_class":"unknown","note":"The marks may belong entirely to the enclosure and building symbols, with no road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[367,663],
+      "branch_count":3,
+      "evidence_note":"The reddish strip arriving from the northwest visibly meets the paired-edge strip continuing southwest and northeast."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[567,553],
+      "branch_count":3,
+      "evidence_note":"Three ochre road bands converge: one from the west-southwest and two with rounded tree marks extending northeast and southeast."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[743,391],
+      "branch_count":3,
+      "evidence_note":"The continuously cased strip from the northwest meets the southwest avenue and its narrow northeast continuation."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[800,718],
+      "branch_count":3,
+      "evidence_note":"The narrow tree-lined diagonal meets a broader, continuously outlined band with branches south-southwest and east."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[879,435],
+      "branch_count":3,
+      "evidence_note":"Three thin reddish segments with intermittent dark marks meet; this is a road junction only under the uncertain track interpretation."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[824,550],
+      "branch_count":3,
+      "evidence_note":"A southeast thin marked segment attaches to the north-south marked line; all three branches may instead be parcel boundaries."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[937,679],
+      "branch_count":3,
+      "evidence_note":"A thin angular reddish line reaches the north margin of the broad east-west cased strip; its status as a third road branch is uncertain."
+    },
+    {
+      "junction_id":"j08",
+      "uv":[432,617],
+      "branch_count":3,
+      "evidence_note":"A faint ochre garden-edge strip appears to attach to the narrow road, which continues in both directions; the garden attachment is indistinct."
+    },
+    {
+      "junction_id":"j09",
+      "uv":[630,605],
+      "branch_count":3,
+      "evidence_note":"Thin garden-edge strokes reach the tree-lined road margin, suggesting a third branch; a boundary touching the road is also possible."
+    },
+    {
+      "junction_id":"j10",
+      "uv":[496,636],
+      "branch_count":4,
+      "evidence_note":"Two faint ochre gaps between green compartments appear to cross, with thin dark edges suggesting four path arms; dense adjacent symbols make this provisional."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv":[435,575,615,705],
+      "why":"Dense tree symbols, a coloured building symbol, compartment outlines and scan blur prevent reliable separation of all garden paths and their connections; only distinguishable candidate fragments are reported."
+    }
+  ],
+  "overall_note":"The principal cased roads and avenues are readable. Thin reddish field-edge lines remain ambiguous between tracks and boundaries, so their features and junctions are conditional. Garden symbols prevent a complete, reliable reading of the internal path network."
+}

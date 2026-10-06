@@ -1,0 +1,200 @@
+{
+  "tile_id": "cor_e0344_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[429, 0], [415, 32], [404, 62], [401, 82], [405, 101]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One fine reddish-brown stroke, approximately 2–3 px wide, without clearly separated casing lines.",
+      "uncertainty_note": "Small dark interruptions may be printing irregularities rather than intentional dashes.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible if the small interruptions belong to the original symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[405, 101], [384, 127], [366, 159], [353, 195], [337, 230], [312, 263], [283, 299], [251, 336], [217, 378], [183, 424], [160, 463], [132, 504], [108, 535], [80, 569], [48, 606], [19, 629], [0, 650]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A fine brown stroke continues southwest through scattered star symbols; it crosses the thin horizontal line without changing weight.",
+      "uncertainty_note": "The stroke is mostly continuous but has occasional dark flecks; a fine path is the preferred reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation remains possible because no consistently dotted path symbol is resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[405, 101], [418, 134], [429, 169], [434, 202], [432, 223], [417, 260], [398, 298], [377, 334], [356, 371], [346, 399], [344, 424], [353, 460], [368, 499], [388, 538], [414, 580], [436, 605], [458, 627]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "One narrow reddish-brown line curves east of f02 and ends just west of a small black-edged orange shape; no clear casing pair is visible.",
+      "uncertainty_note": "The visible stroke ends at the stated coordinate; no continuation into the nearby polygon is established. A boundary is an alternative reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a boundary rather than a path; the line form alone does not settle its function."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[102, 582], [106, 611], [114, 641], [124, 671], [128, 705], [133, 741], [140, 763], [147, 779]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "dead_end"],
+      "evidence_note": "A separate fine brown curved stroke begins below the diagonal line and ends against the dotted, horizontally hatched patch.",
+      "uncertainty_note": "Neither end visibly joins another road. The lower end may disappear into the patch's border symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A short boundary or other mapped line is possible; no definite road casing is present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[492, 1000], [490, 970], [489, 928], [514, 904], [542, 879], [566, 909], [598, 942], [615, 900], [630, 856], [646, 813], [677, 762], [709, 745], [748, 726], [786, 709]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A comparatively heavy red-brown strip follows angular bends, with dark edging and a narrow pale band alongside; the overall symbol is roughly 6–12 px wide.",
+      "uncertainty_note": "The edges are uneven and partly merge with orange polygon outlines. Junction j02 is tentative because its third branch is faint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The road reading is strong, but the scan does not consistently resolve two separate casing lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[786, 709], [819, 715], [853, 726], [882, 735], [913, 752], [946, 766], [973, 773], [1000, 787]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The red-brown strip continues east with dark margins and a pale inner or adjacent band, above black-edged orange polygons.",
+      "uncertainty_note": "Some dark edging belongs to adjoining polygons, making the exact casing width uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A road is clearly suggested, but its precise symbol form is not uniformly resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[786, 709], [780, 690], [774, 666], [776, 639], [781, 611], [782, 586], [775, 561], [768, 539], [769, 517]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint, sinuous grey-tan strip runs north from the red line; portions show two weak edges several pixels apart, without red filling.",
+      "uncertainty_note": "This could be a minor road, a drainage line, or another faint mark. Its course becomes indistinct near the heavy blue line, so it is not connected through to f09.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road if the faint paired edges are intentional casing."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Possible path if the second apparent edge is discolouration."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be drainage or another non-road line; under that reading j02 has only two road arms and is not a junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[1000, 404], [982, 389], [967, 381], [955, 370]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short, heavier reddish-brown strip with dark edges runs northwest from the right edge beside tightly packed black-edged orange shapes.",
+      "uncertainty_note": "The strip may be a road, but its westward continuation cannot be distinguished securely from polygon outlines and the intermittently marked line arriving from above.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible cased track, resembling the heavier red road along the lower part of the tile."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a coloured boundary or polygon edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[757, 495], [770, 475], [785, 452], [799, 429], [820, 408], [840, 391]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin dark-brown, locally interrupted diagonal stroke runs northeast from the blue-line crossing toward the orange shapes; a faint pale margin appears beside portions.",
+      "uncertainty_note": "A path and a boundary are both plausible. Neither a connection across the blue line to f07 nor a continuation through the orange shapes is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible fine path approaching the black-edged orange shapes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible boundary associated with the adjacent polygons."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0, 176], [16, 145], [32, 112], [47, 82], [63, 48], [79, 18], [90, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish stroke carries repeated short dark marks along its diagonal course; no secure pair of continuous casing lines is visible.",
+      "uncertainty_note": "This corner-clipping line could be a track, but its repeated dark marks also resemble the boundary symbols elsewhere on the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible track represented by short dark marks over a faint brown stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary is at least equally plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [405, 101],
+      "branch_count": 3,
+      "evidence_note": "Three fine reddish-brown strokes visibly share one point: an upper arm and two diverging lower arms, with similar weight and no clearly separated casing."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [786, 709],
+      "branch_count": 3,
+      "evidence_note": "Two heavier red-brown arms meet at a bend; a faint grey-tan strip appears to touch their upper side as a tentative third road branch."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [749, 480, 801, 540],
+      "why": "Heavy blue ink and weak grey-tan strokes prevent a secure reading of the possible connection between f07 and f09."
+    },
+    {
+      "bbox_uv": [825, 345, 1000, 550],
+      "why": "Dense polygon outlines, small dark symbols and large lettering prevent secure tracing of road continuations through the settlement symbols."
+    }
+  ],
+  "overall_note": "The lower red road and the western fine brown branches are the clearest road candidates. The settlement approaches and northwest corner line support competing road and non-road readings, which are retained above. Junction j02 exists only if the faint northern strip is a road."
+}

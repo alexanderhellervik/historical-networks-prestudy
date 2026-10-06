@@ -1,0 +1,99 @@
+{
+  "tile_id": "cor_e0347_n6432",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin solid red-brown line runs from the building cluster at about (560,850) southwest across the green meadow to the bottom edge at about (440,1000). It has the same colour and weight as the road line f02, and the worked example reads lines like this as Sämre körväg.",
+      "uncertainty_note": "The short hook at the north end, (535,830) to (565,850), runs among the buildings and could not be separated from the building outlines. It could also be the edge of the meadow, but the line crosses the green fill instead of bounding it."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous red-brown solid line leaves the village buildings at about (625,780). It runs below the field at (650-760, 770-820) and on east to the small farm with a red building at about (810,850).",
+      "uncertainty_note": "Where it starts inside the building cluster is not clear."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a very short piece among the farm buildings at about (800-835, 835-855). At this resolution the building outlines, the red house symbol and the small numerals cover any road line.",
+      "uncertainty_note": "It may just be the end of f02 running into the farmyard. Whether it is a separate road segment cannot be seen."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "East of the farm, between about (840,850) and (920,815), a faint thin dark line can be made out heading toward the grey and pink boundary band. It is near the dotted outline of the field at (820-900, 760-830), and the two cannot be separated reliably.",
+      "uncertainty_note": "It could be f02 continuing east, which would be plausible, or just the field edge or the boundary between two kinds of land."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a short, fine black dotted curve from the lake shore at about (240,510), over (285,482), down to about (315,580) at the label 'Långareds sn'. It runs around a small patch with deciduous-tree symbols. The curve and where it starts and ends match a dotted outline between land types, not a path. No road leads to it at either end.",
+      "uncertainty_note": "The sheet draws a footpath (Gångstig) as a dotted line too, so a short path down to the shore cannot be completely ruled out."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brownish dotted line is really drawn here. It runs from the top edge at about (115,0) curving down and left through (60,70) and (35,130) to about (20,200), near the dashed outline of the meadow. Its dots are finer than the black dashes of the meadow outline.",
+      "uncertainty_note": "Both a Gångstig and a boundary between land types are drawn as dotted lines, and nothing on this tile decides which this is. If it is a path, the drawn course also runs above the overlay's segment, up to the top edge at about (115,0)."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This sits right at the east edge, at about (965-1000, 820-900), just outside the grey and pink parish-boundary band and among the buildings and lettering of 'Rättk...'. No road line can be told apart there.",
+      "uncertainty_note": "It may continue f02 and f04 across the boundary, but this cannot be seen on the tile."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is in the bottom-right corner, at about (960-1000, 960-1000), among buildings and the letter 'k'. No identifiable road line is visible there.",
+      "uncertainty_note": "It is probably a short stub of a road that lies mostly on the neighbouring tile."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[505, 125], [508, 80], [510, 35], [560, 25], [600, 18], [640, 12]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "A dotted line leaves the north side of the Hultet farm fields at about (505,125). It runs north to about (510,35), then east toward the thin green stream at about (640,12). Its dots look like those of f06, which the overlay does include.",
+      "uncertainty_note": "It is drawn the same way as f06. It may be a Gångstig from the farm or the dotted edge of the area labelled 'h.fl.'. This reading leans slightly toward a path because the line does not close around an area.",
+      "alternatives": ["boundary between land types (dotted outline of the 'h.fl.' area)", "no road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [590, 820],
+      "what_is_contested": "It is not clear whether f01 and f02 meet in one junction inside the village or each end separately at buildings.",
+      "evidence_note": "Both lines run into the cluster of buildings and the red house symbols at (540-640, 770-860). There, the building outlines cover the road lines."
+    },
+    {
+      "uv": [820, 848],
+      "what_is_contested": "How many branches meet at the small farm: f02 ending, f03 as a stub, and f04 continuing east.",
+      "evidence_note": "The farm buildings and the red house symbol cover the line. Only f02 is clearly visible arriving here."
+    },
+    {
+      "uv": [935, 805],
+      "what_is_contested": "Whether a road crosses the parish-boundary band here, connecting f04 to f07.",
+      "evidence_note": "The wide grey and pink boundary band, with its dash-dot line, covers any crossing. Neither side shows a clear road line."
+    }
+  ],
+  "overall_note": "The wide grey bands with pink edges and dash-dot lines (along the river, the NE diagonal and the SE line), the pink-banded diagonal from (400,0) to (700,410), and the thin red lines (including the one at bottom left, (0,890) to (230,855)) are read as boundaries, not roads. The only roads read with confidence are the red-brown single lines f01 and f02 at the village. The dotted lines (f05, f06, m01) cannot be reliably told apart as footpaths or land-type outlines."
+}

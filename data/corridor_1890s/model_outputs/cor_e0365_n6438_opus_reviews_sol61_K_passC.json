@@ -1,0 +1,54 @@
+{
+  "tile_id": "cor_e0365_n6438",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Just below the sheet fold there is a brown double line with dotted infill. It enters at the left edge at about (0,665), climbs to about (150,600), runs east at v≈590–600 under the fold to about (600,595), then drifts down to about (900,615) and leaves the right edge at about (1000,622). It is the same brown-cased road form that the neighbouring example reads as Sämre körväg. The overlay polyline follows it all the way.",
+      "uncertainty_note": "The fold at v≈560–585 may have slightly displaced or hidden the road between u≈200 and u≈650. The thin red lines that cross it at u≈150 and u≈380 and the thick pink line at u≈915 are boundaries, not branches. I cannot see which class the overlay assigned. My class is a narrow brown double line (Sämre körväg form), and Bättre körväg cannot be fully ruled out."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short line at about (20,650)–(60,585) sits on the thin black outline of the small green meadow patch at the left edge, next to the fold. That spot has no brown casing or dotted road infill. The only road there is f01, which curves past it at v≈650–620.",
+      "uncertainty_note": "This spot is small and close to the fold, where the image is smeared. A very short spur leaving f01 towards the north-west cannot be fully excluded, but nothing visible supports it."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the bottom edge a brownish-orange line runs from about (590,1000) north-east to the red farm buildings and the '2.B' label at about (700,968). This matches the brown farm-access roads that lead to farms in the neighbouring example.",
+      "uncertainty_note": "Only about 120 px of it lies inside the tile, partly under the lettering of 'Spångebacken' and 'B'. Whether it is a double or a single line, and where it ends at the farm, are hard to resolve. I cannot see the overlay's class."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[555, 0], [570, 60], [585, 115], [600, 162]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "In the upper part, between the two thick dash-dot boundaries, a fine black dotted single line runs from the top edge at about u=555 down to the shore of the reed/wetland band at about (600,162). It matches the Gångstig form (a dotted single line).",
+      "uncertainty_note": "This may not be a road. Dotted outlines also mark meadow and bog edges on this sheet, and the line is uncoloured. The example reading counts uncoloured lines as not roads. Low confidence.",
+      "alternatives": ["vegetation/land-use boundary (dotted outline), not a road", "path that continues beyond the top edge"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [25, 648],
+      "what_is_contested": "Whether a junction exists here, i.e. whether f02 is a spur leaving f01.",
+      "evidence_note": "Only the black outline of the meadow patch meets f01 here. No brown road casing branches off, and the fold blurs the area just north of it."
+    },
+    {
+      "uv": [910, 615],
+      "what_is_contested": "Whether any road branches off f01 near the right edge.",
+      "evidence_note": "The thick pink boundary crosses f01 here, and several black lines run east at v≈640–690 towards the edge. They look like field boundaries without brown casing, but at this resolution a branch cannot be fully excluded."
+    }
+  ],
+  "overall_note": "The only clearly drawn road is the brown double-line road just below the fold (f01), plus a short brown farm access at the bottom edge (f03). The thin red straight lines and the thick pink/black dash-dot lines are boundaries, not roads. f02 looks like a meadow outline, and the dotted line in the upper middle (m01) is only a possible footpath."
+}

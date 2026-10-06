@@ -1,0 +1,129 @@
+{
+  "tile_id": "cor_e0363_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 51], [24, 35], [46, 25], [74, 24], [98, 28], [115, 20], [134, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-brown strip curves across the corner, with closely spaced dark stippled margins about 7–10 px apart.",
+      "uncertainty_note": "The strip is readable, but its stippled margins do not fit an unambiguous continuous-double-line or dashed-line class.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Treat the two close margins as the defining symbol."},
+        {"proposed_class": "dashed_line", "note": "Treat the interrupted dark margins as the defining symbol."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[414, 176], [421, 216], [427, 256], [433, 298], [439, 340], [446, 382], [454, 424], [460, 456], [458, 477], [455, 498]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Two close dark stippled margins enclose an ochre strip, approximately 7–10 px wide; a small outlined wedge touches the northern end and a red building symbol encroaches on the southern end.",
+      "uncertainty_note": "The northern strip ends against the outlined wedge. The connection at j01 is partly concealed by the building symbol.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The strip can be read as a narrow road with two margins."},
+        {"proposed_class": "dashed_line", "note": "The margins consist chiefly of short dark marks rather than continuous strokes."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[455, 498], [478, 509], [499, 526], [519, 546]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The ochre strip bends southeast with two dark stippled edges, widening slightly beside the red building symbol.",
+      "uncertainty_note": "The southwestern dotted branches appear to meet this strip, but their precise contacts are less distinct than the strip itself.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Classify by the two close enclosing margins."},
+        {"proposed_class": "dashed_line", "note": "Classify by the repeated interrupted edge marks."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[519, 546], [548, 577], [574, 611], [597, 648], [615, 687], [630, 729], [642, 773], [652, 817], [651, 850], [642, 885], [630, 922], [625, 961], [628, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A continuous ochre-brown strip has paired dark stippled margins about 8–11 px apart; horizontal hatch strokes cross its vicinity around [552, 578].",
+      "uncertainty_note": "The strip is visible on both sides of the hatch strokes. Its paired interrupted margins leave the symbol-form class uncertain.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The two close margins define a narrow double-line strip."},
+        {"proposed_class": "dashed_line", "note": "The dark margins are predominantly stippled or broken."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[455, 498], [439, 522], [415, 539], [387, 552], [364, 568], [341, 590], [317, 619], [292, 644], [265, 670], [239, 690], [215, 702]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A fine row of separated dark marks runs southwest, mostly along the edge of pale blue-green colouring; nearby solid blue strokes are heavier and form separate outlines.",
+      "uncertainty_note": "Parts of the dotted trace coincide with coloured parcel or watercourse edges. Its contact with the brown strip near j01 is partly concealed.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Some or all of the dotted marks may belong to an edge or boundary rather than a path."},
+        {"proposed_class": "unknown", "note": "The northeastern endpoint may terminate behind the building symbol instead of forming j01."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[215, 702], [188, 705], [160, 703], [137, 701]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, nearly horizontal row of dark separated marks borders blue-green colouring; its western end encounters a reddish diagonal stroke and heavier blue outlines.",
+      "uncertainty_note": "No continuation beyond the overlapping strokes at [137, 701] is certain. This short row may be part of the coloured area's outline.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Read the marks as a parcel or watercourse edge, with no road branch at j03."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[215, 702], [190, 722], [166, 745], [142, 770], [117, 795], [92, 822], [67, 844], [37, 853], [0, 859]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Small dark interrupted marks follow the upper side of a narrow blue-green strip; a heavier continuous blue line lies close alongside, especially toward the western edge.",
+      "uncertainty_note": "The dotted marks and the coloured strip's margin are difficult to separate. The proposed connection at j03 is conditional on reading these marks as a path.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The entire trace may be a stippled watercourse or parcel outline rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[519, 546], [497, 541], [477, 541], [456, 557], [440, 582], [425, 610], [409, 640], [389, 670], [365, 700], [340, 730], [318, 760], [299, 791], [285, 823], [276, 851]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One row of comparatively heavy separated dark marks curves southwest through a pale unhatched band; near its lower end it approaches a continuous blue parcel outline.",
+      "uncertainty_note": "The upper contact with the brown strip is faint among small symbols. At [276, 851] the marks merge with an outline, so no further road course is carried through.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The lower section may be a boundary following the adjoining blue outline."},
+        {"proposed_class": "unknown", "note": "The upper endpoint may stop among the symbols near [477, 541], leaving no connection at j02."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [455, 498],
+      "branch_count": 3,
+      "evidence_note": "The paired stippled ochre strip approaches from above and bends southeast; a finer dotted trace approaches from southwest. A red building symbol overlaps the apparent meeting, making this three-branch reading uncertain."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [519, 546],
+      "branch_count": 3,
+      "evidence_note": "The paired stippled strip continues northwest–southeast, with a single dotted trace approaching from west-southwest. Small marks obscure the exact contact, so the third branch is provisional."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [215, 702],
+      "branch_count": 3,
+      "evidence_note": "Fine interrupted marks appear to divide toward northeast, west and southwest beside heavier blue outlines. The branch count applies only if these interrupted margins are paths."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The brown strips are substantially clearer than the finer dotted traces. Southwestern dotted marks sometimes coincide with blue-green outlines, leaving both their road status and their junctions uncertain. Continuous reddish parcel lines and the broad red-green diagonal band are excluded from this reading."
+}

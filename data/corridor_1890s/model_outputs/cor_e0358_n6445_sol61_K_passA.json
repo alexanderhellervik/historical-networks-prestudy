@@ -1,0 +1,108 @@
+{
+  "tile_id": "cor_e0358_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,304],[27,312],[64,312],[103,308],[145,299],[187,291],[228,279],[265,262],[286,253],[319,229],[345,202],[370,173],[396,143],[429,113],[461,91],[497,74],[531,58],[558,52],[582,25],[605,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of dark dots, approximately 7–10 px apart, border an orange-brown strip. Both rows follow the bends and continue through the upper crossing.",
+      "uncertainty_note": "The paired dotted margins do not exactly match a named symbol-form class.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dotted margins could be treated as narrow double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[499,0],[530,25],[558,52],[589,81],[620,112],[652,141],[685,165],[720,181],[755,190],[787,204],[819,225],[848,247],[881,265],[913,278],[949,293],[975,307],[990,316],[1000,318]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two relatively heavy dark margins enclose a narrow brown-orange strip, approximately 8–12 px wide. Red rectangular building symbols sit beside its upper margin around u=760.",
+      "uncertainty_note": "Some margins appear granular rather than fully continuous. The eastern junction position is approximate within several pixels.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The granular edges could represent the same paired dotted symbol as the other through routes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[69,1000],[86,982],[111,966],[139,944],[151,919],[163,895],[176,871],[185,852],[207,840],[234,823],[260,806],[290,786],[318,768],[341,751],[373,727],[405,706],[437,685],[468,663],[495,639],[524,615],[551,593],[582,579],[611,560],[641,542],[675,519],[706,491],[737,465],[768,438],[800,412],[831,384],[861,361],[889,342],[917,332],[946,323],[970,319],[990,316]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Paired dark dotted margins, approximately 7–10 px apart, enclose orange-brown colouring. The symbol remains visible across the magenta line near [341,751] and the blue line near [889,342].",
+      "uncertainty_note": "The symbol has dotted rather than continuous edges. Its meeting with f02 lies very close to the right edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired dotted margins could be classified by their narrow double-line form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[286,253],[299,273],[308,289],[314,303]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short orange-brown strip with two close, dark stippled margins branches southeast and reaches an outlined compound containing black and red rectangles.",
+      "uncertainty_note": "The separate road stroke cannot be followed confidently inside the compound; the endpoint marks the last distinguishable approach.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Its paired margins resemble a narrower version of the through-road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[675,519],[655,505],[637,492],[618,478]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two close dark dotted edges with brown-orange colouring branch northwest into a blue-black outlined enclosure, between black and red building symbols.",
+      "uncertainty_note": "The stroke becomes indistinct beside the building symbols; no continuation through the enclosure is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired dotted edges could be read as narrow double lines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [286,253],
+      "branch_count": 3,
+      "evidence_note": "The orange strip and paired dark dots continue in two directions along f01; a similarly edged, narrower strip leaves southeast toward the outlined compound."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [558,52],
+      "branch_count": 4,
+      "evidence_note": "The paired dotted orange-brown strip crosses the heavier brown strip with two dark margins; all four arms are visible, with no bridge or separation symbol."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [675,519],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted orange strip continues southwest and northeast, while a short strip with similar close dark margins joins from the northwest."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [990,316],
+      "branch_count": 3,
+      "evidence_note": "The heavier dark-edged brown strip approaches from the northwest, the paired dotted strip approaches from the southwest, and a short merged brown stroke reaches the right edge."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The paired dotted road margins make symbol-form classification uncertain, although their courses are distinguishable. Magenta boundary strokes, long dashed divisions and blue drainage lines were excluded; the two short approaches were stopped where building symbols prevent confident continuation."
+}

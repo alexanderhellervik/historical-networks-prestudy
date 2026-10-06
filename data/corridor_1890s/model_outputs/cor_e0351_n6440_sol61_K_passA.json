@@ -1,0 +1,279 @@
+{
+  "tile_id": "cor_e0351_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,443],[45,450],[75,451],[110,444],[151,431],[192,419],[236,405],[274,386],[309,365],[343,342],[366,329],[384,318],[399,308],[429,298],[468,294],[506,297],[542,311],[576,324],[610,326],[649,321],[687,321],[721,328],[757,340],[795,350],[830,354],[860,350],[883,345],[900,337],[926,323],[953,305],[978,280],[1000,252]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j05","j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose an ochre-brown band approximately 12–20 px wide. The casing remains traceable beneath overlapping black lettering and red numerals.",
+      "uncertainty_note": "The northern and southern narrow connections near u390 appear slightly offset; they are recorded as separate junctions. The connection at j05 depends on the doubtful reading of f10.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[309,0],[320,35],[329,71],[336,111],[344,150],[356,184],[371,220],[385,251],[397,268],[399,288],[399,308]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish-ochre strip has a dark, nearly continuous edge and a closely spaced dark dotted or broken edge, roughly 6–10 px apart.",
+      "uncertainty_note": "The broken edge is clearer than the opposite edge in places, so the precise symbol form is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The strip could be read as a coloured line with dark stippling rather than a consistently paired road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[397,268],[429,233],[464,198],[501,163],[531,126],[558,89],[578,55],[584,34]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A sinuous, mostly continuous russet stroke about 3–5 px wide meets the narrow strip at its southern end; no stable pair of dark casings is visible.",
+      "uncertainty_note": "The upper fork includes a fainter upright stroke whose identity is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary is possible, although the curved stroke resembles the example tile's thin path drawing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[583,0],[583,18],[584,34]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short upright ochre stroke, with a faint grey stroke nearby, reaches the diagonal russet line; clear casing or regular dots cannot be resolved.",
+      "uncertainty_note": "This may be an additional path arm or a boundary stroke adjoining f03 and f05. Junction j04 is conditional on the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If this is a path, its visible symbol is principally one continuous ochre line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a field or property boundary; omit this arm and j04 under that reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[606,0],[594,18],[584,34]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "One diagonal russet stroke, approximately 4 px wide, continues the curved stroke of f03 towards the upper edge.",
+      "uncertainty_note": "Its continuity with f03 is clearer than the identity of the adjacent upright arm f04.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[384,318],[391,343],[401,373],[409,404],[415,427],[418,444]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow brown strip descends from the broad band, with dark broken marks along one side and a finer opposite edge; large black letters overlap its lower portion.",
+      "uncertainty_note": "The course becomes unresolved among the lettering and small ochre building marks. A connection to f07 is possible but is not asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The lower portion may be a single coloured track stroke with adjacent marks rather than two independently traceable edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[399,466],[377,489],[351,514],[326,546],[305,580],[286,618],[273,654],[269,685],[274,714]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin continuous ochre-russet line curves southwest and then south through star-shaped tree symbols; it lacks a stable dark casing.",
+      "uncertainty_note": "The upper end disappears beneath the central lettering. It may connect to f06, but the intervening drawing is insufficiently clear.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation remains possible for this uncased coloured stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[274,714],[263,742],[244,767],[221,794],[202,824],[180,854],[157,884],[132,916],[108,947],[82,974],[49,1000]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One reddish-brown stroke approximately 3–5 px wide bends southwest, passing beneath black lettering and beside the horizontally hatched shape.",
+      "uncertainty_note": "Brief lettering overlaps occur, but the exposed strokes on both sides support this course. The symbol alone does not exclude a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The uncased coloured line could represent a boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[274,714],[279,750],[282,789],[284,829],[284,869],[287,912],[295,958],[306,1000]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A relatively straight, thin ochre-brown stroke branches south from the curved line, with no clear paired edges or regular dash pattern.",
+      "uncertainty_note": "Its straighter course and weak symbol detail make a property-boundary interpretation plausible. Junction j07 has three road branches only if this is a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible field or property boundary; under that reading f07 and f08 form one continuing path without a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[808,136],[820,166],[832,198],[843,231],[851,264],[857,296],[858,326],[860,350]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A dark dotted or short-dashed row follows a narrow reddish strip. A second edge is patchy, and black letters and red numerals overlap the lower course.",
+      "uncertainty_note": "This could be a narrow track or a coloured boundary descending from a polygon corner. No continuation beyond its northern contact with the polygon outline is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road with one broken edge and one faint continuous edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible property boundary rather than a road; omit junction j05 under that reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[900,337],[910,368],[921,406],[930,445],[937,485],[943,523],[942,540],[932,559],[915,591],[895,627],[876,665],[855,703],[835,741],[816,778],[796,815],[775,852],[750,880],[732,918],[711,958],[690,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j06","j08","j09"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark continuous casings enclose a pinkish-brown band approximately 10–16 px wide; the band bends before becoming a long southwest diagonal.",
+      "uncertainty_note": "The upper contact is partly crossed by lettering, but casing on both sides supports the connection. Junction j09 depends on the road reading of f13.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[932,559],[956,576],[980,586],[1000,593]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrower ochre-brown band leaves the bend towards the right edge, bordered by dark strokes with broken detail along one margin.",
+      "uncertainty_note": "A nearby blue line makes the lower margin harder to distinguish; the brown strip itself remains visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The second road edge is locally inseparable from the adjacent blue line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[620,778],[640,793],[662,814],[685,837],[708,856],[730,871],[750,880]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow brown diagonal strip has dark broken marks and a close opposite edge, approximately 6–9 px apart, ending against the broad cased diagonal.",
+      "uncertainty_note": "Its northwestern end is entangled with black polygon outlines, a blue stroke and lettering. Continuation through those symbols is unresolved, and a boundary interpretation remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible coloured boundary or polygon edge rather than a track; omit junction j09 under that reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[20,575],[15,607],[10,639],[9,671],[13,702],[11,730],[4,757],[0,778]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A faint, uncased ochre-russet stroke runs close to the left edge, curving slightly beside star-shaped tree symbols.",
+      "uncertainty_note": "The upper contact with a thin horizontal outline is unresolved. Its faintness leaves both path and boundary readings open.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible boundary or coloured outline; no road connection is established at the northern endpoint."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [399,308],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish strip with broken dark edging reaches the northern casing of the broad brown band, which continues in two directions."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [384,318],
+      "branch_count": 3,
+      "evidence_note": "A narrow brown strip leaves the southern edge of the broad cased band, slightly west of the northern connection; three apparent arms are visible."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [397,268],
+      "branch_count": 3,
+      "evidence_note": "The narrow dark-edged strip continues north and south while a thinner, uncased russet stroke joins from the northeast."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [584,34],
+      "branch_count": 3,
+      "evidence_note": "Two diagonal russet arms and a short upright ochre stroke apparently meet; the upright arm is faint and may instead be a boundary."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [860,350],
+      "branch_count": 3,
+      "evidence_note": "A reddish strip carrying dark dots reaches the broad band beneath red and black printing; the third road arm is conditional on f10 being a track."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [900,337],
+      "branch_count": 3,
+      "evidence_note": "A broad pink-brown strip between dark casings turns south from the east–west cased band; overlapping letters partially cover the three-arm contact."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [274,714],
+      "branch_count": 3,
+      "evidence_note": "One thin russet stroke reaches a fork with southwest and south arms; the south arm lacks detail sufficient to exclude a boundary."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [932,559],
+      "branch_count": 3,
+      "evidence_note": "At the bend in the broad dark-cased strip, a narrower brown strip leaves towards the right; three brown-filled arms are visible."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [750,880],
+      "branch_count": 3,
+      "evidence_note": "A narrow brown strip with broken dark edging touches the northwest casing of the broad diagonal band; the third road arm depends on f13's interpretation."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [350,399,459,474],
+      "why": "Heavy black lettering and ochre building marks obscure the thin course between the endpoints of f06 and f07."
+    },
+    {
+      "bbox_uv": [836,238,885,359],
+      "why": "Black lettering and red numerals locally hide the edges and broken pattern of the doubtful northern strip f10."
+    },
+    {
+      "bbox_uv": [584,743,656,804],
+      "why": "Lettering, building or field outlines and a blue stroke prevent a secure continuation of f13 through the symbols."
+    }
+  ],
+  "overall_note": "The broad cased roads are clear, while several thin coloured strokes admit track or boundary readings. Conditional junctions retain those alternatives, and courses stop where lettering prevents a secure connection. Coordinates follow the visible strokes approximately rather than a reconstructed network."
+}

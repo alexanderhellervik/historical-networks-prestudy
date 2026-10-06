@@ -1,0 +1,160 @@
+{
+  "tile_id": "cor_e0363_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[241,1000],[264,958],[288,918],[312,878],[337,838],[361,798],[388,759],[421,721],[464,687],[502,666],[542,642],[582,618],[624,593],[664,567],[703,542],[722,511],[734,473],[742,433],[749,393],[757,355],[771,322],[801,289],[833,261],[865,232],[892,198],[915,163],[931,140],[950,104],[969,65],[986,29],[998,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark outlines enclose a reddish band approximately 12–20 px wide; the paired casing remains visible beside the lettering.",
+      "uncertainty_note": "Short portions overlap lettering, but matching casing on both sides supports continuation.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,241],[10,230],[38,202],[70,171],[102,139],[131,111],[164,82],[200,71],[241,61],[282,49],[324,38],[365,27],[394,20],[403,43],[414,66],[447,70],[480,73],[487,99],[499,115],[519,121],[552,118],[590,109],[630,101],[675,91],[717,89],[760,94],[804,102],[850,112],[893,123],[931,140]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05","j04","j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish-brown band has irregular dark stippling along both margins; its course bends around the upper lettering and passes beside a small red rectangle.",
+      "uncertainty_note": "Some stippled margins merge into one textured stroke. The possible crossing at j05 depends on interpreting f07 as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark stippling could represent a single textured road symbol rather than two distinguishable lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[675,91],[692,117],[707,148],[717,181],[720,214],[716,245],[711,275],[715,294],[741,309],[759,316],[771,322]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A reddish-brown strip with dark, irregularly stippled margins curves downward, then turns right into the wide road; horizontal hatching lies immediately to its left.",
+      "uncertainty_note": "The margins are locally indistinct, although the drawn course and both connections are visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippling does not consistently resolve into two separate edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[422,427],[429,460],[435,496],[441,534],[447,574],[452,614],[457,651],[464,687]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow brown strip edged by dark dots descends from a black outlined enclosure containing a red rectangle and joins the wide road.",
+      "uncertainty_note": "The upper end merges with the enclosure outline and lettering; no course inside the enclosure is asserted. Continuation beneath the lower lettering is supported by aligned visible portions.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Its closely spaced dotted edges sometimes appear as one thick textured line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[626,69],[650,82],[675,91]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A short oblique brown stroke with dark irregular edging emerges beneath large black lettering and meets the upper brown strip.",
+      "uncertainty_note": "The lettering conceals its northwest continuation, and the exposed length is insufficient to distinguish a track from a coloured division line confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may use the same closely spaced, stippled margins as the adjoining track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a field or property division meeting the track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[931,140],[951,147],[977,146],[1000,141]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown band with dark textured margins extends right from the wide road, dipping slightly before reaching the edge.",
+      "uncertainty_note": "The casing is less distinct immediately beside the wide road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short exposed symbol could be read as one thick stippled line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,210],[10,230],[25,271],[40,312],[54,351],[66,391],[73,418],[69,455],[61,494],[53,530]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "A thin, mostly continuous red stroke with an adjacent dark edge runs down the left side, bends near v=418, and meets a transverse red line at its lower end.",
+      "uncertainty_note": "This is a doubtful road candidate: its solid red treatment and association with angular enclosure lines strongly support a boundary reading. No separate road continuation is distinguishable beyond the lower endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If a path, it could be represented by the narrow continuous stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The red stroke and adjacent dark edge might be very closely spaced road margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a field or property boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [464,687],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown stippled strip meets the reddish band between two continuous dark road casings, giving two wide-road branches and one narrow branch."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [771,322],
+      "branch_count": 3,
+      "evidence_note": "The brown stippled strip turns into the left casing of the wide reddish road; the wide road continues in both directions."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [931,140],
+      "branch_count": 4,
+      "evidence_note": "Narrow brown textured strips meet both sides of the continuously cased reddish road, producing four visible arms."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [675,91],
+      "branch_count": 4,
+      "evidence_note": "Brown textured strokes extend left, right and downward, with a short oblique brown stroke entering from upper left; four road branches are conditional on the doubtful f05 reading."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [10,230],
+      "branch_count": 4,
+      "evidence_note": "The diagonal brown stippled band intersects a thinner solid red, dark-edged line; four road branches are conditional on treating f07 as a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [583,43,638,80],
+      "why": "Large black lettering conceals the possible continuation of the short oblique brown line."
+    },
+    {
+      "bbox_uv": [401,391,445,431],
+      "why": "Lettering, the red rectangle and its dark enclosure prevent separating any continuation of the central track within this small area."
+    }
+  ],
+  "overall_note": "Stippled road margins sometimes merge into a single textured stroke, so symbol-form alternatives are retained. The short upper spur and thin left-side line have doubtful road status, and their junction counts are conditional. The long straight transverse red divisions, blue drainage lines and land-cover hatching were not counted as roads."
+}

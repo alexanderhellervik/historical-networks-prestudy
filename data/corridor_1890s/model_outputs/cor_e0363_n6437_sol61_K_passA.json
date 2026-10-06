@@ -1,0 +1,121 @@
+{
+  "tile_id": "cor_e0363_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[277, 0], [302, 16], [328, 34], [352, 51], [374, 70], [389, 85], [395, 98]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange-brown band has two broken dark edges roughly 6–10 px apart; the marks follow its diagonal course and curved approach to the fork.",
+      "uncertainty_note": "The edging is dotted rather than continuously cased, making the symbol-form class somewhat ambiguous.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired rows of separated dark marks could instead be classified by their broken appearance."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[459, 0], [458, 28], [456, 56], [456, 76], [452, 83], [434, 85], [415, 90], [395, 98]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced rows of dark marks border an orange-brown strip. The strip turns left above a filled black rectangle before joining the fork.",
+      "uncertainty_note": "Near the rectangle, one edge merges with adjacent dark drawing, but the connecting orange strip remains visible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken edging could be treated as the defining symbol form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [395, 98], [391, 126], [387, 157], [386, 189],
+        [388, 220], [394, 249], [404, 277], [414, 302],
+        [423, 329], [435, 358], [451, 385], [469, 410],
+        [492, 430], [519, 443], [547, 451], [575, 457],
+        [603, 461], [625, 465], [639, 471], [644, 481],
+        [641, 493], [629, 512], [615, 529], [599, 516],
+        [582, 504], [563, 496], [541, 497], [512, 501],
+        [480, 506], [450, 513], [420, 522], [390, 534],
+        [363, 545], [341, 550], [312, 551], [282, 548],
+        [253, 544], [223, 538], [193, 532], [164, 527],
+        [135, 521], [105, 513], [76, 504], [46, 493],
+        [20, 482], [0, 474]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An orange-brown strip with two narrow, broken dark margins curves south, turns beside small outlined and filled shapes, and continues west. Matching margins appear above and below the large black character around [412, 295].",
+      "uncertainty_note": "Continuation through that character is supported by matching drawing on both sides. At [615, 529], the two arms visibly converge, but adjacent building and enclosure strokes make a continuous turn versus two tracks ending together less certain; no third road branch is securely visible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dotted margins could be classified as a broken-line symbol."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Split this polyline at [615, 529] into two tracks terminating at the same position."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 35], [20, 17], [40, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark strokes enclose a pale salmon strip approximately 12–16 px wide. A thinner crimson line crosses or follows the lower casing before extending east.",
+      "uncertainty_note": "The crimson continuation eastward is not read as another road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[887, 0], [905, 10], [931, 16], [963, 18], [1000, 18]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow orange-brown band follows the upper-right edge, with dark marks along its lower margin. Its upper margin is partly cropped and partly merged with heavy black symbols.",
+      "uncertainty_note": "This is a possible clipped track, but a complete pair of edges cannot be established. A coloured enclosure or land-use edge is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may be a cropped continuation of the paired, orange-brown track symbol used elsewhere on the tile."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The band may belong to an enclosure or land-use outline rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[507, 626], [501, 636], [494, 648], [486, 659], [483, 665]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A single row of separated, short dark marks descends southwest beside a blue-green tinted patch. There is no visible second edge or casing; both ends merge into stronger outlines.",
+      "uncertainty_note": "Road status is doubtful because the marks coincide with the tint's margin and may delimit that patch. Neither endpoint supports continuation beyond the adjoining outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The separated marks may be a land-use boundary rather than a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [395, 98],
+      "branch_count": 3,
+      "evidence_note": "Three orange-brown strips with closely spaced broken dark margins meet: one diagonal arm from the upper left, one turning arm from the upper right, and one descending arm. A filled black rectangle sits immediately beside the right-hand arm."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Lettering and building strokes complicate the lower bend, while cropping hides part of the upper-right candidate. The two doubtful short features retain alternatives to a road reading. Long black boundary dashes, straight crimson lines, blue-green outlines and faint straight rulings were excluded."
+}

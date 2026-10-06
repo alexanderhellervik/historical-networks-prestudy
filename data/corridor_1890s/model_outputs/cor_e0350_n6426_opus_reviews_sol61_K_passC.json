@@ -1,0 +1,138 @@
+{
+  "tile_id": "cor_e0350_n6426",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown double line with reddish fill runs from the left edge near (0,255) along (150,240), bends down (210,300)-(235,420), then runs SE (260,440)-(390,470)-(480,540) to the junction at (550,662); this matches how the worked example draws a Sämre körväg along field edges.",
+      "uncertainty_note": "From about (480,540) to the junction a thin crimson boundary line runs along the road, so the last stretch carries both symbols. The overlay does not show a class, so the class is my own reading."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown single line along the top edge of the infields from the left edge at v~435 to (215,442) and on to meet f01 near (260,440). It has the road-brown colour, not the black of plain field edges.",
+      "uncertainty_note": "This could be a coloured field or ägogräns edge rather than a track. Brown colouring is the only thing that points to a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown single line runs from the f01/f02 corner at (215,445) down past the green meadow (225,500)-(245,585) to the main road at about (275,627).",
+      "uncertainty_note": "It runs between fields and the meadow, so it may be a coloured parcel boundary. From the overlay I cannot tell whether f03 follows this line exactly or the meadow edge just west of it."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown single line enters at the left edge near (0,728), runs NE, crosses the main road at about (105,640) and continues NE along the meadow edge toward (180,555).",
+      "uncertainty_note": "The lower part is clear. North of about (185,550), the drawn route up to (215,445) is mostly a black field or meadow outline with little brown, so the overlay's upper end may follow a field edge rather than a track."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Clear double line with brown fill runs from the left edge at v~635 through (100,637), (280,625) and (430,645) to the junction at (550,662). It is the most prominent road in the west half.",
+      "uncertainty_note": "It might be a better road class (bygdeväg) than the field tracks. The form is still a narrow double line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown single line runs south from the main road at about (105,640) via (130,760) to the meadow patch near (160,875).",
+      "uncertainty_note": "It ends at the meadow, and I cannot see whether it continues beyond (160,880). It may be a coloured field boundary rather than a track."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown single line runs straight SE from the main road at about (275,627) via (330,700) to meet the diagonal line f08 at about (385,785).",
+      "uncertainty_note": "It is a straight line between fields. A coloured parcel boundary cannot be excluded."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown single line runs from the main junction at (550,668) SW via (500,710), (450,745), (385,785) and (310,848) toward the meadow near (175,912).",
+      "uncertainty_note": "The SW end beyond about (240,880) runs along a black-edged meadow outline and is less clearly brown."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown-filled double line leaves the junction on a lower curve (560,690)-(620,703)-(700,688), rises NE through (790,640), (870,580) and (910,555), then runs east past Berget T to the right edge at about v~535.",
+      "uncertainty_note": "Between u 560 and 790 the lower loop and the straight road f10 run close together, so I cannot tell whether they are two roads or two edges of one widened road. Near (790,640) they cross or merge."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Double line runs from the junction (555,662) east via (700,652) and (800,640). It then becomes a broad red-filled band curving SE through (900,650), (955,710) and (975,790) to the right edge near (1000,875).",
+      "uncertainty_note": "The red band east of u=850 is wider than any other road here, so I rate it wide. It could be the same class as f05 drawn with heavier colour."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin brown double line leaves f10 at about (800,645), runs south via (805,750) and (780,820), then curves SW past S.T. (700,895)-(600,912)-(520,945) to the bottom edge near (470,1000).",
+      "uncertainty_note": "The lower stretch also edges the forest and field, so in places it could be a coloured outline. The top part is clearly a road."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[310, 848], [360, 905], [400, 960], [420, 995]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Brown single line branches from f08 at about (310,848) and runs SSE between fields to the bottom edge near (420,1000). It has the same colour as f06/f07.",
+      "uncertainty_note": "Like the other brown field lines, it could be a coloured parcel boundary rather than a track.",
+      "alternatives": ["coloured field boundary, not a road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[722, 662], [690, 700], [650, 735], [610, 772]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint dotted line leaves the f09/f10 roads near (720,662) and runs SW through the open ground toward the stream near (610,772). A dotted line matches the Gångstig symbol.",
+      "uncertainty_note": "The dots are very faint and may be texture or forest-symbol fragments. I cannot locate either end precisely.",
+      "alternatives": ["not a road (paper texture or stippling)", "path continuing to the stream crossing near (600,790)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [550, 665],
+      "what_is_contested": "Number of branches: f01, f05, f08, f10, the lower loop of f09 and a crimson boundary all converge here. It is unclear whether f09 leaves at this same point or a little east of it.",
+      "evidence_note": "Brown double lines and the crimson line pile up in a knot about 20 px across, and the lower loop splits off just SE of the knot."
+    },
+    {
+      "uv": [790, 640],
+      "what_is_contested": "Whether f09 crosses f10 or merges with it, and whether f11 starts at the same point or slightly east (about 805,645).",
+      "evidence_note": "Three brown-filled lines converge within about 20 px, near the small building rectangle at (835,665)."
+    },
+    {
+      "uv": [215, 443],
+      "what_is_contested": "Whether f02, f03 and possibly f04 meet at one point, and whether f02 then joins f01 at (260,440) or ends at the corner.",
+      "evidence_note": "Brown and black field outlines meet around the small enclosure at (230,450), so it is hard to tell which lines are tracks."
+    },
+    {
+      "uv": [105, 640],
+      "what_is_contested": "Whether f04 crosses f05 as a four-way crossing with f06, or whether f04 and f06 are offset T-junctions.",
+      "evidence_note": "f04 approaches from the SW and f06 leaves to the south very close to the same point on the main road."
+    }
+  ],
+  "overall_note": "The double-line brown-filled roads (f01, f05, f09, f10, f11) are clear. The brown single lines between fields (f02-f04, f06-f08, m01) are read as tracks only on their colour and could be coloured parcel boundaries. The crimson single lines and the bold black dashed line in the north are read as boundaries, not roads."
+}

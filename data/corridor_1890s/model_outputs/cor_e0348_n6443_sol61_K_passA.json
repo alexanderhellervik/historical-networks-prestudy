@@ -1,0 +1,170 @@
+{
+  "tile_id": "cor_e0348_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 847], [15, 798], [30, 751], [45, 704], [61, 659], [80, 615], [103, 570], [131, 527], [163, 485], [190, 458], [209, 444], [205, 418], [201, 388], [204, 358], [216, 322], [235, 285], [256, 251], [277, 216], [295, 190]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A pale grey ribbon has two uneven, fine dark margins, approximately 10–20 px apart. Short dark marks occur along portions of its eastern margin; the nearby heavy blue line follows a separate course.",
+      "uncertainty_note": "The margins are faint beside hatching. Its connection with the broad pink corridor is visible, but that corridor's interpretation as a road is uncertain.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Some apparent margins could belong to adjacent enclosure or hatched-area outlines rather than a consistently paired road symbol."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 979], [26, 960], [48, 940], [65, 915], [77, 883], [83, 844], [87, 802], [90, 758], [95, 717], [107, 681], [126, 651], [149, 626], [180, 603], [214, 584], [252, 566], [288, 553], [316, 548], [340, 552], [365, 546], [387, 532], [414, 517]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre to reddish stroke carries closely spaced black dots or short marks along its sides. The marked stroke curves beneath the lower-left lettering and approaches the pink corridor.",
+      "uncertainty_note": "The dotted margins suggest a track, but their separation is not consistently resolvable. Continuation beneath the lettering is supported by matching marked sections on both sides; the final connection depends on the corridor being a road.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The ochre centre and dark dotted margins may constitute a narrow paired track symbol."},
+        {"proposed_class": "dashed_line", "note": "If the ochre colour is incidental, the short black marks could be the principal path symbol."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 0], [39, 29], [78, 58], [120, 89], [162, 118], [205, 147], [249, 174], [295, 190], [316, 224], [327, 267], [338, 310], [349, 353], [362, 397], [376, 440], [393, 480], [414, 517], [429, 561], [444, 608], [460, 655], [474, 703], [485, 751], [495, 798], [504, 846], [511, 888], [519, 920], [522, 961], [526, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03", "j06"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad vivid pink band follows the entire course, with heavy grey-black edging and repeated dark blocks particularly along its eastern side. Its total width is substantially greater than the other candidate tracks.",
+      "uncertainty_note": "This is a highly doubtful road candidate: the repeated heavy marks also support a boundary or railway reading. The listed junctions are conditional on interpreting this band as a road.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "If the dark margins are road casing, this is a wide paired road with coloured infill."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a coloured boundary band with repeated dark boundary marks."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a railway symbol whose individual blocks are blurred."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[554, 317], [551, 337], [546, 357]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "One thin reddish stroke descends from a pale grey patch beside a dark polygon corner and meets the other reddish strokes.",
+      "uncertainty_note": "The northern end loses definition in the grey patch. Its attachment to an enclosure corner makes a property-boundary reading plausible; no continuation to f08 is asserted.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Non-road alternative: a boundary extending from the adjacent polygon corner."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[546, 357], [535, 380], [515, 408], [497, 435], [486, 456], [483, 479], [465, 498], [443, 510], [414, 517]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow reddish-brown stroke with irregular dark edging curves southwest. No stable spacing between two separate lines is visible; it touches the grey edge of the broad pink band.",
+      "uncertainty_note": "A path and a coloured boundary are both supported by this small, blurred symbol. The western junction is conditional on f03 being a road.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Non-road alternative: a continuous coloured property boundary."},
+        {"proposed_class": "double_line_narrow", "note": "The irregular dark edging might be two very closely spaced track margins."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[546, 357], [568, 353], [589, 357], [600, 371], [606, 396], [612, 426], [612, 451], [622, 481], [639, 510], [656, 540], [671, 567], [676, 584], [671, 606], [666, 625], [667, 641], [684, 655], [708, 668], [727, 683], [733, 701], [734, 728], [727, 755], [714, 782], [697, 810], [680, 839], [663, 869], [646, 888]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "One thin red-brown line, locally dark along an edge, makes a succession of tight bends. It crosses blue strokes and hatching without adopting their colour or weight and meets the lower reddish line.",
+      "uncertainty_note": "There is no clearly resolved road casing or dotted path pattern. Its appearance also matches a coloured boundary; the two junctions are provisional road junctions.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Non-road alternative: a winding coloured boundary."},
+        {"proposed_class": "double_line_narrow", "note": "Very close dark margins could be unresolved on portions of the reddish stroke."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[519, 920], [549, 908], [580, 898], [613, 891], [646, 888], [687, 877], [730, 868], [774, 866], [817, 871], [852, 881], [875, 899], [913, 924], [952, 937], [980, 944], [1000, 941]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06", "j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin ochre-red stroke has uneven black edging and occasional dark bead-like marks. It leaves the eastern side of the pink band, receives the curved reddish line, and continues to the right edge.",
+      "uncertainty_note": "The dark marks are insufficiently resolved to distinguish track margins from a coloured boundary. Its western attachment is obscured within the broad corridor's edge.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "The coloured stroke may be the principal path line, with incidental dark edging."},
+        {"proposed_class": "double_line_narrow", "note": "The dark marks may form closely spaced track margins."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a coloured boundary joined by f06."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[681, 0], [670, 36], [661, 72], [658, 109], [648, 145], [633, 180], [616, 214], [596, 247], [578, 282], [570, 310]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint pale-grey strip with fine, approximately parallel margins runs beside the heavy dark polygon edge. Its southern end broadens into a grey patch near the reddish stub.",
+      "uncertainty_note": "The strip could be a track, but a pale enclosure margin is also possible. The southern patch does not establish a certain connection to f04.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Non-road alternative: shading or an enclosure-edge strip beside the dark polygon outline."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[209, 444], [232, 437], [254, 430], [277, 425]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint grey linear strip extends east-northeast from the pale western ribbon, narrowing toward a heavy blue stroke and surrounding hatching.",
+      "uncertainty_note": "This may be a short track branch, an edge of the hatched patch, or shading. Its eastern end cannot be followed confidently through the blue stroke.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If a track, only one fine grey line is consistently distinguishable."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: the margin of the adjacent hatched area."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [209, 444],
+      "branch_count": 3,
+      "evidence_note": "The pale paired ribbon continues north and southwest; a faint grey strip extends east-northeast. Three branches are present only if the faint strip f09 is a track."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [295, 190],
+      "branch_count": 3,
+      "evidence_note": "The pale paired strip reaches the southwest side of the broad pink and grey-black band, which continues in both directions. The three-road reading depends on f03 being a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [414, 517],
+      "branch_count": 4,
+      "evidence_note": "The western dotted ochre line and eastern reddish line reach opposite margins of the continuing broad pink band at slightly offset positions. Four branches are conditional on a common road connection across its width."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [546, 357],
+      "branch_count": 3,
+      "evidence_note": "Three thin reddish strokes meet: a short northern stem, a southwest curve, and an eastward curve. Their colours and weights match, but the meeting could be between boundary lines."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [646, 888],
+      "branch_count": 3,
+      "evidence_note": "The winding reddish stroke meets the ochre-red line continuing west and east; their dark irregular edges merge. This is a three-branch junction only under the road interpretation."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [519, 920],
+      "branch_count": 3,
+      "evidence_note": "The lower ochre-red line touches the eastern grey-black margin of the pink band, which continues north and south. The contact is blurred, and the three-road interpretation is conditional."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [538, 294, 585, 329],
+      "why": "Grey shading, the heavy polygon corner, and faint line margins merge; a connection between the northern pale strip and reddish stub cannot be resolved."
+    },
+    {
+      "bbox_uv": [268, 413, 299, 443],
+      "why": "The faint eastward grey candidate merges with a heavy blue stroke and hatching, preventing a confident continuation."
+    }
+  ],
+  "overall_note": "The pale western ribbon and dotted ochre route provide the clearest road evidence. Thin reddish strokes and the broad pink corridor support competing road and non-road readings, so their alternatives and junction counts remain explicitly conditional. No connection is supplied across the unresolved northern grey patch."
+}

@@ -1,0 +1,173 @@
+{
+  "tile_id": "cor_e0349_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,828],[12,824],[43,810],[81,794],[117,783],[145,783],[175,791],[205,801],[230,799],[270,783],[302,783],[345,789],[385,795],[414,795],[452,781],[492,764],[531,746],[575,731],[617,717],[660,704],[700,691],[735,685],[769,691],[807,679],[855,664],[893,650],[920,638],[940,627],[970,616],[1000,609]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A brown band approximately 12–20 px wide has two heavy, continuous dark edges. Its edges remain distinguishable beside the blue water line and marsh hatching.",
+      "uncertainty_note": "The sheet fold hides a short section near u=695; the matching band and edges on both sides support continuity. Junction j03 depends on interpreting f05 as a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[414,795],[423,822],[430,850],[431,879],[428,909],[424,944],[419,972],[413,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown strip leaves the broad band, with dark marks along its sides; the repeated dark marks are particularly visible around v=850–930.",
+      "uncertainty_note": "The small, partly interrupted edge marks make the distinction between narrow casing and dotted edging uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The symbol may be a coloured track with dotted edging rather than two continuous bounding lines."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could be the principal track symbol, with the red colour added over it."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[855,664],[852,691],[853,723],[856,756],[859,790],[858,824],[856,857],[846,887],[831,917],[813,948],[790,979],[773,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin reddish-brown stroke runs south from the broad band, through horizontal hatching. Dark, uneven marks accompany portions of it; a stable pair of edges is not clearly resolved.",
+      "uncertainty_note": "Its attachment to the broad band supports a track reading, but the drawing could also be a coloured boundary. The first short section overlaps marsh hatching.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Read the continuous reddish stroke as a single-line track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the intermittent dark marks as the path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a property boundary meeting or crossing the broad road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[12,824],[19,836],[43,848],[67,862],[83,877],[88,895],[86,922],[89,949],[102,975],[119,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A chain of separated dark dots, with faint warm colour beneath parts of it, curves away from the lower edge of the broad band. No second parallel dot chain is clear.",
+      "uncertainty_note": "The attachment lies close to the tile edge and broad road casing. A boundary reading remains possible, although the single dotted chain resembles the example's paths.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted line could be a boundary beside the hatched patch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[196,226],[165,234],[131,246],[96,262],[63,280],[35,298],[15,319],[3,339],[5,363],[13,385],[24,398],[57,417],[92,437],[126,457],[159,478],[191,495],[225,509],[256,525],[287,540],[320,553],[357,560],[394,570],[432,581],[471,592],[511,602],[551,610],[588,613],[617,608],[652,601],[688,595],[724,592],[762,590],[802,592],[843,592],[881,593],[909,599],[928,609],[940,627]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "One thin reddish stroke curves from the edge of the upper hatched patch, around the left side, through the lettering and eastward. Dark flecks occur along it, but no consistent parallel casing is visible.",
+      "uncertainty_note": "This is a doubtful road candidate: a property boundary is an equally plausible reading. The western endpoint meets hatching. Intermittent visible red sections support the course through the lettering; matching sections support continuity across the fold. Its eastern tip meets the broad road's upper edge, so the exact attachment is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Read the entire reddish curve as a property boundary rather than a road; j03 would then cease to be a road junction."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark flecks may represent a dotted path obscured by the red overprint."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[550,151],[578,165],[607,182],[642,197],[675,205],[708,212],[743,219],[774,220],[801,218],[825,224],[843,237],[856,250],[880,258],[915,263],[951,268],[981,266],[1000,267]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A thin red-brown stroke leaves the hatched patch and runs east. It has uneven dark reinforcement, without a clearly separated second edge.",
+      "uncertainty_note": "The symbol is ambiguous between a path and a property boundary. Its western continuation is hidden by hatching; the short fold gap is bridged because the visible strokes align on either side.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property boundary could account for the same stroke."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some dark interruptions could belong to a dotted track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[722,58],[750,46],[783,34],[814,27],[845,23],[877,24],[908,28],[936,36],[960,47],[980,61],[1000,78]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A single thin reddish line with a darker uneven core forms a shallow curve near the upper-right corner. No parallel casing or flanking tree symbols are visible.",
+      "uncertainty_note": "A road reading is doubtful; it could be a boundary. The western end disappears into the fold, and its course beyond that obstruction is not traced.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Read this as a coloured boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[552,0],[552,13],[555,27]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short, narrow red stroke enters at the top edge, immediately to the right of a heavier blue line, and disappears among the horizontal hatching.",
+      "uncertainty_note": "This tiny segment may be a boundary rather than a path. It could share a hidden continuation with f06, but the hatching does not support tracing that connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary segment or another coloured line is possible; the visible length is too short to establish its symbol confidently."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [414,795],
+      "branch_count": 3,
+      "evidence_note": "The broad brown band continues in two directions; a narrower reddish strip with dark side marks attaches to its lower edge."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [855,664],
+      "branch_count": 3,
+      "evidence_note": "The two dark edges of the broad band continue through the position, while a thin reddish line leaves southward through hatching. Three road branches apply if f03 is a track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [940,627],
+      "branch_count": 3,
+      "evidence_note": "The thin reddish curve approaches the upper edge of the broad, dark-cased brown band, which continues both ways. Three road branches apply only under the road reading of f05."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [12,824],
+      "branch_count": 3,
+      "evidence_note": "Near the left edge, a separated dark-dot chain leaves the lower casing of the broad brown band; the band continues east and toward the tile edge."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [684,0,722,1000],
+      "why": "An oblique dark sheet fold obscures a narrow strip within this bounding box. Short crossings with matching visible strokes on both sides are carried through; other hidden courses cannot be read."
+    }
+  ],
+  "overall_note": "The broad cased road is clear, while its narrower branches have less distinct edging. The thin reddish curves are retained as doubtful candidates because paths and coloured property boundaries are difficult to distinguish here. Blue water lines, horizontal ruling and the sheet fold are excluded as roads."
+}

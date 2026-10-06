@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0367_n6440",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along v~255 from the left edge to about u~40 there is a pinkish-brown band with dots inside it, the same symbol as the main road. The overlay line lies on it.",
+      "uncertainty_note": "The split between f01 and f02 at u~40 has no visible cause on the map: it is one continuous road. The class is the symbol form only. It matches the brown dotted band read as Sämre körväg in the worked example."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This continues the same brown dotted road band along v~252-258 from u~40 to the junction near (245,257), passing just above the plot outlines and the red building at (155,272).",
+      "uncertainty_note": "It is the same road as f01. Exactly where it ends at the f03/f04 junction is uncertain to about 10 px."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line leaves the top edge at u~75. It runs down past the 'Fötene' hatched patch (80,90), bends SE through (110,135), (150,185) and (215,220), and meets the E-W road near (245,257). The overlay follows it.",
+      "uncertainty_note": "In places it looks a little thinner and fainter than the main road, so it could be a lesser class. Between v~20 and v~100 it runs along the edge of the hatched 'Fötene' patch, so the exact course there is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The main brown dotted road runs from the junction at (245,257) under 'Mo No 2' through (350,285), (470,300) and (560,302). It then goes SE to (680,365) and turns at about (708,380). The overlay follows this band.",
+      "uncertainty_note": "Where f04 hands over to f05 near (705,385)-(720,480) is not decided by anything visible on the map. The road is one continuous band down to Tåstorp."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown dotted road continues south from the bend at (708,385) through (695,440), (720,478) and (760,510) to the settlement 't Tåstorp' at about (797,545). Heavy black dots then carry on south to about (797,598). The overlay line follows this course.",
+      "uncertainty_note": "The last stretch, (797,545)-(797,598), is drawn as heavy black dots, not the brown band. That stretch is probably a path class like f07, not the same road. I could not resolve exactly where the overlay polyline ends."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (760,515)-(870,500) the only lines are faint fine dots along the top edge of the hatched meadow round 't Tåstorp'. A similar faint dotted edge runs W to about (615,548). In the land-use legend, dotted lines like this outline meadow and bog areas. They do not look like the heavy dots of f07 or the brown road band.",
+      "uncertainty_note": "At this resolution I cannot tell an area-edge dotting from a faint Gångstig. The overlay's short line is also hard to locate exactly. It could be a real path from the road end eastwards, but nothing distinct confirms that."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of heavy black round dots runs from about (797,598) east to the right edge at about (1000,577). It sits just below the purple outline of the hatched 't Föte' area and is clearly separate from it. The plain dotted pattern matches the model legend's Gångstig.",
+      "uncertainty_note": "The dots are much heavier than the fine area-edge dotting, which supports reading it as a path. Even so, a dotted line that follows a field edge could be some other line. There is no dotted class in the vocabulary, so dashed_line stands in for this broken-line symbol."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The f08 label sits at about (75,288) among the pale åker/tomt plots west of the red building. I cannot see its polyline in the overlay. The only lines nearby are the black single outlines of the plots (vertical at u~72, v~265-375) and the road f01/f02 just above at v~255.",
+      "uncertainty_note": "If f08 follows a plot outline, it is not a road (disagree_not_a_road). If it duplicates the road at v~255, it repeats f01/f02. I cannot tell which from what is shown."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 942], [50, 960], [100, 980], [160, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "In the bottom-left corner a wide band with pink-red fill and darker red edges crosses the hatched area from the left edge at v~942 to the bottom edge at u~160. It is much wider than any boundary line on the tile.",
+      "uncertainty_note": "Only about 170 px of it is inside the tile and it is cut by the corner, so the symbol cannot be checked properly. A red-coloured wide line could be a coloured main road (Landsväg/Bygdeväg) or a strongly coloured boundary or ditch.",
+      "alternatives": ["boundary drawn in red (not a road)", "double_line_narrow road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[868, 98], [868, 200], [868, 265], [880, 320], [920, 370], [960, 415], [1000, 440]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A thin orange-brown single line runs from the hatched 'Fötene' patch at (868,98) straight down past the 't Föte' patches. Below v~320 it bends and curves SE to the right edge at about (1000,440). Its colour is like the thin brown lines read as Gångstig in the worked example, not the dark red boundary lines.",
+      "uncertainty_note": "The straight vertical part looks like a property or field boundary. Only the curving SE part looks like a path. I am not sure it is a road at all.",
+      "alternatives": ["boundary line (not a road)", "path only on the curved part (880,320)-(1000,440)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [245, 257],
+      "what_is_contested": "Whether f03 meets the E-W road in a single three-way junction with f02 and f04, or joins a little further east near (255,263).",
+      "evidence_note": "The dotted N-S road merges into the E-W band at a shallow angle where the 'G' and 'Mo' lettering is printed, so the exact meeting point is blurred."
+    },
+    {
+      "uv": [797, 545],
+      "what_is_contested": "Whether the brown road ends at 't Tåstorp' or continues south as the heavy-dot line to (797,598). Also whether a path branches east here (f06).",
+      "evidence_note": "The symbol changes from a brown dotted band to heavy black dots at the settlement. Faint dotted area edges also leave this point eastward and westward."
+    },
+    {
+      "uv": [797, 598],
+      "what_is_contested": "Corner where the heavy-dot line turns from N-S to E-W (f05 to f07). It is unclear whether a dotted branch also continues west along v~590-595 towards Tåstorp (615,592).",
+      "evidence_note": "The heavy dots form a clear corner. To the west, only faint fine dots or the edges of the hatched area are visible."
+    }
+  ],
+  "overall_note": "The tile has one clear brown dotted road system: a W-E road with a branch from the top edge, which turns south to 't Tåstorp'; a heavy-dot path runs east from there. The overlay captures this, but f06 and f08 cannot be confirmed from the drawing. The long black dashed diagonals and the straight dashed vertical at u~648 are boundary lines, not roads. The bottom-left red band and the thin orange line on the right are possible roads that the overlay leaves out."
+}

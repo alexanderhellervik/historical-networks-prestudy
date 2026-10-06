@@ -1,0 +1,169 @@
+{
+  "tile_id": "cor_e0355_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[166,0],[146,24],[132,50],[124,78],[129,103],[148,128],[168,151],[170,184],[167,220],[164,259],[165,301],[163,342],[156,379],[141,414],[120,443],[95,471],[81,498],[76,531],[77,571],[73,604],[80,624],[98,638],[136,646],[175,654],[198,666],[212,689],[219,725],[225,762],[229,799],[243,833],[261,874],[280,917],[300,960],[317,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "An orange-brown ribbon approximately 7–10 px wide has two dark, frequently stippled margins. Both margins follow the bends; black rectangular symbols flank its southern portion.",
+      "uncertainty_note": "The course is clear. The margins are broken enough to permit a dashed-symbol reading. j02 is conditional because the crossing feature f07 may be a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dark stippled margins could be classified by their broken strokes rather than their spacing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,766],[23,786],[47,801],[72,805],[97,799],[124,783],[151,762],[176,742],[198,728],[219,725]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two dark broken margins enclose an orange-brown strip approximately 6–9 px wide. The strip curves into f01 without an intervening outline.",
+      "uncertainty_note": "The connection is visible; the distinction between a paired-line and dashed-symbol class is less certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins consist partly of closely spaced dots and short strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[854,164],[872,194],[894,230],[918,267],[943,305],[966,341],[986,370],[1000,391]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "An orange strip with two dark, partly stippled margins runs southeast. Its width is roughly 6–9 px; the broader orange symbol begins where several thinner outlines meet at [854,164].",
+      "uncertainty_note": "The northwest endpoint marks the end of the recognizable orange road symbol, not a certain physical terminus. The thinner continuation toward the upper edge resembles a boundary and is not carried through as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The northwest end could be a change of symbol where a track coincides with a boundary."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches show paired dots more clearly than continuous margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[745,457],[762,483],[784,510],[808,541],[826,574],[847,602],[856,613],[871,612],[891,646],[913,685],[938,728],[964,773],[987,815],[1000,851]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown band has dark margins, intermittently dotted. It bends beside green wash and black/red rectangles around [825,570]–[870,615], then continues southeast.",
+      "uncertainty_note": "Bold numerals cover the northwest continuation, so the trace stops at [745,457]. Lettering overlaps the lower segment, but aligned orange strokes on both sides support carrying that segment through.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dotted portions of the margins could justify a dashed-symbol classification."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[848,1000],[867,989],[904,968],[944,945],[982,923],[1000,913]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two strong, nearly continuous dark strokes enclose a buff-orange band approximately 12–16 px wide along the southeast corner.",
+      "uncertainty_note": "The road symbol is clear. Its apparent meeting with f06 is a road junction only if f06 is also a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[376,0],[353,30],[329,62],[352,100],[381,150],[410,200],[439,250],[467,300],[496,350],[525,400],[554,450],[583,500],[612,550],[640,600],[669,650],[698,700],[727,750],[756,800],[785,850],[814,900],[842,950],[867,989]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A dark red-purple stroke has a close pale yellow-grey parallel stroke, generally about 6–12 px away. The pair bends at [329,62] and follows a long, nearly straight diagonal to the wider corner road.",
+      "uncertainty_note": "The strokes may be road margins, or a coloured boundary with an adjacent pale stroke. This is an unresolved candidate; j03 and j04 are conditional. Short overlaps with lettering retain the same alignment on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both parallel strokes are margins, they describe a narrow road along the recorded course."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a tinted boundary; the pale parallel stroke may belong to its colouring rather than a road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[49,0],[82,10],[120,18],[146,24],[191,34],[239,45],[285,56],[329,62]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A reddish-purple line and close yellowish parallel band run across the upper edge. They cross the orange winding strip at [146,24] and meet the similarly coloured diagonal at [329,62].",
+      "uncertainty_note": "This could be a road with close margins or the same coloured boundary symbol as f06. Neither the crossing nor the angled meeting establishes road connectivity by itself.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road alternative: the dark and pale parallel strokes form the two margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a coloured boundary crossing f01 and joining f06."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0,994],[16,984],[34,974]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "At the southwest corner, a strong dark diagonal has a close reddish tint or second stroke. The distinction between two strokes becomes unclear where it meets the corner of green wash at [34,974].",
+      "uncertainty_note": "This short corner clip could be a road or a coloured parcel outline. A thinner northeast continuation is visible, but it cannot confidently be traced as the same road symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close strokes could be margins of a road clipping the corner."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the diagonal bounds the adjacent coloured polygons."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [219,725],
+      "branch_count": 3,
+      "evidence_note": "Three orange-brown, dark-margined arms meet: two along f01 and the curved southwest arm f02. Their strips visibly merge."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [146,24],
+      "branch_count": 4,
+      "evidence_note": "The two dark-margined orange arms of f01 cross two reddish-yellow arms of f07. Four road branches are conditional on f07 being a road and the crossing being connected; a boundary crossing is also supported."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [329,62],
+      "branch_count": 3,
+      "evidence_note": "Three reddish-purple/pale parallel arms converge at an angular meeting. The count is conditional on f06 and f07 being roads; this may instead be a boundary meeting."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [867,989],
+      "branch_count": 3,
+      "evidence_note": "The close red-purple/pale strokes of f06 reach the buff band between f05's heavier dark margins. Three road branches are conditional on f06 being a road; a boundary ending at a road is an alternative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [706,411,815,474],
+      "why": "Heavy black numerals and lettering mask fine strokes around the northwest endpoint of f04; a continuation cannot be established."
+    }
+  ],
+  "overall_note": "The winding orange tracks and the wide southeast corner road are the clearest readings. Features f06–f08 retain road-versus-boundary ambiguity, and junctions j02–j04 are conditional on their road interpretation. Lettering prevents a confident northwest continuation of f04."
+}

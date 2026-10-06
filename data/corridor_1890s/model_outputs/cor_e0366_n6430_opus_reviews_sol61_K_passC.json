@@ -1,0 +1,112 @@
+{
+  "tile_id": "cor_e0366_n6430",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown road line with dotted margin (the Sämre körväg form seen in the worked example) runs from the top edge near (708,0) down to the junction near (693,150); the polyline lies on it.",
+      "uncertainty_note": "The overlay does not show its class, so only the course is judged; the symbol is narrow brown with dots, not a wide double line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[403, 2], [450, 45], [500, 75], [545, 98], [625, 125], [693, 150]],
+      "evidence_note": "Thin orange-brown line (the colour read as Gångstig in the worked example) runs from the junction at (693,150) WNW past the hatched marsh to under the 'ng' of the place name; it appears to continue NW to the top edge near (403,0) beside the crimson line, beyond where the polyline starts (~450,50).",
+      "uncertainty_note": "The western end is partly hidden behind the large lettering, so whether it reaches the top edge or stops near (450,45) is not certain; the course east of (450,50) is clear."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Same brown dotted road: it continues from (693,150) SE to (800,250), bends at the dark knot near (805,285) and runs SSW through (780,380) to about (733,485); the polyline follows it.",
+      "uncertainty_note": "Class not shown in overlay; course is clear. A possible short spur at the bend (805,285) is listed under contested junctions."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange line leaves the brown road near (728,488), runs WSW through (640,515) to (520,553), short westward to (470,550) and bends south to (455,590) at the marsh edge; it crosses the black dashed line at (520,553) without joining it.",
+      "uncertainty_note": "Road-or-boundary reading of thin orange lines rests on the worked example, where such lines were read as Gångstig; the southern end at the marsh/stream may be a dead end or continue unseen."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The brown dotted road continues from (733,485) S through (700,590), crosses the blue stream near (685,620), passes (662,680) and (665,750) and ends at the small black building by 'T' near (652,788); the polyline follows it.",
+      "uncertainty_note": "Class not shown in overlay. The road becomes thinner and less dotted south of the stream but stays brown."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At (575,840)-(640,800) there is only a black field-outline line between small pink fields south of the farm; no brown road colour or dotted margin continues past the building at (652,788).",
+      "uncertainty_note": "A short farm lane leading SW between the fields is possible, but the line is drawn like the other field edges; by the worked-example convention an uncoloured black line would not be a road, so this leans to not-a-road."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange line runs from the thick crimson band near (62,490) east through (200,478) and down to (298,523) where it meets the crimson diagonal line; the polyline lies on it.",
+      "uncertainty_note": "Whether it is a path or a boundary drawn in orange depends on the sheet convention; it ends on lines that are themselves probably boundaries, which weakens the path reading somewhat."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short thin orange arc is visible at the bottom-left from about (0,918) through (50,935) down to (65,1000), and the polyline follows it.",
+      "uncertainty_note": "Very short, at the tile corner; it could be part of a field or boundary outline continuing on the neighbouring tiles."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brownish line crosses the top-right corner from about (962,0) to (1000,38).",
+      "uncertainty_note": "Only a few tens of pixels inside the tile, so neither the class nor whether it is a road rather than a field edge can be confirmed from this tile alone."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 228], [18, 260], [30, 300], [45, 420], [60, 560], [80, 740], [95, 860], [110, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad, saturated crimson band about 12-15 px wide with darker edges on both sides runs from the left edge near (0,228), bends at the pink field, and then runs almost straight to the bottom edge near (110,1000). The orange line f07 ends on it at (62,490).",
+      "uncertainty_note": "It is much heavier than the thin crimson lines read as boundaries, and its double edges could be a main road (Landsväg). It could equally be a coloured härad/socken boundary ribbon, and in the worked example crimson lines were boundaries. Recorded so the omission is a decision rather than an oversight.",
+      "alternatives": ["double_line_wide (Landsväg/Bygdeväg drawn with red fill)", "not a road: coloured administrative boundary ribbon"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [805, 285],
+      "what_is_contested": "Whether the dark knot at the road bend is a junction with a short eastward spur (to ~820,280) or only where the dotted marsh outline touches the road.",
+      "evidence_note": "The hatched marsh's dotted edge reaches the road exactly at the bend and leaves a dark blob; no coloured line continues east beyond it."
+    },
+    {
+      "uv": [652, 788],
+      "what_is_contested": "Whether the brown road ends at the farm building near 'T' or continues SW as the lane proposed by f06 (to ~575,840).",
+      "evidence_note": "Brown road colour stops at the black building; only black field outlines continue SW between the small pink fields."
+    },
+    {
+      "uv": [62, 490],
+      "what_is_contested": "Whether this is a road junction: that depends on whether the thick crimson band (m01) is a road or a boundary ribbon.",
+      "evidence_note": "The orange line f07 clearly meets the crimson band here; a black diagonal stroke also reaches the band slightly above, near (35,420)."
+    },
+    {
+      "uv": [455, 590],
+      "what_is_contested": "Whether f04 is a dead end at the marsh/stream edge or continues south across the stream.",
+      "evidence_note": "The orange line fades into the dotted marsh edge and the blue stream; no continuation is visible south of the stream."
+    }
+  ],
+  "overall_note": "The brown dotted road (f01, f03, f05) and the thin orange lines (f02, f04, f07, f08, f09) are drawn on the tile and the overlay follows them well; I read the orange lines as paths following the worked example, and f02 probably runs further NW to the top edge. f06 does not follow a road colour and cannot be confirmed. The main open question is the heavy crimson band on the left (m01), which could be a main road or a boundary ribbon; the black dashed lines, thin crimson lines and black field outlines I read as not roads."
+}

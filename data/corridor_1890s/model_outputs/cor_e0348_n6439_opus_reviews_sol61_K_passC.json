@@ -1,0 +1,43 @@
+{
+  "tile_id": "cor_e0348_n6439",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f01 traces the fine dark dotted / dot-dash line that runs from the west edge at about (0, 385) up to the red main road at about (100, 315). The same dotted line can be followed along the east shoulder of that red road up to the top edge (about u 285-300, v 0-100). A line that runs along a road's shoulder and then turns away across open forest looks like a boundary (socken/hemman type) following the road, not a path. No road colour, no double line, and it has no destination on the tile.",
+      "uncertainty_note": "The line is thin and at this resolution I cannot reliably tell a Gångstig dot row from a boundary dot-dash pattern. If the dots are evenly spaced with no dashes, it could be a footpath joining the main road. My leaning towards boundary rests mainly on the stretch that runs along the road's shoulder."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[276, 0], [220, 100], [165, 200], [115, 300], [65, 400], [25, 500], [0, 572]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Broad double-lined road filled with carmine red, with the grey shading band on its lower/east side. It crosses the NW part of the tile from the top edge at u≈276 to the west edge at v≈572. A red-filled double line is the main-road (landsväg) symbol of this series.",
+      "uncertainty_note": "The course is certain. The class is clear (widest, coloured road symbol). Near the top the line is slightly blurred by the dotted line along its east side.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[0, 742], [100, 698], [200, 655], [300, 613], [400, 572], [500, 530], [600, 485], [700, 440], [800, 395], [900, 352], [1000, 312]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Broad red-filled double-lined road with grey shading on its south side. It runs straight from the west edge at v≈742 to the east edge at v≈312, crossing the hatched wet-meadow strips at u≈300-500. The large place-name lettering 'Ida…' sits on its line at the east edge. Same main-road symbol as m01.",
+      "uncertainty_note": "The course and class are certain. On this tile it does not meet m01: extended, the two converge only about 100 m west of the tile edge.",
+      "alternatives": []
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [100, 315],
+      "what_is_contested": "Whether this is a road junction at all. The dotted line (overlay f01) touches the main road m01 here. If that line is a footpath, this is a T-junction. If it is a boundary that follows the road shoulder and then branches off, there is no road junction.",
+      "evidence_note": "The dotted line continues along the east shoulder of m01 northwards to the top edge, which suggests a boundary. The dot pattern is too fine at this resolution to decide."
+    }
+  ],
+  "overall_note": "The tile shows two red-filled main roads (landsväg, double_line_wide), crossing NW and SW–NE, which the overlay omits entirely. The overlay's only feature, f01, follows a fine dotted line that most likely is a boundary running along and then away from the NW road rather than a path. Everything else is a stream, hatched wet meadow, conifer-forest symbols, lettering and a paper fold near v≈900."
+}

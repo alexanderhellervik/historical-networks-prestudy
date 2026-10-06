@@ -1,0 +1,114 @@
+{
+  "tile_id": "cor_e0367_n6452",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f01 runs along the middle of a broad pink-washed band (~60-70 px wide) from about (0,290) to (445,0). The band is edged by crimson lines. The upper crimson line makes a right-angled jog at about (150,120)-(210,115)-(225,150), which looks like a boundary with a colour ribbon. No dotted road edging or brown road fill is visible along the band, and the overlay line follows neither edge line.",
+      "uncertainty_note": "The straight lower crimson edge, from about (0,300) to (470,0), could be the casing of a main road (landsväg) or part of a railway corridor next to the grey band. At this resolution I cannot tell a boundary ribbon from a red-cased road. If it is a road, it runs along the lower edge and not mid-band."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a heavy single row of dark dots from about (15,325) to (275,165), and the f02 course follows it. The dots are as dark and as closely spaced as the f05 path, which fits Gångstig. They also lie exactly on the lower edge of the grey-blue wash band.",
+      "uncertainty_note": "Elsewhere on this sheet, single dotted lines outline land-cover areas, for example the forest edges. These are finer and sparser, but this line could still be the outline of the grey area rather than a footpath. If it is a path, it ends at the house group near (300,160), where the f03 road begins."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[310, 162], [345, 270], [385, 400], [420, 532], [520, 495], [630, 455], [720, 420], [820, 385], [905, 353]],
+      "evidence_note": "A brown-filled road edged by two rows of dots (Sämre körväg form) runs from the houses at (305,160) down to a sharp corner at (420,532), then east-north-east past the f04 and f06 junctions to (905,353), and f03 follows it well. East of (905,353) the brown road turns east-south-east as f07. The overlay's last segment, from (905,353) to (1000,330), follows a different line: a single row of dots with no brown fill.",
+      "uncertainty_note": "The main course is clear. The only problem is the tail beyond (905,353), which I record separately as m01. The overlay's class is not legible to me, so I judge the course only."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-filled double-dotted road runs from the farm buildings at about (550,210) south-south-east to join the f03 road at about (630,455), and f04 follows it.",
+      "uncertainty_note": "The northern end is lost among the farm buildings and the green tomt patch around (540,205). Exactly where it meets f05 and the dotted connector is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A single row of dark dots runs from the small building at 'B.' (about 495,65) down to the farm at about (545,195). It matches the Gångstig symbol, and f05 follows it.",
+      "uncertainty_note": "A single dotted line could also be a property outline. However, it links two building groups and crosses open field rather than following a colour edge, so I read it as a footpath."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[650, 188], [662, 228], [690, 320], [722, 420]],
+      "evidence_note": "The brown-filled double-dotted road starts at the small building near (650,185) and runs south-south-east to f03 at about (722,420); f06 follows that part correctly. The overlay also takes f06 west from (648,190) to (580,215). That part is a single row of dots with no brown fill, a path-type line between the two building groups, so it does not belong to the same road.",
+      "uncertainty_note": "The first ~40 px below (650,188) look like a single dotted line before the brown fill begins. Either the road starts at the building, or a path continues into the road there. I record the western connector separately as m02."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the bend at (905,353), the brown-filled double-dotted road continues east-south-east along the top of the forest patch to the east edge at about (1000,382), and f07 follows it.",
+      "uncertainty_note": "It is clear that this is the continuation of the f03 road. The course near the edge is slightly curved but is matched."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At f08's position, from about (25,120) to (135,80), there is only the solid dark outline of a pale parcel by the 'T.' croft and the adjacent hatched area. I see no dotted, double or brown-filled road symbol there.",
+      "uncertainty_note": "This corner is busy and faint. A short path to the croft cannot be completely excluded, but nothing visible supports one."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[905, 353], [950, 343], [1000, 332]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A single row of dark dots leaves the road bend at (905,353) and runs east-north-east to the east edge at about (1000,332). It has no brown fill. The overlay includes it as the tail of f03, but it is a different symbol from the road.",
+      "uncertainty_note": "This may be a footpath (Gångstig form) or a dotted field or land-cover outline. It does not follow the forest edge, which favours a path.",
+      "alternatives": ["field or land-cover outline, not a road", "continuation of the f03 road (as the overlay draws it), with f07 as the branch"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[578, 215], [615, 205], [648, 190]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A single row of dark dots joins the farm buildings at about (578,213) to the small building and road head at (648,188). The overlay includes it in f06, but it carries no brown road fill.",
+      "uncertainty_note": "This could be a short footpath between the farmsteads or a dotted yard or property line.",
+      "alternatives": ["yard or property outline, not a road", "part of f06 as drawn in the overlay"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [905, 353],
+      "what_is_contested": "It is unclear whether this is a three-branch junction (the brown road from the west, the brown road ESE as f07, and a dotted line ENE as m01) or a simple road bend next to an unrelated dotted outline. It is also unclear which branch continues the main road.",
+      "evidence_note": "The brown double-dotted fill clearly turns ESE here. The ENE line is a single row of dots without fill."
+    },
+    {
+      "uv": [550, 208],
+      "what_is_contested": "It is unclear where f05 (path from the north), f04 (road south) and m02 (dotted connector east) meet, and whether they meet at one point at all. All three end among the farm buildings and the green tomt patch.",
+      "evidence_note": "The buildings and the green patch cover the meeting area, so the dotted lines cannot be followed to a common point."
+    },
+    {
+      "uv": [650, 190],
+      "what_is_contested": "It is unclear whether the f06 road starts at this building or continues from the dotted connector m02, which would make a two-branch bend, or whether it is a dead end next to a separate path.",
+      "evidence_note": "There is a small building at (648,183). Below it the line is single-dotted for a short stretch before the brown fill begins."
+    },
+    {
+      "uv": [305, 162],
+      "what_is_contested": "It is unclear whether the f03 road connects to the dotted line f02 along the grey band, which would make a junction, or simply ends at the house group.",
+      "evidence_note": "The road head and the f02 dots both reach the small green patch with houses at (290-320,145-165). It is not clear whether f02 is a path at all."
+    }
+  ],
+  "overall_note": "The clear roads are a connected system of brown-filled double-dotted roads (f03, f04, f06, f07), with single-dotted paths (f05 and probably m01, m02) linking the farmsteads. f03 and f06 each merge a single-dotted line into a road of a different form, so I gave corrected courses and recorded the dotted parts separately. The pink band (f01) and the dotted grey-band edge (f02) cannot be decided at this resolution, and f08 is not on a road symbol."
+}

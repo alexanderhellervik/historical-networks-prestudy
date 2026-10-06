@@ -1,0 +1,136 @@
+{
+  "tile_id": "cor_e0343_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[562,78],[570,103],[578,116],[591,111],[609,91],[625,81],[641,82],[658,94],[670,117],[673,144],[668,174],[664,197],[674,225],[690,258],[711,285],[726,307],[731,332],[724,356],[714,382],[721,409],[733,445],[745,481],[758,522],[775,563],[792,604],[804,634],[804,662],[794,692],[782,723],[769,750],[758,775],[751,815],[746,855],[740,903],[729,937],[717,961],[715,976],[727,990],[749,997],[768,1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "A narrow brown to reddish-brown stroke follows repeated bends. It has uneven dark thickening and occasional granular portions, but no consistently separated pair of edges; conifer stars lie alongside several stretches.",
+      "uncertainty_note": "The course is readable, including across the diagonal red stroke near (758,775), but its identification as a path is uncertain. The upper endpoint is the visible termination of the ink.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The thin coloured stroke could be a boundary or another non-road line; its symbol does not clearly reproduce a model-legend road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[34,0],[47,54],[61,110],[75,163],[86,218],[103,271],[120,325],[136,379],[151,433],[166,488],[181,542],[193,598],[204,654],[211,699],[218,730]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A pale grey-beige strip runs diagonally downward, with two intermittent fine margins roughly 8–18 px apart. Darker blue-green lines and marsh hatching cross it; lettering near (120,340) interrupts parts of its margins.",
+      "uncertainty_note": "Both sides of the lettering support the same broad course. The paired margins are faint, and the strip could be a non-road underlying mark; waypoint positions are approximate within its width.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two pale margins are intentional road casing, they support a narrow double-line road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A broad incidental or underlying mark could account for the strip without a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,819],[48,799],[98,777],[148,756],[198,735],[218,730],[267,706],[317,684],[367,663],[417,641],[467,619],[517,598],[567,577],[613,557],[645,544]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A strong, nearly straight red-purple stroke has a narrow beige strip and a much finer grey trace alongside it. The apparent spacing is several pixels, but a separate grey edge is intermittent.",
+      "uncertainty_note": "This is a weak road candidate: the strong stroke itself resembles the straight coloured boundaries in the example. It is unclear whether the adjacent fine trace forms road casing or belongs to the same boundary drawing.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The strong stroke and adjacent fine trace could delimit a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire feature may be a coloured boundary with an adjacent ink or colour margin, and therefore not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[481,0],[490,50],[503,100],[521,150],[538,200],[555,250],[573,300],[590,350],[607,400],[622,450],[638,500],[645,544]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Fine grey margins and pale beige shading lie beside a heavier red-brown stroke. The pale strip is approximately 10–20 px wide in places; its margins weaken around the darker smudging below v=450.",
+      "uncertainty_note": "A separate cased road is possible, but the pale marks may accompany the coloured boundary. The centre of the pale strip is uncertain by approximately 10–20 px where its edges fade.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Interpreting the fine margins as intentional casing gives a narrow double-line road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The pale strip may be a non-road mark beside the red boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[645,544],[658,581],[671,622],[684,664],[700,706],[719,737],[728,747],[704,777],[674,814],[643,852],[612,890],[581,929],[550,968],[525,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A pale grey-beige band with intermittent thin edges descends beside the red stroke, then bends southwest near (728,747). The southwest stretch has faint parallel traces alongside the stronger diagonal coloured line.",
+      "uncertainty_note": "The bend is supported by pale traces, but neither the road interpretation nor continuous double casing is secure. The southwest course is approximate where the pale edges merge with shading; no road junction is asserted at its crossings with red lines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The intermittent paired edges could represent a narrow cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The pale band could be an underlying non-road mark partly coincident with boundaries."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[218,730],[248,751],[280,774],[308,789],[324,800]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint grey slanting trace continues southeast from the apparent crossing. Short portions suggest two margins, but closely spaced horizontal hatching and small oval tree symbols overlap the lower end.",
+      "uncertainty_note": "The trace cannot be followed securely beyond (324,800). It may continue the pale strip from f02, but it may instead be shading or another non-road mark.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The short paired portions could be the continuation of a narrow double-line road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent continuation could be incidental shading among hatching and tree symbols."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [218,730],
+      "branch_count": 4,
+      "evidence_note": "The pale northwest–southeast strip meets the red diagonal and its adjacent fine trace here, giving four apparent arms. This is a tentative road junction: the branch count applies only if both crossing candidates are roads."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [645,544],
+      "branch_count": 3,
+      "evidence_note": "The southwest diagonal stroke meets the descending red-brown stroke, with faint pale margins approaching from north, southwest and southeast. Three apparent arms are visible, but their identification as road branches is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [305,775,445,875],
+      "why": "Faint grey traces overlap dense horizontal hatching, oval tree symbols and other thin linework; a continuation of f06 cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The winding brown line is the strongest path candidate, although its symbol remains ambiguous. The pale paired traces are substantially weaker candidates, and several coincide with straight coloured lines resembling boundaries in the worked example. Both reported junctions are conditional on those weak candidates being roads."
+}

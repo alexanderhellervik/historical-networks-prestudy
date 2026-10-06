@@ -1,0 +1,85 @@
+{
+  "tile_id": "cor_e0363_n6448",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along u 415-700, v 688-550 the map shows a crimson line with a parallel brown dotted companion line a few px below it and pale fill between them (clearly white at u 420-470, v 665-690). It is the same double ribbon as the Sämre körväg in the worked example, so it is a road carrying a boundary along one side.",
+      "uncertainty_note": "The road does not end at u~415. It continues to the west edge, and to the east past u 700 towards the junction at about (785,524). If f01 also runs up the single crimson line north of (785,520) to (860,400) and beyond, that part is only the boundary between meadow and forest, not a road. I could not see the overlay's exact extent there."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "I take f02 to be the straight brown dotted line running NW-SE from the west edge at (0,608) through (134,798) and across the main road near (150,815) to the south edge at about (304,1000). It is drawn in road brown with a dotted companion, like the road lines elsewhere on this sheet, and not as a crimson boundary or a black dashed skifteslinje.",
+      "uncertainty_note": "The label sits on the crossing at (155,812), so f02 could instead be the western part of the main SW-NE road (0,883)-(415,688). That part is a road too (see m01). The NW-SE line could also be a Gångstig (single_line) rather than a narrow double road. Its brown colour suggests a road, but a boundary that follows a field edge cannot be fully ruled out."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double/dotted line leaves the crimson road-boundary corner at about (784,523), runs SE to (839,588) past the small red building marked '8', then bends NE through (924,553) to the east edge at about (1000,513). Its colour and form match the main road ribbon.",
+      "uncertainty_note": "Where it starts is uncertain: the road may run on directly from the main road at (700,550)-(785,524), or it may branch off it. The section in the forest east of u 900 is partly crowded by forest outlines."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the main road at about (585-605, 615-650) there are a few black dots forming short dotted strokes towards the croft buildings at (610,665). A short Gångstig to the croft is plausible.",
+      "uncertainty_note": "At this resolution the dots could equally be the dotted outline of a yard or garden around the croft. They are too few and too short to tell a path from a plot edge."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between the main road at about (635,595) and the white building outline near (650,625) there is no clear road line. There is only the croft's building and yard drawing, a small figure '9', and scattered dots.",
+      "uncertainty_note": "It may be a short farm access drawn too small to resolve. Nothing visible confirms a drawn track, and nothing rules it out."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 883], [144, 813], [324, 718], [415, 688]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "This is the western part of the main SW-NE road ribbon: a crimson line plus a parallel brown dotted line with a light strip between them, running on without a break from where f01 starts at (415,688) to the west edge.",
+      "uncertainty_note": "If the overlay's f02 is this segment rather than the NW-SE brown line, this entry duplicates it.",
+      "alternatives": ["covered by f02 if f02 was drawn along the main road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[700, 550], [745, 543], [784, 523]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The road ribbon (crimson line with brown dotted companion) carries on past u 700 and curves gently to the corner at about (784,523), where the f03 brown line and the northward crimson boundary leave.",
+      "uncertainty_note": "This may already be part of f01 in the overlay. Here the crimson line is also the edge of the hatched meadow, so road and boundary coincide.",
+      "alternatives": ["part of f01", "boundary only, road turning into f03 at (700,550)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [150, 815],
+      "what_is_contested": "Whether the NW-SE brown line crosses the main road as a four-way road crossing, or is a boundary or path that only meets it.",
+      "evidence_note": "Both lines run through the point without a visible break. The NW-SE line is brown like a road, but it is thinner than the main ribbon."
+    },
+    {
+      "uv": [784, 523],
+      "what_is_contested": "Number of branches: the main road, the f03 road to the SE/E, and the crimson boundary running north along the forest edge meet here. Only two or three of these are roads, and it is unclear whether the main road runs straight on into f03.",
+      "evidence_note": "The crimson line keeps going north as a single line with no road companion. The brown f03 line starts right at the corner."
+    },
+    {
+      "uv": [590, 615],
+      "what_is_contested": "Whether a path (f04) really branches from the main road here towards the croft at 2T.",
+      "evidence_note": "There are only a few dots between the road and the croft buildings, which could be the edge of a yard."
+    }
+  ],
+  "overall_note": "The tile's roads are the SW-NE main road ribbon (crimson boundary with a brown dotted road line) from the west edge to about (785,523), its continuation as the brown road f03 to the east edge, and a brown NW-SE line crossing it near (150,815). The parallel crimson lines in the hatched meadow (strips labelled 't. Svalebacken' etc.) and the black dashed lines in the forest are ownership boundaries or skifteslinjer, not roads. The small croft links f04 and f05 cannot be resolved from what is drawn."
+}

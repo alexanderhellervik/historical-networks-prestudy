@@ -1,0 +1,123 @@
+{
+  "tile_id": "cor_e0347_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[133, 0], [154, 25], [176, 52], [198, 80], [219, 110], [237, 135], [253, 155], [273, 179], [295, 200], [320, 214], [352, 223], [386, 226], [426, 225], [464, 221], [501, 215], [538, 209], [574, 210], [610, 215], [650, 224], [688, 235], [727, 248], [765, 260], [802, 272], [842, 280], [880, 282], [920, 279], [952, 272], [974, 270], [1000, 282]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark, relatively heavy edges enclose an ochre-pink ribbon, generally about 8–16 px wide. Portions of an edge appear broken or dotted; peach polygons adjoin the ribbon near both bends.",
+      "uncertainty_note": "The course is continuous and readable. Uneven printing makes the distinction between two solid edges and a solid-plus-dotted symbol uncertain in places.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "If the interrupted edge is intentional, this is a coloured solid-plus-dotted road symbol rather than an unambiguous double solid line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[38, 146], [70, 150], [107, 153], [145, 159], [179, 165], [214, 164], [235, 160], [253, 155]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow ochre stroke runs beside a sequence of dark dots or short marks, separated by several pixels. It curves into the west edge of the broader cased ribbon.",
+      "uncertainty_note": "The dotted-and-coloured combination does not clearly match a listed class. Dark symbols obscure its western continuation around u=0–38; no connection through them is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The regularly interrupted dark component could be treated as a broken-line path symbol."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The narrow continuous ochre component could be treated as the principal stroke, with the dark marks alongside."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[352, 223], [357, 245], [363, 269], [372, 293], [379, 316], [368, 337], [348, 357], [328, 383], [315, 408], [310, 432], [288, 454], [266, 473], [243, 493], [226, 511], [216, 534], [212, 562], [214, 589], [220, 617], [230, 652], [235, 687], [235, 717], [230, 731], [210, 743], [179, 759], [149, 771], [128, 779], [109, 798], [86, 820], [64, 842], [66, 864], [66, 887], [51, 918], [33, 940], [17, 967], [0, 998]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin ochre-pink line with closely spaced dark dots alongside leaves the broad ribbon and winds down the tile. Its combined width is roughly 4–8 px; it lacks the broad road's clear continuous casing.",
+      "uncertainty_note": "The drawn course is readable, including beside the blue outline near the southwest corner. The mixed dotted and continuous symbol makes its class uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark dots and short interruptions could be read as a broken-line track or path."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The continuous coloured stroke could be considered the principal line, with accompanying dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[920, 279], [924, 301], [933, 321], [949, 338], [971, 348], [1000, 351]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow warm-coloured stroke accompanied by dark dots bends away from the underside of the cased ribbon. The marks remain visible around the bend to the right edge.",
+      "uncertainty_note": "Its attachment lies against the heavy road edge, so the precise junction position is approximate. The symbol resembles the other dotted tracks but has no exact listed class.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The interrupted dark component could represent a broken-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted parcel edge with colour alongside is a less certain alternative reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 76], [3, 91], [0, 101], [8, 114]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Short dark broken marks with faint ochre colouring hug the left margin. Their lower end approaches dense dark outlines and small peach-filled symbols; no complete casing is legible.",
+      "uncertainty_note": "This is a doubtful clipped track fragment. Much of the symbol is outside the face, and the lower continuation cannot be separated confidently from the adjacent outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible broken marks may be a clipped dotted path continuing toward the obscured western end of f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment may instead belong to a non-road boundary or adjoining symbol outlines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [253, 155],
+      "branch_count": 3,
+      "evidence_note": "The two directions of the heavy, dark-edged peach ribbon meet a thinner ochre-and-dark-dotted line arriving from the left; its dots terminate against the casing."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [352, 223],
+      "branch_count": 3,
+      "evidence_note": "At the bend, the broad ribbon continues in two directions with dark edges about 10–15 px apart. A narrow ochre line with dark dots leaves its lower edge."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [920, 279],
+      "branch_count": 3,
+      "evidence_note": "The cased warm-coloured ribbon continues left and right; a much narrower dotted warm-coloured stroke curves downward from its lower edge. The heavy casing partly masks the contact."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 103, 40, 177],
+      "why": "Overlapping dark outlines, peach-filled symbols and short curved marks prevent confident tracing of the western track continuations."
+    }
+  ],
+  "overall_note": "The principal difficulty is distinguishing the dotted-and-coloured track symbols from the available symbol-form classes, especially at the clipped western margin. The winding blue water line, water outlines, hatched-area edges and fine straight parcel lines are excluded. Coordinates and junction contacts are approximate readings of the visible strokes."
+}

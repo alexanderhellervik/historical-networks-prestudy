@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0348_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 18], [35, 19], [63, 25], [86, 29], [108, 32]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre strip has dark, intermittently dotted margins approximately 5–8 px apart. Black symbol strokes overlap it near (35,19), but the strip is visible on both sides.",
+      "uncertainty_note": "The margins merge locally with heavy black symbols and a blue stroke near the right endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired margins are not continuously separable beneath the overlapping symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[108, 32], [132, 26], [154, 21], [173, 16], [181, 11]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short dark trace with an ochre fringe extends right from (108,32). Blue ink and heavier black strokes overlap it; two consistent margins cannot be distinguished.",
+      "uncertainty_note": "This may continue f01, but part or all of the trace could belong to the crossing blue line or adjacent symbols. Its course beyond (181,11) is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A continuation of the narrow ochre road is possible if the dark strokes represent its margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road interpretation: overlapping blue water-line ink and black symbols may account for the apparent arm."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[108, 32], [102, 53], [96, 78], [90, 101], [90, 123], [101, 141], [122, 156], [134, 181], [138, 208], [138, 234], [134, 255]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A winding ochre band is bordered by dark dots and short strokes, with intermittent paired edges roughly 5–8 px apart. A thin red line crosses near (138,243) without sharing the dotted margins.",
+      "uncertainty_note": "The road course is clear; its two margins are intermittently blurred into one heavier trace.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted edging may be better described as a stippled track symbol than as two continuous lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 321], [21, 313], [49, 302], [80, 287], [110, 271], [134, 255]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An ochre diagonal strip carries closely spaced dark stippling along its edges, approximately 5–7 px apart. It joins the winding strip at (134,255).",
+      "uncertainty_note": "Some sections resolve as a single ochre-and-black trace rather than two distinct margins.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A narrow stippled track symbol remains possible where separate edges cannot be resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[134, 255], [149, 280], [169, 297], [192, 304], [221, 305], [252, 301], [283, 298], [311, 295], [324, 296]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The ochre band curves into a nearly horizontal trace with dark dotted edging and intermittent margins about 5–8 px apart. At its eastern end, blue-black strokes and horizontal hatching crowd the trace.",
+      "uncertainty_note": "The trace cannot be followed confidently beyond (324,296). Possible continuation toward (351,298) is entangled with water outlines and hatching.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The eastern part may use a single stippled track symbol; an extension to approximately (351,298) is possible but unconfirmed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 143], [22, 139], [42, 131], [51, 118], [58, 102], [64, 88]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One uncased row of small dark dots, spaced approximately 5–8 px apart, curves right and upward. No ochre fill or second margin is visible; small oval black symbols occur near its upper endpoint.",
+      "uncertainty_note": "The repeated dots suggest a path, but a dotted non-road line is also possible. No certain connection to f01 or f03 is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A path interpretation is possible if the tiny marks are short dashes blurred into dots."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road interpretation: a dotted boundary or other line cannot be excluded."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [108, 32],
+      "branch_count": 3,
+      "evidence_note": "The narrow ochre trace from the left meets the ochre, dark-dotted trace descending from this position. A third dark/ochre arm extends right beneath blue and black strokes; this third arm is uncertain, so the three-branch reading is provisional."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [134, 255],
+      "branch_count": 3,
+      "evidence_note": "Three ochre strips with dark dotted margins meet: one upward, one diagonally left-downward, and one curving right-downward. Their margins merge at the fork; a separate thin red crossing lies approximately 12 px above it."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [310, 278, 371, 325],
+      "why": "Blue-black outlines, horizontal hatching and the ochre trace overlap densely enough to obscure any continuation of f05."
+    }
+  ],
+  "overall_note": "The clearest roads use narrow ochre bands with dark stippled margins in the upper-left part of the tile. The short upper arm and separate dotted path remain doubtful. Red solid and dash-and-dot lines, blue outlines, and broad pale wash marks were read as non-road marks."
+}

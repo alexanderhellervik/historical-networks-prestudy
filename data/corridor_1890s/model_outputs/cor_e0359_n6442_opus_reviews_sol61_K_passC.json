@@ -1,0 +1,125 @@
+{
+  "tile_id": "cor_e0359_n6442",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Red-brown line with a dotted companion line runs from the top edge near (120,0) down via (70,150) and (80,230) to the left edge near (0,320). It is the same brown dotted road symbol the worked example reads as Sämre körväg, and the polyline follows it.",
+      "uncertainty_note": "The course is clear. The class is double_line_narrow by symbol form (brown solid plus dotted line). The exact körväg grade cannot be read at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted double road enters at the top edge near (690,0) and runs down past the 'B' farm to about (720,195), where it meets the crimson boundary. The polyline follows it.",
+      "uncertainty_note": "Course is certain. Where f02 ends and f03 starts at about (720,195) is a matter of segmentation; the road itself is continuous."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted road continues from about (725,200), curves down through (765,250) and (770,300) to (790,325), then runs east along (880,320) and bends down toward (935,380). The polyline follows that brown band.",
+      "uncertainty_note": "Course is clear. The road is partly overlapped by green meadow outlines near (770,250)–(790,330), but the brown band stays continuous."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Continuation of the same brown dotted road from about (935,380) down past the small hatched marsh to (945,440), then east to the right edge near (1000,460).",
+      "uncertainty_note": "It is hard to tell in the overlay where f04 starts relative to f03 and f09 near (935,380)–(940,440). The road on the map is unambiguous."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Straight, solid crimson/magenta line from the corner at (145,437) to the bottom edge near (430,1000). It cuts straight across the marshes and has no brown colour or dotted companion. The worked example reads identical crimson lines as boundaries (Gräns).",
+      "uncertainty_note": "Fairly confident this is a boundary. Its perfectly straight course, crossing wet ground, also argues against a road."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange-brown single line runs from near the crimson corner at (140,440) down-left through (90,500) to the left edge near (0,610). The worked example reads this thin orange line style as Gångstig.",
+      "uncertainty_note": "The line is faint. It could alternatively be a minor boundary or a coloured field edge, but its orange colour matches the paths in the example rather than the crimson boundaries."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Solid crimson/magenta line from (145,437) via (400,315) to (720,200). It continues east beyond the brown road to the right edge near (1000,240) and meets f05 in a sharp corner. This is the boundary colour and geometry, not the brown road symbol.",
+      "uncertainty_note": "A faint brownish fringe follows parts of the line, but it reads as the boundary's colour wash rather than a road. Fairly confident."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (775,195) and (850,235) the only line drawn is the crimson boundary (the eastward continuation of f07) plus green meadow outlines. No brown road symbol branches off here.",
+      "uncertainty_note": "The overlay line sits slightly south of the crimson line. Whichever line it is meant to trace, neither is a road."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange single line runs roughly east from about (800,432) to (900,440) and meets the brown road near (935–940,440). Same thin orange style as f06 and f10 (paths).",
+      "uncertainty_note": "The west end is uncertain: it may join f10 near (770,385) or end freely near (800,430). The overlay's east end seems to bend north along the road toward (935,385), which is not separately drawn."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange single line runs from the brown road near (790,330) down-left through (740,400), (700,440) and (685,500), ending in the hatched bird-shaped marsh near (665,590). The polyline follows the lower part of it closely.",
+      "uncertainty_note": "It is unclear whether the overlay reaches all the way up to the road near (790,330); the drawn line appears to. The southern end is a dead end at the marsh."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[820, 975], [845, 935], [900, 928], [1000, 935]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A dark dotted/dashed brown line runs along the upper edge of the pink field in the bottom-right corner, from near the small building at (820,975) to the right edge near (1000,935).",
+      "uncertainty_note": "The line follows the field edge exactly and may be a fence, hedge or field border rather than a road. The dotted form fits Gångstig or Sämre körväg, but the resolution is too low to decide.",
+      "alternatives": ["dashed_line (Gångstig)", "field edge / hedge, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [720, 197],
+      "what_is_contested": "Whether this is a road junction or only a road crossing a boundary.",
+      "evidence_note": "The brown road (f02/f03) meets the crimson line (f07 west, f08/crimson east) here. If the crimson lines are boundaries, as I read them, the brown road simply continues and there is no road junction."
+    },
+    {
+      "uv": [770, 383],
+      "what_is_contested": "Whether f09 branches from f10 here (a 3-way junction) or the two orange lines are separate.",
+      "evidence_note": "Thin orange lines come close near (770,385)–(800,430), among dense green meadow outlines, and the connection is not clearly drawn."
+    },
+    {
+      "uv": [790, 330],
+      "what_is_contested": "Whether f10 actually joins the brown road here or stops just short of it.",
+      "evidence_note": "The orange line runs up toward the brown road's bend, but green outlines overlap at the meeting point."
+    },
+    {
+      "uv": [937, 440],
+      "what_is_contested": "The position where f09 meets the brown road (f04): near (937,440), or further north near (935,385) as the overlay suggests.",
+      "evidence_note": "A small hatched marsh and green outlines next to the road obscure the last few pixels of the orange line."
+    },
+    {
+      "uv": [145, 437],
+      "what_is_contested": "Whether f06 connects to any road at the crimson corner or ends at the boundary.",
+      "evidence_note": "f06 runs up to the corner where two crimson boundaries (f05, f07) meet. Since I read neither of those as a road, f06 has no road to connect to and may be a dead end."
+    }
+  ],
+  "overall_note": "The brown dotted roads (f01, f02, f03, f04) and the thin orange paths (f06, f09, f10) are real, and the overlay follows them well. The long straight crimson lines f05 and f07, plus f08 next to them, are boundaries by the sheet's colour convention, not roads. The black dashed diagonals are lot lines, and the green/teal lines are meadow edges and ditches, so none of them is recorded as a road."
+}

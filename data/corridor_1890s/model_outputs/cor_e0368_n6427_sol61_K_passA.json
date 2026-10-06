@@ -1,0 +1,168 @@
+{
+  "tile_id": "cor_e0368_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,574],[13,557],[37,548],[66,539],[88,529],[107,510],[123,486],[141,457],[160,435],[184,424],[209,409],[241,390],[270,374],[302,359],[327,342],[352,324],[380,317],[414,307],[454,296],[487,284],[522,270],[553,256],[586,239],[615,221],[641,202],[666,177],[691,150],[716,125],[744,98],[771,74],[799,45],[825,20],[849,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of dark stipples flank an ochre-orange strip approximately 8–12 px wide; the strip curves diagonally across the face and crosses several long dashed lines.",
+      "uncertainty_note": "The western bend clips the image edge. It may connect to f02 immediately outside or at the edge, but an interior connection cannot be placed confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Both edges consist largely of separate dots or short marks, so the symbol could also be described as a paired broken line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,593],[6,620],[14,646],[26,669],[46,691],[67,711],[86,728],[105,746],[124,770],[141,790],[157,811],[171,832],[185,862],[198,895],[207,927],[214,950],[221,978],[235,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange strip has dark stippled edges on both sides; it bends southeast through heavy lettering and then south, with the same edging visible between the letters.",
+      "uncertainty_note": "Its northern bend clips the western edge near f01. Junctions j02 and j03 depend on interpreting the pale diagonals f06 and f07 as roads.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired stippled margins can alternatively be classified by their broken rather than doubled form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[454,296],[461,324],[471,352],[480,382],[487,406],[486,424],[475,438],[459,455],[455,468],[458,477]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two dark broken margins surround a narrow orange strip branching south from f01; it bends southwest beside a heavy polygon outline and reaches a solid black rectangular symbol.",
+      "uncertainty_note": "The final strip disappears into the black symbol near [458,477]; no continuation through that symbol is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The margins are stippled, making a paired broken-line description possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[214,950],[240,952],[266,958],[281,960],[306,953],[334,939],[355,928],[377,930],[406,937],[438,943],[468,950],[486,953],[495,944],[499,927],[527,920],[552,917],[571,922],[586,910],[601,893],[621,889],[640,892],[663,904],[690,914],[716,918],[739,905],[755,889],[779,881],[798,875],[814,878],[819,879]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "One row of fairly large dark dots follows a thin ochre trace, winding across the lower face and around small outlined and solid rectangular symbols.",
+      "uncertainty_note": "Some sections coincide with orange polygon edges, allowing a field-edge reading. The course beside the small symbols remains visible, but its eastern end merges with a heavy outline and adjacent black marks near [819,879].",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The thin ochre connecting stroke could be treated as the principal line, with the dots as accompanying marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Parts may represent dotted field or property edging rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[716,918],[722,946],[730,974],[738,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A single row of dark dots on a thin ochre line turns south from f04 and follows the left edge of an orange-filled polygon to the bottom edge.",
+      "uncertainty_note": "Its dotted form matches f04, but its exact coincidence with the polygon edge also supports a non-road boundary interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could be the dotted edge of the orange polygon rather than a separate path."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "A thin connecting ochre stroke is visible between some dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,827],[26,806],[54,784],[81,761],[105,746]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A pale diagonal band has two roughly parallel grey strokes about 12–16 px apart; the upper stroke is darker and intermittently broken, and the band reaches f02 beside black rectangular marks.",
+      "uncertainty_note": "The strokes are much fainter than the stippled roads and the connection with f02 is diffuse. A track, straight ditch or boundary remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The parallel strokes could be the two margins of a narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the breaks are intentional, this could be a paired broken-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The darker stroke may be a ditch or boundary, with the paler stroke representing an adjacent edge or shading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,968],[27,947],[57,923],[88,898],[117,875],[146,851],[171,832],[194,813],[217,800]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A pale diagonal strip has a comparatively heavy dark upper margin and a faint grey lower margin roughly 15–20 px away; it crosses horizontal hatching and f02 before reaching an angular red outline.",
+      "uncertainty_note": "The unequal margins could describe a road, a ditch with an adjacent edge, or a boundary strip. It stops at the heavy red outline near [217,800], where no definite continuation is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The separated strokes could case a wider road."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Only the heavy upper stroke may be intentional; the faint lower stroke could be shading."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A straight ditch or property edge remains a plausible non-road reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [454,296],
+      "branch_count": 3,
+      "evidence_note": "The orange strip with paired dark stipples continues east and west, while a similarly edged strip branches south without a visible separating gap."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [105,746],
+      "branch_count": 3,
+      "evidence_note": "Two directions of the orange stippled strip meet the faint paired diagonal entering from the southwest; the third branch is conditional on the road reading of f06."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [171,832],
+      "branch_count": 4,
+      "evidence_note": "The orange stippled strip crosses the pale paired diagonal, with both courses visible on opposite sides and no bridge mark; four road branches are conditional on f07 being a road."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [214,950],
+      "branch_count": 3,
+      "evidence_note": "A single dotted ochre trace extends east from the right margin of the orange strip, whose two stippled margins continue north and south."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [716,918],
+      "branch_count": 3,
+      "evidence_note": "The single dotted trace continues west and northeast, while a matching dotted ochre line branches south along an orange polygon edge; the southern branch may instead be boundary edging."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main orange strips and lower dotted trace are legible, but the two pale southwest diagonals permit road and non-road readings. Their junction counts are conditional on the road interpretation. Long isolated dashed lines, continuous red outlines and heavy land-cover polygon outlines were otherwise read as non-road marks."
+}

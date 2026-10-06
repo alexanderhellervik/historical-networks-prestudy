@@ -1,0 +1,78 @@
+{
+  "tile_id": "cor_e0365_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 285], [23, 265], [43, 244], [59, 238], [72, 253], [82, 275]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short pale strip with irregular dark margins curves beside the broad red-and-blue band; the margins merge with heavy black marks near its northeastern end.",
+      "uncertainty_note": "A separate narrow road is possible, but its separation from the coloured boundary band is unclear. No connection through the dark marks is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip and its two apparent dark margins could be a narrow cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a pale gap or edging beside the broad boundary symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[411, 765], [448, 756], [485, 746], [520, 723], [553, 696], [586, 669], [619, 642], [650, 616], [682, 590], [713, 567], [743, 551], [771, 546]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint buff diagonal trace interrupts the horizontal hatching. Short grey-brown fragments appear along its edges, but neither continuous casing nor regular dots remain clear throughout.",
+      "uncertainty_note": "This is a possible track or path. Its southwestern continuation fades into pale edging, and its northeastern end becomes indistinct beside the blue outline and red line; neither connection is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have two close margins enclosing a pale strip."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The intermittent darker fragments could represent one lightly drawn path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a land-cover division or irregular break in the marsh hatching."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[353, 1000], [348, 966], [345, 932], [345, 898], [349, 865], [354, 834], [366, 806], [386, 783], [405, 769]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow pale, winding strip follows the margin of the hatched area, with uneven grey-brown edging beside stronger blue compartment outlines.",
+      "uncertainty_note": "The strip could be a path, but much of it coincides with land-cover edging. Its apparent approach to f02 is too indistinct to establish continuity or a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Locally the pale strip appears bounded by two close, irregular lines."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the outlined margin between the pale compartments and the hatched area."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [28, 213, 92, 286],
+      "why": "Heavy black marks and overlapping coloured strokes prevent reliable separation of the possible narrow road from the boundary drawing."
+    },
+    {
+      "bbox_uv": [385, 740, 448, 792],
+      "why": "Pale edging, hatching and blurred line fragments prevent a reliable reading of whether the two candidate traces connect."
+    }
+  ],
+  "overall_note": "The retained features are doubtful traces, not securely identified roads. The broad coloured bands, thin red divisions and long black dashed lines are read as boundary drawing; blue compartment outlines are also excluded. Hatching and blurred edging make the possible path symbols and their connections difficult to resolve."
+}

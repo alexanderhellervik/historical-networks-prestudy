@@ -1,0 +1,127 @@
+{
+  "tile_id": "cor_e0363_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [314, 987],
+        [350, 981],
+        [386, 966],
+        [420, 946],
+        [448, 920],
+        [470, 890],
+        [496, 870],
+        [532, 855],
+        [566, 835],
+        [588, 808],
+        [602, 773],
+        [620, 739],
+        [647, 708],
+        [674, 680],
+        [701, 648],
+        [722, 614],
+        [735, 581],
+        [743, 553],
+        [764, 529],
+        [778, 516],
+        [775, 486],
+        [768, 449],
+        [765, 414],
+        [768, 398],
+        [785, 365],
+        [807, 331],
+        [828, 295],
+        [846, 259],
+        [859, 222],
+        [871, 182],
+        [880, 153],
+        [899, 128],
+        [929, 109],
+        [960, 96],
+        [983, 90],
+        [1000, 91]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two closely spaced dark, substantially dotted edges enclose a narrow orange-buff strip. The pair follows the bends together; the upper section crosses the heavy red band and black lettering.",
+      "uncertainty_note": "The southwest continuation disappears into large lettering near the bottom edge, so it stops at the last distinguishable strip. Junction j01 is conditional on f02 being a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [414, 1000],
+        [438, 968],
+        [463, 937],
+        [488, 906],
+        [510, 880],
+        [532, 855]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow pale diagonal strip has a fine reddish-dark edge on its west side and heavier red linework to its east. Its upper end approaches the dotted orange strip at the crossing of several differently coloured strokes.",
+      "uncertainty_note": "The apparent strip may be space beside boundary linework rather than a separate road. Its contact with f01 is partly masked by the blue stroke and heavier red markings.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both margins belong to one road symbol, this is a narrow paired-line branch."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a boundary-adjacent blank strip; under this reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [374, 817],
+        [385, 779],
+        [402, 742],
+        [423, 703],
+        [445, 663],
+        [467, 623],
+        [490, 583],
+        [511, 544],
+        [534, 503],
+        [555, 463]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A very pale grey-brown oblique trace is visible in successive stretches. It has no securely readable casing or regular dots and loses definition in the peach fill below and horizontal hatching above.",
+      "uncertainty_note": "This is a weak path candidate: the trace could instead be a crease, discolouration or other non-road line. Neither endpoint nor a connection to another road is established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible faint single-stroke path, if the oblique trace is intentional map linework."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a paper or printing artefact, or faint division line."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [532, 855],
+      "branch_count": 3,
+      "evidence_note": "The dotted orange strip supplies southwest and northeast arms; the pale diagonal candidate approaches from the south-southwest. Blue and heavy red strokes overlap the apparent meeting, making the third road arm provisional."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [270, 955, 330, 1000],
+      "why": "Large dark lettering masks the southwest continuation of the orange dotted strip."
+    },
+    {
+      "bbox_uv": [518, 840, 553, 885],
+      "why": "Overlapping blue, red and dark strokes prevent a secure reading of the possible branch connection."
+    }
+  ],
+  "overall_note": "The winding orange strip is the clearest road symbol. The lower diagonal strip and pale central trace remain doubtful and include non-road alternatives. Heavy red bands, angular enclosure edges and horizontal hatching were excluded from the road reading."
+}

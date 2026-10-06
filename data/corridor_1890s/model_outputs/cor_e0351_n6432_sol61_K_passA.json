@@ -1,0 +1,156 @@
+{
+  "tile_id": "cor_e0351_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [573, 1000],
+        [568, 977],
+        [563, 950],
+        [560, 923],
+        [559, 896],
+        [562, 869],
+        [567, 842],
+        [571, 824],
+        [579, 802],
+        [591, 780],
+        [607, 757],
+        [625, 738],
+        [646, 718],
+        [655, 705],
+        [664, 683],
+        [675, 655],
+        [687, 630],
+        [703, 605],
+        [720, 582],
+        [737, 561],
+        [759, 540],
+        [775, 530],
+        [801, 513],
+        [827, 496],
+        [850, 479],
+        [877, 459],
+        [902, 439],
+        [926, 417],
+        [944, 395],
+        [960, 372],
+        [978, 347],
+        [993, 324],
+        [1000, 307]
+      ],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02", "j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two substantial dark edges, approximately 12–20 px apart, enclose reddish ochre fill. Black rectangular symbols sit beside the casing through the northeastern section.",
+      "uncertainty_note": "Lettering and black symbols locally mask the casing, particularly around [759,540]; visible alignment on both sides supports continuity. Coordinates through these overlaps are approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [571, 824],
+        [551, 837],
+        [535, 853],
+        [516, 872],
+        [501, 892],
+        [490, 910],
+        [482, 925],
+        [472, 940],
+        [457, 955],
+        [440, 971],
+        [421, 985],
+        [403, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A single row of rounded dark marks follows faint ochre linework outside two closed peach polygons. The marks are approximately 7–12 px apart, without consistent parallel casing.",
+      "uncertainty_note": "The northern connection fades against the broad road's casing. The repeated dots resemble the model's footpath symbol, but the supplied classes have no dotted-line category; following polygon edges also leaves a boundary interpretation possible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Appropriate if this category includes a single row of dots as well as elongated dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a dotted property or plot boundary rather than a path, especially alongside the closed peach polygons."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [568, 977],
+        [584, 979],
+        [602, 983],
+        [617, 977],
+        [634, 968],
+        [653, 955]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One row of separate dark dots curves east from the broad casing toward small rectangular symbols. A fine continuous dark line diverges southeast below the dot row.",
+      "uncertainty_note": "The easternmost dots disappear beside the rectangular symbols; no continuation through them is certain. The dotted form has no exact class in the supplied list.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Use if dashed_line includes the dotted footpath form shown in the model legend."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [765, 673],
+        [780, 678],
+        [798, 677],
+        [813, 667],
+        [828, 665],
+        [846, 651],
+        [860, 640],
+        [881, 636]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A single uncased row of dark rounded marks bends across pale green hatching. Its western end overlaps thick blue linework; its eastern end reaches a faint near-vertical grey line, west of a heavy reddish line.",
+      "uncertainty_note": "No certain continuation is visible westward through the blue line and adjacent closed peach shapes, so this feature is not connected to f01. The eastern dots become indistinct at the grey line. A dotted boundary remains an alternative reading.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The marks resemble a dotted footpath if dashed_line includes dotting."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a dotted boundary across the hatched area rather than a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [571, 824],
+      "branch_count": 3,
+      "evidence_note": "The reddish strip between two dark edges continues north and south; a row of dark dots approaches its western edge from the southwest. The final dotted connection is faint, making the meeting coordinate approximate."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [568, 977],
+      "branch_count": 3,
+      "evidence_note": "The paired dark casing continues toward both the bottom edge and north; a separate dotted row leaves its eastern side and curves toward rectangular symbols. A finer solid line diverges below that row."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [738, 497, 793, 562],
+      "why": "Heavy black lettering overlaps the broad road and adjacent fine linework; the broad road is recoverable from both sides, but additional small branches cannot be resolved here."
+    },
+    {
+      "bbox_uv": [858, 506, 980, 592],
+      "why": "Large black characters and filled rectangular symbols obscure portions of the closely spaced outlines, preventing reliable tracing of possible minor access lines."
+    }
+  ],
+  "overall_note": "The broad cased road is clear; three dotted lines are reported as path candidates with their ambiguity retained. Fine grey broken lines and the heavy reddish line farther east were read as boundaries. Dense lettering and symbols limit the reading of minor lines within the northeastern cluster."
+}

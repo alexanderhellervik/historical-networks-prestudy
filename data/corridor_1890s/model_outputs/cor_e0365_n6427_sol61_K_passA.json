@@ -1,0 +1,397 @@
+{
+  "tile_id": "cor_e0365_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[165, 0], [187, 34], [205, 74], [212, 112], [214, 150], [221, 181], [228, 214], [239, 257], [246, 286], [263, 326], [281, 365], [303, 400], [326, 426], [344, 437]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A rusty narrow band has two dark, irregularly broken edges roughly 7–10 px apart; a pale blue paired line crosses it near (215,167).",
+      "uncertainty_note": "Some edging resolves as dots rather than continuous strokes.",
+      "alternatives": [{"proposed_class": "dashed_line", "note": "The repeated dark marks can also be read as paired broken-line track edging."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 440], [39, 449], [76, 461], [113, 476], [151, 484], [180, 492], [208, 492], [237, 480], [260, 459], [278, 451], [299, 446]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close, dark dotted or toothed edges enclose a rusty strip, particularly clear along the shallow bend between u100 and u240.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[299, 446], [321, 439], [344, 437]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A short rusty band with close dark edges connects the two visible branch positions.",
+      "uncertainty_note": "The nearby blue outline makes the southern edge locally difficult to separate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[344, 437], [370, 445], [395, 447], [422, 437], [449, 442], [478, 450], [501, 453]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A rusty strip with dark broken edging follows several small bends immediately above a blue-green outlined band.",
+      "uncertainty_note": "Parts of its lower edge overlap the blue outline, but the rusty, broken-edged course remains visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[299, 446], [313, 490], [328, 531], [343, 570], [360, 606]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j12"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow diagonal rusty band has a dark edge on each side, with short repeated marks along the eastern edge.",
+      "uncertainty_note": "It coincides with a parcel margin; the paired edging supports the track reading.",
+      "alternatives": [{"proposed_class": "unknown", "note": "A parcel-margin reading remains possible where the rusty band merges with the surrounding peach wash."}]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[360, 606], [380, 647], [414, 651], [453, 656], [492, 663], [534, 668], [564, 672], [585, 671]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j12", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The diagonal paired strip turns sharply east; its horizontal section retains rusty colour and close dark broken edges beneath the lettering.",
+      "uncertainty_note": "The eastern join is crowded by lettering and a blue outline; its position is approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[360, 606], [346, 607], [333, 611]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j12"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short tan-brown stroke with small dark marks extends west from the diagonal band into black and red rectangular symbols.",
+      "uncertainty_note": "The stroke is faint and its western end disappears among the rectangles; no continuation is supplied.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "It may be a short access path represented by one broken stroke."},
+        {"proposed_class": "unknown", "note": "It may instead be edging or shading associated with the rectangular symbols."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[501, 453], [528, 438], [553, 420], [575, 411], [591, 415], [614, 426], [634, 447], [650, 463], [672, 465], [685, 477]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j13"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A curved dark broken stroke lies beside a second, more continuous outline, with a narrow tan interval; the western portion appears to branch from the rusty track.",
+      "uncertainty_note": "This course follows a peach polygon edge. The eastern connection is less clear than the western one.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The two close edges may form a narrow track following the polygon margin."},
+        {"proposed_class": "unknown", "note": "The arc may be a parcel outline with adjacent stippling; its eastern end may remain separate from the north–south track."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[501, 453], [513, 486], [524, 522], [535, 558], [546, 595], [556, 610]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close dark, partly dotted edges enclose rusty colour down the diagonal; black and red blocks crowd its lower end.",
+      "uncertainty_note": "The final bend overlaps building symbols, but the approach and outgoing rusty strokes support continuity.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[556, 610], [579, 615], [610, 620], [640, 620], [673, 617], [700, 611], [725, 620]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04", "j09"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A rusty, dark-edged strip runs between rectangular symbols and beneath portions of the numerals and name lettering.",
+      "uncertainty_note": "Continuity is supported by matching strokes on both sides of the lettering. The eastern confluence may contain two nearby joins rather than one four-way point.",
+      "alternatives": [{"proposed_class": "unknown", "note": "Near u700–740, the north and southeast branches may meet this strip at separate nearby T junctions."}]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[556, 610], [572, 630], [583, 650], [585, 671]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Close dark strokes with brown infill curve southeast and then south through the lettering; matching pieces are visible above and below the letters.",
+      "uncertainty_note": "The course through the lettering is approximate, but the visible pieces support the connection.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[585, 671], [585, 699], [582, 722], [578, 737]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow brown band with dark broken edges continues south past several black and red rectangles.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[578, 737], [570, 767], [564, 791], [555, 816], [550, 834]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06", "j07"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A rusty paired strip curves southwest between small rectangles; its dark edges remain distinct from the adjoining blue-green polygon outlines.",
+      "uncertainty_note": "The short branches at its southern end are less secure than the main strip.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[550, 834], [542, 862], [540, 895], [540, 926], [539, 954]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07", "j08"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close dark edges enclose a rusty strip, nearly vertical below the rectangles and beside large lettering farther south.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[539, 954], [539, 978], [546, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The paired rusty strip continues downward and bends slightly right before leaving the face.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[161, 1000], [188, 992], [217, 981], [239, 965], [252, 944], [269, 920], [299, 898], [329, 875], [359, 853], [389, 829], [418, 802], [440, 774], [460, 745], [482, 720], [495, 719], [522, 731], [549, 740], [578, 737]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A sinuous tan-rust band has two narrow dark, partly dotted edges; black and red rectangles lie alongside it near both ends.",
+      "uncertainty_note": "A few short portions touch rectangle outlines, but visible edging on either side supports continuity.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[394, 1000], [426, 988], [456, 975], [482, 958], [510, 951], [539, 954]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown, dark-edged strip rises northeast from the bottom edge, passing under part of a large letter and beside a red rectangle.",
+      "uncertainty_note": "The paired form is less distinct beneath the letter; visible pieces support the reported course.",
+      "alternatives": [{"proposed_class": "unknown", "note": "Some edging may belong to the adjoining parcel margin."}]
+    },
+    {
+      "feature_id": "f18",
+      "waypoints_uv": [[550, 834], [536, 830], [520, 829]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short brown oblique stroke with dark marks runs west into closely packed black and red rectangular symbols.",
+      "uncertainty_note": "Its connection falls within the crowded branch area; the apparent endpoint is hidden by a rectangle.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "The visible stroke may be a short access path."},
+        {"proposed_class": "unknown", "note": "It may be symbol edging rather than an independent path, or may join slightly north of the eastern branch."}
+      ]
+    },
+    {
+      "feature_id": "f19",
+      "waypoints_uv": [[550, 834], [566, 825], [581, 811], [594, 793], [601, 775]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two fine dark strokes enclose a pale oblique strip east of the rusty main line; several angular black marks interrupt it.",
+      "uncertainty_note": "The paired strip may be a path or adjacent polygon edges. Its northeastern continuation becomes inseparable from lettering and angular outlines, so it stops there.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The pale interval may be the interior of a narrow access track."},
+        {"proposed_class": "unknown", "note": "These may be parcel outlines; the apparent join with the main track may instead be a close approach."}
+      ]
+    },
+    {
+      "feature_id": "f20",
+      "waypoints_uv": [[698, 0], [676, 25], [652, 44], [630, 61], [612, 83], [610, 103], [618, 127]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j11"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Close dark parallel strokes enclose a tan interval as the line bends southwest and then south; the strokes are heavier than the nearby long-dashed boundaries.",
+      "uncertainty_note": "Several other parallel outlines crowd the top-edge section, making its centre approximate.",
+      "alternatives": [{"proposed_class": "unknown", "note": "One of the adjacent strokes could be a separate parcel or water outline rather than road casing."}]
+    },
+    {
+      "feature_id": "f21",
+      "waypoints_uv": [[618, 127], [639, 142], [660, 132], [682, 114], [692, 85], [700, 53], [726, 31], [765, 12], [800, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j11"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Close dark strokes form a bend beside the hatched polygon and then run northeast around a peach area; portions have a pale tan interval.",
+      "uncertainty_note": "The paired appearance supports a possible track, but parts also resemble adjoining polygon outlines. The lower connection is approximate.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The closely spaced strokes may be continuous road edges."},
+        {"proposed_class": "unknown", "note": "This may be a combination of parcel and hatched-area outlines rather than a road branch."}
+      ]
+    },
+    {
+      "feature_id": "f22",
+      "waypoints_uv": [[618, 127], [633, 159], [655, 188], [671, 208], [675, 245], [689, 278], [692, 304], [686, 330], [681, 364], [680, 397], [674, 427], [673, 449], [685, 477]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j11", "j13"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A rusty winding strip has two dark broken edges about 7–10 px apart; long black boundary dashes cross it near its upper middle.",
+      "uncertainty_note": "The uppermost junction is crowded by closely spaced outlines; the lower winding section is clearer.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f23",
+      "waypoints_uv": [[685, 477], [713, 497], [744, 519], [767, 540], [772, 553], [760, 577], [740, 598], [725, 620]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j13", "j09"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The rusty paired band bends southeast and then southwest beside an oval enclosure containing circles and a heavy black cross.",
+      "uncertainty_note": "The final join is crowded by rectangular symbols and another rusty band; it may be slightly west of the reported junction centre.",
+      "alternatives": [{"proposed_class": "unknown", "note": "Its final arm may meet f10 at a separate T junction just west of j09."}]
+    },
+    {
+      "feature_id": "f24",
+      "waypoints_uv": [[725, 620], [756, 626], [785, 614], [817, 593], [840, 575], [869, 556], [908, 539], [950, 509], [977, 487], [1000, 470]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A tan-rust diagonal band lies between two dark edges, with broken marks in places; it passes along the lower side of the cross-bearing enclosure.",
+      "uncertainty_note": "The western confluence is crowded. A nearby blue outline is separate from the reported band.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f25",
+      "waypoints_uv": [[725, 620], [737, 644], [769, 666], [800, 679], [830, 690], [864, 704], [899, 716], [931, 728], [954, 747], [976, 771]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j09", "j10"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A rusty strip with close dark broken edging runs southeast past black rectangles and above the large lower lettering.",
+      "uncertainty_note": "The first connection may be a separate nearby join. Letter strokes obscure parts of the eastern approach, but matching rusty pieces support continuity.",
+      "alternatives": [{"proposed_class": "unknown", "note": "The western end may join f10 slightly west of the branch from f24, producing two nearby T junctions."}]
+    },
+    {
+      "feature_id": "f26",
+      "waypoints_uv": [[976, 771], [988, 778], [1000, 785]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short rusty, dark-edged continuation runs to the right edge among heavy letter strokes.",
+      "uncertainty_note": "The junction with the north–south paired line is uncertain because that line may be water or a parcel edge.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f27",
+      "waypoints_uv": [[986, 645], [983, 685], [977, 726], [976, 771]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Fine, closely spaced dark strokes descend near the right edge; their pale interior and colour are difficult to distinguish beneath lettering and blue-green wash.",
+      "uncertainty_note": "This is a possible road reading. The upper continuation is obscured, and the line may instead be water banks or a polygon edge.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "If the paired strokes are road edges, they form a narrow north–south branch."},
+        {"proposed_class": "unknown", "note": "They may be stream banks or adjacent parcel outlines, in which case j10 has only the two arms of the southeast road."}
+      ]
+    },
+    {
+      "feature_id": "f28",
+      "waypoints_uv": [[976, 771], [969, 805], [966, 842], [966, 877], [968, 915], [970, 953], [980, 983], [997, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two narrow dark strokes enclose a pale strip close to the right edge, bending southeast near the bottom; little definite rusty infill is visible.",
+      "uncertainty_note": "A narrow road and a banked water line are both supported by the paired drawing. The upper portion is partly hidden by lettering.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The paired strokes may be road casing continuous with f27."},
+        {"proposed_class": "unknown", "note": "The pale paired strip may be a watercourse rather than a road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [299, 446],
+      "branch_count": 3,
+      "evidence_note": "The rusty east–west paired band has a third close-edged rusty arm descending southeast."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [344, 437],
+      "branch_count": 3,
+      "evidence_note": "The brown paired strip from the north meets the similarly edged strip extending west and east."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [501, 453],
+      "branch_count": 3,
+      "evidence_note": "Rusty paired strokes extend west and south; a finer dark, partly broken paired arc extends northeast along a polygon margin."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [556, 610],
+      "branch_count": 3,
+      "evidence_note": "Brown close-edged strokes approach from the north and continue east and southeast between black and red rectangles."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [585, 671],
+      "branch_count": 3,
+      "evidence_note": "A horizontal rusty paired stroke from the west meets the close-edged north–south band beneath the lettering."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [578, 737],
+      "branch_count": 3,
+      "evidence_note": "The rusty north–south band receives a similarly dark-edged curved arm from the southwest beside rectangular symbols."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [550, 834],
+      "branch_count": 4,
+      "evidence_note": "The rusty band continues north and south; short brown marks to the west and pale paired oblique strokes to the east make a possible four-arm cluster within about 10 px."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [539, 954],
+      "branch_count": 3,
+      "evidence_note": "The rusty vertical paired band receives a close-edged oblique arm from the southwest beside a red rectangle."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [725, 620],
+      "branch_count": 4,
+      "evidence_note": "Rusty dark-edged arms converge from west, north, northeast and southeast among rectangular symbols; their overlap may contain two nearby T joins."
+    },
+    {
+      "junction_id": "j10",
+      "uv": [976, 771],
+      "branch_count": 4,
+      "evidence_note": "A rusty southeast-running paired strip intersects a finer pale north–south paired line beneath lettering; four road arms are conditional on the finer line being a road."
+    },
+    {
+      "junction_id": "j11",
+      "uv": [618, 127],
+      "branch_count": 3,
+      "evidence_note": "Close dark strokes from the north and south lie beside a paired bend extending northeast past the hatched polygon; the third arm is less distinct."
+    },
+    {
+      "junction_id": "j12",
+      "uv": [360, 606],
+      "branch_count": 3,
+      "evidence_note": "The diagonal rusty paired band continues in both directions, with a faint short brown-marked stroke west into rectangular symbols."
+    },
+    {
+      "junction_id": "j13",
+      "uv": [685, 477],
+      "branch_count": 3,
+      "evidence_note": "The rusty paired band bends from north to southeast; a finer paired stroke appears to reach it from the west along a polygon edge."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [592, 698, 674, 779],
+      "why": "Heavy lettering and overlapping angular outlines conceal the northeastern continuation of the possible fine path f19."
+    },
+    {
+      "bbox_uv": [940, 724, 1000, 817],
+      "why": "Heavy letter strokes conceal portions of the fine eastern paired line and its possible intersection with the rusty diagonal road."
+    }
+  ],
+  "overall_note": "Rusty bands with close dark broken edges provide the clearest road evidence; their symbol-form classification is less secure where the edges resolve into dots. Fine branches among rectangular symbols, the upper northeastern fork, and the eastern paired line retain non-road alternatives, with their junction counts conditional on those readings. The long pale-blue diagonal crossing the northwest was read as water banks rather than a road."
+}

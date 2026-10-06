@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0356_n6434",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The long straight NNE-SSW line from about (775,0) to (340,1000) is a pink/red colour band with a black dash-dot line drawn inside it. That is the Socken-/Hemmansgräns pattern with a hand-coloured boundary band. It runs dead straight across the wet meadow and fields, and several thin maroon property lines end on it, e.g. at (700,175), (600,420) and (435,770). That reads as an administrative boundary, not a road.",
+      "uncertainty_note": "The band has fairly crisp parallel edges, so a red-washed double-line road that a parish boundary follows cannot be fully excluded. A pale strip just east of the band might also be a road running beside the boundary. Best alternative: double_line_wide road along the boundary."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted black line with brown edging runs from the band crossing at about (598,400), east via (700,420) and (790,425), then rises to the cottage at about (870,390). The overlay follows it.",
+      "uncertainty_note": "The dotted symbol could be Gångstig or Sämre körväg; at this resolution I cannot tell single dots from double dots."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Beyond the cottage at (870,395), a dotted line continues east-south-east past the 'T.' and reaches the right edge at about v≈440.",
+      "uncertainty_note": "This segment is short and partly overlaps the cottage symbol and the 'Gillän' lettering."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line leaves f02 at about (790,425) and runs SW through (740,490) and (690,550) to the Ängatorp buildings at about (612,655). It is clearly visible between the fields.",
+      "uncertainty_note": "The last part near the house is hidden by the 'Ängatorp' lettering and the field patches."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From Ängatorp, a dotted line runs south through about (598,760), (585,860) and (565,940) to the bottom edge near u≈558. It crosses the maroon property line at about (570,900).",
+      "uncertainty_note": "The dots are faint between v≈700 and v≈760, where they pass the farm's small trees."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-right corner, a brownish line runs from about (800,1000) NE towards (960,840). It is close to the orange field edges and maroon property lines and passes under the 'Ängatorp' lettering.",
+      "uncertainty_note": "It may be a dotted track, but it may equally be a field (åker) edge; I cannot see a clear road symbol through the lettering."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the right edge near (960-1000, 800-860) there is only a short piece. The drawing there is a cluster of maroon property lines and the edge of a field or house patch.",
+      "uncertainty_note": "The piece is too short and too cluttered to tell a road from a boundary or field edge."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (190,980), at the bottom-left, there is only the dotted margin of the wet meadow, field patches and a 'T' house symbol. No continuous road symbol is visible.",
+      "uncertainty_note": "The dotted black line here most likely bounds the meadow/bog area, not a path, but this short fragment does not decide it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 388], [200, 388], [440, 388], [520, 384], [580, 382], [598, 400]],
+      "proposed_class": "single_line",
+      "junction_ids": ["J1"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin dark line with a brownish tint runs under 'Långared' at v≈388. It crosses the wet meadow, passing the small house at about (450,410), and meets the band exactly where f02 starts on the east side. It looks like the westward continuation of the f02 track towards Långared.",
+      "uncertainty_note": "West of u≈430 it is thin and dark and could be a property line, not a road. Only the part through the meadow shows a brown, track-like tint.",
+      "alternatives": ["property boundary (not a road) west of u≈430", "dashed_line path only between (440,388) and (598,400)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[870, 400], [855, 470], [845, 540], [855, 610], [880, 680], [920, 740], [960, 800]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["J2"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "From the cottage south of 't. Gillän', a dotted line runs south between the fields, east of the '2' field and west of the maroon boundary at u≈940, towards the lower right.",
+      "uncertainty_note": "Its southern end is lost among maroon property lines and the field patch near (960,820). It may join f06/f07 there.",
+      "alternatives": ["continues to join f06 near (960,840)", "dotted field edge rather than a path"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [598, 400],
+      "what_is_contested": "Whether the f02 dotted track and the m01 line actually cross the band as one route, and whether the band itself (f01) is a road, which would make this a four-way road junction.",
+      "evidence_note": "The western line arrives at about v≈382 and the eastern dotted track leaves at v≈400. The small offset and the band crossing make continuity uncertain."
+    },
+    {
+      "uv": [870, 395],
+      "what_is_contested": "The number of branches at the cottage: f02 from the west, f03 to the east and the unshown m02 to the south.",
+      "evidence_note": "The cottage symbol and the 'T.' lettering cover the meeting point, so the exact topology cannot be seen."
+    },
+    {
+      "uv": [790, 425],
+      "what_is_contested": "Where f04 branches off f02, and whether it joins f02 or ends at the maroon property line just south of it.",
+      "evidence_note": "The maroon boundary from (600,425) to (945,550) runs close by, and the dots are sparse at the branch point."
+    }
+  ],
+  "overall_note": "The dotted tracks f02-f05 are clearly drawn and I agree with them. I read the straight pink band with a dash-dot line (f01) as a coloured parish/property boundary, not a road, though a road along the boundary is the main alternative. The overlay misses a probable westward continuation towards Långared (m01) and a dotted track running south from the Gillän cottage (m02)."
+}

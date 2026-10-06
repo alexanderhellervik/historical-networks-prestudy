@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0353_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,279],[27,275],[64,262],[96,245],[134,229],[171,216],[208,198],[244,183],[276,168],[300,153],[334,139]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre-brown strip with closely spaced dark marks along its margins curves above several blue, horizontally hatched patches; the margins are only a few pixels apart.",
+      "uncertainty_note": "The two margins merge locally at this resolution, so a single dotted stroke is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a single dotted road or path symbol whose individual marks have spread into a brown stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[334,139],[359,132],[382,122],[404,109],[428,94]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "The narrow brown strip and small dark marginal marks continue northeast from the junction, then become entangled with large black lettering.",
+      "uncertainty_note": "The course cannot be followed confidently beneath the lettering and adjacent hatching; no connection to f06 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The visible marks could represent one dotted stroke rather than two distinct margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[334,139],[340,158],[345,181],[345,207],[338,232],[329,256],[330,279],[338,303],[351,330],[367,355],[378,379],[377,393],[365,416],[345,443]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A thin, winding brown-dark line made of close dots or short strokes connects the two wider brown courses; a second parallel margin is not consistently visible.",
+      "uncertainty_note": "This resembles the example's narrow path marks, but the nearby pale vertical paper crease reduces clarity. A property line remains a weaker alternative.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A single dotted path stroke may explain the visible line."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some marks appear elongated enough to be short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively a winding property boundary rather than a road or path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,505],[27,502],[61,491],[104,474],[144,461],[178,453],[207,449],[235,450],[261,460],[285,465],[312,457],[345,443]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow brown strip with irregular dark dotted margins runs eastward, passing through a small black oval near the left edge and above blue horizontal hatching.",
+      "uncertainty_note": "The oval interrupts a short section, but the aligned drawing on both sides supports carrying the course through. Separate margins are indistinct in places.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be one thickened dotted road or path stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[345,443],[381,439],[424,435],[465,428],[503,419],[543,407],[580,404],[619,403],[645,396],[670,383],[697,362],[718,352],[741,351],[762,360],[782,380],[797,409],[807,445],[820,470],[838,482],[860,480],[879,473],[897,476],[913,494],[928,510],[950,520],[978,533],[1000,535]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "The ochre-brown strip has close dark marginal marks and several pronounced bends; it crosses a thinner dark line connected to blue water outlines near [918,501].",
+      "uncertainty_note": "The narrow margins frequently merge. The thin water-connected line at the eastern crossing is read as a stream, so that crossing is not counted as a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A single dotted road or path stroke is possible where the two margins cannot be resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[759,106],[785,114],[813,119],[836,127],[861,126],[881,119],[895,121],[905,130]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short brown strip with small dark edge marks emerges beside dense blue-black hatching and continues east to a heavy blue water outline.",
+      "uncertainty_note": "Its western continuation is hidden by hatching and lettering. At the eastern end it merges with the water outline; no separately visible onward road is traced.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment could be a single dotted stroke; a boundary or coloured edge interpretation is also possible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [334,139],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the narrow brown course meet a thinner, dark-marked southward branch, forming a T beside a pale vertical crease; the third branch is conditional on f03 being a path."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [345,443],
+      "branch_count": 3,
+      "evidence_note": "The thin winding line reaches the brown east-west strip, with visible brown arms extending left and right; the third branch is conditional on f03 being a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [420,38,771,144],
+      "why": "Large black lettering overlaps dense blue-black hatching, preventing a reliable trace of any continuation between f02 and f06."
+    }
+  ],
+  "overall_note": "The principal difficulty is distinguishing closely spaced dotted margins from a single dotted stroke. The upper fragments are kept separate where lettering and hatching obscure their courses. Long black diagonal dashes, blue water-connected lines, and the thin nearly straight line across the bottom are read as non-road marks."
+}

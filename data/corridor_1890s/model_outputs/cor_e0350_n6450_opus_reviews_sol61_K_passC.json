@@ -1,0 +1,165 @@
+{
+  "tile_id": "cor_e0350_n6450",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Polyline follows the broad dark-cased double line with purple-brown fill from the bottom edge (~45,1000) up through (78,860), (200,720), (290,655) to the fork at ~(385,612); this is the widest road symbol on the tile (Landsväg/Bygdeväg type).",
+      "uncertainty_note": "Course and class are clear; only the exact split point with f03 at ~(370-385,615) is arbitrary."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown thin double line runs from the left edge at ~(0,722) diagonally to (65,780), then south to the main road at ~(78,860); same red-brown style as the f04 road.",
+      "uncertainty_note": "It runs along a field edge, so a red-tinted boundary cannot be fully excluded; a separate dark single line just south of it (0,780)-(75,810) is a field boundary, not this feature."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows the same broad double-line main road east from ~(385,612) through (600,555), (700,520), (790,512), (900,535) to the right edge at ~(1000,490).",
+      "uncertainty_note": "Near the village at the right edge (940-1000,520-560) buildings crowd the road, but the casing is continuous."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown narrow double line leaves the main road at ~(388,608) and runs NNE through (430,500), (465,430), (505,355), (560,300) to ~(590,265); the overlay line sits within ~10 px of it.",
+      "uncertainty_note": "Class (narrow double vs. single) is a judgement at this resolution; course is clear."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same red-brown double line continues from ~(590,265) via (620,225), (750,165) to the corner at ~(905,95), running along the field edge.",
+      "uncertainty_note": "Along a field edge for its whole length, but its continuity with f04 supports reading it as road."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown double band runs from the corner at ~(905,95) NNW to the top edge at ~(848,0), matching the f05 symbol.",
+      "uncertainty_note": "Short segment along a field boundary; a red boundary reading is possible but less likely given the continuity with f05."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line from ~(445,0) to ~(585,270) is a thin, straight, dark blue-grey single line cutting across fields without the red-brown road colour; it reads as a boundary or ditch line, like the blue lines in the worked example.",
+      "uncertainty_note": "If f08 is a road it would need some continuation at (480,70), and this line is the only candidate; I still see no road symbol along it."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line does run from ~(482,72) to the top edge at ~(600,0) along the top edge of a field, similar in colour to f05.",
+      "uncertainty_note": "Its western end stops at the dark f07 line with no road continuation, so it may be a red-tinted field/property boundary rather than a road; the drawing does not decide."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of bold black dots runs from the top edge at ~(290,0) through (312,60), (332,110) to the Svinebotten croft at ~(345,155); it is dotted (Gångstig-type), not a continuous line.",
+      "uncertainty_note": "Dotted lines also outline land-cover areas on this sheet, but this one goes from the edge to a croft through woodland, which fits a footpath. If the overlay already classes it as a dotted/dashed path, read this as agree."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Bold dots run from ~(345,218) past plot 43 to (430,240), (450,300) and down near plot 44 to ~(442,385); further south the dotted line runs down the west side of the green meadow patch (380,480)-(360,560)-(380,608).",
+      "uncertainty_note": "The upper part (43 to 44) could be a footpath, but the lower part matches the dotted outline the legend uses for meadow (äng) areas, and there is a gap between ~(442,385) and ~(400,465). It may be a path, an area outline, or a path for the upper half only."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There are dotted lines at the left: an arc from ~(0,625) through (40,618) to (85,650), and a dotted line from ~(100,700) via (112,745) to (160,768) near the main road. The overlay roughly follows these.",
+      "uncertainty_note": "The dots look like the edge of an enclosed area around Hasselliden and are broken between (85,650) and (100,700); they may be an area boundary rather than a path."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line runs from the right edge at ~(1000,250) down through (985,300), (970,400), (955,480) to the main road at ~(950,520), in the same colour as f13 on the other side of the road.",
+      "uncertainty_note": "It is thin and runs along a field edge; a red boundary (like the crimson boundary lines in the worked example) is possible. Its alignment with f13 across the main road supports a road."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown double line with pink fill leaves the main road near ~(945,560) and runs SSW through (905,640), (865,715) to ~(828,790), where it meets the field boundary; the overlay is within ~20 px of it.",
+      "uncertainty_note": "The overlay's southern end (~800,790) is slightly west of the drawn line (~828,790); where the line ends or continues beyond the field corner is unclear."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along (510,1000)-(610,915)-(720,830)-(780,805) there is only a faint grey, uncoloured double band, like the pale shaded margins that edge land-cover areas elsewhere on the tile (e.g. south of Lugnet B). There is no red-brown road colour and no dots.",
+      "uncertainty_note": "An uncoloured double line could be a minor road drawn without colour, but similar grey bands elsewhere on the tile clearly mark area edges; I lean towards not a road."
+    },
+    {
+      "reviewed_feature_id": "f15",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The f15 label sits at ~(140,18), but I cannot see a distinct overlay polyline there. Under it are only dark field-edge lines and a faint short dashed line near (115,50)-(165,38).",
+      "uncertainty_note": "I cannot tell which line the feature is meant to follow, so I cannot judge it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[905, 97], [950, 100], [1000, 108]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j_905_95"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A row of bold black dots continues east from the f05/f06 corner at ~(905,97) to the right edge, the same dot style as the f09 path.",
+      "uncertainty_note": "It may be the dotted outline of a meadow area rather than a footpath; it starts at a road junction, which favours a path.",
+      "alternatives": ["area (äng) outline, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [388, 610],
+      "what_is_contested": "Whether three or four lines meet: main road (f01/f03) and f04 certainly; the f10 dotted line also ends here but may only be a meadow outline.",
+      "evidence_note": "The dotted line along the west side of the green meadow reaches the main road just west of where f04 leaves it."
+    },
+    {
+      "uv": [590, 265],
+      "what_is_contested": "Whether this is a junction or just a bend in the f04/f05 road: the dark f07 line meets here but does not look like a road.",
+      "evidence_note": "The red-brown double line bends here; the straight dark blue-grey line from the top edge touches it without any road colour."
+    },
+    {
+      "uv": [905, 97],
+      "what_is_contested": "Whether this is a two-way bend (f05 to f06) or a three-way junction with the dotted line running east (m01).",
+      "evidence_note": "The red-brown lines turn at the field corner, and bold dots start at the same point and run east."
+    },
+    {
+      "uv": [950, 535],
+      "what_is_contested": "Whether f12 and f13 meet the main road as one crossroads or as two offset T-junctions (f12 at ~(950,518), f13 at ~(945,560)); the village buildings blur the exact positions.",
+      "evidence_note": "Both red-brown lines approach the main road at nearly the same u, but the road's width and the buildings at (940-1000,530-600) hide the meeting points."
+    },
+    {
+      "uv": [482, 72],
+      "what_is_contested": "Whether f08 dead-ends here or continues along the f07 line, and so whether f08 is a road at all.",
+      "evidence_note": "The red-brown line stops where it meets the thin dark diagonal line, with no red-brown continuation."
+    }
+  ],
+  "overall_note": "The main road (broad double line) and the red-brown narrow road from it to the NNE (f04-f05-f06), plus f02, f12 and f13, are well supported. The straight dark diagonal f07 does not look like a road, and the dotted features (f09, f10, f11, m01) are hard to tell apart from the dotted outlines of meadow areas. f14 follows only a faint uncoloured band, and I could not find f15's polyline."
+}

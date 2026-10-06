@@ -1,0 +1,127 @@
+{
+  "tile_id": "cor_e0360_n6451",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the left edge, around v≈760 from u=0 to u≈95, a brownish-red line enters the village cluster. It has the same brown tone as the Kroken road, so it reads as the road continuing west out of the village. The crimson line at v≈795 just below it is the boundary.",
+      "uncertainty_note": "The segment is short, and its link through the houses to f02 at about (100–170, 760–780) is not clearly drawn. Its colour lies between the road brown and the boundary crimson."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the main brown double line with dots inside, the same symbol as the Sämre körväg in the example. It runs from near (830,30) past house 6 (~780,100), down through the T crofts (~730,240), then SW (600,320)–(450,460) to 2B (~390,520), then S/SW past G (370,620) to (290,715) and (180,770) at the village. The overlay polyline follows it closely.",
+      "uncertainty_note": "Its northern end near (830,30) may continue to the thick red-black band at the top edge; that is not clear. Its western end inside the village is also not clear."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted double line runs SE from the T crofts (~735,235) through (800,320) and (880,440), then bends at ~(910,470) and runs E to the edge at ~(1000,465). It is labelled 'till Knit telås', which names a road destination. Same symbol as f02.",
+      "uncertainty_note": "Where it leaves f02 near the T crofts is not certain; see contested junctions."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short thin brown line leaves the main road at ~(368,625) and runs SE to the red house G at ~(400,655). It is a farm access spur.",
+      "uncertainty_note": "It is very short, so the class is uncertain. It could be a path (Gångstig-like) or just the edge of the house plot."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the long crimson line running from the top-left (~20,100) down through (90,380) and (140,620) to the village. It is a solid crimson line with no brown road colour and no double-line or dotted road symbol. That is the boundary colouring used on this sheet and in the example.",
+      "uncertainty_note": "Low. A road running alongside the boundary cannot be fully excluded, but no second line is visible."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "South of the village, the polyline follows the crimson line from about (180,860) to (220,1000). That line is part of the crimson boundary that loops from the left edge at v≈795 around the village. A black field edge also runs beside it. Neither carries road colouring.",
+      "uncertainty_note": "Moderate. Near u≈200–215, v≈900–1000 a black line and a crimson line run close together, which could be read as a narrow uncoloured double line (a road heading south from the village). At this resolution I cannot rule that out."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (515,625) down to (565,780), the polyline follows the blue line, which is a stream or ditch. It then follows the black jagged outline of the pink Kroken infield, through (430,815), (340,855) and (270,840). These are a watercourse and a field edge, not road symbols.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the crimson line on the north side of the stream valley, from top-left (~25,115) through (190,260) and (300,270) to ~(620,175). It is a solid crimson boundary line and has no brown road fill or dots.",
+      "uncertainty_note": "Low to moderate. Its eastern part runs toward the main road at ~(740,175), which could suggest a lane. Even so, the drawing there is crimson, not brown."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From ~(150,640) NE to ~(270,555), the polyline follows the black outline of a narrow white tongue along the NW edge of the pink infield. That is a land-use or field outline (black, uncoloured) of the kind the example treats as non-road.",
+      "uncertainty_note": "Moderate. The two parallel black lines with white between them could also be read as an uncoloured narrow double-line lane leading NE from the village."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[800, 0], [900, 15], [1000, 38]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A thick red-and-black band crosses the very top-right corner. f02 ends just below it, near (830,30).",
+      "uncertainty_note": "Only a sliver is on the tile. It could be a railway (järnväg symbol) rather than a road, or a major boundary, so it may not be a road at all.",
+      "alternatives": ["railway, not a road", "double_line_wide (Landsväg)", "boundary band"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[745, 150], [600, 128], [450, 105], [300, 85], [150, 62], [30, 45]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A long straight line runs WNW from house 6 / the main road (~745,150) toward the top-left. In its eastern part it looks like a crimson line with a paler parallel line just below it, forming a narrow band.",
+      "uncertainty_note": "Low confidence. The dominant colour is crimson, so this is most likely just a boundary. I include it only because the paired lines might be an uncoloured double-line track.",
+      "alternatives": ["boundary only (not a road)", "double_line_narrow"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[0, 870], [40, 845], [85, 815]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "At the lower-left, a fine reddish dotted line runs from the left edge toward the village at ~(85,815). A dotted single line matches the Gångstig symbol.",
+      "uncertainty_note": "It is faint and short. It could instead be a dash-dot boundary (Hemmansgräns-type) symbol.",
+      "alternatives": ["boundary (hemmansgräns)", "single_line footpath"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [130, 775],
+      "what_is_contested": "Whether f02 and f01 actually join inside the village, and whether a branch leaves south (f06 / m03).",
+      "evidence_note": "The houses and crimson boundary lines crowd this spot. The brown road line becomes indistinct between u≈95 and u≈170."
+    },
+    {
+      "uv": [735, 235],
+      "what_is_contested": "Where f03 leaves f02: at the T crofts (~735,235) or farther north near (750,180).",
+      "evidence_note": "The buildings, the T lettering and a crimson boundary all lie where the two brown dotted lines diverge."
+    },
+    {
+      "uv": [830, 30],
+      "what_is_contested": "Whether f02 continues to the top edge and joins the red-black band (m01), or stops short of it.",
+      "evidence_note": "The brown road line fades just below the band at the top edge."
+    }
+  ],
+  "overall_note": "Clear roads: the brown dotted double line through Kroken (f02), its SE branch toward Knutteläs (f03), the short spur to G (f04), and probably the westward exit f01. Most of the other overlay features (f05–f09) trace crimson boundaries, a blue stream or black field outlines rather than road symbols. The village knot at the lower left and the top-right band are the main unresolved areas."
+}

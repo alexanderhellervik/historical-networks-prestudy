@@ -1,0 +1,74 @@
+{
+  "tile_id": "cor_e0367_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[557,151],[538,195],[519,240],[499,285],[479,330],[459,374],[440,419],[420,464],[400,510],[379,555],[359,600],[339,645],[319,690],[299,735],[280,780],[268,813],[273,847],[280,885],[285,923],[294,961],[305,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A narrow pale strip with thin grey bordering strokes follows the west side of a heavier red-black line. Below its angular red intersection near v=810, pale and dark strokes continue south; their spacing and continuity vary.",
+      "uncertainty_note": "The apparent paired strokes may represent a narrow track beside a boundary, but the boundary itself could account for the drawing. The upper end disappears into the broad red-black diagonal; a road connection there is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the pale strip and its grey margins are independent of the adjacent boundary, they resemble a narrow paired-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: boundary strokes, colour spread and adjacent hatching could produce the apparent strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[359,874],[384,843],[410,810],[436,776],[462,743],[489,709],[513,675],[536,644],[550,622]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A very faint buff-grey diagonal band crosses the pale area. Portions show two approximately parallel thin edges, several pixels apart, without heavy casing or accompanying tree symbols.",
+      "uncertainty_note": "Both ends fade rather than terminate clearly. The weak edges do not securely distinguish a track from a paper mark or another mapped line; no connection to f01 or f03 is carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally paired thin edges could be a narrow track whose ink is faint."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: a faint boundary, crease or discolouration rather than a transport symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[650,488],[667,461],[685,432],[704,402],[724,369],[743,337],[761,307],[778,279],[796,254]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Weak grey, intermittently separated strokes run diagonally through the horizontal hatching. They are substantially lighter than the black dashed divisions and lack a consistently visible casing.",
+      "uncertainty_note": "Hatching makes the exact course and number of strokes uncertain. This could continue the faint lower diagonal, but the intervening drawing does not establish that connection; neither endpoint is a demonstrated dead end.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the intermittent grey marks belong to one independent line, a broken path symbol is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: a faint division line or irregularities in the hatch printing."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [545,126,578,168],
+      "why": "The broad red-black diagonal masks the upper end of the adjacent pale candidate; a connection or crossing cannot be resolved."
+    },
+    {
+      "bbox_uv": [530,480,680,635],
+      "why": "Faint diagonal marks merge with dense horizontal hatching and blue outlines, preventing a secure connection between the upper and lower candidate traces."
+    }
+  ],
+  "overall_note": "The broad upper red diagonal, with repeated heavy black blocks, is read as railway rather than road. Thin red divisions and long black dashed lines are read as boundaries. The reported pale traces are uncertain road candidates, and no junction of three road branches is securely visible."
+}

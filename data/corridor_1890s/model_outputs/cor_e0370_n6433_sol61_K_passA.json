@@ -1,0 +1,101 @@
+{
+  "tile_id": "cor_e0370_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,500],[35,491],[73,476],[112,457],[151,438],[192,421],[234,406],[275,387],[313,363],[347,334],[380,300],[412,266],[440,232],[464,201],[480,167],[493,132],[505,94],[516,53],[530,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark margins roughly 12–18 px apart enclose a broad brown-orange band; small rectangular building symbols sit beside its upper section.",
+      "uncertainty_note": "The course remains visible through the nearby lettering and building symbols.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[104,0],[119,23],[132,54],[140,88],[149,121],[163,153],[188,167],[218,180],[244,193],[270,211],[289,219],[322,223],[360,227],[401,232],[440,232]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Closely spaced black dots follow a slender ochre-brown stroke; a second continuous margin is not consistently distinguishable.",
+      "uncertainty_note": "The line looks like a dotted path, but its precise symbol form is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated black dots may constitute the principal discontinuous road symbol."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The brown stroke may be a narrow band with one faint continuous edge and one dotted edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[73,476],[73,510],[75,548],[100,564],[131,582],[158,598],[176,609],[153,637],[126,670],[101,704],[78,739],[57,773],[32,808],[0,841]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow brown-orange band has close dark margins, one partly composed of short marks or dots; it turns sharply at approximately [176,609].",
+      "uncertainty_note": "The margins become faint along the southwestern diagonal, making their separation less certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve only as a brown stroke accompanied by dark dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[937,0],[922,42],[911,83],[897,125],[883,169],[868,214],[853,258],[838,301],[819,327],[810,367],[797,410],[786,444],[785,461],[793,500],[802,541],[812,583],[821,626],[833,668],[844,711],[856,754],[869,798],[881,842],[893,886],[905,930],[916,973],[923,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A brown-orange strip roughly 8–12 px wide is bordered by dark lines, with conspicuous small dark marks along one margin; it bends beside outlined enclosures.",
+      "uncertainty_note": "The uppermost stretch overlaps lettering, but matching margins remain visible on both sides. The dotted margin is clearer than the other margin in several stretches.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Where the second margin fades, the symbol could be read as a coloured line with adjacent dots rather than a clearly paired road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[819,327],[851,345],[888,364],[925,383],[963,400],[1000,417]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A slender orange-brown diagonal has a continuous dark upper edge and a closely parallel lower edge with repeated dark marks.",
+      "uncertainty_note": "The lower dotted edge is more distinct than the upper casing, so the paired-line classification is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary with adjacent dark marks remains an alternative reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [73,476],
+      "branch_count": 3,
+      "evidence_note": "The broad, dark-cased brown band continues in two directions; a narrower brown band joins its southern margin and turns downward."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [440,232],
+      "branch_count": 3,
+      "evidence_note": "The broad paired margins continue northeast and southwest; the ochre stroke with black dots reaches their western side."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [819,327],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown strip continues north and south, while a similarly coloured, closely edged diagonal joins from the southeast; the third road branch depends on the tentative reading of f05."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Faint continuous edges beside dotted brown strokes make the narrower symbol classes uncertain. The thin red line across the lower half, long dash-and-dot lines, blue water lines, and black enclosure outlines were read as non-road lines."
+}

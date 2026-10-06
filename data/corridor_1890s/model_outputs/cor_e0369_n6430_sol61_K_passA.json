@@ -1,0 +1,113 @@
+{
+  "tile_id": "cor_e0369_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[299, 0], [315, 24], [334, 46], [377, 47], [420, 43], [468, 34], [514, 24], [560, 13], [605, 3], [627, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre band curves between two dark, closely spaced, dotted margins, approximately 5–8 px apart.",
+      "uncertainty_note": "Some individual margin dots merge at this resolution.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[551, 1000], [580, 971], [610, 940], [635, 911], [655, 884], [659, 866]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An ochre strip with reddish colouring has dark, closely spaced margins; small dark marks remain visible along its edges.",
+      "uncertainty_note": "Red colouring partly merges with the margins near the northern endpoint.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[659, 866], [654, 835], [649, 800], [647, 765], [649, 734], [655, 708], [664, 695], [701, 707], [742, 721], [780, 734], [817, 749], [850, 764]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two dark dotted margins enclose an ochre strip about 6–10 px wide, turning sharply near [664,695]; black lettering overlaps the eastern stretch.",
+      "uncertainty_note": "The ochre strip is identifiable on both sides of the smaller lettering, but its eastern end becomes inseparable from the large lettering and red rectangular symbol. It may connect to f04.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possibly continues through the obscured area to f04, forming one curved road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[861, 790], [855, 806]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A short reddish trace with a dark adjacent edge runs downward from beneath the black lettering to the ochre curve.",
+      "uncertainty_note": "Too little unobscured drawing survives to distinguish a road margin from the thin red boundary passing through the same area. Connection to f03 is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Could be the obscured northern continuation of f06 and connect to f03."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be only a boundary; under that reading this is not a road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[659, 866], [687, 851], [719, 836], [744, 825], [779, 815], [818, 808], [855, 806]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A thin continuous red-brown stroke curves between the ochre routes, with an adjacent dark trace; distinct paired dotted margins are not consistently resolved.",
+      "uncertainty_note": "This may be a narrow connecting track, a property boundary, or a road sharing a boundary. The two reported junctions depend partly on treating this line as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A single-stroke track is a possible reading of the continuous curved line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The adjacent dark trace could be a second road margin."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a property boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[855, 806], [850, 833], [839, 855], [823, 879], [814, 907], [811, 940], [812, 974], [814, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre curve has dark dotted edging on both sides, roughly 6–9 px apart; it passes beside black polygon outlines.",
+      "uncertainty_note": "Its upper end overlaps the red line followed by f05; the dotted road margins become clearer farther south.",
+      "alternatives": []
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [659, 866],
+      "branch_count": 3,
+      "evidence_note": "The ochre strip approaching from the southwest meets an ochre, dotted-margin branch running upward and a thinner red-brown branch curving northeast. Three road branches are provisional because the northeast stroke, f05, may be a boundary."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [855, 806],
+      "branch_count": 3,
+      "evidence_note": "The thin red-brown line from the west meets the dotted-margin ochre curve running south and a short reddish trace running north beneath lettering. Three road branches are provisional because f04 and f05 have boundary alternatives."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [849, 760, 892, 803],
+      "why": "Large black lettering, a red rectangular symbol and overlapping red and dark strokes prevent a confident separation or connection of the possible road margins."
+    }
+  ],
+  "overall_note": "The main difficulty is distinguishing the thin red-brown connector from a boundary and resolving the routes beneath the lower-right lettering. Junction counts include the doubtful branches and are conditional on their road interpretation. Red dashes through the blue channel, the strongly coloured channel-edge lines and the other thin parcel lines are read as boundaries or non-road outlines."
+}

@@ -1,0 +1,59 @@
+{
+  "tile_id": "cor_e0360_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 392], [9, 400], [32, 414], [58, 429], [86, 441], [112, 447], [139, 440], [162, 433], [180, 432], [201, 440], [224, 454], [251, 468], [277, 483], [304, 498], [331, 513], [358, 525], [386, 535], [414, 540], [442, 541], [470, 549], [496, 553], [522, 564], [546, 573], [573, 584], [600, 590], [625, 591], [650, 586], [675, 577], [698, 567], [723, 559], [749, 555], [772, 559], [795, 570], [821, 585], [846, 598], [872, 608], [900, 615], [926, 616], [951, 609], [975, 604], [988, 608], [1000, 616]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-red winding stroke carries closely spaced dark dots and short marks. Two close margins are suggested in the western portion; farther east, a prominent dotted margin accompanies a thin reddish line. No clearly resolved avenue-tree loops accompany it.",
+      "uncertainty_note": "The course is clear, but the dark marks merge enough to obscure whether the symbol has one dotted line or two margins. The possible western junction j01 depends on interpreting f03 as a path.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre strip and dark marks may represent two narrowly separated, partly dotted margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the repeated dark marks constitute the principal line, the symbol can instead be read as a dotted or broken-line track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[769, 1000], [810, 989], [855, 978], [900, 967], [950, 954], [1000, 943]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous, approximately parallel margins enclose a pale ochre band roughly 15–22 pixels wide: the upper margin is strong reddish-purple, while the lower margin is thinner and dark.",
+      "uncertainty_note": "The lower margin is faint locally, so the reported centerline and bottom-edge intersection are approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 363], [10, 359], [18, 363], [17, 371], [11, 383], [6, 392], [9, 400]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short hooked ochre-red mark has a heavy, irregular dark edge beside cropped dark marks at the left border; its lower end appears to touch the winding dotted stroke.",
+      "uncertainty_note": "This is a doubtful path candidate. The cropped marks could instead outline a small coloured enclosure or another symbol; both its course and its apparent contact with f01 are poorly resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: a cropped enclosure or symbol outline. Under this reading, omit f03 and j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [9, 400],
+      "branch_count": 3,
+      "evidence_note": "The ochre line with dark dots continues west and east, while the short hooked dark-edged mark approaches from above. Three branches are apparent only if the doubtful f03 mark is a path; merged ink prevents confirming the junction."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main difficulties are distinguishing one dotted line from paired margins and interpreting the small cropped hook at the western edge. Junction j01 is conditional on that hook being a path. The long oblique broken black lines and winding blue-green lines were read as boundaries and water-line symbols."
+}

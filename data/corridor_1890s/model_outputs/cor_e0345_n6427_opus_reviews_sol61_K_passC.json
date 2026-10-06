@@ -1,0 +1,132 @@
+{
+  "tile_id": "cor_e0345_n6427",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the extreme top-left corner (about u 0-20, v 0-30) there is only a short thin grey-green stroke cut by the tile edge. It has the same tone as the stream line further down the left edge and carries no red-brown road colour.",
+      "uncertainty_note": "The stroke is too short to identify. It is more likely a stream or boundary than a road, but the tile does not decide."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line with a black dotted edge runs along the very top edge from about u 225 to u 330 (v 0-5). It has the same drawing as the road that re-enters at u 590 (f03).",
+      "uncertainty_note": "The line is mostly clipped by the tile edge, so only a sliver is visible. It is probably the same road as f03, leaving and re-entering the tile. The symbol form could be read as single_line with a dotted margin."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous red-brown line with a parallel black dotted line enters at about (590,0), arcs through (700,30), (790,80) and (840,140), then bends back to (810,225) below 'Ejsdalen'. This matches the brown-with-black road drawing that the neighbouring-sheet example reads as Sämre körväg.",
+      "uncertainty_note": "The course is clear. The class is between double_line_narrow and single_line. It is unclear whether the overlay continues f03 past the bend at about (810,225) into either of the two branches that leave from there."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the 'St R..' farm label, a red-brown line edged in black runs from about (830,690) through (880,685) and (940,645) to the east edge at about (1000,620).",
+      "uncertainty_note": "Its western end merges with the farm's field outline and the house symbols near (790-830, 640-690), so the exact end point is unclear."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line runs from about (200,605) down-left through (150,670) and (90,740), then down through (80,800) and (85,900) to the bottom edge at about (100,1000). The neighbouring-sheet example reads this colour and weight as a Gångstig, not a boundary; boundaries there are pink-crimson or black dashed.",
+      "uncertainty_note": "It stops abruptly at (200,605), where a pale, worn or patched band of paper begins, so its northern continuation is lost. A thin brown boundary cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along the bottom, a brownish line with a black dotted edge runs from about (430,1000) through (550,975), (640,945) and (710,925) towards the Ryd buildings at about (820,940).",
+      "uncertainty_note": "Near u 520-560 it runs close to the green stream line, and near its east end it runs along field outlines, so the eastern end is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between about (800,1000) and (830,945) there are black field and enclosure outlines of the Ryd fields and buildings. No distinct red-brown road line separates from them.",
+      "uncertainty_note": "This could be a short farm road leaving Ryd southwards, but it could also be a field edge. The drawing at this resolution does not decide."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line runs north-east from the Ryd buildings at about (840,930) through (900,880) to about (945,850), along the north side of the Ryd field.",
+      "uncertainty_note": "It may continue east to the edge at about (1000,860), beyond where the overlay stops. Part of it may be a coloured field boundary rather than a road."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (828-845, 935-945) there is a small red-filled house symbol and building outline at Ryd, not a line.",
+      "uncertainty_note": "This is a very short feature. If it is meant as a junction stub joining f06, f07 and f08, it is redundant rather than wrong."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[832, 255], [880, 290], [915, 330], [935, 380], [935, 440], [920, 475]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "From the bend of the top road below 'Ejsdalen', a brownish line with fine black dots runs south-south-east to the north edge of the St R.. farm fields at about (920,475). Its tone and dotting match the top road, not the black dashed boundary lines.",
+      "uncertainty_note": "The line is thinner than f03. It could be a dotted field or meadow boundary, like the dotted outline round Brunnsjön, rather than a road.",
+      "alternatives": ["dotted meadow or field boundary (ägoslagsgräns)", "single_line Gångstig"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[832, 255], [880, 235], [940, 210], [1000, 185]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "From the same bend, a red-brown line with a black dotted edge continues north-east under the 'Ejsdalen' lettering to the east edge at about (1000,185).",
+      "uncertainty_note": "The lettering overprints part of the line. I could not tell whether the overlay's f03 already includes this branch.",
+      "alternatives": ["part of f03, continuing east", "property boundary drawn in brown"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[232, 0], [238, 200], [242, 350], [246, 480]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint, perfectly straight pale double stroke runs south from the top edge near u 232 to about v 480, where it disappears into the pale band.",
+      "uncertainty_note": "Its straightness and lack of colour suggest a paper join, fold or pencil construction line, not a road. It is listed only because it is a long linear trace.",
+      "alternatives": ["not a road: paper join or construction line", "faded boundary"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [830, 252],
+      "what_is_contested": "Number of branches and which lines meet: the top road (f03) bends here, with a NE branch (m02) to the east edge and a dotted SSE line (m01) towards St R... It is unclear whether this is a three-way junction or a road bend with an unrelated dotted boundary.",
+      "evidence_note": "The red-brown and black-dotted strokes converge just below the 'Ejsdalen' lettering, but the dotted SSE line has a different weight."
+    },
+    {
+      "uv": [835, 940],
+      "what_is_contested": "Number of branches at Ryd: f06 from the west, f08 to the north-east, the possible southern stub f07, and f09, which sits on a house symbol.",
+      "evidence_note": "Buildings, field outlines and red-brown lines crowd together around the Ryd label, so the road branches cannot be separated with confidence."
+    },
+    {
+      "uv": [200, 605],
+      "what_is_contested": "Whether f05 ends here or continued north or north-east and connected to another road.",
+      "evidence_note": "The line breaks exactly where the pale worn or patched band of paper begins, so the gap may be damage rather than a real road end."
+    },
+    {
+      "uv": [920, 475],
+      "what_is_contested": "Whether m01 meets the St R.. farm road network or only touches the field outline and the dash-dot boundary that runs east from (780,460).",
+      "evidence_note": "The dotted line reaches the edge of the farm field outline at a point where a dash-dot boundary also passes."
+    }
+  ],
+  "overall_note": "Roads on this tile are red-brown lines, often edged in black dots, as in the neighbouring-sheet example. The black dashed and dash-dot lines around St R.. read as boundaries, not roads. The main doubts are the branching below Ejsdalen, the crowded Ryd junction, and the left-hand path broken by paper damage."
+}

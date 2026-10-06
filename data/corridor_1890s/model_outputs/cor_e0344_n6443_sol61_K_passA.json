@@ -1,0 +1,64 @@
+{
+  "tile_id": "cor_e0344_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[794, 180], [802, 201], [813, 225], [823, 246], [836, 270], [844, 287], [842, 304], [833, 325], [830, 344], [826, 365], [825, 390], [830, 415], [842, 440], [850, 466], [850, 494], [848, 522], [844, 551], [843, 579], [845, 603]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A narrow ochre-orange strip has two close dark margins, with irregular dots or short breaks along parts of the margins. Small dark-outlined rectangles sit beside its upper section; the strip bends around the lettering and continues downward.",
+      "uncertainty_note": "The upper endpoint meets the heavy blue outline beside a small rectangle. Margin detail near v280–350 is partly crowded by symbols, but the coloured strip and aligned margins support continuity.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as one dark broken margin beside colour rather than two distinct lines; the precise symbol form is uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[845, 603], [852, 623], [863, 642], [883, 660], [910, 677], [936, 692], [960, 711], [978, 735], [993, 760], [1000, 778]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The ochre-orange strip continues southeast between close dark margins, including short dark marks along its edges. It passes beside horizontal hatching and crosses a heavier blue outline near its lower bend.",
+      "uncertainty_note": "The margins become crowded where the blue outline crosses, but the warm-coloured strip remains traceable through the crossing.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken margins could be read as a dotted track symbol rather than a consistently double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[845, 603], [825, 616], [802, 630], [783, 642], [768, 653], [758, 669], [758, 695], [761, 722], [764, 748], [764, 771], [761, 799], [760, 829], [758, 861]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One narrow chain of dark dots and short strokes, with a faint yellow-orange trace beneath it, branches southwest and then turns downward. A dark-outlined rectangular patch lies immediately to its right near v770–805.",
+      "uncertainty_note": "The lower marks merge with a heavier angular outline around v850–865; no separate continuation can be traced confidently. A field or property boundary is also a possible reading of this broken line.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The single broken line could instead be a field or property boundary, particularly along its nearly vertical lower section."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint coloured trace could conceal a second broken margin, making this a narrow track rather than a single dotted path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [845, 603],
+      "branch_count": 3,
+      "evidence_note": "At the bend, the close dark margins and orange strip continue north and southeast; a thinner dotted, faintly yellow line touches them from the southwest. The three-branch reading depends on treating that dotted line as a path."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The principal uncertainty is whether the southwest dotted branch is a path or a boundary, and where its lower end disappears into a heavier outline. The broad red diagonal, blue water outlines, angular field outlines and faint long-dashed western line were read as non-road markings."
+}

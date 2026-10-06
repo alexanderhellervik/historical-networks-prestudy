@@ -1,0 +1,103 @@
+{
+  "tile_id": "cor_e0357_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[351, 0], [349, 37], [349, 76], [345, 114], [340, 146], [334, 165], [329, 187], [312, 214], [290, 244], [268, 273], [246, 302], [238, 310]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow orange-brown strip has two close dark margins, with repeated dots or short marks along them. It curves southwest and becomes inseparable from a heavy blue parcel outline near its southern end.",
+      "uncertainty_note": "The road reading is strong, but the margins are partly interrupted rather than continuously cased. No continuation beyond the southern endpoint can be distinguished reliably.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could be read as paired dotted lines rather than continuous road margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 350], [13, 356], [24, 368], [30, 385], [31, 414], [27, 447], [21, 480], [12, 516], [4, 546], [0, 562]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "An orange-brown band enters from the left, bends downward, and follows the left margin. Close dark, stippled edges flank the coloured centre.",
+      "uncertainty_note": "The western margin is clipped in places, making the separation of the two edges difficult to measure. Its course outside the tile is not reported.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark stippling may represent two interrupted lines rather than solid casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 640], [25, 644], [45, 652], [55, 671], [57, 704], [54, 741], [49, 781], [44, 819], [36, 858], [24, 901], [10, 931], [0, 951]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A brown-orange strip runs right from the left edge, turns south, and then curves southwest. Two close dark margins with conspicuous dotted marks accompany it.",
+      "uncertainty_note": "Some dark marks merge with adjacent blue outlines, but the coloured strip remains traceable. A connection to f02 would lie outside the tile and is not asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dotted margins also support an interrupted-line description."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 129], [28, 97], [57, 63], [85, 32], [111, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two roughly parallel dark blue-black strokes enclose a narrow pale strip across the upper-left corner. No orange stippling or roadside tree symbols are clearly visible.",
+      "uncertainty_note": "This could be a narrowly cased track, but the strokes also resemble the adjoining parcel and vegetation outlines. Its status as a road is doubtful.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the parallel strokes and intervening pale strip as a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the strokes as separate parcel or land-cover boundaries; under that reading this feature is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[334, 165], [358, 177], [383, 195], [415, 207], [446, 216], [476, 229]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint oblique trace extends east-southeast beside f01. Blue-green strokes, locally appearing paired, mix with pale ochre marks; the trace fades near the angular pink strip.",
+      "uncertainty_note": "Both the connection to f01 and the interpretation as a track are provisional. The eastern course cannot be separated confidently from faint drainage or parcel linework, so it stops here.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally paired strokes could delimit a faint narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The blue-green trace could instead be a stream or ditch, with adjoining parcel linework; under that reading it is not a road and j01 is absent."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [334, 165],
+      "branch_count": 3,
+      "evidence_note": "Provisional junction: the brown strip has northward and southwestward continuations, while a much fainter blue-green and ochre trace appears to leave east-southeast. Three road branches apply only if f05 is a track connected here."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [365, 180, 487, 244],
+      "why": "Faint blue-green and ochre traces overlap near heavy parcel edges; their separation and the continuation of the candidate track cannot be read reliably."
+    }
+  ],
+  "overall_note": "The western brown strips provide the clearest road evidence; the corner strip and faint eastern spur remain doubtful candidates. The straight red diagonal on the eastern side is read as a boundary, consistent with the worked example, and the long dark dashed interior lines are also excluded as boundaries or other linework."
+}

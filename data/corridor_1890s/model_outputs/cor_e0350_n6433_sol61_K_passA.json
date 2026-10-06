@@ -1,0 +1,51 @@
+{
+  "tile_id": "cor_e0350_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 94], [30, 89], [61, 86], [87, 91], [116, 98], [155, 102], [195, 104], [232, 109], [260, 107], [255, 85], [247, 62]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A fine brown-black trace carries closely spaced dark marks along its lower side, then turns sharply upward near u=260; consistent parallel casing is not clear.",
+      "uncertainty_note": "This could be a narrow track or a parcel boundary. The upward segment encounters large lettering, so its continuation is not carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could constitute a dotted or broken road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, the trace outlines the coloured parcel and is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 230], [24, 216], [45, 209], [62, 216], [92, 235], [120, 255], [147, 277], [173, 300], [195, 323], [216, 340]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "Separated dark dots or short strokes follow a thin ochre trace diagonally toward the heavy blue edge; no clear pair of continuous casing lines is visible.",
+      "uncertainty_note": "The repeated marks resemble a path symbol, but a boundary reading remains possible. The trace disappears against the blue edge; no road continuation is distinguishable there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The patterned trace could be a parcel boundary rather than a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 0, 275, 88],
+      "why": "Large black lettering overlaps thin linework, preventing secure identification of continuations or additional branches."
+    },
+    {
+      "bbox_uv": [0, 881, 237, 986],
+      "why": "Large black lettering merges with thin outlines beside the blue edge; any underlying fine track cannot be distinguished reliably."
+    }
+  ],
+  "overall_note": "Two patterned traces are retained as doubtful road readings, with no clear road junctions. The heavy blue edge, solid parcel outlines, and pink line near v=600 extending across the blue edge are read as non-road linework. Lettering makes some short continuations unreadable."
+}

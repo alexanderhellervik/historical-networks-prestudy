@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software, data or report, please cite it as below."
+title: "Routable historical road networks from old map sheets: a feasibility demonstration (historical-networks-prestudy)"
+version: 1.0.0
+date-released: 2026-10-06
+license: MIT
+repository-code: "https://github.com/alexanderhellervik/historical-networks-prestudy"
+authors:
+  - family-names: Hellervik
+    given-names: Alexander
+    affiliation: Chalmers University of Technology
+    orcid: "https://orcid.org/0000-0001-5899-718X"
+abstract: >-
+  A pilot feasibility study for one corridor in western Sweden: routable road networks for the
+  1890s (read from Häradsekonomiska kartan by AI models, reviewed and repaired), the 1960s
+  (today's roads checked against Ekonomiska kartan) and today (OpenStreetMap), combined with
+  parish population to give accessibility surfaces. Includes the pipeline code, the
+  instructions given to the models, the shareable derived data, and a short report with effort,
+  accuracy and scaling estimates. It is not a historical accessibility series and contains no
+  analysis of population response.
+keywords:
+  - historical GIS
+  - road networks
+  - map digitisation
+  - AI map reading
+  - accessibility
+  - Sweden
+  - Häradsekonomiska kartan
+  - Ekonomiska kartan
+references:
+  - type: database
+    title: "Folkmängdsdatabasen (FOLKNET)"
+    authors:
+      - name: "Demografiska databasen, CEDAR, Umeå universitet"
+    year: 2022
+    doi: 10.17197/folknetdb_v01
+  - type: data
+    title: "Sveriges Kommunikationer 1963 nr 6, tables 161 and 161 a (scans hosted by Timetable World)"
+    authors:
+      - name: "SJ"
+    year: 1963
+    url: "https://timetableworld.com/"
+  - type: software
+    title: "histmaps"
+    authors:
+      - family-names: Junkka
+        given-names: Johan
+    url: "https://github.com/junkka/histmaps"
+  - type: software
+    title: "HierX"
+    version: 0.1.1
+    authors:
+      - family-names: Hellervik
+        given-names: Alexander
+        orcid: "https://orcid.org/0000-0001-5899-718X"
+      - family-names: Bohlin
+        given-names: Joakim
+    url: "https://github.com/hierx/hierx"

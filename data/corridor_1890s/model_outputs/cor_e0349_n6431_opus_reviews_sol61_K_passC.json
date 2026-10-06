@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0349_n6431",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line with fine dark dots runs from the top edge at about (475,0) past farm T (445,110), down the west side of the paper seam (420,200), (405,290), crosses the dark-blue stream near (382,385) and continues south to about (385,510). The polyline follows it closely.",
+      "uncertainty_note": "Between v 440 and 520 there seem to be two dotted strands about 10-15 px apart (u ~372 and ~388), so the exact course there is unclear. The class could also be read as the dotted Sämre körväg symbol rendered in colour."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same red-brown dotted road continues SSW from about (390,520) via (375,620), (330,680), (280,740), (230,810), (150,880) and (90,945), leaving the tile at the bottom-left near (35,1000). The polyline runs along it, sometimes a few px to its west.",
+      "uncertainty_note": "Near (130,895) the polyline is about 10-15 px off the inked line but follows the same road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[390, 518], [410, 505], [430, 499], [450, 512], [470, 515], [492, 503], [522, 488]],
+      "evidence_note": "A red-brown line leaves the main road at about (390,518), curves east over the paper seam at u~440 and runs to the G farmstead, where it meets the road coming from the NNE (f04). The overlay segment covers only roughly (425,505)-(455,512). It joins neither the main road nor f04.",
+      "uncertainty_note": "Next to the seam (u 430-450), paper damage and a small round feature at (460,480) make the exact course uncertain to within about 10 px."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin red-brown dotted line runs from the farmstead below 'Dirhufo' at about (650,180) SSW via (625,260), (595,330), (565,410) and (540,460) to the G farmstead at about (520,490). The polyline follows it within about 15 px.",
+      "uncertainty_note": "Upper end: the line may continue north past the black building at (635,150) and join the brown road along the field edge at (645,132). The overlay stops at about (645,172). The line is thinner than f01/f02 and might be a lesser class (path vs. cart road)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short stub at about (520,485)-(530,497) lies on the small red-filled building symbol of the G farmstead. The road through this point is already covered by f04 and the connector (f03). No separate road line is drawn here.",
+      "uncertainty_note": "It could be meant as the last few metres of f04 into the yard. If so, it is a duplicate rather than a separate road."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (285,685) to (195,795) there is a narrow strip between paired thin black lines, between the field plots of farm G (290,665). It is black ink with no red-brown road colour. It could be a cattle lane (fägata) or simply the edges of adjoining fields and meadow plots.",
+      "uncertainty_note": "On this sheet roads are coloured red-brown, and the worked example treats uncoloured lines as non-roads, which favours 'not a road'. A narrow double-line lane cannot be ruled out at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Only the label f07 shows, at the top-left corner (20,22). No polyline for it is visible on the overlay. The nearest lines are the crimson dotted boundary (Socken/Härad style) from (440,0) to (230,250) to (0,240), which is not a road, and the plain field around 'III'.",
+      "uncertainty_note": "If f07 is meant to trace the crimson dotted line, it should be disagree_not_a_road, because that line is an administrative boundary, not a road."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[452, 102], [475, 106], [530, 115], [590, 126], [645, 132], [690, 100], [740, 55], [780, 2]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A red-brown line with fine dots, in the same colour as f01/f02, runs along the south edge of the large pink field at the top. It goes from near farm T (about 470,105) east to (645,132), then NE to the top edge at about (780,0). Field outlines elsewhere on the tile are drawn in black, so the colour marks this as a road.",
+      "uncertainty_note": "It could instead be a coloured field edge. Its western end may join f01 at about (452,102) or stop at the T farmstead buildings.",
+      "alternatives": ["Field boundary coloured brown rather than a road", "Only the NE limb (645,132)-(780,2) is a road, linking the Dirhufo farmstead to the top edge"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [390, 518],
+      "what_is_contested": "Number of branches and exact position. The main road (f01/f02) meets the connector east to G (f03). Two parallel dotted strands at u~372 and ~388 (v 440-520) may mean the road splits or runs doubled here.",
+      "evidence_note": "Dotted red-brown strands on both sides of a field corner just south of the stream crossing. The connector curves off eastward at about (395,515)."
+    },
+    {
+      "uv": [452, 102],
+      "what_is_contested": "Whether the brown field-edge road (m01) joins the main road (f01) here or ends at the T farmstead buildings.",
+      "evidence_note": "Farm T buildings at (425,105) and the paper seam at u~445 lie exactly where the two lines would meet."
+    },
+    {
+      "uv": [645, 135],
+      "what_is_contested": "Existence: whether f04 continues north past the black building to join m01 at the field corner, or starts at the farmstead.",
+      "evidence_note": "The dotted line of f04 is clear from v~180 southward. Between v 135 and 180 the black building symbol and the 'Dirhufo' farmstead hide whether the line continues."
+    },
+    {
+      "uv": [522, 488],
+      "what_is_contested": "Where f04 and the connector (f03) meet at the G farmstead, and whether the overlay's f05 stub is a separate branch.",
+      "evidence_note": "The building symbol at (530,485) sits right on the meeting point. Only one road line passes through."
+    }
+  ],
+  "overall_note": "Roads on this tile are red-brown dotted lines: a N-S main road west of the paper seam, a connector east to the G farmstead, a road from the G farmstead NNE to the farmstead below 'Dirhufo', and a road along the south edge of the large top field that the overlay misses. The crimson dotted line at upper left is a boundary, and the vertical line at u~440 is a paper seam; neither is a road. f06 is uncoloured black ink and undecided, f05 sits on a building symbol, and f07 has no visible geometry."
+}

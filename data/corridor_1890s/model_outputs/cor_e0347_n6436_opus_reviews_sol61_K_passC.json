@@ -1,0 +1,120 @@
+{
+  "tile_id": "cor_e0347_n6436",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous brown solid line runs from the boundary band at about (105,130) via (180,80), (260,68), (320,62), (400,90) to the 'G' farm at about (437,112). It crosses the horizontally hatched meadow rather than bounding it, and its brown colour matches the road colour of the neighbouring example tile.",
+      "uncertainty_note": "Single brown line with no visible inner fill, so it is single_line rather than double. Whether it continues west across the boundary band at (105,130) is not visible."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted or dashed line runs from the top edge at about (420,0) down past (435,50) to the G farm at about (437,110). It lines up with the brown dotted path (f03) that leaves G southward.",
+      "uncertainty_note": "This short stretch is crowded by the 'G' lettering and the farm buildings. Its colour (brown or black) is hard to separate, so it could be an enclosure boundary instead of a path."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[437, 115], [440, 160], [436, 215], [420, 265], [380, 300], [335, 330], [312, 360], [320, 395], [340, 450]],
+      "evidence_note": "A brown dotted line clearly leaves G southward and bends south-west to about (312,360). From there a dotted line runs along the west edge of the green Rösås meadow to about (340,450). I can see no line on the overlay's onward course through the meadow, past the small buildings, to the farmstead at (245,620).",
+      "uncertainty_note": "Below about (330,400) the dots may be the meadow's black dotted land-use boundary rather than the path. The path may end there or reach the farmstead by a course that is not drawn."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line runs from the building at the left edge, about (60,615), along the south side of the Rösås farmstead and meadow at v≈630–650 to (465,650). It turns south via (490,670) and (510,720) and reaches the boundary at about (535,790). Its brown colour and continuity mark it as a road.",
+      "uncertainty_note": "The stretch from u=0 to u=60 runs along the edge of a built-up area and may not be drawn separately. The southern leg looks slightly broken (dashed brown), which could mean a lesser road."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin dotted or curved line runs from about (155,420) down the west side of the '191 A' farmstead to about (215,628). The overlay's diagonal from about (60,610) to (160,475) coincides with the dotted edge of the hatched meadow, which looks like a land-use boundary.",
+      "uncertainty_note": "At this resolution I cannot decide the colour of the curved part. It could be a farm path joining f04 at the farmstead, or the enclosure's land-use boundary; the diagonal part is more likely a boundary."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Past the black boundary at about (540,795), a faint thin line continues south-east toward the pink/grey boundary bands near (615,860), roughly in line with f04.",
+      "uncertainty_note": "The line is faint and sits among pink boundary wash and black dashed land-division lines. It could be f04 continuing across the boundary or one of the dashed land-division lines."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (530,790) to (640,765) the polyline follows the black dash-dot boundary line edged with pink wash. East of the grey boundary band it follows a black dashed line from about (655,745) to (750,665) toward the Gröne farm. Neither stretch carries road colour.",
+      "uncertainty_note": "The black dashed stretch near Gröne could be a path drawn without colour, but it matches the land-division dashes used elsewhere on the tile."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line enters from the right edge at about (1000,730) and runs south-west via (960,800) and (930,860) to about (900,890).",
+      "uncertainty_note": "It may continue south to the bottom edge near (870,1000) rather than turning to meet f09; the meeting point is unclear."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown line work runs along the edge of the 'G Sk' farm plot from near the grey boundary band at about (655,905) toward the red-roofed building at about (765,955), then north-east.",
+      "uncertainty_note": "The farm buildings, the lettering and the plot outlines crowd this stretch. Its eastern end and its link to f08 are uncertain."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the top-left corner the polyline runs beside the thick black boundary line with its pink and pale grey wash, toward farm 'B'. No brown road line is distinguishable there.",
+      "uncertainty_note": "The pale band beside the boundary could be read as a double-line road, but the same pale band follows boundaries elsewhere on this tile, so it is more likely boundary colouring."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[437, 115], [470, 175], [500, 235], [545, 260], [620, 268], [700, 262], [775, 228]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A brown solid line, the same colour and weight as f01, leaves the G farm south-eastward. It runs along the south edge of the green meadow to the lake shore at about (775,228), where a red dash-dot boundary takes over toward the right edge.",
+      "uncertainty_note": "It also forms the meadow's southern edge, so it could be a land-use boundary drawn in brown rather than a road. Its end at the lake shore is unusual for a road.",
+      "alternatives": ["field or meadow edge, not a road", "track to the lake shore (single_line)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [437, 112],
+      "what_is_contested": "The number of branches at farm G: f01 from the west, f02 from the north, f03 to the south, and possibly m01 to the south-east (three or four branches).",
+      "evidence_note": "The meeting point is covered by the 'G' lettering and the farm buildings, and it is not certain that m01 is a road."
+    },
+    {
+      "uv": [535, 790],
+      "what_is_contested": "Whether f04 ends at the boundary or continues as f06, and whether f07 meets it here at all.",
+      "evidence_note": "The black dash-dot boundary and the pink wash pass through this point. The continuation south-east is faint, and the line east toward the grey band is boundary symbol, not road."
+    },
+    {
+      "uv": [235, 628],
+      "what_is_contested": "Whether f03 and/or f05 actually join f04 at the Rösås farmstead.",
+      "evidence_note": "The farmstead buildings and the '191 A' lettering hide the meeting area. Neither the dotted line on the west side nor anything through the meadow clearly connects to f04."
+    },
+    {
+      "uv": [890, 900],
+      "what_is_contested": "Whether f08 turns to meet f09 or continues south to the bottom edge.",
+      "evidence_note": "Thin brown line work crosses the farm plot outlines and the 'Sk' lettering here."
+    }
+  ],
+  "overall_note": "Roads on this sheet are drawn in brown, as on the neighbouring example. The clear ones are f01, f04 and the dotted path from G (f02, upper f03), plus a brown line G–lake shore (m01) that the overlay omits. The grey-blue and pink bands are boundary washes, not roads, so f07 is rejected. f05, f06 and f10 cannot be decided at this resolution."
+}

@@ -1,0 +1,188 @@
+{
+  "tile_id": "cor_e0358_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 99], [32, 109], [64, 114], [96, 109], [128, 99], [164, 86], [196, 77], [225, 64], [252, 52], [278, 40], [306, 31], [333, 33], [363, 39], [397, 44], [431, 57], [460, 74], [492, 87], [522, 92], [555, 85], [588, 81], [613, 69], [637, 48], [657, 29], [678, 24], [701, 33], [728, 46], [756, 48], [787, 44], [818, 44], [849, 48], [882, 51], [915, 58], [946, 61], [978, 64], [1000, 70]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j04", "j05"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A winding reddish-ochre band has two dark, partly dotted borders approximately 8–18 px apart; nearby thin purple lines have a different weight and form.",
+      "uncertainty_note": "The border marks vary between dots and short strokes. The attachments at j04 and j05 may be field margins rather than additional roads.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The apparent width varies, and some of the reddish band may be adjacent colouring rather than the road symbol itself."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[140, 0], [150, 16], [160, 32], [177, 55], [196, 77]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short reddish strip between close dark edges runs diagonally into the wider band; a hooked dark-and-red trace touches its western side near [160,32].",
+      "uncertainty_note": "The upper part is crowded by polygon outlines, and the hooked attachment at j03 could be a field edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured polygon margin is a possible reading of part of this short strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[196, 77], [193, 108], [187, 139], [184, 170], [186, 200], [194, 232], [201, 261], [208, 288], [219, 313], [235, 339], [242, 350]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One narrow ochre trace carries spaced dark dots or short dashes and curves toward the reddish filled, dark-outlined symbol beside the large B.",
+      "uncertainty_note": "The trace disappears against the filled symbol near [242,350]; no continuation through or beyond that symbol is established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks are predominantly dots rather than unambiguous dashes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "A faint continuous ochre stroke can also be read beneath the dark marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[64, 114], [65, 143], [68, 176], [69, 210], [68, 241], [69, 270], [79, 296], [94, 319], [117, 339], [146, 356], [172, 376], [197, 398], [225, 425], [251, 451], [278, 476], [306, 499], [334, 522], [360, 549], [386, 572], [403, 589], [430, 607], [460, 622], [490, 636], [516, 651], [532, 661], [557, 650], [582, 640], [607, 637], [628, 625], [648, 612], [662, 602]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin ochre-brown stroke, generally about 2–4 px wide, curves beside a heavier purple line before diverging from it; its northeastern end meets black dashes and a hatched outline.",
+      "uncertainty_note": "Small dark interruptions could indicate a dotted path symbol. At [662,602] the ochre trace becomes inseparable from the diagonal boundary and hatched patch outline, so it is stopped there.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some portions appear to contain separated short marks rather than a continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The northeastern portion could partly be an edge of the hatched patch; continuation around that patch is not established."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[306, 814], [329, 820], [354, 824], [382, 824], [408, 830], [434, 842], [457, 860], [480, 880], [503, 904], [526, 930], [546, 955], [565, 980], [578, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "One thin ochre-brown line leaves the heavy blue outline and bends southeast, with no parallel dark casing; numeral and letter strokes sit near its lower section.",
+      "uncertainty_note": "The initial few pixels merge into the blue outline. The lower course remains visible beside the lettering, but its fine dark marks do not establish a precise symbol class.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The ochre trace has intermittent darker marks that could belong to a dotted or broken path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured parcel margin remains possible because the line lacks clear casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[126, 0], [116, 15], [111, 26], [122, 41], [137, 48], [151, 44], [160, 32]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A hooked reddish trace with dark edging encloses part of a pale coloured polygon and meets the narrow diagonal strip.",
+      "uncertainty_note": "Its coloured edging resembles the nearby road, but its hooked course also follows a polygon perimeter; road status and the junction are provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the close dark edges delimit a road strip, this is a short narrow road joining f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a field or property outline, in which case j03 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[349, 0], [329, 19], [306, 31]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short dark-edged reddish diagonal reaches the upper side of the wide band, beside ochre polygon colouring.",
+      "uncertainty_note": "The short clipped strip could be a road attachment or the margin of the coloured polygon.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The reddish strip and close dark edges could represent a narrow road entering from the top."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If it is a polygon edge, omit it from the road network and omit j04."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[917, 0], [936, 20], [956, 41], [978, 64]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A reddish diagonal with close dark edges descends from the top border toward the broad winding band; pale ochre fill adjoins it.",
+      "uncertainty_note": "The diagonal could be a narrow road, but a coloured field margin gives another reading of the same strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the close dark edges and reddish interior as a road strip joining f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read it as a field outline, in which case j05 is not a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [64, 114],
+      "branch_count": 3,
+      "evidence_note": "The thin ochre stroke touches the lower edge of the reddish band, whose two branches continue left and right; a separate dark diagonal overlaps this position."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [196, 77],
+      "branch_count": 4,
+      "evidence_note": "The wide reddish band continues in two directions, a narrower reddish strip arrives from above-left, and the single dotted ochre trace leaves downward."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [160, 32],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish strip continues upward and downward, while a hooked reddish-and-dark trace touches its western edge; the third road branch is provisional."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [306, 31],
+      "branch_count": 3,
+      "evidence_note": "A short reddish diagonal meets the upper edge of the broad band between its left and right continuations; the diagonal may instead be a polygon margin."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [978, 64],
+      "branch_count": 3,
+      "evidence_note": "The broad band continues left and right beside the end of a dark-edged reddish diagonal from above-left; the diagonal's road status is provisional."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 0, 60, 52],
+      "why": "Clipped dark outlines, small filled shapes and ochre marks overlap densely; a separate corner-clipping road cannot be distinguished reliably from polygon and symbol edges."
+    }
+  ],
+  "overall_note": "The difficult readings are the short reddish attachments along the upper edge and the fine ochre traces where they merge with other symbols. Junctions j03–j05 are conditional on those attachments being roads; the long purple lines, heavy black dashed diagonal, blue outlines and hatched patch borders are otherwise read as non-road linework."
+}

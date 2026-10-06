@@ -1,0 +1,70 @@
+{
+  "tile_id": "cor_e0353_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[511, 0], [519, 29], [522, 59], [524, 89], [531, 120], [542, 149], [553, 179], [568, 207], [588, 234]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin brown-red trace with closely spaced dark marks descends beside black-outlined pink patches; its margins are irregular and do not resolve into consistent casing.",
+      "uncertainty_note": "The trace is a possible narrow track, but portions merge with patch outlines. Its exact centre is uncertain by roughly 10 px, and the horizontal join interrupts its southern end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have two close margins enclosing a narrow tinted strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road reading as adjoining parcel or land-cover outlines remains possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[599, 248], [605, 269], [622, 282], [651, 287], [682, 288], [714, 293], [747, 305], [776, 323], [809, 339], [844, 347], [880, 353], [918, 360], [949, 374], [976, 379], [1000, 381]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Small, heavy dark dots or short strokes follow a thin reddish trace, turning east and continuing above the much heavier blue shoreline; no broad casing or paired tree symbols are visible.",
+      "uncertainty_note": "The repeated marks support a path reading, although a marked boundary is possible. It may continue into f01, but the join prevents a certain connection.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The reddish trace and adjacent dark marks could be the two close margins of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a dotted boundary with red emphasis."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 85], [27, 60], [57, 33], [91, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad diagonal pink-red band has heavy dark edging and intermittent dark marks, with an apparent width of approximately 12–18 px.",
+      "uncertainty_note": "Retained as an ambiguous candidate. The context image shows this band continuing in long straight segments and making an angular turn, which favours a non-road boundary reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If read as a road, the separated heavy margins and broad tinted interior suggest this form."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a strongly coloured administrative or mapped-area boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [565, 225, 625, 254],
+      "why": "The horizontal image join interrupts and displaces the possible connection between f01 and f02."
+    }
+  ],
+  "overall_note": "The narrow marked trace is the strongest road/path candidate, but its symbol and northern course are imperfectly resolved. The broad upper-left diagonal is retained with a boundary alternative; no three-branch road meeting is visible. Blue shoreline strokes, closed patch outlines and the horizontal image join are excluded."
+}

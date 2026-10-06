@@ -1,0 +1,98 @@
+{
+  "tile_id": "cor_e0349_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,552],[30,521],[58,488],[88,455],[117,423],[148,388],[178,355],[209,321],[238,288],[267,256],[296,222],[327,188],[355,157],[386,123],[419,89],[454,57],[489,26],[522,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Broad pink-red strip, approximately 12–20 px across, with a pale parallel edge and repeated heavy black marks along its darker edge; marsh hatching continues beside it.",
+      "uncertainty_note": "The repeated black blocks strongly suggest a railway symbol. Retained as an ambiguous candidate because the coloured strip also resembles a broad cased road; no road identity is certain.",
+      "alternatives": [
+        {"proposed_class":"double_line_wide","note":"Road interpretation: two separated edges enclosing a broad coloured strip."},
+        {"proposed_class":"unknown","note":"Non-road interpretation: railway with repeated black blocks and coloured backing."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,719],[34,715],[70,714],[107,716],[137,708],[160,686],[187,680],[210,684],[232,685]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Thin reddish-brown line with a darker edge runs through horizontal marsh strokes, bends upward, and meets two similarly coloured branches.",
+      "uncertainty_note": "Marsh hatching prevents a reliable distinction between paired road edges and a single boundary stroke. The junction is conditional on interpreting these reddish lines as roads.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Closely spaced dark and reddish edges could form a narrow track."},
+        {"proposed_class":"unknown","note":"A coloured property or administrative boundary is also plausible."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[43,1000],[62,957],[74,923],[77,885],[87,861],[108,831],[138,803],[172,778],[205,754],[222,739],[232,717],[236,697],[232,685]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Continuous narrow rust-red curve with a dark margin, generally about 3–6 px wide; scattered black star-shaped symbols stand on either side.",
+      "uncertainty_note": "The line lacks clearly resolved road-specific dots or casing. Its colour and weight also support a boundary interpretation.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"A narrow continuous path or track stroke is possible."},
+        {"proposed_class":"unknown","note":"It may instead be a coloured boundary."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[232,685],[254,668],[276,644],[300,619],[326,596],[353,584],[383,571],[412,554],[439,538],[454,527]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Narrow reddish stroke with intermittent dark edging crosses marsh hatching and then follows a pale strip to the thick blue outline at approximately [454,527].",
+      "uncertainty_note": "A reddish broken line continues northeast within the blue-outlined area, favouring a boundary reading. No road continuation across that area is asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Some portions appear to have two closely spaced edges enclosing a narrow pale strip."},
+        {"proposed_class":"unknown","note":"Likely alternative: boundary continuing as a broken reddish line through the blue-outlined area."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[601,1000],[590,979],[568,965],[545,947],[524,922],[500,895],[473,881],[448,870],[430,854],[421,839],[420,820],[427,793],[440,767],[458,745],[481,724],[504,700],[519,676],[527,647],[531,617],[532,583],[532,548]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Thin continuous red-brown curve with dark edging; a separate blue line crosses it near [420,820] and runs closely beside its upper portion.",
+      "uncertainty_note": "The reddish line could be a track or a boundary following the adjacent blue line. At its upper end the strokes merge with the thick blue outline, so no road continuation is established.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Possible continuous track with a dark outline."},
+        {"proposed_class":"unknown","note":"A coloured boundary beside the blue line is equally plausible."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[884,0],[871,24],[858,48],[844,77],[836,103],[830,130],[821,159],[807,188],[790,216],[776,241]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Narrow ochre-red curved stroke with a darker edge, approximately 4–7 px wide, ends against a heavy blue stroke; nearby finer blue-green curves are separate.",
+      "uncertainty_note": "No clearly resolved road-specific casing or dots distinguish this from a coloured boundary. Its continuation at the blue stroke is uncertain.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Possible narrow continuous track."},
+        {"proposed_class":"unknown","note":"Possible boundary terminating at or continuing through the blue-outlined area."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [232,685],
+      "branch_count": 3,
+      "evidence_note": "Three narrow reddish-brown strokes meet: one from the west, one curving south, and one running northeast; horizontal black marsh strokes obscure the precise contact. This is a road junction only under the road interpretation of those strokes."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [742,0,772,1000],
+      "why": "A dark vertical sheet join obscures fine linework, particularly where reddish and blue strokes cross it."
+    }
+  ],
+  "overall_note": "No candidate has a certain road identity: the broad diagonal may be railway, and the finer reddish curves may be boundaries. These candidates are retained with explicit alternatives; blue water outlines, marsh hatching, and the horizontal sheet line are excluded. Broken reddish strokes within the blue-outlined area are read as boundaries rather than continued roads."
+}

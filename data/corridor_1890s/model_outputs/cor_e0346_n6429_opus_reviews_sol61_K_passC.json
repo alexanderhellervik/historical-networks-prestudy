@@ -1,0 +1,77 @@
+{
+  "tile_id": "cor_e0346_n6429",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A sinuous orange-brown line with a row of black dots/short dashes along it runs edge to edge: (0,55) -> (175,48) -> (215,95) -> (300,180) -> (470,280) -> (540,325) -> (570,335) -> (640,312) -> (790,350) -> (860,340) -> (1000,385). The brown wash plus black line looks like the road drawing in the worked example (Sämre körväg), and the overlay follows it closely.",
+      "uncertainty_note": "The black marks are too small to tell the legend's dotted road symbols (Sämre körväg = double dotted row, Gångstig = single dotted row) from the dash-dot boundary symbols (Hemmansgräns/Sockengräns) with a coloured boundary band. So 'road' is a moderate-confidence reading. Alternative: a coloured boundary. I can't tell the overlay's class from the image, so this agreement covers the course only."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Bottom-left: the same orange-brown line as f03 continues west from about (275,960) to the bottom edge at about (165,1000). This short overlay piece appears to sit on it.",
+      "uncertainty_note": "The piece is very short and partly hidden under its label. It is the same line as f03, so it carries the same doubt about road versus coloured boundary. No black dot row can be resolved here."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-brown line runs along the bottom of the tile: (275,960) -> (400,965) -> (510,970) -> (600,958) -> (660,928) -> (715,898) -> (760,908) -> (790,945), heading toward the bottom edge west of L. Fålsjön. It has the same colour as f01, and the overlay follows it.",
+      "uncertainty_note": "Unlike f01, no black dot or dash row is visible here at this resolution. So this could be a coloured boundary line rather than a road; low-to-moderate confidence. Near (715,898) a green stream/meadow-edge line from the NE touches it, and the overlay may partly follow that."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a perfectly straight, faint grey ruled line from about (840,5) to (165,710). It cuts straight across the marsh hatching, the dotted marsh edges and the road f01 without any break or bend. It has no road colour, no double edge and no dot pattern: a construction or ruled pencil line, not a drawn road.",
+      "uncertainty_note": "Low uncertainty. The only alternative is a planned or later-added straight line (e.g. a projected route), and that would still not be a surveyed road symbol."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the lower-left edge, from about (0,885) to (100,782), only a very faint greyish trace can be seen, if anything. Nearby, a teal field/stream outline runs roughly parallel at (20,910)-(110,830), but it is a different line.",
+      "uncertainty_note": "I can't confirm a drawn line on the overlay's course. If one exists, it is as faint as the f04/f06 ruled lines and carries no road symbol."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint, nearly straight pale-brownish trace does run across the lower tile, roughly (130,775) -> (300,745) -> (500,712) -> (700,680) -> (1000,630). The overlay lies close to it. There are no black edges, no dot pattern and no clear road wash, and it is almost straight over 900 m, like the f04 ruled line.",
+      "uncertainty_note": "It could be a heavily faded road band or a ruled construction line. The drawing doesn't decide. If it is a road, the overlay course is roughly right, though the overlay sits up to about 10 px off the trace in places."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [540, 325],
+      "what_is_contested": "Whether f04 meets f01 here. The overlay draws the diagonal f04 crossing f01 at the sharp dip of the brown line.",
+      "evidence_note": "The diagonal is a straight ruled line that also crosses the vertical sheet line (u about 535) at the same place. Neither is a road, so I read no road junction here; f01 just bends around the marsh lobe."
+    },
+    {
+      "uv": [100, 782],
+      "what_is_contested": "Whether a bend or junction joins f05 and f06 into one line.",
+      "evidence_note": "Both traces are faint and close to unreadable. No node, dot or widening marks a junction."
+    },
+    {
+      "uv": [715, 898],
+      "what_is_contested": "Whether the green line coming from the NE (from about 880,790) joins the bottom brown line f03 as a branch.",
+      "evidence_note": "The NE line is teal/green, the colour of streams and meadow edges, not the road brown. I read it as touching, not branching, but the colours merge at this resolution."
+    },
+    {
+      "uv": [275, 960],
+      "what_is_contested": "The split point between f02 and f03 on what looks like one continuous brown line.",
+      "evidence_note": "The brown line looks continuous through this point. Next to it, a green outlined feature at about (240,955) touches it but is not a road."
+    }
+  ],
+  "overall_note": "The only fairly convincing road is the orange-brown line with black dots (f01); the bottom brown line (f02/f03) is the same colour but shows no resolvable symbol, so road versus coloured boundary stays open. f04 is a straight ruled line, not a road, and f05/f06 are faint near-straight traces that cannot be judged. I found no further roads; the remaining lines are marsh edges, teal field/stream outlines and the vertical sheet line."
+}

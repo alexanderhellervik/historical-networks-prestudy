@@ -1,0 +1,70 @@
+{
+  "tile_id": "cor_e0368_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,212],[40,215],[80,215],[120,209],[160,207],[200,204],[240,203],[280,204],[320,205],[360,206],[400,204],[440,202],[480,200],[520,196],[560,192],[600,190],[640,188],[680,186],[715,187],[737,189],[761,195],[790,200],[830,202],[870,204],[910,208],[951,212],[972,208],[1000,199]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two roughly parallel rows of dark dots or short marks, approximately 12–16 px apart, enclose an orange-pink strip; small rectangular building symbols adjoin it.",
+      "uncertainty_note": "Individual edge marks merge locally with lettering and building outlines, but the paired road marking remains traceable across the tile.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,912],[25,920],[46,926],[75,939],[105,950],[135,962],[158,966],[185,959],[210,955],[245,958],[280,961],[315,966],[350,974],[382,982],[410,988],[440,993],[465,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Paired dark dotted edges, approximately 12–18 px apart, surround orange-pink infill; a narrower dotted branch joins near the left edge.",
+      "uncertainty_note": "The lower road edge becomes cropped toward u=450; the estimated center reaches the bottom edge near u=465, with approximately 15 px uncertainty in that endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "This may remain connected to f03 immediately inside the face; cropping prevents establishing its center across the intervening bottom-edge interval."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[525,1000],[550,989],[580,979],[610,970],[640,970],[675,979],[710,983],[745,979],[780,972],[820,966],[860,961],[900,957],[940,954],[970,950],[1000,943]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two dark dotted margins enclose an orange-pink strip, approximately 12–18 px wide; large lettering overlaps it near u=640–710.",
+      "uncertainty_note": "The western endpoint is estimated where the cropped center returns into the face, with approximately 15 px uncertainty. Matching margins on both sides support continuation beneath the lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possibly part of one continuously visible feature with f02; its exact course near the bottom edge cannot be fixed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[46,926],[53,907],[59,892],[63,884]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two closely spaced dark dotted margins, approximately 5–8 px apart, enclose a pale tan strip leading to a heavy black outline beneath a red rectangular building symbol.",
+      "uncertainty_note": "The dotted marking disappears into the black outline near the building; no continuation through that symbol is established.",
+      "alternatives": []
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [46,926],
+      "branch_count": 3,
+      "evidence_note": "The narrower paired dotted strip merges into the orange-filled paired dotted road, which continues both left and right; the meeting forms three visible branches."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [450,990,540,1000],
+      "why": "The bottom border crops the lower dotted margin and part of the road strip, preventing reliable placement of its center throughout this interval."
+    }
+  ],
+  "overall_note": "The clearest roads have paired dotted margins with orange-pink infill. Red continuous lines and repeated long black dashes were read as boundaries, while faded blue strips were read as water or ditch markings. Bottom-edge cropping makes the connection between f02 and f03 uncertain."
+}

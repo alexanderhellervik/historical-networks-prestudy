@@ -1,0 +1,168 @@
+{
+  "tile_id": "cor_e0341_n6422",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 216], [30, 221], [59, 223], [80, 217], [104, 203], [130, 194], [158, 195], [188, 201], [227, 210], [266, 221], [301, 225], [341, 228], [365, 238], [391, 262], [420, 288], [452, 308], [487, 324], [516, 328], [546, 325], [579, 315], [618, 304], [658, 302], [704, 305], [745, 298], [779, 288], [806, 282], [850, 274], [891, 275], [931, 286], [969, 296], [1000, 299]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose an orange-red band approximately 12–18 px wide; both edges follow the bends continuously.",
+      "uncertainty_note": "The course remains visible through the crossings and beneath the red numerals on the right.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[817, 0], [807, 38], [795, 80], [783, 119], [770, 158], [758, 194], [750, 218], [758, 233], [783, 253], [798, 267], [806, 282], [818, 310], [832, 340], [847, 372], [861, 407], [870, 433], [864, 451], [874, 472], [883, 486], [909, 524], [937, 563], [963, 604], [988, 633], [1000, 650]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j04", "j05"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow orange-brown ribbon has two irregular dark margins, often broken into dots or short strokes, approximately 7–12 px apart; small dark rectangular symbols sit alongside its southeastern portion.",
+      "uncertainty_note": "The margins are less continuously cased than f01. The two proposed side connections at j04 and j05 may instead be adjoining boundary lines.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The interrupted, partly merged margins could be read as a dotted road symbol rather than a clearly double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[487, 324], [493, 346], [497, 366], [481, 396], [462, 426], [438, 452], [416, 478], [399, 510], [393, 543], [395, 576], [405, 610], [417, 647], [431, 683], [439, 714], [438, 754], [433, 798], [426, 833], [419, 858]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01", "j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One fine brown-orange stroke curves south from the broad cased line, with intermittent darker marks and no consistently separate second edge; it crosses the red diagonal and several long black dashed lines.",
+      "uncertainty_note": "The southern end becomes difficult to separate from hatching and nearby dashed strokes. Its thin symbol also permits a boundary interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some portions appear as short dark strokes along a faint brown trace."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A thin boundary or other dividing line is possible; the drawing does not conclusively establish a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[497, 366], [537, 369], [576, 370], [615, 367], [656, 365], [694, 364]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine gray-brown, nearly horizontal stroke leaves the bend in f03 and runs above the pale blue-green outlined shape; no clear paired casing is visible.",
+      "uncertainty_note": "This could be a path or a dividing line. At the red upright line, its continuation becomes too faint to carry confidently toward the orange road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A thin single-stroke path is a possible reading."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a field or property boundary and therefore not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[294, 284], [330, 299], [371, 318], [412, 338], [455, 355], [497, 366]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A very light gray-brown oblique stroke approaches the central bend from the northwest; it has neither an orange band nor clearly spaced dark casing.",
+      "uncertainty_note": "The northwestern portion fades beside the hatching, so no connection to f01 is asserted. Its meeting with f03 is faint and could be an overlap rather than a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It could be a lightly drawn path joining the central thin line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field edge, dividing line, or other non-road stroke is at least as plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[883, 486], [864, 497], [829, 518], [790, 545], [751, 573], [716, 598], [696, 626], [676, 663], [653, 704], [630, 748], [608, 797], [587, 835], [569, 874], [551, 916], [535, 958], [522, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A fine brown trace with regularly recurring dark dots or short strokes runs southwest; its upper portion adjoins a colored polygon edge, while the lower portion crosses long black dashed lines.",
+      "uncertainty_note": "The dotted trace resembles the finer paths in the example, but a boundary reading remains possible, especially along its upper section. The proposed road connection at j05 is conditional on the path interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The recurring short dark marks can be read as an interrupted path symbol."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The faint brown connecting stroke could be treated as the principal line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a property or field boundary rather than a road, or its upper and lower portions could have different functions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[864, 451], [840, 448], [817, 445], [793, 443]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short dark horizontal-to-oblique stroke extends west from the orange ribbon, beside an orange rectangular symbol; its western portion is covered by the large black B.",
+      "uncertainty_note": "Only the eastern portion can be followed. This may be a short access track, but the dark stroke also forms an edge of the adjacent peach-colored polygon.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short single-line access track ending beneath the lettering is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be solely the polygon boundary, with no separate road branch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [487, 324],
+      "branch_count": 3,
+      "evidence_note": "The broad orange band continues in both directions, and a fine brown stroke touches its southern casing before descending."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [806, 282],
+      "branch_count": 4,
+      "evidence_note": "The broad, dark-cased orange band crosses a narrower orange ribbon with interrupted dark margins; the narrower ribbon is visible north and south of the crossing."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [497, 366],
+      "branch_count": 4,
+      "evidence_note": "The fine brown line bends from north to southwest, with a thin gray-brown stroke extending east and a much paler stroke approaching from northwest; four road branches are conditional on f04 and f05 being paths."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [864, 451],
+      "branch_count": 3,
+      "evidence_note": "The orange ribbon continues north and southeast beside a short westward dark stroke and a rectangular symbol; three road branches are conditional on the westward stroke being a track rather than a polygon edge."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [883, 486],
+      "branch_count": 3,
+      "evidence_note": "A fine dotted brown trace approaches the western margin of the orange ribbon, which continues in both directions; three road branches are conditional on the dotted trace being a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [734, 411, 818, 475],
+      "why": "Heavy black B lettering conceals the possible western continuation of f07 and overlaps surrounding polygon linework."
+    }
+  ],
+  "overall_note": "The broad orange road is clear; the finer brown and gray strokes are harder to distinguish from boundaries. Conditional junction counts include the ambiguous features as traced, and their notes identify where a non-road interpretation would remove branches. Red angular lines, long black subdivision dashes, blue-green outlines, and hatching were otherwise read as non-road symbols."
+}

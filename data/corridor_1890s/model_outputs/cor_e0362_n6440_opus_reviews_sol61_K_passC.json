@@ -1,0 +1,43 @@
+{
+  "tile_id": "cor_e0362_n6440",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The tile has a continuous brown-filled road between two firm black edge lines. It enters at the left edge near (0,95) and runs SE to a bend at about (125,265) by the Grinden T crofts. It continues ESE past (300,320) and (470,390) to (620,465), crosses the red line at about (635,480), then bends S through (690,530), (720,620) and (740,760). It turns E at about (770,795)-(840,810) and runs SE through (900,880) to the bottom edge near (960,1000). The overlay line stays inside this drawn road for its whole length.",
+      "uncertainty_note": "The course is certain. The class cannot be read from the overlay, so I give my own: a coloured double line about 12-15 px wide, the widest road symbol on the tile, matching Landsväg/Bygdeväg (double_line_wide). double_line_narrow is possible if the sheet uses this width for lesser roads."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f02 is a very short stub at about (125-140, 290-330), running from the f01 bend at (125,265) S toward the Grinden T farm buildings (about 90-140, 290-340). At this position the bare tile shows building outlines, a small brown house symbol, the number '12' and a thin reddish line running NE from about (100,335) to (185,293). There is no clear double or dotted road symbol.",
+      "uncertainty_note": "This could be a short farm access from the road into the croft yard, but the thin reddish line is just as consistent with a plot or property edge. At this resolution the drawing does not decide it."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f03 is another very short stub next to f02, at about (120-140, 260-300), leaving the f01 bend at (125,265) toward the croft. The bare tile shows only the edge of the f01 road casing, croft outlines and lettering here ('ullen T' and the '12' plot number). No separate road line is visible.",
+      "uncertainty_note": "It may duplicate f02 or trace the edge of the f01 road itself. Nothing visible separates it from building or plot outlines."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [635, 478],
+      "what_is_contested": "Whether this is a road junction at all. The brown road f01 crosses the thick red line here. If the red line is a railway (my reading), this is a level crossing with no road junction. If it is a road, it is a 4-way junction.",
+      "evidence_note": "The red line is a smoothly curving, constant-width band with a black dashed inner line and grey hachure shading on its south side, like an embankment. It runs from the bottom-left edge (about 15,1000) through (390,590) to the right edge (1000,335). Its form matches a railway (järnväg) rather than any road symbol, so I have not added it as a missed road."
+    },
+    {
+      "uv": [125, 265],
+      "what_is_contested": "The number of branches at the f01 bend by Grinden T. It has 2 branches if f02/f03 are not roads, and 3 if a farm access leaves S into the croft.",
+      "evidence_note": "The road bends sharply here. A thin reddish line and building outlines lie just S, but no clear road symbol branches off."
+    }
+  ],
+  "overall_note": "The only certain road on the tile is the brown double-line road (f01), which the overlay follows correctly. The thick red, shaded line crossing it is read as a railway, not a road. The other thin lines are boundaries or field edges, and the double cyan lines are a watercourse; the overlay's two short stubs at the Grinden T croft (f02, f03) cannot be confirmed as roads from the drawing."
+}

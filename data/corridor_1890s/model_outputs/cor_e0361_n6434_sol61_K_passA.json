@@ -1,0 +1,101 @@
+{
+  "tile_id": "cor_e0361_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [408, 1000],
+        [433, 973],
+        [465, 948],
+        [495, 922],
+        [524, 891],
+        [550, 857],
+        [567, 821],
+        [580, 785],
+        [594, 752],
+        [615, 725],
+        [634, 691],
+        [651, 675],
+        [673, 641],
+        [689, 608],
+        [702, 580],
+        [726, 555],
+        [752, 539],
+        [779, 522],
+        [804, 506],
+        [824, 483],
+        [837, 456],
+        [842, 426],
+        [850, 403],
+        [866, 371],
+        [884, 346],
+        [908, 319],
+        [930, 299],
+        [951, 275],
+        [965, 251],
+        [980, 226],
+        [1000, 202]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre strip follows a winding course between two dark margins, approximately 6–10 px apart; one margin is more continuous and the other has repeated dark dots or short strokes. Conifer symbols sit alongside much of its upper course.",
+      "uncertainty_note": "The broken margin makes the symbol-form classification somewhat uncertain. Short interruptions beneath lower lettering and the pink diagonal are carried through because the same strip is visible on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The combination of a continuous margin and a dotted margin may be better described as a mixed road symbol than as two continuous lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [651, 675],
+        [676, 678],
+        [700, 680],
+        [718, 668],
+        [739, 647],
+        [761, 631],
+        [788, 619],
+        [818, 619],
+        [851, 622],
+        [882, 627],
+        [918, 642],
+        [952, 653],
+        [978, 656],
+        [1000, 657]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin winding trace consists of conspicuous dark beads or short separated strokes with an ochre fringe. It meets the paired ochre strip at its western end; conifer symbols occur on both sides, and distinct parallel casing is not clear.",
+      "uncertainty_note": "This could be a dotted path, but its irregular broken outline also resembles the outlines used around mapped land-cover patches. Its inclusion as a road and the resulting junction are conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the separated dark marks as a broken path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is a non-road land-cover or parcel limit; under that reading omit this feature and j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [651, 675],
+      "branch_count": 3,
+      "evidence_note": "The ochre strip with two dark margins continues in two directions, while a dark beaded trace departs eastward from its margin. Three road branches are present only if f02 is read as a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [398, 0, 440, 1000],
+      "why": "A near-vertical sheet join contains a dark seam and blurred or displaced printing; fine line continuity within this narrow band cannot be assessed reliably."
+    }
+  ],
+  "overall_note": "The winding ochre strip is the clearest road; the eastward dotted trace remains ambiguous. Broad pink diagonals and thin angular red lines are read as boundaries, while the broken outline adjoining horizontal hatching is read as a land-cover edge. Lettering and the sheet join obscure some fine detail."
+}

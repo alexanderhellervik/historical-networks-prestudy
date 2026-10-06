@@ -1,0 +1,53 @@
+{
+  "tile_id": "cor_e0362_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 40], [13, 20], [28, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short diagonal reddish strip clips the upper-left corner, with heavy dark margins and an approximately 15–20 px overall width.",
+      "uncertainty_note": "The margins are blurred where they meet the tile edges; coordinates follow the approximate strip centre.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[961, 0], [972, 18], [986, 34], [1000, 45]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark curved margins enclose a narrow tan-to-reddish strip at the upper-right corner; nearby small black marks are separate from the strip.",
+      "uncertainty_note": "Only a short clipped portion is visible, and its spacing is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The heavy, blurred margins could support the wider double-line form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[1000, 184], [982, 207], [965, 231], [948, 255], [933, 276], [924, 282]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A pale narrow corridor between roughly parallel dark strokes bends southwest from the right edge beside 'L. Ryd'; angular outlined shapes sit alongside it.",
+      "uncertainty_note": "The strokes mingle with parcel or building outlines and the large lettering. The southwestern endpoint is obscured, so no continuation is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "These strokes may be adjacent parcel outlines rather than a road casing; their separation is not consistently clear."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [96, 544, 711, 806],
+      "why": "A stepped, opaque-looking patch carrying large handwriting conceals the underlying drawing within parts of this bounding box."
+    }
+  ],
+  "overall_note": "The corner strips are the clearest road readings; the outlined corridor beside L. Ryd remains doubtful. The long straight red strokes resemble boundaries, while the broad pale diagonal bands lack consistent inked road margins and appear to be paper artifacts. No junction of three road branches is readable."
+}

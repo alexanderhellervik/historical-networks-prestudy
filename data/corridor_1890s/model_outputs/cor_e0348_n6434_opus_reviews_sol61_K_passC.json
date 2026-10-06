@@ -1,0 +1,101 @@
+{
+  "tile_id": "cor_e0348_n6434",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along the western limb (0,455)->(270,590) there is only a faint grey edge between a paler patch and the beige ground. Along the SE limb (300,640)->(400,830) there is a faint thin grey line running past the 'S' of 'St.' toward 'torp'. Neither carries road colour or the dotted path symbol seen elsewhere on the tile. South of v~850 I cannot pick out a line under the overlay's course (440,900)->(510,1000).",
+      "uncertainty_note": "The line could be an uncoloured cart road or just the edge of a meadow or colour wash. Several red dash-dot boundary lines meet at about (300,635), right next to the overlay's bend, which makes the drawing harder to read here."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline runs about 30-40 px SE of the lake shore between (270,590) and (390,420), through the pale strip west of the 'St.' lettering. I see no distinct dotted, double or coloured road line there, only the edge of the paler ground. A red dash-dot boundary runs nearby, from about (410,440) to (350,640).",
+      "uncertainty_note": "This may be a shore path that is too faint to resolve, or a misread wash edge. I lean towards it not being a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [[5, 805], [40, 850], [82, 900], [128, 950], [165, 1000]],
+      "evidence_note": "The wide pink/red band with dark edge lines that runs from the west edge at v~800 to the south edge at u~165 is the only strong linear road-like symbol in the SW corner. The overlay polyline lies about 50 px west of it, near the shore of the small water body, where nothing road-like is drawn.",
+      "uncertainty_note": "On this sheet a wide coloured band could also be a hand-coloured administrative boundary ribbon rather than a landsväg fill. I read it as a road because it has double edge lines."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A black dotted line, matching the Gångstig symbol, runs from the west edge at about (0,105) NE to the top edge at about (130,5), past the small lövskog circles. The overlay follows it.",
+      "uncertainty_note": "The line is short and close to the tile corner, and the dots may be double rows (Sämre körväg). Dotted outlines of reed (vass) areas are nearby, but this line is clearly separate from them."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brownish dotted line runs from about (620,80) through Säfvekärr/Sjötorp to (800,330). From there it runs down beside the solid red boundary near T Häggeby and then SE through (850,550) and (930,650). Below that it is a clear row of dots at u~935-945 from v 700 to 830, near Gäckelgärde. The overlay follows this course closely enough.",
+      "uncertainty_note": "Between v~350 and 480 the dots sit right next to the red property line and the building patch, so the exact course there is uncertain. Near the south edge (v>850) the line is hard to follow."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line leaves the f05 path at about (800,330) and runs NE above the 'Nygård' lettering through about (870,300) and (930,250) toward the east edge. The overlay follows it.",
+      "uncertainty_note": "The section east of u~940 is crowded by the large 'Gr...' lettering, so the exact point where it leaves the tile is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line runs SSE from about (935,240) through (965,350) to the east edge at about (1000,450), and the overlay follows it. However, the same dotted line also continues north of the overlay's start, up to the top edge (see m01).",
+      "uncertainty_note": "It may also be a boundary drawn with dots rather than a path. I read it as Gångstig because it matches the legend's plain dotted symbol."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[935, 0], [933, 80], [935, 160], [938, 240]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A row of dots runs at u~935 from the top edge, past the 'T' and the 'Gr' lettering, down to where f06 crosses. It continues south as f07.",
+      "uncertainty_note": "Lettering partly obscures the line around v 180-240. It might be part of the same path as f07 rather than a separate feature.",
+      "alternatives": ["Part of f07, so f07 should extend to the top edge", "A dotted boundary rather than a path"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[395, 0], [425, 25], [442, 60]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "A short brownish dotted line curves from the top edge at u~395 down to about (442,60), right next to the blue water line at the river mouth.",
+      "uncertainty_note": "Low confidence: it may be shore tinting or the end of a path that lies mostly on the neighbouring tile.",
+      "alternatives": ["Shore colouring, not a road", "A footpath ending at the water"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [800, 330],
+      "what_is_contested": "How many branches meet and the exact position: the f05 path from the NW, the f05 continuation south and f06 to the NE. It is unclear whether the NW path ends here or crosses the solid red boundary line.",
+      "evidence_note": "Dotted lines converge on the solid red property line just above 'T Häggeby', and the dots are hard to separate from the red line."
+    },
+    {
+      "uv": [937, 245],
+      "what_is_contested": "Whether this is a four-way crossing (f06 crossing the north-south dotted line m01/f07) or a T-junction where f07 starts, as the overlay draws it.",
+      "evidence_note": "The north-south dotted line seems to continue past this point to the top edge, and the 'Gr' lettering covers the crossing."
+    },
+    {
+      "uv": [275, 590],
+      "what_is_contested": "Whether this junction exists at all: it is the overlay's Y-junction of f01 and f02, where I see no clear road symbol.",
+      "evidence_note": "Only faint grey wash edges are visible here. Several red dash-dot boundary lines converge at about (300,635), close by."
+    }
+  ],
+  "overall_note": "The clearest roads are the dotted footpath network in the east (f05, f06, f07 and a northern continuation the overlay omits), the short dotted path at the top-left, and a wide pink double-edged band in the SW corner that f03 traces with an offset course. The overlay's western lines (f01, f02) follow faint uncoloured edges that could be roads or meadow boundaries, and I could not decide between them. The many parallel red lines in the east are property or boundary lines, not roads."
+}

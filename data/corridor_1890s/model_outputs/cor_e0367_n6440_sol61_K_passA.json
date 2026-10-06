@@ -1,0 +1,160 @@
+{
+  "tile_id": "cor_e0367_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 255], [33, 256], [66, 256]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced rows of dark short marks flank an orange strip, approximately 8–12 px wide overall.",
+      "uncertainty_note": "The road is clear; the possible south branch at j03 is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Both edges consist of broken marks rather than continuous strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[66, 256], [106, 256], [149, 257], [194, 257], [222, 256], [244, 257]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j01"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The paired dark dotted rows and orange interior continue almost horizontally past small red and black rectangular symbols.",
+      "uncertainty_note": "Small symbols interrupt individual marks, but the aligned drawing on both sides supports continuity. j03 is provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired rows are dotted or finely dashed, without continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[77, 0], [77, 29], [79, 58], [83, 85], [95, 119], [113, 146], [131, 163], [163, 181], [190, 199], [214, 220], [232, 241], [244, 257]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two narrow rows of dark broken marks surround a pale orange strip; the strip curves through horizontal hatching and beneath lettering before joining the horizontal track.",
+      "uncertainty_note": "Lettering masks short portions, but the paired marks on both sides establish the course. Coordinates beneath lettering are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible edges are rows of short marks rather than solid lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[244, 257], [276, 272], [313, 285], [348, 292], [389, 302], [429, 302], [470, 303], [512, 303], [548, 309], [579, 328], [612, 347], [643, 361], [674, 373], [701, 382], [711, 389], [708, 401], [698, 416], [694, 439], [697, 454], [714, 476], [737, 497], [757, 515]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Paired dark dotted strokes enclose an orange band about 7–11 px wide. The band bends sharply near [711,389], then turns southeast; thin blue lines and long black dashes cross it with different symbols.",
+      "uncertainty_note": "Continuity beneath the central lettering is supported by matching marks on both sides. The faint possible branch at j02 is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A description as a paired broken-line symbol is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[757, 515], [772, 529], [783, 540]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The orange band and dark broken edging continue southeast into overlapping black lettering and small rectangular marks.",
+      "uncertainty_note": "The distinct track disappears around [783,540]. A connection to f07 is possible, but the intervening drawing does not establish it.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the endpoint, lettering and hatching prevent separation of the two edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[757, 515], [781, 510], [805, 506], [829, 505], [853, 506]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint, narrow run of small dark or blue-grey marks extends eastward beside a thin blue stroke and the upper edge of horizontal hatching; no clear orange casing is visible.",
+      "uncertainty_note": "This may be a dotted path branching from the orange track, or marks belonging to the adjacent enclosure edge. Its western meeting and eastern termination are indistinct; the course is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the small marks form an independent dotted path, this is its approximate course."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Non-road alternative: a stippled or degraded enclosure edge alongside the blue stroke; under this reading j02 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[792, 578], [794, 590], [800, 600], [826, 599], [855, 596], [885, 592], [915, 588], [945, 584], [973, 580], [1000, 576]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A single row of relatively heavy, round dark dots curves out from beneath lettering, then runs east just below the red-edged horizontal hatching. It has no visible paired casing or flanking tree symbols.",
+      "uncertainty_note": "The eastern dotted course is clear. Its western approach is hidden among lettering and rectangular symbols, so it is not connected to f05.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks are dots rather than elongated dashes; a hedge or other dotted linear symbol remains possible, although distinct hollow circles are not resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[66, 256], [66, 283], [65, 305], [64, 319]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two thin, nearly parallel dark solid strokes, roughly 5–8 px apart, descend from the orange track. Near the southern end they merge with angular outlines; no dotted edging or orange interior is clear.",
+      "uncertainty_note": "A narrow access track is possible, but the strokes may simply be adjacent parcel outlines. The independent paired symbol cannot be followed beyond approximately [64,319].",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible short access track represented by the two solid strokes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Non-road alternative: two neighboring parcel edges; under this reading j03 is not a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [244, 257],
+      "branch_count": 3,
+      "evidence_note": "Three orange strips with paired dark broken edging meet: one extends west, one curves northwest, and one bends east-southeast. The marks merge at the meeting."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [757, 515],
+      "branch_count": 3,
+      "evidence_note": "Provisional junction: the paired orange dotted track continues southeast while a much lighter stippled line appears to leave eastward beside a blue stroke. The third branch exists only if f06 is a path."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [66, 256],
+      "branch_count": 3,
+      "evidence_note": "Provisional junction: the horizontal paired dotted orange track passes the tops of two thin solid strokes descending south. The third branch exists only if f08 is an access track."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [775, 532, 830, 592],
+      "why": "Black lettering, small rectangular symbols, and dense horizontal hatching overlap the possible connection between the paired orange track and the southern dotted line."
+    }
+  ],
+  "overall_note": "The paired orange dotted tracks are the clearest road symbols. Southeastern overprinting prevents a certain connection between f05 and f07; j02 and j03 are conditional on the uncertain road readings of f06 and f08. Long black dashed lines, winding thin blue strokes, and red enclosure edges were read as non-road lines."
+}

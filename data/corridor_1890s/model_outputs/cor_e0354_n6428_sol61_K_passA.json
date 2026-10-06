@@ -1,0 +1,201 @@
+{
+  "tile_id": "cor_e0354_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [488, 1000],
+        [494, 964],
+        [497, 929],
+        [503, 905],
+        [517, 890],
+        [536, 882],
+        [560, 888],
+        [591, 899],
+        [622, 914],
+        [651, 927],
+        [680, 936],
+        [703, 935],
+        [728, 925],
+        [750, 909],
+        [773, 879],
+        [793, 845],
+        [805, 818],
+        [810, 799],
+        [809, 760],
+        [804, 720],
+        [799, 682],
+        [797, 646],
+        [803, 613],
+        [817, 581],
+        [836, 552],
+        [862, 531],
+        [894, 516],
+        [923, 508],
+        [951, 504],
+        [974, 508],
+        [1000, 517]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03", "j04"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A reddish-ochre ribbon approximately 6–10 px wide has two darker, locally granular margins. It curves beside blue-black hatched patches; no regular rows of tree symbols flank it.",
+      "uncertainty_note": "The road reading is strong, but the granular margins make the exact symbol class less certain. Its listed junctions are conditional on the thinner adjoining candidates being roads.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark margins could be dotted road edging rather than a clearly drawn pair of continuous lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 531],
+        [29, 521],
+        [54, 524],
+        [84, 538],
+        [115, 555],
+        [145, 571],
+        [174, 574],
+        [205, 564],
+        [235, 543],
+        [259, 551],
+        [292, 568],
+        [320, 575],
+        [351, 564],
+        [383, 551],
+        [412, 542],
+        [438, 549],
+        [457, 565],
+        [471, 578],
+        [493, 571],
+        [527, 558],
+        [561, 544],
+        [593, 529],
+        [621, 507],
+        [649, 478],
+        [677, 448],
+        [704, 422],
+        [730, 412],
+        [758, 411],
+        [785, 418],
+        [809, 436],
+        [831, 457],
+        [857, 472],
+        [886, 477],
+        [913, 475],
+        [938, 473],
+        [956, 487],
+        [974, 508]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin ochre trace carries closely spaced black points and short strokes, without the broad red fill of f01. It crosses the blue line near [442, 551] and remains visible on both sides.",
+      "uncertainty_note": "This is a doubtful road candidate: the broken dark marks may form a property-boundary symbol. A second dotted margin, which would strengthen a track reading, is not consistently resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the small dark marks are a single dotted path symbol, this is one continuous path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some sections could contain two very close dotted margins, suggesting a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire trace may instead be a boundary and therefore not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [471, 578],
+        [474, 614],
+        [477, 650],
+        [480, 687],
+        [487, 724],
+        [497, 765],
+        [509, 807],
+        [522, 846],
+        [536, 882]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "One narrow ochre stroke carries separated dark bars and smaller marks. It has no clearly visible paired casing and meets the thin transverse trace above and the reddish ribbon below.",
+      "uncertainty_note": "The bar-and-small-mark sequence favors a boundary reading, but some marks merge at this resolution, leaving a dotted or dashed path reading possible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the separated dark marks denote a path, the visible course is a single broken line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Likely a property boundary joining f02 to the line occupied by f01, rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [810, 799],
+        [816, 838],
+        [823, 876],
+        [831, 908],
+        [841, 932],
+        [851, 938],
+        [878, 938],
+        [907, 928],
+        [936, 920],
+        [967, 917],
+        [1000, 922]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A fine ochre line with dark intermittent marks leaves the reddish ribbon and bends below a blue-black hatched patch. Its width is only a few pixels, with no clear paired casing.",
+      "uncertainty_note": "The broken marks and contact with the hatched patch's edge support a boundary interpretation; a narrow path remains a weaker alternative. The bend near [841, 932] is slightly uncertain where dark outlines overlap.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Could be a single broken path running from f01 to the right edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "May be a property boundary, partly coincident with the hatched patch's outline, rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [471, 578],
+      "branch_count": 3,
+      "evidence_note": "Three thin ochre branches with dark broken marks meet here; this is a road junction only if f02 and f03 are paths rather than boundaries."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [974, 508],
+      "branch_count": 3,
+      "evidence_note": "The thin marked trace arrives from the upper left at the reddish, dark-edged ribbon, which continues in two directions; the third road branch is conditional on f02's interpretation."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [536, 882],
+      "branch_count": 3,
+      "evidence_note": "A thin ochre trace with separated black marks meets the outside of the reddish ribbon's bend; three road branches exist only if f03 is a path."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [810, 799],
+      "branch_count": 3,
+      "evidence_note": "A narrow broken dark-and-ochre trace separates from the reddish ribbon, which continues both upward and downward; the third road branch is conditional on f04 being a path."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Only f01 has a strong road reading. Features f02–f04 are retained as doubtful candidates because their broken symbols may instead denote property boundaries, making all listed junctions conditional. Blue water outlines and sinuous blue traces, along with faint straight grid or fold lines, were excluded."
+}

@@ -1,0 +1,184 @@
+{
+  "tile_id": "cor_e0358_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 769], [26, 765], [49, 755], [64, 731], [84, 719], [110, 707], [143, 702], [170, 710], [205, 728], [241, 744], [282, 758], [324, 772], [344, 768], [365, 744], [388, 716], [417, 701], [450, 682], [474, 674], [488, 673], [510, 682], [532, 702], [555, 729], [580, 753], [607, 771], [637, 779], [666, 774], [705, 771], [746, 772], [779, 773], [799, 774], [814, 746], [829, 719], [844, 695], [864, 678], [891, 659], [918, 641], [946, 620], [958, 608], [977, 627], [1000, 648]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j03", "j04", "j05", "j06"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "An orange ribbon approximately 7–12 px wide has two closely spaced dark stippled margins. It bends repeatedly, crosses thin blue linework, and passes beside red building marks.",
+      "uncertainty_note": "The main course is clear. Contacts with the thinner candidate lines at j01, j03 and j05 are less certain than the main road forks.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[722, 0], [699, 26], [680, 55], [667, 82], [659, 110], [656, 137], [661, 159], [675, 179], [686, 193], [704, 220], [715, 249], [720, 282], [719, 316], [712, 351], [705, 386], [697, 423], [691, 458], [686, 489], [686, 510], [698, 522], [726, 529], [758, 531], [792, 526], [825, 517], [852, 508], [875, 518], [896, 537], [917, 560], [938, 585], [958, 608]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07", "j06"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two dark dotted margins enclose orange colouring. The ribbon runs beside heavier segmented black linework in places, then turns sharply east around v=510.",
+      "uncertainty_note": "The orange road can be followed through the northern lettering from visible margins on both sides. The short possible branch at j07 is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[488, 673], [477, 689], [469, 712], [463, 742], [459, 767], [444, 792], [426, 814], [420, 842], [418, 873], [417, 905], [419, 940], [421, 969], [423, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow orange strip with dark dotted sides separates from the curved road. Its paired margins reappear below the large black lettering and continue to the bottom edge.",
+      "uncertainty_note": "Lettering partly covers the strip near v=800–850; the visible margins above and below support continuity.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[799, 774], [800, 797], [799, 822], [796, 849], [794, 878], [796, 903], [803, 927], [814, 952], [824, 977], [830, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Closely spaced dotted dark margins flank orange colouring. The strip passes beside red rectangular marks and beneath thick black letters.",
+      "uncertainty_note": "The large lettering obscures portions near v=810–860, but aligned orange and dotted fragments support the connection.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[680, 583], [701, 597], [729, 605], [751, 615], [769, 632], [796, 643], [828, 647], [858, 643], [886, 635], [915, 627], [946, 620]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A thinner yellow-orange band has two faint brown edges. It curves above a stronger pink-and-dark polygon outline and approaches the dotted road from the west.",
+      "uncertainty_note": "The western end meets heavy segmented black linework, which conceals whether it terminates or continues. Its faint edges and eastern contact permit a road reading, but a coloured parcel edge remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The band could be a coloured parcel boundary rather than a road; the paired edges are faint."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "If the lighter edge is colour bleed, only one thin brown stroke is present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[532, 702], [541, 671], [553, 643], [570, 623], [591, 613], [616, 608], [630, 603]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin ochre-brown stroke curves northeast from beside the dotted road; parts have a darker companion edge and coincide with black polygon outlines.",
+      "uncertainty_note": "This could be a narrow access line or an edge of the coloured parcel. Its northern tip fades without a clearly drawn continuation; the southern contact is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Read as a thin path where the ochre stroke is independent of the black parcel outline."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to enclose a very narrow pale strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a parcel outline with ochre colouring."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[110, 707], [115, 688], [119, 669], [122, 647]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Short dark strokes border a pale narrow strip immediately north of the orange road. Heavy black lettering and angular outlines cover its upper end.",
+      "uncertainty_note": "A short access track is possible, but the strokes may belong to the adjacent parcel outline. No continuation is asserted through the letter.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip can be read as a narrow track between two dark edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the visible strokes are parcel edges beside lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[686, 193], [672, 190], [660, 183], [657, 178]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short pale-orange connection with dark bordering strokes extends west of the dotted ribbon beside a red rectangular mark.",
+      "uncertainty_note": "Overlapping lettering, building edges and parcel strokes prevent a firm distinction between a short access track and enclosure linework.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible short access track with two close dark margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: coloured enclosure or building-side linework."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [110, 707],
+      "branch_count": 3,
+      "evidence_note": "The orange strip continues east and west; a narrow pale strip bordered by dark strokes approaches from the north. The third branch is tentative because its edges may be parcel linework."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [488, 673],
+      "branch_count": 3,
+      "evidence_note": "Three orange strips with dark dotted margins meet at the crest of the bend: westward, southeastward and southward."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [532, 702],
+      "branch_count": 3,
+      "evidence_note": "Two dotted orange road arms continue through the bend; a thin ochre stroke approaches from the northeast. Counting that stroke as a third road branch is tentative."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [799, 774],
+      "branch_count": 3,
+      "evidence_note": "Dotted orange strips meet from the west, northeast and south beside red and black rectangular symbols."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [946, 620],
+      "branch_count": 3,
+      "evidence_note": "The dotted orange road continues southwest and northeast; the thinner yellow-orange curved band touches its western side. The third branch depends on interpreting that band as a road."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [958, 608],
+      "branch_count": 3,
+      "evidence_note": "Three orange ribbons with dark stippled edges meet from the northwest, southwest and southeast; nearby angular black parcel strokes cross the same small area."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [686, 193],
+      "branch_count": 3,
+      "evidence_note": "The dotted orange ribbon continues north and south; short orange-and-dark linework touches its west side beside a red rectangle. The western branch is tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [120, 622, 183, 699],
+      "why": "Heavy black lettering overlaps angular parcel strokes and possible fine access linework; small continuations cannot be separated confidently."
+    },
+    {
+      "bbox_uv": [645, 150, 705, 205],
+      "why": "Lettering, red building marks and dark enclosure edges overlap the possible short western access branch."
+    },
+    {
+      "bbox_uv": [784, 797, 834, 867],
+      "why": "Thick black lettering conceals fine line detail. The principal dotted road is traceable from fragments on both sides, but additional small branches cannot be read."
+    }
+  ],
+  "overall_note": "The clearest roads are orange ribbons between paired dark dotted margins. Thin ochre lines and short farm-side connections are reported with boundary alternatives, and their junction counts are conditional. Segmented boundary lines, blue water linework and pink parcel outlines were distinguished using the supplied legend and example."
+}

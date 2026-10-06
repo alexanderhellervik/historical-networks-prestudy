@@ -1,0 +1,27 @@
+{
+  "tile_id": "cor_e0364_n6439",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow brown-filled band edged by two rows of fine dots runs from the bottom edge near (55,1000) NE via (150,880), (240,838) and (300,860), crosses the crimson diagonal band near (345,812), turns sharply at (400,745), and then runs ESE via (470,748), (580,780), (700,830) and (780,875) to the right edge near (1000,915). It is the same dotted double-line form the example tile reads as Sämre körväg. The overlay polyline follows it closely along its whole length.",
+      "uncertainty_note": "The course is clear. The class is the soft part: the symbol is two dotted rows rather than solid lines, so dashed_line is a possible symbol-form label. The overlay image does not show which class the proposal gave."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [308, 852],
+      "what_is_contested": "Whether a branch meets f01 here. A black dash-and-dot line runs from about (75,735) SE via (160,775) and (260,810) and reaches f01 at about this point. A short dashed piece near (262,800)-(250,840) also joins it.",
+      "evidence_note": "The line is black, has no brown fill and no dotted edges, and uses a dash-dot pattern that matches the legend's boundary symbols (Hemmansgräns/Sockengräns). I read it as a boundary touching the road, so there is no road junction. Someone who reads it as a track would count a three-way junction here."
+    },
+    {
+      "uv": [345, 812],
+      "what_is_contested": "Whether f01 just crosses the heavy crimson diagonal band (0,450)-(440,910) or meets another road there.",
+      "evidence_note": "The diagonal is a crimson wash edged by a broken black line. It turns sharply at (440,910) and runs back SW to (150,1000), which is how boundaries behave and not how roads behave. I read it as a coloured boundary, so this is a crossing, not a junction. If it were read as a road (Landsväg), this point would be a four-way junction."
+    }
+  ],
+  "overall_note": "The only clear road symbol on the tile is the brown dotted double line traced as f01. The other linework is boundaries (crimson lines and bands, long-dashed and dash-dot black lines) and a stream or shore line with a boundary along it (blue edge with crimson beside it) at v≈360-545. The label 'till Sköfde' at the top suggests a road to Skövde nearby, but nothing inside the tile carries a road symbol at that position; the long-dashed line (540,55)-(1000,195) looks like a skifteslinje, so I did not add it."
+}

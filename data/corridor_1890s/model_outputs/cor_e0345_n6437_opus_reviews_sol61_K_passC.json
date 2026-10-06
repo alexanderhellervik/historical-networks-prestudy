@@ -1,0 +1,91 @@
+{
+  "tile_id": "cor_e0345_n6437",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A coarse dotted line with an ochre/yellow tint runs from the left edge at about (0,790), dips to (130,830), crosses the red boundary near (250,805), rises through (360,740) and (440,655) to (515,605). Barrskog stars lie on both sides of it along most of its length, so it is a line feature, not the edge of a land-cover area. It is heavier and more tinted than the fine dotted outlines of the hatched meadow patches. The polyline follows it closely.",
+      "uncertainty_note": "The legend's dotted symbols (Sämre körväg as a double dotted row, Gångstig as a single dotted row) cannot be told apart reliably at this resolution, so it could be either. The class vocabulary has no dotted class, so dashed_line is the nearest form."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (515,605) a dotted line continues east and crosses the blue watercourse at about (630,583). It then runs along the southern edge of the pink field marked 129.35 to about (820,542), next to the red arrow mark at the village 'Va…'. It continues the f01 line without a break and heads into the village, which suggests the same track.",
+      "uncertainty_note": "East of the watercourse the line also forms the boundary between the pink field and the hatched meadow, and other area outlines on this sheet are also dotted. So this stretch may be only a field edge, with the track ending or turning elsewhere. Where it ends inside the village is not visible."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (488,515) and (515,605) the polyline follows the dotted outline of the hatched meadow and the left edge of the small pink V-shaped field, close to where the dashed boundary meets the red line. Nothing separate from these area outlines is drawn there.",
+      "uncertainty_note": "A short connecting path drawn on top of the area outline cannot be fully ruled out, but nothing marks one."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The diagonal from about (1000,695) to (785,1000) is a heavy, broken black line with a broad magenta wash fading out on its south-east side. On this sheet that looks like a higher-order boundary with a hand-coloured border band: it is not two parallel road casings, and it carries no brown road colour like the roads in the worked example.",
+      "uncertainty_note": "Moderate confidence. If the broken black line were one casing of a wide road filled in pink, this would be a double_line_wide main road. No second solid casing is visible on the south-east side, so the boundary reading is the more likely one."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (870,760) to (825,910) the polyline runs along the eastern edge of the long pink tomt strip of the village. No separate road line is drawn there: what is visible is the outline of the plot and open ground with forest stars.",
+      "uncertainty_note": "The way the plots line up suggests a village street along them, but the street is not drawn as a line. It is equally possible that the polyline is only tracing the plot outline."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short line from about (915,595) to (895,690) among the village buildings. A few dots and building outlines are visible there, but no continuous road symbol can be made out.",
+      "uncertainty_note": "It could be a lane between the farm buildings or just building and plot outlines. The resolution is too low to decide."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short segment at about (748,282) to (790,252) sits where the blue watercourse begins, at the corner of the meadow outline and a small tan patch east of the red boundary. No road line starts or ends there, and it connects to no other road.",
+      "uncertainty_note": "It is short and isolated. A stub of track to the pond area cannot be excluded completely, but nothing drawn supports one."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[905, 830], [950, 880], [1000, 935]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "In the bottom-right corner, south-east of the magenta band, one or two thin dark lines run diagonally from about (905,830) towards the right edge near (1000,935), through forest-star ground.",
+      "uncertainty_note": "Low confidence. The lines are faint and thin, and they may be a boundary or ditch rather than a path. I record it so that it gets checked, not as a firm road.",
+      "alternatives": ["boundary or skifteslinje", "ditch", "single_line footpath (Gångstig)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [515, 605],
+      "what_is_contested": "Whether this is a three-way junction (f01, f02 and f03) or only the point where the track meets the corner of the meadow outline, with f01 simply continuing as f02.",
+      "evidence_note": "The dotted track meets the dotted meadow outline here; that outline runs north towards (490,520) and south towards (510,900). No branch heading off from the track itself is drawn."
+    },
+    {
+      "uv": [820, 542],
+      "what_is_contested": "Where the f01–f02 track ends: at the red arrow mark, or continuing into the village to meet the lanes proposed as f05 and f06.",
+      "evidence_note": "The dotted line fades out into the village label 'Va…' and the building plots, and no continuation can be seen."
+    },
+    {
+      "uv": [630, 583],
+      "what_is_contested": "Whether this is a crossing of the track over the blue watercourse (ford or bridge) or a junction. I read it as a crossing, not a junction.",
+      "evidence_note": "The dotted line passes over the dark blue line without changing direction, and no bridge symbol can be resolved."
+    }
+  ],
+  "overall_note": "The one clear road on this tile is the tinted dotted track f01–f02, which runs from the west edge through forest to the village 'Va…'. The red thin lines, black dashed lines and the magenta-banded diagonal look like boundaries, and the dark blue line is water. The village lanes f05 and f06 cannot be judged at this resolution, and f03 and f07 follow area outlines, not roads."
+}

@@ -1,0 +1,114 @@
+{
+  "tile_id": "cor_e0363_n6430",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous brown (road-coloured) line runs from just below the railway at about (192,98) SE to (470,435), makes the drawn jog west to (435,465) and continues SE to (580,618). This is the same brown-red road colour the worked example reads as a road. The polyline follows it closely, jog included.",
+      "uncertainty_note": "North of the railway (about u 110-190, v 0-95) the overlay continues into the pink-washed corner. There I cannot see a clear brown line, only thin black lines among the building and pink band, so this short northern stretch is not confirmed. At this resolution the brown line looks single with a beaded texture, so it could be a dotted Sämre körväg/Gångstig symbol; the class is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The brown line continues from the junction at about (580,618) SE through (650,700), (690,760) and (800,900) to the village B at about (860,975). Black skifteslinje dashes lie alongside it around (680-720, 740-800), but the brown stroke is continuous.",
+      "uncertainty_note": "Near the lower end, the line enters the built-up symbols of B and meets the crimson boundary near (800,990), so its exact ending at the edge is unclear. Class uncertain as for f01."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line enters at the west edge at about (0,432) and runs straight SE to the farm G at about (160,650). The polyline lies on it.",
+      "uncertainty_note": "It is a long, straight line that would also suit a property boundary, but its colour matches the other brown road lines rather than the black field boundaries or crimson administrative boundaries."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The brown line continues from farm G past (185,700) and (215,745) to (290,765). It then turns NE through (330,740) and (510,670) to meet f01/f02 at about (580,618). The polyline follows it.",
+      "uncertainty_note": "Between about (330,740) and (520,665), a crimson boundary line runs on top of or right beside the brown line, so part of this stretch could be read as the boundary alone. The brown colour is visible along the whole stretch, though. It also crosses the two streams around (350,735) and (515,660)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous brown line runs from the top edge at about (575,0) SE, crossing the river near (760,212), to about (962,490). It runs parallel to the black dashed skifteslinjer but is clearly brown and solid, unlike them.",
+      "uncertainty_note": "Because it runs parallel to the dashed skifte lines, it could be a brown-washed property boundary. I read it as a road from its colour and its link to the junction at (962,490). Class uncertain, as for the other brown lines."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay shows a very short piece from the junction near (962,495) to the east edge. There, the bare tile has a small blue-green filled shape at the edge (about 975-1000, 515-560) and only a faint trace of brown east of the junction.",
+      "uncertainty_note": "The piece is only about 40 px long, at the tile edge, and next to a filled symbol. I cannot see whether a road leaves the junction eastward or whether the brown lines end there."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown curve comes in from the east edge at about (1000,420) and bends SW to the junction at about (962,490).",
+      "uncertainty_note": "It is short and at the edge, so its continuation is off-tile. It may be the same line as f09, running along the right edge off-face."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown arc runs from about (830,488) through (900,505) to the junction at about (962,495).",
+      "uncertainty_note": "Its west end at about (830,488) stops in open field with no visible continuation, so it may be a property line drawn in brown rather than a road. It is fainter than f05."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line runs close to the east edge from about (978,0) down to about (1000,250), where it leaves the face near the river.",
+      "uncertainty_note": "It lies within a few pixels of the tile edge, so most of the road may lie on the neighbouring tile. I also cannot rule out a brown-washed boundary."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin darkish line, possibly doubled, runs from the west edge at about (0,572) to about (75,548), close to f03. It is not clearly in the brown road colour.",
+      "uncertainty_note": "It could be a short farm-track spur joining f03, or simply a field or meadow boundary. The symbol cannot be resolved at this size."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [962, 492],
+      "what_is_contested": "How many branches meet. f05 (from NW), f07 (from NE) and f08 (from W) clearly converge, but it is unclear whether f06 continues east to the edge.",
+      "evidence_note": "Brown lines converge at the east edge next to a blue-green filled symbol, and the eastward continuation is not legible."
+    },
+    {
+      "uv": [580, 618],
+      "what_is_contested": "Whether f04 actually joins the f01/f02 line here as a three-way junction, or whether the NE end of f04 is only the crimson boundary near the stream crossing at (520,662).",
+      "evidence_note": "Brown and crimson lines overlap on the f04 approach. The crimson boundary turns off SE from about (550,670), and the streams meet nearby."
+    },
+    {
+      "uv": [192, 98],
+      "what_is_contested": "Whether f01 ends at the railway by the Bv. building or crosses the railway (a level crossing) and continues north to the top edge, as the overlay draws it.",
+      "evidence_note": "The brown line is clear below the railway. North of the railway, the corner is crowded with the pink wash, the river and buildings, and no brown stroke is legible."
+    },
+    {
+      "uv": [162, 652],
+      "what_is_contested": "Whether this is just a bend (where the overlay splits f03 and f04) or a junction with a short branch into the farm G.",
+      "evidence_note": "The brown line reaches the farm enclosure, and the building outlines make a branch impossible to confirm."
+    },
+    {
+      "uv": [78, 548],
+      "what_is_contested": "Whether a junction exists here at all. It depends on whether f10 is a road.",
+      "evidence_note": "The thin line from the west edge meets the brown line f03 but is not clearly road-coloured."
+    }
+  ],
+  "overall_note": "On this tile the roads are the brown-coloured lines, which the overlay traces faithfully. The black dashed diagonals are skifteslinjer, the crimson lines are boundaries, the dotted lines along the river strip are meadow edges, and the chequered line is the railway. The pink-washed band in the NW corner is probably a boundary wash along the river rather than a road; I did not add it as a feature, and I found no unshown brown road lines."
+}

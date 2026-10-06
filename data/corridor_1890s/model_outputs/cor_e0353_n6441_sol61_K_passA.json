@@ -1,0 +1,147 @@
+{
+  "tile_id": "cor_e0353_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[268, 0], [270, 32], [268, 73], [266, 112], [268, 133], [283, 150], [317, 165], [354, 180], [396, 194], [439, 207], [476, 217], [500, 225]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow rust-coloured ribbon has two closely spaced margins of heavy dark dots or short strokes; it bends away from the blue line near v=135.",
+      "uncertainty_note": "The uppermost portion touches blue ink, making its centre less distinct; the paired dotted ribbon remains traceable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[642, 0], [619, 41], [591, 87], [561, 135], [530, 182], [500, 225]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced rows of dark dots border a rust-coloured diagonal strip, with consistent weight down to the crossing.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[500, 225], [531, 243], [554, 263], [575, 290], [592, 320], [605, 348], [611, 362]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The paired dark dotted margins and rust centre curve southeast; near the endpoint they encounter a red rectangular symbol and heavy black lettering.",
+      "uncertainty_note": "Stopped where the road enters the building and lettering cluster. A continuation into the narrow solid lines below it cannot be established.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[500, 225], [474, 262], [448, 303], [421, 344], [385, 400], [350, 386], [354, 418], [362, 460], [372, 504], [380, 541], [388, 568], [377, 587], [368, 607], [361, 635], [363, 669], [361, 705], [364, 739], [374, 772], [389, 803]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A rust strip with closely spaced dark dotted margins runs southwest, makes a sharp angular detour near (350,386), then continues past red and black rectangular symbols to the southern fork.",
+      "uncertainty_note": "Lettering and building symbols interrupt the margins around v=590–670. Visible portions immediately above and below support the continuation, but the centre there is approximate and a possible side connection is unresolved.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[389, 803], [365, 820], [343, 831], [329, 851], [320, 882], [312, 919], [310, 955], [313, 984], [306, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two dark dotted margins enclose a narrow rust strip; it bends southwest from the fork and becomes nearly vertical toward the bottom edge.",
+      "uncertainty_note": "Near the bottom the dotted margins overlap thin blue parcel or drainage outlines, but the rust strip remains visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[389, 803], [403, 824], [419, 841], [433, 845], [470, 835], [508, 824], [545, 816], [567, 815], [586, 812], [605, 806]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A rust-coloured strip between two dark dotted margins bends southeast, then east. Thin blue-green lines cross it, and a small angular orange-and-dark mark lies at its eastern end.",
+      "uncertainty_note": "Beyond approximately (605,806), the paired dotted treatment becomes indistinct and merges with a thin line bordering a tinted polygon. That possible continuation is recorded separately as f07.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[605, 806], [628, 811], [650, 812], [676, 816]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin dark, mostly solid line extends east from the angular mark; faint brown colour is present nearby, but a second dotted margin is not consistently visible. The line also borders a tan polygon.",
+      "uncertainty_note": "This may continue f06 with a weaker symbol, or may be only the polygon outline. The eastern endpoint marks loss of distinguishable road treatment rather than a demonstrated road termination.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A narrow road or track continuation represented by the visible solid stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: the stroke is a parcel or land-cover boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[375, 613], [390, 610], [410, 605]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short dark strokes and pale brown marks form a possible link between the main dotted strip and a red, dark-outlined rectangle. Black lettering and adjacent rectangles conceal much of it.",
+      "uncertainty_note": "A short access track is possible, but neither continuous margins nor its meeting with f04 can be resolved. No additional junction is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The fragments may be the margins of a short track approaching the red rectangle."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: these are disconnected yard or parcel outlines mixed with building symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[611, 379], [606, 413], [601, 447], [602, 478], [610, 493]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two thin, approximately parallel dark solid strokes enclose a pale strip roughly 6–12 px wide. They descend beneath heavy lettering and bend beside other solid polygon outlines at the lower end.",
+      "uncertainty_note": "The paired strokes resemble a narrow lane, but could outline a narrow parcel. Their connection to f03 and any continuation below (610,493) are not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road reading: the solid pair outlines a narrow lane below the building cluster."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: the pair consists of adjacent parcel edges."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [500, 225],
+      "branch_count": 4,
+      "evidence_note": "Four rust-coloured branches with paired dark dotted margins meet at one crossing; the margins merge without a visible bridge or separation symbol."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [389, 803],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted strip arriving from above divides into southwest and southeast branches; all three have rust centres and similarly weighted dark margins."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [344, 576, 433, 674],
+      "why": "Heavy lettering overlaps closely packed red and black rectangles and short line fragments, preventing a reliable reading of possible side tracks and their connections."
+    },
+    {
+      "bbox_uv": [586, 339, 647, 395],
+      "why": "Large black letter strokes and red and black building symbols conceal the end of the dotted road and any connection to the narrow solid pair below."
+    }
+  ],
+  "overall_note": "The paired dotted rust-coloured roads are the clearest features; double_line_narrow describes their two visible margins. Three weaker candidates are retained with possible non-road readings, and their uncertain connections are not used to complete the network. Blue water and drainage lines and clearly enclosed land-cover polygons are excluded."
+}

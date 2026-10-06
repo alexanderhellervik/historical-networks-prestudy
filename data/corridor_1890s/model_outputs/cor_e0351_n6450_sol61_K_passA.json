@@ -1,0 +1,212 @@
+{
+  "tile_id": "cor_e0351_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,483],[30,472],[68,462],[108,453],[148,437],[188,419],[228,400],[268,381],[309,359],[350,337],[392,315],[431,296],[467,283],[485,282],[510,282],[541,285],[567,282],[597,262],[628,245],[663,239],[694,230],[731,212],[770,196],[810,182],[851,170],[893,160],[935,157],[973,158],[1000,164]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Broad brown band, approximately 14–23 px across, bounded by two heavy dark edges; its bends remain visible across the tile.",
+      "uncertainty_note": "The road reading is strong. The pale transverse line at j02 is much fainter, making its connection less certain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[482,0],[461,34],[444,64],[431,91],[434,114],[450,149],[461,182],[466,217],[478,250],[485,282],[488,319],[484,356],[475,392],[461,427],[441,460],[413,490],[388,514],[373,535]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Pale grey winding strip with two fine, roughly parallel margins, generally 8–15 px apart; it crosses the brown band and continues toward the large lettering.",
+      "uncertainty_note": "Margins are faint and intermittently broken. The southern continuation becomes indistinct beside and beneath the lettering; no connection through that area is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches could be a pale mapped strip with non-road margins rather than a continuously drawn road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,283],[42,280],[84,272],[126,263],[168,253],[210,246],[253,240],[297,238],[338,235],[377,229],[414,222],[443,217],[466,217]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two faint grey edges enclose a light strip approximately 10–16 px wide; the strip bends eastward into the north–south pale strip.",
+      "uncertainty_note": "The southern edge is clearer than the northern one in places; the apparent merge at j01 is faint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road strip or paired boundary remains possible where the upper margin fades."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,719],[27,709],[52,702],[88,690],[125,679],[163,669],[200,657],[235,644],[270,633],[299,619],[318,599],[329,578]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A pale strip follows a strong blue line, with a finer grey line alongside it; the separation varies from approximately 6 to 15 px.",
+      "uncertainty_note": "A narrow road beside the blue line is possible, but the apparent casing could instead belong to the blue line and its margins. Lettering hides the northeastern end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip and grey outer margin could represent a road running beside the blue line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire paired appearance could be stream or ditch drawing, with no separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[52,702],[73,726],[96,754],[121,784],[148,814],[175,844],[201,874],[226,906],[253,940],[281,973],[302,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Broad pale grey diagonal strip with two thin margins, approximately 12–20 px apart; it crosses blue and red strokes without following their bends.",
+      "uncertainty_note": "The strip is much paler than the brown road. Its junction with f04 is conditional on f04 containing a separate road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale band may be a non-road feature or reproduction artifact; its margins lack the strong casing of f01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[269,405],[278,433],[292,464],[307,497],[320,531],[332,564]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Faint grey strokes form a narrow, curving strip beside blue and red lines; portions show two edges roughly 8–12 px apart.",
+      "uncertainty_note": "Neither end can be connected confidently through the overlapping strokes and lettering. A separate track and margins associated with other lines are both plausible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired grey portions could be a narrow track approaching the brown route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes could be margins of adjoining blue-line or enclosure drawing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[535,780],[563,773],[590,770],[618,775],[646,783],[675,788],[701,783],[720,775],[738,760]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Light curving strip with thin grey margins passes above several black and ochre rectangular symbols; its eastward bend reaches large black lettering.",
+      "uncertainty_note": "Symbols obscure the western approach, and lettering obscures the eastern continuation. Connection to f08 is plausible but insufficiently visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Parts of the apparent strip could be enclosure margins rather than a separately cased road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[797,573],[789,598],[783,627],[782,654],[787,679],[779,701]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "Narrow pale curved strip beside a strong black outline, with a second fine grey stroke approximately 6–12 px away; black lettering covers its southern portion.",
+      "uncertainty_note": "The paired strokes may outline an elongated enclosure rather than a track. The northern tip closes or fades; the southern course cannot be carried through the lettering confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A narrow track may run along the western side of the elongated outlined shape."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Both strokes may belong to the enclosure outline, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[479,832],[507,846],[539,855],[572,864],[601,882],[626,907],[648,934],[670,964],[692,992],[699,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Pale grey band with two fine curving margins runs below the black-outlined ochre shapes and bends southeast; margins are approximately 10–18 px apart.",
+      "uncertainty_note": "The northwestern approach is indistinct among outline strokes. Some portions closely parallel a red line, so a separate road is less certain there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale paired appearance could partly reflect enclosure margins or a non-road band."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[640,816],[651,833],[658,851],[667,865],[684,860],[703,853],[724,856],[742,866],[756,886],[765,907],[774,924]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Separate dark dots form a winding chain beside black-outlined ochre shapes; no continuous casing is visible.",
+      "uncertainty_note": "The dots resemble path marks but also follow enclosure edges. Their ends disappear among rectangular symbols and the heavy pink and black line.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the dotted chain is a path, this is the closest available intermittent-line class."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dots may be enclosure or vegetation marks rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,24],[8,18],[15,10],[20,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Short, heavy dark curved stroke clips the upper-left corner, with a narrow ochre area alongside; two independent margins are not clearly resolved.",
+      "uncertainty_note": "Too little of the symbol lies inside the tile to distinguish a clipped route from a heavy outline or glyph.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a short single-stroke route, though a non-road outline is equally possible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [466,217],
+      "branch_count": 3,
+      "evidence_note": "The faint westward paired strip merges with the pale strip continuing north and south; three apparent arms, with fine grey margins."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [485,282],
+      "branch_count": 4,
+      "evidence_note": "The pale paired strip is visible immediately north and south of the broad brown cased band, which continues west and east; four apparent road arms."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [52,702],
+      "branch_count": 3,
+      "evidence_note": "A pale diagonal strip leaves the pale strip beside the blue stroke, producing three apparent arms; this junction depends on the separate-road reading of f04."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [48,526,480,633],
+      "why": "Large heavy 'Aspås' lettering covers several faint grey and blue strokes; their connections cannot be distinguished reliably."
+    },
+    {
+      "bbox_uv": [705,697,984,780],
+      "why": "Large black lettering and the red triangular symbol obscure portions of the pale curved line and nearby outlines."
+    }
+  ],
+  "overall_note": "The brown cased route is clear; pale paired strips and the southern dotted chain support less certain road readings. Thin red enclosure lines, blue water-like lines, and the heavy pink and black railway-like line are excluded except where a separate adjacent route remains plausible. Junctions involving pale strips are conditional on those road readings."
+}

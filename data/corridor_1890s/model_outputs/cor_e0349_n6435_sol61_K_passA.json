@@ -1,0 +1,73 @@
+{
+  "tile_id": "cor_e0349_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 647], [16, 614], [29, 581], [35, 550], [47, 522], [67, 503], [90, 484], [108, 460], [129, 441], [150, 419], [174, 394], [192, 369], [207, 340], [217, 311], [220, 286], [231, 256], [243, 224], [255, 195], [276, 174], [301, 163], [325, 157], [351, 155], [377, 148], [398, 135], [410, 110], [421, 89], [443, 75], [472, 66], [504, 58], [534, 50], [559, 44]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One winding row of heavy black dots or short strokes, with a faint ochre connecting trace and no continuous paired casing. It crosses several straighter red and regularly dashed lines.",
+      "uncertainty_note": "The symbol is predominantly dotted rather than dashed. The upper end becomes indistinct against the vertical scan band and lettering; continuation is not established. Junction j01 depends on accepting the faint western line f03 as a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted path symbol does not exactly match a dashed-line category."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[265, 0], [261, 18], [253, 36], [249, 47], [258, 59], [257, 70], [246, 86], [236, 105], [225, 124], [216, 142], [219, 160], [223, 177]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre-red winding stroke beside blue-green colouring and black-edged tan polygons. Dark edges appear locally paired, separated by roughly 4–8 px, but are interrupted by nearby polygon outlines.",
+      "uncertainty_note": "This is a doubtful road candidate. The apparent second edge may belong to adjacent polygons, and the red stroke may be a boundary. Below the red transverse line, its identity becomes unclear among the polygon edges; no connection to f01 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the locally parallel dark edges belong to one symbol, they could depict a narrowly cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An alternative reading is a coloured boundary beside independently outlined polygons, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 449], [23, 449], [47, 452], [65, 455], [78, 465], [84, 476], [90, 484]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A very fine ochre-brown stroke enters from the west, runs almost horizontally, then bends downward toward the dotted line. No clear paired casing or repeated dots are visible.",
+      "uncertainty_note": "Its meeting with f01 is approximate and faint. It could be a short path, an enclosure edge, or part of a field division; the junction is conditional on the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The faint continuous stroke could represent an uncased path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a field or property boundary adjoining the dotted path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [90, 484],
+      "branch_count": 3,
+      "evidence_note": "The black dotted line continues in two directions while a much finer ochre stroke approaches from the west. Three road branches are supported only if that faint stroke is accepted as f03; the precise meeting is indistinct."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [540, 0, 579, 1000],
+      "why": "A dark vertical paper or scan band locally obscures fine strokes, particularly near the upper endpoint of f01; broad coloured lines remain partly legible."
+    }
+  ],
+  "overall_note": "The dotted winding line is the clearest path; two additional candidates retain boundary alternatives. Straight red parcel-like lines, regular field dashes, blue-green water lines and marsh hatching were excluded. The narrow line beside the northwestern polygons and the central scan band limit certainty."
+  }

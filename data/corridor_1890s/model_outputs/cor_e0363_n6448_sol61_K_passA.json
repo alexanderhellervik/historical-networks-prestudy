@@ -1,0 +1,121 @@
+{
+  "tile_id": "cor_e0363_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,883],[43,863],[87,843],[130,822],[145,815],[190,793],[234,772],[279,750],[323,729],[367,707],[411,686],[455,665],[499,644],[541,624],[577,607],[625,583],[670,561],[696,551],[716,555],[739,549],[762,538],[782,523],[800,501],[822,467],[843,432],[861,395],[879,361],[898,339],[919,319],[948,303],[971,280],[1000,247]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish-brown band has two close dark margins, roughly 6–10 px apart; portions of the margins are dotted or irregular. It bends near (716,555) and continues toward the upper-right edge.",
+      "uncertainty_note": "The course is clear. Printing and colour overlap make the distinction between continuous and dotted margins uncertain in places.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches could be read as paired dotted margins with an overprinted red line rather than continuous narrow casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,611],[25,646],[52,683],[79,722],[107,761],[132,799],[145,815],[169,846],[197,879],[225,912],[253,945],[280,974],[307,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow tan-to-brown strip between close dark, partly dotted edges runs diagonally across the broader reddish route. Both diagonals remain visible immediately around the crossing.",
+      "uncertainty_note": "The paired edges are less distinct northwest of the crossing; the symbol may comprise two interrupted lines.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Paired stippled edges are possible where the apparent casing breaks into dark dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[782,523],[805,550],[828,577],[849,592],[866,594],[892,586],[918,572],[944,552],[970,527],[1000,505]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close dark edges with brown colouring between them leave the bend of f01, turn southeast, then curve east and northeast. Dark stippling is visible along portions of the edges.",
+      "uncertainty_note": "The course is visible throughout, although the edge strokes are locally merged by the brown colouring.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The margins may be paired dotted strokes rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[577,607],[582,622],[592,637],[605,650],[615,662]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short oblique sequence of small dark dots and strokes descends from the lower road margin toward outlined rectangular symbols; no continuous casing is resolved.",
+      "uncertainty_note": "This is a candidate access path. Its lower course becomes mixed with small symbols, so it is stopped without connecting it through the building outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A single dotted path is a plausible reading of the aligned dark marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: some marks could belong to parcel divisions or the adjacent small symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[625,583],[635,599],[646,615],[653,630]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Faint separated dark marks appear to descend obliquely from the road toward the small numerals and outlined symbols below it; a second edge is not resolved.",
+      "uncertainty_note": "Both the road attachment and the alignment of these marks are tentative. The sequence is stopped where lettering and small outlines prevent a reliable continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The marks may constitute a short single dotted access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: disconnected printing marks or a parcel line; under this reading j04 is not a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [145,815],
+      "branch_count": 4,
+      "evidence_note": "Two narrow brown bands with close dark margins intersect; each band is visible on both sides, giving four branches."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [782,523],
+      "branch_count": 3,
+      "evidence_note": "The close dark margins of the brown route divide into three visible arms: southwest, northeast and southeast."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [577,607],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the brown, closely edged route pass a descending sequence of dark dots; the third arm is the candidate path f04."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [625,583],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the brown route pass faint oblique dark marks at its lower margin; the third arm and this junction are tentative because those marks may not form a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [575,620,704,695],
+      "why": "Tiny separated marks overlap numerals and rectangular outlines; the continuations of the candidate access paths cannot be resolved reliably."
+    }
+  ],
+  "overall_note": "The three brown, closely edged routes are the clearest road symbols. Short dotted access candidates beside the buildings remain uncertain and are stopped at unresolved marks. The straight red divisions across the hatched area and the long thin parcel dashes are read as boundaries."
+}

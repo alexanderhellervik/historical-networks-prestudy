@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0358_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,174],[41,184],[70,196],[108,201],[153,205],[195,203],[231,196],[265,184],[295,173],[324,153],[357,129],[398,106],[435,96],[472,88],[519,77],[557,65],[592,54],[618,63],[648,81],[674,105],[690,130],[718,149],[753,165],[782,182],[809,207],[839,231],[870,241],[913,249],[955,255],[1000,264]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A winding brown band has two irregular dark, partly stippled margins approximately 5–9 px apart; horizontal hatching and thin angular outlines meet or cross it.",
+      "uncertainty_note": "The road reading is strong, but the interrupted margins do not clearly match a listed symbol form. j02 is conditional on f06 being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two interrupted dark margins could be read as narrow paired road lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[425,0],[425,26],[420,52],[410,82],[398,106]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A brown strip approximately 7–10 px wide, with uneven dark margins, curves down from the upper edge and merges with the similarly coloured strip of f01.",
+      "uncertainty_note": "Its margins are too irregular to distinguish continuous double lines from a stippled road symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow paired-line reading of the dark margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[447,0],[470,10],[504,17],[545,18],[582,18],[622,22],[664,24],[707,24],[750,24],[790,27],[827,28],[858,18],[889,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A shallow brown band runs just inside the upper edge, with close dark edging; several thin black polygon outlines attach to it.",
+      "uncertainty_note": "This may be a road, but a coloured field or property edge is also plausible. j03 is conditional on both this feature and f06 being roads.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If a road, the close dark edges could represent narrow paired lines."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a coloured boundary along the adjoining polygon outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,887],[22,882],[46,891],[78,911],[107,930],[137,949],[169,969],[198,987],[220,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy dark rims enclose a broad pink-brown band approximately 12–18 px wide; the line crosses hatching and runs beside a separate blue outline.",
+      "uncertainty_note": "The broad casing is clear; the short bend at the left edge is slightly blurred.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[327,912],[340,932],[361,951],[391,962],[429,961],[465,954],[502,953],[541,955],[580,950],[618,948],[657,948],[695,946],[728,945],[755,953],[784,970],[814,984],[847,992],[880,998],[897,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A narrow ochre-brown line with scattered dark edging bends across the lower strip; long black dashes and blue irregular lines cross it, without matching its colour or course.",
+      "uncertainty_note": "The western beginning is unclear beside the heavy red vertical line, so no connection through that line is inferred. The drawing could also be a coloured parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre stroke may be a single path line with incidental dark marks alongside."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a winding coloured property or field boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[553,0],[545,18],[531,46],[519,77],[505,107],[490,142],[474,179],[458,216],[440,246],[423,268]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two heavy dark blue-black strokes approximately 15–25 px apart descend diagonally, cross the brown bands, and open into the pale blue outlined shape; no repeated railway ties are apparent.",
+      "uncertainty_note": "A water channel with paired banks is the stronger reading. This is retained as a doubtful road candidate because the upper paired strokes also resemble road casing; no continuation across the blue shape is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible road reading if the paired strokes are casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: two banks of a channel entering the blue water symbol."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [398,106],
+      "branch_count": 3,
+      "evidence_note": "The brown strip from above visibly merges into the winding brown strip, producing three arms with similar dark irregular edging."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [519,77],
+      "branch_count": 4,
+      "evidence_note": "The brown strip crosses both heavy diagonal strokes without a clear break or junction dot; four road arms exist only if f06 is a road, and a channel crossing is also plausible."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [545,18],
+      "branch_count": 4,
+      "evidence_note": "The near-horizontal brown band crosses the paired diagonal dark strokes; four road arms are conditional on both f03 and f06 being roads, with no explicit junction marker visible."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Irregular stippling makes several road symbol forms uncertain. The near-top band and paired approach to the blue water symbol are retained as doubtful features, with conditional junctions explicitly identified. Straight red divisions, long boundary dashes, other blue water lines and angular field outlines were excluded."
+}

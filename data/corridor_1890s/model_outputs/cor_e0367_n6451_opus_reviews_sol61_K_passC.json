@@ -1,0 +1,59 @@
+{
+  "tile_id": "cor_e0367_n6451",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous tan-filled double line runs along the lower edge of the hatched area from the west edge at about (0,445) through (300,432), (550,415), (850,372) to the east edge at about (1000,312). It has a thin upper line and a heavier lower line, like the legend's Landsväg och Bygdeväg. The farms B. and 3B. and the plot at (550,440) sit directly on it. The overlay polyline follows it closely along its whole length.",
+      "uncertainty_note": "The strip also coincides with the boundary of the hatched (water or wet-ground) area, so it could in principle be a coloured shore band rather than a road. The paired lines with tan fill and the farms strung along it make a road much more likely. I am not certain whether it is landsväg or bättre körväg, but the form is a wide filled double line either way."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two parallel dotted rows with a light tan fill run from the west edge at about (0,655) through (180,662), (250,705), (355,800), (440,848), (520,888), (578,925), (650,912), (770,852), (850,868) and (930,915) to the farm at about (975,948). This matches the legend's Sämre körväg (double dotted line). The overlay follows it closely, including the bend at (578,925) and the high point at about (780,852).",
+      "uncertainty_note": "The symbol form is a pair of dotted rows. It could be filed as double_line_narrow rather than dashed_line, and I cannot see which class the overlay assigns. Where it crosses the red boundary at (765,855) and the field line at (185,662), these are crossings, not junctions. The road may run a few px further east than the overlay's end, to the buildings at about (995,960)."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same double dotted symbol as f02 branches off it at about (355,805) and runs south-west through (335,845) and (322,880) to the green farm plot of Backen 2T. The overlay branch follows it.",
+      "uncertainty_note": "The dotted road is clear down to the top of the plot at about (322,885). The overlay continues along the plot's west edge to about (235,968). That stretch may be the plot edge rather than the road, though faint dots seem to follow it. The lower third is less certain than the upper part."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about u=518, v=425-465, the only drawn lines are the dark outline of the small green garden/tomt plot that abuts f01 and a building symbol. No double, dotted or filled road symbol leaves the main road here, and the farm touches the road directly.",
+      "uncertainty_note": "A very short access from the road into the yard would not need a separate symbol. I cannot rule out that the reader intended one, but nothing road-like is drawn."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (348,408)-(352,440) a single thin dark line runs from the road north into the hatched area, and below the road there is a small white enclosure at (345-368,440-468). A lone hairline into water/wet ground fits a pier, fence or property line. It is not a road symbol: it has no doubling, no dots and no fill.",
+      "uncertainty_note": "It could be a jetty or landing path to the water. Even then it is not drawn with any of the legend's road symbols."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [522, 888],
+      "what_is_contested": "Whether this is a junction or a crossing: a thin solid line runs from the stream at about (590,778) south-west through (530,860) to the bottom edge at about (475,1000), crossing f02 here.",
+      "evidence_note": "The line is thin, single and greyish-teal, with no dots or fill. It starts at the stream, so I read it as a ditch or brook and treat this point as a crossing. If it were a footpath (Gångstig is a single dotted line in the legend, and this line looks solid), it would be a three- or four-way junction with f02."
+    },
+    {
+      "uv": [355, 805],
+      "what_is_contested": "The exact position of the f02/f03 fork, not its existence.",
+      "evidence_note": "The dotted rows of f03 merge into the south side of f02 somewhere between about (350,798) and (362,812). The fork is clearly a three-branch junction. Its precise position is uncertain only by about 10 px."
+    }
+  ],
+  "overall_note": "My independent reading has two roads: the filled double-line road along the shore (f01) and the double-dotted sämre körväg crossing the south of the tile (f02), with its branch to Backen (f03). The overlay matches these, and I found no further roads. f04 and f05 are short lines at plot edges and a hairline into the water, not road symbols. The red lines, the blue double-line stream with its inner red boundary and the thin teal line to the bottom edge are boundaries and watercourses, not roads."
+}

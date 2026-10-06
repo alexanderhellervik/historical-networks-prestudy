@@ -1,0 +1,235 @@
+{
+  "tile_id": "cor_e0357_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,393],[37,365],[75,337],[114,318],[151,296],[188,276],[224,249],[265,224],[309,200],[350,175],[389,151],[430,126],[471,99],[499,80],[516,62],[524,42],[526,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, substantially continuous dark edges enclose a brown band approximately 10–16 px wide. Red and black building rectangles sit beside both edges; the band bends upward near its upper end.",
+      "uncertainty_note": "Some short portions merge with adjoining black building marks, but the two road edges remain traceable on either side.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,121],[26,159],[51,193],[70,225],[90,262],[106,294],[114,318]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow brown stroke carries closely spaced dark dots or short marks. Its edges are less distinct than those of f01; black rectangular symbols crowd its lower end.",
+      "uncertainty_note": "The reproduction does not consistently resolve whether there are two dotted edges or one dotted stroke. The last few pixels merge with black symbols before reaching f01.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The brown band may have two closely spaced dotted margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark marks may represent one interrupted path line; a boundary interpretation remains possible where individual marks merge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[124,0],[137,30],[151,55],[169,82],[188,111],[201,148],[211,184],[219,218],[224,249]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A thin brown line with small dark intermittent marks descends through the large lettering and beside red building symbols, ending against the upper edge of f01.",
+      "uncertainty_note": "Letter strokes obscure parts of the upper course. Visible brown and dotted portions on both sides support the connection, but those waypoints and the exact edge intersection are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions suggest two dotted edges enclosing a narrow brown band."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "At this resolution the marks can also be read as one interrupted stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[309,200],[316,230],[331,260],[351,297],[372,335],[369,348],[354,365],[347,378],[352,394],[379,412],[405,431],[426,454],[441,467],[455,493],[477,530],[501,568],[524,605],[548,642],[572,677],[596,713],[621,750],[647,788],[670,813]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two close rows of dark dots or short strokes border a brown strip, generally about 5–8 px wide. The strip makes a conspicuous leftward kink near [372,335] and another bend across the thick blue line near [347,378].",
+      "uncertainty_note": "Black building marks partly cover the connection to f01, but aligned brown portions support it. At [670,813] the dotted brown stroke merges with the outline of a pale green strip; any continuation is separated as f11.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Where the two margins merge, the symbol resembles one interrupted line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[471,99],[489,132],[508,165],[528,201],[548,235],[570,270],[591,305],[610,341]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow brown band with small dark intermittent marks leaves f01 southeastward, crosses the heavy blue stroke, and remains visible over the green tint.",
+      "uncertainty_note": "The upper connection is crowded by black and red rectangles. Near [610,341] the brown dotted symbol disappears into a paired green-patch outline; f10 records that possible continuation separately.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The small marks are not everywhere separable into two margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,444],[26,482],[53,520],[77,556],[92,584],[112,619],[134,650],[152,674],[179,714],[205,751],[232,790],[260,832],[288,873],[316,914],[344,949]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A brown strip approximately 5–8 px wide has closely spaced dark dotted margins. It crosses thick blue strokes and receives another similarly drawn strip at [152,674].",
+      "uncertainty_note": "At [344,949] the brown dotted symbol meets converging outlines of a pale green patch. The possible continuation to the bottom edge is recorded as f09.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some short sections resolve as only one row of dark marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,759],[36,737],[74,715],[112,695],[152,674]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow brown band with dark dotted margins runs northeast from the left edge and meets f06. The brown drawing reaches the junction rather than continuing along the adjacent green-patch border.",
+      "uncertainty_note": "Individual dots merge locally, making the distinction between a paired symbol and a single interrupted stroke uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The merged dots could be read as one interrupted line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[609,0],[634,29],[646,58],[651,94],[654,131],[657,157],[668,191],[691,230],[718,271],[745,310],[773,351],[803,393],[833,435],[864,478],[894,520],[919,554],[932,570],[965,599],[1000,625]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantially continuous dark edges enclose a brown strip roughly 5–9 px wide. The strip curves near the top, crosses heavy blue strokes, and bends southeast at the dotted branch connection.",
+      "uncertainty_note": "At the blue crossings, dark outlines briefly merge; the brown strip and its course are visible immediately on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[344,949],[331,964],[317,978],[310,989],[312,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Two close dark outlines enclose a pale, partly green-tinted strip extending southwest from the end of f06. There is no clearly resolved brown fill or dotted road margin here.",
+      "uncertainty_note": "This may continue f06, but it may instead be the paired outline of a narrow land-cover patch. The meeting at [344,949] does not establish an additional road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible short continuation of f06 through a pale strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road outline of the green-tinted polygon; under this reading f06 stops at [344,949]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[610,341],[618,362],[635,384],[655,402],[676,424],[696,441]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Two thin dark outlines enclose a narrow green-tinted finger, approximately 5–9 px across, extending from the lower end of f05 and closing at its southeast tip.",
+      "uncertainty_note": "No independent brown or dotted road stroke can be separated from the polygon outline. A continuation of f05 is possible, but a land-cover boundary is the stronger competing reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired outlines could depict a narrow continuation of f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road perimeter of a narrow green patch; under this reading f05 stops at [610,341]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[670,813],[655,826],[639,838],[632,846],[637,857]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short pale strip between two thin dark outlines leads southwest from the end of f04 into several adjoining outlined shapes. Green tint is visible inside parts of the strip.",
+      "uncertainty_note": "The dotted brown drawing of f04 is not independently visible here. This could be a short track continuation or simply the connecting outline of the green patches; its lower end merges with other polygon edges.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible continuation of f04 along the paired outlines."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road land-cover outline; under this reading f04 stops at [670,813]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[932,570],[905,600],[880,632],[854,669],[832,704],[820,727],[821,753],[832,790],[846,833],[860,875],[877,914],[899,950],[916,979],[925,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of dark intermittent marks enclose a brown strip. It branches from the continuous dark-edged road, curves left near [820,727], then bends downward beside outlined green patches.",
+      "uncertainty_note": "The dotted margins sometimes merge into one dark row, especially beside polygon outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Parts of the symbol could be read as one interrupted stroke."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [114,318],
+      "branch_count": 3,
+      "evidence_note": "The thin brown dotted stroke approaches the upper side of the broad brown band, which continues in both directions; nearby black rectangles partly crowd the contact."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [224,249],
+      "branch_count": 3,
+      "evidence_note": "A narrow brown interrupted stroke ends against the upper dark edge of the broad road, whose two cased branches remain continuous."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [309,200],
+      "branch_count": 3,
+      "evidence_note": "A narrow brown branch leaves the lower side of the broad road; black building marks partly overlap its first section, with aligned brown drawing visible beyond them."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [471,99],
+      "branch_count": 3,
+      "evidence_note": "The broad brown road continues northeast and southwest while a thinner brown dotted strip leaves southeast beside black and red rectangular symbols."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [152,674],
+      "branch_count": 3,
+      "evidence_note": "Three brown dotted arms meet: two follow the northwest–southeast strip and one approaches from the southwest; the northeast green-patch border lacks a separate brown road stroke."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [932,570],
+      "branch_count": 3,
+      "evidence_note": "The continuously dark-edged brown road bends southeast, while a narrower strip with dotted margins branches southwest from the bend."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main difficulty is resolving the dotted margins of the thinner brown tracks and separating their endpoints from paired green-patch outlines. Features f09–f11 preserve possible continuations whose road interpretation is doubtful. Thin field divisions, blue water strokes, and ordinary green-patch perimeters are otherwise excluded."
+}

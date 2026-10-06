@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0346_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 55], [29, 65], [73, 65], [119, 56], [155, 51], [177, 49], [193, 65], [207, 95], [232, 121], [269, 148], [292, 169], [330, 191], [372, 214], [414, 235], [454, 255], [485, 281], [514, 310], [535, 329], [564, 340], [585, 332], [615, 315], [643, 309], [682, 320], [724, 332], [764, 344], [794, 353], [827, 348], [853, 341], [875, 349], [903, 359], [937, 362], [962, 368], [981, 376], [1000, 384]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A reddish strip about 5–8 px wide has dark, irregularly dotted edging, locally visible on both sides; its appearance resembles the example's cart track.",
+      "uncertainty_note": "The broken edging is clearer than the separation of two continuous strokes. Junction j01 is conditional on the faint grey crossing being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark edging could be read as paired dotted or broken rows rather than narrow continuous casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary remains a possible reading where only one dark dotted edge can be distinguished."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[165, 1000], [188, 991], [209, 981]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A fine reddish-brown stroke runs northeast from the bottom edge and meets the blue-green outline of the small oval; separate parallel edges are unresolved.",
+      "uncertainty_note": "The stroke cannot be followed through or around the oval. Its connection with f03 is unproven.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This short coloured stroke could be a boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[274, 958], [300, 965], [335, 973], [370, 977], [402, 974], [430, 968], [467, 966], [492, 966], [510, 971], [541, 964], [576, 963], [611, 959], [636, 949], [659, 938], [684, 916], [711, 898], [728, 900], [746, 910], [765, 925], [779, 934], [795, 953], [812, 974]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin ochre-red stroke with a darker brown edge undulates across the lower tile, then bends southeast; it is much finer than f01 and lacks clearly separated casing.",
+      "uncertainty_note": "The western start fades beside the small oval. The southeastern end becomes confused with black lettering and the blue-green outline; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property boundary is also plausible; diagnostic dots or paired road edges are not clear."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches appear to have two very closely spaced brown edges, but these cannot be resolved consistently."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[851, 0], [810, 44], [770, 87], [732, 129], [693, 170], [654, 211], [614, 253], [575, 294], [535, 329], [501, 367], [463, 407], [424, 448], [386, 490], [349, 530], [313, 569], [276, 609], [239, 649], [203, 687], [165, 714]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint, nearly straight grey-brown band crosses the reddish line and marsh hatching; locally it has a darker edge and a lighter parallel stripe several pixels apart.",
+      "uncertainty_note": "This is a doubtful road candidate. Its diffuse weight and straight course also support a crease, ruled mark or other non-road line; the southwest continuation fades before f05.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two faint edges are intentional linework, this could be a faded narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a sheet crease or another non-road mark; under that reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 883], [27, 854], [56, 823], [78, 802], [95, 785]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A pale grey diagonal stroke has a darker margin and a narrow light stripe, with no distinguishable dots or regular dashes.",
+      "uncertainty_note": "It aligns approximately with f04, but the intervening trace is too weak to connect them. Its upper end becomes confused with f06.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint parallel margins could represent a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A continuation of the grey sheet mark or crease is equally plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[100, 785], [143, 776], [191, 767], [240, 758], [289, 750], [338, 741], [387, 732], [436, 723], [485, 714], [534, 705], [583, 696], [632, 686], [681, 676], [730, 668], [779, 660], [828, 650], [877, 642], [926, 635], [975, 628], [1000, 624]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A faint tan-grey band runs obliquely across the lower middle, with uneven darker edging and locally a pale parallel margin; it crosses the thin vertical grey line.",
+      "uncertainty_note": "No definite dotted, dashed or cased road symbol is resolved. The western end fades near f05, and no three-branch road meeting is established there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale band between darker margins could be a faded narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A fold, ruled mark or other non-road line is also supported by its diffuse, nearly straight appearance."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [535, 329],
+      "branch_count": 4,
+      "evidence_note": "The reddish, dark-edged trace crosses the faint grey diagonal, leaving four visible candidate arms. This is a conditional road junction: no distinct joining symbol is visible, and the grey trace may be a non-road mark."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [202, 951, 280, 1000],
+      "why": "The small blue-green oval and faint surrounding strokes prevent a reliable connection between the lower reddish fragments."
+    },
+    {
+      "bbox_uv": [790, 955, 842, 1000],
+      "why": "Black lettering and the blue-green outline obscure the continuation of the southeastern reddish trace."
+    }
+  ],
+  "overall_note": "The upper reddish trace is the strongest road reading; the lower fine reddish strokes also admit a boundary interpretation. The grey candidates are included with substantial doubt, and their single listed junction is conditional. Blue-green branching lines, marsh outlines and the thin vertical ruled trace are not counted as roads."
+}

@@ -1,0 +1,207 @@
+{
+  "tile_id": "cor_e0346_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[551, 0], [521, 20], [491, 44], [463, 71], [438, 94], [416, 106], [390, 111], [363, 110]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A broad brown band lies between two heavy dark outlines, approximately 15–22 px apart; its edges remain visible through the bends.",
+      "uncertainty_note": "The road is clear. The northwest branch at the endpoint is less certain, making j01 conditional.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[363, 110], [349, 124], [342, 142], [341, 162], [350, 186], [348, 201], [336, 219], [319, 237], [306, 252]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark casings enclose continuous brown colouring around the S-shaped bend; a narrower brown strip crosses its southern end.",
+      "uncertainty_note": "The course is clear; the northwest arm of j01 and northeast continuation from j02 have alternative readings.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[306, 252], [299, 278], [292, 305], [283, 339], [278, 372], [271, 408], [266, 438]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown strip, generally 12–18 px wide, has dark outlines on both sides; large black lettering overlaps its upper portion.",
+      "uncertainty_note": "The brown strip and both edges are visible above and below the lettering, supporting continuity. The short eastern arm at j03 may instead be parcel linework.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[266, 438], [259, 472], [248, 509], [232, 539], [212, 560], [184, 583], [151, 606], [128, 622], [111, 645], [100, 674], [94, 708], [93, 747], [94, 786], [98, 823], [109, 857], [129, 890], [151, 919], [165, 945], [178, 975], [184, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The brown cased strip descends southwest, then becomes a grey strip between dark edges. Pink colouring runs beside much of the grey section; near the bottom, paired road edges continue south while the pink-edged line turns west.",
+      "uncertainty_note": "Between approximately v=590 and v=920, road casing and the thick coloured boundary overlap, making the road centre less precise.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The southern grey strip may represent narrower road casing partly enlarged by adjacent boundary shading."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some of the grey width along the shared course may belong entirely to the boundary symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[306, 252], [277, 253], [248, 253], [219, 256], [187, 256], [156, 257], [129, 260], [107, 255], [86, 254], [75, 254]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close dark, partly broken edges enclose a narrow ochre strip west of the main road. At its western end the ochre fill fades and small dark marks continue toward the blue shoreline.",
+      "uncertainty_note": "The last approximately 50 px are weak and merge with shoreline and vegetation marks; no continuation across those marks is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "Some small marks beside the ochre strip could be tree symbols, although distinct trunks and paired tree rows are unresolved."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The faint western continuation could be a boundary rather than part of the road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[306, 252], [334, 254], [366, 257], [399, 262], [421, 257], [444, 244], [465, 225], [487, 203], [509, 183], [532, 162], [558, 140], [586, 114], [613, 88], [642, 64], [669, 40], [692, 17], [704, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre strip runs east from the main road and turns northeast. Along the diagonal, one edge has conspicuous dark dots or short strokes, with a finer blue-grey line nearby; a separate dotted line branches east near [586,114].",
+      "uncertainty_note": "The horizontal portion looks road-like, but the diagonal could be a coloured property boundary. Its relationship to the eastward dotted line is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the ochre strip and its two unequal edges as continuous narrow road casing."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Read the broken diagonal as a track whose nearby fine line belongs to adjoining enclosure linework."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the northeast diagonal as a property boundary; under this interpretation the road ends near [421,257], and j02 has three road branches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[363, 110], [353, 99], [343, 80], [332, 60], [321, 48], [304, 40], [293, 25], [280, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pale strip approaches the broad brown road from the northwest. Dark and reddish strokes form its sides, with changing separation near [321,48].",
+      "uncertainty_note": "The apparent casing may instead consist of adjacent field and property boundaries; j01 is a three-branch road junction only under the road interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale interval between the two strokes could be a narrow road joining the brown road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes could outline adjoining parcels, with no northwest road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[144, 0], [133, 10], [124, 19], [119, 24]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short oblique mark clips the top edge: closely spaced dark strokes surround a small pale-brown interval and taper at its southwest end.",
+      "uncertainty_note": "Too little of the symbol is exposed to distinguish a short road segment from the corner of a narrow enclosed area.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could be road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The mark could be enclosure linework rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[266, 438], [281, 440], [298, 444], [313, 446]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short pale strip extends east from the brown road between close blue-dark strokes, approximately 8–12 px apart, beside the green-filled area.",
+      "uncertainty_note": "The strip could be an access path, but the strokes also resemble boundaries around narrow coloured parcels. Its eastern end merges with dense fine linework.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the pale strip as a short cased access track."
+        },
+        {
+          "proposed_class": "park_path",
+          "note": "It could be a path entering the green area."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be parcel or land-cover edging; under this reading j03 is absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[394, 336], [382, 347], [370, 365], [360, 384], [351, 397], [359, 405], [376, 409], [391, 401], [401, 389]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A fine blue-grey curved stroke encloses a pale interval within the green area; nearby oval vegetation marks and darker strokes interrupt its apparent edges.",
+      "uncertainty_note": "This is a possible internal path fragment, but a second casing is not consistently resolved. Neither its closure nor connections to other lines can be established.",
+      "alternatives": [
+        {
+          "proposed_class": "park_path",
+          "note": "The curved pale interval could be a path within park-like green symbology."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Only one continuous fine stroke may represent the path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The curve could instead outline vegetation or a small land-cover patch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [363, 110],
+      "branch_count": 3,
+      "evidence_note": "The broad brown cased strip continues northeast and south; a narrower pale strip between dark and reddish strokes touches its northwest side. The third road branch is conditional on f07 being a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [306, 252],
+      "branch_count": 4,
+      "evidence_note": "The broad brown strip has north and south arms; narrower ochre strips touch it from west and east. Four apparent arms are visible, though the east arm has a boundary alternative."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [266, 438],
+      "branch_count": 3,
+      "evidence_note": "The brown cased strip continues north and south, and a short pale strip between close dark strokes touches its east edge. The third branch is conditional on f09 being a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [303, 274, 529, 423],
+      "why": "Fine internal linework overlaps vegetation ovals, red building symbols, blue-grey strokes and lettering. Individual additional paths, their connections and any internal junctions cannot be reliably separated; f10 records only one visible candidate curve."
+    }
+  ],
+  "overall_note": "The broad cased road is readable, but its southern course shares heavy coloured boundary linework. Narrow strips and internal green-area curves support competing road and enclosure readings, retained in the alternatives. The angular pink-edged line toward the right edge and the clearly outlined or hatched land-cover patches were read as non-road symbols."
+}

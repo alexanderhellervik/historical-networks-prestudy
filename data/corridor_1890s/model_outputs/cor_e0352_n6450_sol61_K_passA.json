@@ -1,0 +1,161 @@
+{
+  "tile_id": "cor_e0352_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 169],
+        [29, 183],
+        [51, 189],
+        [79, 188],
+        [118, 179],
+        [157, 163],
+        [195, 146],
+        [221, 136],
+        [244, 139],
+        [260, 145],
+        [280, 142],
+        [308, 124],
+        [331, 111],
+        [359, 104],
+        [391, 101],
+        [413, 94],
+        [438, 73],
+        [453, 55],
+        [467, 53],
+        [490, 61],
+        [517, 68],
+        [542, 64],
+        [568, 54],
+        [595, 40],
+        [616, 33],
+        [637, 34],
+        [663, 46],
+        [688, 55],
+        [721, 76],
+        [757, 99],
+        [793, 121],
+        [819, 143],
+        [839, 168],
+        [852, 197],
+        [862, 225],
+        [872, 252],
+        [885, 262],
+        [905, 261],
+        [935, 251],
+        [966, 236],
+        [1000, 220]
+      ],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose a continuous orange-brown strip approximately 14–22 px wide; the casing follows every bend, without regularly spaced flanking tree symbols.",
+      "uncertainty_note": "The pink and black boundary stroke briefly covers the casing near [58, 190], but the road is aligned and visible immediately on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [780, 433],
+        [810, 407],
+        [837, 386],
+        [853, 369],
+        [864, 349],
+        [874, 325],
+        [891, 310],
+        [926, 292],
+        [962, 272],
+        [1000, 249]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A faint grey line and pale beige strip run diagonally toward the right edge; beside the coloured parcel, a red-dark stroke lies roughly 8–15 px to the southeast, giving locally paired edges.",
+      "uncertainty_note": "This is a possible narrow track, but independent road casing cannot consistently be separated from the parcel outline. The southwest end merges with dense horizontal hatching; no continuation through it is established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The grey outer line and darker inner line may enclose a narrow road strip."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The faint grey diagonal may be a separate path alongside the coloured boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the apparent strip may be an outline or colour margin belonging to the parcel boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [130, 759],
+        [151, 749],
+        [170, 738],
+        [178, 741],
+        [179, 780],
+        [179, 828],
+        [179, 877],
+        [176, 923],
+        [176, 950]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow grey-beige strip lies between a red-dark parcel edge and a thin dark line beside the horizontal hatching; the edges are approximately 10–20 px apart along the nearly vertical portion.",
+      "uncertainty_note": "A track is possible, but these strokes may simply delimit the coloured parcel and adjoining hatched shape. Both ends merge into those outlines, so neither an onward road nor a definite dead end can be read.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both bounding strokes belong to one feature, they form a narrow cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: separate parcel and hatched-area outlines create the apparent corridor."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [472, 935],
+        [489, 900],
+        [510, 869],
+        [536, 858],
+        [576, 850],
+        [594, 851],
+        [617, 875],
+        [646, 866],
+        [668, 873],
+        [684, 908],
+        [695, 952],
+        [713, 984],
+        [727, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A pale beige-grey band follows the outside of a red-dark angular outline near the bottom; a faint outer stroke is locally visible about 8–18 px from the stronger inner stroke.",
+      "uncertainty_note": "The band could represent a track, but it may instead be a colour margin around the parcel. Near the southwest endpoint, faint internal strokes prevent a secure continuation toward the bottom edge; the reported course follows only the visible outer band.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint outer stroke and strong inner stroke may be the two edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the band belongs to the parcel boundary and its surrounding colour wash."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [460, 930, 585, 1000],
+      "why": "Faint overlapping grey-beige strokes, coloured outlines and a cropped dark rectangular symbol prevent reliable separation of any track continuation from internal parcel drawing."
+    }
+  ],
+  "overall_note": "The broad cased road across the upper tile is clear; three pale strips are retained as uncertain track candidates with non-road alternatives. Pink-black boundary strokes, blue stream lines and horizontal-hatched outlines were excluded as roads. No three-branch road junction is visibly established."
+}

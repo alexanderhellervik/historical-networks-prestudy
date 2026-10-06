@@ -1,0 +1,162 @@
+{
+  "tile_id": "cor_e0355_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[222,0],[217,50],[213,100],[208,150],[203,200],[199,250],[192,300],[187,350],[181,390],[178,404],[169,440],[160,472],[153,500],[168,522],[197,553],[229,587],[263,623],[298,662],[332,704],[365,738],[398,758],[432,779],[475,805],[517,832],[559,859],[600,880],[641,909],[682,938],[721,965],[759,991],[770,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03","j05","j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown strip has two closely spaced dark, frequently dotted edges; it bends sharply near (153,500) and continues beneath the large black lettering.",
+      "uncertainty_note": "The dotted edges make the exact symbol class uncertain. Continuity beneath the lettering is supported by aligned strokes on both sides; j03 and j06 depend on the candidate readings described below.",
+      "alternatives": [{"proposed_class":"unknown","note":"The two edges are punctuated rather than consistently solid."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,386],[45,392],[90,396],[133,401],[161,404],[178,404]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two close dark, partly dotted edges enclose an orange-brown band that joins the north-south band.",
+      "uncertainty_note": "The black character near the left edge overlaps part of the lower edging, but the course remains visible.",
+      "alternatives": [{"proposed_class":"unknown","note":"The irregular dotted casing does not exactly match a continuous double-line symbol."}]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[365,738],[354,774],[342,815],[330,856],[319,899],[306,942],[294,976],[285,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown band with dark dotted edging runs beside the black-outlined green enclosure and red building marks; another band branches east near (306,942).",
+      "uncertainty_note": "Lettering covers short sections above the enclosure, but the band is aligned and visible on both sides.",
+      "alternatives": [{"proposed_class":"unknown","note":"Some stretches show a continuous edge opposite a dotted edge."}]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[306,942],[344,955],[385,969],[427,985],[468,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close dark edges, with conspicuous dots along the lower side, border an orange-brown diagonal strip.",
+      "uncertainty_note": "The lower edge becomes softer toward the tile edge.",
+      "alternatives": [{"proposed_class":"unknown","note":"The edging alternates between solid and dotted strokes."}]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[432,779],[451,757],[471,733],[483,711],[511,675],[532,643],[550,612]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A fine orange-brown stroke extends northeast from the pointed corner of a black-outlined green enclosure; the southwest section follows its northwest outline.",
+      "uncertainty_note": "The independent stroke is clearest from approximately (483,711) to (550,612). Its continuation along the enclosure to the road is uncertain, as is whether it is a path or an enclosure/property edge; no continuation is drawn beyond the visible northeast tip.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"It may be an enclosure or property boundary rather than a path."},
+        {"proposed_class":"single_line","note":"A shorter feature could start at (483,711), with no connection to j03."},
+        {"proposed_class":"dashed_line","note":"Small interruptions in the fine stroke may be intentional path punctuation."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[600,880],[594,916],[587,953],[579,986],[576,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A slim orange-brown strip with dark dotted sides branches downward from the broad diagonal band.",
+      "uncertainty_note": "Fading and a nearby pale crease soften the eastern edge near the junction.",
+      "alternatives": [{"proposed_class":"unknown","note":"The eastern casing is not continuously distinguishable."}]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,847],[43,872],[87,897],[128,920],[167,943],[211,966],[253,988],[276,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A diagonal orange-brown band has close dark edges and repeated dots; a black-outlined green patch lies against its lower side near the bottom edge.",
+      "uncertainty_note": "It approaches f03 at the bottom margin, but a three-branch meeting is not visibly established within the tile.",
+      "alternatives": [{"proposed_class":"unknown","note":"The dotted lower edging differs from a fully solid double-line symbol."}]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[761,0],[757,39],[750,78],[787,85],[832,90],[879,94],[922,99],[939,103],[950,121],[957,137],[976,174],[991,206],[1000,228]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two close dark, dotted edges surround an orange-brown band; it turns almost squarely near (750,78), then curves southeast.",
+      "uncertainty_note": "The crossing recorded as j07 is a road junction only if f10 is a road.",
+      "alternatives": [{"proposed_class":"unknown","note":"Parts of the casing are dotted and blurred rather than solid."}]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[941,698],[953,719],[971,745],[987,770],[1000,788]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown diagonal stroke with dark punctuated edging begins at the lower tip of a small pale, black-outlined oval and reaches the right margin beside a green polygon.",
+      "uncertainty_note": "The short stroke resembles the dotted road bands, but its connection to polygon outlines permits a boundary reading. It is stopped at the oval rather than extended through it.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Two close edges may enclose the orange-brown stroke."},
+        {"proposed_class":"unknown","note":"It could be a property or enclosure edge rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0,510],[37,497],[76,491],[117,481],[160,472],[194,449],[227,424],[263,399],[300,380],[343,377],[383,372],[423,356],[463,342],[505,327],[548,311],[592,295],[636,278],[680,261],[723,242],[766,222],[809,201],[852,180],[897,158],[936,141],[957,137],[1000,104]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A mostly continuous reddish-purple stroke runs across the tile; portions have a faint roughly parallel grey stroke about 8–15 px away, without the conspicuous paired dots of the orange-brown routes.",
+      "uncertainty_note": "A boundary is the stronger reading, given the continuous red stroke and the worked example. A narrow road remains possible where the faint parallel stroke appears to form a second edge; j06 and j07 are conditional on that interpretation.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A property or administrative boundary rather than a road; under this reading j06 and j07 are not road junctions."},
+        {"proposed_class":"double_line_narrow","note":"The reddish stroke and faint parallel stroke could be two road edges."},
+        {"proposed_class":"single_line","note":"If the faint parallel marks are unrelated, the reddish stroke could represent a single-line route."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[178,404],
+      "branch_count":3,
+      "evidence_note":"The westward orange-brown band meets the similarly dotted north-south band, leaving three visibly continuous arms."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[365,738],
+      "branch_count":3,
+      "evidence_note":"A dotted orange-brown arm turns south from the diagonal dotted band; all three arms have closely spaced dark edges."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[432,779],
+      "branch_count":3,
+      "evidence_note":"Two orange-brown diagonal arms pass a green enclosure; a third candidate arm follows its black northwest outline. The third branch is conditional on f05 continuing along that outline."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[306,942],
+      "branch_count":3,
+      "evidence_note":"An east-southeast orange-brown strip joins a north-south dotted strip, with three visible band continuations."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[600,880],
+      "branch_count":3,
+      "evidence_note":"A narrow dotted orange-brown arm descends from the diagonal band; the meeting is partly softened by pale discoloration."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[160,472],
+      "branch_count":4,
+      "evidence_note":"The reddish diagonal crosses the orange-brown dotted band, with both strokes visible on either side. Four road branches apply only if f10 is a road."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[957,137],
+      "branch_count":4,
+      "evidence_note":"The reddish diagonal crosses the curving orange-brown band beside a pale green patch; four road branches apply only if f10 is a road."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note":"Dotted road edging is distinguishable, but it does not map cleanly to the supplied symbol-form classes. Thin reddish strokes and the enclosure-side candidate permit boundary readings, retained explicitly above. The blue sinuous strokes, thin grey dashed lines, polygon outlines and pale oblique crease are not traced as roads."
+}

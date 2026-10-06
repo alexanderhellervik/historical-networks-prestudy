@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0360_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 216], [35, 224], [72, 230], [77, 254], [85, 266], [111, 269], [140, 260], [173, 243], [211, 232], [250, 220], [284, 217], [323, 224], [359, 223], [394, 214], [423, 203], [460, 194], [484, 188], [506, 179], [534, 176], [550, 175], [556, 190], [569, 205], [590, 205], [622, 201], [650, 187], [678, 178], [703, 174], [728, 182], [752, 177], [775, 164], [802, 153], [818, 166], [834, 185], [851, 196], [880, 199], [920, 194], [961, 191], [1000, 189]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre band has closely spaced dark dots and short strokes along both margins, approximately 5–9 px apart; it bends beside several red and black building symbols.",
+      "uncertainty_note": "The granular margins sometimes merge into dark continuous edges. The bend beside the symbol near (570, 200) is crowded, but the band is visible entering and leaving it.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired dark margins can also be read as narrow, interrupted casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[802, 153], [810, 137], [815, 122], [833, 117], [854, 115], [880, 105], [907, 98], [929, 89], [934, 87]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close, irregular dark traces with dot-like marks surround a pale ochre strip beside the small red symbols; the strip turns northeast and meets heavier enclosure linework.",
+      "uncertainty_note": "The short connection near (815, 122) and the northeastern termination are difficult to separate from building and enclosure outlines. The road reading and its junction are tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the close traces are road casing, this is a narrow access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of this line could be an enclosure boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 665], [40, 664], [80, 664], [119, 666], [154, 666], [176, 665], [190, 661]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A roughly 7–10 px ochre strip carries two dark, partly stippled margins; the margins become less distinct toward the eastern meeting point.",
+      "uncertainty_note": "The dark margins are granular enough that paired dotted lines are another possible symbol reading.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two margins may represent rows of dots rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[190, 661], [225, 659], [266, 652], [310, 644], [354, 634], [387, 632], [418, 637], [452, 635], [473, 629], [480, 615], [482, 593], [520, 592], [560, 591], [599, 590], [638, 583], [678, 584], [715, 584], [748, 580], [787, 573], [819, 574], [849, 570], [875, 570], [907, 579], [943, 590], [975, 600], [1000, 607]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin ochre course is accompanied by a prominent row of dark dots or short strokes; locally a second margin appears, especially beside the eastern building symbols.",
+      "uncertainty_note": "Near (480, 615), the stippled course overlaps a solid parcel edge. Near (748, 580), building outlines crowd the course, but matching stippled sections remain visible on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some eastern sections appear to have two close margins enclosing the ochre strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[190, 661], [183, 644], [182, 622], [186, 608], [210, 595], [234, 580], [242, 565], [240, 546], [234, 524], [225, 502], [215, 481], [209, 467], [199, 453]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A narrow ochre stroke with regularly separated heavy dark dots curves northward; its upper end touches the small red rectangle near (199, 453).",
+      "uncertainty_note": "The dots merge with adjacent solid outlines at the lower bend and beside the upper building, making the exact centreline approximate there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Locally the stippling and adjacent outlines do not resolve into a consistent single or paired line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[405, 953], [407, 970], [412, 985], [416, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short ochre strip with close dark, partly dotted sides descends beside a red building symbol; large black lettering overlaps its northern portion.",
+      "uncertainty_note": "Only the southern fragment is readable. Its northern continuation cannot be established through the lettering, and an enclosure-edge reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible fragment may be a narrowly cased access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment could belong to the adjoining enclosure outline rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [802, 153],
+      "branch_count": 3,
+      "evidence_note": "The ochre, dark-stippled band has western and southeastern arms; a close dark-sided strip appears to leave northward beside the red building. The third arm's road interpretation is tentative."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [190, 661],
+      "branch_count": 3,
+      "evidence_note": "The western ochre strip and eastern dotted course meet a northward ochre-and-dot line; their dark marks converge within approximately 10 px."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [385, 935, 435, 990],
+      "why": "Large black lettering and a building symbol obscure the northern end of the short ochre fragment, preventing a reliable continuation."
+    }
+  ],
+  "overall_note": "The stippled ochre routes are readable, although their margins vary between paired edges and rows of dots. Short traces beside buildings are harder to distinguish from enclosure outlines, so the northeastern access and bottom-edge fragment retain non-road alternatives. Straight red lines and solid parcel outlines were read as boundaries."
+}

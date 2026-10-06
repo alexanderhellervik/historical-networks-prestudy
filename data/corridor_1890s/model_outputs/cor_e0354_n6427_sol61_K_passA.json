@@ -1,0 +1,108 @@
+{
+  "tile_id": "cor_e0354_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [492, 0],
+        [480, 38],
+        [467, 73],
+        [451, 108],
+        [433, 147],
+        [420, 183],
+        [414, 221],
+        [402, 257],
+        [390, 287],
+        [377, 316],
+        [365, 343],
+        [358, 375],
+        [363, 398],
+        [384, 419],
+        [399, 451],
+        [409, 488],
+        [423, 523],
+        [447, 551],
+        [476, 576],
+        [507, 586],
+        [537, 590],
+        [573, 581],
+        [606, 572],
+        [632, 570],
+        [660, 584],
+        [688, 600],
+        [716, 600],
+        [743, 598],
+        [768, 606],
+        [786, 629],
+        [795, 661],
+        [804, 701],
+        [815, 739],
+        [827, 751],
+        [849, 750],
+        [877, 743],
+        [904, 737],
+        [929, 733],
+        [960, 736],
+        [985, 739],
+        [1000, 741]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Close dark, partly stippled edges enclose a brown-orange strip approximately 5–8 px wide. The winding course remains traceable through lettering and horizontal hatching; no regular flanking tree symbols are visible.",
+      "uncertainty_note": "The course is clear, but blur sometimes merges the apparent paired margins into one heavy stroke. Crossings with blue lines do not establish additional road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark margins may be two stippled rows rather than a clearly drawn double-line casing."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches resolve as one heavy brown stroke with dark edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 318],
+        [24, 317],
+        [48, 314],
+        [73, 305],
+        [92, 300],
+        [112, 301],
+        [142, 309],
+        [177, 322],
+        [210, 335],
+        [245, 345]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin, irregularly stippled dark line with brown-yellow edging curves in from the left. Its roughly 3–4 px total width merges into the heavier blue-black outline of the cyan shape at the eastern endpoint.",
+      "uncertainty_note": "A road or path reading is plausible, but neither its marginal structure nor its continuation is clear. It might continue along the upper blue-black outline toward f01 near [365, 343]; that connection is not sufficiently visible to report a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible western section can be read as one thin path stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The stippling and coloured edging might represent two very closely spaced track margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property or land-cover boundary remains possible; the visible stroke alone does not conclusively establish a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [239, 320, 378, 363],
+      "why": "Heavy blue-black shoreline strokes and adjacent hatching prevent separation of any continuation of f02 from the surrounding symbol outlines."
+    }
+  ],
+  "overall_note": "The winding brown line is the clearest road; the thinner west-entering line is a doubtful additional candidate. Its possible connection to the main line is unresolved, so no road junction is confirmed. Long diagonal black dashes, blue sinuous lines, fine straight rules and the angular crimson line in the southwest are read as non-road marks."
+}

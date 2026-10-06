@@ -1,0 +1,201 @@
+{
+  "tile_id": "cor_e0358_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,277],[30,279],[60,273],[85,263],[104,250]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "A reddish strip has two closely spaced rows of dark dots; it joins the more continuously edged diagonal at its eastern end.",
+      "uncertainty_note": "The endpoint marks a change in symbol, not a physical termination; f02 continues it. Paired dots do not clearly match the supplied classes.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The two dotted margins could be treated as a narrow double-line symbol."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[104,250],[133,218],[164,187],[193,161],[222,133],[257,116],[290,107],[327,102],[365,94],[399,83],[421,77],[445,52],[472,28],[499,12],[520,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "Two dark, mostly continuous margins enclose a narrow reddish band; some sections have dots along one margin.",
+      "uncertainty_note": "The western endpoint continues as f01. Between approximately [257,116] and [421,77], an additional northern outline makes the number and spacing of margins ambiguous; f12 records that outline separately.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"One margin may be dotted rather than continuous, giving a mixed symbol."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[222,133],[208,111],[195,91],[183,78],[163,75],[145,59],[126,40],[112,25],[129,12],[146,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow reddish band with dark dotted margins bends around angular black outlines before meeting f02.",
+      "uncertainty_note": "The paired dotted margins support a track reading, but do not clearly match a continuous double-line or dashed-line class.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The closely spaced dotted margins could count as narrow double lines."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[169,628],[205,588],[240,552],[279,518],[308,488],[332,453],[348,421],[361,387],[394,369],[435,347],[473,321],[498,296],[520,253],[540,211],[560,185],[580,173],[604,178],[636,188],[670,182],[706,169],[744,156],[785,145],[826,134],[866,124],[904,114],[933,108],[939,144],[940,184],[942,225],[946,270],[950,298],[963,321],[982,342],[1000,364]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two rows of dark dots border an orange-red strip, generally about 8–12 px wide. The same symbol reappears on both sides of the large lettering and blue-green water markings.",
+      "uncertainty_note": "Continuity through the lettering is supported by matching visible approaches. The symbol is paired and dotted rather than clearly solid or dashed; a possible northern connection near [883,119] is concealed by building symbols and is not asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The paired dotted edges could be interpreted as a narrow double-line form."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[883,0],[881,20],[875,43],[870,64],[873,84]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A slender reddish trace with short dark marks descends from the upper edge beside black vegetation marks and red building rectangles.",
+      "uncertainty_note": "Its lower course disappears into the building group. It may connect to f04 near [883,119], but that connection cannot be traced confidently; a boundary reading is also possible.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The short dark marks may represent two dotted track margins."},
+        {"proposed_class":"unknown","note":"Alternatively this is a marked boundary beside the building group."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,478],[26,511],[52,539],[76,552],[110,585],[144,612],[169,628],[190,653],[208,678]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j03","j07"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "An orange-red band with paired dark dotted edges crosses the blue-green strip and continues southeast to the broad, continuously cased road.",
+      "uncertainty_note": "The paired dots support a track reading but do not clearly match the listed solid or dashed forms. The possible western branch at j07 depends on the doubtful reading of f11.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Its two dotted margins could be treated as narrow double lines."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,721],[45,711],[85,703],[120,698],[165,687],[208,678],[250,674],[291,672],[334,675],[377,680],[422,684],[466,689],[508,694],[549,696],[591,696],[637,679],[681,680],[728,670],[775,660],[821,650],[868,640],[913,631],[956,624],[1000,615]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j03","j04","j05","j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark margins enclose a pale yellow-orange band, approximately 12–18 px wide; there is no regular railway sleeper pattern.",
+      "uncertainty_note": "Small black and red marks overlap the casing locally, but both margins remain traceable. Junction centres are approximate within the road's width.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[120,698],[124,737],[128,777],[130,816],[134,851],[146,886],[168,923],[194,960],[221,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close rows of dark dots flank a reddish strip that bends south and then southeast; the same edging is visible above and below the blue-green crossing.",
+      "uncertainty_note": "Continuity across the blue-green strip is clear, but the dotted double form has no exact supplied class.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The two dotted edges could count as a narrow double-line symbol."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[549,696],[550,732],[548,766],[550,800],[557,827],[569,855],[581,889],[594,924],[607,961],[619,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish strip bordered by two dark dotted rows descends from the broad road, crosses blue-green markings, and curves southeast.",
+      "uncertainty_note": "The matching dotted edges establish continuity through the crossing; the paired dotted form remains uncertain as a class.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Its paired dotted margins could be classified as narrow double lines."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[637,679],[630,650],[625,625],[619,600],[611,578]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two close dark edges with reddish infill run north from the broad road to the lower edge of a green plot and nearby red and black building rectangles.",
+      "uncertainty_note": "Some edging is dotted. The northern end is hidden by the plot and building marks, so no further course is supplied.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The mixture of continuous and dotted margins may be a separate track symbol."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,633],[25,616],[44,592],[61,572],[76,552]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A thin reddish-dark trace runs diagonally beside the stronger blue water outline and reaches the dotted band of f06; separate road margins are difficult to distinguish.",
+      "uncertainty_note": "This is a doubtful path candidate. It may instead be a boundary or the coloured margin of the water marking; j07 is conditional on the path reading.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"If independent of the water outline, the trace resembles a thin single-line path."},
+        {"proposed_class":"unknown","note":"Alternatively it is a boundary or water-margin line, not a road."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[257,116],[285,101],[318,87],[349,75],[376,65],[397,63],[415,66],[421,77]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A thinner dark, mostly continuous outline bounds a pale strip above the stronger red-edged line of f02; their separation varies from roughly 10 to 25 px.",
+      "uncertainty_note": "The outline could represent a separate parallel track, an outer margin of the same road, or a land-cover boundary. Its ends merge with heavier drawing, so separate junctions are not asserted.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"A separate-track reading would give this thin continuous outline a single-line form."},
+        {"proposed_class":"unknown","note":"Alternatively it belongs to f02's wider margin or is a land-cover boundary, not an additional road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [222,133],
+      "branch_count": 3,
+      "evidence_note": "The narrow continuous reddish casing runs southwest–northeast, and a paired dotted reddish branch reaches it from the northwest."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [169,628],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted orange band continues northwest–southeast, with another band of matching weight joining from the northeast."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [208,678],
+      "branch_count": 3,
+      "evidence_note": "The narrow dotted reddish approach meets the northern casing of the broad double-line road, whose two branches continue west and east."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [120,698],
+      "branch_count": 3,
+      "evidence_note": "A paired dotted reddish strip extends south from the broad road's continuous dark margins; the broad band continues on both sides."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [549,696],
+      "branch_count": 3,
+      "evidence_note": "Two dotted dark edges descend from the southern margin of the wide, continuously cased road, forming a visible T-shaped meeting."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [637,679],
+      "branch_count": 3,
+      "evidence_note": "A narrow reddish line between close dark edges reaches the broad road from the north; the broad casing continues west and east."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [76,552],
+      "branch_count": 3,
+      "evidence_note": "The dotted orange band continues northwest–southeast across blue markings; a thinner reddish-dark trace reaches it from the southwest. Three road branches are conditional on f11 being a path rather than a water margin or boundary."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [864,82,895,116],
+      "why": "Red building rectangles and heavy black strokes conceal the possible continuation of f05 toward f04."
+    }
+  ],
+  "overall_note": "Paired dotted reddish tracks are prominent but have no exact match among the supplied symbol-form classes. Lettering obscures parts of f04, while building marks prevent a certain connection for f05. The doubtful stream-side trace and northern parallel outline are retained with alternatives; thin parcel outlines elsewhere are read as boundaries."
+}

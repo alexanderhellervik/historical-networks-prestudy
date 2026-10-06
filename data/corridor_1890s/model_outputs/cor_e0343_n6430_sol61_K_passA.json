@@ -1,0 +1,89 @@
+{
+  "tile_id": "cor_e0343_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[187, 0], [212, 42], [238, 85], [264, 129], [291, 174], [317, 218], [343, 261], [370, 306], [396, 350], [423, 395], [449, 437], [465, 453], [482, 489], [504, 530], [527, 572], [551, 612], [576, 654], [601, 695], [626, 736], [651, 778], [676, 819], [697, 849], [704, 861]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow diagonal strip has dark brown/red edging in its upper portion and faint, approximately parallel grey strokes about 5–8 px apart below the red-line intersection. Long black dashes accompany the lower portion.",
+      "uncertainty_note": "This is a tentative road reading. The red stroke and black dashes are boundary-like; the faint companion strokes could instead be boundary edging or printing effects. The lower end disappears into the heavy horizontal band.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The entire trace may be a boundary with coloured or doubled edging, rather than a road."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Only the faint paired portion below approximately [465,453] may represent a road; the upper portion may be solely a boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[701, 883], [693, 913], [686, 945], [681, 976], [678, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A very pale grey, slightly curving trace descends through the lettering below the horizontal band; a weak companion edge is intermittently visible.",
+      "uncertainty_note": "Neither its road status nor its connection to f01 is certain. Lettering and weak contrast prevent reliable identification of continuous casing.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale trace may be a narrow road continuing below the horizontal obstruction."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a paper or reproduction mark."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[931, 1000], [947, 986], [958, 979], [977, 969], [1000, 965]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short curved brown/tan strip clips the lower-right corner, with a darker irregular edge and a weaker approximately parallel edge several pixels away.",
+      "uncertainty_note": "The short exposed length and soft printing make the second edge uncertain; it could be another kind of bounded strip.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible coloured parcel edge rather than a road."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The weaker edge may be colour bleed around one drawn line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[839, 1000], [852, 979], [874, 957], [895, 943], [918, 934], [940, 922], [965, 909], [984, 898]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint oblique grey/blue trace runs through the lower-right forest symbols; its weight and apparent companion stroke vary, without clear continuous casing.",
+      "uncertainty_note": "A path is possible, but a drainage line or boundary is also plausible. Its upper-right continuation cannot be separated confidently from nearby symbols and faint marks.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible lightly drawn path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible stream, ditch or property line rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [677, 846, 724, 889],
+      "why": "The heavy horizontal dark band masks the end of the diagonal paired trace and prevents establishing continuity with the pale line below."
+    }
+  ],
+  "overall_note": "These are tentative road candidates; no three-branch road junction is securely visible. Most prominent angular red lines and long black dashed lines read as boundaries. Faint paired strokes and the small lower-right fragments are difficult to distinguish from boundary edging, drainage and reproduction marks."
+}

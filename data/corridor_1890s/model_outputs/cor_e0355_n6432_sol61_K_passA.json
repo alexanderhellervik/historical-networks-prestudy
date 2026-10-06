@@ -1,0 +1,215 @@
+{
+  "tile_id": "cor_e0355_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,65],[28,91],[57,115],[87,145],[105,181],[115,195],[124,216],[130,230],[150,254],[173,280],[195,307],[217,332],[238,356],[254,375],[282,394],[314,412],[345,432],[375,452],[387,476],[387,491],[385,503],[380,528],[383,555],[392,583],[405,611],[428,641],[451,663],[475,693],[497,724],[518,756],[542,781],[571,791],[606,796],[642,796],[667,802],[693,818],[722,836],[749,855],[778,874],[806,898],[829,924],[854,948],[885,964],[922,974],[947,977],[962,977],[983,988],[1000,998]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j04","j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "An orange-brown strip roughly 7–12 px across has two close dark margins, with repeated dots or short interruptions along substantial stretches; its winding course remains visible beside and beneath the large lettering.",
+      "uncertainty_note": "The course is clear through the lettering and across the pink diagonal. The partly dotted margins make the symbol-form class less certain; j01, j04 and j06 depend on doubtful attached paths.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins resolve into repeated dots or short marks rather than consistently continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,270],[26,255],[56,241],[83,233],[108,230],[130,230]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre-brown band with close dark, partly dotted edges curves from the left edge into the wider winding strip beside the green rectangular symbol.",
+      "uncertainty_note": "The meeting is crowded by dark outlines and the green symbol; the junction position is approximate within about 10 px.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken edging could be described as a dotted or dashed track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[115,195],[143,199],[174,202],[204,211],[224,231],[253,237],[285,241],[316,243],[345,232],[375,220],[412,222],[451,226],[491,230],[531,234],[571,238],[615,239],[648,244],[671,247]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A relatively thin reddish-brown trace with a dark edge runs above the large lettering; an ochre fringe is visible locally, but two independent margins are not consistently resolved.",
+      "uncertainty_note": "This may be a path following the edge of the peach-coloured area, or simply that area's outline. Its eastern end merges into the heavy pink and black diagonal, so no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A path reading treats the narrow reddish trace as a single-line route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road reading treats it as a field or property edge; j01 then loses this branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,434],[32,439],[65,443],[100,437],[128,442],[156,453],[178,470],[195,491],[208,506],[208,533],[217,569],[229,604],[213,636],[199,658],[188,675]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03","j05"],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "A thin ochre trace carries a row of distinct dark dots or short marks, separate from the heavier solid outline above it; the dotted trace bends sharply downward and ends near v=675.",
+      "uncertainty_note": "The dotted form supports a path reading, although parts also coincide with the edge of peach fill. No line is carried beyond the last visible marks; the branches at j03 and j05 are doubtful.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the dotted trace could mark a parcel edge rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[208,506],[238,503],[270,503],[301,499],[326,496],[355,492],[385,503],[422,510],[455,517],[485,531],[512,552]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin brown-ochre line with intermittent dark marks runs across to the cased winding strip, then continues as a lighter reddish curve toward the pink diagonal; a second parallel edge is not consistently visible.",
+      "uncertainty_note": "The western part could be a dotted path, while the eastern part could instead be a field outline. The line disappears into the pink diagonal at the eastern endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks could indicate a path, particularly west of the winding road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The whole trace could be a field edge, or the western and eastern portions could represent different kinds of line; j03 and j04 would change accordingly."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[84,597],[108,568],[136,548],[159,528],[185,508],[208,506]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A slender reddish-ochre line, mainly continuous and without clear casing, bends northeast from the pink strip to the dotted trace near [208,506].",
+      "uncertainty_note": "This may be a single-line path or an outline between differently tinted areas. Its southwestern end merges with the pink strip; no continuation through that strip is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The continuous thin line could represent a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a field edge rather than a road; j03 would then have one fewer branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[229,604],[252,632],[278,653],[307,678],[321,694],[329,727],[338,758],[342,795],[343,829]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin reddish-brown line leaves the dotted bend and curves southeast, then south; it has no resolved parallel casing and follows the edge of peach-coloured fill.",
+      "uncertainty_note": "A path reading is possible, but a field-outline reading is at least as plausible. The southern endpoint is lost against the broad pink diagonal.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a path, its visible symbol is a single continuous line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be only a field edge; j05 would then cease to be a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[934,656],[930,682],[935,711],[942,746],[938,772],[935,794],[938,819],[946,851],[942,880],[948,915],[957,947],[962,977]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow irregular row of black dots and short marks, with a faint ochre trace beneath it, descends from beside the right-hand peach polygons to the orange-brown winding strip.",
+      "uncertainty_note": "The northern attachment is obscured by heavy polygon outlines. Because the dotted line also borders a tinted area, a parcel-edge reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken line could be a boundary or field edge; j06 would then cease to be a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,860],[32,849],[62,831],[79,811],[94,786],[116,764],[141,749],[158,742]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A curved sequence of dark dots or short strokes with a narrow ochre fringe passes above the lower-left peach polygons and crosses the blue line before approaching the pink strip.",
+      "uncertainty_note": "Individual marks are unevenly resolved, and part of the course could be a parcel outline. The eastern end becomes indistinct against the pink strip; no connection across it is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted trace may be a field or property edge rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[115,195],[114,180],[123,157],[143,137],[163,128],[185,124],[213,133],[241,150],[270,163],[294,169],[315,165],[327,151],[333,132],[327,109],[317,79]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow dark, locally dotted trace with brown-ochre edging forms an irregular arc above the reddish eastward line; its eastern limb curves upward into the diagonal pink line.",
+      "uncertainty_note": "The arc may be a path, but it also resembles the outline of a lightly tinted parcel. Its upper endpoint merges with heavier diagonal linework, so no continuation is traced.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The locally dotted edging supports a possible path reading."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a parcel outline rather than a road; j01 would then lose this branch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [115,195],
+      "branch_count": 4,
+      "evidence_note": "Conditional four-branch meeting: the dark-edged orange strip continues in two directions, while a thinner reddish trace extends east and a locally dotted arc extends upward; the latter two may be parcel outlines."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [130,230],
+      "branch_count": 3,
+      "evidence_note": "Three orange-brown, dark-edged arms converge beside the green rectangular symbol; crowded black outlines make the exact meeting point approximate."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [208,506],
+      "branch_count": 4,
+      "evidence_note": "Conditional four-branch meeting: the dotted ochre trace continues upward and downward, a thin marked line runs east, and a continuous reddish line approaches from the southwest."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [385,503],
+      "branch_count": 4,
+      "evidence_note": "Conditional four-branch crossing: the paired dark margins of the orange-brown strip continue above and below, while a much thinner brown line reaches it from the west and resumes to the east."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [229,604],
+      "branch_count": 3,
+      "evidence_note": "Conditional three-branch meeting: the narrow dotted trace bends southwest, with its northern arm still visible, while a thinner continuous reddish line leaves toward the southeast."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [962,977],
+      "branch_count": 3,
+      "evidence_note": "Conditional three-branch meeting: a thin broken black trace reaches the upper edge of the orange-brown strip, whose two dark-edged arms continue left and toward the lower-right edge."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The winding orange-brown road and its western branch are the clearest road symbols; thinner candidates are retained with path-versus-parcel-edge alternatives. Conditional junction counts assume the doubtful attached features are paths. Broad pink dash-and-dot lines, clear straight boundary marks, blue water lines and clearly solid parcel outlines were excluded."
+}

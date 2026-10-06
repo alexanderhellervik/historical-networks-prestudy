@@ -1,0 +1,165 @@
+{
+  "tile_id": "cor_e0354_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[539, 0], [508, 21], [486, 49], [467, 81], [447, 104], [416, 126], [379, 151], [343, 176], [308, 198], [267, 222], [232, 235], [209, 239], [182, 259], [158, 284], [141, 309], [125, 335], [118, 359], [113, 379]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two closely spaced rows of dark dots flank a narrow yellow-brown/reddish strip, approximately 7–11 px wide. The strokes remain visible beside the large lettering before reaching a black building mark.",
+      "uncertainty_note": "The southern end disappears into building and yard symbols. A connection to f02 is possible, but no continuous road stroke through the cluster is securely readable.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dotted margins could be classified by their interrupted strokes rather than their paired form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 399], [26, 389], [42, 389], [52, 403], [65, 419], [84, 435], [113, 450], [142, 463], [172, 482], [196, 499], [218, 523], [245, 541], [278, 566], [313, 588], [350, 614], [387, 645], [426, 675], [457, 719], [465, 728], [488, 758], [518, 796], [550, 837], [580, 873], [614, 919], [643, 953], [668, 983], [683, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish/yellow strip has dark dotted margins approximately 8–12 px apart. It bends among red and black building rectangles, then continues diagonally; aligned dotted strokes are visible between and beyond the large letters.",
+      "uncertainty_note": "The course through the lettering is supported by visible aligned strokes on both sides. The building cluster conceals any connection to f01; j03 is conditional on f05 being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "An alternative symbol-form label for the paired rows of dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[581, 0], [588, 45], [593, 91], [605, 139], [627, 186], [641, 237], [651, 282], [660, 331], [665, 380], [671, 430], [675, 480], [678, 520], [684, 545], [708, 575], [739, 602], [773, 635], [807, 679], [842, 721], [873, 767], [902, 812], [935, 839], [973, 864], [1000, 877]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j04", "j05"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark dotted margins, generally 8–12 px apart, surround a yellow-brown strip with reddish colour. Small building rectangles sit beside the upper and middle portions; a heavier blue-black line crosses near the pronounced bend.",
+      "uncertainty_note": "The paired dotted route is clear. Junctions j02, j04 and j05 depend on uncertain finer lines being roads; those connections are not asserted as certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dots also support an interrupted-line classification."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[739, 602], [759, 575], [781, 541], [804, 505], [826, 465], [847, 426], [865, 392], [877, 368]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two narrow dark dotted strokes flank a brown/yellow strip approximately 6–9 px wide. They visibly join the similar diagonal strip at the southern end and approach a large descending letter at the northern end.",
+      "uncertainty_note": "The northern continuation is hidden by lettering. A solid dark outline is visible farther north, but its different symbol does not establish continuation of this road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dotted strokes could instead be labelled as an interrupted line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[39, 1000], [56, 958], [76, 914], [95, 871], [111, 827], [130, 780], [145, 749], [185, 727], [224, 711], [256, 692], [284, 725], [312, 752], [349, 779], [394, 807], [421, 799], [443, 783], [454, 758], [465, 728], [502, 717], [545, 701], [576, 674], [610, 640], [644, 599], [673, 563], [684, 545]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A fine pale grey/brown stroke follows a stronger red stroke, leaving a pale band generally about 10–18 px wide. The pair curves beside green fill and horizontal hatching, then crosses one dotted strip and approaches another; consistent dark dotted margins are absent.",
+      "uncertainty_note": "This is a doubtful road candidate. The pale parallel stroke may be an underlying parcel or land-cover outline beside a red boundary, rather than a separate track; its centre is less precisely locatable than the dotted roads.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the red and fine grey strokes are road edges, their intervening pale band supports a narrow double-line route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire course may be a boundary with an adjacent underlying outline, carrying no road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[641, 237], [614, 251], [580, 269], [558, 291], [541, 307], [543, 330], [563, 365], [589, 407], [616, 446], [644, 486], [668, 519], [684, 545]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A substantial red stroke is accompanied on its lower/right side by a much finer grey stroke, approximately 8–16 px away. The pair makes a sharp bend and crosses a separate red transverse line; it lacks the obvious paired dots of f03.",
+      "uncertainty_note": "A narrow route beside a boundary and a boundary with an underlying parcel outline are both possible readings. Near j02, f05 and f06 may contact f03 separately, roughly 10–20 px apart, rather than forming one four-branch junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The separated red and grey strokes could form two road edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may belong entirely to boundary and parcel-outline drawing, with no road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[902, 812], [875, 831], [844, 857], [811, 884], [783, 909], [752, 935]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A fine, nearly continuous grey/brown stroke runs diagonally inside a pale strip, between a heavier dark straight outline and a blue-green curved line. It reaches the dotted strip at its upper end and a dark angular outline at its lower end.",
+      "uncertainty_note": "The fine stroke could be a path, an additional parcel outline or another drafting line. No securely readable continuation follows it beyond the lower angular outline; j05 is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a path, the visible mark is principally one fine continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be an outline within the narrow polygon rather than a road or path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [739, 602],
+      "branch_count": 3,
+      "evidence_note": "Three yellow-brown strips with closely spaced dark dotted margins visibly converge: two continue diagonally and the third rises toward the lettering."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [684, 545],
+      "branch_count": 4,
+      "evidence_note": "Conditional on f05 and f06 being roads: two dotted branches of f03 and two red/fine-grey candidate branches converge beside a heavy blue-black stroke. The overlap also permits two nearby three-branch contacts."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [465, 728],
+      "branch_count": 4,
+      "evidence_note": "Conditional on f05 being a road: its fine grey/red pair crosses the yellow-brown strip with two dark dotted margins, giving two branches of each drawing."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [641, 237],
+      "branch_count": 3,
+      "evidence_note": "Conditional on f06 being a road: its red stroke and fine pale parallel stroke meet the side of the vertically continuing paired dotted strip."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [902, 812],
+      "branch_count": 3,
+      "evidence_note": "Conditional on f07 being a path: one fine grey/brown stroke reaches the side of a continuing yellow-brown strip with two dotted margins; a heavier polygon outline meets nearby."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [79, 372, 146, 443],
+      "why": "Building rectangles, yard outlines and lettering prevent a secure reading of the connection between the northern dotted route and the route passing through the cluster."
+    },
+    {
+      "bbox_uv": [861, 329, 904, 381],
+      "why": "Heavy place-name lettering hides the northern end of f04 and prevents distinguishing continuation from the adjacent solid outline."
+    }
+  ],
+  "overall_note": "The paired dotted routes are substantially clearer than the fine strokes beside red boundaries. Features f05–f07 and their conditional junctions retain possible boundary or outline readings; their inclusion does not establish a road network. Unpaired red lines and blue-green drainage strokes were excluded where their drawing matched boundaries or water lines."
+}

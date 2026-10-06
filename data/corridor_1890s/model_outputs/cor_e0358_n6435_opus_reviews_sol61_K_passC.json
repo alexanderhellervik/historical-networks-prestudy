@@ -1,0 +1,88 @@
+{
+  "tile_id": "cor_e0358_n6435",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay line follows the orange-brown road line with a parallel black broken edge. It runs from about (300,150) past (420,95), (600,55), (700,110), (760,170) and (850,230) to the east edge at about (1000,258). It has the same road colouring as the roads in the example and is continuous across the marsh hatching.",
+      "uncertainty_note": "The symbol form (brown line plus parallel dotted or dashed black line) is read as double_line_narrow. It could equally be a single brown line with a dotted companion (Sämre körväg style). The overlay appears to begin near u=300, but the same road continues west to the edge at (0,175); see m01."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line leaves the top edge at about (428,0) and curves down to join the main brown road near (400,95). This is the same colouring as the thin brown footpaths (Gångstig) in the example, and the line is not blue like the stream at u≈520.",
+      "uncertainty_note": "The overlay line is thin and dark, so I cannot fully see whether f02 also continues west along the brown road. If it does, that part is right too (see m01). Single brown line read as a path or minor track."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along the top edge (v≈10–22, u 420–890) the drawn line is the dark crimson/maroon ruled line used on this tile for the straight property lines at v=500, 645 and 840 and the vertical at u≈300–325. Those lines are read as boundaries (as the red lines in the example are). It lacks the orange-brown road colouring and the dotted companion seen on f01.",
+      "uncertainty_note": "Only a thin strip of it is inside the tile. It sits right against a field and a brown line near (850–880, 0–25), so a road along the boundary cannot be ruled out. If it is a road, cannot_tell would be the safer reading."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-left, from (0,885) via (100,905) and (170,950) to (230,1000), the line is a dark line with a broad pink/magenta wash band along the lake shore. It is a hand-coloured administrative boundary band, like the pink-washed red boundary in the example. There is no brown road colour and no road symbol.",
+      "uncertainty_note": "A boundary may follow a shore road, but nothing brown or dotted is visible along it within the tile."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-brown road line starts at the red vertical boundary near (330,912). It runs through (380,950), (450,960), (560,950) and (700,943) and bends down past (770,955) around the lake toward the bottom edge. It has the same colouring as f01.",
+      "uncertainty_note": "The east end is unclear. I see the brown line reaching the bottom edge at roughly (810–830,1000), while the overlay runs on to about (890,1000); the lake and stream there blur it. The class could also be single_line. It is not clear whether the west end is a dead end at the boundary or turns north along it."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (550,0) to the NE tip of Hörnesjön at (430,265), the overlay lies between the blue stream and a black long-dash line. That dash line continues straight through the lake to (280,345) and on south as the dashed line that becomes the red ruled boundary at u≈295. A line crossing a lake and changing into a red boundary is a boundary (Skifteslinje/Hemmansgräns type), not a road. The parallel blue line is a stream.",
+      "uncertainty_note": "Low uncertainty. Neither of the two parallel lines carries road colouring."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 175], [60, 190], [120, 200], [200, 195], [260, 178], [300, 152], [350, 125], [400, 98]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "The orange-brown road with its black broken edge continues west from the start of f01, past the f02 junction, to the west edge at about (0,175). It is continuous and has the same symbol as f01.",
+      "uncertainty_note": "This may already be covered by f01 or f02 in the overlay, under the brown line where a thin dark overlay line is not distinguishable. It is listed in case it is not.",
+      "alternatives": ["Part of f01 extended west to the edge", "Continuation of f02 from the junction at about (400,95)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [400, 97],
+      "what_is_contested": "Whether f02 meets the main brown road here as a T-junction, and exactly where.",
+      "evidence_note": "The thin brown branch from the top edge merges tangentially into the main road between u≈395 and 410. The meeting point is drawn as a smooth merge, not a clear T."
+    },
+    {
+      "uv": [300, 150],
+      "what_is_contested": "The overlay seems to start or split f01 here, but the drawing shows no junction: the brown road is continuous through this point.",
+      "evidence_note": "Nothing branches from the brown road at u≈300. The nearest crossing line is the black dashed boundary at about (225,185), which is not a road."
+    },
+    {
+      "uv": [330, 912],
+      "what_is_contested": "West end of f05: either a dead end, or the road joins or continues along the red vertical boundary line.",
+      "evidence_note": "The brown line ends against the red/magenta ruled boundary. No brown line continues north or south along it, and nothing continues west of it."
+    },
+    {
+      "uv": [790, 975],
+      "what_is_contested": "Where f05 leaves the tile: the bottom edge near u≈810–830, or on east to u≈890.",
+      "evidence_note": "The lake shore, the blue stream and the brown line converge here, and at this resolution the course cannot be resolved."
+    }
+  ],
+  "overall_note": "Roads on this tile are the orange-brown lines: the long road across the north (f01 plus its western continuation), the thin branch f02 and the southern road f05. The straight crimson ruled lines, the pink-washed band at the lake (f04) and the black long-dash lines, including the one through Hörnesjön (f06), are boundaries. The top-edge line f03 is read as a boundary with moderate uncertainty."
+}

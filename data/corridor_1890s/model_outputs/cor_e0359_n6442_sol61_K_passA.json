@@ -1,0 +1,202 @@
+{
+  "tile_id": "cor_e0359_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[115,0],[121,28],[118,51],[102,80],[82,112],[65,144],[59,164],[64,190],[73,216],[82,241],[53,252],[25,264],[14,281],[0,315]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Orange strip approximately 7–12 px wide, flanked by two dark, irregularly dotted traces; it bends southwest near (82,241).",
+      "uncertainty_note": "The dotted edges merge locally with heavier parcel outlines; their exact separation is variable.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired stippled edges could be treated as a distinct symbol rather than a conventional double line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[696,0],[691,29],[686,59],[684,87],[685,114],[691,143],[705,175],[723,200]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two dark dotted edges enclose an orange strip approximately 8–12 px wide; both edges remain visible beside the large B.",
+      "uncertainty_note": "The road trace is clear, but j02 is a road junction only if the intersecting thin red line is also a road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The interrupted paired edging does not exactly match two continuous solid lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[723,200],[741,224],[756,249],[766,274],[767,298],[776,319],[792,330],[815,323],[842,313],[867,306],[885,307],[902,328],[917,354],[934,383]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A winding orange band has two dark dotted margins, generally 8–14 px apart; the margins follow the tight bend near (792,330).",
+      "uncertainty_note": "Both listed junctions depend on adjoining faint or thin lines being roads; the winding band itself is comparatively clear.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An alternative classification would retain the paired dotted symbol without assigning a solid double-line class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[934,383],[939,410],[942,438],[951,458],[973,468],[990,462],[1000,456]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Orange fill continues between two dark dotted margins, passing immediately beside a small horizontally hatched patch before turning east.",
+      "uncertainty_note": "Hatching and heavy adjoining outlines blur the western margin around (940,430); the two-sided continuation supports carrying the trace through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired interrupted margins could be recorded as an unclassified road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[144,438],[161,476],[180,516],[201,558],[222,599],[243,641],[265,684],[287,727],[309,770],[330,811],[352,854],[374,898],[397,941],[420,983],[430,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two nearly straight, continuous traces run southeast approximately 7–11 px apart: a strong reddish western stroke and a thinner dark eastern stroke, enclosing a pale strip.",
+      "uncertainty_note": "Unlike the winding dotted routes, this pair is solid. A boundary running alongside another line is also plausible, and the interpretation of its northern meeting remains conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The reddish stroke may be a boundary coincident with, or parallel to, a separate dark line rather than one cased road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,630],[22,595],[49,559],[76,523],[101,487],[125,457],[144,438]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "One narrow reddish-ochre stroke runs northeast, with a fine dark component locally visible; no consistently separated second edge is evident.",
+      "uncertainty_note": "It meets the diagonal pair and the eastward red trace, but its solid red appearance also supports a boundary reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This may be a property boundary continuing into f07, rather than a road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[144,438],[174,427],[207,415],[234,400],[263,381],[287,366],[316,354],[340,339],[359,329],[385,325],[401,312],[414,297],[434,292],[447,295],[475,285],[504,275],[533,264],[565,250],[598,239],[628,227],[660,216],[691,207],[723,200]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow red stroke with dark edging follows successive small bends; most of its length reads as one merged line, approximately 3–6 px thick, without reliably separated margins.",
+      "uncertainty_note": "A narrow road and a red boundary are both supported by the drawing. Apparent crossings or meetings alone do not resolve that distinction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a road, the predominantly merged red-and-dark stroke resembles a single line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Short portions could represent very closely spaced road edges blurred together."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire trace may instead be a property or administrative boundary, continuous with f06 and f08."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[723,200],[751,194],[779,195],[803,208],[828,225],[850,240],[871,248],[901,251],[934,251],[967,250],[990,247],[1000,244]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin continuous red stroke with a dark component bends east across the winding dotted route; no stable pale strip between two edges is visible.",
+      "uncertainty_note": "This may continue f07 as a boundary rather than a road. The visible intersection with the dotted route does not establish a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A road interpretation would classify the merged continuous stroke as a single line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A red boundary crossing the dotted road is an equally plausible reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[934,383],[926,408],[903,430],[875,439],[847,442],[817,438]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint ochre-red, predominantly single stroke curves westward beneath a dark outlined patch; neither consistent casing nor a dependable dot sequence can be distinguished.",
+      "uncertainty_note": "Both its contact with the dotted route and its western continuation are uncertain. It is stopped where heavy intersecting outlines prevent following the same stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The faint stroke could be a small path joining the dotted route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be colouring along a parcel or land-cover edge, with no road connection at j03."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[751,392],[726,415],[705,438],[692,460],[692,486],[688,516],[679,548],[668,573],[658,590]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "One faint ochre-reddish trace bends south beside an unhatched tongue between horizontally hatched areas; a second road edge and regular dots are not clearly visible.",
+      "uncertainty_note": "The upper course disappears among overlapping outlines, and the lower end merges with the hatch boundary. No connection to f09 is established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The trace could represent a faint path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may simply outline the unhatched patch rather than represent a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [144,438],
+      "branch_count": 3,
+      "evidence_note": "A southeast pair of solid lines meets thin red traces extending southwest and northeast. Three road branches are counted conditionally; if the thin red traces are a boundary, a three-way road junction is not established."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [723,200],
+      "branch_count": 4,
+      "evidence_note": "The orange route with paired dark dotted margins intersects a thin red-and-dark trace continuing west and east. Four branches apply only under the road reading of that thin trace; otherwise this is a road–boundary crossing."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [934,383],
+      "branch_count": 3,
+      "evidence_note": "The orange dotted-edged route continues north and south beside a faint ochre trace extending southwest. The third branch is conditional because the faint trace's contact and road status are indistinct."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [734,353,823,446],
+      "why": "Faint ochre traces overlap heavy dark parcel outlines, blue-green edging and printed symbols; their possible connection and exact continuation cannot be distinguished reliably."
+    }
+  ],
+  "overall_note": "The winding orange routes have the clearest road-like paired dotted margins. Thin red traces and the solid diagonal pair admit boundary-related alternatives, so the associated junction counts are conditional. Faint central traces are retained without completing their connections."
+}

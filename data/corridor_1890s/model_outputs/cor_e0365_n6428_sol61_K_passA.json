@@ -1,0 +1,219 @@
+{
+  "tile_id": "cor_e0365_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 151], [24, 184], [42, 220], [61, 258], [68, 279], [66, 316], [62, 362], [55, 406], [49, 450], [44, 498], [41, 547], [42, 594], [43, 637], [47, 678], [60, 720], [78, 763], [96, 805], [111, 836], [131, 879], [151, 921], [160, 949], [157, 976], [158, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark, partly granular edges enclose a rust-orange strip approximately 7–12 px wide. The pair bends together and continues across the diagonally striped railway.",
+      "uncertainty_note": "Some edge marks merge with marsh hatching and lettering; the orange strip and paired course remain visible on either side.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken edges could be recorded as a dotted road symbol rather than a continuous double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 314], [29, 299], [68, 279], [95, 257], [125, 233], [159, 207], [181, 184], [207, 169], [246, 155], [287, 146], [320, 136], [355, 124]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j05", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre-orange ribbon has close dark, irregular or dotted margins. It passes beside small black rectangles and joins the oblique paired line at its eastern end.",
+      "uncertainty_note": "The margins are partly covered by black lettering near the western junction. Junction j05 depends on accepting f04 as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Its granular margins resemble the sheet's dotted track drawing; double_line_narrow describes the visible pair without identifying an official class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[299, 0], [313, 31], [328, 63], [342, 94], [355, 124], [370, 157], [384, 190], [398, 224], [413, 258], [428, 289], [443, 317], [456, 333]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced dark edges, with intermittent small dark marks, enclose an orange-tan strip approximately 5–9 px wide. Both edges follow the same southeast course.",
+      "uncertainty_note": "Large letters interrupt short stretches near the upper end, but the paired strip is aligned and visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[159, 207], [165, 230], [175, 254], [183, 275], [222, 272], [263, 269], [298, 268], [320, 284], [345, 304], [376, 319], [405, 325], [430, 323], [456, 333]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The western portion is a heavy dark edge beside a much finer, intermittently visible line. Farther east, a thin ochre strip and granular dark marks follow the bend toward the oblique road.",
+      "uncertainty_note": "This may combine a field outline with a short track. The western connection and continuity around [298,268] are less secure than the orange-marked eastern stretch; j05 is provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the fine companion edge belongs to the same symbol, this is one narrow road joining f02 to j03."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Only one edge is consistently clear in the western portion; that portion could instead be a field or property outline, leaving a shorter road beginning around [310,277]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[456, 333], [494, 322], [536, 309], [574, 295], [613, 278], [650, 260], [678, 249], [705, 239], [741, 227], [779, 219], [815, 217], [847, 222], [883, 225], [919, 224], [948, 224], [972, 239], [1000, 252]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j06", "j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow yellow-ochre strip runs between two close dark, granular margins. The paired marks curve together past black building rectangles and remain distinguishable from the heavier blue field edges.",
+      "uncertainty_note": "Several letters cover short stretches, but corresponding road margins are visible on both sides. Junction j06 depends on the doubtful spur f07.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The partly dotted margins do not everywhere resolve into two continuous lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[779, 0], [797, 29], [817, 61], [839, 94], [862, 125], [882, 151], [907, 179], [928, 203], [948, 224]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A pale tan strip lies between close dark margins, running beside a separate broader reddish line. Its edges bend southeast together and approach the east-west ochre road.",
+      "uncertainty_note": "The paired strip is crowded by the reddish line and large letters near [882,151]; the exact merge at j04 is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the merge, overlap with the adjacent reddish line makes the individual margins difficult to separate."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[705, 239], [714, 261], [723, 283], [734, 308], [746, 329], [757, 346]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow pale strip has two dark edges for part of its southeast course; one edge becomes heavier beside an angular peach-filled polygon. A small black rectangle and lettering cover the lower end.",
+      "uncertainty_note": "This could be a short access track or two neighbouring field outlines. The endpoint is stopped at the black symbol; no continuation through it is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close edges could represent a narrow track branching from f05."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The apparent second edge may belong to the adjoining polygon, making this a non-road field outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[437, 1000], [472, 983], [508, 966], [544, 949], [576, 935], [606, 911], [635, 884], [664, 855], [694, 824], [724, 792], [750, 763]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two thin dark lines enclose a pale yellow-tan corridor, generally about 4–8 px wide. They run diagonally beside peach polygons and make small aligned bends; black cursive letters obscure the northeastern end.",
+      "uncertainty_note": "The lower paired stretch supports a track reading, but farther northeast its edges overlap cultivated-polygon outlines. It is stopped at lettering; connection to f09 is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired corridor may be a continuous narrow road."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Some apparent paired sections could be neighbouring field outlines rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[854, 512], [838, 540], [822, 569], [806, 597], [790, 624], [778, 642]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin dark edge and a close, weaker companion line enclose a pale ochre strip beside black rectangles. The northern end is crowded by the railway crossing, and heavy cursive lettering covers the southern end.",
+      "uncertainty_note": "A track beside the polygon edges is possible, but the companion line is intermittent. Neither a crossing of the railway nor a connection southward to f08 is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both edges belong together, this is a narrow track that may continue toward f08."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The heavier line could be a field outline with unrelated nearby marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[636, 1000], [660, 975], [687, 954], [717, 945], [748, 933], [774, 907], [797, 877], [814, 844], [826, 813], [835, 782], [830, 765], [826, 753], [842, 725], [862, 702], [879, 678], [891, 650], [897, 622]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two dark blue-black edges bound a narrow, locally bluish pale strip. Their spacing varies, and the line makes sharper bends than the ochre roads; lettering crowds the northern end.",
+      "uncertainty_note": "Drainage is the stronger alternative, especially because of the bluish interior and continuation toward a single dark blue line. The lower cased stretch is retained as a doubtful road candidate rather than assigned a definite road class.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some lower stretches resemble a narrow cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire feature may instead be a stream with two banks; it should then be excluded from the road inventory."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [68, 279],
+      "branch_count": 4,
+      "evidence_note": "The north-south orange strip and the southwest-northeast ochre strip intersect. Close dark margins approach from four directions, partly merging beneath black lettering."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [355, 124],
+      "branch_count": 3,
+      "evidence_note": "The narrow ochre pair arriving from the west meets an oblique orange pair with visible continuations northwest and southeast; the dark margins merge beside black rectangular symbols."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [456, 333],
+      "branch_count": 3,
+      "evidence_note": "The southeast-running paired orange strip meets the curving ochre line. Dark granular edges continue west and east, producing three branches; the western branch includes the doubtful f04."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [948, 224],
+      "branch_count": 3,
+      "evidence_note": "A pale paired strip from the northwest meets the ochre line approaching from the west and continuing southeast. Dark margins overlap beside a broader reddish line."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [159, 207],
+      "branch_count": 3,
+      "evidence_note": "The ochre line continues southwest and northeast; a heavier dark line with a faint companion leaves southward beside black rectangles. Three road branches apply only if f04 is a road."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [705, 239],
+      "branch_count": 3,
+      "evidence_note": "Two granular margins continue west and east around a pale ochre centre, while a close-edged pale strip leaves southeast. The third branch is the uncertain f07."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [757, 578, 840, 667],
+      "why": "Heavy cursive lettering overlaps the possible narrow track f09; its margins cannot be followed continuously through the strokes."
+    },
+    {
+      "bbox_uv": [698, 708, 792, 777],
+      "why": "Large black lettering and nearby polygon edges prevent a secure continuation of f08 or a connection to the northern candidate."
+    }
+  ],
+  "overall_note": "The broad diagonal band with alternating dark blocks is railway and is excluded. Ochre paired routes are clearer than the southern traces, where field outlines, lettering and blue drainage symbols support competing readings. Junctions j05 and j06 are conditional on their doubtful branches being roads."
+}

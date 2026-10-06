@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0345_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 404], [25, 424], [50, 441], [78, 454], [107, 462], [132, 479], [160, 495], [200, 500], [243, 502], [273, 512], [301, 529], [334, 544], [361, 538], [382, 539], [407, 547], [440, 542], [477, 535], [519, 529], [549, 526], [565, 529], [575, 546], [585, 562]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Close, irregular dark stippled flanks surround a narrow ochre strip. The line bends repeatedly and remains visible on both sides of the blue crossing near (360, 539).",
+      "uncertainty_note": "The flanks merge locally into one heavy stippled stroke; the paired-line classification is less certain than the course.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches could be one weighted, stippled line rather than two separate margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted ochre symbol does not match any supplied symbol-form class cleanly throughout."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[585, 562], [569, 578], [548, 600], [527, 621], [505, 642], [484, 661], [462, 682]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Close oblique dark and ochre traces run southwest beside a fine reddish line, across horizontal hatching and the blue line near (484, 650).",
+      "uncertainty_note": "A narrow track and a boundary coinciding with the hatched edge are both supported. At the southwest end, the ochre/dotted trace becomes inseparable from blue ink and hatching; the continuing plain reddish diagonal is not carried through as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close dark traces may be the two margins of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "This may instead be a property line beside a hatched land-cover edge, with no road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[585, 562], [594, 585], [611, 618], [630, 655], [650, 693], [670, 727], [691, 757], [714, 788], [740, 818], [769, 850], [799, 879], [834, 909], [872, 937], [909, 963], [945, 987], [965, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An interrupted, relatively heavy dark brown/black stroke with ochre colour runs southeast. It crosses the broad pink line near (656, 705); its lower portion has conspicuous separated dark marks and no clear continuous casing.",
+      "uncertainty_note": "The interruptions also resemble a boundary's dash-and-dot pattern. Road status is uncertain, especially south of the pink crossing; if this is a boundary, j01 loses this road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The entire southeast course may be a boundary rather than a path."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a path, the broken appearance may represent stippling or degraded printing of one line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[70, 210], [99, 223], [132, 238], [164, 254], [194, 269], [211, 274], [242, 265], [280, 254], [321, 243], [364, 232], [408, 220], [451, 209], [495, 196], [539, 184], [582, 174], [619, 165], [641, 161]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two fine, nearly continuous outlines enclose a narrow yellow/rose strip, most clearly on the western bend. A separate heavier blue line lies immediately south of its western portion.",
+      "uncertainty_note": "The rose colour also occurs on boundaries elsewhere. This could be a road coinciding with a boundary, or a paired boundary marking alone. Both ends merge with heavier coloured lines; neither continuation is sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired strip may be boundary colouring and outlines rather than a road symbol."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [585, 562],
+      "branch_count": 3,
+      "evidence_note": "The winding ochre trace from the west reaches a convergence of a southwest oblique trace and a southeast broken dark stroke. Three road branches are provisional: either oblique stroke could instead be a boundary."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [450, 637, 502, 692],
+      "why": "Blue ink, horizontal hatching, a reddish diagonal and close dark marks overlap; the southwest track's margins and continuation cannot be separated reliably."
+    },
+    {
+      "bbox_uv": [618, 143, 661, 184],
+      "why": "The upper paired strip merges into a heavy dark line and pink wash, obscuring whether a road continues or terminates."
+    }
+  ],
+  "overall_note": "The winding ochre course is the clearest road candidate; its oblique branches and the upper paired strip retain boundary alternatives. Broad pink lines with heavy dash-and-dot markings, thin straight parcel lines, blue water lines and hatched-area outlines were otherwise read as non-roads. Coordinates follow visible strokes without extending a network through uncertain continuations."
+}

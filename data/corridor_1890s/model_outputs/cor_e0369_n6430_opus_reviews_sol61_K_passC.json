@@ -1,0 +1,72 @@
+{
+  "tile_id": "cor_e0369_n6430",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the top edge a brown/ochre line with a dotted black edge runs from (300,0) down to a bend at about (345,45), then east along v~40 to about (640,0). It is drawn in the same brown dotted style as the farm tracks lower on the tile, not the red solid or dash-dot boundary style. The overlay follows it closely.",
+      "uncertainty_note": "Only the edge of the line is inside the tile. Dotted (Gångstig-like) or doubled-dotted (Sämre körväg-like) cannot be separated at this resolution, so single_line is a possible alternative class."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the bottom edge at about (555,1000) a red-brown solid line, with a brown/ochre band along it, climbs north-east to about (660,860). The brown band beside the line resembles the red-brown Sämre körväg line in the worked example. The overlay follows this line.",
+      "uncertainty_note": "The red component is the same colour as the boundary lines on this sheet, so the line could be a boundary coinciding with a road. It could also be read as double_line_narrow because of the band."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted track leaves the f02/f05 line at about (658,860) and runs north along u~650 to a bend at about (665,692). It then runs east-south-east past (740,710) and (800,732) towards the farm group 'B' at about (850,765). The overlay follows both legs.",
+      "uncertainty_note": "The eastern end merges into the building symbols, so the exact end point near (840-855,760-770) is uncertain. The black line just west of the vertical leg (u~630-640) is a field edge, not part of the track."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f04 is a very short piece inside the farm group at about (850-860,765-800), between the end of f03 and the head of f06 / the east end of f05. A small red building symbol and the 'B' lettering cover this spot, and no continuous track line can be separated from them.",
+      "uncertainty_note": "A short link through the farmyard joining f03 to f06 is plausible, but it is not clearly drawn. It may simply be the boundary line (795,425)-(855,800) ending there."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This continues the f02 line from about (660,860) through (700,838) and (760,815) to the farm group at about (855,800). It is a red-brown solid line with a faint pale band beside it, running towards the farmstead, as a road to the farm would.",
+      "uncertainty_note": "This piece is thinner and redder than f02. The two red boundary lines from the north (680,480)-(735,830) and (795,425)-(855,800) end exactly on it, so it may be wholly or partly a boundary rather than a road. I keep it as a road because it continues f02 and leads to the farm."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted track runs from the farm group at about (856,800) south-south-west through (840,830) and (820,870) to about (817,1000) at the bottom edge. It is drawn in the same style as f03, and the overlay follows it.",
+      "uncertainty_note": "The start inside the farm symbols is not sharp, and the track could start a little further north at about (858,775)."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [855, 800],
+      "what_is_contested": "This is the meeting point inside farm 'B' of f05 (east end), f06 (north end), the possible f04 link to f03, and the red boundary line from (795,425). The number of road branches is uncertain (2, 3 or 4), and so is whether the boundary only touches here.",
+      "evidence_note": "The building symbols, the red house mark and the 'B' lettering cover the point, so no clear line can be followed through it."
+    },
+    {
+      "uv": [658, 860],
+      "what_is_contested": "Does the f03 dotted track end on the f02/f05 line (a T-junction), or does it cross it? Is the junction exactly here or slightly west, near the black field edge at u~640?",
+      "evidence_note": "The dotted brown line reaches the red-brown line, but a black field-edge line runs parallel just to the west. No continuation south of the red line is clear."
+    },
+    {
+      "uv": [735, 830],
+      "what_is_contested": "The red boundary line from (680,480) meets f05 here. If f05 is really a boundary rather than a road, this is a boundary node and not a road junction.",
+      "evidence_note": "Both lines are thin red solid strokes of the same colour."
+    }
+  ],
+  "overall_note": "The tile carries few roads: a dotted brown track at the top edge, and a red-brown line from the south-west towards farm 'B' with two dotted brown farm tracks off it. I found no roads that the overlay misses; the red solid and dash-dot lines elsewhere (along the stream and the vertical red lines) are boundaries, and the black dashed lines are parcel lines. The main doubts are whether f05 is a road or a boundary, and how the lines meet inside the farmyard at (855,800)."
+}

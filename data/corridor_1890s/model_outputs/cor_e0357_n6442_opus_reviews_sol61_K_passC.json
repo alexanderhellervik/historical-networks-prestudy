@@ -1,0 +1,75 @@
+{
+  "tile_id": "cor_e0357_n6442",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-filled road line with dark edges enters at the top edge near (350,0), runs south to about (342,150), then bends SW through (300,235) and (265,290) and stops at a field corner near (240,315). The overlay line follows it closely. Its colour and texture match the Sämre körväg in the worked example.",
+      "uncertainty_note": "The symbol form at this resolution could be a narrow double line or a thick single brown line. The southern end may be a dead end at the field, or the road may carry on uncoloured along the field boundary."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road line enters from the left edge at about (0,338), curves to (28,360), then runs south at u≈30–35 to v≈450 and drifts left to leave the tile at about (0,600). The overlay line follows it.",
+      "uncertainty_note": "Same brown road style as f01. The class is uncertain between double_line_narrow and single_line. Exactly where it leaves the left edge (v 580–620) is hard to pin down."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road line comes back in from the left edge at about (0,638) and runs east to (50,652). It then turns south along u≈50 past the field edge to about (42,830) and continues SW as a brown dotted line to the left edge near (0,960). The overlay follows this course.",
+      "uncertainty_note": "It is probably the same road as f02, briefly leaving the tile. South of v≈850 the brown is faint and runs beside blue stream lines, so the last 100 m are less certain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At this position (from about (0,130) up to (110,0)) the only line is the black outline of the pink arable field in the top-left corner. Unlike f01–f03 it has no brown road fill, and no double or dotted road symbol is visible.",
+      "uncertainty_note": "The corner is small and the line is thick. A faint brown edge could be lost at this resolution, so a short track along the field edge cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the f01 bend at about (345,160) a faint, straight, uncoloured grey double line runs ESE through (460,225). The overlay segment lies on it. The same grey band continues well beyond the overlay's end, along the field strip to the right edge near (1000,385) (see m01).",
+      "uncertainty_note": "The grey band carries no road colour and is perfectly straight. It could be an uncoloured road, a later pencil addition (planned road or railway) or a fold or artefact. If it is a road, the overlay is far too short."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[370, 182], [460, 225], [580, 280], [700, 310], [830, 338], [1000, 385]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A faint, straight grey band bounded by two thin parallel lines. It starts near the f01 bend and runs ESE across and along the arable strips to the right edge. Its width is constant, and in places it cuts across field outlines rather than following them.",
+      "uncertainty_note": "Low confidence that this is a road. It has none of the brown road colour used for f01–f03, and its straightness and translucency suggest a later addition or a paper artefact.",
+      "alternatives": ["not a road: later pencil or grey overprint (e.g. planned railway or road)", "not a road: fold or scan artefact", "uncoloured road (double_line_narrow)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [345, 158],
+      "what_is_contested": "Whether this is a junction at all. It may be a two-branch bend of f01, or a three-branch junction if the grey band (f05/m01) is a road.",
+      "evidence_note": "The brown road bends here, and several black field and boundary lines also meet at this point. The grey band starts within about 20 px of the bend but does not clearly touch the brown line."
+    },
+    {
+      "uv": [0, 620],
+      "what_is_contested": "Whether f02 and f03 are one road briefly leaving the tile, or meet at a junction on or just outside the left edge.",
+      "evidence_note": "f02 runs off the left edge around v 580–610, and f03 re-enters at v≈638. The connection lies at or beyond the edge and cannot be seen."
+    },
+    {
+      "uv": [240, 315],
+      "what_is_contested": "Whether f01 ends here in a dead end at the field, or joins an unmarked track along the field and boundary lines.",
+      "evidence_note": "The brown fill stops at the corner of a pink field. Only black field outlines, a blue stream and dashed boundaries continue beyond it."
+    }
+  ],
+  "overall_note": "The brown-filled roads f01, f02 and f03 are clear and the overlay follows them well. f04 lies on an uncoloured field outline, and f05 sits on a straight uncoloured grey band whose road status the drawing does not settle. The dashed black lines, the red line with its grey band on the right, and the faint horizontal line near v≈780 read as boundaries or artefacts, not roads."
+}

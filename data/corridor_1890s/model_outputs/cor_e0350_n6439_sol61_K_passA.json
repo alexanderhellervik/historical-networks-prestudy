@@ -1,0 +1,136 @@
+{
+  "tile_id": "cor_e0350_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 305],
+        [50, 314],
+        [100, 322],
+        [150, 329],
+        [200, 337],
+        [250, 344],
+        [300, 352],
+        [350, 359],
+        [400, 366],
+        [450, 374],
+        [500, 380],
+        [550, 386],
+        [600, 393],
+        [650, 400],
+        [700, 406],
+        [750, 412],
+        [800, 419],
+        [850, 426],
+        [900, 432],
+        [950, 439],
+        [1000, 446]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad continuous band crosses the face: pink along its upper side and a heavier dark blue-black strip below, with irregular pale interruptions and short transverse-looking marks.",
+      "uncertainty_note": "Included as a doubtful road candidate. The dark strip does not resolve into a clear road casing; the coordinates follow the middle of the combined band.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The pink and dark parallel components could be the two sides of a broad road symbol with uneven colour registration."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A railway, or a heavy boundary marking possibly superimposed on another line, remains a plausible non-road reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [944, 0],
+        [936, 29],
+        [925, 58],
+        [914, 88],
+        [898, 119],
+        [886, 149],
+        [884, 180],
+        [885, 211],
+        [887, 242],
+        [891, 264],
+        [907, 283],
+        [934, 289],
+        [956, 286]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One uncased chain of dark dots or very short strokes descends from the upper edge, bends left, then turns right toward lettering and angular building symbols; no continuous parallel casing is visible.",
+      "uncertainty_note": "The symbol is predominantly dotted, represented here by dashed_line. Its continuation becomes unclear beside the lettering and building outlines, so the trace stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary is possible, although the visible marks lack a clear alternating long-dash pattern."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [785, 1000],
+        [821, 983],
+        [853, 967],
+        [884, 950],
+        [915, 932],
+        [943, 909],
+        [967, 882],
+        [989, 851],
+        [1000, 835]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A single uncased row of fairly heavy dark dots runs diagonally across the lower-right corner, passing beside a buff rectangular building and curving toward the right edge.",
+      "uncertainty_note": "Dotted rather than conventionally dashed; its appearance closely matches the model legend's path symbol. Individual marks near the building are slightly blurred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted parcel limit remains possible, but no repeated long boundary dashes are clearly visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [1000, 350],
+        [979, 372],
+        [954, 396],
+        [930, 417]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "An oblique pale strip beside the right-edge building group has dark margins roughly 8–18 px apart and approaches the broad pink-and-dark band.",
+      "uncertainty_note": "This may be an access track, but the margins also resemble the outlines of the surrounding enclosed patch. The broad band obscures its lower end; a connection is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two margins belong to one route, they form a narrow cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strip may instead be space between parcel and building outlines, with no road drawn."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [938, 251, 1000, 325],
+      "why": "Lettering and heavy building outlines obscure the possible continuation of the upper dotted path."
+    },
+    {
+      "bbox_uv": [909, 404, 955, 448],
+      "why": "The broad dark-and-pink band masks the lower end of the oblique candidate and prevents a reliable junction reading."
+    }
+  ],
+  "overall_note": "The two dotted corner routes are the clearest path readings. The broad transverse band and the oblique strip beside the buildings admit non-road interpretations. No three-branch road junction can be established from the visible drawing."
+}

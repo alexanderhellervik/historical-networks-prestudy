@@ -1,0 +1,227 @@
+{
+  "tile_id": "cor_e0353_n6424",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[79,0],[105,30],[144,78],[182,114],[223,151],[266,191],[312,230],[354,275],[397,324],[438,373],[481,420],[516,443],[561,461],[611,478],[660,494],[706,502],[751,505],[786,501],[813,508],[831,523],[845,552],[858,592],[871,630],[880,657],[881,691],[875,731],[869,761],[866,789],[860,827],[855,866],[856,909],[860,953],[863,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j04","j05","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantial dark margins, generally about 8–14 px apart, enclose an orange-brown strip. The strip bends sharply near [813,508]; paired dark block-like marks flank its southern portion.",
+      "uncertainty_note": "The distinction between wide and narrow casing is relative. Lettering and coloured marks partly obscure the portion around [866,789], but the aligned strip is visible on both sides.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The paired margins could be described as narrow at this image scale."},
+        {"proposed_class":"avenue_lined","note":"The southern portion has paired dark marks alongside it; some may be avenue symbols, although individual marks are difficult to separate from other symbols."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[231,0],[201,29],[173,52],[144,78],[136,112],[125,161],[113,211],[102,261],[89,318],[72,377],[61,426],[49,477],[38,528],[27,580],[14,635],[0,696]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A relatively narrow rust-coloured stroke has irregular dark edging. A separate dashed dark line runs alongside much of its western side.",
+      "uncertainty_note": "The rust-coloured stroke resembles the thinner tracks in the example, but continuous paired casing is not consistently distinguishable. The adjacent dashed line is excluded from the trace.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The rust-coloured centre may constitute a single heavy road stroke with irregular printing at its edges."},
+        {"proposed_class":"double_line_narrow","note":"Some portions appear to have two close dark margins."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[411,0],[399,24],[387,45],[393,64],[409,81],[397,112],[373,150],[345,191],[312,230]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A thin orange-brown band with dark, uneven margins descends beside an outlined patch containing tree symbols and meets the broader cased line.",
+      "uncertainty_note": "Its upper portion coincides closely with the irregular outline of the symbol-filled patch, making the road margins difficult to distinguish from that outline.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The orange band and close dark margins may be a narrowly cased track."},
+        {"proposed_class":"unknown","note":"Part of the apparent track, especially its upper bend, could instead be an accented land-cover or parcel outline."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,350],[24,358],[48,368],[72,377]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short orange-brown line with narrow dark edging enters from the left and joins the similarly coloured descending stroke.",
+      "uncertainty_note": "Its small width and irregular printing prevent a confident distinction between a single stroke and close paired margins.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"It may be a single heavy track stroke."},
+        {"proposed_class":"double_line_narrow","note":"Close dark edges are intermittently visible around the coloured centre."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[889,0],[897,43],[907,87],[921,125],[941,159],[958,194],[975,233],[987,277],[994,322],[998,362],[1000,394]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "An orange-brown strip between two dark edges curves down the right side; its margins are approximately 7–12 px apart.",
+      "uncertainty_note": "The lower end becomes clipped by the right edge, where one margin is difficult to distinguish from the frame.",
+      "alternatives": [
+        {"proposed_class":"double_line_wide","note":"Some upper portions have casing comparable in width to f01."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[519,1000],[551,972],[582,946],[617,915],[653,881],[689,847],[725,814],[763,782],[793,752],[824,721],[853,691],[880,657],[908,630],[933,617],[967,612],[1000,607]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish-orange diagonal band has close dark flanks and passes alongside heavy black rectangular symbols. Its northeastern end bends into a nearly horizontal cased strip.",
+      "uncertainty_note": "Lettering and coloured marks obscure parts near [763,782] and [853,691]; the band is visible on both sides. The dark flanks are less consistently resolved than those of f01.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Some sections could be the thinner, irregularly edged track symbol rather than continuous double-line casing."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[660,494],[652,532],[646,573],[645,606],[650,635],[662,663],[688,694],[717,725],[741,752],[763,782]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j06"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow orange strip with close dark margins leaves the larger cased line, curves around a symbol-filled outline, and runs beside black rectangular marks before meeting the diagonal strip.",
+      "uncertainty_note": "Its southeastern connection is partly covered by lettering and red printing; the visible aligned margins support continuation to the diagonal.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The close margins could be irregular edging of a thinner track symbol."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0,863],[30,865],[63,855],[92,859],[124,870],[160,879],[194,885],[215,899],[232,923],[248,949],[273,964],[296,968],[319,960],[340,947],[361,940],[388,946],[421,957],[455,963],[487,967],[510,977],[522,983]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A winding ochre-orange line with thin dark edging runs among tree and oval symbols beneath large black lettering. Close margins are visible in several exposed sections.",
+      "uncertainty_note": "Parts coincide with the edge of coloured ground and are covered by lettering. The eastern end is stopped where its course becomes indistinct near the diagonal road and tile edge.",
+      "alternatives": [
+        {"proposed_class":"park_path","note":"The winding coloured line among planted-looking symbols may represent a park path."},
+        {"proposed_class":"single_line","note":"It could be a thin single-stroke track."},
+        {"proposed_class":"unknown","note":"Some or all of the line may be an accented land-cover boundary rather than a path."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,938],[16,943],[31,949],[49,960],[68,977],[91,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A short diagonal orange-brown band with thin dark flanks crosses the lower-left corner beneath large black strokes.",
+      "uncertainty_note": "Black lettering masks portions of the band. Its apparent connection with f10 is plausible but less clear than the upper road junctions.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Exposed portions appear to have close paired margins."},
+        {"proposed_class":"park_path","note":"It may belong to the winding paths among the surrounding symbols."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[31,949],[33,924],[34,897],[43,871],[63,855]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08","j09"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow, nearly vertical ochre strip has thin dark edging and several small oval marks beside it; it bends toward the winding line above.",
+      "uncertainty_note": "Lettering, oval symbols and irregular coloured edges make both endpoint connections tentative. The strip could be part of a planted enclosure outline.",
+      "alternatives": [
+        {"proposed_class":"park_path","note":"The strip may connect two paths within the symbol-filled area."},
+        {"proposed_class":"avenue_lined","note":"The nearby oval marks could be trees alongside a path, although two consistent rows are not clear."},
+        {"proposed_class":"unknown","note":"An enclosure boundary is also possible."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[866,789],[894,785],[920,786],[943,791],[963,807]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A reddish band with several close dark lines extends east from the vertical strip, immediately beside blue-green colouring and dense black marks.",
+      "uncertainty_note": "A separate road cannot be securely distinguished from the adjoining coloured edge and water margins. The trace stops where these lines overlap; no continuation around the bend is asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Two of the close dark lines may case a short road."},
+        {"proposed_class":"unknown","note":"The apparent branch may instead be coloured edging and water-bank lines, in which case j07 is not a road junction."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0,989],[9,979],[18,983],[26,994],[28,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A very short curved orange-brown mark with a dark rim clips the bottom-left corner.",
+      "uncertainty_note": "Too little of this mark is visible to distinguish a path from the edge of a small coloured patch.",
+      "alternatives": [
+        {"proposed_class":"park_path","note":"It could be a clipped curved path."},
+        {"proposed_class":"unknown","note":"It may instead be a small enclosed land-cover symbol."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[144,78],
+      "branch_count":4,
+      "evidence_note":"The broad orange strip with paired dark margins intersects the thinner rust-coloured stroke, with both strokes visible on both sides; a separate blue line also crosses nearby."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[312,230],
+      "branch_count":3,
+      "evidence_note":"The thin orange band from above ends against the paired margins of the diagonal orange strip, which continues in both directions."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[72,377],
+      "branch_count":3,
+      "evidence_note":"A short orange stroke from the left reaches the similarly coloured descending stroke, which remains visible above and below."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[660,494],
+      "branch_count":3,
+      "evidence_note":"A closely edged orange branch descends from the southern margin of the wider, nearly horizontal orange strip."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[880,657],
+      "branch_count":4,
+      "evidence_note":"The curved cased strip continues approximately vertically while the reddish diagonal strip approaches from the southwest and bends eastward; their dark margins overlap."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[763,782],
+      "branch_count":3,
+      "evidence_note":"The close-edged orange branch from the northwest reaches the reddish diagonal band beside black rectangular symbols; lettering partly covers the contact."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[866,789],
+      "branch_count":3,
+      "evidence_note":"An eastward reddish band appears to contact the vertical orange strip amid blue-green colouring and heavy marks; the third road branch is conditional on the road reading of f11."
+    },
+    {
+      "junction_id":"j08",
+      "uv":[31,949],
+      "branch_count":3,
+      "evidence_note":"The thin upright ochre strip appears to meet the diagonal orange band under black lettering; the contact and branch count are tentative."
+    },
+    {
+      "junction_id":"j09",
+      "uv":[63,855],
+      "branch_count":3,
+      "evidence_note":"The narrow ochre strip from below bends into the winding orange line, which appears on either side; irregular coloured boundaries make this a tentative path junction."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv":[777,749,1000,869],
+      "why":"Large lettering, heavy rectangular marks, red printing and several water-edge lines overlap; small branches and the eastward course of f11 cannot be reliably separated."
+    },
+    {
+      "bbox_uv":[505,968,558,1000],
+      "why":"The winding ochre line, diagonal cased strip, coloured edges and tile clipping converge; the endpoint of f08 cannot be connected confidently."
+    }
+  ],
+  "overall_note":"The main cased roads are clearer than the thin rust-coloured tracks. Lower-left winding marks may be paths or coloured boundaries, and the eastward river-side branch is conditional. Plain blue parcel outlines, the dashed line beside f02, and faint straight ruling were not traced as roads."
+}

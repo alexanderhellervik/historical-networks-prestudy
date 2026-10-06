@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0342_n6422",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows the broad brown-filled band with black casing that enters the left edge at about (0,300) and runs through the label 'Brogården' past (330,270) and (480,205) to the farm buildings near (590,240). This is the main road of the tile and the widest road symbol on it.",
+      "uncertainty_note": "The course is clear. The wide-versus-narrow class is a judgement from band width (about 10 px) relative to the southern road. Where f01 ends and f09 begins is not resolvable from the thin overlay line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Runs along the thin crimson line that comes down from the top edge near (150,0), bends through (100,150) and (60,200) to the marker circle at about (42,252), and then continues down the left margin. On this sheet crimson lines are boundaries (in the worked example they are read as Gräns). There is no brown fill or brown stroke along it, and the black line beside it at (0,150)-(45,245) is a parcel edge.",
+      "uncertainty_note": "Low. The only road-coloured line nearby is the separate brown line f05 a little further east."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows a crimson boundary that is paired with a black field edge. It runs from the left margin through (40,490), (240,578) and (370,668), then south along the crimson line to (430,850). South of (370,670) the paler grey-green line just west of the crimson one looks like a ditch, not a road. No brown band is visible along any part of it.",
+      "uncertainty_note": "Moderate. Between (240,578) and (370,668) the black and red lines run parallel about 6 px apart, which could be read as an unfilled narrow road. I read it as a boundary following a field edge because its colour matches the crimson boundaries elsewhere."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows the brown-filled double line south from the junction east of the farm at about (688,325). It goes SW to (620,385), then down through (605,430), (590,520), (560,640), (510,760) and (490,860), and leaves the bottom edge at about (490,1000). It is narrower than the main road.",
+      "uncertainty_note": "The course is clear. Its northern end is part of the triangular junction discussed under contested junctions: the road may also, or instead, connect north to the main road at about (600,255)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows a lighter orange-brown stroke from the top edge near (160,0) down past (165,100) and (205,190) to the main road at about (225,290). It has road colour and no black casing, similar to the brown lines in the worked example that are read as roads or paths.",
+      "uncertainty_note": "In the top 80 px it runs alongside the crimson boundary, so its exact course there is uncertain. It may be a minor road or a path. Single brown stroke is my symbol-form reading."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows the brown band in the lower left from the left edge through (40,760), (70,850) and (100,950) to the bottom edge at about (105,1000). It is road-coloured and has a crimson boundary running beside it.",
+      "uncertainty_note": "The overlay starts at about (0,600). On the tile the brown stroke is clearly visible from about (5,670) down, and above that it is hidden by the label 'ethult' and the boundary, so its exact entry point on the left edge is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short spur from about (85,900) down to the bottom edge at (65,1000) lies on a thin black line. That line is the edge of a field parcel and has no brown colour.",
+      "uncertainty_note": "Moderate. The area is small and the lines are close to the brown band of f06, so a short brown connector could be hidden there. I cannot see one."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This stub of about 35 px at (410,243)-(445,240) lies on the black northern casing of the main road and the building outlines of the farm. No separate road line leaves the main road there.",
+      "uncertainty_note": "It could be meant as a yard access to the buildings, but no such line is drawn."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Its label sits on the main road just east of the farm buildings. There the brown-filled road curves from about (560,215) through (620,260) to the stream crossing and junction at (688,325), then continues east through (830,290) to the right edge at about (1000,258). A real road is drawn along that course.",
+      "uncertainty_note": "From the thin overlay line I cannot be certain whether f09 is this main-road continuation or the short vertical double line from (600,255) to (610,400). If it is the vertical piece, see m01: I still read that as a probable road, but with lower confidence."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[598, 252], [603, 300], [608, 350], [610, 400]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A short double line runs south from the main road at about (598,252), through the end of the label 'Brogården' and past the red number '6142', to where the SW connector of f04 joins the southern road at about (610,400). Together with the connector it forms a small triangle.",
+      "uncertainty_note": "The crimson boundary from the north meets the main road here and continues south along the eastern side of this double line. The pair may therefore be boundary plus field edge rather than a road. The overlay may already show it as f09."
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[775, 822], [850, 800], [930, 775], [1000, 752]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A fine black dotted line runs from the corner of the woodland parcel at about (775,822) ENE to the right edge. Its form resembles the dotted Gångstig symbol on the model legend.",
+      "uncertainty_note": "Dotted lines on this sheet may also be division or survey lines. The worked example reads no dotted line as a road. It has no road colour."
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[820, 992], [900, 970], [1000, 945]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A second fine dotted line runs along the bottom-right corner, roughly parallel to m02, near the figure '4'.",
+      "uncertainty_note": "This is the same doubt as for m02: it may be a footpath symbol or a division line. It is short and close to the edge."
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [688, 325],
+      "what_is_contested": "The number of branches. The main road from the west, the main road to the east and the SW connector of the southern road (f04) clearly meet here at the stream crossing. A fourth short spur toward the buildings at (740,335) is possible.",
+      "evidence_note": "The black building symbols and the stream banks crowd the junction, and the red mark at (685,340) obscures the exact meeting point."
+    },
+    {
+      "uv": [600, 255],
+      "what_is_contested": "Whether a junction exists here: a second, vertical branch from the main road down to (610,400) (m01).",
+      "evidence_note": "A double line is visible, but a crimson boundary coincides with it, and the label 'Brogården' and the number '6142' overprint it."
+    },
+    {
+      "uv": [610, 400],
+      "what_is_contested": "Whether this is a three-way merge of the vertical piece, the SW connector and the southern road, or simply a bend in f04.",
+      "evidence_note": "It depends on whether m01 is a road, and the red numeral '2' sits close by."
+    },
+    {
+      "uv": [830, 290],
+      "what_is_contested": "Whether the reddish line from the top edge near (760,0) through (800,180) to the main road at (830,290) is a road branch or a boundary.",
+      "evidence_note": "The line is darker and thicker than the other crimson boundaries and partly brownish, but it is crimson at the top. I read it as a boundary, so there is no junction."
+    },
+    {
+      "uv": [225, 290],
+      "what_is_contested": "Whether f05 ends at the main road or continues south of it.",
+      "evidence_note": "No brown stroke continues south of the main road. The label 'Brogården' covers the meeting point."
+    }
+  ],
+  "overall_note": "The roads I am confident of are the brown main road through Brogården (f01/f09), the brown southern road (f04) and two lighter brown minor lines (f05, f06). f02, f03, f07 and f08 lie on crimson boundaries, black field edges or building outlines. The most uncertain part is the triangular junction near (600–690, 250–400) and whether the dotted lines in the lower right are footpaths."
+}

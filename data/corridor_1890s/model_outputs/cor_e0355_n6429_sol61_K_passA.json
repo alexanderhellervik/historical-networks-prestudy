@@ -1,0 +1,108 @@
+{
+  "tile_id": "cor_e0355_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [112, 0],
+        [137, 9],
+        [153, 26],
+        [164, 52],
+        [174, 86],
+        [183, 111],
+        [197, 128],
+        [221, 138],
+        [242, 143],
+        [263, 134],
+        [285, 166],
+        [310, 195],
+        [332, 227],
+        [355, 264],
+        [378, 303],
+        [404, 342],
+        [428, 379],
+        [453, 417],
+        [476, 458],
+        [497, 500],
+        [516, 543],
+        [527, 586],
+        [532, 630],
+        [534, 675],
+        [534, 718],
+        [532, 763],
+        [525, 808],
+        [526, 846],
+        [541, 880],
+        [563, 917],
+        [588, 958],
+        [614, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": [
+        "edge_of_tile",
+        "edge_of_tile"
+      ],
+      "evidence_note": "A narrow ochre trace carries closely spaced dark dots or short strokes. It curves across the upper-left portion, approaches the west side of the heavier railway marks, then bends away below about v=550; no consistently separated casing is visible.",
+      "uncertainty_note": "The faint ochre component sometimes appears continuous, making the symbol class uncertain. The connection near [263,134] and the passage through the dark sheet join are less distinct, although the traces on either side support this course; lettering partly masks the middle section.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre component could be read as a continuous thin line with dark marks alongside."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some strokes beside the red diagonal could belong to a boundary rather than the path; the upper curved portion and lower diverging portion could therefore be separate features."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [247, 631],
+        [274, 625],
+        [301, 626],
+        [322, 639],
+        [333, 667],
+        [343, 692],
+        [364, 716],
+        [377, 739],
+        [385, 769],
+        [385, 804],
+        [389, 839],
+        [394, 875],
+        [402, 910],
+        [420, 941],
+        [446, 967],
+        [476, 990],
+        [486, 1000]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": [
+        "obscured",
+        "edge_of_tile"
+      ],
+      "evidence_note": "A winding ochre band has two uneven darker reddish-brown margins, generally several pixels apart. It begins against the blue shoreline and remains visible through horizontal marsh hatching and portions of the large lettering near the bottom.",
+      "uncertainty_note": "The margins merge locally into one heavy stroke. Its upper end merges with shoreline ink, so continuation beyond that point is unsupported; a watercourse reading remains plausible.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Several stretches look like one thick brown line rather than two separately drawn margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The shoreline connection and passage through marsh hatching also support a possible watercourse rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 193, 1000, 227],
+      "why": "A heavy, slightly sloping dark sheet join masks fine strokes within this strip; its actual width and vertical position vary across the tile."
+    }
+  ],
+  "overall_note": "The dotted route is the clearest path candidate; the winding brown band retains a road-versus-watercourse ambiguity. Railway marks, red parcel lines, long-dashed divisions, blue water outlines and the thin ochre compartment outlines were read as non-roads. No meeting of three supported road branches is visible."
+}

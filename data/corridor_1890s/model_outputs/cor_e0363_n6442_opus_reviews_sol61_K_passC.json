@@ -1,0 +1,87 @@
+{
+  "tile_id": "cor_e0363_n6442",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Broad brown-filled road with two firm dark edge lines curving from the top edge at about u=245 down past Kristineberg to the left edge at about v=215; the polyline lies on it throughout.",
+      "uncertainty_note": "The class is read from the width and solid edges (Landsväg/Bygdeväg-like). The course itself is not in doubt."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown-dotted road leaves f01 at about (130,160), runs down the field edge to about (170,235), then east along the top of the field past (300,235) to about (395,205), and meets the main brown road near the small buildings at about (415,220).",
+      "uncertainty_note": "The last stub of the polyline drops to about (425,258) to meet f04's line, which runs too far south there. The drawn junction is nearer (415,220). The line is thinner than f03/f04, so dashed_line (Sämre körväg) is a plausible alternative class."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown-filled road with dotted edges from the farm at Ulriksdal (about 485,215), bending down to (540,268), then east through (690,265) and (840,212) to the right edge at about v=228; the polyline follows it.",
+      "uncertainty_note": "Bättre and Sämre körväg are hard to tell apart at this resolution. The class is given as the symbol form only."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[97, 403], [160, 375], [230, 343], [300, 305], [360, 272], [410, 228], [460, 216], [487, 215]],
+      "evidence_note": "The brown dotted-edge road clearly runs from the field corner at about (97,403) north-east to the farm at about (485,215). In the eastern half the drawn road rises more steeply than the polyline: at u around 400-430 the road is at v of about 220-230, while the polyline is near v 255-262 and cuts through the field.",
+      "uncertainty_note": "The western half (u<300) is within about 10 px of the road. The deviation is about 30-40 px near u=420. The western end at (97,403) might be a dead end or might continue unmarked along the field edge."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[804, 330], [790, 500], [770, 700], [745, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Faint, roughly parallel pale lines run north-south through the hatched reed/water area from below the shore near u=800 to the bottom edge near u=745. They are consistent with a winter road (Vinterväg) across the ice.",
+      "uncertainty_note": "Very faint and uncoloured. They could equally be a paper crease, a scan artefact or a boundary line, so they are only weakly a road.",
+      "alternatives": ["paper crease / scan artefact", "boundary line across water", "vinterväg (would be drawn as double dashed)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[272, 85], [300, 150], [332, 222]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow white strip edged by two thin black lines runs from the Kristineberg buildings down between the fields to f02 near (332,222), shaped like a farm lane.",
+      "uncertainty_note": "It carries no brown road colour. Under the sheet's convention it is more likely a parcel strip, ditch pair or field boundary than a road.",
+      "alternatives": ["field parcel boundary", "ditch", "not a road"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[172, 238], [190, 290], [212, 345]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A white strip with black edge lines runs between the fields from f02 at about (172,238) south to f04 at about (212,345), which would link the two roads.",
+      "uncertainty_note": "It is uncoloured, so it is probably not a road. It may be only the gap between field parcels.",
+      "alternatives": ["field parcel gap", "not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [415, 220],
+      "what_is_contested": "The position of the f02 junction with the main road: the overlay puts it at about (425,258), but the drawing suggests about (415,220) beside the small buildings.",
+      "evidence_note": "The brown dotted f02 line meets the brown main road right at the black building symbols near (410-425, 210-225)."
+    },
+    {
+      "uv": [487, 215],
+      "what_is_contested": "Whether f03 and f04 are one continuous road passing the Ulriksdal farmyard, or two roads meeting at the farm (a 2- or 3-branch node).",
+      "evidence_note": "The brown road runs continuously around the farm's north side, and a red-brown building sits at about (468,203). No separate branch is clearly drawn."
+    },
+    {
+      "uv": [97, 403],
+      "what_is_contested": "Whether f04 ends here or continues along the field edge to the west or south-west.",
+      "evidence_note": "The brown colour stops at the field corner, and only black field boundaries continue beyond it."
+    }
+  ],
+  "overall_note": "Four brown roads are clearly drawn, and the overlay captures all of them. Only f04 cuts south of the drawn road in its eastern half, and f02's junction stub follows f04's line south. The missed candidates are weak: uncoloured lanes between fields and faint north-south lines across the reed area that might be a winter road or an artefact."
+}

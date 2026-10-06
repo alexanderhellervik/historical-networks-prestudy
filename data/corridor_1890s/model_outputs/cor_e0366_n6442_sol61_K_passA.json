@@ -1,0 +1,150 @@
+{
+  "tile_id": "cor_e0366_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[449, 0], [456, 27], [471, 54], [489, 84], [511, 116]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close, dark, approximately parallel strokes run diagonally beside pink wash; their separation is approximately 5–8 px.",
+      "uncertainty_note": "The paired strokes could represent a boundary-associated line rather than a road. The junction interpretation depends on accepting both this line and f05 as roads.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Possible non-road line along the margin of the pink-shaded strip."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[511, 116], [535, 155], [560, 197], [587, 241], [614, 284], [639, 326], [660, 357], [674, 379]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The close dark pair continues southeast, with pink shading on its eastern side, and disappears into a rectangular replacement patch.",
+      "uncertainty_note": "Road versus boundary remains uncertain. The continuation toward f03 is aligned, but its course inside the patch is unavailable.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Possible boundary-associated line, continuous with f01."},
+        {"proposed_class": "double_line_narrow", "note": "Possibly the same uninterrupted feature as f03, passing beneath the patch."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[709, 431], [730, 463], [748, 493], [762, 516], [770, 534]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow dark pair is visible between two replacement patches, along the western edge of pink shading. Angular reddish strokes occur immediately east of it.",
+      "uncertainty_note": "The paired line may be a road or a boundary-associated line. The angular reddish strokes appear to outline the shaded polygon; their contact with this pair is insufficient to establish a road branch.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Possible non-road boundary or edge line."},
+        {"proposed_class": "double_line_narrow", "note": "Possible continuation of f02 and f04 through the obscured intervals."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[843, 638], [865, 675], [890, 716], [915, 758], [939, 799], [964, 839], [986, 875], [1000, 899]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Closely spaced dark strokes reappear below a patch and run southeast to the right edge, adjoining a pink strip.",
+      "uncertainty_note": "The symbol could belong to a boundary rather than a road. Its connection to f03 is hidden, and the missing bend has not been reconstructed.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Possible boundary-associated paired line."},
+        {"proposed_class": "double_line_narrow", "note": "Possibly one continuous feature with f03 beneath the intervening patches."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[511, 116], [541, 106], [574, 96], [606, 86], [638, 79], [670, 72], [703, 66], [733, 60], [747, 57]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A sequence of separate dark dots or short marks rises gently northeast from the diagonal pair; no continuous casing is visible.",
+      "uncertainty_note": "The dotted form supports a path reading, but a boundary reading remains possible. The marks disappear beneath the upper replacement patch.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The short separated marks could be treated as a broken-line path symbol."},
+        {"proposed_class": "unknown", "note": "Possible dotted boundary rather than a path."},
+        {"proposed_class": "unknown", "note": "Possible continuation toward f06, but the obscured interval and change in symbol prevent joining them."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[847, 28], [878, 17], [908, 6], [926, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A reddish diagonal stroke with a darker edge appears east of the upper patch and clips the top edge; a distinct parallel casing is not securely resolved.",
+      "uncertainty_note": "This may be a short road segment or a coloured boundary. Its relationship to the dotted f05 is obscured.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Possible road represented by one continuous dark-edged stroke."},
+        {"proposed_class": "unknown", "note": "Possible non-road coloured boundary."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [511, 116],
+      "branch_count": 3,
+      "evidence_note": "The northeast-running dotted marks appear to contact the close diagonal pair, which continues northwest and southeast. Three road branches are conditional on the road readings of these ambiguous symbols."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [746, 0, 847, 66],
+      "why": "Replacement patches interrupt the dotted candidate and hide its possible connection to the upper-right stroke."
+    },
+    {
+      "bbox_uv": [798, 173, 898, 224],
+      "why": "A rectangular patch replaces the underlying drawing."
+    },
+    {
+      "bbox_uv": [135, 378, 206, 430],
+      "why": "Patched hatching and truncated black marks prevent reading the original local drawing."
+    },
+    {
+      "bbox_uv": [645, 379, 898, 431],
+      "why": "A broad replacement strip interrupts the diagonal paired line and nearby angular red linework."
+    },
+    {
+      "bbox_uv": [490, 429, 540, 483],
+      "why": "Patched hatching and clipped lettering obscure the underlying drawing."
+    },
+    {
+      "bbox_uv": [135, 484, 234, 509],
+      "why": "A narrow replacement strip hides the original linework."
+    },
+    {
+      "bbox_uv": [82, 535, 236, 585],
+      "why": "Replacement hatching interrupts lettering and conceals the original drawing."
+    },
+    {
+      "bbox_uv": [236, 535, 387, 635],
+      "why": "Adjoining replacement patches obscure the drawing around the truncated lettering."
+    },
+    {
+      "bbox_uv": [699, 535, 847, 585],
+      "why": "A replacement strip hides the diagonal paired line and adjacent pink polygon edges."
+    },
+    {
+      "bbox_uv": [797, 585, 847, 638],
+      "why": "A further patch conceals the course of the diagonal candidate before it reappears below."
+    },
+    {
+      "bbox_uv": [286, 636, 387, 686],
+      "why": "Replacement hatching removes the original local drawing."
+    },
+    {
+      "bbox_uv": [286, 711, 387, 770],
+      "why": "A rectangular replacement patch hides the underlying drawing."
+    },
+    {
+      "bbox_uv": [951, 692, 1000, 793],
+      "why": "An edge patch obscures the original drawing, including any line that might clip this part of the tile."
+    },
+    {
+      "bbox_uv": [849, 951, 949, 1000],
+      "why": "A replacement patch reaches the bottom edge and conceals the original drawing."
+    }
+  ],
+  "overall_note": "The diagonal paired strokes and upper dotted line are retained as road candidates with explicit non-road alternatives. Rectangular replacement patches prevent establishing several connections or excluding additional hidden tracks. The angular red single strokes are read as outlines of the pink-shaded polygons rather than additional roads."
+}

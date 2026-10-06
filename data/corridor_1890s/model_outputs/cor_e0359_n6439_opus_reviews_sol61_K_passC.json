@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0359_n6439",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous red-brown road band with dark edges runs from the west edge at about (0,430), up through (60,330), (110,285), (200,262), (390,240), (520,200), (600,175) and (700,165), and into the village at about (845,110). The overlay follows it. It crosses the thin crimson boundary line at about (395,240) without joining it. The neighbouring example tile reads the same band as a road.",
+      "uncertainty_note": "At this resolution I can't firmly separate the two edge lines from a single thick coloured stroke, so the class could be single_line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short brown-red double line leaves the end of the main road at about (845,105) and winds north between the village buildings to about (875,50).",
+      "uncertainty_note": "Buildings and the 'SG3' lettering crowd it. It may be a farmyard lane rather than a through road, and it may carry on to the top edge near (880,0), which I can't confirm."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line leaves the village at about (850,120) and runs south-east to about (905,165), where the dotted line and the eastward brown line begin.",
+      "uncertainty_note": "It is short and runs alongside black field and plot outlines at the village corner, so I'm not sure which stroke is the road."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown-red line runs from about (905,165) east-south-east to the east edge at about (1000,203). It continues the line from the village.",
+      "uncertainty_note": "It is drawn as a single thin coloured line, not a double road line. It could be a boundary drawn in colour, but it starts at the road leaving the village, which makes a road more likely."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A distinct broken (dotted) dark-and-red line runs from about (910,165) at the village road south along the east side: (950,250), (945,400), (935,600), (945,700), (965,800), to the bottom edge at about (958,1000). Its form matches the dotted path symbol (Gångstig or Sämre körväg) on the model legend, not a dash-dot boundary symbol.",
+      "uncertainty_note": "The vocabulary has no 'dotted' class, so I use dashed_line for the broken form. If the overlay's class is already dashed_line, read this as agree. The red tint leaves a small chance that it is a coloured boundary."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line runs from the 2B farm buildings at about (290,600) west-south-west past the small red buildings to about (100,668), then bends south-west to the west edge at about (0,755). The neighbouring example tile records the same line as a Gångstig.",
+      "uncertainty_note": "Near (100,670) it lies close to black field outlines and the blue stream, so the exact bend point is uncertain by about 15 px."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (950,545) to (1000,485) there is only a short, solid, thin orange line beside the small marsh at the edge. It has the same form as the many winding orange lines in the eastern half, which wrap bogs and stream lines like area or ownership boundaries.",
+      "uncertainty_note": "On this sheet a thin orange-brown line can also be a footpath (the 2B path is drawn like this). The example reader marked the matching orange line as unreadable. Its stub shape, ending at the tile edge, does not settle it."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At top left, about (70,60) to (200,5), the polyline follows a thin crimson line edged in black. It is the same crimson as the long line from (410,0) to (525,1000), which is a boundary in my reading and in the worked example. It has no road band or dotted road symbol.",
+      "uncertainty_note": "It is cut by the top edge and is only about 150 px long. A narrow road drawn in red cannot be ruled out entirely."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "I see no inked road line on this course. From (400,510) to (600,480) it traces the lower rim of a pale washed blob. From (600,480) to (900,200) it runs inside a pale strip between the bog and an orange line, which lies about 30–40 px further south-east: (700,430), (800,372), (900,290).",
+      "uncertainty_note": "The pale strip could be a faint or erased road, or it may just be paper wear or wash. If the parallel orange line counts as a path, the course differs. If neither does, this is not a road."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [905, 165],
+      "what_is_contested": "This is the meeting point of f03, f04 and the dotted f06. I'm not sure whether the dotted line really joins the brown road here or starts just short of it at a field corner, or whether f03 and f04 are one continuous line or two.",
+      "evidence_note": "Black field outlines and the village plot edge crowd the corner, and the dotted line's first dots are faint."
+    },
+    {
+      "uv": [845, 110],
+      "what_is_contested": "This is where the main road f01 ends in the village and f02 (north) and f03 (south-east) leave it. The number of real branches is uncertain: f02 may be a farmyard lane only.",
+      "evidence_note": "Buildings, the dark building fill and the 'SG3' lettering cover the lines."
+    },
+    {
+      "uv": [100, 668],
+      "what_is_contested": "This is the bend of f05 near the blue stream and the black field outlines. Something might branch south or join the outlines here, or it might be a simple bend.",
+      "evidence_note": "The orange path line, the black parcel lines and the stream all come within about 20 px of each other here."
+    }
+  ],
+  "overall_note": "The red-brown main road (f01), the village spurs (f02 to f04), the dotted path on the east side (f06) and the 2B footpath (f05) are drawn roads. The crimson line in the top-left corner (f08) belongs to the crimson boundary system. f09 follows no inked line, and f07 lies on an orange line whose meaning (area boundary or path) I can't resolve. The black dashed lines and the crimson line running north to south are boundaries, so I report no missed roads; the winding orange lines in the eastern half are the main residual doubt."
+}

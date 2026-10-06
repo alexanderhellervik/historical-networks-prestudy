@@ -1,0 +1,137 @@
+{
+  "tile_id": "cor_e0360_n6425",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 0], [40, 4], [80, 9], [129, 17]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre stroke carries closely spaced dark dots or short marks along its edges; a separate blue line runs below it.",
+      "uncertainty_note": "The resolution does not clearly separate two dotted edges from one dotted line over an ochre stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark marks may constitute one dotted path symbol."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The marks may form two closely spaced road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[129, 17], [175, 23], [225, 29], [275, 37], [325, 43], [375, 49], [425, 55], [475, 60], [525, 61], [575, 62], [625, 64], [675, 65], [725, 68], [775, 71], [811, 76], [831, 83], [854, 75], [880, 64], [907, 65], [935, 70], [958, 73], [981, 65], [1000, 57]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The ochre strip continues east with repeated dark marginal marks. Near the upper-right corner, two darker, closely spaced edges enclose a pale strip that bends upward and then right.",
+      "uncertainty_note": "The apparent transition from dotted edges to continuous paired edges near u=830 is crowded by a pink-and-black boundary and nearby lettering; treating these as one feature is provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Most of the western portion could be a dotted path rather than a paired-edge road."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The eastern portion has the clearest appearance of two narrow road edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The western dotted course and eastern paired-edge course could be separate features whose connection is obscured near [831,83]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[129, 17], [139, 42], [155, 66], [180, 86], [210, 105], [245, 122], [281, 136], [322, 141], [365, 147], [410, 153], [455, 158], [500, 164], [545, 169], [585, 177], [625, 188], [670, 197], [715, 205], [760, 214], [805, 223], [850, 233], [890, 244], [930, 255], [957, 268], [966, 282], [951, 300], [934, 318], [925, 330]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A fine ochre course with small dark dots or short strokes forks downward, sweeps across the upper tile, crosses the broad pink boundary, and bends down near the right edge.",
+      "uncertainty_note": "Some stretches appear to have a faint second edge. Its connection to the thin candidate spur at j02 is less clear than its own continuous course.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The combination of an ochre stroke and marginal dots does not cleanly match a single symbol-form class."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A faint second edge could indicate a narrow track with interrupted margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[925, 330], [918, 351], [913, 378], [913, 403], [920, 428], [934, 452], [950, 475], [966, 496], [977, 512]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The ochre line has repeated dark dots along its bending course, descending nearly vertically before curving southeast.",
+      "uncertainty_note": "Both listed junctions depend on reading the thinner ochre line f06 as a road; its attachment at j02 is especially uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark dots may mark the edge of an ochre track rather than constitute its centerline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[977, 512], [984, 537], [985, 564], [986, 589], [992, 607], [1000, 617]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre stroke with dark, regularly interrupted marks continues downward, then bends right through the tile edge.",
+      "uncertainty_note": "The junction is provisional because the joining thin line could be a parcel boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The interrupted marks may belong to one margin of a narrow track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[925, 330], [917, 358], [909, 389], [902, 419], [897, 446], [896, 463], [918, 479], [943, 494], [962, 506], [977, 512]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A finer, mostly continuous ochre line lies inside the dotted curve, descends toward a sharp bend near [896,463], and runs diagonally southeast toward that curve.",
+      "uncertainty_note": "This is a doubtful road candidate: the thin, uncased drawing also supports a parcel-boundary reading. The upper attachment and its exact course are faint, so the two junctions are conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a field or property boundary, in which case it is not a road and j02 and j03 disappear."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The upper end may stop or become obscured around [917,358] rather than connect at j02."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [129, 17],
+      "branch_count": 3,
+      "evidence_note": "The ochre line continues left and right while a third dotted ochre branch curves downward; the separate blue stroke below is not counted."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [925, 330],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre course has two continuing branches, with a faint, thinner ochre line apparently leaving toward the southwest; this three-branch reading is conditional on f06 being a connected road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [977, 512],
+      "branch_count": 3,
+      "evidence_note": "A thin diagonal ochre stroke appears to meet the dotted ochre curve, which continues above and below; the third road branch is conditional on f06."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad pink diagonal carries long black dashes separated by paired shorter marks and is read as a boundary; the blue courses and marsh hatching are also excluded. The principal ambiguity is the fine ochre line f06, which may be a parcel boundary rather than a road. Coordinates near its faint upper attachment and the upper-right symbol transition are approximate."
+}

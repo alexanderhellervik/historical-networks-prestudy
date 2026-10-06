@@ -1,0 +1,81 @@
+{
+  "tile_id": "cor_e0344_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 797], [10, 830], [19, 861], [23, 895], [25, 928], [32, 954], [48, 973], [74, 988], [98, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow tan strip has two close brown-dark margins, approximately 6–10 px apart, with intermittent dots along the margins; it bends towards the bottom edge.",
+      "uncertainty_note": "The upper entrance is faint. A thin diagonal crossing near the lower bend appears to be a parcel line rather than an additional road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken margins could be read as two rows of dots rather than continuous double casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[751, 1000], [791, 978], [831, 955], [870, 934], [909, 911], [945, 888], [976, 871], [1000, 858]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close, relatively heavy brown-dark margins enclose a yellow-tan strip roughly 7–12 px wide; portions of the margins are dotted or irregular. A red line runs alongside part of the strip.",
+      "uncertainty_note": "The adjoining red boundary makes the individual margins difficult to separate locally, but the narrow road strip remains visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resemble paired dotted track margins rather than continuous double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 623], [34, 605], [70, 585], [108, 565], [148, 547], [156, 527], [163, 510]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin dark line and a red-brown line enclose a narrow pale yellow band, approximately 4–8 px wide. The band turns upward beside large black lettering.",
+      "uncertainty_note": "This may be a narrow track sharing a boundary, or simply the boundary's coloured edging. Lettering prevents a confident continuation beyond the final waypoint.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both visible edges belong to a road, they form narrow double casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire feature could be a property boundary; the red line joins other clear boundary strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[4, 0], [6, 9], [0, 13]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A very short, heavy dark angled stroke encloses a small pale patch at the upper-left corner and meets the red-brown line extending rightward.",
+      "uncertainty_note": "Too little of the symbol lies inside the tile to establish whether it is a clipped road or a boundary-related stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A clipped road casing could account for the dark edge and adjacent pale strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be the corner of boundary linework, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [137, 450, 198, 525],
+      "why": "Heavy black lettering overlaps the possible continuation of f03; its course and symbol cannot be separated confidently."
+    }
+  ],
+  "overall_note": "The clearest road strips clip the two lower corners; the left-side band and tiny upper-left stroke remain doubtful candidates. Red parcel lines, long dark dashes, thin blue lines and straight sheet lines were excluded where their symbols were distinguishable. No meeting of three or more road branches is established."
+}

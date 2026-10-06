@@ -1,0 +1,80 @@
+{
+  "tile_id": "cor_e0364_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,231],[31,224],[65,213],[94,199],[111,177],[125,158],[150,153],[190,154],[230,153],[259,146],[288,133],[319,111],[345,95],[375,83],[414,76],[455,74],[495,75],[530,70],[552,63],[570,47],[582,25],[587,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish band approximately 8–12 px wide runs between two dark, closely spaced stippled edges; small building outlines occur beside its upper bend.",
+      "uncertainty_note": "The road course is clear, although black lettering overlaps its last few pixels. Its dotted edging does not fit the available symbol-form classes cleanly.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The two stippled edges can be read as narrow road casing."},
+        {"proposed_class":"dashed_line","note":"This describes the interrupted dark strokes, but loses their paired arrangement."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[630,0],[643,18],[662,35],[685,46],[709,52],[739,48],[777,39],[813,32],[848,27],[878,17],[913,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish strip with two dark stippled margins bends down from the upper edge and rises back to it; large black lettering lies immediately above and partly across the strip.",
+      "uncertainty_note": "The first short bend is partly overlapped by lettering. No connection to f01 inside the tile is established.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The paired dark margins resemble narrow casing."},
+        {"proposed_class":"dashed_line","note":"The margins consist largely of interrupted dark marks."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[798,595],[789,625],[776,660],[764,691],[756,713],[757,733],[770,757],[794,781],[821,806],[838,825],[847,845],[846,869],[855,898],[873,926],[883,945],[884,959],[877,975],[859,990],[842,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "A reddish band approximately 8–12 px wide has dark stippled margins throughout its bends. Near v=830–865, an additional thin dark outline hugs its eastern side.",
+      "uncertainty_note": "The upper end visibly terminates beside an angular black outline. The extra eastern outline may be casing or an adjoining polygon edge; it does not clearly establish a separate road.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The paired margins can be treated as narrow casing around the reddish band."},
+        {"proposed_class":"dashed_line","note":"The dark edging is interrupted rather than consistently solid."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[884,959],[909,954],[939,947],[967,940],[1000,932]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One uncased row of heavy dark dots or short strokes runs diagonally from the reddish band to the right edge, with faint yellowish colour beneath it.",
+      "uncertainty_note": "A dotted path is plausible, but the short length and blurred marks also permit a boundary reading. Its junction with f03 is conditional on the path interpretation.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"A path drawn with spaced dots or short strokes."},
+        {"proposed_class":"unknown","note":"A boundary rather than a road; the marks may contain unequal dash lengths."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[45,0],[54,14],[60,31],[64,45]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two thin blue-black continuous strokes, approximately 7–10 px apart, curve down from the top edge and merge visually with an oblique cyan-edged line.",
+      "uncertainty_note": "This short paired stroke could be a narrow track, but a watercourse branch is also plausible. No continuation beyond the overlap is asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"A short uncoloured track represented by two close continuous edges."},
+        {"proposed_class":"unknown","note":"A watercourse branch rather than a road, suggested by the blue tint and contact with the cyan-edged line."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [884,959],
+      "branch_count": 3,
+      "evidence_note": "The single dark dotted row touches the eastern side of the reddish, stipple-edged band, which continues in both directions. Three road branches are present if the dotted row is a path; otherwise this is a road–boundary contact."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Three reddish, stipple-edged road sections are clearly drawn, but their symbol form does not map cleanly to the supplied classes. The lower-right dotted spur and upper-left paired stroke are included as doubtful features. Lettering near the upper edge limits interpretation of connections."
+}

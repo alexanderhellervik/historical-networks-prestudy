@@ -1,0 +1,236 @@
+{
+  "tile_id": "cor_e0355_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,388],[17,343],[37,303],[67,280],[108,269],[151,264],[193,269],[230,284],[254,296],[279,316],[313,342],[346,367],[379,388],[410,395],[428,397],[442,403],[481,421],[520,441],[558,464],[594,489],[633,514],[674,536],[713,549],[755,561],[797,574],[831,582],[866,607],[899,628],[933,647],[967,666],[1000,684]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A broad brown band lies between two heavy, mostly continuous dark edges about 12–20 px apart. At the southeast crossing, a separate blue-edged line runs beside its lower edge.",
+      "uncertainty_note": "Overlapping dark and blue strokes make the edges less distinct around (831,582); the brown band remains traceable through the overlap.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[254,296],[279,274],[302,249],[315,226],[327,201],[334,178],[329,161],[344,141],[375,119],[410,94],[445,64],[479,33],[512,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre strip has closely spaced dark edges, with dotted or broken portions. Black-and-red rectangular symbols sit immediately beside it near (280,250) and along its upper section.",
+      "uncertainty_note": "Some edge strokes merge with rectangular symbols and lettering, but matching strokes on either side support the continuous course.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken edge marks could be read as a paired dotted track symbol rather than narrow continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[428,397],[429,369],[432,341],[438,316],[445,313]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "Two close, dark, partly dotted strokes enclose a thin ochre strip rising from the broad band to a red-and-black rectangular symbol.",
+      "uncertainty_note": "The line ends against the rectangular symbol; no continuation through it is resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The edge dots may constitute the principal track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[442,403],[430,438],[411,481],[392,526],[373,568],[352,612],[337,654],[319,693],[299,710],[280,753],[265,789],[252,824],[238,865],[231,889],[205,929],[181,967],[164,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j05","j06"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown strip is bordered by close dark dotted or broken strokes. It bends near (299,710), passes beneath large black lettering, and continues to the bottom edge.",
+      "uncertainty_note": "The through-going strip is visible on both sides of the lettering. Junction j06 is conditional on the crossing red-tinted diagonal also being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired broken strokes could be classified by their dotted form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[594,489],[576,527],[558,564],[542,594],[536,610]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A slender ochre strip with two close, dark, broken edges leaves the broad band and reaches a red rectangular symbol beside the number 19.",
+      "uncertainty_note": "The terminal strokes merge into the rectangular symbol; no extension beyond it is drawn clearly.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The bordering dots could be treated as a dotted track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[299,710],[324,725],[347,740],[369,752]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A short ochre connector has closely spaced dark edges and runs into the red-and-black rectangle beside the number 20.",
+      "uncertainty_note": "Its final edge strokes overlap the rectangular outline.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Parts of the two edges appear dotted rather than continuous."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[289,784],[300,790],[309,795]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "A short, faint ochre-and-dark diagonal appears between black lettering and the west end of the elongated rectangle beside 21; separate casing is difficult to resolve.",
+      "uncertainty_note": "The western end disappears into lettering. A connection to f04 cannot be established and has not been carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It may be a short access path drawn with one fine stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be an enclosure edge or part of the adjoining rectangular symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[802,0],[818,13],[851,22],[886,30],[924,36],[962,42],[1000,48]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow red-brown band has a dark lower edge and a weaker upper edge, roughly 5–8 px apart. Fine angular outlines meet it from above.",
+      "uncertainty_note": "The red wash and uneven dark marks also support a boundary reading. Junction j07 applies only to the road interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The band may be a narrow cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a tinted property boundary, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[818,13],[834,44],[855,80],[878,119],[901,157],[926,193],[952,219],[977,242],[1000,266]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin ochre-red diagonal has close dark margins with intermittent dot-like marks. White angular outlines abut its eastern side.",
+      "uncertainty_note": "Its marks resemble both a narrow track and a tinted boundary; the meeting with f08 is conditional as a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close margins could be the edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The intermittent marks and red tint could indicate a property boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0,742],[42,763],[86,785],[130,807],[174,830],[214,851],[238,865],[272,893],[310,922],[350,950],[391,976],[433,993],[471,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A thin red-brown diagonal has a strong dark stroke and a weaker parallel margin. It crosses the dotted ochre strip at (238,865) and curves slightly near the bottom edge.",
+      "uncertainty_note": "A tinted boundary is a strong alternative to a narrow road. The four-branch junction is conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two apparent margins may enclose a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red tint and irregular dark marks may belong to a boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[785,1000],[804,967],[823,931],[839,895],[871,918],[905,940],[925,929],[954,904],[979,880],[1000,861]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown angular line has dark, partly broken margins. It meets a small blue-black outlined white polygon near (839,895).",
+      "uncertainty_note": "The sharp turns and adjoining polygon also support an enclosure or property-boundary interpretation; the apparent road margins are not consistently separable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It could be an angular narrow track with broken casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be an enclosure edge or tinted boundary, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [254,296],
+      "branch_count": 3,
+      "evidence_note": "The narrow ochre strip reaches the upper dark casing of the broad brown band; the broad band continues on both sides."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [428,397],
+      "branch_count": 3,
+      "evidence_note": "A close pair of dark strokes meets the upper edge of the broad brown band, which continues left and right."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [442,403],
+      "branch_count": 3,
+      "evidence_note": "The southward dotted ochre strip meets the lower casing of the broad band, slightly east of j02."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [594,489],
+      "branch_count": 3,
+      "evidence_note": "A slender, dark-edged ochre strip branches southwest from the lower edge of the broad brown band."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [299,710],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre strip continues through a bend while a short, closely edged ochre connector leaves it toward a red rectangle."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [238,865],
+      "branch_count": 4,
+      "evidence_note": "The dotted ochre strip and thin red-brown diagonal are visible on both sides of their crossing; four road branches exist only if the diagonal is a road."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [818,13],
+      "branch_count": 3,
+      "evidence_note": "Red-brown strokes continue toward the top edge, right edge and southeast; three road branches are conditional on these strokes being roads rather than boundaries."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [270,770,313,801],
+      "why": "Black lettering and adjoining rectangular strokes obscure the western end of the possible short connector f07."
+    }
+  ],
+  "overall_note": "The broad brown road and several dotted ochre connectors are readable. Red-tinted narrow lines support competing road and boundary readings, retained as uncertain features with conditional junctions. Blue water edges and the prominent magenta boundary were excluded."
+}

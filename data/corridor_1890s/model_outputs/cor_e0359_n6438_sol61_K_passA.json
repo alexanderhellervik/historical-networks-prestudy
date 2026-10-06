@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0359_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[277,1000],[323,982],[366,968],[411,949],[455,936],[500,921],[545,907],[590,893],[636,879],[682,867],[729,852],[776,841],[818,825],[862,811],[905,795],[957,777],[1000,757]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A broad pink-red strip has two irregular dark margins, approximately 8–15 px apart; short heavy black marks occur along its lower margin.",
+      "uncertainty_note": "The pink wash broadens the apparent symbol and makes the distinction between narrow and wide casing uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The full coloured band could be read as the width of the road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[950,0],[947,50],[944,100],[936,150],[929,200],[922,250],[919,300],[916,335],[910,346],[880,357],[845,365],[820,377],[816,393],[823,424],[828,470],[836,518],[845,558],[851,584],[847,613],[836,644],[821,671],[802,704],[784,733],[775,751]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Closely spaced black dots and short strokes follow a thin ochre line; there is no clearly separated second margin.",
+      "uncertainty_note": "The course across the horizontal seam is supported by aligned drawing on both sides. At the southern end, lettering and building outlines prevent a certain continuation to f04.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An ochre-highlighted dotted boundary remains a possible interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[801,863],[824,888],[854,919],[885,947],[917,975],[949,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "An oblique thin orange stroke carries separated dark dots or short dashes, without visible casing.",
+      "uncertainty_note": "Its northwest connection is mixed with wetland outlines and the diagonal coloured band. A connection to f01 near [793,836] is possible but is not traced through the overlap.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted stroke could be a boundary rather than a path; its obscured connection could also share the meeting represented by j01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[769,792],[772,814],[776,841]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A short, relatively heavy dark stroke with ochre beside it runs along the eastern side of the filled building symbols and reaches the diagonal band.",
+      "uncertainty_note": "Its upper connection to f02 is obscured. The stroke may be a parcel enclosure edge, so j01 depends on reading this segment as access.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A single access path joining the diagonal route is a plausible reading."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The visible stroke may belong to the enclosure around the buildings."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[919,420],[922,468],[926,514],[931,561],[938,610],[944,656],[947,700],[953,744],[957,777]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin, largely continuous orange-brown stroke bends slightly southward; no distinct parallel casing or repeated tree symbols are visible.",
+      "uncertainty_note": "The upper end disappears into the sheet seam. This could be a field or property edge, making its road interpretation and j02 uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured field or property boundary is an equally plausible interpretation of the single stroke."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [776,841],
+      "branch_count": 3,
+      "evidence_note": "The short dark, ochre-edged stroke meets the upper margin of the pink band, which continues in two directions; three branches result if f04 is access."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [957,777],
+      "branch_count": 3,
+      "evidence_note": "The thin orange stroke reaches the upper edge of the diagonal dark-margined band; three branches result if f05 is a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,379,1000,422],
+      "why": "The dark horizontal sheet overlap masks fine linework and possible connections."
+    },
+    {
+      "bbox_uv": [650,742,787,846],
+      "why": "Lettering, filled building rectangles and enclosure outlines obscure possible small access lines; only some outer strokes remain traceable."
+    }
+  ],
+  "overall_note": "The diagonal coloured route is the clearest road symbol. The dotted routes and thin orange candidate retain boundary alternatives, while the building cluster prevents a certain continuous reading of the northern approach. Junctions are conditional where the joining feature itself is doubtful."
+}

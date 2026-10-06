@@ -1,0 +1,293 @@
+{
+  "tile_id": "cor_e0367_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 544], [20, 536], [37, 528]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two dark dotted margins, roughly 8 px apart, enclose reddish colouring.",
+      "uncertainty_note": "The paired dotted symbol has no exact match in the supplied class names.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Treat the two dotted margins as a narrow double line."},
+        {"proposed_class": "dashed_line", "note": "Emphasize the interrupted margins."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[37, 528], [65, 514], [96, 500], [123, 494], [161, 490], [211, 486], [260, 480], [309, 474], [359, 463], [404, 445], [448, 422], [489, 401], [530, 380]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish band with two closely spaced rows of heavy dark dots passes beside red and black building rectangles.",
+      "uncertainty_note": "Road identity is clear; classification of the paired dotted margins is uncertain.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The dotted rows define two narrow margins."},
+        {"proposed_class": "dashed_line", "note": "The dark marks are discontinuous."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[530, 380], [567, 358], [611, 345], [656, 334], [700, 322], [741, 305], [782, 284], [824, 260], [867, 235], [908, 222], [941, 208]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j08"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark dotted rows flank a continuous reddish strip, generally about 7–10 px wide.",
+      "uncertainty_note": "The possible branch at the eastern endpoint is less clear than the main dotted route.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Read the paired dotted margins as a double line."},
+        {"proposed_class": "dashed_line", "note": "Read the interrupted margins as the defining symbol."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[941, 208], [963, 200], [987, 195], [1000, 196]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The upper reddish strip continues between dark interrupted margins toward the right edge.",
+      "uncertainty_note": "Near the buildings, overlapping marks make the separation from f05 uncertain.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The visible upper margins can be read as a narrow double line."},
+        {"proposed_class": "unknown", "note": "f04 and f05 may be margins or local widening of one route rather than separate branches."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[941, 208], [961, 210], [979, 216], [1000, 218]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A lower pale strip with short dark edging runs beside the black building marks, below the upper dotted strip.",
+      "uncertainty_note": "Tentative road branch: this could instead be the lower margin of a widened road or edging around the building symbols.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "A separate narrow access line is a possible reading."},
+        {"proposed_class": "unknown", "note": "A single widened route incorporating f04 and f05 is also supported."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[37, 528], [47, 561], [59, 593], [72, 615], [79, 635], [88, 671], [97, 710], [103, 753], [113, 791], [129, 810], [147, 823], [151, 857], [155, 890], [176, 919], [195, 945], [207, 962], [214, 973]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Closely paired dark dotted edges surround reddish colouring; the same symbol appears immediately above and below the dark transverse strip.",
+      "uncertainty_note": "The strip hides the precise course around v615–630, but the aligned drawing on both sides supports continuity.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The paired dotted edges can be treated as a narrow double line."},
+        {"proposed_class": "dashed_line", "note": "The interrupted edging dominates the symbol."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[530, 380], [539, 403], [548, 432], [560, 462], [571, 496], [585, 519], [606, 550], [620, 582], [631, 614], [635, 633], [632, 649], [624, 674], [613, 695], [600, 704]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish line bounded by dark dotted marks descends beside the patterned enclosure, bends across solid blue-black outlines, and resumes below the transverse strip.",
+      "uncertainty_note": "The strip conceals about 10–15 px of the route; the matching approach and departure support carrying it through.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The two dotted margins can be read as a narrow double line."},
+        {"proposed_class": "dashed_line", "note": "The repeated interrupted marks could determine the class."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[600, 704], [574, 716], [544, 725], [511, 733], [477, 742], [447, 754], [425, 768], [413, 791], [406, 816], [395, 839], [374, 859], [349, 879], [323, 892], [310, 906], [305, 927], [307, 946]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close rows of dark dots follow a reddish curved band; solid field outlines meet or cross it without sharing its dotted symbol.",
+      "uncertainty_note": "Road course is readable, but the dotted paired symbol does not clearly fit one class name.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Treat the dotted rows as two margins."},
+        {"proposed_class": "dashed_line", "note": "Treat the interrupted marks as the defining form."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[600, 704], [589, 735], [580, 762], [575, 789], [576, 812], [584, 831]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow reddish strip with dark repeated edging runs downward and meets dense horizontal hatching and short transverse dark strokes.",
+      "uncertainty_note": "The ending merges into the hatching; an actual termination and an obscured continuation cannot be distinguished.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The paired edging suggests a narrow double line."},
+        {"proposed_class": "unknown", "note": "The visible endpoint could be a dead end rather than an obscured continuation."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[307, 946], [310, 965], [322, 985], [335, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The reddish curved band continues between closely spaced dark dotted edges to the bottom edge.",
+      "uncertainty_note": "Paired dotted margins make the class uncertain.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Read the two dotted margins as a double line."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[307, 946], [278, 954], [247, 965], [214, 973]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish connector with two close dark dotted margins joins the two curved lines.",
+      "uncertainty_note": "The connector is visible; only its symbol-form class is uncertain.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Its dotted margins define a narrow double line."},
+        {"proposed_class": "dashed_line", "note": "Its dark edging is interrupted."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[214, 973], [220, 989], [224, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short reddish extension with dark edging continues downward from the dotted crossing.",
+      "uncertainty_note": "The short length and crowded crossing make this branch less distinct; a non-road outline is a possible reading.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "It appears to continue the paired road margins."},
+        {"proposed_class": "unknown", "note": "It may be an adjoining field outline, reducing j05 to three road branches."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[0, 989], [30, 980], [63, 977], [96, 979], [128, 986], [161, 987], [189, 980], [214, 973]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A reddish, dark-dotted band runs near the bottom edge; solid diagonal outlines intersect it toward the west.",
+      "uncertainty_note": "Overlapping outlines blur the western part, so its centreline is approximate.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The visible paired dotted margins support a narrow double line."},
+        {"proposed_class": "unknown", "note": "Some western dark strokes may belong to adjoining field outlines."}
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[278, 0], [252, 38], [224, 77], [197, 115], [168, 154], [140, 193], [114, 231], [98, 260]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two fine, approximately parallel grey-brown strokes enclose a pale strip about 5–8 px wide.",
+      "uncertainty_note": "Tentative road reading: the faded paired strokes could instead be a non-road survey line or a linear scan mark.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "A paired non-road line remains possible."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[98, 260], [70, 299], [42, 338], [15, 375], [0, 395]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The fine paired grey-brown strokes continue diagonally, with roughly constant spacing and little reddish colouring.",
+      "uncertainty_note": "As with f14, road identity is uncertain; pale adjoining strokes complicate the exact centreline near the left edge.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The continuous diagonal could be a non-road paired line."}
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[98, 260], [112, 275], [127, 283], [145, 282], [162, 275], [177, 268]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06", "j07"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Small dark blue-grey dots form an uncased bent line, without clear paired margins or a continuous reddish band.",
+      "uncertainty_note": "A dotted path is possible, but a boundary or drainage-related line is also possible; both junctions are tentative.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Read the repeated dots as an interrupted path symbol."},
+        {"proposed_class": "unknown", "note": "The marks may represent a non-road line."}
+      ]
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[177, 268], [195, 252], [211, 236], [228, 223], [237, 211], [246, 197]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine chain of dark blue-grey dots curves upward and right; the marks weaken at the upper endpoint.",
+      "uncertainty_note": "Path versus non-road line is unresolved, and no continuation beyond the fading endpoint is asserted.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The repeated discrete marks could depict a path."},
+        {"proposed_class": "unknown", "note": "A boundary-like dotted line is an alternative."}
+      ]
+    },
+    {
+      "feature_id": "f18",
+      "waypoints_uv": [[177, 268], [172, 290], [174, 310], [170, 333], [176, 355], [182, 385]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Scattered short dark marks follow a narrow winding line downward, crossed by a much paler cyan line.",
+      "uncertainty_note": "The marks may form a path, a non-road line, or disconnected strokes; the connection at j07 and the fading southern endpoint are uncertain.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "An interrupted path is one reading."},
+        {"proposed_class": "unknown", "note": "A boundary or drainage line, or disconnected marks, is also possible."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [37, 528],
+      "branch_count": 3,
+      "evidence_note": "The reddish paired dotted band has two through arms and a similarly edged downward arm."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [530, 380],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the diagonal reddish dotted band meet a downward dotted arm beside the patterned rectangular enclosure."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [600, 704],
+      "branch_count": 3,
+      "evidence_note": "Three reddish bands with close dark dotted edging meet: an upper arm, a curved left arm, and a downward arm."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [307, 946],
+      "branch_count": 3,
+      "evidence_note": "The curved paired dotted band has upper and lower arms and receives a reddish dotted connector from the left."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [214, 973],
+      "branch_count": 4,
+      "evidence_note": "Reddish dotted strokes meet from above-left, left, and right, with a short downward extension; the fourth arm could instead be a field outline."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [98, 260],
+      "branch_count": 3,
+      "evidence_note": "A fine dotted bent line appears to touch the two through arms of the pale paired diagonal; contact and road identity are tentative."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [177, 268],
+      "branch_count": 3,
+      "evidence_note": "Fine dark dotted strokes appear to divide into left, upper-right, and downward arms; fading marks make this a tentative three-branch reading."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [941, 208],
+      "branch_count": 3,
+      "evidence_note": "The incoming dotted reddish strip appears to divide into upper and lower pale strips beside black building marks; a single widened strip is also possible."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 609, 1000, 653],
+      "why": "This bounding box encloses the dark transverse strip, which slopes from about v615 at the left to v643 at the right and hides a narrow band of drawing; the two road crossings are linked from their visible matching approaches."
+    }
+  ],
+  "overall_note": "The clearest roads have reddish colouring between paired dark dotted margins, which do not fit the available class names exactly. The northwest candidates and the possible split beside the upper-right buildings admit non-road or single-feature readings, so their junctions are provisional. Centreline coordinates are approximate where marks are faded or overlap other symbols."
+}

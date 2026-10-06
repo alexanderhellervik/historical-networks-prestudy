@@ -1,0 +1,194 @@
+{
+  "tile_id": "cor_e0368_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[235, 94], [220, 110], [201, 127]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two closely spaced rows of dark dots enclose a pale orange strip approaching the red and black rectangular symbols.",
+      "uncertainty_note": "The northeastern termination merges with the rectangular symbols; no continuation through them is traced.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[201, 127], [178, 153], [153, 181], [127, 211], [101, 242], [75, 273], [51, 300], [37, 320]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Paired dark dotted lines, approximately 7–10 px apart, flank a pale orange centre along the diagonal.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 334], [18, 327], [37, 320]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short single row of dark dots enters from the left edge and touches the paired dotted track at its bend.",
+      "uncertainty_note": "The short segment provides limited evidence for distinguishing a path from a dotted boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a dotted boundary meeting the track rather than a road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[37, 320], [38, 341], [41, 362], [44, 383]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark dotted margins with an orange interior continue downward beside a thin solid outlined projection.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 378], [21, 380], [44, 383]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two approximately parallel rows of dark dots, about 7 px apart, run nearly horizontally from the left edge into the vertical track.",
+      "uncertainty_note": "The orange centre is faint, but both dotted margins are visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[44, 383], [48, 428], [52, 476], [57, 524], [63, 572], [70, 621], [77, 671], [97, 691], [121, 708]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Paired dark dots enclose a narrow orange strip; both margins bend southeast before reaching the fork.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[121, 708], [126, 737], [131, 764], [144, 789], [165, 825], [186, 864], [207, 904], [225, 939], [230, 961], [228, 983], [227, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two dark dotted margins and a pale orange centre continue south, curve southeast, then bend slightly left near the bottom edge.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[121, 708], [135, 683], [150, 660], [164, 638], [161, 625]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow orange strip between paired dark dots branches northeast and reaches black rectangular symbols beside a green outlined patch.",
+      "uncertainty_note": "The terminal dots merge with the black symbols; the feature stops there.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[134, 0], [150, 28], [167, 62], [184, 94], [201, 127]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One row of regularly spaced dark dots runs southeast from the top edge and crosses the paired dotted diagonal track.",
+      "uncertainty_note": "The single dotted symbol is read as a path, although a boundary interpretation remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary could produce this single-row appearance; that reading would remove these branches from the road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[201, 127], [225, 173], [249, 220], [273, 267], [297, 314], [320, 361], [344, 408], [369, 450], [393, 496], [417, 543], [441, 589], [465, 635], [483, 668], [508, 713], [535, 759], [563, 805], [591, 849], [620, 892], [649, 936], [677, 979], [691, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The northern portion has one row of dark dots; near (478, 653) it becomes paired dotted margins around a pale orange strip, which continues to the bottom edge.",
+      "uncertainty_note": "The course is continuous, but its symbol changes. The northern single-row portion could alternatively be a boundary meeting the southern track.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applies to the single dotted portion from (201, 127) to approximately (478, 653), if treated as a separate path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Applies to the paired dotted orange-centred portion from approximately (478, 653) to (691, 1000), if split at the symbol change."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The northern portion may be a boundary; under that reading only the southern paired portion is a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[894, 430], [916, 441], [938, 460], [952, 485], [967, 518], [983, 557], [1000, 602]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A single row of dark round dots leaves an angular thin solid outline and curves southeast to the right edge; no second margin is clear.",
+      "uncertainty_note": "The visible northwestern end touches the solid outline. It could mark a dotted boundary rather than a path; no continuation along that outline is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary continuing the adjoining solid outline is also plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[775, 94], [797, 77], [826, 70], [857, 63], [883, 52], [898, 35], [910, 13], [917, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A faint band of closely spaced dark dots curves northeast among star-shaped symbols; parts appear to have two narrow parallel dotted rows.",
+      "uncertainty_note": "The western end becomes indistinguishable from nearby star-shaped strokes. The number of dotted rows and the road-versus-boundary reading are uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The apparent paired dotted rows could be the margins of a narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the apparent second row belongs to nearby symbols, this could be a single dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The faint dotted band could instead be a boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [201, 127],
+      "branch_count": 4,
+      "evidence_note": "The orange-centred paired dotted diagonal crosses a single dotted diagonal, giving four visible arms without a bridge or interruption; the road branch count depends on reading the single dotted line as a path."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [37, 320],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted track bends from northeast to south, while a single dotted arm touches it from the west; three road branches are present under the path reading of that arm."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [44, 383],
+      "branch_count": 3,
+      "evidence_note": "A westward pair of closely spaced dotted lines meets the north–south paired dotted orange-centred track, forming three visible arms."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [121, 708],
+      "branch_count": 3,
+      "evidence_note": "Three orange-centred, paired dotted arms meet: northwest, northeast and south; their dotted margins converge at the fork."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Paired dotted tracks are clearer than the single dotted lines, which can admit boundary readings. The long diagonal changes symbol near (478, 653), and the faint northeastern fragment merges with tree symbols. Thin solid enclosure and land-cover outlines are not traced as roads."
+}

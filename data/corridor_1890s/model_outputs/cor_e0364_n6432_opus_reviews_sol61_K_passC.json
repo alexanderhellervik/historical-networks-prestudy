@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0364_n6432",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two parallel black lines with brown-orange fill run from the west edge at v~492 east to the junction at ~(172,477); this is the Landsväg symbol, the widest road on the tile.",
+      "uncertainty_note": "Course and class are clear."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same filled double-line road turns SE at ~(172,477) and runs straight to ~(282,583), where the brown single-line road f06 leaves it.",
+      "uncertainty_note": "Clear."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The filled double line continues SE through ~(360,680), (420,750) and (480,820), passing between the white building strips and the 'E' building.",
+      "uncertainty_note": "Clear. Where f03 ends and f04 begins is only a segmentation choice."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The double line bends south east of the garden at ~(505,870) and reaches the bottom edge at ~(500,1000), passing the point where f09 joins at ~(515,928).",
+      "uncertainty_note": "Near the bottom edge the road runs close to the green-edged river area, but the double line is still readable."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-red finely dotted single line runs from the top edge at ~(90,0) through (150,150) and (185,260) down to the main-road junction at ~(172,477). It follows the east edge of the pink field, but the field boundaries elsewhere on this tile are plain black, so the road colour marks this as a road (sämre körväg type, as in the example).",
+      "uncertainty_note": "Because it runs along a field edge, a boundary drawn in road colour is a remote alternative. The dotted texture could also be read as dashed_line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown single line leaves the main road at ~(282,583) and runs NE through ~(330,510) to the fork at ~(400,430).",
+      "uncertainty_note": "Clear."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the fork at ~(405,425) a brown dotted line runs north along the east side of the green marsh through (480,340), (510,230) and (525,150), then NE through (580,105) to the top edge at ~(635,0).",
+      "uncertainty_note": "The line crosses the 'Lagmanskullen' lettering and the marsh edge around v 150-250, but stays continuous."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line runs from the fork at ~(400,430) east through (480,408), (560,388) and (650,365) and ends at the SW corner of the pink field at ~(778,370).",
+      "uncertainty_note": "Beyond ~(778,370) only the black field boundary continues, so I read the road as ending at the field."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line enters at the east edge at ~(1000,655) and runs WSW through (900,690), (800,712) and (720,750), crosses the 'Lagmansh' lettering near (680,790), and runs SW through (610,860) and (560,895) to the main road at ~(515,928).",
+      "uncertainty_note": "The stretch from about (700,770) to (650,830) is partly hidden by the large lettering, so the exact course there is interpolated."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a short N-S line at about u~410 between the 'E' building strip (v~810) and the top of the garden (v~850). No brown road line or double line is clearly drawn there; only the plot and garden outlines in black are visible.",
+      "uncertainty_note": "It could be a short access from the building to the garden, but nothing at this resolution shows a road symbol."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This follows one of the brown lines inside the garden block (~u 330-500, v 850-990). Those lines form the regular rectangular grid of the Trädgård symbol, not the irregular curved paths of 'Park med parkvägar'.",
+      "uncertainty_note": "If the grid lines are taken as real walks, park_path is the alternative; by the legend I read them as the garden fill symbol."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [400, 428],
+      "what_is_contested": "Whether f06, f07 and f08 meet at one three-way point, or whether f07 leaves f06 slightly further north (~(410,420)) than f08 does (~(395,435)), giving two close junctions.",
+      "evidence_note": "The lines converge at the SE tip of the marsh, where the dotted marsh outline and the road dots overlap."
+    },
+    {
+      "uv": [515, 928],
+      "what_is_contested": "Whether f09 actually joins the main road, or ends at the plot boundary next to the 'III' buildings just short of it.",
+      "evidence_note": "The brown line reaches the east side of the double line near the river edge, where building hatching and the plot outline crowd the junction."
+    },
+    {
+      "uv": [778, 370],
+      "what_is_contested": "Whether f08 ends here (dead end at the field corner) or carries on east along the field's southern edge.",
+      "evidence_note": "The brown line stops where it meets the black field outline. East of that point only black boundary line is visible, with no brown road colour."
+    },
+    {
+      "uv": [172, 477],
+      "what_is_contested": "Whether f05 joins the main road at the same point where the main road bends (a three-way junction), or meets it slightly east of the field corner.",
+      "evidence_note": "The pink field corner, the bend in the double line and the end of the brown line all coincide within a few pixels."
+    }
+  ],
+  "overall_note": "My independent reading matches the overlay's roads: the filled double-line main road f01-f04 and the brown dotted single-line roads f05-f09. The two short features in the garden area are not supported: f10 shows no visible road symbol, and f11 follows the Trädgård grid. I found no roads missing from the overlay; the railway in the SE and the black field and plot boundaries are correctly left out."
+}

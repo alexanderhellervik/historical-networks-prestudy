@@ -1,0 +1,249 @@
+{
+  "tile_id": "cor_e0349_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,319],[18,286],[31,251],[45,215],[63,175],[89,135],[113,100],[140,66],[164,40],[180,30],[213,37],[249,48],[287,61],[324,75],[361,88],[395,101],[419,108]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A reddish strip approximately 8–15 px wide has dark edges, partly stippled, and runs immediately beside the blue wash before turning right.",
+      "uncertainty_note": "The fold hides its eastern continuation; f02 is a likely continuation, but the two visible ends are displaced.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as a broad reddish stroke with only one clearly separable dark edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[432,134],[470,139],[506,147],[531,160],[546,188],[557,222],[576,259],[601,294],[630,324],[659,350],[689,376],[717,403],[741,430]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Two dark, fairly continuous edges enclose a reddish centre about 10–15 px wide; the blue margin is a separate line above and to the right.",
+      "uncertainty_note": "The western end disappears into the fold. Connection to f01 is probable but is not traced across the hidden strip.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[741,430],[774,459],[808,479],[838,489],[869,487],[905,479],[941,478],[975,481],[1000,485]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish band between two dark edges continues through the bend; its casing remains distinct from the heavier blue-edged line above.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[741,430],[710,447],[677,471],[647,496],[620,526],[595,555],[575,583],[564,606]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A much thinner reddish-ochre stroke, with intermittent dark dots along its edge, touches the paired line and bends down toward the small black-outlined patch.",
+      "uncertainty_note": "Continuous colour is clearer than the black symbol; a dotted path or a coloured boundary remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks could be the principal path symbol, with colour beneath them."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property boundary could produce this thin coloured line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[420,643],[451,643],[482,645],[514,647],[538,645],[551,634],[559,621],[564,606]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow reddish stroke passes below a dark rectangular mark and the large G, then curves upward; scattered black dots accompany it.",
+      "uncertainty_note": "Its western continuation is hidden by the fold. The visible stroke beneath the lettering supports continuation locally, but not a connection across the fold to f07.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Dark dots may represent a path whose colour has merged into a continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The symbol does not consistently separate into a standard road form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[564,606],[562,624],[572,645],[589,663],[611,670],[634,666],[654,684],[681,706],[710,728],[752,744],[793,755],[835,769],[877,781],[920,791],[959,804],[1000,820]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A fine ochre trace with closely spaced dark dots follows the lower side of the outlined patch, then continues southeast without clearly separated casing.",
+      "uncertainty_note": "Near the patch, the dotted trace overlaps its solid outline. Farther east, a dotted boundary is an alternative to a path.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre under-stroke is continuous over much of the course."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "This could be a dotted property boundary; the short initial course could instead follow the patch's opposite outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[78,586],[98,605],[131,616],[172,625],[211,632],[248,638],[278,633],[303,615],[331,590],[355,604],[379,613],[399,625]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A reddish band with irregular dark stippling sweeps beneath the large lettering, then makes a pronounced upward kink; distinct parallel edges are inconsistent.",
+      "uncertainty_note": "It resembles the thinner coloured track symbols elsewhere, but could be a coloured division between patches. The fold prevents confirming connection to f05.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The dominant visible mark is one continuous reddish stroke."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Dark stippling along the stroke may be a dotted path symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[78,586],[77,620],[82,660],[91,704],[103,744],[124,781],[148,817],[176,851],[204,884],[234,921],[240,946],[233,974],[227,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish, dark-stippled strip roughly 6–12 px wide descends through a long curve; dark lettering overlaps part of the lower bend.",
+      "uncertainty_note": "The coloured course reappears on both sides of the lower lettering. Road casing is indistinct, and a coloured field boundary remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "One coloured stroke is more consistently visible than two edges."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Several stretches appear to have two close dark edges around the reddish centre."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[55,532],[68,552],[74,572],[78,586]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A short reddish strip with dark flecks curves beside the tightly bent blue-and-black line and joins the two longer reddish arms.",
+      "uncertainty_note": "Its upper end merges with heavy lettering and dark linework. A connection to f10 is possible but is not carried through that obstruction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible reddish centre could be a single track stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0,506],[22,510]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short, nearly horizontal reddish trace with dark edging enters at the left margin and disappears among the large letter strokes.",
+      "uncertainty_note": "Too little is exposed to distinguish a track from a coloured patch edge or to connect it to f09.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The exposed fragment may be a single coloured track stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,29],[14,15],[29,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A short diagonal reddish-brown strip with uneven dark margins clips the upper-left corner; almost all its width and continuation lie outside the face.",
+      "uncertainty_note": "This may be a clipped road, but a coloured parcel edge cannot be excluded from the small exposed fragment.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark margins could be two close road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0,477],[18,444],[35,410],[51,380],[64,357]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A thin dark diagonal stroke crosses the reddish wash; a second close trace is intermittently visible near its upper end, beside black rectangular marks and lettering.",
+      "uncertainty_note": "A narrow path is possible, but this may simply be a patch boundary. The upper end cannot be followed confidently through the symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Most of the exposed course appears as one dark line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The intermittent adjacent trace could be a second road edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[426,731],[423,767],[433,809],[444,846],[456,883],[470,925],[483,966],[497,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A very pale grey curving trace, locally appearing as two close strokes with irregular dark flecks, runs just right of the fold toward the bottom edge.",
+      "uncertainty_note": "This is a weak track candidate: faded boundary linework or reproduction artefacts could explain it. Its upper continuation is lost among the fold and small dark outlined marks.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The local paired appearance could represent a faded narrow track."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches show only one pale stroke; the adjacent marks may be unrelated."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [741,430],
+      "branch_count": 3,
+      "evidence_note": "The dark-edged reddish band continues in two directions while a thinner reddish, dark-flecked stroke touches its lower edge; the third road branch is conditional on the track reading of f04."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [564,606],
+      "branch_count": 3,
+      "evidence_note": "Thin reddish approaches from above and lower-left meet a dark-dotted continuation beside the outlined patch; the outline blends with the third arm, making this junction provisional."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [78,586],
+      "branch_count": 3,
+      "evidence_note": "A reddish strip from above divides into a rightward reddish sweep and a descending dark-stippled curve; the three-branch interpretation depends on reading these coloured strokes as tracks."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [395,0,433,1000],
+      "why": "A dark vertical fold and displaced printing obscure short line sections and prevent reliable connections across the strip."
+    },
+    {
+      "bbox_uv": [0,484,71,546],
+      "why": "Heavy lettering overlaps short reddish and dark fragments, preventing a confident course between f10 and f09."
+    }
+  ],
+  "overall_note": "The paired reddish line along the upper blue margin is the clearest road symbol. Thinner reddish and dotted courses are retained with boundary alternatives, and the faint lower-centre trace is particularly uncertain. Connections hidden by the fold or heavy lettering have not been completed."
+}

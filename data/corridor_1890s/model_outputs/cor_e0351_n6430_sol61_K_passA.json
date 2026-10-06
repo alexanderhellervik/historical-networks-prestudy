@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0351_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,139],[38,115],[77,91],[113,70],[146,54],[177,44]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre strip has a heavy broken dark edge and a less distinct parallel edge, approximately 4–7 px apart; small outlined patches sit immediately below it.",
+      "uncertainty_note": "The lower edge partly merges with adjoining patch outlines, so two road margins cannot be distinguished consistently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre strip may lie between two narrow, broken road margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "It may instead be one dotted path with adjoining patch edges supplying the apparent second margin."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[177,44],[189,25],[202,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Closely spaced dark dots or short strokes follow a thin ochre trace bending upward from the meeting of the other two traces.",
+      "uncertainty_note": "The short segment is slightly blurred, but its dotted appearance and connection are visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[177,44],[211,48],[246,63],[278,84],[307,103],[331,123],[337,142],[323,165],[335,187],[351,211],[375,234],[394,255],[404,280],[421,305],[440,332],[460,359],[481,393],[496,417],[503,453],[508,482],[515,510],[525,531],[552,539],[582,549],[610,561],[634,578],[650,591]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "One narrow ochre trace carries repeated black dots and short strokes. Its upper part passes beside outlined patches; farther down it separates from a thin blue line and curves beneath the red '164,8' lettering.",
+      "uncertainty_note": "Brief interruptions at the broad coloured band and red numerals are carried through because aligned dotted strokes are visible on both sides. The junction at the lower end depends on the uncertain reading of f05.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the upper outlined patches, adjacent edges briefly give the trace a possible two-margin appearance."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[650,591],[661,606],[677,624]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short continuation of the ochre, black-dotted trace curves southeast into the broad pink, black and grey diagonal band.",
+      "uncertainty_note": "The trace disappears in the broad band's ink; no continuation across it is established. Its northern junction is conditional on f05 being a path.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[650,591],[659,572],[668,552],[682,536],[705,523],[730,510],[746,489],[758,466],[767,451]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "An ochre-dark broken trace lies immediately beside the blue outline of the small elongated pond. Short dark marks appear along its southwest and west sides; farther north they merge with heavier coloured linework.",
+      "uncertainty_note": "This may be a dotted path branching from f03, but the marks may instead belong to the pond outline or adjacent boundary colouring. Its upper continuation is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the short dark marks beside the blue edge as a separate dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the trace as shoreline or boundary ink rather than a road; under this reading j02 is absent and f03–f04 form one uninterrupted path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[900,0],[889,29],[876,61],[864,94],[853,126],[840,158],[820,185],[800,217],[783,251],[770,286],[763,314],[766,341],[772,368],[779,395],[784,421]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A single ochre trace with closely spaced black dots descends in a winding course. It is separate from the straighter red line to its east and crosses several thin blue-green strokes.",
+      "uncertainty_note": "The southern end merges into the broad pink-black band and adjoining blue line. A connection through that overlap to f05 cannot be established.",
+      "alternatives": []
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [177,44],
+      "branch_count": 3,
+      "evidence_note": "Three ochre traces with dark broken marks meet: one extends southwest, one reaches the top edge, and one turns east beside the small outlined patches."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [650,591],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre trace approaches from the northwest and continues southeast; a possible third broken trace turns north beside the blue pond edge. The three-branch reading is conditional on f05 being a separate path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [753,410,798,469],
+      "why": "Broad pink-black-grey ink, blue outlines and the ends of narrow traces overlap; any connection between f05 and f06 is unreadable."
+    }
+  ],
+  "overall_note": "The broad pink-grey bands and straighter red lines were read as boundary linework. The principal difficulty is distinguishing a possible dotted path from the blue pond outline near j02, so that branch and junction remain conditional."
+}

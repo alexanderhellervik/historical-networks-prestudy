@@ -1,0 +1,98 @@
+{
+  "tile_id": "cor_e0359_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [809, 0],
+        [805, 33],
+        [806, 59],
+        [804, 84],
+        [801, 108],
+        [794, 134],
+        [785, 160],
+        [775, 185],
+        [764, 211],
+        [754, 238],
+        [748, 266],
+        [745, 295],
+        [745, 324],
+        [750, 344],
+        [763, 366],
+        [778, 390],
+        [793, 413],
+        [806, 434],
+        [818, 457],
+        [833, 482],
+        [850, 506],
+        [866, 531],
+        [883, 556],
+        [900, 580],
+        [917, 599],
+        [918, 611],
+        [909, 632],
+        [905, 654],
+        [908, 682],
+        [912, 710],
+        [916, 737],
+        [919, 762],
+        [910, 777],
+        [887, 791],
+        [873, 805],
+        [858, 825],
+        [844, 847],
+        [833, 870],
+        [827, 891],
+        [828, 912],
+        [833, 933]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": [
+        "edge_of_tile",
+        "obscured"
+      ],
+      "evidence_note": "One uncased row of heavy dark dots or very short strokes, generally about 20–30 px apart, winds through the eastern side. No parallel road edge is visible. Near the southern end it runs close to a thin blue line; the blue line approaching from the west is continuous and does not share the dotted symbol.",
+      "uncertainty_note": "The symbol resembles the legend's dotted footpath; dashed_line denotes its discontinuous form. Lettering interferes with the trace below approximately v=933, so the feature stops before the obscured interval.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "This may continue through the lettering into f02 as one uninterrupted path, but the intervening marks cannot be separated confidently from the letter strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [853, 983],
+        [860, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": [
+        "obscured",
+        "edge_of_tile"
+      ],
+      "evidence_note": "A short dark interrupted trace is visible below the lettering, immediately beside a thin blue line, and reaches the lower edge. The exposed length is insufficient to establish a repeated symbol confidently.",
+      "uncertainty_note": "This is a doubtful road fragment: it could be the southern continuation of f01, but nearby lettering and blue strokes make its identity uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read as the reappearing dotted path from f01, with its connection hidden by lettering."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The short dark marks may belong to lettering or the adjacent blue line rather than a separate road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [825, 934, 870, 983],
+      "why": "Heavy place-name lettering overlaps the narrow corridor containing the dotted trace and a blue line, preventing a certain road connection across this interval."
+    }
+  ],
+  "overall_note": "The eastern dotted trace is the clearest path symbol; its southern connection is obscured by lettering. The angular red lines resemble boundaries in the worked example, while the blue outlines and continuous blue tributary are read as non-road lines. No meeting of three road branches is visible."
+}

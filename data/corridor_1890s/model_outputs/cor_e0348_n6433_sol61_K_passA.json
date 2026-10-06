@@ -1,0 +1,135 @@
+{
+  "tile_id": "cor_e0348_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[275, 166], [280, 199], [283, 238], [285, 278], [289, 320], [294, 359], [301, 397], [313, 439], [330, 481], [352, 520], [365, 552], [374, 590], [389, 627], [395, 658], [390, 683], [374, 705], [351, 725], [372, 733], [392, 750], [395, 775], [391, 802], [388, 837], [388, 850], [393, 864]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A fine brown trace carries one row of dark points and short strokes, without consistently visible casing; black lettering and small filled rectangles overlap its lower bends.",
+      "uncertainty_note": "A dotted path is plausible, but some marks are elongated enough to suggest a boundary. The upper attachment to the pink band and the continuation below the lower lettering are unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks could be the drawn symbol of a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The brown trace could instead be a boundary with alternating strokes and points."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 924], [36, 914], [92, 901], [149, 888], [204, 878], [260, 866], [315, 854], [372, 842], [388, 837], [430, 829], [486, 818], [541, 807], [588, 799], [621, 793]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Along the lower side of the broad pink band, a faint nearly continuous brown stroke runs roughly parallel to a darker broken stroke, generally about 6–12 px apart.",
+      "uncertainty_note": "The apparent pair may represent a narrow road beside or beneath boundary colouring; it may also combine a boundary stroke with an unrelated adjacent line. All junctions involving this candidate are conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two close strokes belong together, they form a narrow pale-centred road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may belong to the pink-backed boundary and adjacent linework, with no separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 680], [13, 710], [17, 752], [21, 792], [24, 833], [25, 868], [29, 891], [36, 914], [46, 943], [62, 973], [82, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown trace with intermittent dark marks clips the left edge, then bends toward the bottom; large black letters obscure parts near its crossing of the pink band.",
+      "uncertainty_note": "Its interrupted dark edging is compatible with a path, but the reddish trace could be boundary linework. The course through the lower lettering is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark points and short strokes could mark a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation remains possible, particularly around the pink-band crossing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[106, 984], [146, 990], [182, 990], [213, 983], [239, 969], [268, 949], [295, 932], [321, 921], [347, 911]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One dark stippled or short-stroked row follows a fine brown curved trace; no stable second edge is visible, and lettering overlaps both ends.",
+      "uncertainty_note": "This may be a dotted path or a boundary. Its western attachment and its possible continuation into f05 beneath the lettering cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent row could represent a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The varying lengths of the black marks also support a boundary reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[413, 880], [448, 869], [482, 855], [516, 846], [550, 830], [582, 811], [621, 793], [651, 802], [684, 813], [714, 822], [746, 831], [776, 847], [792, 868], [805, 901], [822, 935], [832, 963], [842, 991], [844, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A fine brown trace bears a single row of black points and longer strokes; it approaches the pink-band corner, then curves right and downward without clear parallel casing.",
+      "uncertainty_note": "The drawing supports either an intermittent path or a boundary. Its western continuation beneath lettering is unresolved, and the meeting with f02 may be an intersection of non-road lines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent marks could be a path symbol continuing through the bend."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The mixture of long strokes and points could instead denote a boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [388, 837],
+      "branch_count": 4,
+      "evidence_note": "The fine brown north–south trace crosses the close strokes beneath the pink band, producing four visible arms; this is a four-branch road junction only if both candidates are roads."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [36, 914],
+      "branch_count": 4,
+      "evidence_note": "The narrow reddish trace crosses the lower pink-band strokes amid black lettering; four arms are discernible, but their status as road branches is uncertain."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [621, 793],
+      "branch_count": 3,
+      "evidence_note": "The close westward strokes meet the intermittent brown trace with southwest and southeast arms beside the pink-band corner; three road branches are possible under the road readings."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [251, 132, 296, 181],
+      "why": "Overlapping pink colouring, heavy black strokes and parcel edging prevent a secure reading of f01's upper attachment."
+    },
+    {
+      "bbox_uv": [342, 860, 417, 915],
+      "why": "Large italic lettering merges with the fine brown and intermittent black traces, obscuring their continuity and any meeting between f01, f04 and f05."
+    },
+    {
+      "bbox_uv": [0, 927, 122, 1000],
+      "why": "Dense black lettering and small filled symbols obscure possible connections between the left-edge trace and the lower curved trace."
+    }
+  ],
+  "overall_note": "The fine brown candidates are difficult to separate from boundary symbols because their points and longer strokes merge at this resolution. The broad pink north–south band has a pronounced boundary-style stroke pattern and is not independently reported as a road. Junction counts are conditional, and the lettering-covered gaps have not been connected."
+}

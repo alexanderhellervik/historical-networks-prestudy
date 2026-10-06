@@ -1,0 +1,60 @@
+{
+  "tile_id": "cor_e0367_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 360], [45, 372], [91, 384], [139, 397], [187, 408], [234, 418]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced rows of small dark dots flank a narrow brown-orange band, approximately 8–12 px wide. Both margins continue into the junction.",
+      "uncertainty_note": "Road identification is strong; the supplied classes do not explicitly describe paired dotted margins.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two close dotted margins could be classified as a narrow double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[234, 418], [282, 433], [328, 446], [375, 461], [426, 460], [480, 459], [534, 458], [589, 457], [644, 456], [699, 457], [748, 456], [773, 456], [812, 477], [852, 498], [895, 522], [938, 546], [978, 569], [1000, 581]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow brown-orange band has two parallel rows of dark dots about 8–12 px apart. It bends into a nearly horizontal course, then turns downward to the right above the large lettering.",
+      "uncertainty_note": "The course is visible throughout; class uncertainty concerns the paired dotted margins.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The closely spaced dotted margins could be treated as two narrow road lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[234, 418], [222, 455], [207, 499], [192, 544], [177, 589], [162, 634], [147, 679], [133, 723], [120, 762], [113, 777], [86, 806], [57, 836], [28, 865], [0, 895]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close rows of dark dots border a brown-orange strip roughly 8–10 px wide. They join the transverse strip at the upper end and remain visible across the pink-edged line near (40, 852).",
+      "uncertainty_note": "The crossing near the lower left shows no additional road branch. The paired dotted symbol leaves the class uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Its two closely spaced dotted margins support a narrow double-line interpretation."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [234, 418],
+      "branch_count": 3,
+      "evidence_note": "The brown-orange strip with paired dark dotted margins runs left and right; a matching strip meets its lower side and extends downward-left. The margins merge at the contact."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Three road branches form one connected feature with a single junction. The black-and-white block line is railway; the blue meanders, pink-edged lines and faint long dashes are read as water or boundaries. The principal uncertainty is how to classify the paired dotted road margins within the supplied symbol-form classes."
+}

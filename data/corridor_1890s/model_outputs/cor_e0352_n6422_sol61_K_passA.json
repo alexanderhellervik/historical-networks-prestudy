@@ -1,0 +1,325 @@
+{
+  "tile_id": "cor_e0352_n6422",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[183, 0], [180, 34], [172, 70], [161, 104], [145, 136], [158, 169], [175, 206], [194, 238], [219, 258]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow reddish strip has close dark, partly stippled margins, approximately 5–9 px apart; these remain visible around the large upper lettering.",
+      "uncertainty_note": "The dark margins are interrupted and sometimes merge into one stroke, making the symbol-form classification less certain than the course.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The interrupted margins could be described as a paired dotted or dashed symbol."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[145, 136], [128, 164], [106, 192], [81, 220], [63, 247], [51, 282], [41, 321], [37, 357], [33, 390], [19, 424], [0, 452]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin dark dotted stroke, with a faint warm tint, branches southwest from the reddish strip; no consistently separated casing is visible.",
+      "uncertainty_note": "Some stretches appear nearly continuous at this resolution; the exact centre of the stroke is approximate.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "The dots merge into a thin continuous-looking stroke in several stretches."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[219, 258], [212, 287], [207, 318], [205, 348], [214, 383], [228, 417], [244, 446], [267, 468], [300, 480], [341, 485], [380, 488], [422, 482], [452, 477], [483, 482], [523, 496], [553, 513], [581, 535], [610, 557], [640, 581], [677, 604], [707, 607], [738, 602]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03", "j05", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish curved strip has two close, irregular dark margins, about 5–9 px apart. It crosses the blue stroke and pink enclosure outline, then passes through large black lettering with matching reddish drawing visible on both sides.",
+      "uncertainty_note": "Lettering locally hides the margins in the eastern half, but the adjoining portions support the reported course.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The dark margins consist partly of dots or short interrupted strokes rather than continuous casing."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[219, 258], [243, 238], [271, 220], [303, 210], [334, 197], [357, 174], [382, 147], [408, 126], [445, 105], [481, 89], [515, 70], [550, 55]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j04", "j07"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close dark, intermittently dotted margins enclose a reddish-orange strip, generally 5–8 px wide; the strip crosses a dark blue line without a road branch.",
+      "uncertainty_note": "The proposed junction at j04 depends on treating the thin ochre loop f05 as a road candidate.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The paired dark margins are sufficiently interrupted to admit a dashed-symbol reading."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[219, 258], [241, 260], [251, 280], [266, 296], [293, 296], [321, 285], [341, 265], [355, 245], [345, 221], [334, 197]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A fine ochre line outlines a small angular loop below the reddish road; most of it lacks clearly separated dark margins or regular dots.",
+      "uncertainty_note": "This may be a cultivated-parcel outline rather than a road. Its inclusion and both associated junction branches are provisional.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If it is a track, the visible symbol is predominantly one fine ochre stroke."},
+        {"proposed_class": "unknown", "note": "A field-boundary reading would remove this feature and reduce the branch counts at j02 and j04."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[207, 318], [196, 351], [185, 385], [173, 416], [159, 449]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thinner brown-dark interrupted stroke diverges southwest from the wider reddish curve; its two sides are not consistently distinguishable.",
+      "uncertainty_note": "The stroke fades near its southern end. No continuation or definite terminal symbol can be read.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Several portions look like one continuous fine brown line."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[553, 0], [550, 31], [550, 55], [553, 88], [563, 112], [581, 135], [609, 153], [630, 176], [640, 203], [646, 232], [654, 263], [661, 302], [669, 340], [681, 380], [695, 418], [711, 452], [729, 479], [742, 509], [744, 548], [738, 578], [738, 602]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07", "j06"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow reddish band has dark, partly dotted sides approximately 6–10 px apart. It crosses the upper pink outline and runs beneath lettering before reaching the lower crossing.",
+      "uncertainty_note": "Near the eastern pink outline, road margins and the heavier boundary stroke overlap. The reddish drawing above and below supports the course, but local separation is difficult.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Where the reddish band overlaps the pink boundary, its individual symbol form cannot be isolated reliably."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[738, 602], [733, 640], [719, 678], [697, 714], [672, 749], [650, 783], [632, 826], [613, 865], [589, 906], [582, 944], [575, 977], [572, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06", "j10"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pale narrow strip, bounded by two fine dark lines roughly 5–9 px apart, follows the outside of the pink outline before bending southwest; warmer tint appears intermittently.",
+      "uncertainty_note": "Its northern portion is close to the thick pink boundary, which obscures one side in places.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Some northern strokes could belong to the adjacent boundary rather than to independent road casing."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[738, 602], [753, 625], [780, 642], [809, 651], [839, 663], [864, 682], [883, 711], [878, 749], [872, 790]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06", "j08"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish-brown strip with close dark sides runs among black rectangular symbols and large letters, then bends south toward the broader cased diagonal.",
+      "uncertainty_note": "Rectangular symbols and lettering obscure short portions around 800–870 u; the reddish strip is visible on both sides of those interruptions.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The margins are difficult to separate from adjoining parcel outlines in the cluttered middle portion."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[694, 1000], [710, 958], [731, 917], [750, 886], [780, 856], [811, 832], [843, 810], [872, 790], [904, 764], [935, 734], [966, 704], [1000, 671]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j08", "j09"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two strong, mostly continuous black margins enclose a reddish-orange band approximately 10–16 px wide. Fine lines enter its northwest side at two positions.",
+      "uncertainty_note": "The course remains readable despite nearby lettering. The eastern candidate branch at j09 is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[136, 1000], [145, 978], [151, 958], [164, 935], [173, 910], [178, 887], [189, 862], [207, 844], [231, 832], [258, 830], [287, 843], [317, 860], [351, 877], [383, 900], [418, 920], [454, 941], [490, 954], [523, 937], [555, 920], [589, 906], [623, 892], [657, 876], [691, 864], [735, 855], [780, 856]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j09", "j10", "j11", "j12", "j13", "j14"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A winding reddish strip has close dark stippled margins, generally 5–8 px apart. It crosses blue-green hatching, passes beside outlined rectangles, and joins the broad black-cased diagonal.",
+      "uncertainty_note": "The junction at j13 depends on a faint diagonal candidate. Hatching locally makes the road margins less distinct, but the warm strip continues visibly.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The narrow road margins are predominantly interrupted dark marks."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0, 942], [35, 926], [69, 909], [104, 902], [138, 897], [160, 892], [178, 887]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j12"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin warm-tinted line carries repeated dark dots or short marks; it lacks the strong continuous casing of the southeast road.",
+      "uncertainty_note": "A boundary reading is possible because the dark marks are sparse, although their dotted appearance and curved meeting with the reddish road support a path candidate.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The line could be a property boundary rather than a path."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[287, 843], [286, 810], [286, 778], [288, 746], [291, 716], [292, 694]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j11"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A nearly vertical thin ochre-dark stroke has repeated small dark marks and no wide casing; its upper end enters large black lettering.",
+      "uncertainty_note": "The continuation through the lettering is not certain. Its relatively straight form also admits a property-boundary reading.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "This may be a boundary, which would remove the northern branch at j11."}
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[422, 482], [418, 511], [405, 539], [389, 563], [367, 590], [357, 612]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine brown-dark interrupted stroke turns southwest from the reddish line, close to but distinct from the blue stroke; its lower portion enters heavy italic lettering.",
+      "uncertainty_note": "The trace is faint and its continuation beneath the lettering cannot be established. It could instead be an adjoining boundary stroke.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "A boundary reading would remove this feature and the third branch at j05."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[27, 1000], [65, 986], [105, 974], [151, 958], [183, 945], [211, 933]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j13"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint diagonal ochre line with occasional dark marks crosses the winding reddish stroke; farther northeast it becomes difficult to distinguish among fine outlines and hatching.",
+      "uncertainty_note": "This could be a field or property boundary rather than a path. No reliable continuation is reported through the hatched area.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If it is a path, most of the visible symbol is a single fine stroke."},
+        {"proposed_class": "unknown", "note": "A boundary reading would remove the two tentative branches at j13."}
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[419, 1000], [445, 984], [468, 968], [490, 954]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j14"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin warm-coloured diagonal stroke approaches the bend of the reddish road; dark edging is weak and not consistently paired.",
+      "uncertainty_note": "The meeting is visible, but the thin stroke could be a parcel boundary instead of a road branch.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "A path reading would use the single fine stroke as its centreline."},
+        {"proposed_class": "unknown", "note": "A boundary reading would remove this feature and the third branch at j14."}
+      ]
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[780, 856], [815, 848], [849, 844], [885, 842], [920, 839], [954, 829], [1000, 825]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A fine ochre-dark line extends east of the broad cased diagonal and runs along orange-tinted polygon edges; there is no clearly continuous pair of road margins.",
+      "uncertainty_note": "A field-edge reading is at least as plausible as a narrow track. The fourth branch at j09 is therefore provisional.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If read as a track, the visible symbol is predominantly one fine stroke."},
+        {"proposed_class": "unknown", "note": "A field-boundary reading would remove this feature and leave three road branches at j09."}
+      ]
+    },
+    {
+      "feature_id": "f18",
+      "waypoints_uv": [[813, 0], [807, 40], [805, 79], [809, 119], [814, 159], [820, 198], [826, 238], [833, 279], [840, 319], [846, 361], [846, 403]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A pale, approximately north–south strip has two fine grey-dark strokes in places, about 6–12 px apart, beside stronger angular black polygon outlines. It loses definition at the large eastern lettering.",
+      "uncertainty_note": "This could be a narrow lane, adjacent boundary strokes, or a pale scan-related line. No connection through the lettering is asserted.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The locally paired fine strokes admit a narrow cased-road reading."},
+        {"proposed_class": "unknown", "note": "A boundary or scan-line reading would remove this candidate entirely."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [145, 136],
+      "branch_count": 3,
+      "evidence_note": "The close dark margins of the reddish strip continue north and southeast; a thinner dark dotted stroke departs southwest."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [219, 258],
+      "branch_count": 4,
+      "evidence_note": "Three reddish, closely margined arms meet, with a fourth fine ochre arm entering the small loop; the fourth arm is a provisional road reading."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [207, 318],
+      "branch_count": 3,
+      "evidence_note": "The reddish strip continues upward and curves southeast, while a thinner interrupted brown stroke separates toward the southwest."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [334, 197],
+      "branch_count": 3,
+      "evidence_note": "Two closely margined reddish arms continue along the curve; a fine ochre loop stroke meets from the southeast. The third branch is provisional."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [422, 482],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish strip continues east and west, with a fine interrupted brown stroke extending southwest beside the crossing blue stroke; that third arm is uncertain."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [738, 602],
+      "branch_count": 4,
+      "evidence_note": "Reddish closely margined drawing enters from north and west; a warm narrow arm turns southeast and a paler paired-line arm turns south, amid the thick pink outline."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [550, 55],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish band continues upward and downward, with another closely margined reddish strip joining from the southwest."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [872, 790],
+      "branch_count": 3,
+      "evidence_note": "The broad orange band between strong black margins continues southwest and northeast; a narrower reddish strip meets its northwest side."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [780, 856],
+      "branch_count": 4,
+      "evidence_note": "The broad black-cased band has two continuing arms and receives a narrow reddish arm from the west; a fine ochre extension to the east supplies a provisional fourth arm."
+    },
+    {
+      "junction_id": "j10",
+      "uv": [589, 906],
+      "branch_count": 4,
+      "evidence_note": "A narrow warm strip crosses a paler strip with fine paired margins; visible strokes continue northwest, northeast, north and south around the crossing."
+    },
+    {
+      "junction_id": "j11",
+      "uv": [287, 843],
+      "branch_count": 3,
+      "evidence_note": "The reddish stippled strip bends through two arms; a thin nearly vertical ochre-dark dotted stroke meets from the north."
+    },
+    {
+      "junction_id": "j12",
+      "uv": [178, 887],
+      "branch_count": 3,
+      "evidence_note": "The curving reddish strip continues north and south, while a finer warm-tinted dotted stroke meets from the west."
+    },
+    {
+      "junction_id": "j13",
+      "uv": [151, 958],
+      "branch_count": 4,
+      "evidence_note": "A faint fine ochre diagonal appears on both sides of the stronger reddish curve; two of the four arms depend on reading that diagonal as a path."
+    },
+    {
+      "junction_id": "j14",
+      "uv": [490, 954],
+      "branch_count": 3,
+      "evidence_note": "The reddish strip bends from northwest to northeast, and a weaker fine warm-coloured stroke meets from the southwest; the third arm is provisional."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [267, 610, 403, 707],
+      "why": "Heavy italic lettering overlaps faint interrupted strokes; their continuity and possible meetings cannot be established."
+    },
+    {
+      "bbox_uv": [785, 399, 903, 574],
+      "why": "Large black lettering and adjoining polygon outlines obscure the possible continuation of the pale paired-line candidate."
+    },
+    {
+      "bbox_uv": [204, 900, 289, 974],
+      "why": "Blue-green hatching and fine overlapping outlines prevent a reliable continuation of the faint diagonal candidate; stronger reddish drawing remains readable."
+    }
+  ],
+  "overall_note": "The reddish strips and broad southeast casing are more legible than the thin dotted and ochre lines. Several candidates could instead be boundaries, so their alternatives and associated provisional junction branches are retained. The thick pink enclosure, blue water strokes and clear angular parcel outlines are excluded."
+}

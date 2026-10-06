@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0345_n6431",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline traces the dark crimson/maroon line from the west edge (0,388) to the meeting point at about (272,546). It is the same crimson colour as the property-boundary network that fills the tile (e.g. (320,0)-(475,485), (270,512)-(1000,418), (465,685)-(1000,628)). It has no orange-brown road colour, which is what the clear roads on this tile carry (top road f09/f10, f11, f08).",
+      "uncertainty_note": "This line is drawn heavier and darker than the thin crimson boundaries, and a faint grey line runs parallel just below it. A road drawn along a boundary cannot be fully excluded at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows the thin pinkish-crimson straight line from the top edge at about (95,0) heading SSE. It crosses the orange top road at about (150,165) with no change in drawing. The colour and straightness match the boundary lines, not the orange-brown road lines.",
+      "uncertainty_note": "A diffuse pale-brown smear lies along this line between v=100 and v=300. It could be a road wash but looks more like abrasion or staining, because it has no defined edges."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This continues the same thin crimson straight line from about (150,170) to the meeting point at (270,545). It crosses the greenish stream lines near (195,300). It shows boundary colour and has no road casing or orange colour.",
+      "uncertainty_note": "The same patchy brownish smear as on f02 runs along its upper part. Taken together with the wash on f04, the whole diagonal (95,0)-(270,545)-(465,685) could be a road that coincides with a boundary. I read the smear as damage, not as a symbol."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows crimson boundary lines: from (272,546) SE to the corner at (465,685), then S to about (420,980). On the first leg a distinct pale-brown band about 15 px wide runs alongside the crimson line and ends at the corner. That band could be a road wash. The southern leg is drawn reddish-brown and somewhat heavier than the thin boundaries.",
+      "uncertainty_note": "The tile's clear roads are crisp orange lines. Neither leg here has one, so the most likely reading is boundary only, with the brown band as a smudge. However, the band is too regular to dismiss with confidence. Alternative: a Sämre körväg running along the boundary from (272,546) to (465,685), possibly continuing south to meet f08 at about (420,977)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a very short feature at the bottom edge near (420-430, 980-1000). The only lines there besides the orange road (f07/f08) are crimson: the southern end of the boundary that runs down from (465,685), and the crimson line along the bottom edge. Neither carries road colour.",
+      "uncertainty_note": "The feature is too short to tell exactly which line it traces. If it is actually the orange road stub, the verdict should be agree."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A reddish-brown/orange line runs from the west edge at about (0,818) via (18,850), (22,900) and (40,935) to the bottom edge at about (60,1000), just east of the blue lake shore. Its colour matches the road lines elsewhere on the tile, and the overlay follows it.",
+      "uncertainty_note": "It is drawn darker and redder than the other roads, and it runs right beside the water. It could be a boundary that follows the shore, or a road with a boundary on it."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the western end of the orange-brown road along the south of the tile. It runs from the bottom edge at about (330,998) to about (420,977), where it continues as f08. It is clearly drawn in orange-brown.",
+      "uncertainty_note": "Near the bottom edge it runs close to the crimson boundary along the edge, so its exact exit point (u 330-360) is approximate."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear orange-brown line runs from about (420,977) via (560,930), (650,890), (700,840), (800,770) and (900,705) to the east edge at about (1000,668). It crosses the black dashed lines and the hatched marsh edge without breaking. The overlay follows it closely.",
+      "uncertainty_note": "Class is by symbol form only: a single orange-brown line, consistent with the Sämre körväg in the example reading. I could not resolve whether it is a fine double line."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the western part of the orange-brown road. It runs from the west edge at about (0,207) ENE to about (150,162), crossing the green stream loops. It is clearly drawn in road colour.",
+      "uncertainty_note": "The split between f09 and f10 is arbitrary; they are one continuous drawn road."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This continues the orange-brown road from about (150,162) via (310,108) and (420,97) east along v~92 to the east edge at about (1000,88). It crosses the crimson boundaries at (360,98) and (620,93) and passes the dotted marsh outline near (880-990, 90). The overlay follows the drawn line.",
+      "uncertainty_note": "A thin grey horizontal line runs just below it (v~112-140). That line is not a road and the overlay correctly does not use it."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-brown line runs from the east edge at about (1000,355), bends via (965,365) and (952,420), then runs south to about (958,628), where it meets the crimson boundary. It is clearly in road colour.",
+      "uncertainty_note": "It is unclear whether it stops at the boundary at (958,628) or links on to road f08, about 45 px further south."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [958, 630],
+      "what_is_contested": "Whether road f11 ends at the crimson boundary or continues about 45 px south to join road f08 near (965,676), which would make a T-junction.",
+      "evidence_note": "The orange line of f11 visibly reaches the crimson line. Between v=630 and v=675 I can see only the black dashed line and no orange stroke, so the link is not drawn as far as I can see."
+    },
+    {
+      "uv": [272, 546],
+      "what_is_contested": "Whether this is a road junction at all. Five lines meet or nearly meet here: f01 from the west, f02/f03 from the NNW, the crimson line to the east (270,512)-(1000,418), the SE line f04, and the black dashed line that starts at about (290,590).",
+      "evidence_note": "Every line meeting here is crimson or black-dashed, which are boundary symbols. A road node exists only if one of the brown-smeared diagonals is a road."
+    },
+    {
+      "uv": [465, 685],
+      "what_is_contested": "Whether this crimson corner, where lines arrive from the NW, east and south, carries a road (f04) or is only a boundary corner.",
+      "evidence_note": "A pale-brown band ends here on the NW leg. The other two legs are plain crimson or reddish-brown with no orange road line."
+    },
+    {
+      "uv": [420, 977],
+      "what_is_contested": "Whether the reddish line coming down from (465,685) joins the orange road here as a branch (junction) or only crosses or abuts it as a boundary. This is also where the overlay splits f07 from f08.",
+      "evidence_note": "The orange road runs continuously through this point, and the reddish line meets it from the north."
+    }
+  ],
+  "overall_note": "I read the orange-brown lines as roads and the overlay finds all of them: f09/f10 across the top, f11 in the east, f07/f08 across the south, and probably f06 by the lake. The crimson straight lines and the black dashed lines I read as boundaries or skifteslinjer, as in the example reading, so I reject f01, f02, f03 and f05. f04 stays open because a brown band along its NW leg could be a road wash."
+}

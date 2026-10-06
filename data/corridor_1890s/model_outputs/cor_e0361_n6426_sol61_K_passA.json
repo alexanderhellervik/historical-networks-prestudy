@@ -1,0 +1,130 @@
+{
+  "tile_id": "cor_e0361_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[538, 0], [528, 35], [514, 68], [499, 94], [489, 112], [493, 144], [502, 181], [508, 213], [510, 238], [497, 256], [471, 273], [443, 287], [413, 306], [387, 328], [362, 351], [345, 371], [335, 386]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown band has two close dark margins, locally broken into short marks, approximately 5–10 px apart. Horizontal blue hatching lies beside much of its upper course.",
+      "uncertainty_note": "The route is clear, but its margins merge locally with the hatched area's outline; double_line_narrow is an approximate symbol-form reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resemble a brown line beside a dotted margin rather than consistently paired continuous strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[335, 386], [327, 409], [314, 435], [297, 460], [282, 484], [275, 502], [257, 531], [236, 561], [212, 593], [189, 623]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow brown trace continues southwest with dark, partly dotted margins. Beside the elongated orange patch, one margin is heavier and the other less distinct.",
+      "uncertainty_note": "The lower trace overlaps the orange patch's edge, making its width uncertain. It stops at the dark sheet join; a continuation beyond that obstruction cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The lower portion could be a single broken path stroke beside a separate patch outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[335, 386], [313, 378], [295, 366], [279, 348], [267, 324], [258, 301], [248, 284], [227, 276], [207, 272]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "An angular dark trace follows the orange patch's western margin, then bends beside small black rectangular symbols. Brown colouring occurs alongside it, but a separate pair of road margins is indistinct.",
+      "uncertainty_note": "This is a possible access path, also plausibly just the orange patch's outline. Its meeting with f01 and f02 is therefore a tentative road junction; its western end disappears at the sheet join.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The dark trace could represent a narrow access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a field or plot outline rather than a road; under that reading, remove f03 and j01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 90], [31, 97], [65, 106], [87, 118], [105, 135], [125, 153], [142, 163], [166, 163], [186, 160], [201, 160]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin brown trace carries closely spaced dark dots or short broken marks. No consistently parallel second stroke is visible; it approaches a heavier blue line at the sheet join.",
+      "uncertainty_note": "The trace could be a dotted path or an area margin. Its course through the blue-line crossing and sheet join is unreadable.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The curved trace may delimit a coloured area rather than depict a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 736], [26, 739], [52, 731], [77, 714], [96, 696], [118, 712], [139, 728], [162, 746], [178, 752], [183, 736], [185, 716]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A single dark dotted or broken trace with brown tint curves to an angular bend, then turns toward the sheet join. Pale green horizontal strokes lie on one side; no clear casing is visible.",
+      "uncertainty_note": "A path reading is possible, but the trace also resembles the perimeter of the area containing the green strokes. The final northward portion is especially indistinct.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the broken brown trace is a path, this is its approximate visible course."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be an area outline rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[179, 918], [200, 924], [219, 930], [241, 937], [264, 944], [292, 950], [321, 956], [350, 960], [379, 961], [409, 967], [438, 974], [464, 982], [489, 990], [511, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow tan strip has roughly parallel dark sinuous strokes, locally about 5–12 px apart. Small black rectangles interrupt its western part; orange and green patches adjoin the eastern part.",
+      "uncertainty_note": "This may be a short track through the rectangular symbols, but patch outlines and blue linework overlap it. The eastern course shown is approximate, and the western connection is hidden by the sheet join.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close dark strokes could be the two margins of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent strip may instead consist of adjoining plot and water-related outlines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [335, 386],
+      "branch_count": 3,
+      "evidence_note": "The brown southwest-running trace meets an angular dark trace beside the orange patch's tip. Three arms are apparent if the patch-side trace is an access path; the third arm's road interpretation is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [193, 0, 207, 320],
+      "why": "A dark sheet join interrupts fine strokes and prevents reliable connections across it."
+    },
+    {
+      "bbox_uv": [183, 320, 200, 700],
+      "why": "The slanting sheet join obscures route endings and adjacent small symbols."
+    },
+    {
+      "bbox_uv": [171, 700, 188, 1000],
+      "why": "The dark join hides fine linework beside lettering and the lower rectangular symbols."
+    }
+  ],
+  "overall_note": "The brown north-to-southwest trace is the clearest route; the shorter traces retain possible non-road interpretations. Straight red lines, long regular black dashes, blue water lines and closed dotted area outlines were read as non-roads. The sheet join and overlapping plot outlines make several endpoints and the possible junction uncertain."
+}

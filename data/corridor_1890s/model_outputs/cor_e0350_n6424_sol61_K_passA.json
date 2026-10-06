@@ -1,0 +1,138 @@
+{
+  "tile_id": "cor_e0350_n6424",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[30, 0], [25, 30], [24, 56], [31, 72], [57, 79], [73, 90], [82, 118], [93, 151], [110, 187], [119, 218], [120, 248], [111, 286], [101, 325], [90, 358], [75, 388], [63, 412], [44, 449], [20, 473], [0, 494]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A winding row of small dark dots or short strokes follows a faint ochre line; no continuous paired casing is clearly resolved.",
+      "uncertainty_note": "The course is fairly clear, but the individual marks look partly dotted rather than dashed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted path symbol rather than a literal dashed-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[142, 0], [162, 15], [179, 28], [187, 48], [197, 64], [226, 73], [255, 85], [282, 99], [295, 121], [301, 151], [308, 179], [313, 207], [340, 208], [364, 210], [383, 212]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j03"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "An ochre strip with close dark margins bends southeast; near v=208 a dark, approximately horizontal strip crosses the blue-green linework.",
+      "uncertainty_note": "Parts coincide with coloured parcel edges. The eastern end meets heavy red and dark ink, so no continuation beyond it is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some apparent casing may be a coloured parcel edge; the horizontal section could be a separate crossing line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 593], [29, 572], [61, 552], [95, 531], [127, 510], [158, 486], [185, 460], [208, 435], [227, 405], [241, 374], [257, 346], [280, 326], [300, 314], [317, 308]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A winding ochre-brown line carries dark intermittent marks along its edges; it crosses the straight red lines and approaches crowded dark ink at its northeastern end.",
+      "uncertainty_note": "The road-like strip is visible, but paired dotted edges cannot be distinguished consistently from a single dotted line. Its final approach also touches parcel outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark marks may form two closely spaced margins around the ochre centre."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the apparent second margin belongs to adjacent parcel ink, this is one intermittent path line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[399, 353], [423, 341], [447, 331], [478, 321], [508, 307], [535, 289], [563, 271], [591, 250], [620, 229], [650, 208], [679, 183], [706, 161], [730, 133], [752, 106], [772, 77], [789, 47], [802, 20], [814, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "An ochre line with dark bead-like or short-stroke edging winds northeast above the heavy blue shoreline; two separate margins are not consistently visible.",
+      "uncertainty_note": "The southwestern end merges with dark parcel and shoreline ink. The symbol could be a narrow dotted road or a single dotted path.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre centre and dark edging may represent a narrow road with two margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark edging may instead be one intermittent path line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[313, 207], [316, 235], [316, 264], [317, 286], [317, 308], [316, 333], [318, 357]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A narrow dark-and-ochre strip follows the western side of the green parcels; its lower portion is thinner and coincides with a parcel margin.",
+      "uncertainty_note": "This is a doubtful road candidate: it may be entirely a parcel boundary, or only the upper portion may be a track. The lower endpoint denotes the end of the discernible candidate strip.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The upper strip may have two close road margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the entire line is the edge of coloured parcels; both associated junctions would then cease to be road junctions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[179, 28], [194, 17], [210, 5], [217, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two short oblique dark strokes enclose a narrow pale-yellow strip beside the bend in the ochre line.",
+      "uncertainty_note": "The short strip clips the top edge and may simply outline a small coloured parcel.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could be the margins of a short road branch."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: paired parcel outlines; j03 would then have only two road arms."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [313, 207],
+      "branch_count": 3,
+      "evidence_note": "The descending ochre strip meets the dark horizontal crossing strip and a narrow southward strip; three candidate arms are visible, conditional on f05 being a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [317, 308],
+      "branch_count": 3,
+      "evidence_note": "The winding ochre line from the southwest touches the north-south dark-and-ochre strip; three candidate arms are counted if that strip is a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [179, 28],
+      "branch_count": 3,
+      "evidence_note": "At the ochre line's bend, a short paired dark strip leaves toward the top-right; three candidate arms are counted if the short strip is a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [320, 240, 409, 365],
+      "why": "Closely packed dark parcel outlines, blue-green strokes and small rectangular symbols prevent reliable separation of any additional short tracks from parcel edges."
+    }
+  ],
+  "overall_note": "The principal difficulty is distinguishing ochre road-like strips from coloured parcel margins around the central crossing. Junction counts involving doubtful candidates are conditional, as stated in their evidence notes. Straight red lines, the long diagonal dash-pattern line, blue water outlines and faint lines across the water were read as non-road linework."
+}

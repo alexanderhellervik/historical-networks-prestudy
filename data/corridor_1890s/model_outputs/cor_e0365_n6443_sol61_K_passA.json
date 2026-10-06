@@ -1,0 +1,128 @@
+{
+  "tile_id": "cor_e0365_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[714, 0], [723, 28], [736, 47], [758, 58], [777, 77], [792, 99], [803, 124], [814, 153], [822, 177], [837, 195], [842, 207], [829, 221], [819, 240], [823, 269], [834, 299], [849, 322], [863, 333]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "The northern section has close dark margins, approximately 6–12 px apart, with a pale reddish interior and a heavier western edge. Farther south, two rows of dark dots or short marks are visible beside parcel outlines, red building blocks and lettering.",
+      "uncertainty_note": "The symbol changes appearance where dark outlines and lettering overlap it. The paired marks can be followed through the lettering, but their continuation beyond the rectangular patch and horizontal hatching near the southern endpoint is unclear.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The northern section can be read as a narrowly cased road with its margins partly obscured farther south."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The southern section shows paired broken margins rather than clear continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[640, 115], [659, 117], [677, 122], [691, 133]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "Two rows of grey-blue dots, roughly 10–15 px apart, curve eastward between star-shaped tree symbols. The lower row disappears into the rectangular image patch.",
+      "uncertainty_note": "The western endpoint is a fading visible termination, not a demonstrated physical dead end. The patch hides the eastward course; a connection to f03 is possible but cannot be traced.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dots may represent a broken-line track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted parcel margin remains possible, although the two parallel rows favour a track reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[765, 133], [765, 151], [769, 168], [773, 179]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short strip beside the rectangular patch contains two nearly vertical rows of dark dots, approximately 10–13 px apart. Their southern end meets a heavy blue-green outline.",
+      "uncertainty_note": "The patch hides the northern approach, and the heavy outline prevents a certain reading of the southern continuation. This may continue f02, but the intervening course and any junction with f01 are unproved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The parallel broken rows may be the margins of a track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may instead belong to the adjacent parcel outline or displaced patch content."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[253, 861], [276, 860], [298, 860], [315, 853], [317, 841], [314, 832], [323, 819], [333, 805]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two rows of small grey-blue dots, approximately 15–20 px apart, run east from the straight red line, then turn north toward the horizontal hatching. No continuous casing or tree lining is visible.",
+      "uncertainty_note": "The western continuation is lost at the heavy red line; the northern continuation is lost among marsh-edge marks and hatching. A track reading is favoured, but the dotted marsh perimeter could account for some marks near the northern end.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dots may be a broken-line track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the trace could be dotted land-cover edging rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[731, 1000], [749, 979], [769, 958], [786, 938], [803, 916], [822, 898], [842, 881], [858, 860], [877, 844], [899, 829], [922, 812], [942, 793], [963, 778], [983, 755], [1000, 738]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close rows of dark short strokes and dots enclose a narrow pale strip southeast of the broad pink diagonal. Their course bends locally while the strong red line alongside remains straighter.",
+      "uncertainty_note": "This is a candidate track running beside the pink marking. The broken rows may instead form part of that boundary's drawing; the road interpretation is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip between two dark margins can also be read as narrow road casing with broken edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire paired trace may be boundary ornament or an adjoining parcel boundary rather than a separate road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [674, 133, 774, 225],
+      "why": "A rectangular patch with abrupt image seams interrupts the western dotted trace and hides possible connections."
+    },
+    {
+      "bbox_uv": [572, 237, 876, 340],
+      "why": "Displaced lettering and hatching within a rectangular patch prevent reliable reading of some underlying lines; portions of the paired trace remain visible."
+    },
+    {
+      "bbox_uv": [776, 340, 826, 395],
+      "why": "A smaller displaced patch overlaps hatching near the uncertain southern continuation of f01."
+    },
+    {
+      "bbox_uv": [929, 133, 1000, 183],
+      "why": "A pasted lettering strip and abrupt seams obscure the original linework."
+    },
+    {
+      "bbox_uv": [0, 756, 110, 912],
+      "why": "Stepped rectangular patches interrupt dark outlines along the western margin."
+    },
+    {
+      "bbox_uv": [110, 912, 263, 963],
+      "why": "A rectangular patch displaces the red diagonal and hides nearby fine linework."
+    }
+  ],
+  "overall_note": "Paired dotted traces are visible, but their symbol form and several endpoints are uncertain. No meeting of three road branches is sufficiently visible to report a junction. The strong red diagonals and faint single long-dashed lines were read as boundaries; f05 records the ambiguous paired trace beside the pink band separately."
+}

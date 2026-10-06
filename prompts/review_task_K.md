@@ -1,0 +1,25 @@
+You are one blind reviewer in a map-reading experiment. Use ONLY the Read tool on exactly these eight image files, in this order, and nothing else (no other files, no code, no searching): {BARE}, {GRID}, {IDS}, {OVERLAY}, {LEGEND_PAGE}, {LEGEND_ROADS}, {EXAMPLE_BARE}, {EXAMPLE_ANNOTATED}. Then write your answer with the Write tool to {OUTPUT} (a single JSON object, nothing else in the file) and reply with one line saying it is written and how many reviews, missed features and contested junctions it holds.
+
+The task text follows verbatim.
+
+You are reading one tile of a Swedish *Häradsekonomiska kartan* sheet, surveyed in the 1890s.
+
+**First, read the bare tile.** Before looking at the overlay, work out for yourself where the drawn roads, tracks and paths are. Then look at the overlay: it shows one other reading of the same tile, drawn by someone whose identity you do not know. It is a proposal, not an answer key, and it may be wrong, incomplete or invented.
+
+**Coordinates.** As on the tile: `u` right 0…1000, `v` down 0…1000, `(0, 0)` at the top-left outer corner of the map face; the dashed grid is every 100 image pixels.
+
+**Report, for every overlay feature id shown**, one review entry: whether the drawn polyline follows a road that is really drawn there (`agree`), follows it but with the wrong class (`agree_with_different_class`), follows roughly the right road on a wrong course — then give your own waypoints (`partly_agree_course_differs`), does not correspond to a drawn road at all (`disagree_not_a_road`), or cannot be judged from what is visible (`cannot_tell`). Give a short note saying what is visible at that position that decides it. `cannot_tell` is a proper answer; do not agree by default.
+
+**Then report what the overlay misses**: roads drawn on the tile that it does not show, in the same feature shape as the overlay uses (waypoints, class from the vocabulary or `unknown`, endpoint flags, evidence note, uncertainty note, alternatives).
+
+**Then report contested junctions**: places where the number of branches, which lines meet, the position, or the existence of a junction is genuinely in doubt.
+
+**Classes** are the same vocabulary: `double_line_wide`, `double_line_narrow`, `single_line`, `dashed_line`, `avenue_lined`, `park_path`, `unknown`.
+
+**Road and boundary symbols.** The image after the legend page is a crop of Lantmäteriet's model legend for the economic maps (*Modell för ekonomiska kartor i skalan 1:20,000*). It shows the line symbols for boundaries (`Riksgräns` to `Skifteslinje`), railways, roads (`Landsväg och Bygdeväg`, `Bättre körväg`, `Sämre körväg`, `Gångstig`, `Vinterväg`) and hedges (`Häck`). Use it to tell roads from boundaries and other lines. It is a model sheet, and the drawing on this tile may differ from it in detail. Your classes stay the symbol-form list above.
+
+**Worked example.** The last two images show one person's reading of a neighbouring tile of the same sheet. Use it as guidance on how this sheet draws roads and other lines, not as a template for where roads run on this tile. Caption: “The two example images show a neighbouring 1 km tile of the same sheet, first bare and then with one person's reading of it drawn on top; the map face is the top 1000 x 1000 px of the second image and the key is below it. The reading was made with the series legend at hand. Inside the tile it records these roads, drawn as thick translucent lines: Sämre körväg: 2 lines, 976 m (magenta); Gångstig: 5 lines, 913 m (green). Every road line is marked certain. It records these lines as not roads, drawn dashed: Gräns (boundary): 15 lines, 4 588 m (blue, dashed); Bäck eller dike (stream or ditch): 3 lines, 1 893 m (light blue, dashed); Annan linje (other line): 2 lines, 1 001 m (black, dashed). 1 area is marked unreadable and hatched (resolution too low for some lines; 3 % of the tile). Outside the hatched area, a line on the map that carries no road colour is not a road in this reading.”
+
+**Do not** adjust your reading to agree with the overlay, and do not disagree in order to look independent. Where the drawing genuinely does not decide, say so and record the alternatives; a disagreement recorded honestly is the output of this pass.
+
+**Answer** with a single JSON object of exactly this shape: {"tile_id": "{TILE_ID}", "reviews": [{"reviewed_feature_id": "<id as shown on the overlay>", "verdict": "agree|agree_with_different_class|partly_agree_course_differs|disagree_not_a_road|cannot_tell", "proposed_class": "<class or unknown>", "corrected_waypoints_uv": [[u, v], ...] (only when the course differs, otherwise []), "evidence_note": "...", "uncertainty_note": "..."}], "features": [{"feature_id": "m01", "waypoints_uv": [[u, v], ...], "proposed_class": "...", "junction_ids": [], "endpoint_flags": ["edge_of_tile|dead_end|junction|obscured", "<same for the end>"], "evidence_note": "...", "uncertainty_note": "...", "alternatives": []}], "contested_junctions": [{"uv": [u, v], "what_is_contested": "...", "evidence_note": "..."}], "overall_note": "at most three sentences"}.

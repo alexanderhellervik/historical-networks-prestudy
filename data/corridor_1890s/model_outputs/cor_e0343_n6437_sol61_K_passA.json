@@ -1,0 +1,53 @@
+{
+  "tile_id": "cor_e0343_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[800,0],[807,40],[812,80],[814,120],[815,160],[813,200],[810,240],[804,275],[791,305],[774,338],[760,368],[753,398],[760,432],[766,472],[770,510],[776,550],[782,590],[786,630],[787,670],[787,710],[787,750],[787,777],[787,817],[786,857],[784,897],[782,938],[779,975],[777,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow ochre trace carries closely spaced dark dots or short strokes, clearest below v=450. Above that, it lies close to heavy blue outlines and a red line; a separate pair of road edges is difficult to distinguish.",
+      "uncertainty_note": "Tentative track reading. The upper course, especially v=260–410, is approximate because several strokes overlap. The lower interrupted dark line is clearer, but its status as a path rather than a boundary remains uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre trace and interrupted dark strokes could be two closely spaced edges of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The interrupted stroke could instead be a boundary or another non-road line; the adjacent colour does not establish road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[787,777],[800,806],[816,833],[837,860],[857,891],[877,925],[894,957],[918,1000]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin brown-ochre stroke curves southeast from beside the interrupted vertical line. It has a faint lighter fringe, but no consistently visible second edge or accompanying tree symbols.",
+      "uncertainty_note": "Both the road interpretation and the connection at the northwest end are tentative. The first short section is faint, and this could be an independent boundary-like stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale fringe could be a second, weak road edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary or other non-road line is also possible; under that reading there is no road junction at j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [787,777],
+      "branch_count": 3,
+      "evidence_note": "Tentative three-branch meeting: the narrow interrupted dark-and-ochre trace continues above and below, while a faint brown stroke departs southeast. The joining strokes are weak, so physical connection is uncertain."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The possible track along the right side and its southeast branch are the principal uncertain readings. Red straight lines and the red interrupted line through the blue area resemble boundaries; the diffuse pale band beside the latter has no clear separate road symbol. Overlapping strokes make the upper track course and the apparent junction difficult to resolve."
+}

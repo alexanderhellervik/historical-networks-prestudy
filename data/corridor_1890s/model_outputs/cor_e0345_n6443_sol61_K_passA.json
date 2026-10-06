@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0345_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[1000,502],[982,533],[965,565],[952,593],[945,623],[944,653],[948,684],[944,699],[918,724],[889,752],[858,781],[828,810],[797,842],[766,872],[742,903],[724,934],[708,968],[697,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark edges, roughly 8–12 px apart, enclose a pale reddish strip; both edges follow the bends.",
+      "uncertainty_note": "The road is clear. Its centre is estimated where the edges vary in thickness.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[447,348],[458,378],[467,409],[473,440],[482,463],[493,477],[526,479],[569,480],[613,478],[657,479],[701,477],[746,478],[791,479],[832,480],[847,485],[869,512],[892,540],[919,568],[945,594]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow rusty-red band has close dark margins, with repeated dots or short broken marks along them; it crosses the blue-green lines without following them.",
+      "uncertainty_note": "The northern end becomes entangled with lettering and small outlines. A continuation toward the red building cannot be traced confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken margins could instead be classified by their dotted or dashed appearance."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,755],[19,782],[39,810],[62,836],[91,852],[126,866],[162,879],[196,895],[231,909],[265,916],[301,920],[337,922],[371,933],[405,945],[435,957],[460,970],[484,986],[506,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish strip is bordered by closely spaced dark dotted or broken marks; the strip remains visible on either side of the large black characters near the bottom.",
+      "uncertainty_note": "Continuation beneath the bottom lettering is supported on both sides. The short possible branch at j02 is less certain than this through line.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated broken edge marks also support a dashed-symbol classification."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[460,970],[470,960],[480,951]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short pale diagonal trace with small dark marks runs between the reddish through strip and the red rectangular symbol.",
+      "uncertainty_note": "This may be a short access path, but the marks are weak and the red symbol obscures its end. Its contact with the through track is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the pale trace is a path, it appears to have one fine line rather than clearly separated margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace could instead be incidental marks or part of the adjacent parcel outline, with no road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[500,928],[518,949],[539,971],[559,991],[568,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A faint diagonal row of grey-blue dots or short marks passes beside small black rectangular symbols; no continuous casing is clear.",
+      "uncertainty_note": "A dotted path is possible, but a parcel division is also plausible. There is insufficient visible continuity to connect it through the nearby building symbols to f04.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated small marks could represent a dotted or broken path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a field or property division rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [945,594],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish track reaches the western edge of the continuously cased strip, which continues in both directions; three road branches are visible."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [460,970],
+      "branch_count": 3,
+      "evidence_note": "Tentative junction: a faint diagonal trace appears to leave the dotted reddish strip, whose two through branches remain visible; if that trace is incidental, there is no junction."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [410,290,460,353],
+      "why": "Heavy black lettering, small dark symbols and pale outlines overlap the northern track approach; a continuation toward the red rectangle cannot be distinguished reliably."
+    }
+  ],
+  "overall_note": "The cased eastern road and two reddish tracks are the clearest road symbols. Fine traces around the lower building group permit both path and parcel-boundary readings, recorded as alternatives. Long dark dashes, blue-green lines and closed peach-filled outlines were read as boundaries, water lines or parcel outlines."
+}

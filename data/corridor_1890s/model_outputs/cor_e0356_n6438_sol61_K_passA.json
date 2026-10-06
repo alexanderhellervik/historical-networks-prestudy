@@ -1,0 +1,61 @@
+{
+  "tile_id": "cor_e0356_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[554, 0], [575, 22], [590, 48], [605, 70], [630, 88], [657, 102], [687, 121], [711, 143], [735, 169], [756, 194], [771, 208], [785, 202], [800, 185], [817, 176], [832, 177], [846, 191], [856, 207], [881, 219], [914, 232], [950, 245], [979, 255], [1000, 265]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-orange band follows the bends between dark margins roughly 6–12 px apart. Portions of the margins appear broken or stippled; small dark building rectangles occur beside its upper-left section.",
+      "uncertainty_note": "The route is clear, but the uneven margins do not consistently resolve into two continuous lines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken marginal marks could represent paired dotted or dashed track lines."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Ink spread and reddish colouring obscure the precise line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[510, 1000], [527, 974], [546, 945], [568, 923], [596, 905], [621, 887], [640, 864], [654, 840], [668, 817], [685, 800], [711, 785], [742, 770], [775, 756], [809, 741], [845, 726], [879, 709], [912, 690], [944, 667], [973, 643], [990, 625], [1000, 611]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two strong dark outlines enclose a reddish band approximately 12–18 px wide. Both margins continue along the bends and remain traceable through the large black lettering.",
+      "uncertainty_note": "The thin reddish diagonal crossing near [546, 945] and the nearly vertical line near the right edge have boundary-like continuation and are not counted as road branches.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[681, 785], [660, 765], [640, 747], [630, 740], [647, 722], [669, 701]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Fine dark angular lines enclose a pale strip approximately 10–18 px wide along the western side of the green enclosure. One side borders green fill containing small curved marks.",
+      "uncertainty_note": "This may be an internal path, but the lines could instead outline a narrow plot or planted area. Both ends merge into enclosure outlines; a connection to f02 cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "park_path",
+          "note": "The pale strip between dark edges beside green fill resembles a path within park symbology."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The paired edges may be land-cover or plot outlines rather than a road; the centreline then has no road interpretation."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [670, 646, 810, 780],
+      "why": "Small winding outlines, green shading, building marks and lettering overlap; additional internal paths cannot be distinguished reliably from planted-area outlines."
+    }
+  ],
+  "overall_note": "Two winding reddish routes are clearly drawn; their symbol widths differ. A possible internal path is retained with a non-road alternative. The straight line across the water and the thin boundary-pattern lines are excluded."
+}

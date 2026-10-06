@@ -1,0 +1,217 @@
+{
+  "tile_id": "cor_e0347_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[305,0],[321,23],[341,47],[365,66],[389,79],[400,96]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish strip has closely spaced dark margins with repeated short dark marks; its margins bend together.",
+      "uncertainty_note": "The dark margins are partly broken rather than continuously cased.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The paired short marks could be described as two broken lines."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[66,92],[94,101],[126,112],[160,125],[191,137],[224,140],[263,130],[301,119],[337,110],[363,104],[400,96]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j06"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A pale reddish-yellow strip between two thin, locally stippled dark edges runs into the heavy diagonal block-pattern symbol at its western end.",
+      "uncertainty_note": "The western termination is obscured by the railway symbol. The possible grey-line connection at j06 is uncertain.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"Several stretches resolve as closely paired broken marks rather than continuous edges."}]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[400,96],[423,108],[440,126],[455,145],[473,157],[487,166]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two close dark, broken margins enclose a reddish strip; both turn southeast together.",
+      "uncertainty_note": "The margins merge locally where the reddish printing is thick.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The broken margins could be classified by their repeated short marks."}]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[487,166],[519,176],[559,178],[603,177],[641,170],[678,158],[716,147],[756,135],[794,121],[833,105],[865,92],[887,83],[911,92],[933,99],[950,90],[961,82]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A reddish strip with two close rows of dark short marks continues beneath large black italic lettering; matching marks remain visible between letters and on both sides.",
+      "uncertainty_note": "Letter strokes conceal portions of the margins, but the course through the lettering is supported by the visible continuation. The eastern fork is less distinct.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The two margins are substantially broken or dotted."}]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[961,82],[969,64],[966,42],[960,22],[958,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow reddish band with dark repeated marks turns upward; close dark edges are visible on either side.",
+      "uncertainty_note": "The lower bend overlaps a dark polygon edge.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"Repeated dark marks are more distinct than continuous casing."}]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[961,82],[979,88],[1000,96]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short reddish-brown line extends east from the bend, closely accompanied by a dark polygon edge.",
+      "uncertainty_note": "The short extension may be a field or property edge rather than a third road branch; j03 is conditional on this reading.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The reddish strip and adjacent dark edge may continue the paired road symbol."},
+        {"proposed_class":"unknown","note":"Alternatively this is a nonroad polygon or property boundary."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[487,166],[500,200],[508,238],[511,278],[508,320],[507,361],[504,397],[497,419],[479,438],[474,457],[480,488],[484,530],[486,571],[490,611],[497,648],[509,674],[532,703],[535,708]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A single series of heavy, regularly separated black dots or short strokes follows a thin orange-red trace; no clear continuous pair of casings is visible.",
+      "uncertainty_note": "A few marks lengthen where the line crosses other outlines. The thin red connection at j04 may be a boundary.",
+      "alternatives": [{"proposed_class":"unknown","note":"A boundary interpretation is possible where marks become elongated, although most of the line has a regular dotted path-like pattern."}]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[535,708],[557,731],[587,747],[620,757],[649,770],[675,789],[687,813],[693,844],[694,874],[687,901],[674,927],[664,951],[666,971],[684,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Regular heavy black dots continue over a narrow reddish-orange trace, crossing pink polygons before curving downward.",
+      "uncertainty_note": "Some dots overlap polygon outlines, but the repeated sequence remains traceable.",
+      "alternatives": [{"proposed_class":"unknown","note":"The reddish underlay and occasional longer marks leave a weaker property-boundary alternative."}]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[344,396],[359,415],[374,443],[386,478],[398,519],[408,558],[418,598],[431,638],[449,671],[474,689],[505,703],[524,708],[535,708]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["dead_end","junction"],
+      "evidence_note": "A relatively narrow, mostly continuous dark red line curves southeast; small dark marks appear intermittently, without a clearly separated pair of margins.",
+      "uncertainty_note": "This may be a single-line path or a coloured boundary. Its upper end fades to a short blunt stroke; j04 has three road branches only if this is a path.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The continuous red stroke could represent a narrow path."},
+        {"proposed_class":"unknown","note":"Alternatively it is a nonroad property boundary."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[196,496],[191,530],[185,570],[175,609],[165,650],[151,689],[145,706],[132,745],[118,786],[102,830],[85,871],[63,915]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A thin continuous red-brown stroke has a darker edge and occasional short dark marks; it crosses the heavier dotted diagonal line.",
+      "uncertainty_note": "The northern end merges with a polygon edge and the southern end fades beside a pale grey band. It could be a path or boundary; j05 is conditional.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"A single-line path interpretation follows the visible continuous stroke."},
+        {"proposed_class":"unknown","note":"Alternatively this is a nonroad boundary, resembling some red lines excluded in the worked example."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,598],[31,619],[65,641],[101,668],[130,693],[145,706],[177,729],[210,756],[242,783],[269,816],[290,848],[313,881],[333,917],[350,953],[361,979],[366,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow yellow-red trace carries separated heavy black dots and short strokes; it bends progressively downward beside a horizontally hatched polygon.",
+      "uncertainty_note": "Some black marks are longer than others, leaving a boundary alternative. The crossing at j05 is a road junction only if f10 is also a road.",
+      "alternatives": [{"proposed_class":"unknown","note":"This could be a coloured, broken property boundary rather than a dotted path."}]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[796,423],[800,446],[797,470],[786,493],[772,515],[761,537],[765,558],[773,580],[774,594],[766,617],[763,646]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A narrow continuous dark red stroke winds between dark polygon edges; no consistent parallel casing or regular dot row can be separated.",
+      "uncertainty_note": "Both ends merge with polygon outlines. A boundary reading is at least as plausible as a path reading.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"If a road, its visible symbol is principally one continuous line."},
+        {"proposed_class":"unknown","note":"Alternatively this is a nonroad coloured field or property boundary."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[131,319],[157,321],[187,320],[218,319],[246,315],[269,311],[290,300],[309,285],[328,270]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A thin reddish line with small dark flecks runs separately from nearby blue-green outlines, then angles upward into a dark polygon corner.",
+      "uncertainty_note": "The western end overlaps blue-green strokes. At the eastern end, continuation along the polygon edge cannot be distinguished confidently from the edge itself.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Small dark interruptions may be a broken path symbol."},
+        {"proposed_class":"unknown","note":"Alternatively the red stroke is a coloured property boundary."}
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[198,260],[215,267],[240,270],[266,269],[292,266],[313,266],[328,270]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A reddish-yellow narrow band lies between close blue-green and dark strokes; its eastern end converges with the endpoint of f13 and a polygon edge.",
+      "uncertainty_note": "A separate track alongside the blue-green line cannot be resolved consistently. The apparent convergence with f13 may be one bent feature, two tracks, or merely overlapping boundary and water symbols.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The close flanking strokes could delimit a narrow track."},
+        {"proposed_class":"single_line","note":"Only the reddish stroke may represent a path."},
+        {"proposed_class":"unknown","note":"Alternatively the entire band belongs to water or polygon-edge symbology."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[363,104],[365,132],[361,164],[356,195],[328,209],[292,223],[257,235],[225,246],[210,247],[200,239]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two faint grey, approximately parallel strokes, several pixels apart, make an angular course beneath the western reddish route; no regular black road marks are evident.",
+      "uncertainty_note": "This may be a narrow uncoloured track, a property or land-cover margin, or another pale overprinted line. Its southern end loses definition beside other outlines; j06 is conditional.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"If read as a road, the visible form is a close pair of grey lines."},
+        {"proposed_class":"unknown","note":"Alternatively it is a nonroad double boundary or marginal band, comparable to uncoloured bands in the worked example."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [400,96],
+      "branch_count": 3,
+      "evidence_note": "The closely paired dark margins of the northwestern and southeastern reddish strips meet a similarly narrow reddish strip from the west."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [487,166],
+      "branch_count": 3,
+      "evidence_note": "The reddish strip with paired broken margins continues west and east; a heavier single row of separated black marks leaves its southern side."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [961,82],
+      "branch_count": 3,
+      "evidence_note": "The reddish band bends between southwest and north, with a short reddish-brown extension east beside a polygon outline; three branches are conditional on that extension being a road."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [535,708],
+      "branch_count": 3,
+      "evidence_note": "The heavy black dotted trace continues northwest and southeast while a continuous thinner red stroke reaches it from the west; three road branches are conditional on the thin stroke being a path."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [145,706],
+      "branch_count": 4,
+      "evidence_note": "A heavy dotted yellow-red diagonal crosses a thinner continuous red stroke without a visible gap; four road branches are conditional on both strokes being roads."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [363,104],
+      "branch_count": 3,
+      "evidence_note": "A faint close pair of grey strokes reaches the southern margin of the west-east reddish strip; three branches are conditional on the grey pair being a track."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The clearest routes have reddish underlays with paired broken margins or a single row of heavy black dots. Thin red strokes and one faint grey pair admit road and boundary readings, so their alternatives and conditional junctions are retained. No continuation is inferred beyond the flagged endpoints; the northwest block-pattern railway and clearly blue-green water lines are excluded."
+}

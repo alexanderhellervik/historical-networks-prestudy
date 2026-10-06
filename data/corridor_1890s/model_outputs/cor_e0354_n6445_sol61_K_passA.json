@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0354_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[808,1000],[831,968],[854,937],[877,905],[902,870],[927,832],[950,801],[974,768],[1000,734]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two strong dark parallel strokes enclose a pale strip approximately 10–14 px wide; black and red rectangular symbols stand beside its northwest margin.",
+      "uncertainty_note": "The paired road symbol is clear. The branch at j01 is less certain than this feature.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[604,143],[600,187],[595,232],[590,276],[585,322],[580,366],[575,413],[569,461],[564,511],[558,565],[579,591],[600,616],[638,640],[677,665],[716,691],[755,717],[795,743],[836,770],[880,801],[927,832]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow brown band has close dark margins, with repeated dark dots or short marks especially visible along the nearly vertical section; the same band turns southeast toward the paired road.",
+      "uncertainty_note": "The dotted margins resemble the example's minor road, but a boundary reading remains possible. Its northern continuation is unclear among thin lines and the land-cover outline; aligned visible portions support carrying the southeast section through the large lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a property boundary with coloured edging rather than a road, particularly along the straight northern section."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[390,743],[376,767],[407,798],[399,823],[390,846],[425,875],[463,905],[501,935],[541,962],[583,986],[626,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A brown strip with close dark, irregularly broken edging follows several sharp turns; its upper portion touches the outlined pale patch beneath the place-name.",
+      "uncertainty_note": "The symbol resembles f02, but following a land-cover edge also supports a boundary interpretation. The upper endpoint disappears into the outline and lettering; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "May be a coloured property boundary rather than a narrow road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,958],[29,961],[56,967],[85,975],[111,982],[141,992],[164,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantial dark lines enclose a pale ochre strip along the bottom-left corner; the strip bends gently southeast.",
+      "uncertainty_note": "The road symbol is clear; the short possible branch at j02 is difficult to distinguish at the tile edge.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[85,975],[81,987],[76,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short brown-dark stroke descends from the corner road, with a faint second edge several pixels alongside it.",
+      "uncertainty_note": "Only about 25 px are exposed. It could be a narrow branch, but the apparent second margin is indistinct.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two apparent edges may enclose a short narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, this is a boundary or other linear mark meeting the road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,80],[30,96],[68,96],[99,91],[127,80],[153,86],[180,94],[213,104],[251,115],[292,117],[333,125],[372,124],[410,118],[447,113],[483,102],[512,98],[539,110],[574,120],[609,124],[657,124],[705,126],[751,128],[788,132],[813,130]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A faint pale winding band has thin grey-tan edges, generally several pixels apart; it runs above the darker blue-green winding outline and between scattered tree symbols.",
+      "uncertainty_note": "The edges are faint and locally overlap other fine lines. A narrow road is plausible, but drainage or land-cover outlining cannot be excluded; j03 is conditional on both adjoining candidates being roads.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale band may be a lightly drawn road with two narrow margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be drainage or a land-cover outline; small local deviations in the proposed course remain possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[574,0],[596,17],[622,28],[653,34],[682,43],[711,41],[743,48],[767,67],[788,89],[803,110],[813,130],[827,161],[841,190],[857,219],[879,244],[905,268],[931,291],[958,312],[981,330],[1000,345]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A heavy uneven dark line follows a broad pink wash; occasional pale slivers and additional dark edging suggest a possible narrow enclosed band.",
+      "uncertainty_note": "The pink wash strongly supports an administrative boundary reading. It is retained as a doubtful road candidate because portions also resemble a cased minor route; a road coinciding with a boundary is another possible reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Administrative boundary only, with no road represented."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A narrow road may coincide with the pink boundary marking."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [927,832],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown band reaches the northwest casing of the wider paired line, which continues northeast and southwest; three branches if the brown band is a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [85,975],
+      "branch_count": 3,
+      "evidence_note": "A short descending brown mark touches the paired corner road, whose two directions remain visible; the third branch is tentative."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [813,130],
+      "branch_count": 3,
+      "evidence_note": "The faint pale band reaches the heavy pink-edged line near its bend, with that line continuing in both directions; this junction is conditional on the road interpretations."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The paired roads are clearest; the narrow brown bands and faint upper band admit other readings. The pink-edged curve is included as a doubtful candidate, while the thin red southwest diagonal and repeated straight field dashes are read as boundaries. Lettering and overlapping outlines obscure the northern ends of two brown features."
+}

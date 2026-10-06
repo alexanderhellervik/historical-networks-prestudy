@@ -1,0 +1,131 @@
+{
+  "tile_id": "cor_e0350_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[601, 0], [621, 27], [635, 48], [642, 78], [643, 113], [647, 157], [651, 204], [658, 254], [670, 304], [683, 351], [696, 399], [703, 450], [705, 500], [709, 551], [712, 601], [715, 651], [715, 698], [717, 747], [716, 796], [715, 845], [710, 894], [701, 941], [695, 966], [685, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy, approximately parallel dark outlines enclose a reddish band about 10–17 px wide; the casing remains visible beside lettering and across the blue water line.",
+      "uncertainty_note": "Letter strokes locally overlap the casing, but the road's continuation is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 522], [41, 497], [83, 471], [125, 444], [168, 419], [210, 394], [254, 371], [301, 350], [344, 329], [375, 314], [410, 291], [449, 265], [486, 239], [520, 211], [550, 183], [580, 157], [611, 132], [643, 113]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre-reddish strip lies between close dark margins, roughly 4–8 px apart; one margin becomes granular or interrupted in places.",
+      "uncertainty_note": "The northeastern end overlaps large lettering, but aligned reddish segments support its connection to f01. The possible fine branch at j04 is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The interrupted margin could represent a solid-and-dotted track symbol rather than two continuous road outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[635, 48], [659, 49], [681, 58], [707, 65], [735, 75], [772, 82], [815, 90], [859, 93], [907, 95], [951, 93], [977, 90], [1000, 85]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A reddish horizontal strip has close dark upper and lower margins; black rectangular marks and red patches overlap its western portion.",
+      "uncertainty_note": "The course through the clustered marks around u=660–740 is less precisely readable. Visible aligned strips support continuity, but very short side connections cannot be resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Overlapping marks prevent a consistent reading of the two margins in the western section."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[479, 1000], [515, 974], [543, 943], [570, 915], [597, 892], [620, 880], [636, 883], [649, 897], [657, 918], [664, 945], [676, 961], [695, 966]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow curved reddish-ochre band carries dark, locally granular margins approximately 4–7 px apart and meets the broad cased strip.",
+      "uncertainty_note": "The edges are less distinct around the tight eastern bend; the visible coloured stroke supports the reported course.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The granular edge may belong to a solid-and-dotted track symbol rather than continuous double casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[281, 1000], [298, 990], [317, 985], [334, 987], [349, 992], [361, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short curved russet-ochre stroke with an uneven dark margin clips the bottom edge; only the crest of the curve is visible.",
+      "uncertainty_note": "The clipped fragment resembles the narrower reddish routes, but too little of its symbol is visible to distinguish a track confidently from an outlined parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road with most of its casing outside the tile."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel outline; exclude this fragment under that reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[375, 314], [395, 339], [420, 362], [448, 383], [471, 401], [487, 424], [499, 445], [506, 459]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A very fine pale gray-ochre stroke leaves the diagonal reddish band and bends southeast beside a small outlined ochre patch; consistent dark casing is absent.",
+      "uncertainty_note": "This may be a minor path or a field division. Its southeastern continuation cannot be separated confidently from nearby outlines and lettering, so it stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible lightly drawn path branching from f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road field or property division; under this reading j04 is not a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [635, 48],
+      "branch_count": 3,
+      "evidence_note": "The broad dark-cased reddish strip continues toward both tile-top and tile-bottom, while a narrower reddish strip extends right; clustered dark marks partly cover the meeting."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [643, 113],
+      "branch_count": 3,
+      "evidence_note": "A narrow reddish band approaches from the lower left and meets the left casing of the broader north–south band; a black letter stroke overlaps part of the contact."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [695, 966],
+      "branch_count": 3,
+      "evidence_note": "The narrow curved reddish stroke touches the western margin of the broad cased strip, which visibly continues above and below."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [375, 314],
+      "branch_count": 3,
+      "evidence_note": "Two branches of the narrow reddish band continue through this point, and a much finer pale stroke extends southeast; the count assumes that doubtful stroke is a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [660, 34, 742, 82],
+      "why": "Overlapping black rectangular marks, red patches and lettering obscure portions of the narrow route's margins and any very short branches."
+    }
+  ],
+  "overall_note": "The reddish cased routes are substantially clearer than the faint internal lines. Features f05 and f06 retain non-road alternatives, and j04 exists only under the path interpretation of f06. Blue water lines, dotted vegetation edges and clearly outlined parcel margins were excluded."
+}

@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0361_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,410],[19,431],[42,453],[65,475],[87,496],[108,509],[131,489],[157,471],[176,461],[189,469],[204,484],[219,504],[243,530],[269,556],[294,584],[313,602],[328,618],[344,635],[360,620],[384,601],[407,584],[420,602],[441,624],[463,646],[485,627],[512,609],[535,598],[561,613],[585,621],[614,631],[653,627],[692,623],[731,619],[771,614]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03","j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange strip has two dark dotted or broken margins, approximately 6–10 px apart. It makes several sharp bends beside black outlines and red building rectangles; large black lettering overlaps portions.",
+      "uncertainty_note": "The principal course is clear. Continuation beneath lettering is supported by matching dotted margins on both sides. The two short accesses associated with j02 and j03 are doubtful.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches resolve chiefly as dotted strokes; the separation of the two margins is locally indistinct."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[771,614],[810,610],[851,606],[886,602],[903,599],[925,593],[962,587],[1000,581]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two closely spaced dark dotted margins enclose an orange centre. The line continues almost horizontally, with a slight upward bend across the dark vertical seam.",
+      "uncertainty_note": "The seam conceals a short section around u=900–920. Matching position and symbol on both sides support carrying the line through; its exact course within the seam is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The narrow dotted margins sometimes merge visually into one broken line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[654,466],[673,490],[695,518],[714,544],[735,571],[754,593],[771,614]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["dead_end","junction"],
+      "evidence_note": "An orange diagonal with two thin dark dotted margins leaves the black outline beside the upper building symbols and joins the similarly drawn east–west track.",
+      "uncertainty_note": "The upper endpoint meets a heavy black enclosure stroke. No distinct continuation through that enclosure or beneath the adjacent B lettering is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two dotted margins become difficult to separate near the upper endpoint."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[204,207],[218,233],[230,260],[243,290],[253,320],[265,351],[277,382],[294,406],[307,416]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint, narrow orange trace descends between dark angular outlines and scattered star symbols. It appears predominantly single and lacks clearly resolved paired dotted margins.",
+      "uncertainty_note": "This could be a lightly drawn path, but an edge of coloured parcel fill is also plausible. Its upper end merges with an angular outline, and its lower end disappears against the red and dark horizontal line; no road junction is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the orange trace is an intentional route stroke, it resembles a thin uncased path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a parcel or land-cover edge and therefore not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[219,504],[224,492],[235,480]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A short, thin dark stroke touches the orange track and runs toward a small tilted black enclosure containing dark rectangular marks. No clear orange casing or regular dotted pattern is resolved.",
+      "uncertainty_note": "The stroke may be a short access, or simply the enclosure's projecting edge. Its connection and the resulting three-branch junction are conditional on the access reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short uncased access path is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An enclosure edge would make this a non-road and remove j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[328,618],[315,624],[301,637]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short dark oblique stroke extends from the dotted orange diagonal toward a red rectangle with heavy black edging. The nearby large B overlaps the surrounding strokes.",
+      "uncertainty_note": "A building access is plausible, but the stroke could belong to the building or enclosure outline. It is stopped at the heavy symbol rather than continued beneath it; j03 is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible stroke could represent a short uncased access."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If it is part of the building or enclosure outline, it is not a road and j03 should be omitted."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [771,614],
+      "branch_count": 3,
+      "evidence_note": "Three orange arms with closely spaced dark dotted margins meet: one from the west, one from the east, and one diagonally from the upper left. Their centres visibly converge."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [219,504],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the dotted orange diagonal meet a short thin dark stroke toward the small tilted enclosure. Three branches are present only if that stroke is an access rather than an enclosure edge."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [328,618],
+      "branch_count": 3,
+      "evidence_note": "The two arms of the dotted diagonal are touched by a short dark stroke toward the red and black building symbol. The third branch is conditional because the stroke may belong to the symbol."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [890,0,935,1000],
+      "why": "A sloping, heavy vertical sheet seam and adjacent disturbed paper conceal narrow portions of intersecting strokes. The box encloses the seam; visibility varies within it."
+    }
+  ],
+  "overall_note": "The dotted orange tracks are substantially clearer than the faint trace and short building-side strokes, whose non-road alternatives are retained. The broad red band with heavy broken black marks, the long red diagonals, and the blue or green parcel and water outlines are read as non-road lines. Lettering and the vertical seam locally limit precision."
+}

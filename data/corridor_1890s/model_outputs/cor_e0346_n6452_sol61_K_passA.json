@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0346_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[218,1000],[247,972],[278,947],[312,920],[346,893],[382,868],[419,842],[454,820],[489,795],[524,773],[554,757]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange-brown strip has two closely spaced dark, dotted or broken margins, approximately 5–9 px apart. Black rectangular symbols occur alongside its upper section.",
+      "uncertainty_note": "The paired margins are locally blurred together; coordinates follow the strip's centre.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as a brown stroke with dark dots rather than two distinct margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[554,757],[594,733],[634,708],[671,682],[707,657],[742,633],[766,618],[802,594],[836,572],[871,548],[905,526],[936,500],[958,476],[976,452],[969,431],[964,409],[978,396],[1000,385]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark dotted or broken margins enclose an orange-brown centre. The line crosses a thin red diagonal near (766,618), and turns sharply near the right edge.",
+      "uncertainty_note": "Lettering overlaps the southwestern section, but the aligned brown strip is visible on both sides. Near the right edge, road margins and coloured parcel outlines overlap, making the final bend less certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The section from approximately (976,452) to the edge could partly follow a coloured parcel outline; an alternative is to stop the road near (976,452)."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[554,757],[564,785],[575,816],[587,850],[600,882],[610,894],[636,899],[661,906],[651,927],[637,949],[633,968],[638,985],[642,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow brown strip with dark broken margins leaves the diagonal line, passes beside black rectangular marks, bends east, then turns south. The margins are roughly 6–10 px apart.",
+      "uncertainty_note": "The margins merge with heavy black outlines around (600,882)–(661,906); brown colouring and broken edging support the traced connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Around the eastward bend, one margin could be a parcel outline adjoining a single broken track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,554],[27,592],[55,632],[88,676],[121,721],[155,767],[183,805],[198,825]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two approximately parallel dark edges enclose a pale pink diagonal band about 12–20 px wide. No consistent dotted road edging is distinguishable; lettering and intersecting outlines cover its southeastern end.",
+      "uncertainty_note": "This may be an elongated coloured parcel rather than a road. Its continuation through the lettering cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the parallel edges are road casing, the band forms a relatively wide road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the edges outline a narrow strip of coloured land."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[520,188],[517,226],[513,266],[503,301],[496,336],[489,371],[481,404],[477,417]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Fine grey-black longitudinal strokes run beside a stronger red line. Parts appear paired, roughly 8–15 px apart, with unequal weight and intermittent breaks; their upper end merges with several outlines.",
+      "uncertainty_note": "The strokes may represent a narrow track, separate boundaries, or another line symbol. Lettering prevents a certain connection to f06.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two fine strokes could be margins of one narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the weaker companion stroke is unrelated, the stronger interrupted stroke could be the track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: separate boundary or subdivision strokes beside the red outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[469,458],[466,476],[461,494]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "A fine grey-black stroke emerges below the lettering and slopes downward-left; a weaker nearby stroke is only partly distinguishable. The stronger stroke fades or ends around (461,494).",
+      "uncertainty_note": "This could continue f05 beneath the lettering, but the connection and paired-line interpretation are uncertain. The endpoint records the visible stroke's end.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible lower stroke could be a single-line path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It could be the lower continuation of a paired track represented by f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a short boundary or subdivision stroke."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [554,757],
+      "branch_count": 3,
+      "evidence_note": "The dotted orange-brown diagonal continues southwest and northeast, while a similarly narrow brown strip with dark broken margins leaves toward the southeast. Black lettering and rectangular symbols lie close to the meeting."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [439,417,500,461],
+      "why": "Heavy lettering overlaps the fine longitudinal strokes, preventing a certain connection between f05 and f06."
+    },
+    {
+      "bbox_uv": [152,800,233,858],
+      "why": "Lettering and several red and black outlines overlap the end of the pale diagonal band, preventing a reliable continuation of f04."
+    }
+  ],
+  "overall_note": "The clearest road drawing is the dotted orange-brown diagonal and its southward branch. Fine central strokes and the broad pale strip at the left support competing road and non-road readings. Thin red diagonals and irregular coloured parcel outlines without distinguishable road edging were read as boundaries."
+}

@@ -1,0 +1,155 @@
+{
+  "tile_id": "cor_e0346_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 56], [28, 85], [57, 108], [99, 130], [143, 138], [185, 146], [228, 158], [268, 170], [287, 190], [300, 220], [304, 244], [324, 270], [353, 294], [389, 314], [429, 334], [467, 346], [510, 353], [554, 359], [609, 359]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow, sinuous warm-brown stroke has closely spaced dark dots or short ticks along its margins; no broad casing is visible. It crosses several long straight dashed lines.",
+      "uncertainty_note": "The dotted margins resemble the cart-track symbol in the worked example, but the distinction between one continuous stroke and two dotted margins is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The warm central stroke could be read as a single road line with irregular dark edging."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark marks could represent two closely spaced road margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[609, 359], [642, 362], [679, 364], [710, 372], [745, 385], [778, 395], [802, 401], [821, 401]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The narrow warm-brown line with dark dotted edging continues eastward, crossing a thin red diagonal before approaching a heavy black rectangular symbol.",
+      "uncertainty_note": "Its continuation beyond the black symbol and nearby lettering is not certain; the feature stops there. A connection to the sinuous line farther east is possible but unconfirmed.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A single warm stroke with dark marginal marks is a possible reading."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dotted edging may be a closely spaced pair of road margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[609, 359], [589, 377], [574, 396], [559, 420], [550, 452], [539, 491], [530, 530], [517, 568], [501, 606], [484, 645], [466, 684], [452, 720], [440, 746]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two approximately parallel fine margins enclose a pale buff or grey strip, generally about 10–20 px wide. A red-brown line coincides with parts of the eastern margin; straight red and dashed lines cross the strip.",
+      "uncertainty_note": "The red boundary overlay makes the eastern road margin difficult to separate, and the apparent width varies.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some of the pale width may be colour spread around a narrower pair of road lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[440, 746], [431, 781], [422, 819], [412, 859], [401, 900], [389, 942], [379, 974], [371, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pale grey strip continues south between a faint western margin and a stronger red-brown eastern line, approximately 15–25 px apart. It crosses another thin red line near its upper end.",
+      "uncertainty_note": "This segment is less distinct than the northern corridor: the eastern line also has boundary-like continuity, and the western margin is faint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale strip could partly be wash beside a red property boundary rather than a separately drawn road."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A narrower road within the pale strip is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[195, 1000], [225, 975], [247, 953], [273, 922], [300, 890], [328, 857], [355, 825], [384, 796], [413, 772], [440, 746]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow buff line with a darker, roughly parallel margin bends northeast from the bottom edge. Its margins are only several pixels apart, and a long dashed diagonal crosses it near the lower end.",
+      "uncertainty_note": "The paired appearance is intermittent; near the meeting with the wider corridor, red linework complicates the exact point of attachment.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches show principally one warm line, with the second margin possibly supplied by adjacent linework."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[1000, 222], [979, 243], [958, 270], [943, 300], [929, 326], [911, 353], [898, 379], [889, 409]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A fine sinuous warm-toned line with intermittent dark dots or short strokes follows the inside of the pale blue-green area. Nearby solid black outlines enclose coloured patches; no clear road casing is visible.",
+      "uncertainty_note": "This is a doubtful path candidate because its marks also resemble the edge of a coloured land-cover area. Heavy black symbols prevent a certain continuation southward.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The thin warm stroke could be a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a land-cover or parcel edge, with no road represented."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[863, 475], [850, 500], [835, 527], [819, 555], [813, 583], [817, 613], [815, 646], [805, 679], [794, 712], [789, 747], [785, 782], [781, 818], [775, 853], [763, 891], [751, 929], [745, 965], [740, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A thin warm line with dark intermittent marks winds southward beside solid black polygon outlines and scattered oval symbols. It lacks a consistently visible second margin and crosses the thin red line near v=933.",
+      "uncertainty_note": "A path and a parcel or land-cover edge are both supported readings. The northern connection through lettering and building symbols is unresolved, so this segment is not joined to f06 or f02.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The continuous warm component could depict a narrow path."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the intermittent dark marks constitute the symbol, a dotted or dashed path is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may instead be a parcel or land-cover boundary, with no road represented."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [609, 359],
+      "branch_count": 3,
+      "evidence_note": "The pale paired corridor reaches the narrow warm line with dark dotted edging; the latter continues both west and east, giving three road branches in this reading."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [440, 746],
+      "branch_count": 3,
+      "evidence_note": "The narrow buff southwest branch meets the pale corridor continuing north and south. A separate straight red diagonal also reaches this vicinity but is excluded from the road branch count; the southern road reading remains uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [805, 385, 905, 480],
+      "why": "Heavy black lettering, rectangular black symbols and a red building symbol obscure the fine lines needed to establish road continuations or connections."
+    }
+  ],
+  "overall_note": "The main difficulties are separating pale road margins from red boundary overlays and distinguishing the sinuous eastern line from polygon edges. The eastern candidates and southern corridor retain explicit alternatives; junction counts describe the proposed reading. Long straight red lines, long diagonal dashes and marsh hatching are excluded from the road features."
+}

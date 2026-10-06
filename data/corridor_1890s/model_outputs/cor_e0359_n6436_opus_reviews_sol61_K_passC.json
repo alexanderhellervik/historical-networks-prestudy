@@ -1,0 +1,77 @@
+{
+  "tile_id": "cor_e0359_n6436",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous brown-filled double line with dotted edging runs from the G farmstead at the left edge (~0,645) down past (60,720) and (130,770), dips to (270,795), then rises through (370,768), (480,760), (580,752), (680,722), (780,695), (880,675) to the right edge at ~(1000,650). The overlay polyline follows it closely along its whole length.",
+      "uncertainty_note": "Course is certain. Whether it should be the wide or the narrow double-line class is a judgement on width only; it is the widest road on the tile, at about 8-10 px. Its exact exit point at the left edge is partly hidden by the G building symbol."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line branches south from the main road at ~(370,768), bends through (355,810), (380,860), (430,910) and (480,960), and leaves the bottom edge at ~(510,1000). The overlay follows it.",
+      "uncertainty_note": "Course and existence are clear. It looks the same as or slightly narrower than f01; the class could be argued either way."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow pair of parallel brown/red lines runs south from the main road at ~(772,693) along u≈770-775 to about v≈920. At its south end it splits or bends toward the bottom edge near (752-775,1000). The overlay follows the straight part and takes the left-bending branch at the bottom.",
+      "uncertainty_note": "On the neighbouring example sheet, thin red single lines were boundaries. This one is drawn as a brown pair, like the other roads, so I read it as a road. Its bottom 80 px are muddled: either one road curves left, or two short branches both reach the edge (see contested junctions)."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At (590-680, 710-722) the overlay draws a short line just north of and nearly parallel to f01. The tile shows no separate brown road band there. What is visible is a narrow uncoloured strip, edged in black, between the light tomt plot by the torp 'T.' (building dot at ~588,716) and the main road.",
+      "uncertainty_note": "That strip could be an uncoloured yard access lane to the torp, the edge of the plot, or the overlay re-drawing f01 a little offset. The drawing does not settle which; I lean toward it not being a separate road."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[515, 225], [517, 300], [520, 345], [522, 420], [525, 500], [527, 580]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "dead_end"],
+      "evidence_note": "A fine black dotted line runs almost straight north to south along u≈515-527. It starts just below the horizontal line at v≈190, crosses the blue stream at ~(520,345) and ends at the top of the arable field at ~(527,580). Its dotting matches the model-sheet Gångstig symbol better than the dashes of Skifteslinje.",
+      "uncertainty_note": "Low confidence that this is a road at all. It is black, not the brown used for roads on this sheet, and it is very straight. In the worked example a similar straight fine black line was read as 'other line', not a road.",
+      "alternatives": ["not a road: Skifteslinje or survey/other straight line", "gångstig (footpath) to the arable field"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[600, 100], [645, 78], [690, 57], [730, 35]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "A very faint row of black dots runs NE from about (600,100) toward (730,35) in the open ground near the '4944' label.",
+      "uncertainty_note": "It is barely legible at this resolution. It may be a footpath, a boundary, or noise in the paper, and its continuation toward the top edge is not traceable.",
+      "alternatives": ["not a road: faint boundary dots", "gångstig continuing toward the top edge"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [772, 693],
+      "what_is_contested": "Number of branches: either a 3-way T where f03 leaves f01 southward, or a 4-way crossing if the line north to the boundary corner at (770,655) is also a road.",
+      "evidence_note": "North of the main road only a thin single black line continues to where the dashed boundary ends at ~(770,655). It looks like a field/boundary edge rather than a brown double line, so I read a 3-way junction."
+    },
+    {
+      "uv": [770, 925],
+      "what_is_contested": "Whether f03 forks into two branches reaching the bottom edge (one straight at u≈775, one bending left to u≈752) or is a single road that bends.",
+      "evidence_note": "Brown curved strokes and black field outlines overlap here and cannot be told apart at this resolution."
+    },
+    {
+      "uv": [585, 750],
+      "what_is_contested": "Whether a junction exists at all: does a short lane (overlay f04) leave f01 here toward the torp 'T.'?",
+      "evidence_note": "No brown branch is drawn; there is only an uncoloured strip between plot outlines and the main road."
+    }
+  ],
+  "overall_note": "The three brown double-line roads (f01 main E-W road, f02 south branch, f03 N-S lane at u≈770) are clearly drawn and the overlay follows them well; f04 is not supported by a visible road symbol. The long black dashed diagonals, the straight thin lines at u≈100 and v≈190 and the blue stream are boundaries, grid lines or water, not roads. The only possible missed roads are faint black dotted lines (m01, m02), and both may well be non-road lines."
+}

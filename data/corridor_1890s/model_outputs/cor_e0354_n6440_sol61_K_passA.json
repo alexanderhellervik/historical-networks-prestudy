@@ -1,0 +1,100 @@
+{
+  "tile_id": "cor_e0354_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[378,1000],[416,973],[456,944],[496,915],[536,886],[576,857],[617,828],[657,799],[695,770],[713,741],[744,708],[772,669],[801,630],[831,590],[862,548],[891,508],[920,469],[950,428],[979,389],[1000,360]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Broad diagonal band with reddish-purple ink on its upper-left side and a heavy dark strip on its lower-right side; irregular pale interruptions and short dark projections merge at this resolution.",
+      "uncertainty_note": "Retained as a doubtful road candidate. The broad colour margin and broken dark strokes also support a boundary reading; neither road casing nor railway blocks can be identified securely. Coordinates follow the approximate band centre.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the opposing dark margins are road edges, they enclose a broad reddish strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible coloured administrative boundary or railway rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[332,0],[352,43],[372,83],[393,126],[414,168],[435,211],[456,253],[477,295],[499,338],[519,380],[539,422],[560,464],[581,507],[602,549],[623,590],[646,632],[667,674],[690,715],[713,741]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish line forms the right side of a pale diagonal strip; a weaker grey, locally broken stroke lies roughly 15–25 px to its left. The strip reaches the broad diagonal band.",
+      "uncertainty_note": "The pale strip could be a road beside a red boundary, but the weaker edge could instead be boundary tint or displaced printing. Its final strokes merge into f01; the junction is conditional on both being roads.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible road between the reddish edge and the faint parallel grey edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible property boundary with a pale colour margin; no road would then be present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[744,1000],[751,970],[761,938],[772,904],[779,875],[785,844],[795,818],[816,795],[839,774],[861,755],[889,753],[918,755],[949,760],[977,765],[1000,772]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A thin reddish-brown strip bends through the lower-right corner, with close dark margins approximately 4–9 px apart. Blue strokes cross or approach it, and outlined pale shapes lie on its lower-right side.",
+      "uncertainty_note": "The paired margins support a narrow road reading, although some stretches merge with the adjoining coloured-area outline. A coloured enclosure boundary remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Parts may be one dark stroke with reddish colouring alongside rather than two independent edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible coloured enclosure boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[850,597],[883,598],[922,600],[962,601],[1000,603]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A nearly horizontal reddish stroke with a dark lower margin runs to the right edge beneath large black lettering. Its left end approaches the heavy diagonal ink and smaller diagonal lettering.",
+      "uncertainty_note": "This may be a narrow track or a coloured parcel edge. The left-hand connection cannot be traced securely through the lettering and merged ink, so it is stopped without assigning a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road if the reddish upper stroke and dark lower stroke are separate casing edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel boundary; the visible line does not establish a road connection to f01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [713,741],
+      "branch_count": 3,
+      "evidence_note": "The pale, red-edged strip terminates in the broad reddish-purple and dark diagonal band, which continues in two directions. Ink merges at the meeting; three road branches are conditional on the road readings of f01 and f02."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [688,718,738,768],
+      "why": "Heavy overlapping dark and reddish ink prevents separation of the candidate road edges at j01."
+    },
+    {
+      "bbox_uv": [826,570,884,615],
+      "why": "Diagonal lettering and heavy band ink obscure the possible left-hand continuation of f04."
+    }
+  ],
+  "overall_note": "The principal difficulty is distinguishing reddish road-like strips from coloured boundaries; these candidates are retained with explicit non-road alternatives. Thin straight red rules, long black dashed lines, blue drainage strokes and wetland hatching otherwise read as non-road symbols. The only reported junction is conditional on two ambiguous features being roads."
+}

@@ -1,0 +1,114 @@
+{
+  "tile_id": "cor_e0348_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[295, 0], [266, 38], [245, 77], [227, 116], [212, 155], [199, 195], [185, 241]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two heavy, continuous dark margins enclose a brown strip approximately 15–22 px wide; the margins curve together.",
+      "uncertainty_note": "The short branch at the lower endpoint is a tentative access-line reading.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[185, 241], [172, 279], [153, 320], [132, 359], [108, 401], [84, 443], [59, 484], [39, 524], [27, 565], [20, 606], [13, 648], [6, 681], [0, 706]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The brown strip continues between heavy black margins, approximately 12–20 px apart; large lettering crosses it near v=500.",
+      "uncertainty_note": "Continuation through the lettering is supported by aligned casing on both sides. The junction depends on the interpretation of f03.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[185, 241], [202, 246], [218, 249]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, narrow dark stroke runs eastward from the cased strip toward a filled brown building symbol; no clear paired casing is visible.",
+      "uncertainty_note": "The stroke may be an access line or an adjoining enclosure edge. Its eastern end disappears into the building symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible enclosure boundary rather than a road; under this reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[476, 0], [490, 32], [512, 66], [534, 101], [555, 138], [574, 177], [589, 212], [599, 241], [614, 267], [636, 287], [664, 301], [694, 307], [725, 302], [757, 290], [791, 271], [826, 249], [858, 231], [882, 209], [903, 183], [922, 160], [946, 146], [974, 145], [1000, 146]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "One regularly spaced series of dark dots and short strokes follows a narrow orange-brown trace, without continuous paired casing; it crosses horizontal hatching and then lettering.",
+      "uncertainty_note": "The dotted trace is visible on both sides of the lettering, supporting the continuation. Its exact centre beneath the letters is approximate; the thin red line it meets is read as a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary is a possible alternative, although the curved orange-brown trace resembles the track drawing in the supplied example."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[752, 0], [768, 19], [788, 37], [808, 43], [837, 38], [866, 25], [890, 10], [904, 0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A curved orange-brown trace carries regularly spaced dark dots; no distinct continuous outer casing is visible.",
+      "uncertainty_note": "Only this short curve lies inside the tile. It lies close to the outline of a hatched patch, making the distinction less secure.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible dotted boundary or patch outline rather than a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 772], [30, 782], [62, 793], [94, 804], [120, 816], [142, 836], [157, 859], [167, 882], [173, 894]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow brown band has dark dotted or broken margins roughly 6–10 px apart; it bends toward a brown building symbol among black rectangular symbols.",
+      "uncertainty_note": "The two margins become difficult to separate near the buildings. The trace ends beneath the upper building symbol; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some portions can be read as a single dotted trace with a brown backing rather than two separate margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[245, 302], [271, 330], [303, 352], [333, 376], [364, 401], [396, 427], [425, 451], [455, 474]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint diagonal pale band has thin grey-brown edges with variable separation, approximately 15–35 px; it lacks strong casing or a consistent dotted pattern.",
+      "uncertainty_note": "This is a doubtful road candidate. The edges merge with adjacent pale outlines at both ends, and the band may belong entirely to the outline of an unhatched patch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible broad, faintly drawn access track if the two pale edges are road margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road patch or parcel outline; its variable width and merging edges support this reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [185, 241],
+      "branch_count": 3,
+      "evidence_note": "The brown strip continues north and south between dark margins, while a short dark stroke leaves its eastern margin toward a building symbol. Three road branches are present only if that stroke is the access line proposed as f03."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Lettering and building symbols locally obscure the traces, and several pale edges are difficult to distinguish from enclosure outlines. The thin red network is read as boundaries, consistent with the worked example, and its crossings are not counted as road junctions. The short access stroke and pale diagonal band are retained as doubtful candidates."
+}

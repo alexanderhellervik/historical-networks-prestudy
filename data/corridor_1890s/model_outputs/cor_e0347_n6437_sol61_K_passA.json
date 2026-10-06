@@ -1,0 +1,103 @@
+{
+  "tile_id": "cor_e0347_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,679],[35,682],[72,691],[111,696],[145,704],[172,719],[189,731],[218,736],[246,742],[272,742],[300,736],[324,724],[333,730]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A row of dark dots and short strokes follows a thin ochre line. Horizontal hatching lies immediately below its western section; farther east it follows the lower edges of coloured polygons beside rectangular building marks. Separate road casing is unclear.",
+      "uncertainty_note": "This could be a dotted track, but much of the trace coincides with land-cover outlines. Its meeting with the other candidate traces is blurred by building marks.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The interrupted dark row could represent a path continuing along the polygon edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the trace consists entirely of adjoining land-cover or parcel outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[333,730],[342,750],[351,772],[356,798],[357,820],[362,835],[376,842],[389,846],[400,861],[402,884],[398,909],[391,935],[395,956],[406,981],[419,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One interrupted dark line, comprising dots and short heavy strokes over a narrow ochre trace, curves past the red numerals and around the right side of an orange polygon. No clear parallel casing is visible.",
+      "uncertainty_note": "The dotted-path reading is plausible, although the coarse marks do not establish the symbol unequivocally. The trace remains visible beside the numerals and lower lettering, so those sections are connected.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The uneven dash-and-dot sequence could instead be a boundary with a coloured stroke alongside it."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[118,1000],[143,969],[168,943],[191,922],[213,897],[235,868],[257,838],[279,808],[299,783],[318,765]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A single oblique row of dark dots and short strokes lies on a narrow ochre line, without clear casing. It passes through the lower lettering and approaches a small outlined orange rectangle.",
+      "uncertainty_note": "A boundary remains a credible alternative. Visible sections on both sides support continuation through the lower lettering, but the upper end cannot be securely connected past the small rectangle to j01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: an oblique property boundary; the interrupted marks resemble some boundary strokes on the sheet."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[1000,386],[989,413],[980,442],[972,470],[965,499],[960,527],[958,552],[957,576],[956,602]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "One uncased row of spaced black dots and short strokes, with a faint ochre connecting trace, curves inward from the right edge. Its lower end enters the broad pink-and-grey band.",
+      "uncertainty_note": "The symbol is compatible with a dotted path, but a boundary interpretation is possible. No continuation through or across the broad band is sufficiently visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a dotted boundary ending against the broad coloured line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[333,730],[340,704],[348,679],[355,660],[367,645],[382,641]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two roughly parallel dark edges, approximately 8–16 pixels apart, enclose a pale green-grey strip beside two red building marks. The strip bends toward a heavy black rectangular mark beside a blue line.",
+      "uncertainty_note": "The paired edges might define a short access track, but their coloured interior also supports a narrow land-cover polygon. The upper end disappears into the heavy rectangular mark; continuation beyond it is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the paired edges are road casing, this is a narrow double-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: two polygon outlines enclosing a narrow coloured strip."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [333,730],
+      "branch_count": 3,
+      "evidence_note": "A westward interrupted trace, a southeastward interrupted trace, and the mouth of a northward paired strip converge beside red and black rectangular marks. The three-road-branch reading is conditional on f01 and f05 being roads; ink overlap blurs the precise meeting."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [306,711,389,780],
+      "why": "Building marks, large black lettering, polygon outlines and interrupted traces overlap here; the attachment of f03 and the exact central connections cannot be resolved."
+    }
+  ],
+  "overall_note": "The five traces are candidate roads with their doubts retained, and j01 is conditional on the candidate readings. Broad pink boundary lines, blue water outlines, straight faint ruling, and dotted outlines enclosing hatching were excluded. The hardest distinction is between dotted paths and coloured polygon or property boundaries around the buildings."
+}

@@ -1,0 +1,103 @@
+{
+  "tile_id": "cor_e0351_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[538, 520], [566, 519], [593, 519], [617, 519], [640, 519], [670, 513], [704, 512], [742, 510], [778, 510], [809, 511]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow ochre stroke carries closely spaced dark dots or short marks; no clearly separated parallel casing is visible. A thin green line interrupts it around u=630, with aligned ochre segments on both sides.",
+      "uncertainty_note": "The aligned segments support carrying the line across the green interruption. Its western endpoint merges with heavy shoreline ink; any continuation there is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre stroke is nearly continuous, so the dark interruptions could be read as marks accompanying a single line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[1000, 187], [986, 212], [972, 236], [951, 267], [929, 295], [908, 322], [887, 351], [865, 382], [843, 415], [827, 450], [816, 482], [809, 511]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange-ochre trace has repeated dark dots and short strokes along its curved course. It follows an orange polygon edge for part of its length; the upper portion appears broader and darker.",
+      "uncertainty_note": "The repeated marks resemble the example's path drawing, but the upper portion does not resolve consistently into one or two rows.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some upper stretches appear to have dark marks on both sides of the orange strip, possibly indicating two narrowly spaced lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[809, 511], [815, 548], [824, 581], [835, 612], [850, 646], [866, 678], [882, 713], [894, 748], [904, 784], [908, 821], [906, 858], [901, 897], [904, 932], [918, 966], [939, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Closely repeated black dots or short strokes sit on a thin ochre line. The line curves continuously, crosses a red diagonal near [890, 730], and passes beside a small black-outlined orange rectangle near v=920.",
+      "uncertainty_note": "The dark marks are distinguishable, but their merging with the ochre stroke makes the precise symbol form uncertain in places. The red crossing provides no evidence of another road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The continuous ochre component could be treated as the principal line, with dark marks accompanying it."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[809, 511], [850, 512], [891, 510], [932, 507], [975, 504], [1000, 502]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin ochre-backed horizontal trace contains dark elongated segments with gaps. It crosses a separate, roughly vertical long-dashed line near [975, 504]; no clear parallel casing is visible.",
+      "uncertainty_note": "This could continue the west-going path through the meeting point, but its longer dark segments also support a property or division boundary reading. Its inclusion makes j01 a four-branch junction only under the road interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the interrupted trace is a path, it forms the eastern arm of the transverse route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is a non-road boundary; under that reading j01 has three road branches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[538, 526], [536, 541], [540, 558], [542, 580]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Several short, heavy gray-black oblique marks form a narrow descending strip beside the blue-black shoreline. There is no clear ochre backing or paired casing.",
+      "uncertainty_note": "The marks could represent a short interrupted path, but shoreline hatching is a strong alternative. Neither a connection to f01 nor continuation beyond the last mark is clear.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A path reading would connect the successive dark marks along this short course."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively these are non-road shoreline or slope hatches."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [809, 511],
+      "branch_count": 4,
+      "evidence_note": "North-, south-, and west-going ochre traces with repeated dark marks meet in a small dark cluster. An east-going ochre-backed segmented trace also reaches it; counting that doubtful arm gives four branches, while its boundary interpretation leaves three."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [520, 505, 550, 590],
+      "why": "Heavy shoreline ink and adjacent dark oblique marks obscure the western path endpoint and prevent a reliable distinction between a short path continuation and hatching."
+    }
+  ],
+  "overall_note": "The principal difficulty is distinguishing dotted path marks from interrupted polygon and boundary lines. The eastern transverse arm and short shoreline strip are retained with explicit non-road alternatives. The long red diagonal, long-dashed parcel lines, green water lines, and solid orange polygon outlines are excluded from the road reading."
+}

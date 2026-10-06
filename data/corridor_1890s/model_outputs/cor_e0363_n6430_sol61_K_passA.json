@@ -1,0 +1,185 @@
+{
+  "tile_id": "cor_e0363_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[112, 0], [123, 35], [141, 68], [167, 88], [190, 104], [218, 141], [248, 179], [279, 217], [311, 256], [344, 294], [376, 333], [407, 372], [439, 409], [472, 435], [451, 448], [434, 466], [443, 486], [463, 505], [494, 533], [526, 567], [555, 596], [581, 618]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown/orange band has close dark margins, with dots or short ticks along them. It crosses the black-and-white railway and makes a sharp southwest-facing dogleg near (472,435).",
+      "uncertainty_note": "The upper section is partly masked by the railway symbol; matching brown margins on both sides support continuity. Individual margin dots are blurred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as one dark stroke with adjacent stippling rather than two separable margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[581, 618], [609, 650], [638, 685], [665, 719], [685, 747], [688, 774], [711, 800], [741, 833], [771, 868], [801, 903], [829, 936], [848, 959], [860, 973]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Close dark, intermittently dotted edges flank a brown/orange strip. The strip bends slightly near (685,747), then approaches angular black marks and intersecting red strokes at the bottom.",
+      "uncertainty_note": "Stopped at the overlapping angular marks near (860,973); their edges do not establish an unambiguous continuation to the bottom border.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The same track may continue through the overlapping marks and leave the bottom near u=880–900, but its exact course is unresolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 434], [28, 473], [54, 511], [77, 548]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A diagonal orange/brown strip has close dark edges with repeated small dots or ticks; a much thinner line approaches from the left near its lower end.",
+      "uncertainty_note": "The diagonal track is clear; the road status of the thin branch defining j02 is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[77, 548], [104, 584], [130, 616], [157, 648], [172, 669], [178, 697], [193, 724], [216, 744], [247, 757], [279, 768], [304, 755], [329, 739], [364, 728], [401, 718], [440, 706], [479, 689], [515, 672], [546, 649], [581, 618]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j01"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow orange band with dark stippled margins passes beside black rectangles and oval tree marks, curves below them, and continues northeast across a blue-edged strip.",
+      "uncertainty_note": "Small symbols interrupt the margins beside the enclosure, but the entering and departing strokes support the curved course. Thin red lines touching this track are read as boundaries.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Beside the enclosure, symbol overlap prevents consistently distinguishing paired margins from a single dotted stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[570, 0], [600, 36], [632, 75], [663, 112], [695, 151], [727, 190], [759, 229], [791, 269], [822, 310], [850, 350], [878, 389], [907, 430], [935, 466], [961, 500]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A brown/orange diagonal carries a heavy dark edge and repeated dark dots or ticks along the opposite edge, separated by only a few pixels. It crosses a blue double-edged line near v=220.",
+      "uncertainty_note": "The repeated edge marks favour a track, though the reddish colour and long diagonal course also permit a boundary reading. Junction j03 includes weaker candidate branches.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a coloured boundary stroke with adjacent stippling rather than a separately cased track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[961, 500], [978, 504], [1000, 512]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short brown stroke extends right from the meeting point, with dark flecks and a nearby black angular outline.",
+      "uncertainty_note": "The short length and overlap with an angular outline make it difficult to distinguish a track continuation from a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "May continue the paired, stippled track margins of f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "May instead be an adjoining parcel or enclosure edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[961, 500], [973, 479], [988, 455], [1000, 435]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin orange/brown stroke rises northeast from the thicker diagonal; no consistently separate casing or rows of dots are visible.",
+      "uncertainty_note": "Its contact with the thicker line is visible, but the symbol could represent a field division rather than a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An uncased coloured boundary is an equally plausible interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[961, 500], [932, 506], [899, 509], [867, 505], [844, 498], [828, 491]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint, uncased orange curve extends west from the meeting point and becomes progressively lighter; no clear dots or parallel margins resolve.",
+      "uncertainty_note": "The western endpoint fades into the paper texture. This may be a short path, a coloured field division, or an incomplete stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a field boundary; the visible curve does not establish a road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[980, 0], [982, 30], [989, 62], [993, 101], [983, 127], [979, 161], [980, 194], [986, 230], [998, 263], [1000, 269]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A thin, irregular orange/brown line hugs the right margin, with occasional darker portions but no distinct paired casing or regular dots.",
+      "uncertainty_note": "Its colour and bends permit a minor-path reading, but its symbol is also compatible with a field or property boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "May be a coloured boundary rather than a road or path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0, 573], [27, 565], [52, 557], [77, 548]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin yellow/brown strip with close dark strokes runs from the left border to the diagonal orange track; pale blue-green colouring lies immediately below it.",
+      "uncertainty_note": "The dark strokes may be narrow path margins or the outline of the adjoining coloured area. Junction j02 is conditional on the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The yellow interior and close dark strokes may represent a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a land-cover or parcel outline adjoining f03 and f04."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [581, 618],
+      "branch_count": 3,
+      "evidence_note": "Three narrow brown/orange arms with dark stippled margins meet: northwest and southeast arms share the diagonal, and a southwest arm curves away."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [77, 548],
+      "branch_count": 3,
+      "evidence_note": "Two thicker orange arms continue diagonally, while a thin yellow/brown line reaches them from the left; the third arm's road interpretation is uncertain."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [961, 500],
+      "branch_count": 4,
+      "evidence_note": "A thicker stippled brown diagonal meets a thin northeast stroke, a faint westward curve, and a short rightward brown stroke; the three weaker arms may include boundaries."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [845, 955, 915, 1000],
+      "why": "Angular black symbols, short brown strokes and an intersecting red line overlap the apparent end of f02; a continuous track course through this patch cannot be established."
+    }
+  ],
+  "overall_note": "Close dark margins and stippling distinguish the clearest tracks, while several thin orange strokes also support boundary readings. Junctions j02 and j03 include uncertain candidate road branches. The black-and-white railway, blue drainage outlines, and clearly dashed or thin red parcel lines are excluded."
+}

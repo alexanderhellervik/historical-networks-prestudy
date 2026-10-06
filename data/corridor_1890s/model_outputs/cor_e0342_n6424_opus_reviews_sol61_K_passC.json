@@ -1,0 +1,115 @@
+{
+  "tile_id": "cor_e0342_n6424",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear double line with orange-brown fill enters at the top edge near u=475 and runs S via (490,130), (545,220), (575,340), (630,385), (680,490), (735,580) to the Grobo farmyard at about (735,665). This is the same symbol the worked example reads as Sämre körväg. The overlay polyline follows it closely.",
+      "uncertainty_note": "The course is certain. The class could be one step higher (bättre körväg), but the line is narrow and looks like the example's sämre körväg. It is hard to say exactly where the road ends among the Grobo buildings."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-orange dotted line leaves the Grobo buildings at about (725,690) and runs SE along the edge of the arable field via (760,750) and (800,785), then E to about (900,795) and (940,805). This is the same colour and dotted style as the example's Gångstig. The overlay follows it.",
+      "uncertainty_note": "At this resolution it may instead be a dotted double line (sämre körväg). I cannot reliably tell whether the dots belong to a road line or are a field-edge ornament. Where it ends in the east near (940,805) is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[712, 698], [680, 708], [655, 735], [630, 780], [605, 820], [585, 845]],
+      "evidence_note": "Between the Grobo buildings and about (585,845), a faint brown dotted line runs SW along the west edge of the arable field. That part plausibly matches the upper half of f03. South of about v=850 the overlay runs through the field and the green meadow to the bottom edge near u=530. There I see only field and meadow outlines and the dark-red boundary lines that meet near (580,840), with no road colour.",
+      "uncertainty_note": "Even the upper part is weak: the dots may only mark the field edge. Below v=850 the line may follow the crimson boundary rather than a road."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint thin line runs NE from the Grobo yard (735,665) towards the Br farm at about (860,605). A link across the stream between the two farms is plausible, but I can see no orange fill or clear dotting on it. East of Br the overlay continues to (1000,550) through red buildings and across the crimson boundary, where I see no matching line.",
+      "uncertainty_note": "The segment from Grobo to Br may be a path or only a meadow edge. The part east of u~880 looks unsupported."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay runs at about v=825-845 past the black dot at (800,830) and the windmill-like star symbol at (860,830). The dotted f02 line runs slightly north (v~790-805). Near f05 itself I see building and field outlines but no distinct road symbol.",
+      "uncertainty_note": "f05 may be a short access path to the windmill or a duplicate of f02 drawn a little too far south. It may also not be a road."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay curves S from about (830,830) through (870,880) and NE to about (950,850). This crosses the green meadow, the red building symbols and the 'B' lettering. The only lines visible there are field and meadow outlines, with no orange fill or dotting.",
+      "uncertainty_note": "Leaning towards not a road, but the area is dense and dark at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The NE part of f07, from (195,535) via (290,520) to (385,595), follows a thin plain black outline at the edge of a vegetation or meadow area that carries no road colour. The southern leg, from (195,550) to (150,770), follows at most a faint pale pencil-like line. Neither looks like a road symbol in the legend or the example.",
+      "uncertainty_note": "The faint southern leg could be an erased or construction line. I see nothing that would make it a road."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f08 is a very short stroke at about (690-715,550). That spot holds the Grobo building plots and the small figure '7', not a road line.",
+      "uncertainty_note": "It could be a stub of a yard track, but nothing at that position shows road symbology."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f09 is a straight diagonal from (280,975) to (600,795) across open ground and the meadow edge. At most a faint pale straight line is visible there, more like a skifteslinje or pencil construction line. There is no double line, no orange fill and no dotting.",
+      "uncertainty_note": "The pale line is barely visible. If it is a ruled boundary it is still not a road."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f10 follows a thin plain dark line from about (418,770) NE to (505,662), which joins the thin line under the 'Grobo' lettering. These are outline or boundary strokes with no road colour, of the kind the example marks as not roads.",
+      "uncertainty_note": "Low risk that this is an uncoloured path. A path to Grobo from the SW is conceivable but not drawn as one."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[895, 280], [905, 340], [920, 410], [935, 480], [940, 540], [945, 575]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A thin orange-brown line runs E of the stream and the crimson boundary, from about (895,280) S to the red building symbols near (945,575). Its colour matches the road and path colour on this sheet.",
+      "uncertainty_note": "At this resolution I cannot see whether it is dotted (gångstig) or a solid orange stroke of another meaning. The worked example left a similar orange curve in its unreadable area.",
+      "alternatives": ["Gångstig (dashed_line) towards the buildings at (945,575)", "not a road: a coloured boundary or ditch line", "part of a network of thin orange lines in the NE corner, roughly (940,430) to (1000,540), which I cannot trace reliably"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [733, 670],
+      "what_is_contested": "Which lines meet at the Grobo yard and how many branches there are: f01 ends here, and f02 (SE), f03 (SW) and f04 (NE) all start here in the overlay.",
+      "evidence_note": "f01 and the dotted f02 line clearly reach the buildings. The SW dotted field-edge line (f03) and the faint NE line towards Br (f04) are uncertain, so the junction may have only 2 branches or as many as 4."
+    },
+    {
+      "uv": [800, 790],
+      "what_is_contested": "Whether a branch leaves f02 here towards the black dot and windmill at about (800-860,830), as f05 and f06 would imply.",
+      "evidence_note": "The dark strokes near the windmill symbol are not clearly road symbols."
+    },
+    {
+      "uv": [585, 845],
+      "what_is_contested": "Whether f03 continues south past the point where the crimson boundary lines meet, or whether the dotted line ends at the field corner.",
+      "evidence_note": "Several dark-red boundary lines meet here. South of this point I see no road symbol."
+    }
+  ],
+  "overall_note": "Only f01, the orange-filled double-line road coming down from the north into Grobo, is a road beyond reasonable doubt, and the dotted line f02 going SE from Grobo is probably a path. The overlay's western and southern lines (f07, f09, f10) follow uncoloured outlines or faint ruled lines, and the features in the dense SE farmyard (f04-f06) cannot be decided at this resolution. One possible orange path in the NE corner is not in the overlay."
+}

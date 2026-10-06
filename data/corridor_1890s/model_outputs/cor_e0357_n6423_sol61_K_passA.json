@@ -1,0 +1,140 @@
+{
+  "tile_id": "cor_e0357_n6423",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,165],[39,170],[77,173],[111,165],[148,155],[188,151],[229,153],[266,161],[300,169],[326,181],[347,198],[367,215]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A pale gray-beige strip has two dark, uneven borders roughly 10–20 px apart; the northern border is heavier and sometimes blue-black.",
+      "uncertainty_note": "The strip supports a road reading, but its blue-gray colour and uneven banks also support a watercourse reading. Coordinates trace the middle of the visible strip.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Road reading: two enclosing lines with a pale interior."},
+        {"proposed_class":"unknown","note":"Non-road reading: a watercourse with dark banks and pale blue-gray fill."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[367,215],[408,216],[449,212],[477,207],[503,199],[531,197],[558,204],[589,214],[616,212],[637,198],[655,179],[668,159],[686,146],[716,154],[753,169],[790,182],[828,196],[866,207],[907,213],[942,222],[973,233],[1000,244]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two irregular dark margins enclose a pale strip approximately 10–20 px wide. A red line crosses or follows parts of its northern margin; blue-black linework occurs toward the eastern end.",
+      "uncertainty_note": "The enclosed strip is continuous, but road versus watercourse remains unresolved. The red line is not used as its centreline.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Road reading of the paired margins."},
+        {"proposed_class":"unknown","note":"Non-road reading: a pale water channel; the adjoining red stroke may be a separate boundary."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[367,215],[362,238],[348,263],[329,287],[306,312],[291,337],[268,358],[237,376],[214,398],[194,425],[173,453],[153,477],[145,491],[141,514],[151,542],[164,572],[171,598],[175,612]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A sinuous pale strip lies between dark, partly dotted margins about 8–18 px apart. Some stretches have faint blue-green colour; near the lower end it meets heavy lake-edge strokes and lettering.",
+      "uncertainty_note": "Its paired borders resemble a narrow track, but the colour and connection with water symbols also permit a stream interpretation. The feature stops before the lettering and shore strokes obscure its continuation.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Track reading of the paired, intermittently dotted borders."},
+        {"proposed_class":"unknown","note":"Non-road reading: a watercourse or narrow drainage corridor connecting with the blue lake symbol."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[172,69],[166,93],[158,120],[149,153]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin brown-black stroke, locally accompanied by another faint edge, descends from below the small rectangular symbols toward the pale transverse strip.",
+      "uncertainty_note": "The northern continuation is lost among rectangular symbols. This could be a short access track, but an enclosure or property edge is also supported.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Short track reading of the dominant narrow stroke."},
+        {"proposed_class":"unknown","note":"Non-road reading: a brown enclosure or property boundary."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,557],[30,557],[59,551],[86,543],[108,534],[125,511],[145,491]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A dark irregular line, with short dotted portions and occasional nearby parallel marks, runs above the blue lake and close to horizontal hatching.",
+      "uncertainty_note": "A path reading is possible, but the line may instead delimit the hatched area or form part of the water margin. The meeting with f03 is also conditional on that road reading.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Path reading of the dominant dark line."},
+        {"proposed_class":"unknown","note":"Non-road reading: marsh or water-margin outline."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[181,600],[202,574],[226,549],[245,526],[256,505],[258,489],[275,480],[297,475],[321,470],[345,463],[366,453]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A narrow winding pale interval is bordered by dark dotted or broken strokes, generally 5–12 px apart. Its northeastern end merges with heavy strokes beside horizontal hatching.",
+      "uncertainty_note": "This may be a small track, a drainage line, or two adjoining outlines. Neither end establishes an unambiguous road connection; no continuation through the lettering or hatching is asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Track reading of the closely paired broken borders."},
+        {"proposed_class":"unknown","note":"Non-road reading: drainage or land-cover outlines beside the hatched area."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[451,492],[437,510],[420,531],[402,554],[380,575],[355,594],[327,604],[298,611],[272,617],[258,620]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Dark short marks follow a curved pale margin below the central hatching. Portions have a second dotted line nearby; the western portion reaches the large black lettering.",
+      "uncertainty_note": "The changing separation of the marks permits either a track or separate land-cover outlines. The feature stops at lettering rather than being joined to f03 or f06.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Path reading of the curved sequence of short dark marks."},
+        {"proposed_class":"unknown","note":"Non-road reading: the edge of a pale elongated area, with a separate nearby outline."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[45,219],[66,235],[101,244],[142,249],[183,249],[224,245],[264,236],[293,222],[317,207],[337,192]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Two broadly parallel rows of dark dots or short strokes enclose a pale curved band, mostly 10–20 px wide. The western end lies against an orange-brown dotted outline; the eastern end approaches the upper pale strip.",
+      "uncertainty_note": "The paired dots resemble a track symbol, but they also appear to outline an elongated pale area. Neither endpoint shows a sufficiently clear road connection to assign a junction.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Track reading of the two dotted margins."},
+        {"proposed_class":"unknown","note":"Non-road reading: paired land-cover or enclosure outlines."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [367,215],
+      "branch_count": 3,
+      "evidence_note": "Three pale bordered arms converge here: west, east and southwest. The three-branch road interpretation is conditional because the same drawing could represent a watercourse confluence."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [149,153],
+      "branch_count": 3,
+      "evidence_note": "A thin brown-black northern stroke reaches the pale strip, which continues west and east. This is a candidate three-branch junction; the northern stroke could instead be an adjoining boundary."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [145,491],
+      "branch_count": 3,
+      "evidence_note": "A dark westward line meets the winding bordered strip, whose other arms continue northeast and south. The meeting is visible, but a road junction competes with water-margin or marsh-outline readings."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [164,608,447,687],
+      "why": "Large black lettering overlaps thin linework near the candidate southern endpoints; continuous courses cannot be established beneath several letters."
+    },
+    {
+      "bbox_uv": [151,0,216,71],
+      "why": "Heavy rectangular symbols and overlapping strokes obscure whether the short northern candidate continues to the tile edge."
+    }
+  ],
+  "overall_note": "This is an uncertain candidate-road reading: none of the reported lines has an unequivocal road symbol throughout. Pale bordered channels and dotted elongated outlines allow competing watercourse or land-cover interpretations, and the listed junctions are conditional on the road readings. Long regular dashed lines and the thin red boundary-like strokes were excluded."
+}

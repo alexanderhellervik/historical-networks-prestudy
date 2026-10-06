@@ -1,0 +1,254 @@
+{
+  "tile_id": "cor_e0369_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 87], [23, 103], [36, 115], [46, 130], [66, 150], [96, 158], [140, 156], [177, 149], [207, 157], [244, 163], [285, 167], [328, 168], [372, 169], [415, 172], [453, 173], [475, 169], [487, 160], [501, 173], [539, 179], [575, 181], [603, 188], [626, 193], [665, 190], [710, 187], [756, 185], [798, 181], [841, 175], [882, 164], [920, 153], [958, 142], [1000, 140]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02", "j04"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-ochre band has closely spaced dark dots along both sides, roughly 7–12 px apart; the edging sometimes merges into dark strokes near small building symbols.",
+      "uncertainty_note": "The course remains visible through the upper lettering and building cluster. The repeated marks support a dotted track symbol, although some stretches resemble narrow solid casing.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches have apparently continuous parallel edges because the dark dots merge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[59, 0], [49, 18], [42, 37], [36, 57], [33, 79], [36, 105], [46, 130]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One narrow chain of separated dark marks descends from the top edge and curves into the reddish dotted band; no clear pair of solid casing lines is visible.",
+      "uncertainty_note": "The individual marks are irregular, but the continuous course and contact with f01 support a path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short dark marks are too coarse to distinguish dots from small dashes consistently."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[140, 156], [143, 183], [144, 213], [145, 244], [148, 274], [154, 309], [158, 344], [158, 382], [160, 420], [162, 452]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish narrow strip with repeated dark edging runs almost vertically; two dotted margins are clearest below the adjacent black lettering.",
+      "uncertainty_note": "A fine solid stroke beside its lower portion makes the precise centre slightly uncertain, but the dotted strip reaches both junctions.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 602], [24, 582], [48, 560], [72, 538], [96, 516], [120, 492], [143, 472], [162, 452], [190, 433], [218, 413], [243, 395], [271, 380], [301, 367], [333, 356], [365, 346], [397, 337], [422, 326], [441, 307], [456, 287], [474, 266], [494, 249], [525, 233], [557, 221], [590, 209], [626, 193]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two rows of dark dots enclose an ochre-red strip, usually about 8–12 px wide; the paired marks follow the curve into the upper dotted band.",
+      "uncertainty_note": "The thin red diagonal crossing near j03 has a different, continuous symbol and is not counted as a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dotted margins merge into nearly continuous dark lines on some diagonal stretches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[792, 585], [820, 577], [852, 567], [887, 555], [921, 543], [947, 529], [974, 511], [1000, 492]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05", "j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-red band with dark dotted margins runs diagonally to the right edge; its edging is heavier than the fine polygon lines alongside it.",
+      "uncertainty_note": "The westward continuation beyond [792, 585] changes to a fine dark stroke and is recorded separately as f07.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[792, 585], [796, 608], [801, 634], [807, 660], [815, 682], [835, 685], [858, 683], [883, 678], [907, 670], [917, 653], [922, 626], [922, 598], [921, 570], [921, 543]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Paired dark dotted edges around an ochre-red strip descend from f05, curve around the black letter and numeral, and return to f05 on the right.",
+      "uncertainty_note": "The loop is visibly continuous; adjacent lettering does not conceal either connection.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark margins appear continuous along parts of the nearly vertical legs."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[792, 585], [764, 592], [737, 599], [709, 605], [681, 609]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine single dark stroke continues west from the dotted-road bend, with much weaker reddish colouring and no clearly separated dotted margins; it meets a dark polygon corner at its western end.",
+      "uncertainty_note": "This may be a short continuation of the track or merely the edge of the adjacent polygon. The road reading stops at the corner because further continuation is unsupported.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short uncased track continuing west from [792, 585]."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property outline rather than a road; this would remove the third road branch at j06."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0, 752], [30, 749], [61, 747], [85, 749], [102, 758], [115, 776], [122, 800], [132, 824], [154, 834], [174, 850], [194, 864], [215, 875], [239, 876], [254, 888], [276, 902]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A winding ochre band with repeated dark dots enters from the left edge and approaches the southwest side of the broad pink diagonal; two dotted edges are clearest before the overlap.",
+      "uncertainty_note": "Its separate course becomes inseparable from the broad diagonal near [276, 902]. No connection across that overlap is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions have apparently solid narrow casing where the dots merge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[323, 932], [344, 944], [365, 950], [376, 964], [383, 981], [394, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Short ochre and dark dotted fragments appear beside the broad pink diagonal, bend around an angular outlined shape, and reach the bottom edge.",
+      "uncertainty_note": "These fragments may continue f08, but their upper connection is hidden by the heavier diagonal symbol. Some marks may instead belong to that symbol or adjoining polygon edges.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A continuation of the dotted track f08, separated here because the intervening course is obscured."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Fragments of the broad diagonal and polygon outlines rather than a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[539, 1000], [562, 987], [585, 976], [609, 969], [639, 963], [669, 958], [699, 956], [727, 958], [753, 962], [780, 970], [806, 979], [830, 990], [853, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A curved ochre-red band with repeated dark dots along its margins clips the bottom of the tile; the paired edges remain visible above the edge.",
+      "uncertainty_note": "Both ends leave the tile. No continuation outside the face is inferred.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0, 615], [28, 647], [57, 679], [88, 710], [119, 742], [151, 774], [183, 806], [215, 836], [247, 866], [280, 897], [312, 927], [344, 957], [374, 984], [393, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink-red strip has two heavy dark outer strokes roughly 10–18 px apart and repeated dark block-like marks; narrower ochre dotted marks lie beside its lower portion.",
+      "uncertainty_note": "The block rhythm strongly supports a railway interpretation. It is retained only as a doubtful road candidate because the broad casing also permits a road reading; contacts with other lines are not treated as road junctions.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Railway rather than road, based on the repeated dark blocks between the heavy parallel strokes."
+        },
+        {
+          "proposed_class": "double_line_wide",
+          "note": "A wide cased road if the internal dark marks belong to overlapping symbols rather than railway blocks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0, 674], [18, 669], [34, 663], [47, 664], [60, 670]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A fine dark, locally ochre stroke curves in from the left edge toward the broad diagonal and dense black lettering; consistent paired casing is not distinguishable.",
+      "uncertainty_note": "This could be a short approach path or a polygon outline. Its continuation and any contact with the broad diagonal cannot be separated from the heavier marks.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short uncased path entering from the left edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A polygon edge rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[944, 1000], [968, 992], [1000, 982]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow dark line with reddish-purple colouring curves across the bottom-right corner; no clear twin dotted edging is visible.",
+      "uncertainty_note": "Its colour resembles the thin red boundary strokes elsewhere on the tile, but the clipped fragment does not expose enough symbol detail to exclude a track.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A narrow uncased track clipping the corner."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary stroke rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [46, 130],
+      "branch_count": 3,
+      "evidence_note": "The single chain of dark marks from above reaches the bend of the reddish, paired-dotted band, which continues toward both tile-left and tile-right."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [140, 156],
+      "branch_count": 3,
+      "evidence_note": "A narrow reddish strip with dotted edges turns downward from the upper band; the upper band remains visible on both sides of the contact."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [162, 452],
+      "branch_count": 3,
+      "evidence_note": "The vertical dotted strip meets the curving paired-dotted strip, giving north, southwest and northeast branches; a thinner continuous red diagonal also crosses here."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [626, 193],
+      "branch_count": 3,
+      "evidence_note": "The curved dotted band arriving from the southwest merges into the upper reddish dotted band, whose dark edging continues west and east."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [921, 543],
+      "branch_count": 3,
+      "evidence_note": "The diagonal paired-dotted band continues west and northeast while a similarly coloured, dotted leg descends from the contact."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [792, 585],
+      "branch_count": 3,
+      "evidence_note": "Two reddish dotted legs meet at the bend and a finer single dark stroke continues west; the third branch is tentative because that stroke may be a polygon outline."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [272, 890, 345, 951],
+      "why": "The narrow ochre dotted track overlaps the broad pink strip, heavy dark blocks and polygon strokes, preventing a reliable separate course."
+    },
+    {
+      "bbox_uv": [54, 635, 181, 704],
+      "why": "Large black lettering, small outlined symbols and the broad diagonal obscure possible continuation of the fine line entering from the left."
+    }
+  ],
+  "overall_note": "The repeated dark dots around ochre-red bands provide the clearest road evidence and match the worked example. Fine continuations, corner fragments and the broad railway-like diagonal are retained with explicit alternatives. Thin continuous red diagonals and clearly closed field outlines are otherwise excluded."
+}

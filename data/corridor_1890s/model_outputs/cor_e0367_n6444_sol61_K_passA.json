@@ -1,0 +1,188 @@
+{
+  "tile_id": "cor_e0367_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[389, 0], [365, 34], [342, 74], [316, 115], [291, 157], [268, 196], [245, 232], [221, 270], [198, 306], [171, 345], [145, 382], [121, 421], [102, 461], [82, 504], [59, 546], [40, 586], [16, 619], [0, 641]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow dark continuous stroke has a finer, intermittently dotted parallel edge about 3–6 px away; the heavier angular parcel outlines lie farther to either side.",
+      "uncertainty_note": "The parallel edge is inconsistent, so the symbol could be a narrow road with one interrupted side, or a single nonroad dividing line with adjacent stippling.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the continuous stroke and nearby interrupted edge as the two sides of a narrow road."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Read only the continuous stroke as the route, treating nearby flecks as separate marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The continuous stroke could instead be an internal property or field division."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 339], [24, 336], [48, 337], [72, 341], [91, 342]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One row of small, regularly spaced dark dots runs from the left edge into a thick angular outline; no second row or solid casing is visible.",
+      "uncertainty_note": "The dotted course disappears into the outline near its eastern endpoint. Isolated marks farther right do not establish a continuation or a connection to f01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The fine dotted row could be a nonroad division rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 979], [32, 970], [65, 961], [101, 958], [142, 949], [181, 945], [222, 937], [265, 926], [305, 918], [347, 911], [391, 910], [433, 895], [471, 882], [512, 867], [551, 852], [590, 837], [625, 818], [661, 799], [695, 775], [730, 746], [755, 735], [783, 716], [808, 700], [826, 696], [846, 680], [863, 673], [888, 677], [917, 688], [942, 697], [962, 704], [982, 691], [1000, 678]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02", "j03", "j04"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two parallel rows of dark dots, generally about 10–16 px apart, enclose a pale tan to reddish strip; black and red rectangles and green patches sit alongside several sections.",
+      "uncertainty_note": "Dot rows merge locally with parcel outlines and building ink. The course through the crowded bend around (850, 680) is approximate, although paired marks support continuation on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dotted rows can also be described as interrupted sides of a narrow double-line road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[391, 910], [388, 932], [386, 951], [389, 972], [397, 988], [407, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow pair of dark dotted rows branches south beside a green patch containing black ink, then curves toward the bottom edge.",
+      "uncertainty_note": "The first few pixels overlap the green patch outline; the two rows become clearer immediately below it.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Treat the dotted pair as the interrupted edges of a narrow road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[730, 746], [743, 767], [754, 786], [767, 800], [774, 827], [777, 853], [779, 881], [786, 916], [805, 947], [831, 977], [848, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two dark dotted rows flank a tan strip that turns south between green and tan outlined patches, then crosses a heavy solid outline near v=920.",
+      "uncertainty_note": "The rows are crowded by dark outlines near (775, 850), but they remain visible above and below. The crossing solid outline is not counted as a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the paired interrupted strokes as narrow road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[767, 800], [792, 781], [818, 760], [841, 741], [853, 723], [841, 707], [826, 696]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two rows of dark dots run diagonally across a tan strip, bend sharply beside a green polygon, and join the upper dotted route.",
+      "uncertainty_note": "This is read as a separate connecting branch forming a small loop. At its upper bend, one dotted edge merges with the adjacent green polygon outline.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some marks could belong to the edge of the broad adjoining route or parcel outlines, weakening the interpretation as a separate branch."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Describe the paired dots as interrupted sides of a narrow road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[962, 704], [980, 717], [1000, 734]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pair of dark dotted rows diverges southeast from the other pair at the pointed corner of a green polygon and leaves the right edge.",
+      "uncertainty_note": "The junction center is approximate because dotted strokes overlap a heavy diagonal polygon edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two interrupted rows can be read as narrow road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[1000, 43], [975, 65], [946, 91], [918, 119], [891, 150], [862, 185], [838, 213], [829, 250], [824, 291], [820, 330], [822, 369], [829, 414], [817, 451], [809, 486], [805, 522], [805, 552], [816, 582], [832, 614], [852, 635], [867, 651]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One row of relatively large, uneven dark dots runs diagonally from the upper-right edge; between approximately v=215 and v=410 it coincides with a single solid polygon edge, then resumes as dots toward dense black building ink.",
+      "uncertainty_note": "A continuous path is one reading, but the large dots could be tree marks or a nonroad boundary treatment. The solid middle section may connect two separate dotted fragments only as a parcel edge; the southern endpoint is hidden by black symbols, so no junction with f03 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the single dotted row as a path continuing along the solid middle edge."
+        },
+        {
+          "proposed_class": "avenue_lined",
+          "note": "Some large oval marks resemble trees beside a faint line, although a second flanking row and a distinct road center are not clear."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read this as a nonroad tree or boundary line, or as two dotted fragments separated by a solid parcel outline."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [391, 910],
+      "branch_count": 3,
+      "evidence_note": "The main pair of dotted rows continues east and west while a narrower dotted pair turns south beside the green patch; their marks merge at its upper-right corner."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [730, 746],
+      "branch_count": 3,
+      "evidence_note": "Paired dark dots continue southwest and northeast, with another paired strip turning south beside the small green polygon; heavy outline ink overlaps the meeting point."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [826, 696],
+      "branch_count": 3,
+      "evidence_note": "The upper paired dotted strip continues southwest and east, while paired dots turn southeast toward the loop; the three tan strips meet below dense black marks."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [962, 704],
+      "branch_count": 3,
+      "evidence_note": "Paired dotted rows approach from the west and diverge northeast and southeast around a heavy diagonal edge at the green polygon corner."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [767, 800],
+      "branch_count": 3,
+      "evidence_note": "The roughly north–south dotted pair is joined by a northeast-running dotted pair; individual dots overlap near the lower corner of a small green patch."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [82, 325, 145, 365],
+      "why": "Thick polygon ink and isolated small marks prevent a reliable continuation of the left-edge dotted fragment."
+    },
+    {
+      "bbox_uv": [837, 648, 884, 684],
+      "why": "Dense black building symbols merge with large dots and adjacent outlines, hiding the southern termination of f08 and any possible connection."
+    }
+  ],
+  "overall_note": "Paired dotted tracks are clearest in the lower part of the tile, including the small loop and southbound branches. The western narrow line and eastern large-dot line admit nonroad readings, retained as alternatives. Coordinates at crowded bends and junctions are approximate."
+}

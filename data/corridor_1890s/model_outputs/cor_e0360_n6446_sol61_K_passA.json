@@ -1,0 +1,212 @@
+{
+  "tile_id": "cor_e0360_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 104], [35, 84], [70, 62], [105, 41], [142, 19], [174, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad red strip, approximately 18–22 px across, runs diagonally between dark, locally broken margins.",
+      "uncertainty_note": "The red fill is clearer than the individual casing strokes.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[544, 0], [524, 30], [500, 65], [475, 99], [456, 119], [427, 134], [398, 150], [365, 176], [335, 203], [308, 231], [285, 261], [267, 295], [253, 327], [238, 358], [228, 385], [231, 410], [244, 441], [252, 474], [248, 506], [238, 541], [223, 574], [208, 608], [197, 634]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced rows of dark dots and short strokes flank an orange strip, generally about 8–12 px wide; both rows follow the bends.",
+      "uncertainty_note": "The paired margins are intermittent rather than consistently solid. Its meeting with f05 is at or beyond the upper edge and cannot be located confidently inside the face.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The symbol could be classified by its two dotted or broken rows rather than by their separation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[197, 634], [185, 661], [175, 689], [166, 721], [161, 754], [156, 781], [149, 801], [126, 816], [102, 831], [84, 855], [65, 879], [45, 902], [28, 923], [13, 947], [0, 966]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The orange strip continues between two dark dotted margins, passing beside small black and ochre building symbols and the large T lettering.",
+      "uncertainty_note": "Buildings and lettering locally crowd the margins, but the road course remains visible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dotted margins also support classification as a broken-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[197, 634], [217, 647], [237, 656], [253, 657], [279, 648], [302, 643], [329, 643], [355, 647], [378, 652], [395, 654]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A narrow orange strip with two close rows of dark dots branches east, bends through a shallow dip, and crosses the blue line near u=290.",
+      "uncertainty_note": "The dotted road symbol terminates against overlapping dark and green strokes near its eastern endpoint; continuation beyond that point is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Its most distinct marks are the paired dotted rows."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The eastern termination could be obscured rather than a drawn dead end."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[549, 0], [577, 22], [606, 44], [637, 65], [665, 85], [691, 103], [714, 121], [735, 136]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An orange diagonal band has close dark dotted or broken margins; heavy lettering overlaps its southeastern section.",
+      "uncertainty_note": "The course is carried through the short lettering overlap because aligned orange and dotted segments are visible on both sides. The northern meeting with f02 may lie outside the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent margins could instead be described as a paired broken-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[735, 136], [759, 142], [787, 144], [815, 142], [832, 145], [851, 160], [874, 178], [892, 182], [917, 182], [943, 183]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow orange trace carries a row of fairly heavy black dots, especially clear along the nearly horizontal final section; green and black parcel strokes cross it.",
+      "uncertainty_note": "The western part overlaps green outlines, and it is unclear whether there is one dotted row or two. The eastern end disappears into a dark green curved symbol; no continuation is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions may retain two close dotted margins like f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Part of the western course could combine the path symbol with a parcel edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[735, 136], [758, 132], [781, 126], [799, 118], [815, 110]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A weaker, narrow ochre and dark stroke appears to turn northeast from the dotted strip and approach the lower strokes of the large lettering.",
+      "uncertainty_note": "This is a doubtful additional branch: the stroke could be a parcel edge, and lettering prevents establishing its continuation. Junction j02 is conditional on this road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the weak ochre stroke is a path, it appears uncased."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a field or property edge rather than a road; in that reading j02 has only two road branches and is not a junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[648, 267], [648, 287], [639, 309], [622, 336], [600, 362], [580, 386], [560, 410], [545, 432], [543, 457], [540, 482], [535, 504], [529, 521]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A thin orange stroke runs southwest beside pale blue-green lines, then turns south; occasional small dark marks accompany it, without clear paired casing.",
+      "uncertainty_note": "At the northern endpoint a dark parcel stroke and a star-shaped tree symbol obscure the trace. The upper section could instead be an edge beside the blue-green line.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The small dark marks could form a dotted path symbol whose orange tint bridges the gaps."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel edge or a line associated with the adjacent ditch remains possible, particularly north of v=430."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[501, 543], [516, 532], [529, 521]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A short, uncased orange stroke extends southwest from the thin-line meeting to a strong diagonal black parcel outline.",
+      "uncertainty_note": "It stops at the black outline; no continuation across the ochre polygon is visible. It could be a short coloured edge rather than a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short stroke may belong to the parcel outline rather than represent a separate road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[529, 521], [553, 509], [576, 505], [599, 505], [621, 506], [642, 503], [659, 497], [678, 480], [696, 457], [713, 440], [731, 433]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A fine orange line, with scattered darker marks and no clear casing, runs east and then northeast to a small dark outlined symbol beside a blue-green line.",
+      "uncertainty_note": "The terminal outline overlaps the trace, but there is no definite road symbol continuing beyond it.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The scattered dark marks may be the surviving dots of a path symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[330, 807], [355, 808], [382, 802], [412, 796], [442, 798], [472, 801], [500, 800], [522, 804], [546, 814], [575, 813], [604, 811], [633, 810], [659, 808], [687, 811], [716, 811], [744, 815], [774, 814], [802, 813], [826, 812], [851, 815], [878, 819], [905, 826], [928, 819], [950, 808], [975, 806], [1000, 808]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A very thin, intermittently ochre horizontal trace crosses the lower forest symbols and several stronger green or blue outlines; no reliable pair of casing lines is visible.",
+      "uncertainty_note": "This is a low-confidence path candidate. Some sections coincide with green outlines, so the complete sequence could combine a path with parcel or water lines; the western continuation cannot be distinguished.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre sections could represent one continuous uncased path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace may consist of parcel edges or water lines rather than a road, or only its central ochre sections may be a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [197, 634],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted orange strip continues north and south while a similarly dotted orange branch leaves east; all three branches visibly meet."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [735, 136],
+      "branch_count": 3,
+      "evidence_note": "The orange dotted course arrives from the northwest and continues east; a weaker ochre stroke appears to leave northeast. The third branch is doubtful, as recorded for f07."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [529, 521],
+      "branch_count": 3,
+      "evidence_note": "Thin orange strokes meet from the north, southwest and east, without a broad casing; the southwest arm is short and could instead be an edge."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [690, 55, 1000, 121],
+      "why": "Heavy black place-name lettering masks narrow underlying strokes, preventing a reliable reading of possible road continuations beneath individual letters."
+    }
+  ],
+  "overall_note": "Paired dotted orange tracks are the clearest minor-road symbols, while thin ochre traces are harder to separate from parcel and water lines. The upper-right branch and the southern transverse candidate remain doubtful, and junction counts involving doubtful branches are conditional. No continuation is supplied beyond an obscured endpoint."
+}

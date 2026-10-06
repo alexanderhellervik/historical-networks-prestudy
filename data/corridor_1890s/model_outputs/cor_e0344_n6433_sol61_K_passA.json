@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0344_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 465], [32, 446], [68, 425]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close rows of dark, partly dotted marks flank a narrow ochre band.",
+      "uncertainty_note": "The outer marks merge locally with nearby coloured lines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches appear to have continuous narrow edges rather than separate dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[68, 425], [104, 406], [146, 383], [174, 374], [207, 369], [232, 348], [256, 316], [274, 289], [281, 270], [306, 254], [338, 240], [366, 231], [389, 234], [420, 245], [456, 250], [494, 253], [533, 258], [554, 251], [585, 230], [616, 209], [643, 189]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow ochre strip has two dark edges, with closely spaced dots or short strokes visible along substantial portions; red building marks sit beside the western bend.",
+      "uncertainty_note": "Small portions overlap lettering, field outlines and blue strokes. The band resumes on both sides, supporting its continuation; fine access branches beside the western buildings are not separable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Several portions have apparently continuous paired edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[643, 189], [677, 163], [711, 137], [741, 113], [776, 88], [813, 66], [850, 48], [886, 31], [921, 15], [947, 0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close dark rows, conspicuously dotted in the northeastern portion, border an ochre strip with reddish colour inside; rectangular building symbols occur alongside.",
+      "uncertainty_note": "The precise separation of dots and short solid strokes varies with the scan.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The same band can read as a narrow paired line with interrupted edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[643, 189], [648, 218], [651, 244], [659, 271], [679, 295], [708, 319], [741, 338], [777, 351], [812, 366], [845, 377], [883, 381], [923, 387], [965, 394], [1000, 400]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Close dark edges enclose a reddish ochre band. It passes beside red rectangular symbols, beneath large black lettering, and reappears as a narrow edged strip toward the right border.",
+      "uncertainty_note": "The lettering conceals portions of the edges, but their matching course on both sides supports continuation. Fine branches within the overlapping symbols cannot be resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some exposed edge segments consist of dots or short broken strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 434], [27, 431], [48, 429], [68, 425]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A finer, nearly horizontal thread of dark spaced marks approaches the ochre diagonal band from the left, with faint yellow colour beneath it.",
+      "uncertainty_note": "Its apparent meeting with the diagonal band is blurred. It could instead be a boundary stroke crossing or ending beside the road; j01 depends on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible boundary rather than a separate road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[58, 200], [83, 185], [118, 168], [155, 153], [191, 145], [228, 151], [267, 166], [306, 174], [346, 169], [389, 162], [420, 146], [454, 120], [481, 94], [510, 71], [540, 49], [574, 27], [607, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A thin purple-red centre follows a broader yellow-ochre band; intermittent dark edging is visible, but consistent paired dotted rows are not clear.",
+      "uncertainty_note": "This could be a road-like coloured band or a highlighted boundary. The western endpoint marks where the band meets thinner intersecting lines, rather than a definite physical road termination.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The yellow band and occasional dark edges could represent a narrow cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible highlighted property boundary; under this reading the entire feature is excluded from the roads."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [68, 425],
+      "branch_count": 3,
+      "evidence_note": "The two edged ochre diagonal arms meet a finer dark dotted thread from the left; a thin purple line also crosses here. Three road branches are conditional on f05 being a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [643, 189],
+      "branch_count": 3,
+      "evidence_note": "The paired dark-edged ochre band continues southwest and northeast, while a similarly coloured narrow band turns downward beside rectangular red symbols."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [193, 354, 302, 425],
+      "why": "Large black lettering, building marks and field edges overlap; small independent access strokes cannot be separated reliably."
+    },
+    {
+      "bbox_uv": [705, 282, 881, 372],
+      "why": "Heavy black lettering masks fine linework. The larger road band is traceable across it, but small branches are unresolved."
+    }
+  ],
+  "overall_note": "The main difficulty is distinguishing interrupted road edges from coloured boundaries and field outlines. The upper curved band and short western branch retain explicit boundary alternatives. The broad pink line near the bottom, angular purple divisions and blue water lines are read as non-road symbols."
+}

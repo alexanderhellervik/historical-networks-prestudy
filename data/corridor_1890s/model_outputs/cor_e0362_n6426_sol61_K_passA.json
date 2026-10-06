@@ -1,0 +1,208 @@
+{
+  "tile_id": "cor_e0362_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[150,0],[164,17],[181,37],[177,54],[166,75],[153,100],[141,126],[132,153],[132,181],[136,211],[139,242],[145,272],[146,302],[141,326],[149,346],[166,360],[169,390],[166,421],[155,450],[155,466]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Closely spaced dark marks flank a narrow ochre strip; two edges are clearest above v=320, with intermittently merged strokes farther south.",
+      "uncertainty_note": "The southern portion loses its clearly paired appearance. The eastward branches at j01 and j02 are doubtful.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Below approximately (149,346), some strokes could belong to adjoining parcel outlines rather than a continuous track."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,45],[26,35],[57,28],[85,23],[109,21]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A thin irregular succession of dark marks follows a faint ochre line toward the outlined, tinted parcel near the top edge.",
+      "uncertainty_note": "Only one edge is distinguishable; its relationship to the parcel outline is unresolved. No connection to f01 is asserted.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Could be a short dotted path entering from the left edge."},
+        {"proposed_class": "unknown", "note": "Could instead be a parcel or vegetation boundary; in that reading it is not a road."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[155,466],[141,478],[129,494],[125,512],[128,533],[141,550],[139,573]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Fine dark dotted strokes bend around a pale patch; short sections show a second edge separated by several pixels.",
+      "uncertainty_note": "The bend near (141,550) is faint beside other outlines, but it appears to meet the narrow lane at j03.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Parts of the pale patch's perimeter could account for this course rather than a separate track."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[84,607],[85,592],[96,582],[116,577],[139,573]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Short dark strokes and a narrow pale interval are visible beside small solid marks and beneath the beginning of the large lettering.",
+      "uncertainty_note": "The western end is obscured by lettering and dark symbols; no continuation south through the tinted parcel is asserted.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The visible strokes may be two edges of the lane continuing from f05."},
+        {"proposed_class": "unknown", "note": "The short southwest turn could instead be a parcel edge or symbol overlap."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[139,573],[169,574],[198,569],[229,562],[259,553],[287,545],[304,527],[316,507],[328,481]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two close dark edges, approximately 5–9 pixels apart, enclose a pale ochre strip along the upper side of the tinted parcel; one edge becomes stippled toward the northeast.",
+      "uncertainty_note": "Near (328,481), the strokes merge with a parcel corner and marsh outline. Their further course is not separable.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The northeast section may use paired dotted edges rather than continuous casing."},
+        {"proposed_class": "unknown", "note": "Some of the northeastern course could be the edge of the adjacent tinted parcel."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[155,466],[184,471],[215,473],[239,471],[257,469]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A mostly continuous dark stroke, with a faint adjacent stroke in places, runs beside a narrow pale strip and meets the straight red line.",
+      "uncertainty_note": "A parcel-edge reading is at least as plausible as a short track. The red-line overlap prevents a secure continuation.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "Could be a thin path branching east from f01/f03."},
+        {"proposed_class": "unknown", "note": "Could be the southern outline of the narrow tinted parcel; in that reading it is not a road and j02 has only two road branches."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[166,360],[195,372],[221,382],[249,393],[278,406],[308,417],[340,425],[373,432],[406,433],[440,431],[474,427],[501,420]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Fine dark stippling follows a pale narrow band south of another, bluer line; the two courses separate most visibly between u=280 and u=440.",
+      "uncertainty_note": "This may be a dotted path beside the blue line, but a second watercourse edge or land-cover outline remains plausible. The eastern end merges with marsh hatching.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Could be a dotted path following the separately visible southern course."},
+        {"proposed_class": "unknown", "note": "Could be a watercourse or land-cover edge; in that reading it is not a road and j01 is not a road junction."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[991,0],[986,26],[977,52],[959,77],[938,98],[917,113],[904,128]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two irregular dotted dark edges enclose an ochre strip, bending southwest; no long dash-and-dot sequence is apparent on this arm.",
+      "uncertainty_note": "The paired edges are locally blurred, and the additional northwest arm at j04 may be a boundary.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Some merged sections could be interpreted as thin continuous edges."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[817,0],[826,24],[838,49],[855,75],[876,102],[904,128]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A diagonal succession of dark elongated marks overlies a reddish-ochre line; a consistently separated second edge is not visible.",
+      "uncertainty_note": "The elongated marks resemble a boundary pattern more than the close dots of f08. Its apparent contact with the track is therefore a conditional road junction.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Could be a track with unusually coarse or blurred dotted edges."},
+        {"proposed_class": "unknown", "note": "Could be a dash-and-dot boundary; in that reading it is not a road and j04 has only two road branches."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[904,128],[915,151],[926,174],[940,198],[948,225]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Close dark stippled edges enclose a narrow ochre band; the band broadens and its edges overlap other strokes near the red-line crossing.",
+      "uncertainty_note": "At j05, a blue winding line and the straight red line overlap the track, making the exact meeting point approximate.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The short section immediately above j05 has partly continuous-looking edges."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[948,225],[974,230],[1000,237]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two roughly parallel dark strokes enclose a pale ochre band extending to the right edge, with reddish linework crossing or overlapping its lower side.",
+      "uncertainty_note": "The several overlapping strokes make the centerline and casing width approximate.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Some apparent casing may belong to the overlapping red boundary and blue line."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[948,225],[960,247],[973,273],[970,303],[965,340],[966,376],[974,416],[981,455],[985,496],[984,536],[980,560],[966,585],[972,618],[979,648],[977,685],[965,722],[958,762],[957,803],[961,842],[967,875],[980,907],[1000,939]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A winding dark stippled edge follows an ochre strip near the right margin; a second edge appears intermittently, while tinted parcels and hatching adjoin it.",
+      "uncertainty_note": "The upper part could be a track, but much of the southern course also resembles the outline of adjacent tinted parcels. Continuity as one road is uncertain, especially around v=560–690 and below v=840.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Could be one narrow track with intermittently visible paired dotted edges."},
+        {"proposed_class": "unknown", "note": "Could be a parcel or vegetation perimeter, wholly or south of approximately (980,560); in that reading the corresponding portion is not a road."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[500,879],[525,865],[556,850],[587,833],[621,819],[655,808],[686,800],[705,800]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Two fine, blue-green stippled strokes form a narrow diagonal band between the hatched patch and a small rounded terminal mark.",
+      "uncertainty_note": "The colour and rounded ending support a watercourse reading; the paired stippling also permits a track reading. No continuation through the hatching is asserted.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Could be a lightly drawn paired dotted track."},
+        {"proposed_class": "unknown", "note": "Could be a ditch or other water line; in that reading it is not a road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [166,360],
+      "branch_count": 3,
+      "evidence_note": "The north–south ochre strip meets the finer eastward stippled course. Three road branches are conditional on f07 being a path; nearby blue strokes complicate the contact."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [155,466],
+      "branch_count": 3,
+      "evidence_note": "The dotted northward course bends southwest while a darker, nearly horizontal stroke extends east. Three road branches are conditional on f06 being a track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [139,573],
+      "branch_count": 3,
+      "evidence_note": "A dotted bend from the north meets the narrow paired-edge lane extending west and east; the western arm is partly overlapped by lettering."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [904,128],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted band from the northeast continues southeast, touching a coarser reddish diagonal from the northwest. Three road branches are conditional on f09 being a track."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [948,225],
+      "branch_count": 3,
+      "evidence_note": "The ochre band from the northwest meets paired strokes extending east and a finer winding course extending south amid blue and straight red strokes. Three road branches are conditional on f12 being a track."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [65,575,245,640],
+      "why": "Large dark lettering and small solid symbols obscure short stretches of the narrow lane and any possible continuation from its western end."
+    }
+  ],
+  "overall_note": "The paired dotted tracks are more legible than the fine courses adjoining parcels, water lines and hatching. Doubtful candidates are retained with non-road alternatives, and several junction counts depend on those candidates being roads. Heavy blue winding lines, straight red lines and long black dashed divisions are otherwise excluded."
+}

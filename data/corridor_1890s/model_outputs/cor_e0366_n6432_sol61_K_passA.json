@@ -1,0 +1,205 @@
+{
+  "tile_id": "cor_e0366_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 265], [31, 252], [66, 238]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown-orange strip has dark, finely stippled margins, several pixels apart.",
+      "uncertainty_note": "The stippling partly merges into continuous dark edges at this resolution.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired stippled margins are visible, but their precise symbol form is unresolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[66, 238], [91, 211], [118, 181], [147, 148], [176, 119], [204, 91], [233, 64], [259, 62], [288, 75], [318, 84]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close, dark stippled margins enclose a brown-orange diagonal strip; the strip bends east beneath lettering and building strokes.",
+      "uncertainty_note": "Lettering masks portions around [190, 105] and [230, 65]. Visible brown margins on both sides support the reported continuation, but short connections within the building cluster cannot be resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Under the lettering, the individual margins cannot consistently be separated."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[66, 238], [108, 237], [151, 237], [194, 235], [236, 234], [262, 232], [276, 214], [287, 184], [299, 149], [307, 115], [318, 84]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown-orange strip with two narrow, dark stippled edges runs horizontally above a red building rectangle, then curves upward beside additional building outlines.",
+      "uncertainty_note": "The upper curve touches heavy lettering and building strokes, locally concealing one margin.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The uppermost portion could be read as a single stippled stroke where its margins merge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[318, 84], [351, 75], [386, 66], [410, 77], [438, 89], [470, 93], [501, 98], [533, 114], [567, 132]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Close dark stippled edges surround a brown strip of fairly even width; a broad pink diagonal stroke crosses it near [410, 77].",
+      "uncertainty_note": "The pink crossing and nearby black characters briefly obscure the road margins. Their continuation is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[567, 132], [605, 117], [644, 105], [688, 91], [736, 77], [784, 63], [824, 45], [857, 26], [893, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow brown strip is edged by closely spaced dark stippling, with no repeated tree symbols alongside.",
+      "uncertainty_note": "Individual dots blur together in places; the course remains visible throughout.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as one heavy stippled stroke rather than two distinct margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[567, 132], [574, 173], [579, 214], [574, 254], [565, 296], [557, 338], [551, 377], [533, 407], [508, 441], [482, 475], [461, 505], [451, 533], [448, 569], [447, 605], [448, 642], [450, 681], [448, 719]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two close, finely stippled dark margins enclose a brown-orange strip. Near the bottom, small circular symbols sit against its western side beside the green rectangle.",
+      "uncertainty_note": "The large Mengsholm lettering covers part of the strip around v=590–640, but aligned margins are visible above and below. The final waypoint is a class-change connection to f07, not a physical terminus.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The circular marks beside the lower stretch might flank the road, although they also follow the edge of the green rectangle."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[448, 719], [447, 733], [435, 742], [405, 748], [374, 752], [343, 754]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "The brown, narrowly edged strip turns west below the green rectangle; small dark circular marks and heavy black rectangular strokes lie close alongside.",
+      "uncertainty_note": "The start connects directly to f06 at a class-change waypoint. Nearby circles may indicate avenue planting, but building strokes prevent a clear reading of both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "Some small circular marks appear alongside the strip, though their separation from the rectangle's perimeter symbols is uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[343, 754], [344, 788], [344, 824], [343, 861], [338, 890], [330, 920]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A narrow orange-brown strip is flanked on both sides by repeated small outlined circles, matching the supplied avenue symbol.",
+      "uncertainty_note": "Heavy black strokes obscure the upper end. The southern endpoint marks the fading of the tree symbols and connects directly to f09.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[330, 920], [318, 947], [305, 972], [296, 986], [295, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "Below the repeated circular symbols, the brown strip continues with close dark stippled margins and crosses a black outline bordering a pale green patch.",
+      "uncertainty_note": "The start is a class-change connection to f08. A few faint circles near it could extend the avenue designation slightly farther south.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The last faint circular marks may belong to the same avenue symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[343, 754], [336, 738], [329, 722], [327, 709]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short pale yellow strip with intermittent thin dark edges runs upward from the brown bend toward the small red rectangle; black building strokes overlap it.",
+      "uncertainty_note": "This may be a short access track, but the visible edges could instead belong to adjoining enclosure outlines. Its northern continuation and its attachment at j04 are uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the pale strip is a track, its intermittent close edges suggest a narrow paired-line symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An alternative reading is an enclosure edge and unmarked space between building symbols, with no road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[153, 0], [164, 23], [174, 45], [190, 65], [203, 75]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "An angled dark stroke borders a narrow pale strip among red and black building rectangles; the lower part merges with heavy lettering.",
+      "uncertainty_note": "A short road through the building cluster is possible, but a building or enclosure outline is also supported. No connection to f02 is asserted through the obscuring strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip could be a narrow road whose second margin is concealed by building symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dark strokes may entirely outline buildings or an enclosure rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [66, 238],
+      "branch_count": 3,
+      "evidence_note": "Three brown strips with close dark stippled margins meet: one extends left, one diagonally upward-right, and one approximately right."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [318, 84],
+      "branch_count": 3,
+      "evidence_note": "The brown strip arriving from the left and continuing right meets the upward-curving stippled strip from below; the margins merge at the bend."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [567, 132],
+      "branch_count": 3,
+      "evidence_note": "Three narrowly edged brown strips meet in a Y: upper-left, upper-right, and downward beside a small black-outlined wedge."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [343, 754],
+      "branch_count": 3,
+      "evidence_note": "The brown strip turns from east to south among circular tree symbols; a faint pale strip appears to enter from above-left. The third branch is uncertain and would disappear under the enclosure interpretation of f10."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [181, 48, 246, 114],
+      "why": "Overlapping large lettering and heavy building outlines conceal possible short connections within the northern cluster."
+    },
+    {
+      "bbox_uv": [315, 705, 373, 755],
+      "why": "Dense black building strokes obscure the margins and possible connection of the short pale strip beside the red rectangle."
+    }
+  ],
+  "overall_note": "The principal brown, stippled network is readable, including the approach flanked by circular tree symbols. Broad pink strokes, blue water margins, and ordinary black parcel outlines were read as non-road lines. The two short possible accesses remain explicitly uncertain; dead_end flags at class-change waypoints denote segmentation rather than visible physical termini."
+}

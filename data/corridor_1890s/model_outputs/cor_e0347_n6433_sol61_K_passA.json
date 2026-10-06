@@ -1,0 +1,119 @@
+{
+  "tile_id": "cor_e0347_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[798, 0], [814, 27], [825, 53], [832, 79], [823, 103], [814, 126], [819, 143], [834, 161], [844, 190], [859, 224], [876, 254], [890, 281], [902, 313], [907, 347], [905, 382], [903, 416], [906, 444], [916, 478], [927, 516], [936, 551], [944, 586], [955, 615], [970, 647], [985, 674], [1000, 692]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close, dark, partly broken edging strokes enclose an orange-brown strip approximately 8–12 px wide; the pair bends together and passes beside orange polygons and small dark building symbols.",
+      "uncertainty_note": "Some edging disappears beneath building ink near v=140 and the pink boundary near v=440, but the paired strip is aligned on both sides. Its broken edges could support a different symbol-form classification.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The edging is irregularly dotted or broken rather than consistently drawn as two continuous lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[944, 586], [923, 587], [903, 595], [881, 603], [861, 617], [850, 633], [831, 645], [807, 645], [780, 648], [754, 652], [728, 659], [702, 663], [677, 671], [653, 678]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin, irregular chain of black dots and short strokes runs westward from beside the orange strip, then curves along the lower edges of orange polygons; no continuous casing is clear.",
+      "uncertainty_note": "This is a candidate path. Portions could instead be polygon edging or dots associated with the adjacent tree symbols; the contact with f01 is also uncertain. Stop at the large lettering rather than infer a continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the aligned dots constitute an independent path, they form a single broken line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An alternative reading is field edging and land-cover marks, with no road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[374, 683], [400, 690], [425, 697], [451, 702], [476, 705], [494, 708]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short dark strokes and dots form a roughly transverse alignment beside the orange patches and dark rectangular symbols; a separate, straighter reddish diagonal lies below it.",
+      "uncertainty_note": "The alignment is a possible track, but its strokes merge with polygon outlines, building ink and lettering. Neither a connection across the dark western strip nor a continuation through the eastern lettering is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated dark marks could be a single dotted or broken path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They could instead belong to field outlines and symbols without forming an independent road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[575, 719], [596, 728], [624, 737], [650, 747], [674, 759], [695, 780], [716, 800]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "An intermittent dark alignment curves southeast between orange polygon edges, small oval tree marks and heavy lettering; no stable pair of edging lines is visible.",
+      "uncertainty_note": "This is a possible continuation of a village path, but the dots may belong to the deciduous-tree symbology. It is kept separate from f03 and f05 because the intervening lettering does not establish continuity.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A path reading treats the aligned dots and short strokes as one broken line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A land-cover reading treats the marks as tree-symbol dots and polygon edging rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[881, 925], [908, 944], [933, 956], [960, 966], [984, 974], [1000, 977]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short alignment of dark broken marks follows the lower margin of the orange polygon band toward the right edge, beside oval symbols and diagonal lettering.",
+      "uncertainty_note": "The marks could be a path segment, but polygon edging and tree-symbol dots provide competing readings. No connection through the lettering to f04 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If independent of the adjoining symbols, the marks resemble a single broken path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They may be land-cover or polygon-edge marks with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [944, 586],
+      "branch_count": 3,
+      "evidence_note": "The orange strip with two close dark edges continues in both directions; a thinner dotted alignment appears to approach from the west. Three branches are counted conditionally on f02 being a path and touching the strip."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [495, 447, 553, 521],
+      "why": "Dense black ink, pink boundary strokes and blue water edging overlap; any additional fine road strokes cannot be separated reliably."
+    },
+    {
+      "bbox_uv": [494, 680, 575, 744],
+      "why": "Large lettering and building symbols interrupt the candidate transverse path alignment; its exact course and continuity are unresolved."
+    },
+    {
+      "bbox_uv": [716, 800, 881, 934],
+      "why": "Heavy diagonal lettering overlaps polygon outlines and tree marks, preventing a reliable connection between the candidate path fragments."
+    }
+  ],
+  "overall_note": "The winding orange paired strip is the clearest road; broad pink lines with dash-and-dot marks are read as boundaries. The smaller village alignments are retained as doubtful candidates because tree dots, polygon edges and lettering support competing readings. Junction j01 is conditional on the candidate western branch."
+}

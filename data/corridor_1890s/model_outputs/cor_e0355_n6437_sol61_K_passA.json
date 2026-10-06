@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0355_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 733], [32, 713], [65, 687], [98, 657], [132, 627], [166, 596], [200, 566], [233, 537], [254, 521], [274, 505], [300, 480], [326, 454], [353, 428], [378, 413], [403, 400], [426, 393], [449, 400], [474, 401], [499, 394], [524, 380], [548, 367], [571, 370], [595, 382], [621, 394], [647, 402], [677, 409], [706, 412], [730, 411], [760, 412], [789, 417], [816, 424], [842, 425], [869, 417], [899, 412], [928, 413], [955, 419], [978, 414], [1000, 413]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad orange band, generally about 12–18 px wide, lies between two continuous heavy dark margins. It bends from the southwest edge into an approximately eastward course; large black lettering overlaps portions.",
+      "uncertainty_note": "The casing and orange centre remain identifiable on both sides of the lettering, supporting continuity.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 380], [10, 393], [20, 407], [32, 419], [55, 422], [75, 417], [88, 422], [105, 446], [126, 463], [146, 482], [165, 489], [184, 486], [205, 479], [222, 478], [240, 490], [257, 496], [274, 505]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre-orange strip has irregular dark flanks, with broken or dotted marks along portions. It turns sharply near small outlined rectangles at the western edge and joins the broad diagonal band.",
+      "uncertainty_note": "At the western edge, building and parcel outlines overlap the strip; the precise centre through the first bend is approximate. Some portions show only one distinct flank.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken margins could instead be read as a track symbol whose individual strokes cannot be resolved consistently."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[730, 411], [751, 425], [776, 439], [797, 460], [815, 485], [830, 514], [840, 543], [843, 573], [838, 605], [837, 636], [842, 658], [857, 680], [876, 704], [892, 729], [900, 751], [890, 777], [890, 795], [902, 814], [924, 833], [949, 847], [976, 870], [990, 883], [1000, 897]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A slender orange strip with dark, intermittently dotted margins curves south from the broad road, then southeast. Its flanks are approximately 4–8 px apart; several large letters cover the upper section.",
+      "uncertainty_note": "The upper connection and centre beneath the lettering are less sharply resolved, but the orange strip and matching flanks on either side support this course. It crosses separate blue-black and red lines without visible road branches there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The mixed solid and dotted flanks do not everywhere resolve as a conventional double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[976, 870], [964, 897], [951, 921], [934, 938], [916, 951], [907, 962]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow yellow-orange line with dark edging turns southwest from the curving track. Near its lower end, the edging merges with a heavy outline around a pink polygon.",
+      "uncertainty_note": "The upper section resembles a short track branch; the final section may instead belong to the polygon outline. The trace stops where those strokes become inseparable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the narrow coloured centre and two dark flanks as a continuous access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read some or all of the southwest-running line as a parcel or enclosure edge, excluding that portion from roads."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[57, 1000], [75, 984], [92, 970], [113, 950], [136, 932], [158, 912], [176, 896], [177, 885], [187, 889], [198, 878]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A fine ochre diagonal strip carries a dark, partly broken edge. It passes through or immediately beside a small outlined rectangular symbol near (92, 970), then reaches an angular ochre patch near (198, 878).",
+      "uncertainty_note": "This resembles the narrow paths in the worked example, but the two margins are not consistently separable. Its continuation beyond the upper angular patch is indistinct, so none is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Read the dominant fine dark stroke with ochre colouring as a path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the intermittent second edge as the other margin of a very narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The diagonal could partly be a parcel edge or an approach incorporated into the rectangular symbol."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [274, 505],
+      "branch_count": 3,
+      "evidence_note": "The narrow ochre strip from the west terminates against the broad orange band's dark casing; the broad band continues southwest and northeast, giving three visible branches."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [730, 411],
+      "branch_count": 3,
+      "evidence_note": "A narrow orange strip leaves the southern margin of the broad east–west orange band. The broad band continues in both directions; nearby black lettering makes the exact attachment less distinct."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [976, 870],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange line continues northwest and southeast, while a thinner ochre line turns southwest. Three branches are proposed, conditional on the southwest line being a track rather than an enclosure edge."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Large lettering and small polygon outlines obscure some narrow strokes; the two minor traces retain alternative readings. Long black dashed lines, blue water outlines, and the thin red line running across the lower half were read as boundaries or other non-road lines."
+}

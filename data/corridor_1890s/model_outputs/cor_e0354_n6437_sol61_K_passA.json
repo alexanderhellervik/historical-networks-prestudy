@@ -1,0 +1,97 @@
+{
+  "tile_id": "cor_e0354_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[632, 1000], [659, 973], [688, 945], [718, 916], [748, 884], [776, 854], [794, 830]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two heavy dark edges enclose an ochre-brown band approximately 10–14 px wide; the band remains visible between nearby lettering and parcel outlines.",
+      "uncertainty_note": "The dark edges are locally thickened by adjacent symbols; centreline placement is approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[794, 830], [828, 808], [866, 786], [903, 769], [944, 748], [978, 732], [1000, 722]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A broad ochre-brown strip has two continuous, heavy dark margins; a thin red line crosses it near [866, 786].",
+      "uncertainty_note": "The red crossing is read as a boundary, without an additional road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[794, 830], [772, 795], [750, 762], [729, 727], [707, 690], [685, 651], [663, 613], [642, 575], [620, 535], [599, 499], [583, 469], [576, 451]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow brown band, roughly 4–7 px wide, follows dark margins that are partly intermittent; it meets the broad diagonal and approaches the small outlined building at its northern end.",
+      "uncertainty_note": "Lettering interrupts parts of the margins, but the course is visible on both sides. At the northern building, the road margins cannot be separated confidently from the enclosure, so the feature stops.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as only one dark stroke beside brown colouring, making the double-line form uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[553, 344], [556, 370], [560, 389], [563, 400]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "A thin dark stroke descends from the shoreline-side outline, with ochre colouring on its eastern side; a second road margin is not consistently distinguishable before the building and lettering.",
+      "uncertainty_note": "This may be the northern extension of f03, but it may instead be a parcel or enclosure edge. No connection through the building is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible access line represented by the single visible dark stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary of the ochre parcel and building enclosure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[38, 885], [43, 897], [49, 910], [50, 924], [48, 932], [56, 942], [70, 947], [80, 947]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Very fine grey, irregular strokes appear locally paired a few pixels apart below a small tilted outlined rectangle; they approach the dark corner of an ochre polygon.",
+      "uncertainty_note": "A faint track is possible, but the strokes lack a clear road fill or repeatable symbol. Both ends become indistinct; no continuation is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow track if the locally paired grey strokes are its margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible ditch, enclosure edge, or incidental faint linework rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [794, 830],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown band from the northwest meets the broad, dark-cased ochre diagonal; the broad band continues southwest and northeast, giving three visible branches."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [551, 393, 601, 456],
+      "why": "Heavy lettering and the small building/enclosure outlines prevent a confident connection between f03 and f04."
+    },
+    {
+      "bbox_uv": [29, 879, 86, 954],
+      "why": "The faint grey trace is too low-contrast to resolve its symbol or endpoints confidently."
+    }
+  ],
+  "overall_note": "The broad diagonal road and its narrow northwest branch are the clearest features. The short northern extension and faint lower-left trace are retained as uncertain candidates. Red lines and long dark dashed lines are read as boundaries; winding blue-green outlines are read as water edges."
+}

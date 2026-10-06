@@ -1,0 +1,222 @@
+{
+  "tile_id": "cor_e0370_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 594], [38, 578], [85, 558], [135, 537], [184, 515], [234, 495], [280, 473], [325, 449], [369, 426], [411, 402], [453, 376], [486, 352], [514, 330], [543, 306], [570, 282], [600, 250], [637, 222], [675, 192], [714, 162], [754, 131], [795, 99], [835, 67], [875, 36], [921, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03", "j04"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous, relatively heavy dark edges enclose a yellow-orange strip approximately 8–12 px wide; several paired dotted approaches meet its casing.",
+      "uncertainty_note": "The course is clear; the distinction between wide and narrow is relative because no width threshold is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if this category includes continuous casing of this pixel width."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[24, 546], [31, 562], [38, 578], [46, 605], [54, 633]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two fine parallel rows of dark dots, roughly 6–8 px apart, border a pale orange strip on both sides of the main road; red building blocks cover the ends.",
+      "uncertainty_note": "The aligned approaches support continuation across the main-road casing. Neither end is extended through its building symbol; the paired dotted form has no exact named category.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Fits if discontinuous paired borders count as double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[460, 268], [477, 287], [496, 310], [514, 330]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two closely spaced dotted rows with yellow-orange between them run southeast from a red block below B to the heavy continuous casing.",
+      "uncertainty_note": "The red block hides the northwest termination, and the main-road casing hides the exact junction position. The dotted borders do not unambiguously select a listed class.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible classification of the paired dotted borders."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Its join and f04's join could instead be two nearby three-branch junctions, separated by approximately 10 px along f01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[514, 330], [536, 339], [558, 342], [581, 339], [604, 336]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A curved pair of fine dark dotted rows encloses a pale strip, bowing downward between the main-road casing and the oblique dotted track.",
+      "uncertainty_note": "The western attachment is partly masked by the main-road casing; it is represented at the same junction as f03. The eastern dotted merge is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if paired dotted borders are included."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The western attachment may be a separate three-branch junction within approximately 10 px of j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[570, 282], [585, 307], [604, 336], [625, 363], [642, 376], [675, 377], [715, 373], [755, 370], [796, 367], [803, 376], [808, 412], [812, 452], [816, 491], [819, 524], [844, 518], [854, 519], [858, 528]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two parallel dark dotted borders around a yellow-orange strip leave the main casing, receive the curved dotted connector, turn east, then south and briefly east again to a black block.",
+      "uncertainty_note": "The course remains visible through the turns; the terminal black block hides its final extent. The paired dotted symbol lacks an exact listed category.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Fits if the two discontinuous borders count as narrow double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[600, 250], [598, 229], [595, 208], [593, 190]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, nearly vertical pair of fine dotted rows with pale orange between them joins the upper side of the main casing and reaches the red-and-black block beside B.",
+      "uncertainty_note": "The upper end disappears against the building symbol; no continuation is carried through it. Classification of the paired dots is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible classification if dotted borders are included."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 747], [15, 780], [28, 806], [45, 845], [63, 885], [81, 925], [99, 963], [115, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two fine dotted rows enclosing a faint orange strip run diagonally down the left portion of the face, beside coloured rectangular symbols and beneath large lettering.",
+      "uncertainty_note": "Lettering interrupts individual dots, but aligned paired marks before and after the letters support the continuous course shown; positions under lettering are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible classification of the narrow paired dotted borders."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0, 813], [14, 810], [28, 806]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short pair of closely spaced dark dotted rows enters from the left edge and meets the diagonal paired-dot strip.",
+      "uncertainty_note": "The short visible length and crowded dotted merge limit the precision of the junction coordinate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if paired dots count as double-line casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[274, 1000], [304, 989], [330, 980], [345, 977], [348, 982]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two fine dotted rows with a pale orange centre clip the bottom edge, run northeast, and meet a black rectangular block below a red block.",
+      "uncertainty_note": "The bottom edge clips the continuation and the black block hides the other termination; no connection to another feature is visible inside the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible classification of the paired dotted edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[700, 1000], [735, 984], [775, 970], [816, 963], [860, 959], [905, 957], [953, 955], [1000, 953]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two conspicuous parallel rows of dark dots around a pale orange band curve from the bottom edge toward the right edge; tree-star symbols lie alongside.",
+      "uncertainty_note": "The curved dotted strip is distinct from the nearby thin continuous polygon edge. Its symbol does not exactly match a named dotted-line category.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Fits if discontinuous paired borders count as double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[966, 0], [979, 22], [987, 44], [994, 69], [998, 98], [999, 130], [1000, 164]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow succession of dark dots or short strokes curves along the upper-right edge; only one row is consistently legible and the outer side is clipped.",
+      "uncertainty_note": "This is a doubtful road candidate: clipping prevents a confident distinction between a dotted track, a boundary, or another dotted line. The lower course is approximate because the marks hug the image edge.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible track reading if the short discontinuous strokes form a road line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "May instead be a non-road boundary or other dotted linear symbol."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [38, 578],
+      "branch_count": 4,
+      "evidence_note": "The heavy paired continuous casing passes through, with aligned paired dotted approaches on its northwest and southeast sides; the casing masks the crossing centre."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [514, 330],
+      "branch_count": 4,
+      "evidence_note": "Two main-road branches pass through the broad dark casing; a paired dotted approach arrives from the northwest and a curved paired dotted strip leaves southeast, with their exact attachments masked."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [570, 282],
+      "branch_count": 3,
+      "evidence_note": "A yellow strip bordered by two dotted rows meets the southeast edge of the continuous double casing, which continues in both directions."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [600, 250],
+      "branch_count": 3,
+      "evidence_note": "The short, nearly vertical paired dotted strip reaches the upper dark edge of the cased road; the cased strip continues southwest and northeast."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [604, 336],
+      "branch_count": 3,
+      "evidence_note": "The curved paired-dot strip merges into the oblique paired-dot strip, whose two borders continue toward both northwest and southeast."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [28, 806],
+      "branch_count": 3,
+      "evidence_note": "A short paired dotted approach from the left meets the diagonal paired dotted band, which continues upward and downward; individual dots crowd together at the merge."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The principal difficulty is assigning the paired dotted road symbols to classes that do not explicitly include dotted borders. Main-road casing masks the precise arrangement at j02, where two nearby three-branch junctions remain possible. The upper-right edge feature is retained as a doubtful road candidate with a non-road alternative."
+}

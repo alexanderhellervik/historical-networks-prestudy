@@ -1,0 +1,68 @@
+{
+  "tile_id": "cor_e0351_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[390, 0], [369, 23], [342, 48], [314, 69], [280, 87], [242, 106], [207, 122], [177, 141], [151, 162], [124, 178], [103, 198], [85, 220], [70, 247], [58, 264], [52, 275], [43, 303], [30, 331], [14, 359], [0, 381]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close, dark, approximately parallel edges enclose a narrow reddish-tan strip. Both edges follow the curve; scattered star and oval symbols stand beside it.",
+      "uncertainty_note": "The horizontal sheet seam interrupts the stroke near [151,162], but matching edges on both sides support continuity. The attachment of f03 is conditional on its being a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches have uneven or broken edging, so the apparent casing could combine a continuous edge with an intermittent edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[46, 18], [70, 27], [90, 43], [108, 67], [129, 94], [145, 116], [160, 130]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint diagonal sequence of small dark dots or short marks crosses the pale ground. No continuous paired casing is visible; its upper end approaches a heavier solid outline.",
+      "uncertainty_note": "This may be a dotted path or a land division. The lower marks fade before a certain connection to f01 can be established, and the upper endpoint blends with the solid outline.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated marks could represent an intermittent path approaching f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The same marks could be a field or property division rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 247], [12, 254], [26, 262], [39, 270], [52, 275]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short chain of relatively heavy dark dots or short strokes runs diagonally across green-tinted ground to the left edge of f01. It has no visible paired casing.",
+      "uncertainty_note": "A path reading is possible, but the marks also coincide with the edge of a green-tinted patch and may delimit land cover or property. The junction is conditional on the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If this is a path, its symbol is a single intermittent trace."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a non-road division along the tinted patch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [52, 275],
+      "branch_count": 3,
+      "evidence_note": "The short dotted candidate reaches the western casing of the curved road, whose two continuing arms remain visible. Three road branches are present only if f03 is read as a path."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The curved cased road is clear; two short intermittent candidates retain uncertainty about whether they are paths or divisions. The upper candidate's attachment is unresolved. The blue shoreline, broad pink diagonal with boundary marks, solid field outlines and horizontal sheet seam are excluded."
+}

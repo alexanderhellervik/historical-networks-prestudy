@@ -1,0 +1,160 @@
+{
+  "tile_id": "cor_e0358_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 790],
+        [40, 764],
+        [80, 738],
+        [120, 712],
+        [160, 686],
+        [200, 659],
+        [240, 632],
+        [280, 606],
+        [320, 578],
+        [360, 550],
+        [400, 523],
+        [440, 495],
+        [480, 466],
+        [520, 438],
+        [560, 413],
+        [600, 386],
+        [640, 360],
+        [680, 335],
+        [720, 309],
+        [760, 283],
+        [800, 257],
+        [840, 232],
+        [880, 207],
+        [902, 197],
+        [940, 172],
+        [980, 145],
+        [1000, 132]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Broad pink-red band with a dark, intermittently broken southeast margin and a weaker parallel northwest margin, approximately 8–15 px apart. Black marks overlap marsh hatching along much of its southeast side.",
+      "uncertainty_note": "The margins are insufficiently distinct to establish a road symbol confidently. A coloured boundary remains an alternative; j01 is conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The separated margins may be the two edges of a broad road, with pink colouring between them."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, this is a coloured boundary with intermittent black marks rather than a road; under that reading omit f01 and j01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [803, 0],
+        [784, 22],
+        [762, 44],
+        [745, 66],
+        [738, 86],
+        [741, 105],
+        [752, 126],
+        [772, 143],
+        [798, 156],
+        [830, 166],
+        [860, 174],
+        [882, 184],
+        [902, 197],
+        [914, 210],
+        [916, 222],
+        [898, 244],
+        [877, 269],
+        [852, 294],
+        [836, 319],
+        [833, 347],
+        [833, 376],
+        [824, 403],
+        [807, 431],
+        [790, 456],
+        [776, 481],
+        [767, 510],
+        [760, 540],
+        [754, 570],
+        [748, 600],
+        [742, 630],
+        [746, 654],
+        [756, 680],
+        [766, 704],
+        [773, 735],
+        [782, 764],
+        [794, 789],
+        [800, 810],
+        [798, 837],
+        [788, 865],
+        [776, 893],
+        [763, 920],
+        [751, 945],
+        [741, 973],
+        [722, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A single winding row of dark dots and short heavy strokes follows a thin ochre trace, without consistently separated casing lines. Below the pink band it runs close to black field outlines and horizontal hatching.",
+      "uncertainty_note": "The dotted course is readable away from the crossing, but its exact position through the pink band is approximate. Some lower stretches merge with adjacent outlines, and the dots could alternatively belong to a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The rounded marks may represent a dotted path rather than the elongated marks implied by dashed_line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary following adjacent outlines is a competing non-road interpretation."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If continuity through the overlap is rejected, split this feature at approximately [882,184] and [898,244], flag both intervening endpoints obscured, and omit j01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [83, 0],
+        [64, 25],
+        [45, 52],
+        [32, 77],
+        [28, 106],
+        [25, 139],
+        [20, 173],
+        [12, 207],
+        [5, 239],
+        [0, 268]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Thin ochre-brown curved stroke, approximately 1–3 px wide, with occasional darker marks. No clear pair of margins or regular dash pattern is visible.",
+      "uncertainty_note": "This is a weak road or path candidate; its symbol could also be a coloured division line. The lower portion is faint.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Read the narrow ochre stroke as a single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, read it as a non-road division line and omit this feature."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [902, 197],
+      "branch_count": 4,
+      "evidence_note": "Two arms of the broad pink band and two arms of the winding dark dotted trace converge within overlapping dark marks. This four-branch junction is tentative and depends on both features being roads and the dotted trace continuing through the overlap."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad pink diagonal and the thin ochre line at the upper-left have uncertain road status. The winding dotted feature is clearer, but its crossing near [902,197] supports alternative connectivity readings. Long straight black dashes, narrow red parcel divisions, blue-green strokes and marsh hatching were read as other linework."
+}

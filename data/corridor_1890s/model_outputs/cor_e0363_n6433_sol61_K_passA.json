@@ -1,0 +1,48 @@
+{
+  "tile_id": "cor_e0363_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,358],[24,366],[48,367],[73,362],[98,352],[122,335],[147,309],[171,286],[194,261],[217,237],[241,217],[266,203],[292,188],[318,173],[344,157],[371,137],[397,113],[425,87],[452,65],[480,43],[509,21],[540,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two closely spaced dark stippled margins, approximately 7–10 px apart, enclose an orange-brown strip. The paired marks follow the curve beside irregular dark outlines containing small oval symbols.",
+      "uncertainty_note": "The margins are dotted rather than continuous; the class describes their paired narrow form. The thin red line crossing near [266,203] has no matching road margins.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[895,0],[903,27],[906,58],[906,96],[909,139],[912,184],[915,230],[918,276],[921,322],[924,368],[929,411],[936,451],[946,491],[957,531],[969,572],[981,612],[988,643],[991,677],[991,716],[993,755],[997,788],[1000,809]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two narrow rows of dark dots flank an orange-brown strip, roughly 6–9 px wide. Black rectangular symbols and one red-filled rectangle lie alongside its middle section.",
+      "uncertainty_note": "Some margin dots merge with nearby black symbols. The oblique red and dark line crossing near [985,630] lacks the paired dotted road symbol, so this crossing is not recorded as a road junction.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[4,924],[10,948],[18,975],[28,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A short orange-brown strip with dark stippled edging curves through the southwest corner. Large cropped black lettering obscures its upper end, and the left margin is partly clipped.",
+      "uncertainty_note": "This resembles the other dotted-margin roads, but clipping and lettering prevent a reliable count of its margins. The trace stops below the lettering without reconstructing its entry into the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible stippled edging may be the same paired narrow symbol as f01 and f02."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,873,34,925],
+      "why": "Cropped heavy black lettering obscures the upper continuation of the southwest road candidate."
+    }
+  ],
+  "overall_note": "The southwest corner is difficult to read because of clipping and lettering. Thin angular red lines, the blue line with an arrow, and irregular outlines lack the road symbol and are excluded. No meeting of three road branches is visible."
+}

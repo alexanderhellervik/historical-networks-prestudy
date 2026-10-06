@@ -1,0 +1,284 @@
+{
+  "tile_id": "cor_e0348_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 50], [28, 65], [57, 81], [84, 91], [103, 72], [124, 46], [146, 19], [162, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A brown strip approximately 6–9 px wide has dark, locally broken margins and turns sharply near [84,91].",
+      "uncertainty_note": "The margins are too irregular to distinguish continuous double casing from paired dotted strokes confidently.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The dark margins may be two continuous road lines."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[283, 0], [308, 15], [332, 27], [351, 34], [363, 17], [376, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow brown band with dark edges passes beside several solid black building marks; another brown stroke joins at [351,34].",
+      "uncertainty_note": "Building marks interrupt the casing around the bend.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Visible portions suggest paired margins approximately 5–8 px apart."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[351, 34], [340, 54], [328, 78], [318, 99], [310, 119]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A brown, dark-edged stroke descends from the upper road and becomes entangled with black rectangular symbols near its southern end.",
+      "uncertainty_note": "It may be a short access track or a coloured parcel edge. Continuation towards [257,177] is not sufficiently clear to trace through the building symbols.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The northern portion resembles a narrow cased track."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a parcel margin beside the buildings."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[473, 278], [492, 285], [517, 295], [549, 305], [573, 311], [592, 315], [617, 320]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j07", "j08"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Two dark margins enclose a pale-to-brown strip approximately 7–12 px wide; the western end has a short transverse cap projecting into blue colouring.",
+      "uncertainty_note": "The capped western portion may depict a landing structure carrying the route. Two small southern connections are less distinct than the main strip.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The westernmost section could be a structure outline rather than a separately drawn road."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[617, 320], [630, 290], [647, 258], [664, 226], [681, 194], [700, 162], [711, 152], [735, 164], [765, 183], [799, 205]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown band with two dark, intermittently broken margins runs among black building marks and hollow tree symbols, then bends beside a small solid building.",
+      "uncertainty_note": "The paired margins are visible, but their dotted versus continuous construction is unresolved.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The band can be read as a narrow road with continuous casing."},
+        {"proposed_class": "unknown", "note": "Some portions could instead be coloured enclosure margins; the bent brown strip remains the stronger road reading."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[617, 320], [621, 339], [636, 357], [650, 371]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Short brown and dark parallel strokes connect the two meeting points through heavy italic lettering and nearby black building marks.",
+      "uncertainty_note": "The connecting course is supported by aligned strokes on both sides of the lettering, but individual margins are partly hidden.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The exposed portions resemble the paired margins of the adjoining roads."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[650, 371], [677, 386], [712, 405], [748, 422]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown diagonal strip approximately 6–9 px wide has dark margins and passes beside small solid black rectangular marks.",
+      "uncertainty_note": "Its margins also separate differently coloured polygons, making a parcel-edge reading possible.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The paired dark edges may be continuous road casing."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a coloured parcel boundary."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[748, 422], [780, 441], [815, 460], [849, 479], [878, 495], [903, 512], [917, 535], [929, 553], [953, 571], [978, 585], [1000, 597]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The brown strip continues beneath large lettering with dark, uneven margins, widening slightly at the pronounced bend near [929,553].",
+      "uncertainty_note": "Letter strokes obscure parts of the casing. A coloured boundary following the same course is an alternative reading.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Two margins can be followed through most exposed sections."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: the brown line marks a parcel division."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[650, 371], [634, 400], [616, 432], [601, 466], [583, 505], [566, 545], [548, 585], [531, 627], [516, 669], [499, 711], [479, 752], [458, 786], [441, 821], [429, 855], [424, 880], [405, 900], [389, 918], [387, 943], [395, 972], [393, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow brown or pale strip lies between two dark, close margins, generally 4–8 px apart; hollow circles and star-shaped tree marks occur alongside its western margin.",
+      "uncertainty_note": "The eastern margin also outlines the orange polygon. Local breaks make a track drawn against a parcel boundary difficult to distinguish from the boundary alone.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Non-road alternative: a double-looking parcel edge, especially between [441,821] and [616,432]."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[799, 205], [820, 221], [841, 238], [857, 255], [873, 276], [876, 299], [891, 317]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Brown and dark strokes follow the outside of a large, thick black rectangular building symbol and adjoining small outlines.",
+      "uncertainty_note": "The building perimeter masks part of the route; the exposed brown strokes support this course, but an enclosure outline remains possible.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The exposed sections appear to have two close margins."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: the outer edge of the building enclosure."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[891, 317], [922, 320], [951, 316], [977, 306], [1000, 294]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown, dark-edged band curves eastward; its two margins are approximately 5–8 px apart where exposed.",
+      "uncertainty_note": "The strip also follows the boundary between orange and pale colouring.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The paired margins resemble the adjoining cased route."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: a coloured parcel margin."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[748, 422], [760, 394], [771, 366], [789, 343], [812, 327], [838, 318], [864, 313], [891, 317]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Close dark strokes with intermittent brown filling curve around the orange polygon; a small elongated black-edged rectangle lies beside the lower section.",
+      "uncertainty_note": "A narrow route and a parcel/enclosure perimeter are both supported by the drawing. The course near [812,327] is less distinct than its ends.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Read the close margins as road casing."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: the curved perimeter of the orange parcel and adjoining enclosure."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[650, 371], [671, 340], [692, 309], [708, 278], [721, 255], [738, 239], [753, 235], [766, 242], [774, 250]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow curved brown-and-dark pair passes west of the large rectangular building; its upper bend has a pale interior between close dark strokes.",
+      "uncertainty_note": "The lower portion overlaps diagonal parcel strokes and lettering. The northern end disappears into the heavy building/enclosure outline, so no connection beyond it is asserted.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The curved upper portion can be read as a cased access track."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: an enclosure edge; the diagonal stroke nearer [727,302] may be a separate parcel line."}
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[799, 205], [809, 176], [821, 145], [830, 112], [861, 109], [898, 110], [921, 111], [957, 115], [981, 117], [1000, 120]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A slender brown stroke with a dark companion climbs to an angular bend and continues east along dark polygon margins.",
+      "uncertainty_note": "This is a doubtful road candidate: its angular course and coincidence with polygon edges also support a property-boundary reading.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The brown fill and accompanying dark stroke may represent a narrow road."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: connected parcel boundaries, particularly east of [830,112]."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[854, 1000], [866, 980], [886, 958], [908, 933], [932, 905], [956, 877], [979, 850], [1000, 826]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A diagonal brown strip approximately 8–12 px wide is enclosed by two heavy dark margins; small hollow and star-shaped marks lie to its southeast.",
+      "uncertainty_note": "The lower entry is slightly irregular where a polygon corner meets the strip.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "A coloured double parcel margin is a weaker alternative to the road reading."}
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[549, 305], [545, 324], [535, 340], [528, 352]],
+      "proposed_class": "park_path",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine pale-tan corridor, bounded by thin strokes, enters green subdivided garden colouring containing repeated small circular symbols.",
+      "uncertainty_note": "Only the upper corridor is traceable. Farther south, bed outlines, symbols and possible paths cannot be separated reliably; its status as a walking path rather than a bed divider is uncertain.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Non-road alternative: a garden-bed division rather than a path."}
+      ]
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[592, 315], [586, 330], [580, 342], [577, 354]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Short pale-brown strokes with a thin dark companion leave the southern side of the main strip beside black rectangular symbols and heavy lettering.",
+      "uncertainty_note": "This may be a short access path, a garden margin or part of a building outline. It cannot be continued confidently through the symbols.",
+      "alternatives": [
+        {"proposed_class": "park_path", "note": "The stroke may be an entrance to the adjoining garden paths."},
+        {"proposed_class": "unknown", "note": "Non-road alternative: garden or building-enclosure outline."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [351, 34],
+      "branch_count": 3,
+      "evidence_note": "Three brown, dark-edged arms meet among black building marks: northwest, northeast and southwest; the southwest arm is a doubtful access-track reading."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [617, 320],
+      "branch_count": 3,
+      "evidence_note": "The paired westward strip meets a brown northward arm and short southeastward strokes; lettering overlaps the eastern side of the meeting."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [799, 205],
+      "branch_count": 3,
+      "evidence_note": "Brown strokes approach from northwest, northeast and southeast beside the heavy rectangular building outline; the northeast arm may instead be a parcel edge."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [650, 371],
+      "branch_count": 4,
+      "evidence_note": "Brown-and-dark strokes appear to converge from northwest, northeast, southeast and southwest; black lettering partly covers the centre, and the northeast arm is less certain."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [748, 422],
+      "branch_count": 3,
+      "evidence_note": "A brown diagonal band has northwest and southeast arms; a close dark-and-brown curved stroke joins from northeast, with a small black rectangle beside the meeting."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [891, 317],
+      "branch_count": 3,
+      "evidence_note": "Brown margins from northwest, west-southwest and east appear to merge below several small black outlines; enclosure-edge readings make this junction tentative."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [549, 305],
+      "branch_count": 3,
+      "evidence_note": "The two dark margins of the main west–east strip continue through a fine pale corridor entering green garden blocks from the south; the corridor may be a bed divider."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [592, 315],
+      "branch_count": 3,
+      "evidence_note": "A short pale-and-dark southern stroke appears to meet the continuous west–east band beside lettering; its interpretation as an access path is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [478, 326, 567, 430],
+      "why": "Dense green garden blocks contain fine pale divisions, thin dark outlines and repeated circular symbols. Additional paths and their intersections cannot be distinguished reliably from bed outlines."
+    },
+    {
+      "bbox_uv": [573, 340, 641, 404],
+      "why": "Heavy italic lettering and solid building marks obscure several fine strokes; their courses and possible connections cannot be resolved."
+    },
+    {
+      "bbox_uv": [766, 235, 875, 309],
+      "why": "Thick building and enclosure outlines merge with narrow brown strokes. Some exposed routes are reported, but connections through the black symbols remain unreadable."
+    }
+  ],
+  "overall_note": "Several brown route candidates also coincide with parcel margins; their non-road alternatives and tentative junctions are retained explicitly. Fine garden paths and connections beneath buildings or lettering are only partly legible. The broad pink/grey diagonal, blue shoreline and drainage strokes, dotted boundary strokes and thin horizontal sheet line are read as non-roads."
+}

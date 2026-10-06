@@ -1,0 +1,147 @@
+{
+  "tile_id": "cor_e0349_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[518, 0], [513, 31], [508, 59], [489, 85], [470, 108], [488, 129], [516, 156], [546, 179], [577, 191], [601, 210], [618, 239], [650, 270]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two fine grey-brown edges enclose a pale strip approximately 12–20 px wide; neither edge has a regular dash or dot sequence.",
+      "uncertainty_note": "The horizontal image join weakens the edges around v190–210, but their positions and direction match on both sides. Width is variable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The upper and diagonal portions could reasonably be described as narrow paired lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[650, 270], [677, 306], [704, 340], [731, 376], [757, 412], [781, 452], [802, 489], [815, 514], [798, 550], [778, 586], [757, 623], [734, 660], [713, 696], [687, 731], [658, 760], [625, 788], [594, 813], [577, 843], [564, 878], [548, 921]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A continuous pale strip has two thin grey-brown margins, generally about 10–20 px apart. It crosses a heavier blue line near [704,340]; turquoise outlines touch its eastern margin farther down.",
+      "uncertainty_note": "Some margins are faint or merge briefly with adjacent turquoise outlines. The paired strip itself remains traceable; those outlines are not counted as road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The narrower northern stretches support this alternative width description."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[901, 0], [875, 31], [847, 65], [818, 102], [793, 136], [781, 163], [762, 187], [744, 210], [720, 234], [688, 254], [650, 270]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A pale diagonal band has fine grey margins approximately 8–15 px apart, with no repeated boundary marks. Its lower end runs into the other pale paired strip.",
+      "uncertainty_note": "The margins are particularly faint near the horizontal join and at the lower convergence; the exact centreline there is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Parts could be read as one grey stroke beside an uninked pale band rather than consistently paired road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[548, 921], [518, 938], [484, 951], [447, 964], [408, 977], [369, 985], [343, 979], [311, 975], [276, 977], [238, 981], [199, 986], [159, 992], [119, 996], [82, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two light grey-brown margins enclose a pale band roughly 15–22 px wide. Both margins turn west from the fork and follow the shallow bends near the bottom edge.",
+      "uncertainty_note": "The very pale western end merges with the bottom crop; its centreline reaches the edge at approximately u82.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The weak outer margins make the apparent width somewhat uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[548, 921], [567, 940], [589, 955], [607, 978], [621, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short pale band with two grey margins diverges southeast from the fork; dark polygon outlines lie beside its lower portion.",
+      "uncertainty_note": "Adjacent outlines and lettering reduce edge clarity near the bottom, but the pale band can be followed to the crop.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The separation of the margins is less clear beside the dark outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 878], [22, 872], [42, 873], [59, 876]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short curved reddish stroke with a darker rim enters from the left and meets the red-and-black dotted line around [59,876]; separate road margins are not clear.",
+      "uncertainty_note": "This could be a short track, but a boundary segment is equally plausible. Its identity becomes inseparable from the dotted line at the eastern endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short track represented by a continuous reddish stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary branch joining the longer dotted boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[1000, 869], [975, 876], [948, 887], [925, 902], [903, 920], [887, 938]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre-red band curves southwest from the right edge, with dark dotted marks along one side and another fine dark trace nearby. Broader blue marks lie below it.",
+      "uncertainty_note": "The band could represent a cased track, a boundary, or the edge of a coloured polygon. The dark vertical image join prevents a reliable continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road if the neighbouring dark traces are its two margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road dotted boundary or coloured polygon edge beside the blue marks."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [650, 270],
+      "branch_count": 3,
+      "evidence_note": "Three pale bands converge: paired grey margins approach from northwest and northeast, and a paired strip continues southeast. The faint convergence occupies roughly a 15 px area."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [548, 921],
+      "branch_count": 3,
+      "evidence_note": "The pale strip arriving from above divides into southwest and southeast strips; thin grey margins form a visible Y around the open pale centre."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 183, 1000, 212],
+      "why": "A horizontal source-image join shifts colour and interrupts fine strokes. The principal pale bands have matching continuations, but additional faint lines within the join cannot be read reliably."
+    },
+    {
+      "bbox_uv": [885, 0, 925, 1000],
+      "why": "A dark vertical source-image join masks or merges fine linework, especially in its lower portion."
+    },
+    {
+      "bbox_uv": [872, 159, 948, 229],
+      "why": "A dark triangular patch at the intersection of the image joins obscures the underlying drawing."
+    }
+  ],
+  "overall_note": "The pale paired road margins are much weaker than the blue strokes and red-and-black boundary marks, so their centreline coordinates are approximate. The long dotted line through the western half and the blue transverse line were read as non-roads. Two short peripheral candidates are retained with explicit non-road alternatives."
+}

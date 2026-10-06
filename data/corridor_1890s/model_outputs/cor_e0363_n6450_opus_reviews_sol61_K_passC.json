@@ -1,0 +1,123 @@
+{
+  "tile_id": "cor_e0363_n6450",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At (0,55)-(185,85) there is a single thin dark line with a reddish tint bounding the field and the farm plot north of 2G. It has no brown road fill and no double edge, so it reads as a boundary or field edge.",
+      "uncertainty_note": "Low. The red tint matches the boundary lines elsewhere on the tile (f10, f13, the line from (550,0) to (720,170))."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (190,85) up to (270,0) there is a single dark-red line along the edge of the pale forest/meadow plot. It has no brown fill and no paired edges, so it reads as a boundary or plot edge.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short segment near (185,90)-(170,150) follows the thin black outline of the 2G farm/garden plot. No road symbol is drawn there.",
+      "uncertainty_note": "Low. It is a short segment partly hidden by the '2G' lettering."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow brown-filled line with dotted dark edges comes in at the left edge near (0,105), runs behind the 'sbo'/'2G' lettering, reappears at about (180,225) and continues through (250,280) and (280,320) to (283,380). It is the same symbol as the Sämre körväg in the worked example.",
+      "uncertainty_note": "The course from (40,130) to (175,215) is partly covered by lettering. Class could also be read as dashed_line, since the edges are dotted (Sämre körväg in the model legend is a double row of dots)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same narrow brown dotted road continues south from (283,380) through (290,450) and (315,505) and meets the main road at about (343,560), next to house 54.",
+      "uncertainty_note": "Low for the course. Class alternative: dashed_line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the main road: a broad (about 12 px) brown-filled band with dark edges on both sides. It runs from the left edge at (0,715) through (100,690), (200,630) and (300,577) to the f05 junction at about (343,560).",
+      "uncertainty_note": "The course is certain. The class is uncertain between double_line_wide (Landsväg/Bygdeväg) and double_line_narrow (Bättre körväg). I lean wide because the band is clearly broader than the brown tracks f04, f05 and f09. The overlay's class cannot be seen from its colour."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The broad brown double-edged main road runs from (343,560) through (450,530), (550,522) and (640,537) to the f09 junction near (820,483).",
+      "uncertainty_note": "Class wide vs narrow, as for f06."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The main road continues from (820,483), curves north-east through (865,430) and (900,397), and runs east along v≈393 to the right edge.",
+      "uncertainty_note": "Class wide vs narrow, as for f06."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow brown dotted track leaves the main road at about (820,485) beside house 56. It runs straight south-east to about (965,712), then bends south-west to the farm building at about (940,740).",
+      "uncertainty_note": "Low for the course. Class alternative: dashed_line, since the dotted fill fits the Sämre körväg symbol."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (0,465) to (283,380) there is a single crimson/red line, the boundary symbol colour, along the north edge of the hatched meadow. It has no brown fill or double edge.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (283,380) through (440,290) and (560,285) to (720,170) the line is the heavy dark north edge of the hatched meadow. A red boundary line runs with it, and a pale greyish-buff strip about 10 px wide lies on its north side. The strip is continuous and of even width, which is road-like, and the f04/f05 track crosses it at (283,380). But it carries no brown road colour, while every certain road on this tile is brown.",
+      "uncertainty_note": "I lean not a road: a meadow edge plus boundary, with the pale strip possibly a field margin or ditch. An uncoloured double-line road cannot be ruled out at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the eastward continuation of the same pale strip and dark meadow edge, from (720,170) through (800,140) to the right edge near (1000,90). As with f11, it has no brown fill. The red boundary from the north (550,0)-(720,170) meets it here.",
+      "uncertainty_note": "Same doubt as f11: I lean meadow edge/boundary rather than road."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (800,140) to the right edge at (1000,150) there is a thin crimson line, a boundary, along the top of the hatched meadow by the building plot at (950,170). It has no road fill.",
+      "uncertainty_note": "Low."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [283, 380],
+      "what_is_contested": "Whether this is a road junction at all. The brown track f04/f05 certainly passes through. If the pale strip along the meadow edge (f11) is a road, this is a four-way junction; otherwise it is only the track crossing the boundary/meadow edge (f10/f11).",
+      "evidence_note": "The brown track continues straight through. The red boundary f10 and the dark meadow edge f11 meet here, with the uncoloured pale strip starting at the same point."
+    },
+    {
+      "uv": [720, 170],
+      "what_is_contested": "Whether three lines meet here as a road junction or only as boundaries. The red boundary from (550,0) meets the f11/f12 meadow-edge strip; this is a road node only if that strip is a road.",
+      "evidence_note": "The north line is clearly crimson (boundary). The f11/f12 strip has no brown fill."
+    }
+  ],
+  "overall_note": "The brown roads are clear and the overlay follows them well: the broad main road f06–f08, the narrow track f04/f05 from the north-west, and the track f09 to the south-east farm. f01, f02, f03, f10 and f13 follow boundary or plot-edge lines, not roads. The long pale strip along the meadow edge (f11/f12) has no road colour and cannot be decided with confidence, though I lean not a road."
+}

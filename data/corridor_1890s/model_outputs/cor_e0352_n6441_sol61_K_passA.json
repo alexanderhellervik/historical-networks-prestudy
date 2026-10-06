@@ -1,0 +1,135 @@
+{
+  "tile_id": "cor_e0352_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[805, 0], [777, 40], [747, 83], [718, 125], [689, 167], [660, 209], [631, 251], [603, 292], [582, 315], [553, 356], [526, 395], [497, 436], [468, 478], [440, 519], [410, 563], [381, 606], [353, 648], [343, 674], [338, 713], [333, 755], [329, 797], [322, 840], [316, 882], [308, 923], [297, 956], [289, 975], [273, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous, heavy dark edges enclose a brown-grey band approximately 10–16 px wide; the paired edges follow the bends together, without alternating railway blocks.",
+      "uncertainty_note": "The course is clear. Lettering overlaps the upper-middle section, but the paired edges remain identifiable on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[195, 16], [195, 44], [200, 74], [208, 104], [221, 132], [239, 155], [267, 180], [296, 204], [326, 229], [356, 253], [386, 279], [416, 304], [445, 330], [474, 357], [503, 382], [526, 395]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish-ochre strip roughly 6–10 px wide has dark margins; one margin appears dotted or broken in places. Black rectangular building symbols sit beside its lower half.",
+      "uncertainty_note": "The route through the large italic lettering is supported by matching strokes on both sides. Its margins are less consistently continuous than those of f01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The combination of a coloured strip and partly dotted margin may be a different road symbol rather than a clear narrow double line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[194, 0], [195, 16]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short reddish strip with dark sides enters at the upper edge and meets the descending strip and the oblique stroke from the left.",
+      "uncertainty_note": "The short length and heavy black ink at the meeting point make its individual margins difficult to separate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The cropped upper stroke could include an adjoining outline or symbol rather than a separately cased road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[151, 0], [173, 9], [195, 16]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An oblique brown-red band with dark bordering ink clips the upper edge and joins the near-vertical reddish strip.",
+      "uncertainty_note": "Only a short section is inside the tile; the ink becomes thick at its eastern meeting point.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The cropped band could partly be an enclosure outline; its resemblance to f02 supports the road reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[108, 0], [101, 20], [91, 40], [78, 58], [61, 71], [40, 79], [20, 81], [0, 80]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A curved ochre-red strip has closely spaced dark sides and repeated dark dots or short marks along one side; star-shaped tree symbols lie nearby.",
+      "uncertainty_note": "The course is visible, but its broken margin makes the precise symbol-form class uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This may use the same mixed solid-and-dotted road symbol as f02 rather than an ordinary double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[526, 395], [525, 377], [527, 359], [523, 344], [516, 332], [537, 326], [559, 319], [582, 315]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "An uneven red-brown stroke rises beside the main band, turns sharply left near v332, then runs northeast back to it, outlining a small pale triangular patch. Its dark edging is intermittent.",
+      "uncertainty_note": "This could be a short access loop, but an enclosure or plot outline is also supported by the drawing. Junction counts involving it are conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the coloured stroke is a road, portions suggest two close dark margins around a narrow brown strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, the entire stroke is an enclosure boundary and contributes no road branches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[24, 0], [18, 15], [10, 32], [0, 33]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short heavy dark oblique stroke clips the upper-left corner; a lighter narrow strip and finer offset edge are visible beside part of it.",
+      "uncertainty_note": "The very short crop does not distinguish a road confidently from a thick land-cover or parcel outline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The offset edge and intervening light strip could be narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, this is a non-road outline bordering the pale area."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [195, 16],
+      "branch_count": 3,
+      "evidence_note": "Three reddish, dark-edged strokes meet: a short upper-edge arm, an oblique upper-left arm, and the longer descending arm. Heavy ink and cropping make the three-road interpretation somewhat uncertain."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [526, 395],
+      "branch_count": 4,
+      "evidence_note": "The broad paired band continues in two directions; the narrower northwest band reaches its western edge, where the short red-brown triangular stroke also converges. Four branches are present if that triangular stroke is a road; otherwise there are three."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [582, 315],
+      "branch_count": 3,
+      "evidence_note": "The broad dark-edged band continues northeast and southwest, and a short red-brown stroke approaches its western edge. The third branch is conditional on reading that stroke as a road."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main difficulty is distinguishing the short triangular red-brown stroke and cropped upper-edge strokes from enclosure outlines. Thin blue lines elsewhere show irregular outlines or watercourse characteristics and are not reported as roads. Coordinates at heavy ink overlaps are approximate."
+}

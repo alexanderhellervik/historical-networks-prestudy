@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0354_n6442",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line with dotted fill runs from the top edge near (455,0), past Kullen T and G (180,280), then SW through (100,330) to the left edge near (0,490). The overlay polyline lies on it.",
+      "uncertainty_note": "The class is unclear: Sämre körväg or Bättre körväg, both narrow double-line forms. The course is clear."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short line runs from the Gatan buildings (690,15) down to the top of the road loop near (765,80). Between the buildings at the top edge no double road casing can be seen. Only building outlines and the farmyard show.",
+      "uncertainty_note": "A road probably leaves the loop northward through the Gatan farmyard, but the drawing does not show its course or whether it reaches the top edge."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted double line runs from the loop top (775,85) through (830,170), (870,260) and (905,355), then along (950,390) to the right edge near (1000,430).",
+      "uncertainty_note": "Near (905,360) a crimson boundary leaves this road to the SW. The road itself carries on to the east edge. If the overlay stops at (905,360), it misses the last ~110 m."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted double line runs from the loop top (765,80) through (690,95), (665,140), (650,230) and (635,285), then SE through (700,380) and (740,450) to (775,520).",
+      "uncertainty_note": "At (775,520) the brown double line stops where the crimson boundary meets it. It is unclear whether the road ends there or carries on unmarked."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[370, 995], [430, 978], [500, 973], [560, 975], [605, 962]],
+      "evidence_note": "Along the bottom there is a dotted line, at the edge of a field, from about (370,995) east to about (605,962). There it meets the dotted line along the crimson boundary. The overlay arc curves back down to the bottom edge near (545,1000) and does not follow it east.",
+      "uncertainty_note": "The line is right at the tile edge, so it may be a field-edge or boundary dotting rather than a path. It could also be cut by the edge."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted double line runs from the right edge near (1000,590) SW through (960,650), (900,700), (850,750) and (800,830) to (760,850). From there a dotted course runs through (700,880) and (655,895) down along the crimson boundary to about (600,970).",
+      "uncertainty_note": "SW of about (700,880) the road is drawn only as dots beside the crimson boundary line. The class there could be single dotted (path) rather than double."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short stub near the red building symbols at (960,650)-(1000,690), at the '2G' label. Buildings, lettering and the f06 road crowd the spot. No separate road casing to the east edge can be made out.",
+      "uncertainty_note": "It may be a farmyard access to the 2G buildings, or a duplicate of the start of f06."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A single dotted line (Gångstig style) runs from G at (180,285), across the f01 road, south through (182,340) and (178,385), then curves to (200,430).",
+      "uncertainty_note": "The overlay's lower end sits a little west of the dotted curve. Small offset only."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[195, 432], [225, 432], [248, 428]],
+      "evidence_note": "The dotted path ends in a short run of dots ('..') from (195,432) east to the Skräddaretorp building at (250,428). The overlay carries on NE to about (300,395). That part lies over the 'S' of the place-name lettering, where no road is drawn.",
+      "uncertainty_note": "The dots may be the end of f08 rather than a separate feature."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[605, 962], [600, 975], [590, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Where the bottom dotted line (f05 corrected) meets the dotted course beside the crimson boundary (f06 south end), dots appear to carry on to the bottom edge.",
+      "uncertainty_note": "The segment is very short, at the edge and next to a boundary line. It may already be part of f06 in the overlay.",
+      "alternatives": ["part of f06", "boundary dotting, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [765, 80],
+      "what_is_contested": "Whether the top of the f03/f04 loop has a third branch north through the Gatan farmyard (f02) to the top edge, or is just the loop apex.",
+      "evidence_note": "The buildings and the farmyard cover the area above (765,80). No road casing is visible running north."
+    },
+    {
+      "uv": [775, 520],
+      "what_is_contested": "Whether f04 ends here or carries on (along or beside the crimson boundary) toward f06.",
+      "evidence_note": "The brown double line stops where it meets the crimson boundary. Only the boundary carries on SW."
+    },
+    {
+      "uv": [605, 962],
+      "what_is_contested": "How the bottom dotted line (f05), the dotted south end of f06 and any continuation to the bottom edge connect.",
+      "evidence_note": "Dots, the crimson boundary and the tile edge all come together here, and resolution is low."
+    },
+    {
+      "uv": [960, 655],
+      "what_is_contested": "Whether a spur (f07) branches off f06 at the 2G buildings toward the east edge.",
+      "evidence_note": "The red building symbols and the '2G' lettering hide the line work."
+    },
+    {
+      "uv": [180, 285],
+      "what_is_contested": "Whether the f08 footpath joins f01 at G or only touches the farm plot.",
+      "evidence_note": "The dotted path starts at the G building right beside the f01 road casing."
+    }
+  ],
+  "overall_note": "The main roads (f01, f03, f04, f06) are clear brown dotted double lines and the overlay follows them well. The crimson lines and the black dashed lines are boundaries, not roads. The doubt is in the small connectors: f02 and f07 cannot be judged, f09 extends over lettering, and f05 follows the wrong course along the bottom edge."
+}

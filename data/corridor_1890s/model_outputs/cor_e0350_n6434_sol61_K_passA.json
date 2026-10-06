@@ -1,0 +1,107 @@
+{
+  "tile_id": "cor_e0350_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[326, 0], [305, 31], [279, 60], [248, 88], [218, 114], [188, 144], [161, 177], [134, 215], [110, 252], [88, 291], [70, 331], [54, 363], [46, 396], [39, 423], [31, 450], [20, 480], [0, 514]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose a reddish strip approximately 10–18 px wide. The strip continues across the large lettering and the transverse red line.",
+      "uncertainty_note": "The course is clear; the distinction between wide and narrow double-line symbols is less certain. j01 depends on the doubtful access feature f03.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The apparent width varies with ink spread and overlapping lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 526], [11, 560], [26, 597], [47, 637], [69, 675], [81, 708], [80, 731], [69, 757], [59, 782], [58, 806], [61, 838], [68, 861], [79, 877]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin ochre-red winding stroke with dark flecks runs beside the long black dashed line, then follows the left side of an orange parcel. It lacks the broad casing of f01.",
+      "uncertainty_note": "The stroke becomes entangled with a small building and the lower lettering near its end. Its possible continuation as f04 is not sufficiently clear to bridge.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some portions appear interrupted; fading and nearby black marks make the original dash pattern uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[31, 450], [60, 449], [98, 450], [133, 452]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two uneven fine dark edges, approximately 20–30 px apart, delimit a pale strip adjoining f01. A black building mark and lettering occupy its eastern end.",
+      "uncertainty_note": "This could be a short access strip, but the edges could instead enclose a small parcel. The dotted line farther east along the green patch does not establish a certain road continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the enclosing edges depict an access way, they form a loosely paired road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: parcel edges beside the building and lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[123, 882], [157, 887], [178, 897], [190, 912], [201, 934], [212, 947]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short thin ochre and dark segments curve beneath and beyond the lower lettering toward several compact black building marks; no consistently spaced casing is visible.",
+      "uncertainty_note": "A possible continuation of f02, recorded separately because lettering hides the connection. Near the eastern end, building outlines and lettering make both the course and road identity uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The exposed segments may belong to one thin path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: portions of parcel or building outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 985], [29, 974], [57, 964], [76, 959]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two irregular dark strokes enclose a pale diagonal strip approximately 12–20 px wide at the bottom-left corner, approaching a rounded orange shape with a dark outline.",
+      "uncertainty_note": "The strip could be an access way or a narrow space between parcel outlines. The rounded outline and nearby lettering prevent a certain continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could depict a short cased access way."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: adjacent parcel edges."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [31, 450],
+      "branch_count": 3,
+      "evidence_note": "The reddish cased strip continues in two directions, while the pale strip of f03 opens eastward between fine dark edges. Three road branches are present only under the access-way interpretation of f03."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [77, 844, 242, 972],
+      "why": "Large lettering and compact building marks overlap the possible thin path, preventing reliable connections between its exposed segments."
+    }
+  ],
+  "overall_note": "The cased road and the winding thin stroke are the clearest road readings. The short farm-access candidates remain ambiguous with parcel outlines. The transverse crimson line, long black dashed divisions, dotted green-patch edge and blue shoreline are read as non-road symbols."
+}

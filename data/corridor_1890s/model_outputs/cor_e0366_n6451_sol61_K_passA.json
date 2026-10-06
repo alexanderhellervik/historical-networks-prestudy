@@ -1,0 +1,249 @@
+{
+  "tile_id": "cor_e0366_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[95, 0], [87, 35], [79, 78], [71, 126], [62, 170], [57, 207], [62, 222], [99, 229], [139, 227], [167, 240], [206, 262], [245, 288], [284, 313], [323, 343], [362, 377], [399, 411], [432, 442], [475, 463], [488, 480], [504, 519], [518, 555], [541, 591], [563, 613]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced rows of dark dots or short strokes border a pale yellow strip. Both rows turn together; lettering overlaps the diagonal section, and black and red building marks sit beside it near (432,442).",
+      "uncertainty_note": "The course through the lettering is supported by aligned rows visible between and beyond the letters. The symbol is paired stippling rather than long dashes.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Use this label if paired dotted lines are distinguished from the available dashed_line class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 166], [26, 152], [50, 138], [71, 126]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow yellow strip with two dark dotted margins runs diagonally beside a pale green patch and meets the north–south dotted pair.",
+      "uncertainty_note": "The paired dotted symbol has the same form as f01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Paired stippling has no explicitly named class in the supplied list."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 94], [23, 78], [39, 54], [63, 38], [85, 23]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint pale diagonal strip has thin grey edges and several heavier black rectangular marks along it. Its northeastern end becomes indistinct near the dotted vertical line and a polygon corner.",
+      "uncertainty_note": "This may be a narrow access line beside the building marks, but the edges could belong to the enclosing parcel. A connection to f01 near (90,17) is possible but insufficiently clear to carry through.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two faint edges delimit a road, they form a narrow continuous pair."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strip may instead be a parcel edge with building marks alongside; under that reading it is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 402], [23, 442], [49, 486], [77, 529], [105, 570], [130, 599], [161, 624], [197, 645], [219, 652], [237, 655]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two dark dotted rows enclose a yellowish strip curving past the southwest corner of a green polygon containing red and black rectangles. The rows approach a red diagonal and another cluster of rectangular marks.",
+      "uncertainty_note": "The final connection among the red diagonal and building marks is obscured. No continuation along the red line is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An alternative symbol-form label for the paired dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[563, 613], [600, 620], [642, 625], [685, 625], [713, 624], [731, 627], [772, 633], [815, 640], [858, 646], [900, 654], [940, 660], [973, 659], [1000, 659]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two rows of dark stippling flank a narrow yellow strip. They bend gently eastward below the blue-green band; red and black rectangular marks lie immediately south near (731,645).",
+      "uncertainty_note": "The main paired course is clear. The very short attachment recorded at j03 is less certain than the main line.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken margins are predominantly dots rather than elongated dashes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[563, 613], [579, 649], [600, 687], [619, 717], [627, 727]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A paired dotted strip branches southeast from the eastward strip, with a pale interior and two visibly separate dark margins.",
+      "uncertainty_note": "The road symbol is clear; the thinner third line at its southeastern endpoint may be an enclosure edge rather than a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative label for the paired dotted symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[627, 727], [631, 746], [627, 767], [615, 783], [600, 795], [603, 830], [610, 866], [617, 900], [610, 928], [596, 956], [584, 981], [579, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two dark dotted margins curve around lettering, cross a thin red diagonal near (600,795), and continue south around a pale irregular polygon.",
+      "uncertainty_note": "Letter strokes partly cover the upper bend, but matching dotted margins are visible on both sides. The red crossing is not read as a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative label if the closely spaced dots are not included in dashed_line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[627, 727], [650, 704], [676, 687], [703, 668], [727, 654]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin grey-brown diagonal stroke, locally accompanied by a faint second edge, runs beneath lettering toward red and black rectangular marks. It also forms the upper edge of an area containing star-shaped symbols.",
+      "uncertainty_note": "This can be read as a narrow access path or as the edge of the symbol-filled polygon. Its attachment at j04 is conditional on the road reading; the northeastern tip is obscured by the rectangular marks.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A path reading follows the dominant thin continuous stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have two faint, closely spaced edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may be a field or land-cover enclosure edge rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[731, 627], [731, 636]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A very short dark near-vertical stroke lies between the paired dotted strip and the top of a red rectangular mark.",
+      "uncertainty_note": "It may be a short access spur, but it could be part of the building mark or an overlapping dot. The three-branch interpretation of j03 is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If independent of the rectangular mark, the visible spur is a single stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a building-symbol extension rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[451, 0], [482, 34], [514, 72], [545, 113], [571, 155], [594, 196], [616, 233], [646, 263], [678, 289], [710, 321], [739, 353], [766, 384], [792, 408], [824, 425], [861, 437], [899, 445], [940, 451], [974, 452], [1000, 452]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous dark grey-brown lines enclose a narrow pale tan strip, generally about 6–10 pixels wide. Both edges follow the same bends and continue beside a red rectangular mark near the right edge.",
+      "uncertainty_note": "Some edge weight varies with the scan, but the continuous paired casing is visible throughout.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0, 835], [7, 857], [5, 873], [12, 892], [18, 907], [22, 932], [43, 953], [72, 978], [101, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Paired dark stippling is clearest on the southeast diagonal leading to the bottom edge. Near the left edge, the pale strip and dots crowd a thin red line and faint grey strokes.",
+      "uncertainty_note": "The course near (18,907) is less distinct than the bottom diagonal; it may comprise separate pieces partly hidden by the red line. Coordinates there follow the visible pale strip without extending along the red boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The upper portion may be discontinuous or partly an enclosure edge; paired dots are clearest below approximately v=935."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0, 925], [9, 915], [18, 907]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short faint grey diagonal, with a pale adjoining edge, reaches the crowded crossing of dotted and red strokes near the left margin.",
+      "uncertainty_note": "It may be a small road branch entering from the edge, or a parcel stroke. The three-branch interpretation at j05 is conditional on this being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A road reading treats the faint adjoining strokes as a narrow pair."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The short diagonal may instead be a property or enclosure line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[151, 1000], [174, 980], [192, 963], [201, 957]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two dark dotted margins with a pale yellow interior run northeast from the bottom edge toward a black rectangular mark beside the thin red polygon line.",
+      "uncertainty_note": "The northeastern endpoint is hidden by the rectangular mark; no continuation along the red line is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative symbol-form label for paired stippling."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [71, 126],
+      "branch_count": 3,
+      "evidence_note": "The diagonal paired dotted yellow strip meets the vertical paired dotted strip; north, south and southwest arms are visible."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [563, 613],
+      "branch_count": 3,
+      "evidence_note": "Paired dark dotted margins form a fork with northwest, east and southeast arms, each enclosing a pale yellow strip."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [731, 627],
+      "branch_count": 3,
+      "evidence_note": "Two dotted east–west arms pass a short dark southward stroke toward a red rectangle. Three branches are present only if that short stroke is an independent access spur."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [627, 727],
+      "branch_count": 3,
+      "evidence_note": "The dotted strip continues northwest and south around a bend; a thinner continuous diagonal joins from the northeast. The third road branch is conditional because that diagonal may be an enclosure edge."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [18, 907],
+      "branch_count": 3,
+      "evidence_note": "The curving stippled strip has upper and lower arms beside a red stroke, with a faint diagonal reaching the left edge. Three road branches depend on interpreting the faint diagonal as a road."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Paired dotted strips are recorded as dashed_line, with unknown retained as an alternative because their marks are predominantly dots. The upper-left building-side line, two short attachments and the southwest crossing support competing road and non-road readings; their junctions are conditional where stated. Thin red polygon lines and the red line following the blue-green band are read as boundaries, not roads."
+}

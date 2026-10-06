@@ -1,0 +1,177 @@
+{
+  "tile_id": "cor_e0361_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[147, 0], [135, 31], [123, 67], [112, 104], [101, 141], [89, 179], [80, 215], [73, 248], [75, 278]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close dark dotted edges, approximately 6–9 px apart, enclose an orange-red strip; the dots continue into the crossing.",
+      "uncertainty_note": "The edges are stippled rather than consistently solid, so the symbol-form class is somewhat ambiguous.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired rows of short dark marks could instead be described as a dotted or dashed symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[75, 278], [72, 307], [61, 337], [44, 363], [21, 381], [0, 392]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow orange-red strip with paired dark stippled edges curves away from the crossing and reaches the left edge.",
+      "uncertainty_note": "The dotted edging becomes less distinct around the bend.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Paired dotted edges support a dashed-symbol reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 250], [36, 263], [75, 278]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced rows of dark dots flank orange-red colouring and merge with the other dotted strips.",
+      "uncertainty_note": "The short segment has soft edges, but its course and connection are visible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The edging consists predominantly of dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[75, 278], [115, 287], [155, 302], [195, 321], [235, 342], [275, 365], [315, 388], [358, 412], [401, 435], [445, 458], [486, 483], [505, 508], [519, 539]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A continuous orange-red band has two dark dotted margins roughly 6–9 px apart; it bends downward immediately before the horizontal paper join.",
+      "uncertainty_note": "The trace stops at the dark join. F05 appears to continue the same symbol, but its precise course through the join is unreadable.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired stippled margins could be classified by their interrupted strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[529, 560], [553, 589], [578, 616], [607, 636], [638, 653], [670, 669], [707, 677], [745, 684], [777, 682]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Paired dark dotted margins with reddish colouring descend past a horizontally hatched patch, then turn nearly horizontal toward the vertical join.",
+      "uncertainty_note": "Both ends are interrupted by paper joins. Continuation toward F04 and F06 is apparent, but neither hidden interval is traced.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two margins are composed of closely spaced dots and short strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[806, 682], [832, 685], [860, 693], [894, 705], [930, 719]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A reddish narrow band with paired dark stippling emerges beside the vertical join and runs into an apparent meeting of dotted strips.",
+      "uncertainty_note": "Its western connection is hidden by the join; the third road arm at j02 is less certain than this segment.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The interrupted margins also support a dashed-symbol description."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[930, 719], [965, 735], [1000, 751]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close dark dotted margins enclose reddish colouring and continue southeast to the right edge.",
+      "uncertainty_note": "The dotted strip itself is clear; whether the northeast line constitutes a road junction remains uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dotted margins could be classified as a dashed symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[930, 719], [951, 704], [976, 687], [1000, 670]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An oblique reddish line with dark short marks approaches the paired dotted strip from the right; its margins are less separable near the meeting.",
+      "uncertainty_note": "This may be a narrow dotted road branch, or a boundary meeting or crossing the road. J02 counts three branches under the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the dark marks form two dotted margins, this is another narrow road arm."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary reading would exclude this feature and remove j02 as a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0, 879], [32, 898], [66, 922], [101, 948], [137, 971], [175, 990], [211, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad red strip clips the lower-left corner, with heavy dark edging and conspicuous pale interruptions along portions of its upper margin.",
+      "uncertainty_note": "The broad casing supports a road reading, but the dark and pale pattern also raises a railway alternative; the symbol cannot be assigned confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Read as a broad road with two dark edges and red infill."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If the pale interruptions are railway blocks rather than irregular road edging, this is a railway and should be excluded from the road inventory."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [75, 278],
+      "branch_count": 4,
+      "evidence_note": "Four orange-red strips with paired dark dotted margins visibly merge: upward, southwest, leftward and southeast."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [930, 719],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted strip continues west and southeast; a less distinct reddish stippled line approaches from the northeast, giving three apparent road arms under the F08 road reading."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 525, 813, 563],
+      "why": "A sloping dark horizontal paper join obscures narrow linework, including the interval between F04 and F05."
+    },
+    {
+      "bbox_uv": [775, 0, 813, 1000],
+      "why": "The vertical paper join shifts sideways and includes dark gaps and overlapping edges; the interval between F05 and F06 is obscured."
+    },
+    {
+      "bbox_uv": [837, 552, 945, 657],
+      "why": "Rectangular pale patches interrupt the printed drawing; fine linework within them cannot be recovered."
+    }
+  ],
+  "overall_note": "The paired dotted orange-red strips provide the strongest road evidence. Paper joins interrupt their traces, while the northeast arm at j02 and the broad lower-left strip retain boundary and railway alternatives respectively. Continuous angular field outlines and thin coloured boundary lines are excluded."
+}

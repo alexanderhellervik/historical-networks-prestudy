@@ -1,0 +1,328 @@
+{
+  "tile_id": "cor_e0368_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[50,0],[83,17],[115,34],[148,46],[178,56],[205,47],[221,40],[247,54],[273,68],[301,83],[335,102],[371,119],[407,139],[442,156],[474,177],[510,201],[544,225],[579,250],[611,280],[644,313],[659,343],[675,380],[704,399],[741,422],[768,455],[792,489],[810,522],[828,555],[840,591],[852,632],[864,668],[876,710],[888,752],[894,776],[901,819],[908,863],[914,906],[918,939],[930,956],[952,977],[978,992],[1000,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03","j04","j05","j06","j09"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two closely spaced dark dotted traces enclose a narrow pale strip. They cross the blue stroke near the upper left; a heavier red stroke accompanies portions of the lower-right course.",
+      "uncertainty_note": "The paired course is readable. Its short connections into adjacent green, building-filled polygons are less certain and are reported separately.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[301,83],[313,65],[327,45],[337,28]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short pair of fine dark interrupted traces turns northeast from the diagonal pair and approaches a heavy black rectangular symbol.",
+      "uncertainty_note": "The endpoint is masked by the black symbol and adjoining polygon outline. A connection to f03 around the polygon cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The uppermost marks may include the polygon outline rather than a continuing track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[335,102],[345,86],[358,67],[374,53]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Closely spaced dark dotted marks ascend from the diagonal road toward a red-and-black rectangle beside green fill.",
+      "uncertainty_note": "The last section merges with the rectangle and its surrounding outline; no further course is carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some terminal marks could be the edge of the building-filled polygon."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[582,30],[563,53],[539,82],[516,112],[493,145],[474,177],[453,201],[442,210],[421,215],[405,214],[391,208],[383,213]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Two narrow dark interrupted edges cross the diagonal road, then curve southwest and west around the lettering. The western end touches a heavy red line.",
+      "uncertainty_note": "Black lettering and rectangular symbols obscure the northern continuation. Near the western end, one edge is more continuous than the other; a continuation beyond the red line is not visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The final western bend could partly follow a polygon edge rather than retain the paired road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,81],[36,99],[73,115],[109,132],[145,151]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two fine dark dotted rows run diagonally from the left edge to a heavy black angular enclosure containing a red rectangle.",
+      "uncertainty_note": "The terminal marks disappear into the enclosure. No continuation through it is sufficiently clear.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[828,555],[855,535],[881,511],[909,485],[938,456],[966,426],[987,399],[1000,380]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark dotted edges enclose a pale narrow strip branching northeast from the descending paired road.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[852,632],[822,640],[795,650],[778,662],[774,688],[761,721],[741,751],[718,777],[688,806],[658,831],[628,856],[600,881],[577,907],[552,929],[523,945],[491,964],[459,978],[428,990],[405,994],[384,984]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow pair of dark dotted rows extends west from the right-hand road, skirts black-and-red rectangles, and curves southwest. Near the bottom it meets a long black dashed stroke.",
+      "uncertainty_note": "The connection beside the rectangles is crowded but traceable. At the western end, the black dashed stroke and scan softness prevent establishing whether the road stops or continues.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The terminal marks around [384,984] may end against the dashed line rather than pass beneath it."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[572,1000],[608,978],[641,957],[675,938],[708,917],[733,900],[760,880],[789,858],[819,835],[850,811],[875,790],[894,776]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06","j07"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Fine dark dotted traces border a narrow pale strip immediately alongside a heavier red diagonal stroke; the dotted strip meets the descending road near the black 'B.' lettering.",
+      "uncertainty_note": "The road and red line lie very close together. The red stroke alone is not the evidence for this road; the adjacent dotted pair is.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[733,900],[742,913],[752,928]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short thin dark oblique trace appears to leave the dotted diagonal strip and enter green fill beside a red-and-black rectangle; a second edge is indistinct.",
+      "uncertainty_note": "This may be a short entrance, but its separation from the polygon outline and its exact attachment are uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the thin trace is an entrance, only one edge can be read consistently."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a polygon or building outline, in which case j07 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[291,275],[298,307],[309,345],[319,385],[330,427],[341,468],[347,495]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Closely spaced dark dotted and thin linear marks follow a narrow pale strip beside green fill. A heavy black bar lies at the upper end, and a small outlined rectangle sits beside the upper section.",
+      "uncertainty_note": "The upper connection is hidden by the black bar. The lower marks stop at an angular change in the green-filled outline; a field-edge reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The traces could combine a dotted boundary with the adjacent green polygon edge rather than form a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,690],[23,732],[51,778],[76,774],[98,775],[128,784],[150,787]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A fine chain of dark round dots descends from the left edge, bends sharply east, and approaches the narrow dotted strip beside the red corner.",
+      "uncertainty_note": "The single dotted chain could be a path or a boundary. Its attachment to the vertical strip is slightly blurred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary is an alternative reading; the absence of a clearly continuous second edge weakens the road interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[150,787],[150,821],[148,855],[150,886],[157,914],[154,948],[154,975],[155,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close dark dotted traces flank a narrow pale vertical strip. Large italic lettering overlaps part of the lower section, with the paired marks visible above and below.",
+      "uncertainty_note": "Continuation through the lettering is supported by aligned paired marks on both sides. The short northern termination and the connection to f11 are less clear.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[148,776],[150,787]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A very short dark interrupted trace lies between the red angular corner and the meeting of the dotted lines below it.",
+      "uncertainty_note": "This may be a northern road stub, or merely overlapping boundary and road marks. The three-branch interpretation of j08 depends on this stub.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may be the short northern continuation of f12."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If these marks belong to the red boundary corner, f11 and f12 simply turn into one another and j08 should be omitted."
+        }
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[864,668],[876,659],[892,651]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Short fine dark marks extend east from the paired road toward the lower edge of a green polygon containing black-and-red rectangles; the marks partly merge with its outline.",
+      "uncertainty_note": "A short entrance is possible, but neither a stable pair of edges nor the terminal course can be distinguished confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The short marks may be a paired entrance into the polygon."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They may instead belong entirely to the polygon outline, removing j09."
+        }
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[0,453],[35,411],[69,372],[98,339],[118,322],[131,307],[144,289],[153,276]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A very pale thin gray oblique stroke is visible without casing or a clear second edge. Its upper end approaches the heavy italic 'L.' lettering.",
+      "uncertainty_note": "This is a doubtful candidate: its weight resembles nearby polygon divisions, and it lacks the conspicuous dotted road symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The pale stroke could represent a lightly drawn single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property division is at least as plausible as a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[131,307],[129,349],[127,391],[131,436],[134,482],[137,527],[139,574]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint uncased gray stroke descends from the oblique pale line toward a heavy red angular line; it has no consistently visible dotted margins.",
+      "uncertainty_note": "Both the road interpretation and the precise meeting at j10 are uncertain. The lower trace merges with the red line.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It could be a lightly drawn single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a polygon division; if the pale lines are divisions, j10 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[543,0],[559,12],[576,24]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Short roughly parallel dark interrupted oblique marks clip the top edge beside heavy black-and-red rectangular symbols.",
+      "uncertainty_note": "The crowded symbols prevent determining whether this is a road fragment connected to f04, a separate access, or part of the rectangular outlines. The obscured gap is not bridged.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The parallel marks may be a short paired road fragment leading toward the obscured northern end of f04."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may belong to building or enclosure symbols rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [301,83],
+      "branch_count": 3,
+      "evidence_note": "The diagonal pair of dark dotted edges continues in both directions, with a narrower interrupted pair leaving northeast."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [335,102],
+      "branch_count": 3,
+      "evidence_note": "Two diagonal dotted arms meet a short northward dotted pair approaching a red-and-black rectangle."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [474,177],
+      "branch_count": 4,
+      "evidence_note": "Two narrow paired interrupted strips cross, leaving four visible arms; black lettering lies nearby but does not conceal the crossing."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [828,555],
+      "branch_count": 3,
+      "evidence_note": "The descending dark dotted pair continues south, while another paired dotted strip diverges northeast; three pale enclosed arms are visible."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [852,632],
+      "branch_count": 3,
+      "evidence_note": "A westward narrow dotted pair joins the north–south dotted pair beside green fill and small heavy rectangular symbols."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [894,776],
+      "branch_count": 3,
+      "evidence_note": "The dotted strip accompanying the red southwest diagonal meets the descending paired strip beside a red rectangle and black 'B.' lettering."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [733,900],
+      "branch_count": 3,
+      "evidence_note": "A faint short dark trace appears to leave the two dotted diagonal arms toward a green polygon. This is a provisional three-branch reading because the short trace may be an outline."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [150,787],
+      "branch_count": 3,
+      "evidence_note": "A westward chain of dark dots meets a narrow vertical dotted strip just below a heavy red corner. Three branches are provisional because the very short northern marks may belong to the boundary."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [864,668],
+      "branch_count": 3,
+      "evidence_note": "A short eastward dark trace appears beside the two continuing dotted road arms at the green polygon corner. The third arm may instead be the polygon outline."
+    },
+    {
+      "junction_id": "j10",
+      "uv": [131,307],
+      "branch_count": 3,
+      "evidence_note": "A faint gray descending stroke appears to meet a faint oblique stroke with two continuing arms. This is conditional on these uncased pale strokes being paths rather than polygon divisions."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [533,0,608,41],
+      "why": "Heavy black lettering, red-and-black rectangles and short interrupted marks overlap, preventing a reliable connection between the northern end of f04 and the corner fragment f17."
+    }
+  ],
+  "overall_note": "The clearest roads have narrowly spaced paired dotted edges, reported as double_line_narrow. Short entrances, the lower-left connection and faint western strokes retain competing outline or boundary readings; provisional junctions are identified in their evidence. Clear red boundary strokes, long black dashes and blue winding strokes were excluded."
+}

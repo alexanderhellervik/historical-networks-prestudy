@@ -1,0 +1,54 @@
+{
+  "tile_id": "cor_e0344_n6438",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the straight crimson line, which has a thin black line beside it, from the west edge at about (0,795) to the stream junction at (720,258). It has the same colour and pairing as the crimson-and-black boundary lines in the worked example and as the parallel parcel lines at (540,435)-(1000,770) and (470,500)-(1000,880) on this tile. It turns at a sharp angle at a boundary-like vertex on the stream at (720,258), and no brown road casing or dotted road symbol is visible along it.",
+      "uncertainty_note": "A faint tan/pinkish band runs along its south-east side, e.g. at (200-370, 640-720) and (470-560, 400-490). I read it as the coloured wash of a boundary, but it could be a narrow road drawn alongside the boundary. If so, the class would be double_line_narrow on roughly the same course."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short line from the top edge near (355,0) down to about (355,90) follows the solid black outline on the east side of the pink (åker/tomt) plot at Brådalen, next to the blue stream. It is a parcel or settlement outline with no road casing or dotted symbol, and it does not lead anywhere outside the plot.",
+      "uncertainty_note": "The area right at the top edge is crowded with the plot outline, the stream and the 'Brådalen' lettering. A short access track leaving the farm northwards off-tile cannot be fully excluded, but nothing on this tile shows one."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline runs from (720,262) to the east edge at about (1000,450). It lies on a pale strip roughly 10-15 px wide that runs just south-west of, and parallel to, a crimson boundary line. The strip has no clear dark edge lines, brown fill or dotted road symbol. The crimson line itself is a boundary, continuing the f01 line after a sharp turn at the stream vertex.",
+      "uncertainty_note": "The pale strip could be an unpainted narrow road running along the boundary (double_line_narrow), a faded boundary wash, or paper abrasion/fold. The drawing does not decide between these."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[345, 615], [365, 660], [395, 700], [430, 735], [455, 760]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin grey-black single line leaves the crimson line near (345,615) and runs south-south-east, west of the blue stream, until it fades into or merges with the stream near (450,760). It is not dashed like the skifteslinjer and not blue like the stream.",
+      "uncertainty_note": "Low confidence that this is a road. Its thinness and its convergence on the stream make a ditch or minor water line equally likely, and it carries no road colour.",
+      "alternatives": ["ditch or small stream branch (not a road)", "faint footpath (Gångstig) drawn as a thin solid line"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [720, 258],
+      "what_is_contested": "Whether this is a road junction at all. f01 and f03 meet here at a sharp angle on the stream. I read it as a boundary vertex rather than a road bend or junction.",
+      "evidence_note": "The two crimson lines meet at an acute angle exactly where the streams join, which is typical for boundary corners. Only the unexplained pale strip along f03 would make this a road junction or bend."
+    },
+    {
+      "uv": [345, 615],
+      "what_is_contested": "Whether the thin line m01 joins the f01 line here, and whether either of them is a road.",
+      "evidence_note": "The thin grey line touches the crimson line just west of where the blue stream crosses it at about (380,565-600). The meeting point and its meaning are unclear at this resolution."
+    }
+  ],
+  "overall_note": "On this tile I see no line that carries a clear road symbol or road colour: the crimson lines (f01, f03 and the parallel strips labelled 'till ...') read as boundaries, and the long-dashed black lines read as skifteslinjer. f03's pale strip and the thin line m01 are the only candidates for roads, and both are genuinely undecided. The overlay's f02 follows a farm-plot outline."
+}

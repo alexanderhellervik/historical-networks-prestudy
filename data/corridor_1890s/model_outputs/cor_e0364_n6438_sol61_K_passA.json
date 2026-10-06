@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0364_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,38],[20,42],[38,41],[51,32],[57,19],[59,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Short dark marks border a narrow tan-orange strip; adjoining blue-black outlines converge near its bend.",
+      "uncertainty_note": "A possible track clipping the corner. Its margins are difficult to separate from adjacent polygon outlines.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The two dark margins may outline a narrow track."},
+        {"proposed_class":"unknown","note":"Some or all of the traced course may instead comprise adjoining parcel outlines."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,902],[15,899],[30,894]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Closely spaced black dot-like marks follow a thin brown-orange line entering the left edge.",
+      "uncertainty_note": "The interrupted marks are clear, but separate road margins are unresolved.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The marks may constitute one interrupted line."},
+        {"proposed_class":"double_line_narrow","note":"The brown strip may have two closely spaced dotted margins."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[30,894],[57,887],[87,883],[108,880],[128,879]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow brown line with repeated dark dots curves gently right; the upward dotted branch meets it near the end.",
+      "uncertainty_note": "The course is readable; one versus two interrupted margins is uncertain.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"A single row of dot-like interruptions may represent the path."},
+        {"proposed_class":"double_line_narrow","note":"The dots may belong to two narrow track margins."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[128,879],[157,877],[184,878],[209,882],[232,890],[248,886],[261,869],[273,851]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Dark repeated marks continue along a thin brown strip, then turn upward into heavy black symbols.",
+      "uncertainty_note": "Stop where the marks merge with the black building or lettering strokes; continuation through them is unresolved.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The visible dots may form a single interrupted path line."},
+        {"proposed_class":"double_line_narrow","note":"A second interrupted margin may be present beside the brown strip."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[128,879],[128,851],[127,826],[123,807],[116,791]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow orange-brown trace with black dot-like marks rises from the horizontal dotted line toward clustered black rectangles.",
+      "uncertainty_note": "The upper end disappears among symbols; no internal connection through the cluster is inferred.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The dark marks may be a single dotted path symbol."},
+        {"proposed_class":"double_line_narrow","note":"Closely spaced interrupted margins may enclose the narrow brown trace."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[30,894],[23,909],[12,924],[0,940]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Short oblique brown and dark strokes extend southwest beside angular black symbols; the margins become confluent with those symbols.",
+      "uncertainty_note": "Tentative branch and course. These strokes may be symbol or parcel edges rather than a road; j01 depends on this reading.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The oblique strokes may outline a short access track."},
+        {"proposed_class":"unknown","note":"They may instead be adjoining outlines and black symbol strokes, with no road branch."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[1000,677],[969,688],[936,700],[905,711],[875,722],[849,732],[830,743],[818,765],[809,794],[802,824],[794,853],[781,883],[763,903],[735,914],[702,918],[674,921],[651,931],[628,948],[607,970],[585,991],[575,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two close rows of dark dot-like marks border an orange-brown strip approximately 6–10 px wide; it curves past black and red rectangles without paired tree symbols.",
+      "uncertainty_note": "Local margins merge near the rectangles around [815,785], but the course is supported immediately on both sides. Individual dots are blurred in places.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Some stretches resolve as one dark interrupted margin beside the coloured strip rather than two distinct lines."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [30,894],
+      "branch_count": 3,
+      "evidence_note": "The brown dotted line passes left-to-right beside southwest-directed brown and black strokes; three branches are present only if the tentative f06 strokes represent a track."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [128,879],
+      "branch_count": 3,
+      "evidence_note": "The horizontal brown dotted line has visible continuations on both sides, and a similarly marked narrow line joins from above."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [78,750,140,810],
+      "why": "Dense black lettering and small rectangular symbols conceal the upper end of f05 and any connections within the cluster."
+    },
+    {
+      "bbox_uv": [246,833,293,884],
+      "why": "Heavy black strokes overlap the end of f04; a continuation cannot be distinguished."
+    },
+    {
+      "bbox_uv": [0,910,33,959],
+      "why": "Angular black symbols and adjoining outlines prevent a secure reading of the possible southwest branch."
+    }
+  ],
+  "overall_note": "The smaller dotted lines are difficult to classify because their margins merge at this resolution. The top-left trace and southwest branch remain tentative, with alternatives recorded explicitly. Straight magenta boundary lines, the heavy dash-patterned line near the top, polygon margins, and the horizontal sheet crease are excluded."
+}

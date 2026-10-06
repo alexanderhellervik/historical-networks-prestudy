@@ -1,0 +1,189 @@
+{
+  "tile_id": "cor_e0357_n6423",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along the south edge of the pink Nygård field a pale strip bounded by thin lines runs from the west edge (v~150-165) east and bends SE at u~300-380 to (370,210); the polyline follows this strip.",
+      "uncertainty_note": "The strip has no road colour and might only be a field-edge margin; west of u~150 it is narrow and hard to separate from the field border line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[370, 212], [430, 210], [480, 200], [560, 198], [620, 195], [665, 165], [700, 152], [760, 168], [840, 192]],
+      "evidence_note": "West of u~665 it follows the same pale strip under the Nygård field as f01 (red boundary runs alongside it, not a road). East of the field corner an orange-washed dotted line runs (700,152)-(840,192) and then turns south.",
+      "uncertainty_note": "I see no clear road continuing from (850,200) to the east edge at v~240; that segment may be invented or may follow the pale band north of the orange line by the stream. Class of the west part uncertain (no colour fill)."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[370, 212], [345, 245], [305, 310], [285, 345], [240, 380], [195, 415], [160, 455]],
+      "evidence_note": "A thin solid line (like the thin gångstig lines of the example tile) leaves the bend of the pale strip at ~(370,212) and runs SW through the forest to the orange dotted line near (160,455). South of ~(150,480) the polyline instead follows the long-dashed skifteslinje to Igelsjön, which is a boundary.",
+      "uncertainty_note": "Several thin lines run close together in u 250-370, v 220-350; which one is the path is not certain. Thin uncoloured lines may also be land-class limits."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The orange dotted line from the forest reaches the field edge at ~(148,145); inside the pink field a thin line runs north toward the garden/farm at (170,40), which the polyline follows.",
+      "uncertainty_note": "The thin line in the field carries no road colour and may only be a field/garden boundary; a farm access continuing the orange path is plausible but not decided by the drawing."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At this position there are only black, uncoloured dotted lines and the marsh/lake shore north of Igelsjön; no orange wash or double line.",
+      "uncertainty_note": "The legend's Gångstig is a single dotted line, so a black dotted line could be a path, but on this tile such lines form closed loops round marshes and look like land-class limits; leaning not a road."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin solid lines run NE from near the east tip of Igelsjön (~180,600) towards the small hatched marsh at (300-360,460); the polyline lies roughly on them.",
+      "uncertainty_note": "Uncoloured thin lines; could be a path or a marsh/forest limit. Leaning towards a path but not decided."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the large marsh (450,490) a thin line descends SW to ~(390,580); west of that only black dotted lines are present around (260-380,600-620). The orange dotted line in this area runs further north (~(250,505)-(420,520)), not on this course.",
+      "uncertainty_note": "No road colour on the drawn course; whether the thin line plus dotted line is a path is not decidable at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a black, uncoloured dotted line (75,232)-(270,235)-(350,215) just south of the orange dotted line (45,213)-(200,195).",
+      "uncertainty_note": "Same ambiguity as f05: the dotted form matches the Gångstig symbol, but it has no road colour and is one of several parallel dotted limits; leaning not a road."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[148, 145], [160, 170], [200, 192], [120, 200], [45, 213], [70, 245], [100, 285], [155, 345], [170, 390], [150, 440], [70, 465], [0, 470]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Orange-washed dotted line winding from the Nygård field edge through the west forest to the west edge; the orange wash marks road lines on this sheet (cf. example tile).",
+      "uncertainty_note": "Exact course in the loop at (45-200,190-215) is uncertain; may be two separate lines meeting there.",
+      "alternatives": ["Sämre körväg (orange between dotted lines)", "Gångstig"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[160, 460], [200, 490], [300, 510], [410, 518], [450, 550], [470, 600], [560, 628], [640, 660], [670, 710]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Orange-washed dotted line running east from the west-forest line south of the big marsh, crossing the red boundary, to the marsh at (650,690).",
+      "uncertainty_note": "Middle section near (450-480,550-610) is faint.",
+      "alternatives": ["Gångstig"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[485, 387], [560, 372], [640, 367], [705, 360], [760, 330], [800, 300], [900, 290], [1000, 278]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Orange-washed dotted line from the east side of the large marsh eastwards across the red boundary to the east edge.",
+      "uncertainty_note": "Between u 700 and 800 it may split; a red dot at ~(705,360) marks a node.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[705, 360], [685, 400], [665, 450], [660, 540], [665, 620], [680, 700], [678, 760]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Orange-washed dotted line running south from the node at (705,360) to the hatched marsh band at v~760.",
+      "uncertainty_note": "Course near (660-680,640-720) runs alongside a marsh edge and may end there.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m05",
+      "waypoints_uv": [[840, 192], [842, 240], [810, 295], [800, 370], [800, 450], [790, 520], [765, 600], [752, 690], [710, 755]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Orange-washed dotted line from the Nygård field corner southwards through the east forest to the marsh band near (700,760).",
+      "uncertainty_note": "Two orange lines run close together in u 740-810, v 400-600; they may be separate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m06",
+      "waypoints_uv": [[740, 450], [790, 530], [870, 585], [940, 615], [1000, 640]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Orange-washed dotted line running SE across the east forest to the east edge.",
+      "uncertainty_note": "Start point uncertain (from m05 or from m04).",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m07",
+      "waypoints_uv": [[880, 590], [890, 680], [878, 770]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Short orange-washed line south from m06 to the lake shore.",
+      "uncertainty_note": "Might be a marsh/lake edge tint rather than a path.",
+      "alternatives": ["not a road"]
+    },
+    {
+      "feature_id": "m08",
+      "waypoints_uv": [[690, 770], [705, 830], [760, 870], [800, 885]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Orange-washed dotted line west and south of the eastern lake.",
+      "uncertainty_note": "Continuation south of (800,885) toward the bottom edge is unclear.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m09",
+      "waypoints_uv": [[0, 808], [60, 822], [120, 845], [140, 880], [130, 950], [122, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Orange-washed dotted line in the SW corner from the west edge curving down to the bottom edge.",
+      "uncertainty_note": "Faint; course below v 900 approximate.",
+      "alternatives": []
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [370, 212],
+      "what_is_contested": "Whether the thin SW line (f03) actually connects to the pale strip (f01/f02) here, and whether f01 and f02 are one continuous road.",
+      "evidence_note": "Several thin lines and the field-edge line converge at the bend of the pale strip."
+    },
+    {
+      "uv": [148, 145],
+      "what_is_contested": "Whether the orange path continues north into the field toward the farm (f04) or ends at the field edge.",
+      "evidence_note": "Orange wash stops at the field edge; only a thin uncoloured line continues north."
+    },
+    {
+      "uv": [705, 360],
+      "what_is_contested": "Number of branches at the red-dot node: m03 east-west plus m04 south, possibly also a link NE to m05.",
+      "evidence_note": "Orange lines meet near a small red dot; branches are close together at this resolution."
+    },
+    {
+      "uv": [155, 455],
+      "what_is_contested": "Whether f03's thin line, m01, m02 and the dashed skifteslinje form one junction or the boundary just crosses.",
+      "evidence_note": "Orange line bend, thin line end and dashed boundary all lie within ~20 px."
+    },
+    {
+      "uv": [840, 192],
+      "what_is_contested": "Whether the road along the Nygård field turns south here (m05) or continues east to the tile edge as f02 draws.",
+      "evidence_note": "Orange dotted line clearly turns south; an eastward continuation is not clearly drawn."
+    }
+  ],
+  "overall_note": "On this sheet the orange-washed dotted lines read as roads and paths; most of them are missing from the overlay, while several overlay features (f05, f07, f08) follow black uncoloured dotted lines whose road status cannot be decided. The pale strip south of Nygård (f01/f02) is a plausible road, but the lower part of f03 follows a skifteslinje boundary. The straight red line and the long-dashed lines are boundaries, not roads."
+}

@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0363_n6452",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a curved dark/red line from the top edge near (45,0) down to about (100,115), where it meets the red double line running ENE and the dark vertical line going south. The curve looks like the single edge of the darker hachured area on the left, not a double or dotted road symbol.",
+      "uncertainty_note": "If the red double line at v~100-130 is a road, this curve could be where it continues north off the tile. At this resolution I cannot tell a single field or boundary edge from a road edge. I lean towards not a road."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[1000, 493], [965, 530], [940, 560], [925, 578]],
+      "evidence_note": "A black line with ticks or dots on both sides runs from the right edge at about (1000,493) SW to the red line at about (925,578). This part of the overlay matches. Beyond the red line, the overlay continues SW to about (880,640), and I cannot see a clear continuation of the same symbol there.",
+      "uncertainty_note": "The ticked appearance fits a double-dotted 'Sämre körväg'. It could also be a boundary drawn with crosses (Läns- or Riksgräns pattern), and then it is not a road. Whether it continues south of the red line through the Tappb… lettering is unclear."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline runs diagonally from near the T (torp) at about (715,940) NE to about (825,810). It crosses the red double line at u~790 and the 'Till Rid…/…arnhaf' lettering. I see no drawn line, dotted line or double line along this diagonal on the bare tile.",
+      "uncertainty_note": "The lettering and building symbols here could hide a faint path at this resolution. A small torp access path cannot be ruled out, but nothing visible supports this course."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Only the id label is visible, at about (605,715), next to the Hulta building dot. I cannot make out a separate polyline. The label sits on the red double line running N–S from about (512,345) to (700,1000). That line carries the road label 'Till Rid[…]' and is clearly a road.",
+      "uncertainty_note": "If f04 is drawn along that red double line, in a colour that blends with it, it would be an agree. Because its course and extent cannot be seen, I record that road separately as m01."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[512, 345], [530, 410], [548, 480], [568, 560], [580, 630], [592, 688], [615, 750], [640, 810], [662, 870], [685, 940], [700, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j1", "j3"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two parallel red lines about 8-10 px apart run continuously from the wavy Karstorp field edge down to the bottom edge. The road label 'Till Rid…' (to Riddarhyttan?) is written beside it at v~850.",
+      "uncertainty_note": "The road itself is certain. Its north end is uncertain: it may stop at the wavy red/black edge at (512,345), or continue NE along that edge or north through the strips. The wide/narrow class is a judgement from the spacing alone.",
+      "alternatives": ["May coincide with overlay feature f04, whose polyline is not visible.", "May continue NE along the Karstorp edge (512,345)->(560,300)->(640,262)."]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[592, 688], [660, 668], [742, 642], [850, 610], [925, 578], [1000, 562]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j1", "j2", "j4"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A red line, doubled at least between u~595 and 740, leaves the main road near Hulta and runs ENE to the right edge. The ticked line (f02) meets it at about (925,578).",
+      "uncertainty_note": "The red lines on this sheet also mark parcel and strip boundaries. The right-angle meeting with m03 at (742,642) looks like a field boundary, so this may not be a road. Whether it stays double east of u~740 is unclear.",
+      "alternatives": ["Red boundary (hemmans- or skiftesgräns), not a road."]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[742, 642], [755, 700], [772, 760], [790, 830], [805, 895], [822, 972]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j2"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A red double line runs roughly parallel to m01, from the m02 corner south past 'Berget' to about (822,972). There it meets a red line running east to the right edge at about (1000,920).",
+      "uncertainty_note": "Its form matches m01, but no road label is attached. It closes a rectangle with m02 and the bottom red line, which suggests a parcel boundary rather than a road.",
+      "alternatives": ["Red parcel boundary, not a road.", "Continues east along (822,972)->(1000,920)."]
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[100, 112], [250, 100], [440, 80], [520, 45], [600, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j5"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pair of close red lines at the top-left, flatter than the single strip lines below, runs from the corner of the dark vertical line toward the 'SB' village buildings and on to the top edge.",
+      "uncertainty_note": "This may just be two strip boundaries lying close together. The pair is not clearly separated from the many single red skifte lines, and it has no road label.",
+      "alternatives": ["Two separate red skifte or boundary lines, not a road.", "Continues west along f01 to the top edge at (45,0)."]
+    },
+    {
+      "feature_id": "m05",
+      "waypoints_uv": [[690, 340], [698, 450], [710, 560], [725, 635]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "There are traces of a dotted line inside the coniferous-forest area east of Kaneråsen, roughly N–S toward m02.",
+      "uncertainty_note": "This is very uncertain. The dots may be forest stipple or part of the dotted area boundary, and the course is approximate.",
+      "alternatives": ["Dotted vegetation or area boundary, not a path."]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [592, 688],
+      "what_is_contested": "Whether this is a road junction (m01 with m02) or a boundary meeting a road.",
+      "evidence_note": "A red double line meets the labelled road at the Hulta building, but red lines here also serve as boundaries."
+    },
+    {
+      "uv": [742, 642],
+      "what_is_contested": "Number of branches and whether this is a junction at all: m02 west, m02 east and m03 south, or only a parcel corner.",
+      "evidence_note": "Red lines meet at near-right angles here, which looks typical of field boundaries."
+    },
+    {
+      "uv": [512, 345],
+      "what_is_contested": "Whether the main road ends here or continues north or NE, and so how many branches meet.",
+      "evidence_note": "The red double line meets the wavy red/black Karstorp edge. Beyond it, only single strip lines are visible."
+    },
+    {
+      "uv": [925, 578],
+      "what_is_contested": "Whether the ticked line (f02) crosses the red line and continues SW or ends here.",
+      "evidence_note": "The ticked symbol is clear NE of the red line but not SW of it."
+    },
+    {
+      "uv": [100, 112],
+      "what_is_contested": "Whether the f01 curve, the top double red line (m04) and the vertical dark line form a road junction or a boundary corner.",
+      "evidence_note": "Three lines meet at the corner of the hachured area. None of them clearly shows a road symbol."
+    }
+  ],
+  "overall_note": "The clearest road is the red double line labelled 'Till Rid…' running N–S through Hulta. The overlay shows it only through the f04 label, at most. Other red double lines (m02, m03, m04) may be roads or parcel boundaries, and the ticked line f02 may be a sämre körväg or a cross-marked boundary. f03 has no visible support, and f01 cannot be judged."
+}

@@ -1,0 +1,81 @@
+{
+  "tile_id": "cor_e0364_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[16, 0], [10, 14], [5, 27], [0, 40]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short ochre strip clips the upper-left corner, with uneven dark edging on both sides, approximately 6–10 px apart.",
+      "uncertainty_note": "The clipped length is short, so the distinction between two road margins and a single heavy broken stroke is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The corner clipping prevents a secure reading of the complete symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 145], [34, 147], [76, 147], [119, 146], [161, 143], [203, 138], [238, 133], [258, 131]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre band carries closely spaced dark granular margins, roughly 5–9 px apart; it curves gently beneath the large lettering and reaches a dark polygon outline.",
+      "uncertainty_note": "At the eastern end the granular stroke merges with the polygon outline beside small angular symbols. No continuation beyond that meeting is secure.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some portions resolve as closely repeated dark marks rather than two continuous margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[449, 1000], [468, 991], [489, 986], [511, 988], [532, 994], [547, 996]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin, dark blue-black curved stroke borders pale ochre colouring at the bottom edge. A separate parallel margin cannot be followed reliably.",
+      "uncertainty_note": "This is a weak road or path candidate: the visible stroke may instead be the outline of an ochre polygon. Edge clipping and adjacent lettering prevent resolving that distinction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a path, only one drawn line is securely visible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: an angular-to-curved land-use polygon outline continuing outside the tile."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[912, 1000], [935, 990], [955, 981], [970, 974]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short reddish-ochre diagonal stroke with dark granular marks is visible between the bottom lettering and the heavy green-and-red diagonal strip.",
+      "uncertainty_note": "The fragment is compatible with a narrow track, but its margins are unresolved and a boundary reading remains possible. It disappears into the heavy diagonal overprint; no crossing or continuation is established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The coloured strip and dark marks may represent two closely spaced broken road margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a short boundary segment partly hidden by lettering and the diagonal overprint."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [547, 965, 675, 1000],
+      "why": "Large dark lettering and bottom-edge clipping obscure fine linework; a connection between bottom fragments cannot be read."
+    }
+  ],
+  "overall_note": "The two upper-left ochre traces provide the clearest road evidence; the bottom fragments are retained as doubtful candidates. The straight red traverses resemble the worked example's boundaries, while the broad diagonal strip has railway-style repeated markings, so neither is reported as a road. No meeting of three road branches is established."
+}

@@ -1,0 +1,110 @@
+{
+  "tile_id": "cor_e0351_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[695,0],[674,32],[652,65],[631,106],[614,143],[598,180],[583,220],[570,259],[557,300],[546,340],[535,383],[530,415],[529,432],[529,475],[531,515],[535,555],[538,596],[537,632],[539,651],[531,680],[518,716],[503,752],[486,789],[473,815],[465,831],[452,870],[439,911],[424,950],[403,978],[380,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous, heavy dark margins enclose a brown-gray strip approximately 12–20 px wide. Both margins remain recognizable above and below the large lettering and the diagonal overprinted band.",
+      "uncertainty_note": "The centerline is approximate where lettering overlaps the casing; continuation through these overlaps is supported by both margins on either side.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[303,484],[326,482],[350,477],[377,464],[408,455],[438,445],[466,439],[494,433],[529,432]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Two close rows of dark dots or short dashes flank a narrow ochre strip, roughly 7–10 px across. They curve westward from the continuous casing and become covered by the large initial letter.",
+      "uncertainty_note": "The western termination and any continuation across the pink-overprinted band are obscured. The two dotted rows are read as the margins of one track.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired dotted margins could be classified by their narrow casing rather than their discontinuous strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,825],[26,813],[49,821],[77,833],[103,846],[130,861],[159,873],[188,877],[215,872],[244,867],[270,870],[301,878],[329,878],[359,870],[390,861],[421,850],[446,841],[465,831]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre ribbon has two closely spaced dark dotted margins. Its undulating course is visible along the lower part of the tile, with small dark building marks nearby at the western end.",
+      "uncertainty_note": "The eastern attachment is partly covered by lettering; the dotted approach reaches the western casing of f01. The western edge position is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The narrow paired margins also support classification as a discontinuously drawn double-line track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[79,306],[90,335],[96,363],[109,397],[124,423],[143,451]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A single row of relatively heavy, separated black dots descends beside the angular dark outlines. The dots curve southeast and disappear into the broad pink and dark overprint.",
+      "uncertainty_note": "The northern connection is hidden by lettering and outlines. The southern connection cannot be distinguished within the overprinted band; a dotted parcel boundary remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted stroke could be a parcel boundary rather than a path; no clear casing is visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[103,846],[104,874],[99,902],[92,925],[84,945]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short row of dark separated marks runs south from the ochre dotted track, close to a continuous angular field outline. Faint brown coloration accompanies portions of the row.",
+      "uncertainty_note": "This is a doubtful path candidate: the marks may belong to a parcel edge beside the solid outline. Its southern end becomes inseparable from the enclosing outlines, and j03 is conditional on the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted parcel edge rather than a road would remove this feature and junction j03."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [529,432],
+      "branch_count": 3,
+      "evidence_note": "The continuous dark casing runs north and south; the two narrow dotted margins of f02 approach its western side, forming a three-branch meeting."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [465,831],
+      "branch_count": 3,
+      "evidence_note": "The brown-gray cased strip continues north and south, while an ochre strip between dotted margins approaches from the west. Lettering partly overlaps the meeting."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [103,846],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted track continues west and southeast; a short single dotted row appears to leave southward. Three branches are present if that row is a path, although its first marks overlap the track margin."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [278,462,363,519],
+      "why": "Large black lettering overlaps the dotted track and the broad pink-overprinted dark band, preventing a reliable reading of the track's western continuation."
+    },
+    {
+      "bbox_uv": [63,279,91,315],
+      "why": "Lettering and angular outlines obscure the northern connection of the single dotted path."
+    },
+    {
+      "bbox_uv": [77,924,108,959],
+      "why": "Dense angular outlines overlap the doubtful southern dotted spur, making its termination and symbol identity unreadable."
+    }
+  ],
+  "overall_note": "The continuous cased road and two ochre-centered dotted tracks are the clearest road symbols; the two single dotted candidates retain boundary alternatives. Lettering prevents secure connections at several endpoints. The broad pink-overprinted band with a segmented dark core, blue water lines, and thin ochre boundary strokes were read as non-road symbols."
+}

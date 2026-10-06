@@ -1,0 +1,110 @@
+{
+  "tile_id": "cor_e0367_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 891], [40, 911], [82, 931], [128, 943], [175, 946], [221, 947], [267, 950], [314, 949], [345, 944], [361, 956], [398, 959], [429, 962], [458, 967], [478, 961]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin reddish stroke with an adjacent yellowish fringe follows an irregular course; no consistently spaced dots or clear casing are resolved.",
+      "uncertainty_note": "This is a tentative path candidate. A property or land-cover boundary is also plausible. Its eastern end disappears against the broad pink diagonal band; continuation is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If interpreted as a path, the reddish stroke is the principal visible line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red stroke and yellow fringe may mark a boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[164, 495], [207, 470], [251, 444], [294, 419], [339, 394], [383, 369], [428, 344], [470, 321], [514, 299], [556, 276], [598, 253], [640, 230], [678, 209], [709, 200], [730, 209], [733, 220]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint pale ochre and grey linear strip lies immediately southeast of a stronger straight red line, with apparent separation of roughly 5–12 pixels; black polygon outlines crowd its northeastern end.",
+      "uncertainty_note": "A narrow track alongside the red boundary is possible, but the pale strip could instead be colour edging or a second boundary stroke. The short approach to the black outlines is poorly resolved, and neither endpoint has a certain continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The stronger edge and faint parallel stroke could enclose a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent corridor may belong entirely to the boundary drawing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[796, 801], [817, 795], [835, 786], [852, 773], [874, 762], [894, 762]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A fine reddish line with yellow edging bends beneath and beside the large black lettering, then reaches the meeting of similarly coloured strokes.",
+      "uncertainty_note": "This could be a path or a parcel boundary. The western course is obscured by lettering, so it is not extended through the text. Its connection to j01 is conditional on treating these strokes as roads.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A path interpretation would use the fine reddish stroke as its centreline."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may be a property boundary, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[876, 922], [874, 897], [876, 869], [880, 846], [887, 820], [893, 797], [897, 778], [894, 762]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "One thin reddish-brown stroke, accompanied by a pale yellow fringe, curves upward; no clear paired dark casing or repeated dash pattern is visible.",
+      "uncertainty_note": "The stroke may be a minor path or an irregular boundary. Its southern end becomes indistinct near a thin diagonal line; no continuation or road junction there is established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible symbol could represent an uncased path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The colour and course also support a boundary interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[894, 762], [916, 768], [941, 781], [950, 774]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin red and yellow-edged stroke leaves the three-arm meeting, dips southeast, and turns toward heavier black outlines.",
+      "uncertainty_note": "This short arm could be a path or part of a parcel perimeter. It cannot be followed confidently into the black polygon drawing.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A road reading would treat the reddish stroke as an uncased path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a boundary arm rather than a road branch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [894, 762],
+      "branch_count": 3,
+      "evidence_note": "Three fine reddish, yellow-fringed arms meet here, extending west, east-southeast and south; this is a conditional road junction because the arms may instead be boundaries."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "No reported road interpretation is secure; these features retain plausible boundary alternatives. The broad pink diagonal with heavy black boundary-style marks, the straight parcel divisions, and the sinuous line bearing a flow arrow were excluded. Faint parallel strokes, lettering and black polygon outlines make the candidate tracks difficult to distinguish."
+}

@@ -1,0 +1,183 @@
+{
+  "tile_id": "cor_e0352_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[374,908],[404,896],[430,880],[457,863],[486,850],[516,838],[544,829],[568,813],[587,789],[599,761],[605,731],[612,703],[622,676],[645,650],[674,628],[704,607],[727,584],[739,555],[748,528],[766,504],[783,476],[797,446],[810,418],[831,384]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j01"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A winding brown band has dark short marks along its margins; in places two close traces can be distinguished. It crosses blue horizontal hatching just left of the blue oval and meets a broad pink band below.",
+      "uncertainty_note": "The marginal marks frequently merge into one stroke, preventing a secure symbol-form classification. The lower junction depends partly on reading the pink band as a road.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Some stretches show two dark margins separated by approximately 4–8 px of brown tint."},
+        {"proposed_class":"single_line","note":"Other stretches appear as one substantial brown stroke with dark flecks."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[831,384],[857,375],[883,365],[908,354],[933,337],[950,316],[966,291],[981,273],[1000,258]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A brown, dark-edged stroke branches rightward from the winding band; dark marks interrupt its margins, with a narrow tinted centre visible locally.",
+      "uncertainty_note": "The two margins are not consistently separable at this resolution.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Locally the stroke has two close dark margins."},
+        {"proposed_class":"single_line","note":"The merged portions could be read as a single brown line."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[831,384],[829,359],[826,337],[810,313],[791,290],[779,267],[770,242],[766,216],[763,187],[760,159],[754,134]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A finer brown trace with closely spaced dark dots or short strokes leaves the fork upward. It reaches the underside of the heavy black horizontal line.",
+      "uncertainty_note": "The fine marks may constitute a broken single trace or two very close dotted margins. No continuation above the heavy horizontal line can be established.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The short dark marks can be read as a single interrupted line."},
+        {"proposed_class":"double_line_narrow","note":"A few portions suggest two closely spaced rows of marks."},
+        {"proposed_class":"unknown","note":"A boundary reading remains possible for this finer branch."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[102,1000],[133,981],[167,959],[201,939],[235,922],[266,910],[294,907]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two substantial dark traces enclose a broad reddish-pink strip. A blue trace runs close beside its lower margin, and black diagonal dashes cross near the upper end.",
+      "uncertainty_note": "The blue trace makes the lower casing difficult to distinguish locally. The pink band could instead be a highlighted boundary; its tentative junction is crowded.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The tinted band could represent a boundary, with adjacent blue linework accounting for part of the apparent casing."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[294,907],[318,892],[343,897],[374,908]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j04","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The broad pink strip bends through the crossing of blue hatching and diagonal black dashes, then continues between dark margins toward the brown winding trace.",
+      "uncertainty_note": "Several differently coloured strokes overlap here. Continuity of the broad strip is visible, but interpreting it as a road makes both endpoint junctions conditional.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A highlighted boundary crossing the brown traces is an alternative to a road connection."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[374,908],[403,920],[435,937],[468,955],[501,975],[536,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A broad pink strip continues diagonally down-right between heavy dark edging, approximately 10–16 px apart where distinguishable.",
+      "uncertainty_note": "The casing supports a road reading, but the pink colour and long diagonal course also permit a highlighted-boundary interpretation.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"This may be a coloured boundary rather than a road; under that reading it creates no road junction at j02."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[294,907],[300,923],[316,937],[333,949],[347,941],[356,931]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A short angular brown trace drops below the broad pink strip, turns right, and bends upward. Dark edging is visible around a narrow pale interior.",
+      "uncertainty_note": "Its attachment near [294,907] is partly merged with blue and pink strokes. It could be a small enclosed outline rather than an independent track.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The dark edges and pale centre could depict a narrow cased track."},
+        {"proposed_class":"unknown","note":"An enclosure or other non-road outline is possible, especially at the western attachment."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[356,931],[363,918],[374,908]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A short dark-brown connection rises toward the pink strip, with close dark traces partly merging at the crossing.",
+      "uncertainty_note": "The precise merger and separation of the southwest-turning and southward traces are unresolved within several pixels.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The close traces may be the margins of one narrow road."},
+        {"proposed_class":"unknown","note":"This could belong to the same small outline as f07, without a road connection to the pink strip."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[356,931],[357,952],[361,975],[366,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow dark-brown trace continues downward beside the left edge of a small blue-outlined, horizontally hatched oval; close parallel strokes occur above the oval.",
+      "uncertainty_note": "Some of this trace could be the oval's outline or adjoining enclosure linework. Its separation from f07 and f08 is tentative.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The close strokes above the oval could continue as a narrow road beside it."},
+        {"proposed_class":"unknown","note":"A non-road outline alongside the hatched oval could account for the apparent southward branch."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[1000,55],[978,72],[959,86],[945,97],[938,113],[937,131],[945,145],[962,160],[980,176],[990,193],[1000,211]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A curved brown band with dark marginal flecks clips the right edge twice. Its upper and lower portions align across the heavy horizontal black stroke.",
+      "uncertainty_note": "The heavy crossing masks a short interval near [937,131]. The band could be a road or another tinted linear marking.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Much of the band resolves as one brown stroke."},
+        {"proposed_class":"double_line_narrow","note":"Short stretches suggest dark margins around a narrow brown centre."},
+        {"proposed_class":"unknown","note":"A boundary interpretation remains possible."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,21],[28,14],[55,6],[79,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "The upper-left corner contains a short broad pink strip with dark edging on both sides, clipped by the top and left edges.",
+      "uncertainty_note": "Only a short segment is available; the pink strip could be a highlighted boundary rather than a road.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The colour and edging also admit a boundary reading, without enough visible continuation to discriminate."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [831,384],
+      "branch_count": 3,
+      "evidence_note": "Three brown traces visibly converge: a substantial winding stroke below, a substantial stroke extending right, and a finer dotted or broken trace above."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [374,908],
+      "branch_count": 4,
+      "evidence_note": "The brown northeast and southwest traces meet the broad pink strip, which extends left and down-right between dark margins. Four road branches are proposed, conditional on the pink strip being a road rather than a crossing boundary."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [356,931],
+      "branch_count": 3,
+      "evidence_note": "Close brown and dark traces appear to divide toward the upper-right connection, the angular lower-left trace, and the southward trace beside the hatched oval. The exact three-way merger is tentative."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [294,907],
+      "branch_count": 3,
+      "evidence_note": "The angular brown trace appears to attach to the broad pink strip near overlapping blue linework. Three branches are proposed if this attachment and the road reading of the pink strip are correct."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [746,118,768,139],
+      "why": "The heavy horizontal black stroke masks the endpoint of the finer brown branch; its possible continuation cannot be distinguished."
+    },
+    {
+      "bbox_uv": [347,919,369,952],
+      "why": "Overlapping close dark and brown strokes prevent confident separation of the short loop, connector and southward trace at the proposed j03."
+    }
+  ],
+  "overall_note": "The principal brown fork is readable, but its fine margins make several symbol-form classes uncertain. Broad pink bands and the crowded lower connections admit road and non-road readings, so their proposed junctions are conditional. The long diagonal black dashes, blue traces through horizontal hatching, and heavy straight horizontal stroke are excluded as boundaries, water linework or other linework."
+}

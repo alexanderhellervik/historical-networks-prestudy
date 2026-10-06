@@ -1,0 +1,221 @@
+{
+  "tile_id": "cor_e0370_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[85,0],[87,39],[87,80],[87,120],[86,160],[82,194],[65,224],[37,253],[0,289]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two closely spaced dark dotted edges enclose a pale orange strip; the strip bends southwest beside a blue hatched patch.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,341],[46,318],[91,294],[138,269],[185,241],[231,213],[273,186],[312,168],[350,158],[375,152],[389,144],[415,119],[447,85],[480,50],[512,19],[535,4],[554,30],[574,66],[580,106],[582,144],[585,178],[587,222],[586,266],[582,309],[578,354],[575,398],[571,445],[567,490],[563,536],[560,577],[559,606],[568,630],[584,646],[598,654]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03","j09"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange band has two dark dotted margins throughout, ascending diagonally before turning into a nearly vertical strip.",
+      "uncertainty_note": "The sharp upper bend touches the top margin; the short dotted branch at j09 is less distinct than the paired margins.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,664],[43,675],[89,683],[140,687],[188,683],[223,676],[264,669],[310,666],[360,661],[410,658],[460,658],[510,659],[555,658],[598,654],[637,674],[678,690],[721,701],[755,702],[777,698],[817,695],[854,697],[895,701],[937,709],[972,723],[1000,736]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j05","j06","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two rows of dark dots border a pale orange band; both margins follow the shallow bends across the tile.",
+      "uncertainty_note": "The precise meeting with the short access at j07 is blurred by the adjacent blue-green outline.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[137,51],[168,54],[194,61],[221,88],[253,104],[285,105],[317,114],[351,128],[389,144],[426,153],[467,164],[509,173],[549,176],[585,178],[624,168],[659,150],[693,126],[722,107],[743,97]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "One row of heavy dark dots crosses the paired tracks and continues between the scattered tree symbols; no second margin is visible.",
+      "uncertainty_note": "The western end is interrupted beside the red building and large lettering. The eastern dots stop at a thin parcel outline; no continuation is asserted.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[96,0],[109,20],[120,38],[126,49]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short diagonal pale orange strip appears between close dark dotted margins, approaching the red square near the upper edge.",
+      "uncertainty_note": "Its lower end overlaps the building and lettering; a connection to f04 is possible but cannot be traced continuously.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The short blurred diagonal may have only one dotted row rather than two independent margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[50,610],[88,608],[126,608],[165,609],[199,617],[223,628],[244,635],[274,622],[309,613],[347,605],[390,602],[434,607],[477,615],[519,625],[559,640],[598,654]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["dead_end","junction"],
+      "evidence_note": "A single row of dark, fairly heavy dots forms an undulating line above the orange paired track and converges on it at the right.",
+      "uncertainty_note": "At the western end the dots meet a fine continuous outline. That outline is not confidently readable as a continuation of the path.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[188,683],[204,669],[223,652],[244,635]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "One dark dotted row runs diagonally between the lower paired track and the single dotted line above.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[777,698],[802,680],[834,663],[866,647],[893,637],[911,642],[924,661],[934,680],[940,696],[937,709]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j06","j07","j08"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A single dark dotted row rises beneath 'Sikan T', bends beside the blue-green strip, and returns to the paired orange track.",
+      "uncertainty_note": "The eastern descending section is crowded by thin blue-green outlines; its exact centre and junction positions are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Part of the eastern descending line could be the edge of the blue-green enclosure rather than a separate path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[911,642],[933,621],[956,594],[976,574],[984,567]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow dark diagonal with intermittent heavier marks follows the left side of the blue-green strip toward two red building marks.",
+      "uncertainty_note": "The marks are difficult to separate from the enclosure outline. The trace stops where they merge with the upper corner and nearby building symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks may represent a single dotted access path branching from f08."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire diagonal may be an enclosure or parcel edge, with no road branch at j08."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[555,0],[555,15],[554,30]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short nearly vertical row of dark dots lies to the right of the upper orange bend and appears to meet its descending side.",
+      "uncertainty_note": "The segment is short and close to the track casing; it could be part of the paired-edge drawing at the clipped bend.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An outer margin of f02 rather than an independent branch would remove j09."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[922,1000],[949,978],[975,958],[1000,941]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark margins enclose an orange strip clipping the southeast corner; the margins are heavier than the fine parcel outlines.",
+      "uncertainty_note": "Only a short corner segment is visible, so the width category is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible separation could also be described as a narrow double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0,23],[25,18],[48,10],[62,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Very faint, approximately parallel grey-tan strokes clip the upper-left corner, with a light strip between them.",
+      "uncertainty_note": "The faint strokes do not establish a road confidently; their course and separation are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "They may be the margins of a faint narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They may instead be adjoining parcel strokes or reproduction artefacts."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [389,144],
+      "branch_count": 4,
+      "evidence_note": "A single dark dotted row approaches from both sides of the diagonal orange strip with paired dotted margins."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [585,178],
+      "branch_count": 4,
+      "evidence_note": "The east–west single dotted row meets both sides of the nearly vertical orange strip and its two dotted margins."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [598,654],
+      "branch_count": 4,
+      "evidence_note": "Paired dotted orange strips converge from west, north and southeast; a separate single dotted row also arrives from the northwest."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [244,635],
+      "branch_count": 3,
+      "evidence_note": "Three single rows of heavy dark dots meet, extending west-northwest, east-northeast and southwest."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [188,683],
+      "branch_count": 3,
+      "evidence_note": "A single diagonal dotted row reaches the north margin of the orange paired track, which continues in both directions."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [777,698],
+      "branch_count": 3,
+      "evidence_note": "A single dotted row diverges northeast from the upper edge of the paired orange strip beneath the lettering."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [937,709],
+      "branch_count": 3,
+      "evidence_note": "A short dotted line beside a blue-green outline reaches the paired orange track; the meeting is slightly blurred."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [911,642],
+      "branch_count": 3,
+      "evidence_note": "The single dotted curve meets a dark diagonal along the blue-green strip; the third branch is tentative because that diagonal may be an enclosure edge."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [554,30],
+      "branch_count": 3,
+      "evidence_note": "A short vertical dotted row appears to join the paired orange strip at its upper bend; the branch is tentative because the dots may belong to the casing."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The paired dotted tracks and most single dotted paths are readable; fine solid parcel outlines and long sparse boundary dashes were excluded. Building symbols interrupt the upper access, while the eastern blue-green enclosure makes one possible access and its junction uncertain. The faint upper-left strokes and short top-edge branch are retained with alternative non-road readings."
+}

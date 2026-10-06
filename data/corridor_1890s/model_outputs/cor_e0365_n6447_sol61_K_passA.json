@@ -1,0 +1,115 @@
+{
+  "tile_id": "cor_e0365_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[333, 0], [341, 40], [352, 83], [362, 125], [373, 166], [390, 207], [410, 247], [438, 285], [469, 321], [498, 359], [517, 399], [525, 430], [524, 466], [520, 503], [522, 542], [527, 579], [540, 616], [557, 653]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close, approximately parallel rows of dark dots or short strokes, about 7–10 px apart, follow the bends. They cross the straight red line without turning and have no continuous heavy casing.",
+      "uncertainty_note": "The paired dotted symbol does not fit the available classes exactly. Its southern meeting point is partly affected by the sheet join.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dotted rows can be read as the narrow, discontinuous margins of one track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Use if paired dots are considered distinct from both dashed and double-line classes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[557, 653], [580, 623], [606, 587], [630, 550], [651, 514], [672, 476], [690, 442], [705, 425], [725, 417], [739, 389], [749, 359], [760, 323], [801, 309], [844, 294], [887, 279], [932, 267], [970, 259], [1000, 256]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "One row of regularly spaced, comparatively bold dark dots curves northeast and then east. It runs beside horizontal hatch patches without acquiring their repeated transverse strokes.",
+      "uncertainty_note": "The symbol consists of dots rather than elongated dashes; its approach to the junction is partly covered by the sheet join.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A single dotted path symbol has no exact category in the supplied class list."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[557, 653], [551, 667], [566, 696], [586, 730], [591, 751], [585, 777], [575, 806], [563, 837], [550, 869], [530, 907], [506, 939], [478, 963], [443, 984], [404, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close rows of small dark strokes continue below the join, with greenish colour fringing. The rows remain visible beside and beneath the large black T and curve southwest toward the bottom edge.",
+      "uncertainty_note": "A small displacement occurs across the sheet join. Lettering locally masks individual strokes, but the paired drawing on both sides supports the continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired intermittent rows may instead be classified by their two narrow margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The discontinuous paired symbol has no exact match among the classes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[647, 1000], [644, 974], [660, 946], [684, 924], [711, 927], [735, 918], [760, 907], [788, 900], [815, 899], [842, 886], [867, 878], [885, 870]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint, thin green-grey broken trace winds through the lower-right portion. Short separated marks are visible in places; there is no clear heavy casing or consistent second margin.",
+      "uncertainty_note": "This is a doubtful path candidate: some portions resemble a drainage or parcel outline. Its eastern end becomes indistinct beside the red diagonal line, and no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated marks could represent a lightly printed dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a drainage line or parcel edge rather than a road; some waypoints may follow neighbouring faint marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 805], [36, 816], [77, 830], [119, 839], [161, 846], [204, 856], [245, 868], [284, 876], [316, 875], [341, 878]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A fine green-grey dotted or broken trace crosses the lower-left hatch patch, separately from its horizontal strokes. It is uncased and much lighter than the central paired track.",
+      "uncertainty_note": "A path reading is possible, but the trace could be a drainage or hatch-area boundary. Near its eastern end it merges with faint curved outlines, so those outlines are not carried forward as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The fine separated marks could be a single dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead mark drainage or the edge of the hatched area, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [557, 653],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted route from the northwest, the single dotted branch from the northeast, and the paired continuation south converge at the horizontal sheet join. Their apparent meeting is slightly displaced by the join."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [906, 705, 1000, 758],
+      "why": "A pale rectangular image patch interrupts fine map detail; small lines within it cannot be followed reliably."
+    },
+    {
+      "bbox_uv": [342, 790, 454, 906],
+      "why": "Very faint broken curves and pale outlines overlap here; their individual courses and any connection to the western doubtful trace cannot be distinguished reliably."
+    }
+  ],
+  "overall_note": "The central paired dotted track and its single dotted northeastern branch are the clearest road symbols. Two faint traces below the sheet join are retained as doubtful candidates, with explicit non-road alternatives. Straight red lines, long sparse boundary dashes, solid parcel outlines, and horizontal land-cover hatching were excluded."
+}

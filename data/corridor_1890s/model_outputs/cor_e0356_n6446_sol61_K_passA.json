@@ -1,0 +1,204 @@
+{
+  "tile_id": "cor_e0356_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,913],[23,903],[62,885],[102,864],[145,843],[194,820],[219,805],[243,792],[281,767],[323,740],[371,704],[410,685],[454,665],[498,645],[541,625],[583,605],[622,587],[666,565],[713,544],[760,521],[813,492],[853,473],[896,451],[939,429],[982,405],[1000,389]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04","j05","j06","j07","j08"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark edges enclose an ochre-red strip roughly 10–15 px wide; the casing remains visible across the tile.",
+      "uncertainty_note": "The broad road is clear. Several minor connections listed as junctions have less certain symbols, as noted individually.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,854],[10,876],[23,903]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short, narrow ochre-red stroke with darker margins enters the left edge and reaches the broad road.",
+      "uncertainty_note": "This corner fragment lacks enough visible length to distinguish a minor road from a coloured boundary.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The darker margins may be the two edges of a narrow road."},
+        {"proposed_class":"unknown","note":"Alternatively, this is a boundary meeting the road; j01 would then have only two road branches."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,380],[22,412],[43,446],[64,480],[84,518],[105,556],[125,595],[146,636],[168,678],[178,716],[182,757],[188,793],[194,820]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange-brown strip has closely spaced dark dotted or broken margins; it bends beside red and black rectangular symbols before reaching the broad road.",
+      "uncertainty_note": "Large lettering overlaps portions of the line, but aligned margins on both sides support continuity. The mixed dotted and coloured symbol does not clearly fit one class.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the closely spaced margins as a narrow road casing."},
+        {"proposed_class":"dashed_line","note":"Read the repeated dark marks as the defining track symbol."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[243,792],[264,824],[289,864],[318,902],[344,938],[374,972],[399,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre line with dark repeated edge marks leaves the broad road and bends southeast; its dark margins remain visible through the pale green area.",
+      "uncertainty_note": "Some dark marks merge with nearby outlines. It meets the broad road about 50 px east of f03 rather than forming a single four-way crossing with it.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The paired dark margins may define a narrow road."},
+        {"proposed_class":"dashed_line","note":"The interrupted margins may instead define a dotted track."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[186,0],[211,34],[238,73],[266,112],[294,152],[323,192],[351,232],[379,272],[408,313],[437,353],[465,394],[494,434],[522,474],[550,513],[575,548],[600,572],[622,587]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A long narrow orange strip carries small dark repeated marks along its margins; near the lower end it bends beside black dots and a red rectangular symbol.",
+      "uncertainty_note": "The line is traceable, but the coloured centre and broken margins make its symbol-form class uncertain.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The two close margins can be read as narrow road edges."},
+        {"proposed_class":"dashed_line","note":"The repeated dark marks can be read as the principal track symbol."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[484,0],[513,34],[541,70],[569,105],[596,141],[619,176],[643,209],[668,242],[692,274],[701,284],[724,323],[747,363],[769,402],[791,443],[813,492]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09","j06"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "An orange-brown strip with close dark dotted margins runs past pale green polygons, star symbols, and a red rectangle; its lower section reaches the broad road.",
+      "uncertainty_note": "The main course is visible. The connection of f07 beside the red rectangle is less clear than the rest of this line.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The close margins may be narrow road casing."},
+        {"proposed_class":"dashed_line","note":"The dotted margins may be the defining symbol."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[701,284],[715,276],[728,267],[733,251],[746,237],[755,221],[779,261],[803,302],[828,345],[853,388],[878,428],[896,451]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09","j07"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A short dark angular line follows the lower-right edge of a green polygon, then a narrow orange strip with broken dark margins continues southeast to the broad road.",
+      "uncertainty_note": "The angular upper section overlaps the polygon outline and nearby symbols. It may be a connecting track, or the orange segment may begin separately at approximately [755,221].",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The southeast segment has close paired margins compatible with a narrow road."},
+        {"proposed_class":"unknown","note":"The segment from [701,284] to [755,221] may be a polygon boundary rather than a road; omit j09 under that reading."},
+        {"proposed_class":"unknown","note":"The southeast segment could itself be a coloured property boundary rather than a track."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[925,0],[944,29],[963,60],[982,90],[1000,115]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown diagonal with repeated dark edge marks clips the upper-right corner; a large black symbol overlaps it near [967,57].",
+      "uncertainty_note": "Aligned strokes above and below the black symbol support continuity. Its short extent leaves a boundary interpretation possible.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The close dark margins resemble those on the other narrow orange tracks."},
+        {"proposed_class":"unknown","note":"Alternatively, this corner fragment is a coloured boundary."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[634,973],[680,948],[726,922],[772,896],[817,871],[863,845],[909,818],[955,791],[1000,766]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "A straight narrow orange strip with dark dotted or broken margins runs from a thin red line to the right edge.",
+      "uncertainty_note": "No continuation west of [634,973] is visible. The straight course and termination against the red line also support a property-boundary reading.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The paired margins could represent a narrow track."},
+        {"proposed_class":"unknown","note":"Alternatively, the entire line is a coloured property boundary rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[371,704],[363,685],[362,670],[379,671],[391,669]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Short dark strokes rise from the upper casing of the broad road and turn beside small black marks toward a red rectangular symbol.",
+      "uncertainty_note": "The strokes may form a short access path, but their upper portion merges with building or enclosure symbols. The feature stops at the red symbol.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The dark strokes may be a single-line access path."},
+        {"proposed_class":"unknown","note":"Alternatively, these are enclosure or building-outline strokes; j04 would then have only two road branches."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[982,405],[990,424],[1000,441]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short dark, brown-backed diagonal projects southeast from the lower side of the broad road near the right edge.",
+      "uncertainty_note": "The fragment is partly merged with the heavy road casing and could be a separate track, an adjoining outline, or a dark symbol.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The short brown-backed fragment may have two close road edges."},
+        {"proposed_class":"unknown","note":"Alternatively, this is an adjoining non-road outline or symbol; omit j08 under that reading."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[23,903],
+      "branch_count":3,
+      "evidence_note":"The narrow coloured corner stroke reaches the upper dark edge of the broad cased road; the third road branch is conditional on f02 being a road."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[194,820],
+      "branch_count":3,
+      "evidence_note":"The orange strip with dotted margins ends against the broad road's upper casing, which continues in both directions."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[243,792],
+      "branch_count":3,
+      "evidence_note":"A narrow orange line with repeated dark margins leaves the lower casing of the broad road, whose two arms remain visible."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[371,704],
+      "branch_count":3,
+      "evidence_note":"A short dark stroke meets the upper road casing beside small black and red symbols; its interpretation as a third road branch is uncertain."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[622,587],
+      "branch_count":3,
+      "evidence_note":"The diagonal orange line with dotted margins reaches the upper casing of the broad road beside a red rectangle; the broad casing continues southwest and northeast."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[813,492],
+      "branch_count":3,
+      "evidence_note":"A narrow orange strip with dark repeated margins terminates at the upper dark edge of the broad road."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[896,451],
+      "branch_count":3,
+      "evidence_note":"A second narrow orange diagonal meets the upper casing of the broad road; its paired broken margins remain visible almost to the contact."
+    },
+    {
+      "junction_id":"j08",
+      "uv":[982,405],
+      "branch_count":3,
+      "evidence_note":"A short dark diagonal projects from the lower road casing toward the right edge; the third branch depends on interpreting that fragment as a road."
+    },
+    {
+      "junction_id":"j09",
+      "uv":[701,284],
+      "branch_count":3,
+      "evidence_note":"A short angular dark line appears to leave the orange dotted-margin line beside a red rectangle and green polygon; overlapping outlines make this fork uncertain."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad cased road is clear; narrow orange lines combine coloured centres and dotted margins, making their classes less certain. Short connections beside rectangular symbols and green polygon edges admit road and non-road readings, so the associated junctions are conditional. Thin red lines, pale field dashes, blue waterways, and closed building outlines were otherwise read as non-road symbols."
+}

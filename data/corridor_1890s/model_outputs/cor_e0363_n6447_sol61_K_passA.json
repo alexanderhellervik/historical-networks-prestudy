@@ -1,0 +1,272 @@
+{
+  "tile_id": "cor_e0363_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[306, 0], [306, 42], [305, 84], [307, 126], [312, 167], [321, 207], [333, 246], [342, 286], [341, 327], [335, 368], [334, 409], [338, 448], [345, 482], [356, 522]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two dark, broken or stippled margins approximately 8–12 px apart enclose a reddish strip; the strip bends independently of adjoining thin parcel outlines.",
+      "uncertainty_note": "The margins resolve as dots in places rather than continuous lines; the class describes the paired narrow strip.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired stippled margins could warrant an unclassified symbol rather than double_line_narrow."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[356, 522], [363, 552], [362, 579], [353, 605], [348, 620]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The reddish strip with two dark stippled margins continues through a short rightward bend and across the image join.",
+      "uncertainty_note": "The join slightly displaces the drawing, but the paired strip is visible on both sides. The precise lower junction position is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled casing does not match a continuous double-line symbol exactly."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 624], [38, 640], [82, 654], [128, 662], [173, 665], [217, 665], [261, 656], [303, 638], [348, 620]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A curving reddish band has two closely spaced dark stippled edges, approximately 8–12 px apart, matching the central track.",
+      "uncertainty_note": "The last few pixels merge with the central strip beside the image join.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken paired edges could be retained as an unclassified track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[348, 620], [337, 652], [330, 691], [333, 729], [341, 769], [344, 810], [347, 850], [351, 883]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark stippled margins surround a reddish strip approximately 10–14 px wide; its course bows left and then turns gradually right.",
+      "uncertainty_note": "The northern connection is crowded by the join and a thinner diagonal line.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled margins could be treated as an unclassified paired track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[351, 883], [365, 900], [400, 913], [439, 930], [479, 945], [514, 959], [537, 982], [553, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The reddish, dark-stippled paired strip bends sharply right, then curves toward the bottom edge; its two margins remain discernible.",
+      "uncertainty_note": "The margins become less distinct near the bottom lettering, but the strip remains visible to the tile edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken paired edges could be retained without a more specific symbol-form class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 446], [36, 461], [74, 477], [109, 492], [143, 502], [176, 517], [206, 522], [237, 518], [271, 510], [310, 511], [338, 517], [356, 522]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A single row of fairly heavy dark dots initially lies alongside a thin reddish diagonal stroke, then separates and follows an undulating course into the paired track.",
+      "uncertainty_note": "Along the first approximately 110 px, the dots and adjacent red line are difficult to separate. The independently bending dotted continuation supports a path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The western shared-looking section could combine a boundary stroke and a separate dotted path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[356, 522], [381, 547], [405, 570], [424, 592]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One row of dark dots leaves the paired strip diagonally, beside a faint warm-coloured trace, and approaches the image join.",
+      "uncertainty_note": "Its exact connection across the join and nearby lettering cannot be established confidently; it is stopped before that interruption.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could be a dotted boundary rather than a path; a continuation into f08 is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[473, 605], [509, 624], [552, 651], [592, 677], [630, 693], [669, 704], [713, 704], [758, 699], [800, 684], [841, 667], [883, 655], [924, 659], [965, 671], [1000, 678]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A single row of conspicuous dark dots curves southeast, levels out, and turns northeast before bending toward the right edge; no paired casing is evident.",
+      "uncertainty_note": "The western origin is interrupted by lettering and the image join. Connection to f07 is plausible but is not carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary remains possible, although the dots lack the clear long-dash pattern of nearby boundary lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[348, 620], [330, 652], [307, 687], [284, 725], [261, 761], [239, 797], [227, 815]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A thin diagonal reddish stroke has a closely adjacent dark stroke and a narrow pale interval in places; it separates from the broader stippled strip.",
+      "uncertainty_note": "This is a doubtful road reading: red and dark boundary strokes elsewhere have similar appearance. Its inclusion makes the fourth branches at j02 and j03 provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The two colours may form a property-boundary symbol rather than two road margins; under that reading this feature is not a road."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The apparent pale interval may be registration or colour fringing around one stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[227, 815], [201, 855], [176, 893], [151, 932], [124, 971], [101, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The same narrow red-and-dark paired-looking diagonal continues across thin outlines and reaches the bottom edge.",
+      "uncertainty_note": "As with f09, a property boundary is a substantial alternative. No road continuation outside the tile is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This may be a red-overprinted boundary rather than a road."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The adjacent dark and red traces may represent one stroke with colour fringing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0, 818], [28, 806], [60, 796], [96, 789], [124, 791], [159, 803], [195, 810], [227, 815]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One row of heavy, regularly separated dark dots follows a shallow curve; a faint reddish trace accompanies parts of it without forming clear paired margins.",
+      "uncertainty_note": "The crossing at j03 is visible, but its status as a road junction depends on the doubtful diagonal f09–f10.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary is possible, though a single dotted path symbol is the closer visual match."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[227, 815], [264, 827], [301, 846], [329, 868], [351, 883]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The single row of dark dots continues southeast and merges with the dark stippled margin of the reddish paired strip.",
+      "uncertainty_note": "The final dots overlap the broader track margin, making the meeting coordinate approximate by several pixels.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could continue a dotted boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[362, 135], [365, 167], [370, 199], [374, 229], [378, 254]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short column of dark dots or small dashes lies beside green wash; a similar column lies approximately 30–35 px to its right. No narrow casing is resolved.",
+      "uncertainty_note": "This may be a short path, an edge marking, or one side of a single wider symbol shared with f14. Both ends merge into intersecting solid strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the dotted column as one separate short path."
+        },
+        {
+          "proposed_class": "avenue_lined",
+          "note": "Read f13 and f14 together as flanking marks of one avenue; individual tree shapes are not resolved."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dots may mark an enclosure or parcel edge, in which case there is no road here."
+        }
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[397, 162], [401, 193], [405, 225], [408, 256], [410, 289]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A second short column of dark dots or small rectangular dashes borders the green strip, approximately 30–35 px from f13; there is no clearly continuous companion casing.",
+      "uncertainty_note": "A separate path and an enclosure edge are both possible; alternatively this and f13 are two sides of one symbol. The endpoints merge into heavier outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read this column as a second independent short path."
+        },
+        {
+          "proposed_class": "avenue_lined",
+          "note": "Combine it with f13 as possible avenue-flanking marks; their shapes are insufficiently clear to confirm trees."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "This may be an enclosure or parcel edge rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [356, 522],
+      "branch_count": 4,
+      "evidence_note": "The reddish strip with two dark stippled margins passes through; single rows of dark dots approach from the west and leave southeast, giving four apparent road branches."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [348, 620],
+      "branch_count": 4,
+      "evidence_note": "Broad reddish, paired-stippled arms extend north, west and south; a much thinner red-and-dark diagonal departs southwest. Four branches are proposed, conditional on that thin diagonal being a road; the join crowds the meeting."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [227, 815],
+      "branch_count": 4,
+      "evidence_note": "A single row of heavy dark dots crosses the thin red-and-dark paired-looking diagonal. Four branches are proposed if the diagonal is a road; otherwise the dotted trace simply crosses a boundary."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [351, 883],
+      "branch_count": 3,
+      "evidence_note": "A single dotted trace from the northwest merges into the stippled edge of the reddish paired strip, which continues north and bends southeast, giving three branches."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [405, 583, 480, 628],
+      "why": "The image join, displaced strokes and large dark lettering prevent a confident connection between the southeast dotted trace f07 and the eastern dotted trace f08."
+    }
+  ],
+  "overall_note": "The paired stippled reddish strips are readable, but their broken margins do not exactly match continuous double-line symbols. The thin southwest diagonal and two short dotted columns have substantial non-road alternatives, making j02 and j03 conditional. The join near v=600 prevents a certain connection between f07 and f08."
+}

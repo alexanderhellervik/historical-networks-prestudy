@@ -1,0 +1,64 @@
+{
+  "tile_id": "cor_e0358_n6441",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (0,180) via (80,70) to (155,0) the polyline follows the black outline of the pink arable field in the top-left corner. No brown/orange road colour, no double line and no dotted path symbol lies along it at this resolution.",
+      "uncertainty_note": "Fine lines in the top-left corner are small and crowded. A faint dotted line near the top edge around u 110-200 could be a path, but it does not follow this course."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (215,0) to (175,125) the line runs just east of the narrow pink field strip, where only thin black/teal outline lines are visible. None of them carries road colour or a road symbol.",
+      "uncertainty_note": "It is most likely a land-cover or field edge rather than a road, but a thin uncoloured footpath cannot be excluded at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (40,205) to (175,155) the line runs along the north edge of the hatched wet-meadow/mire patch. The only lines there are teal/black vegetation outlines with no road colour.",
+      "uncertainty_note": "Moderate: a faint pale line crosses this area, but nothing matches the brown/orange road drawing used elsewhere on the tile."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear brown dotted double line runs diagonally from the building group under 'Bodalkamp' at about (570,10), past (450,140), to about (385,300) at the farmstead with the red building dot. This is the sheet's road drawing (Sämre/Bättre körväg type), and the overlay follows it closely.",
+      "uncertainty_note": "The last stretch, from (385,305) to (350,325), runs into the black T-shaped mark and the field outlines, where the double line is no longer distinct. Its exact end, and whether it reaches the top edge or stops at the building, is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin continuous orange-brown line leaves the buildings at about (625,55) and runs through (725,180), (710,330) and (725,450) to the broad boundary band at about (770,550). The overlay traces it accurately. On the neighbouring example tile, thin orange/brown lines like this are read as Gångstig.",
+      "uncertainty_note": "Thin orange lines can also be drawn field or ownership limits. It is not decisive that this is a path rather than a boundary, but its colour differs from the crimson boundary lines and the black dashed skifteslinjer. No continuation is visible south of the band."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [585, 30],
+      "what_is_contested": "Whether f04 (brown double line) and f05 (orange line) meet at the building group under 'Bodalkamp', and whether f04 continues to the top edge or ends at the buildings.",
+      "evidence_note": "f04 reaches the black building marks at about (575,15), and f05 starts at the small buildings around (620,55). The lettering and building symbols cover the space between them, so no connecting line can be seen."
+    },
+    {
+      "uv": [370, 320],
+      "what_is_contested": "Whether f04 ends at the farmstead or continues south-west/south. The black T-shaped mark at (355-390, 320-370) could be a symbol or a short continuation.",
+      "evidence_note": "The dotted double line becomes indistinct where it enters the field outlines near the red building dot at (330,312). No road colour continues beyond that point."
+    },
+    {
+      "uv": [770, 552],
+      "what_is_contested": "Whether f05 ends at the broad red/black/grey band or crosses it. If the band were a road or railway rather than a boundary band, this would be a junction.",
+      "evidence_note": "The orange line stops at the red edge of the band. South of the band, only a black dashed line (skifteslinje-type) and crimson boundaries continue, with no orange line."
+    }
+  ],
+  "overall_note": "The only clearly drawn roads on this tile are the brown dotted double line (f04) and the thin orange line (f05), which I read as a track or footpath. The broad straight red/black/grey band, the crimson lines and the black dashed lines read as boundaries (a broad boundary band, possibly a railway), not as roads. I found no additional road lines that the overlay misses; f01-f03 in the top-left follow field and vegetation outlines."
+}

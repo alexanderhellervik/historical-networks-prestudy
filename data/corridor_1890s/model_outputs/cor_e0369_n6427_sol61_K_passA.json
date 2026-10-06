@@ -1,0 +1,94 @@
+{
+  "tile_id": "cor_e0369_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[970, 407], [985, 404], [1000, 398]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two short, dark, approximately parallel strokes enclose a narrow ochre interval beside the heavy red-and-black boundary.",
+      "uncertainty_note": "The boundary overprint obscures the western endpoint. No continuation across the lettered strip is sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short exposed length could be a parcel edge rather than a road; the lower stroke is partly obscured."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[884, 1000], [909, 990], [939, 978], [969, 965], [1000, 953]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Closely spaced dark dots or short dashes follow a narrow ochre diagonal stroke; a fine adjoining edge is intermittently visible.",
+      "uncertainty_note": "A track is plausible, but the exposed corner segment does not resolve whether the symbol has one edge or two. The connection at j01 is conditional on f03 being a path.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible single dotted or short-dashed path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road with a continuous edge and a dotted edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel boundary remains possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[870, 920], [883, 940], [896, 959], [906, 977], [909, 990]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "One fine, continuous ochre stroke bends southeast from the broad red boundary strip and touches the dotted diagonal line; no casing or flanking dots are resolved.",
+      "uncertainty_note": "This is a weak path candidate. Its appearance also supports a field or parcel edge; the upper endpoint disappears against the red strip.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Field or parcel edge rather than a road; under this reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [683, 0], [681, 48], [684, 88], [673, 133],
+        [661, 179], [652, 224], [640, 270], [631, 316],
+        [620, 362], [615, 397], [606, 443], [595, 487],
+        [585, 532], [576, 578], [566, 624], [555, 668],
+        [547, 713], [537, 759], [527, 804], [514, 850],
+        [503, 896], [489, 946], [475, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A very faint tan-grey linear trace runs obliquely through the forest symbols, with an intermittent nearby edge; no regular road dots or dark casing are discernible.",
+      "uncertainty_note": "The road interpretation is weak: this could be a parcel line or a paper/printing trace. The approximate course has about 10 px positional uncertainty, and apparent doubling may be staining.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible faint, uncased path if the principal stroke is cartographic."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel line or paper/printing trace."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [909, 990],
+      "branch_count": 3,
+      "evidence_note": "The fine ochre curved stroke touches the darker dotted diagonal, producing three visible arms if both are roads; the third arm may instead be a parcel edge."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The short eastern-edge segments are the clearest road candidates, although their symbol forms remain uncertain. The faint central trace and lower-right joining stroke admit non-road readings, and j01 is conditional. The prominent lettered red strips, boundary dashes, horizontal ruled line, blue water lines and dark field rims were excluded."
+}

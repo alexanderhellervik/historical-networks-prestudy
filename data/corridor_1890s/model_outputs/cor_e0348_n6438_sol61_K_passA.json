@@ -1,0 +1,66 @@
+{
+  "tile_id": "cor_e0348_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 611],
+        [20, 653],
+        [38, 694],
+        [55, 732],
+        [71, 769],
+        [84, 798],
+        [108, 830],
+        [133, 859],
+        [153, 877],
+        [174, 871],
+        [191, 866],
+        [207, 876],
+        [218, 889]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One dark interrupted line, with short strokes and dotlike marks over faint ochre colouring, bends southeast and then briefly east. No consistent paired casing is visible; its final marks approach small dark building rectangles.",
+      "uncertainty_note": "Some marks coincide with an ochre parcel edge, allowing a boundary interpretation. The line becomes inseparable from building outlines near its southeastern end; continuity to f02 is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The interrupted marks could partly represent a parcel outline rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [240, 943],
+        [243, 960],
+        [256, 980],
+        [275, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short sequence of dark marks beside black building symbols descends and bends southeast toward the lower edge. Faint ochre and blue strokes occur alongside; two consistently spaced road edges cannot be resolved.",
+      "uncertainty_note": "This is a doubtful path fragment: building and parcel outlines may account for some of its strokes. It may continue f01, but the intervening drawing does not establish that connection.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the separated dark marks belong to one path, they resemble the interrupted symbol on f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent fragment could instead consist of building and parcel outlines, with no road here."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [211, 886, 263, 952],
+      "why": "Closely packed dark building symbols and parcel outlines prevent a reliable tracing of the possible connection between f01 and f02."
+    }
+  ],
+  "overall_note": "The interrupted line entering from the left is the clearest path candidate; its passage through the buildings is uncertain. Red angular lines, the horizontal sheet seam, and the broad curves associated with hatching or tree symbols were read as non-road linework. No meeting of three road branches is resolved."
+}

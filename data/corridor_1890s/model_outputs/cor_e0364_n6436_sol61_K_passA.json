@@ -1,0 +1,63 @@
+{
+  "tile_id": "cor_e0364_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 980], [42, 980], [85, 982], [125, 980], [164, 977], [200, 977], [222, 976], [243, 974]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin, nearly horizontal dark trace carries closely spaced black dots or short marks; a faint continuous upper edge is intermittently visible. Its eastern end merges with the red wash.",
+      "uncertainty_note": "A dotted path or a narrow solid-and-dotted track is possible, but the marks are not sufficiently distinct to exclude a boundary or another non-road symbol. No continuation through the red wash is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separate dark marks could constitute a dotted path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the faint upper trace belongs to the dotted lower trace, this could be a narrow track with unlike edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, the dark marks belong to a boundary or other non-road line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[922, 918], [933, 936], [951, 954], [970, 974], [990, 991], [1000, 999]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown stroke with dark edging bends southeast toward the corner. Nearby finer dark strokes suggest a possible second edge, but do not form an unmistakable continuous casing.",
+      "uncertainty_note": "This is a candidate road, with a red-tinted property boundary also plausible. Marks farther northwest overlap the blue-and-red band and cannot confidently be connected to this feature.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The reddish-brown stroke could represent a single-line track."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The neighbouring fine stroke could be the second edge of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, this is a coloured boundary beside separately drawn parcel outlines."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [230, 965, 260, 993],
+      "why": "The dotted candidate's possible continuation merges with dense hatching and red wash."
+    },
+    {
+      "bbox_uv": [878, 861, 930, 925],
+      "why": "Overlapping dark strokes, blue fill and red wash prevent a reliable connection to the southeast candidate."
+    }
+  ],
+  "overall_note": "Both reported candidates are uncertain; no road junction is established. The long diagonal dashes match boundary symbols, while the heavy black-and-white segmented line at the lower left matches a railway. The broad red band adjoining blue fill is not sufficiently road-like to trace as a road."
+}

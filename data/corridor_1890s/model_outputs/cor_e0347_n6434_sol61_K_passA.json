@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0347_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[747, 0], [735, 25], [720, 55], [711, 87], [701, 118], [690, 163], [670, 197], [650, 230], [633, 263], [617, 292], [604, 315]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown-orange band has two dark, intermittently broken edges about 6–12 px apart; black rectangular symbols and outlined orange polygons flank its upper portion.",
+      "uncertainty_note": "The paired edges merge locally with adjacent polygon outlines. The short branch at j02 is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches resolve principally as dark broken strokes over brown colouring rather than two distinct edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[604, 315], [586, 339], [565, 362], [541, 382], [519, 394], [491, 398], [464, 396], [445, 399], [431, 408], [422, 425], [417, 450], [412, 477], [401, 498], [387, 513], [369, 523], [347, 521], [322, 517], [299, 515], [285, 509]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A curved orange-brown strip with close dark broken margins runs beneath italic lettering, then bends downward and left among small orange polygons and black or red rectangular marks.",
+      "uncertainty_note": "The western end becomes indistinct among small symbols and outlines near (285,509); no continuation or terminal branch is asserted there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the western endpoint, the faint strokes could include adjoining parcel edges rather than a continuous road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[604, 315], [612, 347], [623, 378], [637, 413], [651, 446], [661, 474], [669, 488], [658, 508], [657, 540], [659, 577], [660, 614], [661, 651], [661, 684], [660, 710], [672, 738], [684, 765], [675, 788], [672, 811], [680, 841], [697, 874], [713, 904], [738, 930], [768, 952], [792, 969], [804, 989], [806, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close rows of dark broken marks flank a brown strip, roughly 7–12 px wide. It crosses a thin red transverse line near v=480 and passes beneath large black lettering near v=680 and v=950.",
+      "uncertainty_note": "The exact centre is less clear around (665,490) and beneath lettering. Matching broken margins on both sides support carrying the line through those interruptions; no separate branch is resolved at the red-line crossing.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "In the middle section, individual dark dashes are clearer than the separation between the two margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[690, 163], [704, 166], [720, 174], [736, 180], [750, 188]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short narrow brownish strip with close dark strokes extends rightward from the diagonal band, beside small black rectangular marks and tightly packed orange polygon outlines.",
+      "uncertainty_note": "This may be a short access track, but its strokes also merge with parcel outlines. Its eastern course is obscured, and the third branch at j02 depends on this reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close dark strokes could be two road margins around a narrow coloured strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, these are adjoining polygon edges and there is no road branch or road junction at j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[838, 193], [859, 190], [886, 181], [917, 168], [948, 150], [978, 133], [1000, 121]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A diagonal row of fairly heavy, closely spaced dark dots or short dashes lies over faint reddish colouring; no definite pair of casing lines is visible.",
+      "uncertainty_note": "A path and a boundary are both plausible. At the western end it meets a thin red line and nearby polygon edges; a continuation through those marks cannot be traced confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted diagonal may be a boundary rather than a road or path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [604, 315],
+      "branch_count": 3,
+      "evidence_note": "The brown band with broken dark margins divides into a southwest-curving band and a southeast-descending band, giving three visible arms."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [690, 163],
+      "branch_count": 3,
+      "evidence_note": "Two arms follow the diagonal brown band; a possible third narrow brown-and-dark strip extends rightward among black rectangular marks. The third arm may instead be parcel edging."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [278, 482, 320, 526],
+      "why": "Faint road-end strokes overlap small dark symbols, lettering and polygon edges, preventing a reliable terminal course."
+    },
+    {
+      "bbox_uv": [700, 154, 806, 222],
+      "why": "Closely packed polygon outlines, black symbols and lettering prevent a reliable connection between the possible short branch and the upper-right dotted line."
+    }
+  ],
+  "overall_note": "The brown bands with broken dark margins provide the strongest road evidence. The short upper branch and upper-right dotted diagonal remain tentative, with boundary readings retained. Broad pink bands, thin red parcel lines, blue water outlines and marsh hatching were distinguished from roads."
+}

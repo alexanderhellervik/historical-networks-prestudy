@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0354_n6443",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A broad double line with brown edges and a pale fill runs straight from the top edge at about (380,0) past Bergsgården to the left edge at about (0,373). It is the strongest road symbol on the tile, so it reads as a landsväg or bygdeväg. The overlay line lies along it.",
+      "uncertainty_note": "The course is clear. Wide versus narrow is a judgement from the line width, but this road is clearly wider than the other roads on the tile."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (40,355) to (380,580) a pale strip about 15 px wide runs between a crimson line on its lower side and a thin dark line on its upper side. The overlay follows the crimson edge. The strip carries none of the brown road colour that every certain road on this tile has. Crimson lines on this sheet are boundaries (see the worked example). The strip does, however, link the end of the Blåsaretorp road (f03) to the main road (f01), which is what a road would do.",
+      "uncertainty_note": "Reading 1: an uncoloured double-line road (double_line_narrow) with a boundary drawn along it. Reading 2: a boundary, or a boundary plus a ditch or field edge, and no road. The drawing does not decide between them. If it is a road, its centreline is the middle of the strip, about 8 px above the overlay line."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road line runs from Blåsaretorp at about (390,605) east-southeast past (530,640) and (660,688) to Börje at about (830,722). It is drawn as a brown band with darker edges. The overlay follows it.",
+      "uncertainty_note": "At this resolution I cannot tell double_line_narrow from a heavy single_line. Where the road ends in the east (around 800–840 in u) depends on the Börje junction."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line comes in near the top-right corner at about (988,28) and runs south-west past No 3 and the G farm to the stream crossing at the star symbol (745,512). It then bends south-east through Börje to about (830,720) and carries on south past G and B to the bottom edge at about (790,1000). The overlay follows the whole course.",
+      "uncertainty_note": "The upper part is a thin single brown line. Between the star and Börje it looks heavier, so the class may change along the line. The northern end may turn west into the top-edge line (see the missed feature m01) instead of leaving through the edge."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road line runs east from the Börje junction at about (835,718) across the 'Börje' lettering to the right edge at about (1000,700). It continues the line of f03.",
+      "uncertainty_note": "The lettering overlaps the line, so the class is not certain. It could be a single_line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line leaves f03 at about (660,688) and runs straight south-west between the fields and the light meadow patches to the bottom edge at about (468,1000).",
+      "uncertainty_note": "The course and the junction are clear. single_line versus double_line_narrow is a judgement call."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The curve from about (30,155) to (100,275) follows the dotted outline of the green garden or yard patch west of Bergsgården. At that position I see no brown road line and no road symbol.",
+      "uncertainty_note": "The area is cut off at the left edge and crowded with text ('ss', 'h4'). A small yard path cannot be completely ruled out, but nothing I can see supports one."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short line near (795,615)–(800,700) runs among the Börje house symbols (small orange squares) and the letters 'T' and 'B'. I can find no distinct brown road line separate from f04, which passes just to the east.",
+      "uncertainty_note": "It could be a short yard track between the buildings, or it could duplicate f04. At this resolution, with the buildings and letters on top, I cannot settle it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[925, 0], [960, 8], [990, 24]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Along the top edge in the far right corner, a brown line runs from about (925,0) to about (990,24), where f04 starts. Its colour and weight match f04.",
+      "uncertainty_note": "This piece is only about 70 m long and lies against the tile edge. It may be the continuation of f04, which would then bend west and leave through the top edge, instead of a separate road.",
+      "alternatives": ["f04 continues west along this line and leaves through the top edge at about (925,0); there is no separate branch.", "A separate road along the top edge that meets f04 near (990,24) and also carries on to the right edge."]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [830, 720],
+      "what_is_contested": "This is where f03, f05, the Börje section of f04 and f04's southward continuation meet. Whether it is one four-way junction or two junctions a few tens of metres apart (f03 meeting the southward road near (805,725), and f04 or f05 meeting near (835,718)) is unclear.",
+      "evidence_note": "House symbols, the letters 'B' and 'Börje', and a green meadow patch all overlap the meeting point. The brown lines converge within about 40 px, but their exact joins cannot be resolved."
+    },
+    {
+      "uv": [990, 25],
+      "what_is_contested": "Whether f04 ends at the edge here, turns west into the top-edge line (m01), or forms a three-way junction with it.",
+      "evidence_note": "The brown lines meet right at the top-right corner of the tile, so most of the geometry lies outside the face."
+    },
+    {
+      "uv": [385, 595],
+      "what_is_contested": "Whether a junction exists here at all. It is one only if the pale strip f02 is a road continuing west from f03.",
+      "evidence_note": "f03 begins at the Blåsaretorp lettering exactly where the crimson-edged strip ends. The strip has no brown road colour."
+    },
+    {
+      "uv": [38, 357],
+      "what_is_contested": "Whether f02 joins f01 here as a road branch, or is only a boundary meeting the road.",
+      "evidence_note": "The crimson line and the pale strip run up to the main road, but they have no road colour of their own."
+    }
+  ],
+  "overall_note": "The brown road network (f01, f03, f04, f05, f06) is clear, and the overlay follows it well. f07 traces a garden outline rather than a road. f02 (a crimson-edged pale strip with no road colour) and f08 (lost among the Börje buildings) cannot be decided. The thin blue lines in the upper middle, the black dashed lines and the grey thin lines read as ditches and boundaries, not roads."
+}

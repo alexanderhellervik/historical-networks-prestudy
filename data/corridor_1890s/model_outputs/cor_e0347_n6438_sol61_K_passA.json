@@ -1,0 +1,47 @@
+{
+  "tile_id": "cor_e0347_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 542], [50, 535], [100, 527], [150, 520], [200, 513], [250, 506], [300, 499], [350, 493], [400, 486], [450, 480], [500, 473], [550, 467], [600, 460], [650, 454], [682, 450]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two faint, approximately parallel gray-brown continuous strokes, roughly 8–14 px apart, run above the pink stripe and its heavier dash-and-dot line. No flanking tree symbols are visible.",
+      "uncertainty_note": "The paired strokes are faint. Their eastern end disappears into the broad colored north–south linework; neither a continuation nor a road junction is sufficiently visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The faint parallel strokes could be separate parcel or other linear marks rather than a narrow road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 678], [40, 674], [80, 669], [120, 665], [155, 661], [180, 658]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Very pale gray strokes form a narrow, nearly parallel band between the darker broken lines above and below. They approach the initial lettering of 't. Skilltorp'; no clear casing or roadside symbols are visible.",
+      "uncertainty_note": "Low-confidence track candidate: fading and surrounding hatching make its line count and purpose uncertain. It is stopped at the lettering rather than continued across it.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the pale strokes belong together, they could represent a narrow paired-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They could instead be parcel linework or discoloration; this reading would remove the feature from the road inventory."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [172, 637, 548, 683],
+      "why": "Lettering and marsh hatching overlap the possible continuation of the very faint lower track candidate; a continuous course cannot be established."
+    }
+  ],
+  "overall_note": "The faint paired line above the east–west pink stripe is the strongest road candidate; the lower candidate remains doubtful. The prominent colored stripes carry broken boundary-like marks, while the thin green curving lines resemble water linework. No meeting of three road branches is sufficiently visible to report a junction."
+}

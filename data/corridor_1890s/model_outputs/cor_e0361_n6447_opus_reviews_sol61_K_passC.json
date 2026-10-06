@@ -1,0 +1,101 @@
+{
+  "tile_id": "cor_e0361_n6447",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line with dots between the two edges (Sämre körväg-style) runs from the top edge near (140,0) down past the B 29 farm to the crossing near (75,272). The polyline lies on it.",
+      "uncertainty_note": "The course is clear. The class could also be read as Bättre körväg, because at this resolution the inner dotting is hard to separate from a plain inner line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown dotted double line continues south from the crossing, around the east side of the small forest patch at (40,320), and leaves the left edge near (0,390).",
+      "uncertainty_note": "The course is clear. The class has the same Sämre/Bättre körväg ambiguity as f01."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted double line enters from the left edge at about (0,248) and reaches the crossing at about (75,272). It lines up with f04, so it is probably the same road running through the crossing.",
+      "uncertainty_note": "This is a short segment and the line is faint near the edge, but it is visible."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear brown dotted double line runs from the crossing through (160,300), (260,345), (340,395) and (420,435), along the north-east side of the green meadow patch, and down to the sheet seam at about (515,530). The polyline follows it.",
+      "uncertainty_note": "The line ends at the mosaic seam, so how it continues below the seam has to be inferred (see contested junctions)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "On the lower sheet piece, a brown dotted double line starts just below the seam at about (525,560) and runs south-east past the hatched field through (640,655) to the vertical seam at about (785,685).",
+      "uncertainty_note": "Its first 40 px near (530-560, 570-600) are partly washed out by a light abrasion, but the dotting can be followed."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Right of the vertical seam, the brown dotted double line continues from about (795,680) eastward to about (930,705).",
+      "uncertainty_note": "The join to f05 crosses a sheet seam with a slight offset. Where f06 ends depends on where the fork with f07/f08 is placed."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The main brown dotted double line carries on east-south-east from about (930,705) and leaves the right edge at about (1000,740).",
+      "uncertainty_note": "A thin crimson boundary line runs close to it here, which makes the edges harder to read. Still, the road dotting is visible."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (950-1000, 680-700) there is brownish linework splitting off the main road towards the upper right, but over this short span it is a cluster of brown and crimson strokes. I cannot tell whether it is a second road, the edge of a building or field, or a boundary line.",
+      "uncertainty_note": "It is only about 50 px long, right at the tile edge. The neighbouring tile would decide it."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A broad band, about 12-15 px wide, filled solid red with a dark edge line, runs from the left edge near (0,870) to the bottom edge near (200,1000). It is far heavier than the thin crimson boundary lines elsewhere on the tile, which fits a red-filled main road (landsväg) on this map series.",
+      "uncertainty_note": "This could instead be a railway (black/white segments recoloured) or a coloured administrative boundary band. The legend crop does not show a red-filled road, so the class is my interpretation."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [75, 272],
+      "what_is_contested": "Whether this is one four-way crossing (f01/f02 north-south, f03/f04 west-east) or two T-junctions a few pixels apart.",
+      "evidence_note": "The brown dotted lines meet in a tight knot at the north-west corner of the small forest patch. At this resolution the inner dotting cannot be traced through the knot."
+    },
+    {
+      "uv": [518, 545],
+      "what_is_contested": "Whether f04 and f05 are one road continuing across the horizontal sheet seam.",
+      "evidence_note": "f04 reaches the seam at about (515,530) and f05 starts at about (525,560). The seam band and the offset between sheet pieces hide about 30 px, so the continuation is inferred, not drawn."
+    },
+    {
+      "uv": [788, 683],
+      "what_is_contested": "Whether f05 and f06 are one road continuing across the vertical sheet seam.",
+      "evidence_note": "The brown dotted double line stops at the dark seam on both sides at nearly the same v, so it is probably continuous. The seam itself shows no drawing."
+    },
+    {
+      "uv": [940, 705],
+      "what_is_contested": "Whether there is a fork at all (f06 into f07 and f08), and how many branches it has.",
+      "evidence_note": "There is a brown/crimson cluster where a second branch towards the upper right might leave the road. A boundary line crosses at the same place, and the drawing does not decide between a road fork and a road crossed by a boundary."
+    }
+  ],
+  "overall_note": "The overlay's brown dotted roads (f01-f07) match what I read independently on the bare tile, and I found no additional drawn roads. The thin blue diagonal, the long straight black/crimson lines and the dotted edge of the meadow patch are boundaries, ditches or land-cover edges, not roads. The open questions are the seam continuations, the short f08 branch at the right edge, and whether f09 is a red-filled landsväg or a railway or boundary band."
+}

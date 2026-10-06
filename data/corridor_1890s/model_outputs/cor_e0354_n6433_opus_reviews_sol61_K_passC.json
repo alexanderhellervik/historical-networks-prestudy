@@ -1,0 +1,138 @@
+{
+  "tile_id": "cor_e0354_n6433",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Heavy double line with dark casings and red-brown fill enters at the top edge near u=115 and runs SSE to about (150,120); the overlay sits on it.",
+      "uncertainty_note": "This is clearly a cased road. Choosing wide over narrow is a judgement: the casing is about 10-15 px apart and it is the most prominent road on the tile."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Same brown-filled double road continues from about (150,120) through (190,200) to (215,265), past the small pink plot at about (155,155). The overlay runs along its western casing, within about 10 px.",
+      "uncertainty_note": "The course is good. The class is the same judgement as for f01."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Double road with red-brown fill bends east at about (300,335)-(360,340), then runs SE via (400,420), (450,470) and (520,540) to the bend at about (548,600). The overlay follows it.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (550,605) the brown-filled double road runs straight SE via (650,700), (720,775), (800,850) and (870,940) to the bottom edge near u=905. The parallel magenta line to its NE, from (560,610) to (1000,880), is a boundary and not part of the road.",
+      "uncertainty_note": "Low for the course. The boundary drawn hard against it could be confused with a second carriageway, but it is magenta and not cased."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line from (0,300) to about (210,268) is a solid crimson/magenta stroke, the same colour as the boundary along f04 and as the boundaries in the worked example. It has no casing and no brown road colour.",
+      "uncertainty_note": "Fairly confident this is an administrative boundary (socken/hemman), not a road."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin red-brown line runs from the west edge at about v=455 ESE along the south side of the green meadow strip to about (130,550). Its colour matches the single-line körväg/stig colour in the worked example, not the magenta boundaries.",
+      "uncertainty_note": "Moderate. The line is thin and partly merges with the dark outline of the meadow, so it could be only a coloured field edge."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown single line runs from the farm cluster at G (about 135,550) east along v~550-555 to about u=380, then along the edge of the green strip SE to meet the main road near (540,595). It is a plausible lane from the village to the main road.",
+      "uncertainty_note": "Moderate. East of u=380 the line runs along the green-strip outline and under the 'Ulvarås' lettering, so the exact course and the junction point are hard to see."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line leaves the village at about (222,575) and runs down to (255,670). It continues as a dotted, brown-tinged line via (265,800), (295,905), (340,940), (400,920) and (460,865) to the farm group 'St.' at about (490,840). This matches the dotted gångstig symbol.",
+      "uncertainty_note": "Moderate. Dotted lines on this sheet also outline meadow and wetland areas. Here, however, the line crosses open ground, links two settlements and is tinted brown, which favours a path. It could also be a sämre körväg."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of dots runs from the west edge at about (0,68) via (60,80) and (100,93) to the main road at about (140,108). The overlay follows it closely, although slightly straighter.",
+      "uncertainty_note": "Moderate. The dots are a path symbol, but it is a short isolated dotted line and could be a field limit."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (130,600) toward (0,800) the overlay runs along the black outline of the pink field near (100,620)-(55,700), then across pale open ground and over the crimson boundary. No brown road colour, casing or dot row is visible along it.",
+      "uncertainty_note": "Moderate. A faint pale strip west of the field could be an unmarked track, but nothing is drawn as a road."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange/red-brown line with a dark edge runs from about (345,128) via (460,175), (520,145), (620,150), (700,195) and (770,250) to (880,265) near the stream. Its colour is the thin road colour of the worked example.",
+      "uncertainty_note": "Moderate. Part of its length coincides with a dark field/forest edge, and it ends at the stream, so it could be a coloured land-use edge rather than a track. Its west end may continue north to the top edge (see m01)."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[265, 0], [285, 30], [300, 60], [325, 100], [345, 128]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "The same orange line as f11 seems to continue NW past the west side of the pink plot at about (300-350, 50-125) up to the top edge near u=265.",
+      "uncertainty_note": "Low to moderate confidence. It may only be the coloured outline of the plot. The overlay starts f11 at about (345,128).",
+      "alternatives": ["Outline of the pink plot, not a road", "Path continuing west under '2B' toward the main road at about (130,45)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[515, 0], [700, 100], [850, 185], [1000, 268]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two faint, perfectly straight parallel grey lines about 12-15 px apart cross the NE part of the tile. They ignore terrain and parcels.",
+      "uncertainty_note": "Low confidence that this is a road. It has no road colour and looks like a later pencil addition or construction line. I list it only because it is drawn as a parallel pair.",
+      "alternatives": ["Not a road: later pencil/planning line (e.g. a projected railway alignment)", "Survey construction line"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [545, 597],
+      "what_is_contested": "Where f07 actually meets the main road (f03/f04), and whether it does so at the bend at all.",
+      "evidence_note": "The end of f07 runs along the green-strip outline and under the 'Ulvarås' lettering. It may join the road at about (530,585) or simply run into the strip edge."
+    },
+    {
+      "uv": [135, 550],
+      "what_is_contested": "How many branches meet here: f06 and f07 are plausible, f10 is not a drawn road, and f08 leaves nearby at about (222,570).",
+      "evidence_note": "The village buildings at G and the green garden square at (140-190, 560-600) obscure the line crossings."
+    },
+    {
+      "uv": [222, 570],
+      "what_is_contested": "Whether f08 connects to the f07 lane or ends at the buildings at about (210,585).",
+      "evidence_note": "The thin orange start of f08 fades among the building symbols just south of f07."
+    },
+    {
+      "uv": [345, 128],
+      "what_is_contested": "Whether f11 continues north to the top edge (m01) or starts here at the plot corner, where a dashed boundary also begins.",
+      "evidence_note": "The orange line along the plot edge could be a road or a coloured outline."
+    }
+  ],
+  "overall_note": "The main cased, brown-filled road (f01-f04) is clear. The thin red-brown and dotted lines (f06-f09, f11) are probable minor roads and paths with moderate uncertainty. f05 is a magenta boundary and f10 follows no drawn road, while the long dashed NW-SE lines are boundaries and the dark line in the south is a stream."
+}

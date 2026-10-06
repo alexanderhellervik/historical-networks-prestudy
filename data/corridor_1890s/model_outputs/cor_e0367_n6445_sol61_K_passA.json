@@ -1,0 +1,91 @@
+{
+  "tile_id": "cor_e0367_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 571], [36, 563], [65, 561], [94, 570], [119, 589], [135, 619], [145, 651], [154, 677], [169, 695], [189, 702], [216, 695], [246, 680], [280, 666], [321, 655], [354, 642], [382, 627], [400, 625], [424, 634], [447, 637], [464, 630], [486, 607], [512, 577], [539, 550], [567, 525], [590, 507], [615, 496], [638, 498], [665, 509], [691, 526], [719, 548], [742, 571], [755, 584], [779, 607], [808, 629], [843, 651], [878, 671], [914, 685], [949, 699], [978, 715], [1000, 727]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two substantial, mostly continuous dark edges enclose an ochre-grey strip roughly 8–14 px wide. Both edges follow the winding course; separate red lines cross or run nearby.",
+      "uncertainty_note": "The edges briefly merge with the narrow north–south grey feature around [632, 498], but the road's paired drawing resumes on both sides. The centreline there is approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[34, 391], [49, 380], [74, 362], [101, 344], [128, 333], [153, 330], [176, 332], [205, 339], [238, 333], [270, 326], [300, 317], [331, 306], [359, 292], [391, 267], [425, 239], [459, 212], [494, 184], [527, 157], [560, 130], [592, 104], [622, 77], [648, 49]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "A narrow pale ochre strip has two close, irregularly dotted or broken dark margins. Its southwest portion bends through the black and red rectangular symbols beneath the lettering; the northeast diagonal exposes the paired marks clearly.",
+      "uncertainty_note": "Lettering hides portions between approximately [176, 332] and [359, 292]; the visible margins on either side support the connection, though individual waypoint positions there are approximate. The northeast end disappears into a dark mark on the red line; no continuation is asserted. The southwest tip appears rounded, but its exact termination is indistinct.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches have nearly continuous margins; the broken appearance could partly reflect reproduction quality."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[755, 584], [779, 562], [807, 540], [838, 514], [871, 487], [905, 460], [940, 431], [973, 404], [1000, 383]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two thin, close, broken dark margins flank a pale yellow diagonal strip. They approach the paired winding line from its upper-right side and continue to the right edge.",
+      "uncertainty_note": "The meeting around [755, 584] is crowded by dark rectangular marks; its coordinate is approximate. Some short stretches could instead be a solid edge accompanied by dots.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Several sections appear to have two continuous fine edges rather than consistently interrupted margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel boundary remains a possible reading where the diagonal borders angular outlined areas, although the paired ochre strip favours a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[782, 590], [797, 579], [812, 565], [829, 548], [845, 535], [867, 520], [891, 509], [920, 503]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "An irregular thin dark-and-ochre course runs among heavy black rectangular symbols, below the clearer northeast diagonal. Short portions show a second fine edge; other portions merge with the rectangles.",
+      "uncertainty_note": "This may be a separate narrow approach, portions of enclosure boundaries, or an alternative reading of the neighbouring approach. Its southwest connection is hidden by dark symbols, and its northeast end reaches the white patch; neither connection is completed.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the thin connecting strokes constitute a path, much of its visible symbol is a single line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Short paired portions could indicate a narrow track interrupted by rectangular symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may belong entirely to parcel or enclosure outlines, with no separate road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [755, 584],
+      "branch_count": 3,
+      "evidence_note": "The broad paired ochre-grey line continues in two directions, while a narrower diagonal with broken paired margins meets its upper side. Heavy nearby black marks make the exact contact approximate."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [53, 472, 103, 558],
+      "why": "An opaque pale rectangular patch removes the underlying drawing; faint marks inside cannot establish a road course."
+    },
+    {
+      "bbox_uv": [922, 472, 972, 524],
+      "why": "An opaque pale rectangular patch interrupts the possible approach among the black symbols and lettering."
+    }
+  ],
+  "overall_note": "Lettering and heavy rectangular symbols obscure parts of the narrower approaches. The broad pink/red lines are read as boundaries, and the narrow north–south grey paired feature as water banks connecting pale blue-green shapes; neither is included as a road. The possible additional approach f04 is retained with its boundary and course alternatives."
+}

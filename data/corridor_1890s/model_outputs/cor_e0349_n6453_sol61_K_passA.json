@@ -1,0 +1,51 @@
+{
+  "tile_id": "cor_e0349_n6453",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 825], [20, 840], [45, 846], [90, 847], [140, 846], [190, 845], [240, 844], [290, 844], [340, 845], [390, 845], [440, 844], [490, 845], [540, 845], [580, 845], [615, 841], [660, 842], [710, 838], [760, 834], [810, 829], [860, 824], [910, 825], [960, 826], [1000, 824]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad red/magenta band accompanies a heavy black lower stroke and an intermittently visible dark upper edge. The apparent edges are roughly 15–25 px apart; no regular dotted or dashed sequence is securely resolved.",
+      "uncertainty_note": "Included as a doubtful road candidate: the dark edges could be road casing, but a coloured boundary remains a substantial alternative. A pale scuff near u=610 obscures detail; aligned strokes on both sides support carrying the course through it.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the two dark edges are casing, they enclose a relatively wide coloured road strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red band could highlight a boundary rather than a road; the blurred black stroke does not securely resolve the underlying symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 11], [9, 5], [18, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short oblique dark stroke clips the upper-left corner, with a narrow blue-grey fringe; separate parallel edges or repeated dots are not clearly visible.",
+      "uncertainty_note": "Too little of the symbol is inside the tile to establish that it is a road. A watercourse or land-cover outline is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a single road or path stroke if the blue-grey fringe is incidental."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a watercourse or land-cover outline, with no road represented."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [584, 815, 641, 873],
+      "why": "A pale scuff and colour smearing obscure the fine structure of the red-and-black line."
+    }
+  ],
+  "overall_note": "Neither candidate is securely identifiable as a road from its visible symbol. The broad coloured line is particularly difficult to distinguish from a highlighted boundary. No additional road symbols or road junctions are clearly resolved among the marsh hatching and land-cover outlines."
+}

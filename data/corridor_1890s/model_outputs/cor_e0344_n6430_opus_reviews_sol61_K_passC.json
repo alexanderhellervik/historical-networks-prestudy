@@ -1,0 +1,88 @@
+{
+  "tile_id": "cor_e0344_n6430",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (285,800) via (330,745), (400,722) and (470,722) to (530,738), f01 follows a fine black dotted line that runs 20-40 px outside the north shore of Bläckesjön and continues east across the red boundary band. West of about (285,800), the overlay's tail to (195,875) crosses the 'Bläckesjön' lettering where no line is drawn, and it ends at the sheet seam.",
+      "uncertainty_note": "A dotted line matches the Gångstig symbol, but it carries no road colour, unlike the sienna road lines on the example sheet. It also runs parallel to the shore, like the dotted line under the NE lake, so it may be the edge of a shore meadow or wetland rather than a path. If it is a path, the course is right only east of about u=285 and the class would be dashed_line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[760, 632], [820, 608], [880, 586], [940, 561], [1000, 536]],
+      "evidence_note": "From about (760,632) to the east edge at (1000,536), a reddish-brown line runs along the north edge of the farm infield at 'Bla…'. It has the sienna colour that the example sheet uses for Sämre körväg. West of (760,632), the overlay follows the dash-dot outline of the infield and then the uncoloured dotted line to (540,740), and neither of those is a coloured road line.",
+      "uncertainty_note": "The brown line could also be the coloured outline of the infield or field strips rather than a road. Whether it continues west of (760,632), through the brown dashes at (660-730,625-650) or along the dotted line, is not decided by the drawing."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short segment around (620-640,735-775) sits on the dotted/dash-dot outline of the farm infield as it curves south, next to the thin uncoloured vertical line at u≈640. No road symbol branches off there.",
+      "uncertainty_note": "It is low. At most it could be a stub of the dotted line, which itself may not be a road."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f04 follows a thin maroon/crimson line from the NE lake shore at (905,265) south via (950,400) and (965,480) to the brown line at about (985,535). Its hue matches the thin maroon boundary lines at (480,800)-(510,880) and (610,880)-(940,760), and the example reads such crimson lines as boundaries.",
+      "uncertainty_note": "It is moderate. The maroon is darker than the boundaries on the example sheet, and the line ending on the brown line could fit a lane, but its colour and thinness favour a hemman or ägogräns."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f05 follows a sienna-brown curving line from (0,965) via (100,928) to about (178,888), in the overlapping strip below the sheet seam at v≈880. Its colour is the one the example sheet uses for roads.",
+      "uncertainty_note": "The strip below the seam is a misregistered fragment of the neighbouring sheet, so where this line belongs on the ground is uncertain. It does not join f01: the link across the seam is an artefact."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f06 traces the edge of an elongated pinkish field strip from (555,720) to (650,682), one of several small outlined field parcels (tegar) along the north side of the farm, e.g. at (660-730,625-650). The road-like dotted line runs separately just below it.",
+      "uncertainty_note": "It is moderate. If the pink strips were a faded coloured road band, f06 could be part of a road that continues to the brown line at (760,632)."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[865, 320], [920, 330], [960, 332], [1000, 328]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A fine dotted line runs below the south shore of the NE lake and leaves the east edge. f04 crosses it at about (915,328).",
+      "uncertainty_note": "This is listed only so that it is treated the same way as f01. Like f01, it is an uncoloured dotted line parallel to a shore and is more likely a meadow or wetland edge than a path.",
+      "alternatives": ["not a road: edge of shore meadow or wetland", "Gångstig (dashed_line)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [533, 738],
+      "what_is_contested": "Whether this is a junction at all. The dotted line (f01) crosses the red boundary here and continues east, and the overlay starts f02 and f06 at this point.",
+      "evidence_note": "Only the dotted line passes through. The red band is a boundary, and f06 lies on a field strip, so there is at most one line here, not a three- or four-way junction."
+    },
+    {
+      "uv": [760, 632],
+      "what_is_contested": "The western end of the brown road-coloured line: is it a dead end at the infield corner, or does it connect west to the dotted line or the brown dashes?",
+      "evidence_note": "The brown line fades at the infield's NW corner. Between there and (540,740), only field strips, the infield's dash-dot outline and the uncoloured dotted line are visible."
+    },
+    {
+      "uv": [985, 535],
+      "what_is_contested": "Whether f04 joins the brown line as a road branch.",
+      "evidence_note": "The thin maroon line meets the brown line near the east edge, but its boundary-like colour suggests a property line ending on the road, not a road junction."
+    },
+    {
+      "uv": [190, 880],
+      "what_is_contested": "The overlay's link from f01 to f05 across the sheet seam.",
+      "evidence_note": "The strip below v≈880 is a misregistered fragment of another sheet, so lines cannot be joined across the seam."
+    }
+  ],
+  "overall_note": "The only clearly road-coloured lines are the sienna line north of the 'Bla…' farm, (760,632)-(1000,536), and the brown line in the misregistered strip below the seam. The red band, the long black dashed diagonals, the thin maroon lines and the dash-dot lines are boundaries. The fine dotted lines along the lake shores are ambiguous between Gångstig and meadow edges, and they decide f01, the west part of f02 and m01."
+}

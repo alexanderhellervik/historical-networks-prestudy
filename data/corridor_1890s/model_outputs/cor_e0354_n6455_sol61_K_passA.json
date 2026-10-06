@@ -1,0 +1,162 @@
+{
+  "tile_id": "cor_e0354_n6455",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[421,0],[430,34],[434,65],[414,88],[384,109],[361,128],[367,153],[370,176],[377,215],[383,259],[379,305],[374,350],[389,381],[412,421],[435,462],[462,503],[494,549],[527,588],[554,626],[582,656],[620,698],[664,732],[707,765],[751,798],[794,832],[837,867],[880,902],[925,938],[963,972],[995,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow ochre/red alignment has dark, partly broken edging. Two close traces are visible on several upper bends; longer black breaks accompany the southeastern diagonal. A dark rectangular mark overlaps it near (362,140).",
+      "uncertainty_note": "This could be a track with one broken margin, but the red tint and elongated black breaks also support a boundary reading. The short overlap near (362,140) is carried through because the visible strokes align on both sides. Its reported junctions are conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close dark traces could be the margins of a narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some sections resolve chiefly as a broken dark stroke beside faint colouring."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a red-tinted property or administrative boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[291,1000],[316,965],[348,929],[383,888],[419,846],[454,805],[490,763],[526,723],[558,684],[582,656],[610,626],[637,598],[657,579]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow red-brown diagonal has close dark margins, approximately 4–7 px apart where separable. It remains visible across pale parcels and intersects the other tinted diagonal near (582,656).",
+      "uncertainty_note": "The margins are uneven and locally merge into one stroke. At the northeastern end, dark outlines and river-bank colouring prevent a secure continuation; no crossing of the water is inferred. A tinted boundary remains a possible reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches show only one dark stroke with an adjacent coloured fringe."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a boundary with a coloured parallel overprint."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[527,588],[505,611],[482,634],[456,657],[435,675],[410,691],[386,706]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short brown/yellow strip runs southwest between close dark strokes, roughly 4–6 px apart. Its lower end reaches a heavy black rectangular symbol near (380,707).",
+      "uncertainty_note": "Parts of the edging also outline adjacent yellow shapes, so this may be a parcel-edge strip rather than a track. The black symbol conceals the final strokes; the feature stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The second stroke may belong to the adjoining polygon rather than to road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: adjoining parcel outlines, without a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[370,176],[345,184],[306,197],[268,211],[246,227],[237,261],[229,299],[220,337],[211,368],[174,376],[137,382],[108,385]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Very faint grey/ochre strokes form a narrow angled alignment below the upper-left lettering. Short portions appear paired, several pixels apart, with intermittent dark marks nearby; the western end meets a blue line.",
+      "uncertainty_note": "The faint strokes can also be read as edges of adjoining parcels. The precise course is less secure around (246,227)–(220,337). No continuation across the blue line at the western end is supported.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint paired strokes could mark a narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Intermittent dark marks could represent a path beside a continuous parcel edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: parcel outlines rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[316,965],[309,944],[320,918],[329,892],[332,868],[323,832],[317,798],[312,770],[309,750]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A single file of small dark dots or short breaks follows a curved course immediately beside a heavier green/dark polygon edge. No consistent second dotted row is visible.",
+      "uncertainty_note": "The dotted course may be a path, but it may instead be hedge or land-cover edging. Its apparent contact with f02 is partly merged with the heavier outlines, making j05 conditional. The northern dots cease near (309,750).",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: hedge or polygon-edge ornament rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[435,462],[417,477],[397,492],[377,505]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "Two close dark strokes enclose a narrow pale-yellow strip extending southwest from the tinted alignment. They meet a sharply turning, heavier polygon outline near (377,505).",
+      "uncertainty_note": "This short strip could be a track, or merely the outlined narrow projection of a parcel. No distinct road stroke can be followed beyond the heavy outline at its southwestern end.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a narrow parcel projection bounded by two outlines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [370,176],
+      "branch_count": 3,
+      "evidence_note": "The faint westward strokes reach the narrow ochre alignment, which continues above and below. Three branches are apparent if both alignments are roads; the faint contact is uncertain."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [435,462],
+      "branch_count": 3,
+      "evidence_note": "A short, closely paired yellow/dark strip meets the tinted alignment continuing northwest and southeast. Three branches depend on reading both strips as roads."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [527,588],
+      "branch_count": 3,
+      "evidence_note": "The southwest brown/yellow strip touches the longer ochre alignment, visible on both sides of the contact. Three candidate road branches meet; parcel edging could account for the same drawing."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [582,656],
+      "branch_count": 4,
+      "evidence_note": "Two narrow tinted diagonals cross, with dark strokes visible on all four sides and no clear interruption or bridge mark. Four road branches apply only if both diagonals are roads."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [316,965],
+      "branch_count": 3,
+      "evidence_note": "The curved dotted course reaches the red-brown diagonal, which continues toward both the bottom edge and the northeast. Nearby heavy polygon outlines partly merge with the contact; three branches are conditional."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [347,119,376,156],
+      "why": "A dense dark rectangular mark covers part of the narrow tinted alignment and prevents inspection of its margins locally."
+    },
+    {
+      "bbox_uv": [367,694,399,726],
+      "why": "A heavy black rectangular symbol conceals the end of the short southwest connector and any finer strokes beneath it."
+    }
+  ],
+  "overall_note": "The narrow bottom-to-river diagonal is the clearest road candidate. Several other alignments have plausible boundary or parcel-outline readings, retained explicitly rather than treated as certain roads. Junction counts describe the candidate road reading and are conditional wherever a participating feature may not be a road."
+}

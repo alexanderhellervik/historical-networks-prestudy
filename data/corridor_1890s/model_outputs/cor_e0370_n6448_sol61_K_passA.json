@@ -1,0 +1,200 @@
+{
+  "tile_id": "cor_e0370_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[62, 0], [56, 40], [55, 80], [58, 120], [66, 160], [73, 200], [73, 240], [68, 280], [60, 320], [51, 360], [42, 400], [32, 440], [21, 480], [9, 520], [0, 553]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous dark outlines enclose a pale peach strip about 12–18 px wide. Blue-green colouring and a separate pink line lie to its left.",
+      "uncertainty_note": "The left outline becomes less distinct near the lower tile edge; the enclosed strip remains visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[607, 0], [612, 32], [627, 65], [650, 101], [676, 135], [698, 169], [716, 204], [743, 226], [778, 247], [813, 272], [848, 298], [880, 324], [912, 345], [939, 381], [963, 416], [978, 447], [994, 473], [1000, 486]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark continuous edges enclose a peach strip roughly 12–18 px wide. It crosses a pink diagonal line and blue-green, dark-edged shapes; dotted branches touch its edges.",
+      "uncertainty_note": "Centre coordinates at the dotted branch contacts are approximate within the width of the casing.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 938], [20, 899], [43, 866], [73, 836], [105, 808], [141, 781], [177, 759], [215, 736], [252, 713], [286, 687], [311, 663], [328, 644], [351, 618], [377, 588], [401, 558], [425, 529], [449, 497], [479, 465], [502, 432], [521, 397], [535, 360], [546, 325], [559, 298], [586, 269], [615, 239], [641, 222], [677, 210], [716, 204]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j04", "j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A single row of heavy, closely repeated dark dots runs beside a separate blue-green strip. It has no continuous casing; two dotted branches join it.",
+      "uncertainty_note": "The capital lettering partly masks a short section around v=510–550, but the dotted runs on either side align closely enough to carry it through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks are dots rather than elongated dashes; unknown is an alternative if dashed_line is interpreted strictly."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[306, 501], [305, 534], [306, 567], [313, 600], [328, 644]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "One row of dark dots descends from the pink diagonal line, curves right, and touches the heavier dotted route.",
+      "uncertainty_note": "The upper end terminates against the pink line; no continuation beyond that contact is clearly drawn. Dead_end describes the visible termination.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary spur is possible, although the dot form resembles the adjoining path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[451, 345], [458, 374], [465, 405], [472, 435], [479, 465]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Two faint, approximately parallel rows of small grey dots, separated by about 8–12 px, extend from the pink diagonal line toward the heavy dotted route.",
+      "uncertainty_note": "The paired rows are much fainter than the adjoining path. Their lower contact supports a track reading, but a boundary or another paired line remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "An alternative form classification emphasizes the two narrowly spaced rows rather than their interrupted drawing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a boundary or other non-road line; that reading would remove this branch and j04."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[107, 1000], [132, 966], [158, 930], [184, 895], [209, 864], [234, 838], [258, 820], [289, 805], [323, 787], [351, 774], [375, 755], [395, 728], [419, 700], [446, 675], [478, 653], [510, 634], [543, 615], [577, 595], [611, 579], [642, 566]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A single uncased row of heavy dark dots curves upward from the bottom edge and approaches the lower edge of the large italic place-name.",
+      "uncertainty_note": "Stopped where lettering prevents a certain connection to the dotted fragments farther right.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "May form one continuous route with f07 and f08 beneath the lettering; the hidden connections are not supplied."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[815, 532], [844, 518], [873, 504], [904, 489], [931, 481], [954, 465], [978, 447]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A single row of dark dots runs diagonally past black and red rectangular building marks and reaches the cased road. Letter strokes interfere with its southwestern end.",
+      "uncertainty_note": "The southwestern end is stopped at the lettering. Continuity with f08 and f06 is plausible but insufficiently clear.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Could be the northeastern portion of one continuous dotted route extending to the bottom edge via f06."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[659, 565], [682, 572], [704, 578], [724, 580], [744, 573], [765, 563], [783, 550]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Small dark dot-like marks form a shallow bent row beneath and between the heavy italic letter strokes. No separate continuous casing is visible.",
+      "uncertainty_note": "Some marks may belong to the lettering. Both ends are obscured, and the exact course is uncertain; this is a candidate visible fragment rather than a completed connection.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "May be the dotted middle portion connecting f06 and f07."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the apparent fragment may be lettering or another non-road line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[538, 473], [550, 498], [563, 522], [573, 538]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two faint rows of small grey dots, roughly 8–12 px apart, angle downward to the right from the dark-edged blue-green strip into the large lettering.",
+      "uncertainty_note": "The upper contact is confused with the blue strip's edge, and the lower end disappears into lettering. Neither a crossing to f05 nor a connection to f06 is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired narrow rows could instead be classified by their spacing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a paired boundary or other non-road line rather than a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[912, 345], [933, 319], [956, 289], [977, 259], [1000, 227]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close parallel rows of dark dots, approximately 7–10 px apart, extend diagonally from the outside of the broad road casing to the right edge.",
+      "uncertainty_note": "The paired dotted form supports a track reading; the class describes its interrupted marks.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "An alternative classification emphasizes the two narrow parallel rows."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [716, 204],
+      "branch_count": 3,
+      "evidence_note": "The heavy single dotted row reaches the western edge of the peach-filled double-line road; the cased road continues in both directions."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [912, 345],
+      "branch_count": 3,
+      "evidence_note": "A narrow pair of dotted rows touches the northeastern casing of the broad peach road, whose two continuous outlines continue on either side."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [978, 447],
+      "branch_count": 3,
+      "evidence_note": "The single dotted row from the rectangular building marks reaches the broad road's western casing; the cased strip continues toward both tile edges."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [479, 465],
+      "branch_count": 3,
+      "evidence_note": "The faint paired dotted rows converge on the heavier single dotted route, which continues both northeast and southwest; this junction depends on reading the faint pair as a track."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [328, 644],
+      "branch_count": 3,
+      "evidence_note": "The curved dotted spur from above touches the diagonal heavy dotted row, giving three visible dotted arms."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [560, 523, 595, 580],
+      "why": "Heavy italic strokes mask the lower continuation of the faint paired dotted candidate f09."
+    },
+    {
+      "bbox_uv": [637, 531, 816, 589],
+      "why": "Overlapping italic lettering and dark dot-like marks prevent certain connections among f06, f08 and f07."
+    }
+  ],
+  "overall_note": "The main difficulty is distinguishing faint paired dotted tracks from other lines and following dots through the large place-name. Pink diagonal lines, blue water outlines and thin angular parcel outlines were excluded from the road reading. Junction j04 is conditional on the doubtful track interpretation of f05."
+}

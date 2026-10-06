@@ -1,0 +1,107 @@
+{
+  "tile_id": "cor_e0350_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[749, 1000], [765, 976], [777, 950], [780, 925], [779, 910], [788, 890], [809, 866]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown band has two dark margins several pixels apart; one margin is visibly stippled in places.",
+      "uncertainty_note": "The course is clear. The broken margins also permit a dashed-line classification.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches show repeated dark marks rather than continuous margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[809, 866], [832, 838], [847, 814], [858, 791], [861, 767], [857, 741], [852, 714], [850, 693], [843, 678]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The brown strip continues between close dark, partly dotted margins and ends among heavy black marks beside small outlined shapes.",
+      "uncertainty_note": "No continuation through the black marks can be established. The margins are partly intermittent.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins may represent paired dotted lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[525, 977], [550, 979], [579, 985], [605, 990], [630, 984], [653, 970], [678, 952], [705, 933], [731, 914], [758, 897], [785, 879], [809, 866]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A very fine pale gray-brown line curves across the lower part of the face toward the dark-edged brown strip; no distinct casing or regular dots are resolved.",
+      "uncertainty_note": "This is a possible path, but a field or property division is also plausible. Its western continuation beside the small outlined rectangle is indistinct, and its contact with the brown road is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a path, its visible symbol is one fine continuous line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a field or property boundary rather than a road; under that reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[891, 264], [847, 280], [800, 296], [750, 314], [702, 332], [654, 351], [611, 367], [573, 389], [546, 416], [523, 446], [496, 479], [469, 509], [442, 539], [421, 569], [407, 600], [400, 636], [399, 674]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One faint gray line runs diagonally southwest, then bends south; it has no clearly resolved parallel margin or regular dash pattern.",
+      "uncertainty_note": "A path and a nonroad division are both supported by the weak drawing. The northeastern end merges with blue linework, and the southern end becomes indistinct beside horizontal hatching; neither is extended.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A path reading would use the visible single fine stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may instead be a property or land-cover division."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[356, 958], [386, 969], [423, 972], [460, 973], [489, 971]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short, pale gray-brown trace crosses between outlined shapes near the bottom; its margins and any dot pattern are unresolved.",
+      "uncertainty_note": "This could be a short access path or an enclosure boundary. A connection to f03 across the small rectangle is not sufficiently visible to carry through.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible access path represented by one fine stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible enclosure boundary, with no road connection."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [809, 866],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the narrow brown, dark-margined strip and a faint gray arm appear to converge. This three-branch reading is tentative because the gray arm may be a nonroad line or may stop short."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [758, 606, 1000, 720],
+      "why": "Heavy black lettering and overlapping outlined symbols prevent reliable tracing of fine lines, including any continuation beyond the upper end of f02."
+    }
+  ],
+  "overall_note": "The brown, dark-margined road on the right is the clearest road symbol. The faint gray features are retained as doubtful paths, with nonroad alternatives and a provisional junction. The fine red lines resemble the boundary strokes in the worked example and are read as boundaries."
+}

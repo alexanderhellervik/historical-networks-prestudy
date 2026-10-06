@@ -1,0 +1,62 @@
+{
+  "tile_id": "cor_e0362_n6443",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline sits on the brown-filled, dark-edged band that runs from the bottom edge at about (415,1000) NE through (540,840), (700,665), (860,595), bends north past the farm '26' (875,560)-(840,440), then (860,340), (930,290) to the east edge at about (1000,245). It is the same brown double-line road symbol the example reads as Sämre körväg.",
+      "uncertainty_note": "The course matches throughout. I cannot see which class the overlay assigns, so I give only my own class. Narrow vs wide is judged against the example's brown double line, which this band looks like."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (0,630) round (240,700) to (175,825) the line follows a thin pale outline around a forest/field parcel. That is a land-cover edge with no road fill and no paired lines.",
+      "uncertainty_note": "Low. The outline is a single faint parcel line of the kind the example treats as not a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (175,825) to (20,975) the line follows a dark green-black curving outline that separates the forest-starred area from the open area. It is a land-cover boundary, not a road symbol.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (175,830) to (330,870) there is a very faint thin grey line, with a few dots near (300,870) where it meets the building/field block at (330,875). It could be a faint footpath, a pencil line or a parcel edge.",
+      "uncertainty_note": "The line is barely visible at this resolution and has no road colour. Path and non-road are both plausible."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[597, 0], [596, 50], [592, 110], [590, 150]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin orange-brown line runs from the top edge at u≈597 down to the node at (590,150), where the crimson boundary lines meet. Its colour matches the thin orange-brown lines the example reads as Gångstig, and it differs from the crimson property boundaries and the blue stream.",
+      "uncertainty_note": "It may also be a coloured boundary or field edge that only looks orange. It is short and stops at a boundary node.",
+      "alternatives": ["not a road: boundary/parcel line", "dashed_line footpath continuing south along the crimson line to (580,240)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [175, 825],
+      "what_is_contested": "Whether this is a road junction at all. The overlay meets three features here (f02, f03, f04).",
+      "evidence_note": "Only land-cover outlines meet here, plus at most the very faint line of f04. No road symbol is visible, so the junction is probably not real."
+    },
+    {
+      "uv": [590, 150],
+      "what_is_contested": "Whether the thin orange-brown line from the top edge (m01) ends at this boundary node as a path, or is itself a boundary.",
+      "evidence_note": "Two crimson boundary lines and the orange-brown line converge here. Nothing on the tile shows a path continuing south of the node."
+    }
+  ],
+  "overall_note": "The only clearly drawn road is the brown double-line road f01, from the bottom edge NE past farm 26 to the east edge, and the overlay traces it correctly. f02 and f03 follow land-cover outlines, and f04 is too faint to judge. The black dashed diagonals in the upper left, the crimson lines and the blue stream are boundaries and water, not roads; a short thin orange line at the top centre may be a footpath."
+}

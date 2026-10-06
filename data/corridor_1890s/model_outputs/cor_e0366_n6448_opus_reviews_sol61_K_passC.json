@@ -1,0 +1,101 @@
+{
+  "tile_id": "cor_e0366_n6448",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pair of parallel dotted lines (Sämre körväg form) runs from the top edge near u 225 past Holmängen T. (buildings at ~[135,80] and [165,95]) down-left to the black building symbol at ~[5,300]; the overlay line sits on it throughout.",
+      "uncertainty_note": "Course is clear. Only the southern end is unclear: the road may leave the tile at ~[0,300] or turn into the 2T farm road (see contested junction)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[5, 310], [30, 326], [65, 327], [100, 332], [125, 340]],
+      "evidence_note": "East of u≈40, a double-dotted road runs from the 2T farm east along v≈326–340 towards Boddeberg, and the overlay follows it. The overlay's western tail, which drops to the left edge near v≈410, is not on any dotted road that I can see. The road appears to come from the f01 end or from the 2T farm at v≈310–330.",
+      "uncertainty_note": "The 2T lettering and the farm symbol clutter the left 60 px, so the road could still reach the edge lower than I place it."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short stub at the left edge near [0–30, 360–375] overlaps the '2T' lettering and the red farm symbol at ~[88,373]. No separate double-dotted line can be picked out there at this resolution.",
+      "uncertainty_note": "This could be a short farm access or a duplicate of f02's western end. It is equally possible that nothing is drawn there."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The double-dotted road runs from the Boddeberg buildings (~[190–215, 430–460]) east and north-east, under the 'Boddeberg' lettering, onto the long road at v≈345. It then runs east along v≈345–370 to the junction at ~[820,368]. The overlay follows it.",
+      "uncertainty_note": "Between u≈330 and u≈400 the lettering ('dd' of Boddeberg) hides the exact place where the spur bends up to the v≈345 road."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[120, 338], [150, 360], [170, 395], [180, 435], [200, 460], [220, 458]],
+      "evidence_note": "The drawn road links the 2T road to Boddeberg by curving south-east from ~[120,338] down to the farm at ~[200,460]. Where the overlay line rises north-east towards the pond at ~[160,318], it lies along the red property boundary, not on dotted road symbols.",
+      "uncertainty_note": "Overlay lines are thin and close together here, so it may be partly following the true link. If it does, the verdict would be agree."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the junction at ~[820,368], the double-dotted road continues north-east past ~[900,345] and [960,320] and leaves the right edge at about v≈280–300. The overlay follows it.",
+      "uncertainty_note": "This is low uncertainty. Near u 850–880 the road crosses red boundary lines, but the dot pairs stay continuous."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the main road near [835,372], a double-dotted road labelled 'Till Tifället' runs south-east past [880,420], [930,480] and the building at ~[995,555] to the right edge at about v≈600–630. The overlay follows the same road.",
+      "uncertainty_note": "Between v 450 and 560 the overlay runs about 15–25 px west of the dot pairs, which is within tolerance. Near the right edge, the end could be v≈600 rather than ≈630."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the boundary corner at ~[305,280] to Klintorp at ~[625,195], the overlay sits on a thin solid grey line: the edge of the pale field/meadow parcels. No dotted road symbol is drawn along this course.",
+      "uncertainty_note": "An access to Klintorp T. would be plausible on the ground, but it is not drawn as a road on this tile."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a tiny piece in the bottom-right corner (~[950–1000, 975–1000]). Only a red boundary, the blue stream line and grey parcel edges are visible there, with no dotted road pair.",
+      "uncertainty_note": "The piece is too short to judge; it may be the start of a road just off the tile. It leans towards not a road."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [825, 368],
+      "what_is_contested": "Exact position of the three-way junction where f04, f06 and f07 meet, and whether f07 branches at ~[820,365] or slightly east at ~[840,375].",
+      "evidence_note": "The 'L. Tifället' lettering and a red boundary line cross the junction area, so it cannot be fixed more closely than about 20 px."
+    },
+    {
+      "uv": [120, 338],
+      "what_is_contested": "Number of branches near the 2T farm: either the 2T road simply curves south-east to Boddeberg (2 branches), or a further branch runs north-east along the boundary or west to the edge (f03/f05 tails).",
+      "evidence_note": "Here the double-dotted road crosses the red boundary line; the '2T' lettering and farm symbols sit immediately to the west."
+    },
+    {
+      "uv": [5, 305],
+      "what_is_contested": "Whether f01 joins the 2T–Boddeberg road at the black building at the left edge, or leaves the tile separately.",
+      "evidence_note": "The building symbol at the tile edge hides the meeting point. Both roads reach the left edge within about 30 px of each other."
+    },
+    {
+      "uv": [365, 380],
+      "what_is_contested": "Exact position where the Boddeberg spur (f04 west part) joins the east–west road at v≈345.",
+      "evidence_note": "The 'Boddeberg' lettering covers the bend, and a red boundary line crosses it near u≈350."
+    }
+  ],
+  "overall_note": "The roads on this tile are all drawn as pairs of dotted lines (Sämre körväg form): Holmängen–2T, 2T–Boddeberg–east, and the 'Till Tifället' branch. The overlay finds all of these, but it also adds a field-edge line to Klintorp (f08) that is not a road, and has doubtful short tails near 2T and in the bottom-right corner. I recorded no missed roads; the class double_line_narrow is my mapping of the double-dotted symbol."
+}

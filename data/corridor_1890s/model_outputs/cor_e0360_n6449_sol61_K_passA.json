@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0360_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [489, 0], [501, 42], [514, 83], [522, 119],
+        [538, 161], [550, 203], [562, 245], [575, 289],
+        [585, 329], [600, 369], [615, 405], [622, 432],
+        [620, 456], [609, 483], [590, 505], [567, 523],
+        [548, 539], [539, 568], [530, 603], [516, 641],
+        [501, 679], [486, 711], [474, 739], [469, 763],
+        [468, 779], [450, 807], [438, 833], [422, 862],
+        [401, 887], [388, 905], [385, 918], [399, 944],
+        [407, 969], [411, 982], [424, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous red stroke has dark edging and, in places, a finer parallel gray line approximately 5–15 px away. Its lower bends have heavier dark marks; blue-green outlines and black boundary dashes cross it.",
+      "uncertainty_note": "The red stroke resembles both the example's track colouring and its red boundary lines. The parallel pale line is not consistently distinct enough to establish casing. Contacts with f02 around [622,432] and [548,539] do not clearly establish road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A narrow track if the red/dark stroke and adjacent fine gray line are its two margins."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "A single-stroke path if the adjacent gray line is unrelated."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a coloured property boundary rather than a road, especially along the straighter northern portion."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 941], [36, 911], [76, 879], [115, 847],
+        [154, 818], [195, 786], [237, 754], [278, 727],
+        [315, 698], [357, 668], [397, 640], [439, 610],
+        [480, 583], [519, 556], [548, 531], [573, 502],
+        [596, 473], [619, 440], [640, 406], [668, 370],
+        [702, 335], [735, 298], [767, 262], [795, 225],
+        [823, 190], [850, 162], [883, 133], [918, 105],
+        [955, 73], [981, 48], [1000, 28]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A pale diagonal strip has thin gray-brown margins, roughly 12–25 px apart where distinguishable, and a lighter interior. Its edges are much weaker than the red stroke and blue-green outlines; no regular railway bars are visible.",
+      "uncertainty_note": "The strip could be a broad, faint road, but its uneven pale margins also permit a surface-mark or reproduction-artifact reading. Its apparent intersections with f01 and contact with f03 are too indistinct to identify junctions confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "A road if the two pale margins bound a deliberately drawn light interior."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "A faint path if only the darker margin is intentional linework."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a pale surface mark or reproduction seam rather than transport linework."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [184, 718], [214, 720], [245, 721], [278, 727]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A very fine, pale gray-brown, nearly horizontal stroke crosses the light ground between stronger blue-green outlines and reaches the pale diagonal strip. No consistent casing or repeated dots can be resolved.",
+      "uncertainty_note": "This short trace could be a path, a field division, or part of the pale marking represented by f02. Its western continuation cannot be separated reliably from the stronger green outline, and its eastern contact does not establish a branch.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short path if the fine horizontal stroke is independent transport linework."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a field boundary or incidental pale marking rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [641, 708], [659, 735], [680, 763], [702, 791],
+        [725, 824], [749, 859], [773, 893], [797, 929],
+        [821, 963], [846, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A straight red-brown diagonal stroke has close, irregular dark marks along its edge, approximately 5–8 px overall. It traverses peach fill and meets a blue-green outline at its upper visible end.",
+      "uncertainty_note": "A property boundary is the stronger reading, consistent with straight red lines in the worked example. A track remains a possible reading of the dark broken edging; no distinct road junction is visible at its upper end.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A track if the repeated dark marks constitute its line symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Probably a coloured property boundary rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [],
+  "overall_note": "The red linework is difficult to distinguish from coloured boundaries, while the pale diagonal strip has an uncertain drawing origin. These candidates are retained without asserting a connected road network. No meeting of three or more road branches is clearly established."
+}

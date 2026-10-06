@@ -1,0 +1,206 @@
+{
+  "tile_id": "cor_e0359_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,858],[27,839],[51,818],[78,790],[105,760],[128,735],[147,712],[173,681],[200,650],[228,621],[255,594],[285,570],[318,547],[352,527],[388,510],[425,492],[462,478],[500,462],[532,447],[563,429],[599,407],[630,384],[652,362],[669,335],[680,304],[679,278],[670,252],[667,229],[675,204],[694,180],[716,152],[739,121],[765,93],[789,65],[811,33],[825,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous, heavy dark edges enclose an orange-brown strip approximately 10–16 px wide. Black rectangular building marks and small green patches sit alongside the middle section.",
+      "uncertainty_note": "The broad strip is clearly readable throughout. Positions of the nearby joins j03 and j04 are approximate where narrow strokes overlap the casing; j01 and j02 involve branches that may instead be boundaries.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[139,111],[171,142],[208,169],[245,191],[281,215],[316,241],[352,265],[389,287],[427,308],[465,331],[500,351],[521,372],[538,399],[563,429]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow oblique dark stroke follows the edge of blue-green wash at its upper end, then has a rusty tint and irregular dark dots or short strokes across the tan area. Heavy lettering overlaps its lower section.",
+      "uncertainty_note": "A track and a coloured property boundary are both supported by the drawing. The upper end cannot be securely connected across the overlapping wash and dark marks; passage beneath the lower lettering is supported by aligned visible segments.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The irregular dark marks could be the broken edging of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The oblique stroke could instead be a property boundary, with its upper section sharing a land-cover outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[599,407],[624,417],[660,423],[699,431],[729,426],[748,420],[775,440],[807,467],[844,491],[883,505],[915,527],[950,554],[978,572],[1000,585]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown band has irregular dark marks along its sides. It bends above large lettering, crosses blue-green wash, and passes between black rectangular marks.",
+      "uncertainty_note": "The course is readable, including across the wash, but continuous paired casing is not consistently distinguishable from broken edging. A coloured boundary remains a less certain alternative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Several stretches appear to have two closely spaced dark edges enclosing the coloured band."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Elsewhere the dark edges resolve into dots and short broken strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The narrow coloured stroke could be a boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[883,505],[908,477],[929,449],[948,421],[965,390],[981,356],[994,327],[1000,308]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow rusty band with dark, uneven side marks curves upward to the right edge. Large black lettering overlaps part of it near v=430.",
+      "uncertainty_note": "Visible segments on both sides support continuation beneath the lettering. The distinction between closely spaced casing and broken track edging is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The coloured interior appears enclosed by two dark edges in the clearer upper stretches."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The side marks may instead form broken or dotted track edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[147,712],[174,740],[203,766],[237,791],[273,813],[310,837],[342,861],[359,885],[368,908],[364,928],[349,950],[331,974],[318,1000]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One narrow reddish-brown stroke, with irregular dark flecks and heavier angular patches, leaves the broad strip and bends toward the bottom edge. No continuous paired casing is visible.",
+      "uncertainty_note": "This may be a minor track, but its single coloured stroke also supports a property-boundary reading. Its apparent meeting with the broad road is therefore a conditional road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark flecks could represent a broken track symbol beneath the reddish tint."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property boundary is an equally plausible interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,263],[15,300],[32,345],[50,391],[67,433],[78,473],[85,516],[90,559],[95,600],[94,640],[92,677],[82,714],[68,750],[57,786],[51,818]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A thin red-purple stroke with occasional darker marks curves down the left part of the face. It has no clearly separated parallel edges and meets the broad orange strip near dark strokes bordering blue-green wash.",
+      "uncertainty_note": "The symbol resembles a coloured boundary more strongly than a cased road, but a minor path cannot be excluded. No road continuation is asserted through the dark and blue-green marks beyond its meeting with the broad strip.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Probably a boundary rather than a road; retained as a doubtful path candidate."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,87],[26,98],[43,86],[58,75]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Short thin dark strokes with yellow-brown tint form an angular line near the upper-left edge. Blue-green wash and heavier dark outlines overlap its right end.",
+      "uncertainty_note": "A narrow path is possible, but these strokes could be parcel or land-cover outlines. A connection to f02 or f09 cannot be established through the overlapping symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The tinted angular stroke could be a narrow path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may instead delimit small parcels or the adjoining coloured area."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0,10],[14,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A very short oblique dark mark with brown tint clips the top-left corner; too little length is visible to establish its edging.",
+      "uncertainty_note": "This could be a clipped narrow road or a coloured boundary stroke. Neither its symbol form nor its continuation can be determined within the face.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The short tinted mark may be a fragment of a narrowly cased line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary or land-cover outline is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,207],[18,177],[36,148],[49,124],[58,102]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Irregular thin dark strokes enclose a pale, narrow strip beside blue-green wash. Dense dark marks interrupt the upper end.",
+      "uncertainty_note": "The pale strip could carry a narrow path, but it could also be an uncoloured gap between land-cover outlines. Its upper connection is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could be narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent pair may consist entirely of neighbouring land-cover boundaries."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [51,818],
+      "branch_count": 3,
+      "evidence_note": "The broad orange strip continues in two directions, while one thin red-purple stroke approaches from above. Its road status is uncertain, so the third branch is conditional."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [147,712],
+      "branch_count": 3,
+      "evidence_note": "Two directions of the heavily cased orange strip meet a narrow reddish stroke extending down-right. The narrow stroke could instead be a boundary."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [563,429],
+      "branch_count": 3,
+      "evidence_note": "A narrow rusty, dark-flecked diagonal reaches the northwest casing of the broad orange strip, which continues in two directions. Overlapping black marks make the exact join approximate; the narrow branch may be a boundary."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [599,407],
+      "branch_count": 3,
+      "evidence_note": "A narrow orange-brown band with uneven dark edging leaves the southeast side of the broad cased strip. Three arms are distinguishable, although dark marks crowd the attachment."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [883,505],
+      "branch_count": 3,
+      "evidence_note": "Three narrow rusty bands with dark side marks meet: two form the diagonal through-line and one bends upward-right. Their coloured interiors converge without a visible gap."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [40,65,150,145],
+      "why": "Overlapping blue-green wash, dark outlines, small black marks and narrow tinted strokes prevent secure identification or connection of the possible paths."
+    }
+  ],
+  "overall_note": "The broad cased road is clear; several thinner reddish strokes support both track and boundary readings and are retained with alternatives. Junction counts involving those strokes are conditional on their being roads. No connections are supplied across the unresolved upper-left overlap."
+}

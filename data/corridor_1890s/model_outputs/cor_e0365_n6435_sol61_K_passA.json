@@ -1,0 +1,119 @@
+{
+  "tile_id": "cor_e0365_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[356, 0], [324, 22], [289, 48], [256, 73], [224, 98], [202, 119], [186, 150], [167, 188], [146, 226], [121, 265], [94, 298], [74, 328], [54, 369]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An ochre strip has two rows of dark dots roughly 7–10 px apart; the rows follow its bends.",
+      "uncertainty_note": "The margins are dotted rather than continuous, making the symbol-form class somewhat ambiguous.",
+      "alternatives": [{"proposed_class": "dashed_line", "note": "Alternatively describe the two dotted margins as a paired broken-line symbol."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[54, 369], [43, 393], [32, 416], [17, 445]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark dotted margins enclose a narrow ochre band, continuing between the two forks.",
+      "uncertainty_note": "The fork centres are approximate within the width of the printed bands.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 321], [15, 342], [29, 356], [54, 369]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A curved ochre band with closely spaced dark dotted edges enters from the left and meets the diagonal band.",
+      "uncertainty_note": "Dark boundary strokes cross this short branch, but its dotted margins remain distinguishable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[17, 445], [0, 453]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The ochre band and dark dotted margins extend southwest from the fork to the tile edge.",
+      "uncertainty_note": "Only a short section is inside the tile; the meeting bands make its centre approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[17, 445], [38, 454], [60, 480], [86, 508], [115, 527], [145, 539], [175, 543], [208, 538], [239, 525], [275, 512], [309, 502], [340, 491], [362, 492], [389, 502], [407, 503], [424, 491]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "An ochre strip bounded by two dark dotted rows curves beneath the B and T labels; small dark building marks sit beside its eastern portion.",
+      "uncertainty_note": "At the eastern end, dotted ink merges with heavy symbols and a field outline. The final bend is approximate, and no continuation beyond it is asserted.",
+      "alternatives": [{"proposed_class": "unknown", "note": "The last short bend may include a yard or field outline rather than continuing road ink."}]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[507, 0], [505, 33], [505, 61], [514, 91], [535, 122], [558, 150], [582, 177], [603, 197], [611, 208]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two dark dotted edges, roughly 7–10 px apart, surround an ochre strip; rectangular building symbols stand beside its upper section.",
+      "uncertainty_note": "Lettering overlaps the lower end. Junction j03 is conditional on the faint eastern line being a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[611, 208], [603, 239], [586, 266], [579, 289], [584, 318], [595, 349], [601, 367], [595, 380], [573, 389], [552, 393], [535, 405]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "The ochre band retains two dark dotted margins below the large lettering, then bends southwest toward a small outlined ochre quadrilateral.",
+      "uncertainty_note": "Visible band fragments on both sides support carrying the road through the lettering, although its exact centre there is approximate. No separate road continuation is distinguishable past the quadrilateral; j03 remains conditional.",
+      "alternatives": [{"proposed_class": "unknown", "note": "The terminal marks may partly belong to the small quadrilateral, leaving the precise stopping point obscured."}]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[611, 208], [631, 212], [652, 213], [675, 209], [691, 205]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin dark stroke with yellow or ochre colouring alongside extends east from the wider dotted band; no consistent pair of dotted margins is visible.",
+      "uncertainty_note": "This could be a narrow path or a coloured field edge. Its contact with the main band is partly covered by lettering, and the eastern stroke becomes indistinct.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If read as a path, the visible symbol is principally one thin continuous stroke."},
+        {"proposed_class": "unknown", "note": "Alternatively this is a field boundary, with no road branch and no junction j03."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [54, 369],
+      "branch_count": 3,
+      "evidence_note": "Three ochre arms with paired dark dotted margins meet: northeast, southwest and northwest; the northwest arm curves into the diagonal band."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [17, 445],
+      "branch_count": 3,
+      "evidence_note": "Three dotted, ochre-filled arms meet near the left edge: northeast, southwest to the edge, and east before bending southeast."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [611, 208],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the wider ochre band meet a faint thin eastward stroke beneath lettering; the third branch and therefore this junction are tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [574, 202, 628, 277],
+      "why": "Heavy lettering covers portions of the dotted road and the possible eastern branch attachment; exact line separation is locally unreadable."
+    },
+    {
+      "bbox_uv": [393, 482, 435, 522],
+      "why": "Road dots, heavy small symbols and field-edge ink merge around the eastern end of f05, preventing a reliable continuation reading."
+    }
+  ],
+  "overall_note": "The clearest roads use ochre strips with paired dark dotted margins. Red dividing lines, long black dashes and blue-green winding lines were read as boundaries or water-related lines. The faint eastward branch and the lower road's eastern termination remain ambiguous."
+}

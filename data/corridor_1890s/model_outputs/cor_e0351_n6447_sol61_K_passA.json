@@ -1,0 +1,235 @@
+{
+  "tile_id": "cor_e0351_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 252], [35, 263], [62, 270], [96, 263], [130, 256], [160, 260], [197, 271], [235, 281], [274, 289], [307, 298], [348, 310], [391, 320], [431, 324], [461, 326], [494, 332], [531, 340], [571, 348], [608, 352], [639, 348], [675, 335], [712, 320], [744, 306], [769, 287], [782, 269]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow brown-orange band has two close dark margins, repeatedly breaking into small dots; it runs above the broader pink-and-black line.",
+      "uncertainty_note": "The eastern end reaches the map join. Its connection to f03 is uncertain because the strokes on opposite sides are displaced.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dotted margins could be classified as a broken-line symbol rather than narrow double casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[494, 332], [508, 361], [518, 391], [524, 424], [528, 458], [541, 486], [567, 506], [585, 519], [583, 547], [576, 572], [581, 600], [587, 627], [586, 651], [574, 679], [560, 704], [546, 727], [524, 752], [496, 780], [468, 808], [446, 831], [419, 855], [397, 880], [384, 908], [372, 938], [361, 970], [353, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j03", "j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown strip bounded by close dark, partly dotted strokes branches from f01, bends around angular outlined patches, and continues to the bottom edge.",
+      "uncertainty_note": "Short portions cross the pink line and lettering, but the close margins and course remain visible on both sides. Contacts with the pale lanes at j03 and j04 are less distinct.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Dense dots form substantial portions of the two margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[747, 244], [773, 225], [795, 209], [817, 195], [830, 166], [840, 135], [850, 103], [873, 67], [898, 32], [921, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-brown diagonal has close dark edges with dotted portions; it passes beside and partly beneath the large B.",
+      "uncertainty_note": "The southwestern portion ends at the map join without a certain connection to f01. Its exact center beneath the B is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some northern portions resolve as only one dark edge beside brown colouring, making the double-line classification less secure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[850, 103], [876, 108], [906, 119], [939, 133], [969, 149], [1000, 164]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thinner rust-brown stroke with small dark breaks leaves the diagonal band and curves right; separate margins are difficult to resolve.",
+      "uncertainty_note": "This may be a track or a field/property boundary. If it is a boundary, j02 is not a three-branch road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The drawing can be read as one narrow brown track stroke."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark marks along the stroke may constitute a broken track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road field/property boundary is also supported by its thin red-brown appearance."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[438, 368], [441, 405], [448, 444], [450, 479], [444, 500], [421, 526], [392, 551], [398, 573], [414, 598], [428, 629], [441, 661], [453, 697], [465, 734], [473, 768], [472, 790], [461, 812], [446, 831]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05", "j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A pale, approximately 10–15 px ribbon follows two faint grey-brown edges; it bends sharply near the orange stroke and converges with the dotted brown road below.",
+      "uncertainty_note": "The upper end fades beneath the broad pink line; no connection to f01 is asserted. Fading makes its lower contact and parts of its casing uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale ribbon could instead be an uncoloured strip bounded by parcel or land-cover edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[194, 682], [206, 653], [217, 620], [228, 584], [240, 559], [259, 545], [282, 537], [307, 538], [331, 544], [356, 555], [379, 566], [398, 573]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A narrow orange-brown stroke follows an angular patch's right edge, then curves away across pale ground to the grey-edged ribbon; no consistent second margin is visible.",
+      "uncertainty_note": "The southern end merges with the patch outline. The stroke could partly or wholly be a field boundary rather than a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A field-boundary reading is plausible, especially along the straight southern portion; j05 would then lose its western road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 848], [21, 832], [35, 796], [52, 757], [71, 718], [86, 677], [103, 638], [122, 594], [144, 552], [159, 527], [170, 506]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "A continuous, narrow orange-brown stroke curves upward from the left edge; its weight varies and no regular pair of dark margins is visible.",
+      "uncertainty_note": "The upper stroke tapers near an angular outline. Parts run alongside coloured patch edges, so a boundary reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The orange stroke may mark a parcel or land-cover boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[86, 677], [110, 674], [136, 679]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, thin grey-brown and blue-green stroke runs right from the orange line and merges into the dark lower corner of an outlined patch.",
+      "uncertainty_note": "This is a doubtful side path: it could be only the patch boundary or a ditch. No continuation around the patch is asserted; j06 depends on treating this stroke as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It could be a short single-stroke path joining f07."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road boundary or ditch is equally plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[19, 312], [13, 340], [13, 367], [14, 393]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A faint narrow orange stroke descends below the pink band, with small bends and no clear casing, ending against a blue-green outline.",
+      "uncertainty_note": "It may be a field edge. The pink band obscures any northern continuation toward f01, so no junction is recorded there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stroke may be a non-road field or land-cover boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[397, 880], [423, 895], [451, 906], [479, 918], [507, 932], [527, 944], [533, 955]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A pale diagonal strip has a stronger dark northern edge and a weaker roughly parallel southern edge, about 10–15 px apart; it reaches the horizontal hatching.",
+      "uncertainty_note": "At the eastern end the strip's margins merge into the hatched area's outline. A continuation toward the bottom cannot be traced securely.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent casing may instead be adjacent field and land-cover boundaries."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[988, 623], [989, 659], [988, 700], [987, 743], [986, 785], [981, 825], [972, 856], [962, 893], [959, 906]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow pale strip follows the eastern hatching, with a strong dark western edge and a weaker outer edge; its margins bend left below the rectangular hatch block.",
+      "uncertainty_note": "This could be a road strip or the edges of a narrow unhatched parcel. The pink line obscures its upper origin, and large lettering prevents a secure lower trace.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two edges can be read as narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road land-cover or parcel-boundary reading remains plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [494, 332],
+      "branch_count": 3,
+      "evidence_note": "The brown band continues left and right while another similarly narrow, dark-dotted brown band leaves downward."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [850, 103],
+      "branch_count": 3,
+      "evidence_note": "The close-edged brown diagonal continues in two directions and a thinner rust stroke leaves right; the third road branch is conditional on f04 being a track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [446, 831],
+      "branch_count": 3,
+      "evidence_note": "The dotted brown diagonal continues both ways, and the faint paired grey edges approaching from above converge with it."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [397, 880],
+      "branch_count": 3,
+      "evidence_note": "The dark-dotted brown strip continues upward and downward while a pale strip with unequal parallel edges leaves toward the lower right."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [398, 573],
+      "branch_count": 3,
+      "evidence_note": "The pale grey-edged ribbon continues in two directions where the single orange stroke reaches its western margin; the third road branch depends on f06's interpretation."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [86, 677],
+      "branch_count": 3,
+      "evidence_note": "The orange stroke continues upward and downward, with a thin grey-blue side stroke touching from the right; this is a tentative road junction because f08 may be a boundary."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [728, 235, 810, 274],
+      "why": "The map join cuts and displaces the apparent road courses, preventing a secure connection between f01 and f03."
+    },
+    {
+      "bbox_uv": [930, 906, 1000, 990],
+      "why": "Large black lettering overlaps the narrow strip beside the hatching, preventing a secure continuation or classification of f11."
+    }
+  ],
+  "overall_note": "The dark-dotted brown bands provide the strongest road evidence. Faded pale ribbons and thin orange strokes also support boundary readings, recorded as alternatives; several junctions are consequently tentative. Broad pink boundary bands, blue-green outlines, and the map join complicate tracing."
+}

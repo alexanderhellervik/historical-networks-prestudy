@@ -1,0 +1,183 @@
+{
+  "tile_id": "cor_e0347_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,383],[20,388],[46,414],[69,438],[90,464],[100,487],[99,525],[98,562],[108,590],[119,613]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish stroke carries repeated dark dots or short marks along its edges; the apparent band is roughly 4–7 px wide, without clearly continuous paired casing.",
+      "uncertainty_note": "Road interpretation is supported by its resemblance to the worked example. The dotted edges do not clearly match a listed symbol-form class.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"If the closely spaced dots and short marks are treated as a discontinuous road symbol."},
+        {"proposed_class":"double_line_narrow","note":"If the two dotted margins are read as the sides of a narrow road band."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[119,613],[138,621],[170,624],[198,635],[228,646]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The reddish band continues eastward with small dark marks at alternating positions along its margins; its width remains about 4–7 px.",
+      "uncertainty_note": "The road course is legible, but whether the margins constitute two dotted lines or one irregular dotted stroke is unresolved.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Discontinuous dark marks could be classified as a dashed or dotted road symbol."},
+        {"proposed_class":"double_line_narrow","note":"The dark marks may define two narrowly separated road margins."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[228,646],[251,654],[267,660],[289,654],[313,649],[319,653]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A short reddish band with repeated dark edge dots dips downward, then rises to a meeting with two similarly marked strokes.",
+      "uncertainty_note": "The course is clear; the precise symbol-form class remains uncertain.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The separated dark marks can be read as a discontinuous road line."},
+        {"proposed_class":"double_line_narrow","note":"The dotted margins may represent two sides of a narrow road."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[319,653],[339,638],[366,620],[392,606],[417,594],[446,585],[474,582],[504,576],[536,568],[564,556],[594,545],[621,535],[650,525],[680,514],[706,509],[733,501],[755,495],[777,500],[805,510],[834,519],[862,526],[891,536],[919,543],[947,541],[973,537],[1000,534]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish stroke bordered by repeated dark dots curves above the horizontally hatched enclosures. The apparent road band is about 4–7 px wide; the enclosure outlines remain visibly separate below it.",
+      "uncertainty_note": "The drawn course is well supported. Dotted rather than solid margins make the listed class ambiguous.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Read the repeated dark dots and short marks as a discontinuous road symbol."},
+        {"proposed_class":"double_line_narrow","note":"Read the two marked margins as a narrowly spaced pair of road lines."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[319,653],[336,679],[357,704],[381,730],[407,754],[430,777],[454,794],[479,813],[502,837],[520,861],[537,888],[553,916],[575,945],[593,967],[609,975]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow reddish band with repeated dark edge marks branches southeast. It remains visible to the left of the large lettering and is not traced through the letters.",
+      "uncertainty_note": "Road interpretation is supported by the matching dotted symbol on the other branches. The symbol-form class is unresolved.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The repeated separated dark marks can be treated as a discontinuous road line."},
+        {"proposed_class":"double_line_narrow","note":"The two dotted margins may be the sides of a narrow road band."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[609,975],[632,992],[641,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "The reddish band with dark marginal marks continues diagonally from the thin reddish-line meeting to the bottom edge.",
+      "uncertainty_note": "This short continuation is visible, but its dotted margins retain the same class ambiguity as f05.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Treat the separated marginal marks as a discontinuous road symbol."},
+        {"proposed_class":"double_line_narrow","note":"Treat the marked margins as two narrowly separated road sides."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[228,646],[232,616],[240,580],[248,550],[259,517],[269,481],[281,444],[293,410],[306,373],[320,337],[332,298],[344,259],[352,224],[350,188],[345,148],[337,110]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "One thin, mostly continuous reddish-brown stroke, approximately 2–4 px wide, curves between two line meetings. No clear paired casing or regular black-dot sequence is visible.",
+      "uncertainty_note": "This is a doubtful road candidate: its plain stroke could instead be a property or land-use boundary. Both endpoint junctions depend on accepting it as a road.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"It may be a non-road boundary; the continuous reddish stroke alone does not establish road status."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[337,110],[322,73],[301,35],[289,0]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A single thin reddish-brown stroke continues northwest from the meeting, with irregular darker edging but no clearly repeated road marks or paired casing.",
+      "uncertainty_note": "Included as a doubtful continuation of f07; a boundary interpretation remains plausible.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The stroke may continue a non-road property or land-use boundary."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[337,110],[370,124],[399,134],[431,150],[461,161],[491,172],[521,177],[549,186],[580,197],[610,206],[640,212],[668,221],[697,226],[720,212],[740,194],[761,174],[783,155],[817,144],[849,131],[879,123],[910,119],[943,115],[973,105],[1000,95]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One thin reddish-brown stroke runs eastward, forming a shallow downward bend and then turning upward. Its irregular dark edge does not resolve into two casings or a regular dotted sequence.",
+      "uncertainty_note": "The course is visible, but road status is doubtful; it could be a boundary drawn in reddish brown.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A property or land-use boundary is an alternative to the road reading."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[609,975],[641,965],[672,957],[707,949],[740,943],[780,940],[819,940],[852,934],[885,925],[915,917],[944,907],[974,897],[1000,888]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin continuous reddish-brown stroke leaves the dotted diagonal band and runs above a small blue-green outlined oval. No clear paired casing or regular dark dots appear along this branch.",
+      "uncertainty_note": "This branch is a doubtful road candidate and could be a boundary. The three-road interpretation of j05 is conditional on this branch.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The plain reddish line may be a non-road boundary."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[119,613],[132,651],[146,695],[161,739],[178,784],[195,829],[212,874],[229,919],[242,949]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two very faint gray-brown strokes, roughly 15–25 px apart, enclose a pale diagonal strip. They approach the dotted reddish line near its bend and become difficult to distinguish near the bottom.",
+      "uncertainty_note": "A broad road or track is possible, but a paper crease, discoloration or non-road linework could produce this appearance. The attachment at j01 is uncertain; tracing stops before the faint angular marks below can be joined reliably.",
+      "alternatives": [
+        {"proposed_class":"double_line_wide","note":"If the two faint parallel strokes are intentional road margins, they form a comparatively broad band."},
+        {"proposed_class":"unknown","note":"The pale strip may be a crease or other non-road artifact; its lower continuation is unresolved."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [119,613],
+      "branch_count": 3,
+      "evidence_note": "The reddish band with dark edge dots turns east here; two very faint gray-brown strokes approach from the southeast, about 15–25 px apart. Three road branches are conditional on the pale strip being an attached road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [228,646],
+      "branch_count": 3,
+      "evidence_note": "A thin continuous reddish-brown stroke meets the upper side of the narrow reddish band with repeated dark marginal dots. Three road branches are conditional on the thin stroke being a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [319,653],
+      "branch_count": 3,
+      "evidence_note": "Three narrow reddish bands with similar repeated dark edge dots meet: one westward, one northeastward and one southeastward. No lettering hides the meeting."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [337,110],
+      "branch_count": 3,
+      "evidence_note": "Three thin reddish-brown strokes meet, running northwest, south and east. They are largely continuous and lack clear paired casing; the road-junction interpretation is conditional because these strokes may be boundaries."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [609,975],
+      "branch_count": 3,
+      "evidence_note": "A thin continuous reddish-brown stroke joins a diagonal reddish band carrying dark marginal marks; the marked band continues toward the bottom edge. Three road branches are conditional on the thin eastern stroke being a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [218,932,375,1000],
+      "why": "Very faint gray-brown strokes and broad pale marks near the end of f11 do not resolve well enough to distinguish road margins, separate branches or paper artifacts."
+    }
+  ],
+  "overall_note": "The dotted reddish routes are the strongest road readings, although their symbol form falls between the listed classes. Plain reddish strokes and the pale diagonal strip are included as doubtful candidates with non-road alternatives; their junction counts are conditional. No continuation has been supplied through the unresolved pale marks at the bottom."
+}

@@ -1,0 +1,83 @@
+{
+  "tile_id": "cor_e0348_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[806, 0], [799, 50], [790, 100], [781, 150], [773, 200], [764, 250], [756, 300], [749, 350], [742, 400], [735, 450], [729, 500], [723, 550], [717, 600], [711, 650], [706, 700], [703, 750], [700, 793], [696, 840], [691, 890], [684, 940], [678, 975], [674, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A heavy dark longitudinal band has broad pink colouring along its left side and grey colouring along its right side. Its edges are irregular and do not resolve into two evenly spaced road outlines; coordinates follow the dark core.",
+      "uncertainty_note": "Road identity is doubtful: the asymmetric colouring and dark band could represent a coloured boundary or another linear symbol. The thinner reddish candidate reaches its right edge near j02, but a road connection cannot be confirmed.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible if the dark margins are road casing partly covered by the pink colouring."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a coloured administrative boundary or railway-like band; the drawing does not clearly establish a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[1000, 77], [978, 97], [972, 129], [958, 164], [945, 197], [930, 232], [914, 272], [898, 307], [879, 338], [866, 353], [855, 385], [847, 419], [842, 458], [838, 496], [829, 530], [813, 565], [793, 599], [776, 630], [761, 664], [746, 699], [731, 735], [715, 767], [700, 793]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin red-brown stroke runs diagonally from the upper-right edge, bends southward, and crosses several horizontally hatched patches. It has occasional darker edging but no consistently separated second line or regular dot pattern.",
+      "uncertainty_note": "This is a road/path candidate rather than a certain road: a coloured boundary is also plausible. Near its lower endpoint the stroke merges visually with the heavy band, so neither its termination nor a connection at j02 is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a coloured boundary, partly coinciding with a blue water line around [866, 353]."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some dark edging could be a second road outline, but it is not consistently distinguishable from adjoining blue strokes and hatching."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[978, 97], [958, 110], [934, 120], [910, 128]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, thin red-brown stroke extends southwest from the upper-right bend toward the blue outline of a hatched patch. It appears comparable in colour and weight to f02.",
+      "uncertainty_note": "Its status as a separate road branch is uncertain. At the southwest endpoint it becomes inseparable from the blue outline and hatching; no continuation along that outline is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a boundary segment meeting or following the blue line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent branch could be overlapping strokes rather than a separate road, which would remove j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [978, 97],
+      "branch_count": 3,
+      "evidence_note": "Thin red-brown strokes appear to extend northeast, southwest and south-southwest from this position, without a clear casing. This is a conditional three-branch junction if f02 and f03 are roads and the apparent fork is real."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [700, 793],
+      "branch_count": 3,
+      "evidence_note": "The thin red-brown stroke reaches the right side of the heavy pink-and-dark band, which continues in both directions. Colour and dark overprinting obscure the contact; three road branches are conditional on both symbols being roads and actually connecting."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [690, 777, 716, 816],
+      "why": "The thin reddish stroke becomes inseparable from the heavy dark band, pink colouring and nearby hatch outlines; its exact endpoint and connection cannot be read."
+    }
+  ],
+  "overall_note": "The reported lines are uncertain road candidates; none has an unequivocal road symbol. The broad coloured band and thinner reddish strokes also support boundary readings, so the junctions are conditional. The angular western dashed line matches boundary symbology, and the blue water outlines are excluded."
+}

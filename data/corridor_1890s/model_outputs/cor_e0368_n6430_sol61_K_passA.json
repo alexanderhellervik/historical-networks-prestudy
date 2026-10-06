@@ -1,0 +1,136 @@
+{
+  "tile_id": "cor_e0368_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[181, 0], [182, 28], [174, 64], [158, 98], [138, 126], [118, 157], [101, 189], [87, 215], [81, 237], [88, 266], [102, 294], [106, 322], [100, 353], [93, 386], [88, 419], [83, 452], [82, 485], [77, 513], [64, 540], [44, 566], [24, 590], [0, 612]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-red strip has two closely spaced dark edges, largely made of repeated dots or short strokes; the paired edges remain visible through the bends.",
+      "uncertainty_note": "The broken edges make the symbol-form class somewhat uncertain. At the southwest edge this strip approaches the wider road, but their meeting point is clipped or indistinct, so no junction is assigned there.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated short edge marks could be classified as a broken-line symbol rather than narrow double casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 432], [21, 425], [39, 417], [62, 417], [88, 419], [112, 419], [137, 408], [159, 405], [181, 410], [208, 418]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An ochre strip between close dark edges crosses the north-south strip; its western edges look partly continuous, while short dark marks flank the eastern portion.",
+      "uncertainty_note": "Small black letter strokes crowd the eastern portion, but the coloured strip and its edges establish the connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The mixed continuous and broken edging could warrant leaving the precise symbol-form class unspecified."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[208, 418], [232, 399], [253, 379], [275, 359], [299, 337], [322, 313], [346, 289], [368, 267], [390, 244], [410, 221], [426, 198], [439, 168], [450, 132]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close rows of dark short marks flank an ochre-red diagonal strip; matching portions appear on both sides of the large black initial letter.",
+      "uncertainty_note": "The northeast tip merges with a thin red line near [450,132]; no continuation beyond that overlap is sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The conspicuously broken paired edges could instead receive the broken-line class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[208, 418], [236, 435], [260, 449], [284, 463], [312, 473], [344, 480], [377, 487], [408, 492]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow reddish-ochre band with closely spaced dotted dark margins bends southeast and then east, above the black italic lettering.",
+      "uncertainty_note": "Near [408,492] the coloured band becomes indistinguishable from a dark polygon outline. A possible continuation along that outline toward [590,538] is not securely identifiable as road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The eastern tip may include a polygon boundary rather than a separately drawn road."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible margins consist mostly of repeated short marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 125], [16, 150], [35, 177], [54, 202], [69, 222], [81, 237]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short diagonal ochre-red strip has two close dotted dark margins and visibly joins the similarly drawn north-south strip.",
+      "uncertainty_note": "The course and connection are clear; the distinction between narrow double edging and a broken-line symbol is less clear.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Both margins are composed chiefly of small separated dark marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 622], [16, 639], [38, 657], [65, 676], [87, 698], [104, 729], [118, 764], [129, 805], [135, 846], [139, 887], [136, 927], [130, 959], [120, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A relatively broad pink-red band lies between heavy, substantially continuous dark casing lines; it curves past black and red rectangular building marks.",
+      "uncertainty_note": "The approach of f01 near the left edge does not establish a readable three-branch meeting inside the face.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[380, 1000], [386, 976], [399, 951], [417, 932], [446, 914], [475, 900], [507, 883], [539, 868], [572, 852], [600, 839], [625, 831]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A curving ochre-red strip is bordered by closely spaced rows of dark dots or short strokes; scattered star-shaped tree symbols sit alongside, rather than forming regular avenue rows.",
+      "uncertainty_note": "The northeast end runs into the heavy final lettering. No matching road segment beyond the lettering establishes a continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired margins are broken into repeated short marks rather than continuous casing."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [81, 237],
+      "branch_count": 3,
+      "evidence_note": "Three ochre-filled, dark-dotted narrow branches meet: two follow the bending north-south strip and one enters diagonally from the upper-left edge."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [88, 419],
+      "branch_count": 4,
+      "evidence_note": "The narrow ochre north-south strip crosses an ochre east-west strip; dark margins and coloured interiors are visible on all four approaches."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [208, 418],
+      "branch_count": 3,
+      "evidence_note": "Three narrow reddish-ochre bands with close dark broken margins meet beside black lettering, with approaches from the west, northeast and southeast."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [607, 802, 650, 844],
+      "why": "Heavy black lettering masks the northeast tip of f07 and prevents determination of its continuation."
+    }
+  ],
+  "overall_note": "Broken road margins make some symbol-form classifications uncertain. The thin red angular line across the upper half and the dark land-cover outlines were read as non-road lines; pale straight bands appear to be paper creases. Features stop where lettering or overlapping outlines prevent a secure continuation."
+}

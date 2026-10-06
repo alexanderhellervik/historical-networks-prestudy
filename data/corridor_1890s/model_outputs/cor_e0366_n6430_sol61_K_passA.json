@@ -1,0 +1,170 @@
+{
+  "tile_id": "cor_e0366_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[714, 0], [708, 24], [702, 45], [699, 64], [701, 85], [703, 106], [700, 127], [697, 143], [697, 158]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An ochre strip has two thin, intermittently dotted dark edges approximately 6–10 px apart; nearby blue outlines remain separate.",
+      "uncertainty_note": "The edges are locally blurred, but the course is visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[454, 53], [480, 70], [510, 87], [545, 100], [578, 107], [612, 115], [647, 126], [674, 142], [697, 158]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow orange stroke with fine dark stippling curves beneath large black lettering and meets the wider ochre strip.",
+      "uncertainty_note": "Lettering hides its northwest continuation. Two separate edges are not consistently distinguishable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The orange stroke could occupy a very narrow band between blurred dark edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[697, 158], [716, 181], [741, 204], [765, 225], [787, 244], [802, 264], [809, 282], [806, 307], [798, 334], [789, 363], [779, 392], [766, 423], [752, 454], [734, 485]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark, partly stippled edges enclose an ochre band approximately 6–10 px wide; blue horizontal hatching abuts it near v=285.",
+      "uncertainty_note": "The hatching touches the casing but does not establish another road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[450, 591], [461, 571], [473, 550], [480, 550], [513, 558], [525, 560], [556, 554], [588, 547], [621, 539], [650, 529], [684, 510], [715, 497], [734, 485]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A fine ochre-orange line with intermittent dark dots makes an angular bend at its western end and joins the wider cased line.",
+      "uncertainty_note": "Its visible western end meets blue hatching; no continuation through that hatching is resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark marks could constitute the path symbol, with the orange colour appearing continuous because of blur."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured parcel limit remains possible, particularly around the angular western bend."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[734, 485], [726, 518], [716, 552], [706, 578], [693, 603], [681, 627], [670, 653], [659, 679], [656, 701], [665, 723], [674, 740], [673, 752], [665, 769], [650, 781]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The ochre band continues between two dark stippled edges, crossing blue hatching and passing angular black outlines before reaching a small black square.",
+      "uncertainty_note": "Black symbols and overlapping strokes obscure the continuation near the lower endpoint; connection to f06 is unresolved.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[637, 800], [617, 810], [596, 819], [581, 832], [566, 843]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short ochre and dark broken stroke runs southwest between heavy black marks and angular outlined patches; its casing cannot be separated reliably.",
+      "uncertainty_note": "This may continue f05, but the intervening symbols prevent a certain connection. Some of the apparent stroke may belong to adjacent patch outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A narrow track could run between the outlined patches and terminate beneath the southwest black mark."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment could be patch boundaries rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[57, 491], [90, 490], [123, 486], [160, 479], [195, 474], [229, 479], [258, 493], [281, 508], [301, 524]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin orange stroke with small dark stipples curves between a broad pink-red stripe and a thinner diagonal red line; no clearly separated casing is visible.",
+      "uncertainty_note": "Both ends coincide with stronger red strokes. Neither a continuation across them nor a connection along them is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark stippling may be the principal path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The orange curve could instead mark a parcel limit between the red lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0, 923], [25, 924], [43, 932], [57, 949], [63, 971], [58, 990], [52, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre stroke with dark dotted edging enters from the left, bends downward, and leaves the bottom edge; no broad casing is resolved.",
+      "uncertainty_note": "The short clipped course resembles the narrower orange tracks, although a coloured boundary cannot be excluded.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a parcel boundary with an ochre wash."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[958, 0], [979, 22], [1000, 42]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short diagonal reddish-ochre stroke with dark intermittent marks clips the upper-right corner; separate parallel edges are unresolved.",
+      "uncertainty_note": "The fragment is too short to distinguish a track from a red boundary confidently; a boundary is a strong alternative.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The coloured stroke and dark marks could represent a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a property boundary, consistent with other thin red lines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [697, 158],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange stroke from the northwest visibly meets the wider ochre band, whose dark edges continue north and southeast."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [734, 485],
+      "branch_count": 3,
+      "evidence_note": "A fine orange stroke from the west-southwest meets the dark-edged ochre band, with visible continuations north-northeast and south-southwest."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [415, 0, 493, 73],
+      "why": "Heavy black lettering conceals the northwest continuation of f02."
+    },
+    {
+      "bbox_uv": [626, 777, 669, 817],
+      "why": "Black building marks and overlapping coloured strokes prevent reliable tracing between f05 and f06."
+    },
+    {
+      "bbox_uv": [550, 826, 582, 854],
+      "why": "A heavy black mark and adjacent polygon outlines obscure the southwest endpoint of the possible track fragment."
+    }
+  ],
+  "overall_note": "The narrow orange strokes are less securely distinguishable from parcel limits than the winding cased road. The broad western pink-red stripe, other angular red lines, long black dashed lines, blue channels and outlined strips are read as boundaries or other non-road symbols. Lettering and dense black symbols prevent certain tracing at the flagged endpoints."
+}

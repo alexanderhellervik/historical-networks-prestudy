@@ -1,0 +1,130 @@
+{
+  "tile_id": "cor_e0346_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,355],[25,341],[49,332],[79,328],[111,328],[143,329],[171,330],[199,334],[227,339],[258,342],[287,342],[313,337],[343,326],[373,319],[402,315],[432,316],[461,311],[490,305],[516,300],[539,296]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two close rows of dark dots or short strokes flank a narrow ochre band; their spacing remains visible on both sides of the large lettering.",
+      "uncertainty_note": "The margins are predominantly discontinuous. Some paired marks look round enough to admit an avenue-symbol reading.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Emphasizes the broken, dotted margins rather than their paired arrangement."
+        },
+        {
+          "proposed_class": "avenue_lined",
+          "note": "Possible if the larger paired round marks represent trees; distinct hollow tree symbols are not consistently readable."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[539,296],[558,282],[579,265],[603,244],[629,228],[655,213],[681,198],[707,184],[731,175],[751,172]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow ochre strip with close dark, partly dotted margins runs northeast; clustered black and red symbols interrupt it at the northeastern end.",
+      "uncertainty_note": "The route becomes indistinct among symbols and lettering near [751,172]. Connection to f05 is plausible but is not carried through the obscured interval.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible margins can also be described as paired broken lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[539,296],[535,312],[525,333],[516,353],[506,373],[496,391],[486,410],[475,431],[460,450],[448,463]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A slim ochre band descends southwest between dark dotted or short-stroked edges; near its lower end one margin merges with heavy black polygon and building outlines.",
+      "uncertainty_note": "The upper spur is clear. Below approximately [486,410], the distinction between track margin and polygon outline weakens, and no continuation beyond [448,463] is established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The road may terminate near [486,410], with the remaining southwest line belonging to the adjoining polygon outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[149,0],[174,15],[198,36],[224,60],[250,84],[277,108],[304,133],[330,155],[353,173],[381,184],[408,194],[434,209],[458,230],[483,251],[508,275],[527,289],[539,296]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "One dark diagonal line consists of dots and elongated strokes, with variable spacing and no clearly continuous paired casing; it reaches the road convergence.",
+      "uncertainty_note": "This is a tentative path candidate. Its broken pattern also supports a boundary reading; its inclusion makes j01 a four-branch junction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible single broken-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible property boundary rather than a road; under that reading omit this feature and count three branches at j01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[837,126],[857,115],[880,102],[898,92],[912,80]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Short dark linear marks border a narrow brown-orange strip between heavy lettering to the southwest and black/red rectangular symbols to the northeast.",
+      "uncertainty_note": "This may continue f02, but the intervening course is obscured. The northeastern end disappears into clustered symbols, preventing a secure connection to f06.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible surviving section of the paired-margin northeast road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some of the visible strokes may be adjoining plot edges rather than a separate track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[916,0],[915,20],[920,41],[925,61],[930,79],[927,94]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow brown strip follows closely spaced dark strokes near the top edge, bending beside an orange polygon and black/red symbols.",
+      "uncertainty_note": "Possible road fragment entering the tile from above. Its margins overlap polygon outlines, and its connection to f05 is unreadable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road with two dark margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible polygon or property edge rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [539,296],
+      "branch_count": 4,
+      "evidence_note": "Paired dotted margins approach from west, northeast and southwest beside a broad pink line; a single broken black diagonal also reaches this crowded convergence from northwest, but that fourth branch is tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [746,129,837,196],
+      "why": "Heavy lettering and clustered black/red symbols obscure the fine margins and course of a possible connection between f02 and f05."
+    },
+    {
+      "bbox_uv": [881,48,942,108],
+      "why": "Overlapping rectangular symbols and dark polygon edges prevent a secure reading of the possible connection between f05 and f06."
+    }
+  ],
+  "overall_note": "Fine dotted road margins are clearest across the upper third and on the southward spur; broad pink lines and the regular parcel divisions are read as boundaries. The northeast fragments remain separate where lettering and symbols hide their connections. The four-branch count at j01 includes the tentative northwest line, whose boundary alternative would leave three road branches."
+}

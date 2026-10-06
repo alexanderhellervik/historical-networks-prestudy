@@ -1,0 +1,111 @@
+{
+  "tile_id": "cor_e0366_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[132,1000],[171,956],[212,911],[253,872],[298,835],[341,807],[380,789],[407,783],[444,784],[480,785],[520,775],[563,758],[606,734],[632,715],[645,705],[659,682],[686,655],[716,630],[745,610],[776,594],[807,581],[847,572],[892,567],[944,560],[1000,551]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantial dark edges enclose a continuous ochre strip. The paired edges curve together; reddish ink follows the northern edge near the eastern exit.",
+      "uncertainty_note": "The main course is clear. The short branches associated with j02 and j03 are doubtful, so those junctions are conditional.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[807,581],[800,556],[798,528],[800,501],[800,475],[807,446],[812,418],[806,389],[796,359],[782,329],[769,301],[753,277],[737,252],[719,229],[696,208],[669,187],[643,170],[616,156],[587,143],[561,128],[541,115],[526,110]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow pale strip follows paired fine, partly broken dark strokes. Larger dark spots occur repeatedly alongside it, especially around the bends; rectangular building marks sit beside the lower portion.",
+      "uncertainty_note": "The road reading is supported by the paired course and its contact with f01, but the larger spots could be flanking tree symbols or parts of a broken line symbol. The northern end becomes inseparable from heavy building marks.",
+      "alternatives": [
+        {"proposed_class":"avenue_lined","note":"Repeated larger spots outside the narrow central strip may depict trees flanking a road."},
+        {"proposed_class":"dashed_line","note":"The paired broken strokes may themselves constitute the track symbol."},
+        {"proposed_class":"double_line_narrow","note":"Some portions appear to retain two continuous fine edges beneath the spots."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[733,1000],[774,988],[817,978],[861,967],[903,957],[947,946],[1000,933]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two approximately parallel dark margins enclose a pale tinted strip across the southeast corner; the upper margin carries strong reddish-purple ink.",
+      "uncertainty_note": "The red stroke may be a boundary coincident with the upper road edge. Separation of the road casing from that stroke is less clear than on f01.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The lighter southern margin could indicate a narrower road than the tinted band suggests."},
+        {"proposed_class":"unknown","note":"An alternative reading is a red boundary accompanied by a separate parcel edge rather than a cased road."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[406,179],[435,163],[465,145],[489,126],[507,111]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "One fine sequence of dark dots runs diagonally from a solid angular outline toward clustered dark building marks. No clear continuous casing is visible.",
+      "uncertainty_note": "This may be a dotted path, but it also resembles the dotted margins used around adjoining mapped areas. Its eastern end is obscured; no connection to f02 is established.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The dots may mark a land-cover or parcel boundary rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[407,783],[406,756],[403,733],[407,708],[411,694],[433,685],[450,676]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin interrupted dark stroke rises from the paired road edges, then meets heavier angular linework. It has little visible tint and no consistently separated second edge.",
+      "uncertainty_note": "A short path is possible, but a field division is equally plausible. The northern continuation cannot be separated from the angular outlines; j03 applies only to the path reading.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The interrupted central portion could depict a minor path."},
+        {"proposed_class":"unknown","note":"The entire stroke may be a parcel division, making j03 unnecessary."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[645,705],[654,713],[668,716],[679,722]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short faint tinted stroke with irregular dark edging extends from the main casing toward a small red rectangular mark. Nearby outlines and lettering overlap its far end.",
+      "uncertainty_note": "This could be a short access track or merely an adjoining tinted parcel edge. Its contact with f01 is indistinct, and j02 is conditional on the track interpretation.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"One dark edge may represent a short access path."},
+        {"proposed_class":"unknown","note":"The visible stroke may belong to the parcel or building enclosure rather than a road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [807,581],
+      "branch_count": 3,
+      "evidence_note": "The narrow paired northern course reaches the broad ochre strip, whose two dark margins continue southwest and east; red boundary ink overlaps nearby."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [645,705],
+      "branch_count": 3,
+      "evidence_note": "The broad paired casing continues in two directions beside a faint transverse tinted stroke toward a red rectangle; three branches exist only if that short stroke is a track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [407,783],
+      "branch_count": 3,
+      "evidence_note": "A fine interrupted stroke touches the northern margin of the broad cased line, which continues both ways; the third branch is conditional because the fine stroke may be a parcel division."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [32,420,81,470],
+      "why": "A pale rectangular patch replaces the underlying drawing; any line concealed inside it cannot be read."
+    },
+    {
+      "bbox_uv": [849,628,898,678],
+      "why": "A pale rectangular patch conceals the linework beside heavy lettering and angular outlines."
+    }
+  ],
+  "overall_note": "The broad curved road is clear; the winding northern course has ambiguous broken edges and possible flanking tree symbols. Fine dotted lines and short strokes near buildings can also be parcel margins, so their alternatives and conditional junctions are retained. The long straight red lines are read as boundaries except where red ink accompanies visible paired casing."
+}

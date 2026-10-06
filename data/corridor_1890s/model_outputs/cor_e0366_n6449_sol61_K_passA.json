@@ -1,0 +1,84 @@
+{
+  "tile_id": "cor_e0366_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[32, 0], [43, 28], [55, 56], [68, 84], [80, 112], [90, 136], [92, 150]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "Two narrow rows of dark blue-grey dots, approximately 7–10 px apart, descend between small red and black building symbols; no continuous casing is evident.",
+      "uncertainty_note": "The dots terminate among the building symbols; no continuation is legible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[367, 0], [362, 28], [355, 55], [344, 80], [321, 103], [297, 124], [284, 149], [274, 179], [266, 211], [261, 244], [259, 277], [259, 309], [254, 336], [241, 369], [224, 402], [206, 437], [186, 472], [168, 506], [150, 541], [132, 568], [109, 592], [85, 615], [62, 638], [45, 649], [20, 654], [0, 655]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of blue-grey dots form a winding strip. A heavier solid red diagonal overlaps or crosses them in several places, while the dotted strip remains visible on both sides.",
+      "uncertainty_note": "Short stretches merge visually with the red line, but the paired dots establish their continuation. Crossings with solid red lines are not road junctions.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[791, 447], [768, 466], [745, 486], [737, 497], [742, 516], [758, 541], [778, 568], [793, 592], [804, 616]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two rows of relatively heavy blue-grey dots, about 8–10 px apart, turn sharply and descend past lettering and black building marks to a red building symbol.",
+      "uncertainty_note": "At the northern endpoint the dots merge with thin outlines beside hatching; a drawn terminus cannot be distinguished from loss of visibility. The southern connection is partly covered by the red building.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[804, 616], [825, 635], [849, 644], [876, 647], [907, 645], [939, 646], [970, 651], [1000, 657]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two conspicuous rows of dark dots curve east from the red building, then run nearly horizontally; their spacing remains approximately 8 px.",
+      "uncertainty_note": "The initial meeting is covered partly by the building symbol. The paired rows are clear immediately east of it.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[804, 616], [799, 641], [790, 674], [778, 705], [760, 733], [739, 756], [716, 779], [688, 801], [657, 822], [625, 844], [591, 866], [558, 885], [530, 900], [512, 915], [502, 920], [486, 911], [461, 899], [443, 896], [424, 906], [405, 912], [381, 906], [357, 907], [336, 915], [314, 928], [291, 948], [270, 969], [244, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A paired dotted strip descends southwest, becoming faint on its upper stretch and stronger below. It bends beside a red rectangle near [495, 912], with two dotted rows visible on both sides.",
+      "uncertainty_note": "The stretch between approximately [799, 641] and [716, 779] is pale, so its centre is approximate. Continuation beside the lower red building is supported by aligned paired rows on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[817, 582], [837, 594], [859, 609], [881, 621], [906, 626], [930, 616], [950, 607], [976, 605], [1000, 615]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A much finer, apparently single row of grey-blue dots curves above f04, beside the lower edge of horizontal hatching; its western portion is interrupted by lettering.",
+      "uncertainty_note": "This may be the outline of the hatched area rather than a path. No connection to the paired dotted road can be established through the lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the fine dots represent a path, this is its visible course; its western connection remains obscured."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dots may delimit the hatched land-cover area, making this a non-road line."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [804, 616],
+      "branch_count": 3,
+      "evidence_note": "Paired blue-grey dotted strips approach from the northwest, east and southwest beside a red, dark-edged building rectangle. The rectangle covers the precise meeting, so the coordinate is approximate."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Paired dotted strips provide the clearest road evidence; solid red diagonals and ordinary thin field outlines were read as non-road lines. Lettering, building symbols and pale dots limit endpoint and junction precision. The fine dotted line beside hatching is retained as an ambiguous candidate."
+}

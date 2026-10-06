@@ -1,0 +1,247 @@
+{
+  "tile_id": "cor_e0367_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 398],
+        [25, 369],
+        [48, 333],
+        [68, 295],
+        [89, 252],
+        [111, 212],
+        [137, 172],
+        [167, 133],
+        [197, 96],
+        [228, 58],
+        [259, 20],
+        [279, 0]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow red-brown band has two close, dark, granular or dotted margins, approximately 7–10 px apart; no regularly spaced tree symbols accompany it.",
+      "uncertainty_note": "The margins are interrupted rather than clean continuous casing, so the symbol-form classification is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins could be described as two rows of short marks rather than continuous double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 974],
+        [23, 944],
+        [48, 909],
+        [74, 873],
+        [100, 836],
+        [126, 800],
+        [151, 763],
+        [177, 725],
+        [205, 663],
+        [230, 638],
+        [251, 606],
+        [273, 572],
+        [296, 536],
+        [317, 505],
+        [329, 488],
+        [350, 456],
+        [371, 429],
+        [398, 404],
+        [431, 379],
+        [464, 353],
+        [496, 328],
+        [526, 308],
+        [552, 292],
+        [578, 283],
+        [605, 279],
+        [633, 273],
+        [662, 273],
+        [697, 272],
+        [731, 270],
+        [761, 264],
+        [785, 250],
+        [812, 229],
+        [840, 209],
+        [870, 188],
+        [899, 175],
+        [933, 173],
+        [966, 170],
+        [1000, 157]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03", "j04"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close dark, dotted or granular margins enclose a red-brown stroke, usually about 6–10 px wide. Small black building rectangles sit alongside several sections; the dotted margins remain visible around the bends.",
+      "uncertainty_note": "The main course is readable. Its connections to f06 and f07 are conditional on those weaker lines being paths; the symbol's interrupted margins also permit a dashed-line classification.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two dotted margins resemble the paired interrupted road marks in the supplied model and worked example."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [0, 478],
+        [20, 467],
+        [39, 451],
+        [54, 439],
+        [65, 433]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short red-brown band with dark, irregular margins runs northeast from the left edge into a small concentration of crossing strokes.",
+      "uncertainty_note": "The last few pixels merge with the other strokes at j01; the southeast continuation is substantially less clear.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The rough dark margins could represent paired dotted road lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [0, 537],
+        [18, 510],
+        [36, 482],
+        [51, 456],
+        [65, 433]
+      ],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin oblique brown-red stroke with dark interruptions crosses the horizontal blue-green hatching; its weight varies and no consistently separated casing is visible.",
+      "uncertainty_note": "This may be a narrow path, but a boundary crossing the hatched area is also plausible. Its apparent meeting with f03 is partly congested by other ink.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The oblique stroke could be a boundary rather than a road."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the dark interruptions are intentional path marks, an interrupted-line description may fit better."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [
+        [65, 433],
+        [81, 445],
+        [99, 455],
+        [121, 463]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A weak diagonal reddish-dark trace leaves the crossing southeastward through the horizontal hatching and disappears into heavier blue and black ink; two distinct margins cannot be followed reliably.",
+      "uncertainty_note": "A path branch and a boundary or hatching-related stroke are both possible. The endpoint is stopped at the heavy ink because a continuation across it is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the weak diagonal trace is a path, it appears to have one principal stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a non-road boundary or a combination of overlapping strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [
+        [65, 659],
+        [90, 664],
+        [117, 667],
+        [143, 667],
+        [168, 663],
+        [188, 660],
+        [205, 663]
+      ],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A thin continuous reddish line with a dark edge follows a shallow bend between two differently coloured fills. It meets the granular main route at the east end and merges with heavy blue-black ink at the west end.",
+      "uncertainty_note": "The line could be a path along the colour edge or the colour area's boundary itself. No certain continuation through the heavy ink at the west end is recorded.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property boundary is a substantial alternative to a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [
+        [230, 638],
+        [247, 635],
+        [268, 616],
+        [283, 596],
+        [291, 574],
+        [304, 550],
+        [289, 544],
+        [299, 524],
+        [312, 502],
+        [329, 488]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A much thinner dark line follows the east side of the narrow coloured area beside the main route, bending around small angular outlines. It has no clear paired dotted margins.",
+      "uncertainty_note": "This is a doubtful possible side track: an enclosing field edge fits the drawing at least as well. The angular bend near [289, 544] is especially difficult to separate from adjacent outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a side path, the visible symbol is principally one thin dark stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire line may be an enclosure boundary, in which case j03 and j04 are not road junctions."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [65, 433],
+      "branch_count": 3,
+      "evidence_note": "The red-brown band from the southwest, a thinner south-southwest stroke and a weak southeast stroke meet in congested dark ink. Three road branches are conditional on accepting the two weaker strokes as paths."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [205, 663],
+      "branch_count": 3,
+      "evidence_note": "The two granular margins of the main route continue southwest and northeast; the thin reddish transverse line reaches their west side. The third road branch depends on the path reading of f06."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [230, 638],
+      "branch_count": 3,
+      "evidence_note": "A thin dark line diverges eastward beside an angular coloured outline while the thicker dotted route continues in both directions. The third road branch is conditional on f07 being a track."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [329, 488],
+      "branch_count": 3,
+      "evidence_note": "The thin line beside the angular outlines converges with the main route's dark granular margin; the main route continues northeast and southwest. The third road branch is conditional on f07 being a track."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [106, 442, 145, 483],
+      "why": "Heavy blue-black strokes and horizontal hatching merge with the weak southeast trace from j01, preventing a certain continuation."
+    },
+    {
+      "bbox_uv": [168, 726, 250, 808],
+      "why": "Large black lettering, small building marks and fine coloured lines overlap; possible short access traces beside the main route cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The two prominent red-brown routes are much clearer than the short possible paths, whose boundary alternatives are retained explicitly. Junction counts involving those doubtful paths are conditional. The widely separated straight red lines around “till Brolycke” and the long straight red line southeast of the main route are read as boundaries, not road casing."
+}

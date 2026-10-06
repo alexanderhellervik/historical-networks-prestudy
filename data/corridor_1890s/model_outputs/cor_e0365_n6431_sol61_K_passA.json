@@ -1,0 +1,222 @@
+{
+  "tile_id": "cor_e0365_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,425],[39,446],[79,469],[122,492],[165,517],[211,542],[251,567],[282,583],[316,597],[350,607],[388,607],[429,603],[477,604],[518,609],[558,615],[601,621],[634,625],[676,621],[721,620],[763,621],[807,627],[849,626],[883,625],[907,622],[934,608],[967,592],[1000,581]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j06","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantial dark continuous outlines, generally about 10–15 px apart, enclose pale brown infill. Both outlines continue through the black lettering near the eastern bend.",
+      "uncertainty_note": "The road itself is clear. Junctions j06 and j07 depend on whether the faint adjoining gray strokes are tracks.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[571,1000],[591,977],[618,946],[648,913],[680,876],[714,837],[744,799],[772,756],[798,716],[822,684],[850,661],[879,642],[907,622]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A pale brown band has two heavy, mostly continuous dark margins approximately 10–14 px apart; small dark rectangular symbols lie beside its northeastern portion.",
+      "uncertainty_note": "Near the bottom edge, its western margin approaches f03. A merger in the last few pixels, or immediately beyond the tile, cannot be placed reliably.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The lower endpoint may participate in a junction with f03 within the clipped bottom-edge patch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[350,607],[346,650],[343,690],[340,721],[346,746],[363,766],[389,791],[415,817],[443,844],[464,867],[487,898],[507,932],[533,968],[552,993],[557,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown stripe has closely spaced dark margins, roughly 5–9 px apart. Repeated dark dots or short breaks are especially visible around its bends.",
+      "uncertainty_note": "The margins are partly dotted rather than continuously cased. The faint attachment at j04 and the possible bottom-edge merger with f02 are less secure than the main course.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated interruptions in the narrow margins could be read as a paired dotted or dashed road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[693,387],[679,409],[646,434],[629,463],[616,490],[613,520],[616,553],[612,584],[604,608],[601,621]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A rusty brown strip descends between close dark strokes, one visibly broken or dotted. At its upper end it coincides with a heavy black angular outline.",
+      "uncertainty_note": "The uppermost short section has poorly separated margins. No continuation is asserted beyond the black outline at the upper endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark edging can also be read as paired dotted strokes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The short upper section may be a single narrow path stroke rather than a cased track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[601,621],[607,644],[604,672],[592,699],[578,725],[568,746],[563,777],[560,812],[556,846],[552,881],[549,913],[545,942],[533,968]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "One thin ochre or reddish stroke, with intermittent darker dots, crosses the broad road and continues between angular black outlines. Stable paired casing is not visible.",
+      "uncertainty_note": "Its lower course becomes faint and partly coincides with black parcel outlines. The attachment to f03 at j04 is approximate and conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks may constitute the path symbol rather than edging on a continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Parts of the lower course could be a colored parcel boundary; it could stop before reaching f03."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[801,788],[819,806],[839,824],[852,831],[888,812],[925,792],[961,773],[978,763],[992,786],[1000,802]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A brown stripe with repeated dark dots along its edges bends sharply, then runs diagonally toward another sharp turn at the right edge. Its western end overlaps a thick blue-black and red band.",
+      "uncertainty_note": "The dotted brown drawing resembles a narrow track but also follows angular colored enclosures. Its western connection cannot be resolved; no connection to f02 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the repeated dark edging as a paired dotted track symbol."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the brown stripe and close dark margins as narrow casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire course could instead be a non-road parcel boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[852,831],[875,854],[894,878],[904,903],[912,932],[921,956],[927,970]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow brown stroke with dark dotted edging branches from the angled brown line and bends downward. Large black characters overlap its lower portion.",
+      "uncertainty_note": "This may be a track or a parcel boundary. The last visible brown marks are among the black characters; continuation to the bottom edge is not certain and is not supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark dots could mark a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The stroke could be a non-road boundary continuing into the obscuring lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[495,355],[492,397],[489,437],[485,480],[482,526],[479,568],[477,604]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Faint near-parallel gray strokes, only a few pixels apart, descend beside heavier stepped black outlines and touch the broad brown road. Clear brown infill is absent.",
+      "uncertainty_note": "A possible thin track is recorded because of the paired appearance. The strokes may instead be parcel edging or a pale duplicate of the black outline; the upper end merges into that outline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the two faint strokes as an unfilled narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the strokes as non-road parcel boundaries or duplicated outline printing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[222,332],[219,376],[216,420],[214,461],[211,503],[211,542]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin dark stroke and a paler roughly parallel gray stroke descend from a heavy black corner toward the broad road, with a separation of several pixels and no distinct colored infill.",
+      "uncertainty_note": "The paired appearance permits a narrow-track reading, but a parcel side with duplicated or shaded edging is equally plausible. No continuation through the upper black corner is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The parallel strokes could represent an unfilled narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The drawing could be entirely a non-road parcel outline."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [350,607],
+      "branch_count": 3,
+      "evidence_note": "The broad paired dark outlines continue in both directions while a narrower reddish, dark-edged stripe attaches from below."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [601,621],
+      "branch_count": 4,
+      "evidence_note": "The broad brown cased band continues left and right; a narrow dark-edged brown stripe reaches it from above and a thinner ochre stroke emerges below, slightly offset."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [907,622],
+      "branch_count": 3,
+      "evidence_note": "Three pale brown bands with substantial paired dark margins meet beneath nearby black lettering; their margins remain identifiable on all three approaches."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [533,968],
+      "branch_count": 3,
+      "evidence_note": "A faint reddish stroke approaches the thicker dotted-edged brown stripe, which continues on both sides. The precise attachment is blurred; this is conditional on f05 reaching f03."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [852,831],
+      "branch_count": 3,
+      "evidence_note": "Three brown strokes with repeated dark edge dots meet at an angular fork. This is a road junction only under the track reading of f06 and f07."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [211,542],
+      "branch_count": 3,
+      "evidence_note": "Faint gray near-parallel strokes touch the upper casing of the broad brown road, which continues both ways. The third road branch is conditional on the track reading of f09."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [477,604],
+      "branch_count": 3,
+      "evidence_note": "Thin gray strokes beside a black parcel outline reach the upper margin of the broad paired road lines. The third road branch is conditional on the track reading of f08."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [537,978,584,1000],
+      "why": "Closely approaching dark and brown strokes are clipped by the bottom edge; a merger of f02 and f03 cannot be located securely."
+    },
+    {
+      "bbox_uv": [783,759,816,807],
+      "why": "Thick blue-black edging and red overprint obscure the western attachment, if any, of f06."
+    },
+    {
+      "bbox_uv": [912,951,955,1000],
+      "why": "Large black characters obscure the lower brown stroke of f07; its continuation is not distinguishable."
+    }
+  ],
+  "overall_note": "The broad cased roads are clear; narrow broken edging and faint paired gray strokes are harder to distinguish from parcel outlines. Conditional junctions retain those alternative readings, and uncertain courses stop at obscuration. Red boundary bands, long gray division dashes, and blue-green edged lines are otherwise excluded."
+}

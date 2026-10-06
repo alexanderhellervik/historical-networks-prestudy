@@ -1,0 +1,170 @@
+{
+  "tile_id": "cor_e0361_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[277, 0], [263, 32], [244, 65], [226, 100], [216, 133], [206, 168], [187, 201], [166, 237], [151, 274], [132, 305], [104, 326], [72, 346], [36, 366], [0, 384]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two closely spaced dark broken traces curve past black and red building rectangles near the upper edge; neither has the broad pink wash of the line farther right.",
+      "uncertainty_note": "The two traces merge locally at this resolution, making their exact spacing and center uncertain by several pixels.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The broken traces may be the two margins of a narrow track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[156, 524], [184, 536], [221, 549], [249, 565], [268, 594], [288, 623], [314, 652], [342, 680], [372, 685], [409, 668], [449, 647], [490, 623], [530, 603], [544, 606], [566, 634], [593, 660], [620, 688], [650, 716], [679, 738], [711, 755], [739, 765], [771, 755], [805, 740], [841, 722], [878, 702], [912, 684], [927, 678]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Paired rows of small dark dots cross the horizontal hatching, bend around solid parcel outlines, and continue beside star-shaped tree symbols; portions have a darker, nearly continuous margin.",
+      "uncertainty_note": "The course is clearest in the western half. Dots overlap parcel edges and building symbols farther east; the final course is approximate and stops before the dark seam. Its western junction is conditional on f07 and f08 being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired dots and locally continuous margin may represent a narrowly cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some eastern portions may instead be dotted enclosure margins; the apparent continuous feature could consist of separate segments."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[490, 507], [490, 491], [508, 474], [529, 458], [549, 444], [565, 431], [585, 418]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A fine, broken dark trace runs obliquely inside the central solid-lined enclosure toward a small red and black rectangle; faint adjacent marks suggest a second margin.",
+      "uncertainty_note": "The lower end becomes indistinct beside the red diagonal stroke, and the upper end is covered by the building symbol. Neither end is extended through those marks.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint adjacent marks may be a second track edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The broken marks could be internal enclosure or land-cover detail rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[213, 835], [253, 847], [299, 861], [347, 876], [395, 890], [444, 906], [493, 921], [542, 936], [592, 952], [641, 968], [691, 983], [744, 999], [747, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pale diagonal band approximately 15–25 pixels wide lies between fine gray-brown margins, with a heavier red stroke along its lower side.",
+      "uncertainty_note": "The pale band supports a road reading, but the red side also resembles the tile's boundary highlighting. Center placement is approximate where a margin fades.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale band may be an unfilled strip beside a highlighted boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[250, 648], [251, 673], [264, 702], [257, 731], [246, 762], [231, 795], [221, 819], [213, 835]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow pale, bending strip has a red eastern margin and a much fainter gray western margin; large black lettering overlaps its upper end.",
+      "uncertainty_note": "The strip could be a narrow road joining the bottom band, or merely a pale margin beside a boundary. Its upper end is stopped at the overlapping diagonal stroke and lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Treat the red and faint gray margins as the two edges of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Treat the red stroke as a boundary and the adjacent pale strip as unfilled map ground."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 950], [29, 962], [66, 970], [106, 972], [142, 965], [165, 938], [184, 906], [195, 876], [202, 851], [213, 835]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A curved pale strip follows a continuous red outer stroke around the lower-left hatching; a faint inner margin is visible intermittently.",
+      "uncertainty_note": "Its connection to the diagonal pale band is visible, but a road reading depends on the faint inner margin being a road edge rather than the edge of the hatching.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The pale strip may continue the wide road around the bend."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The curve may be a highlighted parcel boundary around the hatched area."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[359, 0], [334, 48], [309, 98], [284, 149], [260, 201], [235, 253], [207, 305], [182, 351], [173, 379], [178, 409], [183, 442], [171, 483], [156, 524]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A broad irregular pink-red band has a dark western edge and a paler eastern edge; it bends sharply near v=380 and separates hatching from tree symbols.",
+      "uncertainty_note": "Boundary wash is the stronger reading, but a broad road band cannot be excluded from the visible edges. The reported center and junction apply only to that road alternative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The dark and pale edges could case a broadly tinted road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The band is probably boundary highlighting, with no road represented by it."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[156, 524], [154, 563], [151, 604], [126, 633], [94, 654], [58, 672], [24, 684], [0, 683]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The same broad red-pink band continues downward and turns left; dark edging and pale gaps become partly covered by large black lettering near the left edge.",
+      "uncertainty_note": "This is the continuation of f07 under its road interpretation. The broad wash and lettering prevent a confident distinction between road margins and highlighted boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Continue the broadly tinted, potentially cased road through the visible bend."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Treat the entire band as boundary highlighting rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [213, 835],
+      "branch_count": 3,
+      "evidence_note": "Three pale strips meet beside converging red margins: one runs diagonally down-right, one curves down-left, and one rises. This is a three-branch road junction only if the uncertain strips f05 and f06 are roads."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [156, 524],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted trace meets the broad pink band, which continues upward and downward. Three road branches are present only under the road interpretation of that band; otherwise this is a track endpoint against a boundary."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [928, 0, 977, 1000],
+      "why": "An opaque, slightly slanting dark sheet seam hides the underlying drawing; its position varies within this bounding box."
+    }
+  ],
+  "overall_note": "Paired broken traces provide the clearest road evidence, while broad red wash and faint pale margins support competing road and boundary readings. Thin red strokes resembling the example's boundaries were excluded unless accompanied by a plausible road band. Junction counts involving uncertain bands are conditional, and obscured ends have not been completed."
+}

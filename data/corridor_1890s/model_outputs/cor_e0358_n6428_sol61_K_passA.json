@@ -1,0 +1,223 @@
+{
+  "tile_id": "cor_e0358_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[305,196],[337,184],[365,176],[391,163],[412,153],[443,138],[477,121],[510,104],[545,84],[575,65]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "The northeastern portion has close dark and ochre edges enclosing a pale strip roughly 6–12 px wide; the southwestern portion reduces to a thin ochre stroke.",
+      "uncertainty_note": "The faint southwestern continuation may be a different kind of line. Its endpoint fades without a visible terminal symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The portion from [305,196] to approximately [391,163] can be read as a separate single-stroke path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The faint southwestern portion could instead be a coloured field or property division."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[575,65],[607,48],[641,31],[675,15],[705,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow pale strip runs between an ochre edge and a heavier, intermittently broken dark edge, continuing the diagonal symbol of f01.",
+      "uncertainty_note": "The dark edge is irregular enough that its exact continuous-versus-dotted form is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "One edge may be boundary overprinting rather than part of a paired road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[510,0],[532,20],[551,40],[575,65]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two close, irregular dark diagonals enclose a pale ochre strip and converge on the longer diagonal band.",
+      "uncertainty_note": "The edges are partly merged with adjacent polygon outlines; the centreline is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired appearance could result from closely spaced parcel outlines rather than a road arm."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[204,0],[197,40],[181,77],[169,108],[166,140],[151,171],[136,205],[151,227],[176,258],[201,287],[214,302],[246,319],[281,331],[317,343],[345,357],[352,382],[365,408],[364,432],[366,453],[376,482],[376,516],[371,542],[357,567],[340,590]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow red stroke has a close dark edge and intermittent heavier dark marks; parts coincide with angular black polygon outlines. The overall band is approximately 3–7 px wide.",
+      "uncertainty_note": "This is a doubtful road candidate: the red and dark pattern also resembles the boundaries in the worked example. The southern end merges into the red-and-blue river strokes, with no independently visible continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It could be a narrow path whose dark marks form one principal stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a property boundary throughout, rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,420],[25,447],[55,477],[89,504],[126,532],[162,561],[197,592],[225,617]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A diagonal red-tinted band has closely spaced dark margins, approximately 5–9 px apart, with uneven dark interruptions along it.",
+      "uncertainty_note": "The symbol is also compatible with a coloured boundary. Its southeastern end disappears into the river-edge strokes; no connection along or across the river is established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The red band and broken dark marks may represent a boundary rather than paired road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[348,452],[348,480],[350,507],[347,535],[344,561],[340,587]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint, nearly vertical grey-red stroke lies about 15–30 px west of the darker curved portion of f04; its edges are poorly separated.",
+      "uncertainty_note": "This could be a separate faint track, a boundary, or an additional edge or alignment of f04. Both ends merge with heavier strokes, so no three-branch road junction is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A separate faint path could follow these waypoints."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a boundary or part of f04's symbol, rather than an independent feature."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[136,781],[128,816],[120,851],[112,874],[119,908],[127,942],[135,975],[141,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A thin ochre-red line and a close row of dark interrupted marks descend from the crowded river strokes; their separation is roughly 4–7 px.",
+      "uncertainty_note": "The interrupted dark pattern may be a boundary symbol. The upper endpoint is obscured, and a crossing of the river cannot be traced independently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre stroke and interrupted dark row could form the two sides of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a property or allotment boundary continuing to the bottom edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[859,577],[875,585],[894,588],[914,588],[934,592]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A short, heavy dark transverse mark with red patches crosses the blue band; portions appear to have two close edges, but several strokes overlap.",
+      "uncertainty_note": "A bridge or road crossing is possible, but river outlines and boundary marks cannot be separated confidently. No western approach is extended beyond the visible mark.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The transverse mark could be a short cased road or bridge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be boundary overprinting or another transverse symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[934,592],[942,621],[952,660],[964,704],[977,748],[990,792],[1000,836]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A red diagonal band contains conspicuous spaced dark marks and has a nearby thin pale or ochre edge; its visible width varies around 8–15 px.",
+      "uncertainty_note": "The dark marks strongly admit a boundary reading. Near the edge, the diagonal overlaps the heavy black-and-white railway symbol; its continuation outside the face is not reported.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The red band and nearby edge could describe a narrow road coinciding with a boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire diagonal may be a coloured boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[934,592],[956,588],[975,596],[1000,619]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow pale strip with dark curved margins extends eastward from the crowded transverse marks; a faint blue-green stroke is also present.",
+      "uncertainty_note": "This apparent arm may be a small watercourse or polygon outline. Accordingly, j02 is only a tentative road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close dark margins could enclose a short road arm."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The blue-green colour and curved outlines support a stream or ditch interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[274,919],[304,926],[335,933],[365,938],[391,943],[407,944]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "A single thin ochre-orange stroke runs obliquely rightward, with a few darker swellings and no clearly separated casing.",
+      "uncertainty_note": "This is a weak path candidate and could be a coloured field division. Its western end meets a dark greenish outline; its eastern end fades.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property division, rather than a path, is equally plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [575,65],
+      "branch_count": 3,
+      "evidence_note": "Three narrow pale bands with close dark or ochre margins converge: southwest, northeast and northwest. The northwest arm's margins partly merge with adjacent outlines."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [934,592],
+      "branch_count": 3,
+      "evidence_note": "An apparent three-arm meeting joins a heavy transverse dark-red mark, a southeast red band and an eastward pale dark-bordered strip; overlapping blue strokes make its interpretation as a road junction tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [105,741,151,794],
+      "why": "Red, blue and heavy dark strokes overlap around the upper endpoint of f07; a separate approach or crossing cannot be resolved."
+    },
+    {
+      "bbox_uv": [853,570,958,615],
+      "why": "Heavy transverse marks, red wash and blue outlines overlap around f08 and j02, preventing confident separation of road, boundary and water symbols."
+    }
+  ],
+  "overall_note": "The paired diagonal bands at the top provide the clearest road reading. Several thinner red or ochre candidates also support boundary interpretations, which are retained explicitly. The eastern three-arm meeting is tentative, and no network connections have been supplied through unresolved river strokes."
+}

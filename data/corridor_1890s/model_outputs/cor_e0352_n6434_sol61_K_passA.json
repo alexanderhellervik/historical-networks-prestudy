@@ -1,0 +1,139 @@
+{
+  "tile_id": "cor_e0352_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[867,0],[842,29],[816,60],[790,93],[765,124],[742,156],[726,186],[721,211],[712,236],[691,264],[671,294],[650,325],[627,357],[603,389],[579,421],[557,450],[550,468],[553,486],[546,514],[535,551],[522,587],[515,615],[511,637],[506,675],[500,719],[492,749],[476,780],[458,816],[446,848],[443,881],[432,918],[420,953],[415,968],[405,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, mostly continuous dark margins enclose a red-brown band approximately 12–22 px wide. The casing follows the bends and remains visible on both sides of the thin transverse red line.",
+      "uncertainty_note": "The main course is clear. Connections j03 and j04 depend on retaining the doubtful side features f05 and f06 as roads.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[84,0],[66,22],[49,48],[38,76],[32,106],[21,138],[8,167],[0,185]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow ochre-brown strip has two dark edging strokes roughly 7–12 px apart; outlined rectangular symbols sit immediately to its right.",
+      "uncertainty_note": "Some edging merges with nearby building outlines, but the strip can be followed between both tile edges.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark edges are locally thick enough that their separation is difficult to measure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[137,58],[131,86],[131,119],[136,157],[141,195],[147,235],[151,277],[160,315],[176,354],[192,394],[204,434],[211,475],[211,513],[205,554],[195,594],[193,616],[199,638],[209,656],[231,688],[251,723],[272,762],[288,800],[302,841],[317,885],[334,924],[355,950],[379,962],[415,968]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Closely spaced black dots and short strokes follow a winding, narrow ochre line. The symbol crosses the thin transverse red line and curves into the wide cased band near the bottom.",
+      "uncertainty_note": "The northern continuation becomes inseparable from the outlined symbols around (137,58), so it is stopped there. A faint connecting ochre stroke makes the interrupted versus continuous symbol form somewhat ambiguous.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre connecting stroke could be read as the principal line, with dark dots alongside it."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[320,74],[336,98],[359,123],[371,145],[374,163],[370,191],[363,225],[358,265],[351,305],[345,346],[343,389],[340,426],[342,455],[351,474],[372,483],[402,483],[421,490],[435,509],[448,530],[470,541],[501,548],[535,551]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow red-ochre strip is edged by closely spaced dark dots and short strokes, apparently in two rows about 5–9 px apart. It bends beside outlined rectangular symbols before meeting the wide cased line.",
+      "uncertainty_note": "Large black lettering obscures its northern continuation. The small spacing and blurred dots make the number of edging rows uncertain in places.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches resolve as one interrupted dark chain with an ochre connecting stroke rather than two distinct margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[500,719],[509,738],[516,759],[522,780],[533,795],[520,805],[513,819],[514,835],[511,850]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short, fine ochre line with dark dots runs beside a peach-filled, dark-outlined shape and approaches a cluster of small black rectangular symbols. No consistent paired casing is resolved.",
+      "uncertainty_note": "This could be a dotted access track or an edge associated with the adjoining filled shape. Its attachment to the main casing and its continuation among the rectangular symbols are indistinct.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the dots form an independent track, they match the interrupted symbol used by f03."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: the line belongs to the adjoining parcel outline; j03 would then cease to be a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[511,637],[536,632],[559,625],[578,614],[585,602],[593,579],[602,560],[614,552]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin, mostly continuous ochre stroke curves east of the wide casing and approaches the thin transverse red line. It lacks clearly resolved dark dots or paired margins; another ochre stroke curves back toward approximately (534,584).",
+      "uncertainty_note": "The adjacent return stroke makes an enclosed parcel outline a substantial alternative to a track. The apparent contact with the main road is provisional, and the eastern end is lost against the transverse line.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The outer ochre stroke could be a single-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: both ochre strokes outline a small parcel; j04 would then cease to be a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [535,551],
+      "branch_count": 3,
+      "evidence_note": "The narrow dotted, ochre-filled strip approaches from the west and meets the western margin of the broad red-brown casing, which continues in both directions. The thin diagonal red line also crosses here but is read as a boundary."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [415,968],
+      "branch_count": 3,
+      "evidence_note": "The winding black-dotted ochre line curves in from the west and reaches the broad dark-edged strip, whose two margins continue above and below the contact."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [500,719],
+      "branch_count": 3,
+      "evidence_note": "A fine dotted ochre stroke apparently leaves the eastern side of the broad casing. Three road branches are present only under the track reading of f05; the small attachment is blurred."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [511,637],
+      "branch_count": 3,
+      "evidence_note": "The thin curved ochre stroke apparently reaches the eastern margin of the wide casing. Three road branches are present only under the track reading of f06; the contact may instead be a parcel corner."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [120,18,170,70],
+      "why": "Closely packed dark building outlines obscure the northern continuation of the dotted line f03."
+    },
+    {
+      "bbox_uv": [282,0,335,77],
+      "why": "Heavy black lettering overlaps the possible northern continuation of f04; a separate trace through the letters cannot be established."
+    },
+    {
+      "bbox_uv": [500,819,536,871],
+      "why": "Small dark rectangular symbols and adjoining outlines prevent following the possible track f05 farther south."
+    }
+  ],
+  "overall_note": "The broad cased route and the two longer winding dotted lines are readable, although lettering and buildings hide their northern ends. The short eastern candidates are retained with parcel-outline alternatives and conditional junctions. Straight red divisions, long black dash patterns, pale blue lines and outlined field edges elsewhere are read as non-roads."
+}

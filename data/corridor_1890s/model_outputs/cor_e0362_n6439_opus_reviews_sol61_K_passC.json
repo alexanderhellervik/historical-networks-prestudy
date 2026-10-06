@@ -1,0 +1,54 @@
+{
+  "tile_id": "cor_e0362_n6439",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f01 is a very short piece at the extreme top-left corner (about u 0-20, v 0-40). All that is visible there is a small dark red/maroon patch with a reddish edge cut by the tile corner. It could be the edge of a brown road, a coloured plot (åker/tomt fill) or the red boundary colour. Too little of it is inside the tile to see a road symbol.",
+      "uncertainty_note": "Only a few tens of pixels of the line are in the tile. Whether it is a road has to be decided on the neighbouring tile to the north-west."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the top-right corner (about u 960-1000, v 0-40), inside the Ryd settlement, there is a curved red-brown line, apparently paired, bending from the top edge toward the right edge. Its colour and form match the brown road lines through settlements in the worked example (read there as Sämre körväg). It is not the thin crimson boundary line.",
+      "uncertainty_note": "Only a short arc is inside the tile and the overlay line is hard to see under the corner. The class (narrow double brown line or single brown line) cannot be confirmed from this fragment, and it could also be a plot outline in the settlement."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f03 runs as a thin line from about (990,195) south-west to about (925,280), along the east and south-east side of the orange (åker/tomt) plot between 'Ryd' and 'L.Ryd'. At this position the map shows only the solid black outline of that plot and its orange fill. No brown road colour, double line or dotted path symbol is visible along it.",
+      "uncertainty_note": "This is the settlement area, where a lane could run along a plot edge, and the resolution is low. Small dots after 'L.Ryd' (about u 960-1000, v 280-330) might be a path, but they lie south-east of f03's course, not on it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[958, 290], [980, 312], [1000, 335]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Just after the 'L.Ryd' lettering there is a short run of small dots and a slanted stroke heading south-east toward the right edge, near where the upper crimson boundary leaves the tile at about (1000,340). This could be a dotted Gångstig leaving L.Ryd.",
+      "uncertainty_note": "Low confidence. The marks may be punctuation or lettering of 'L.Ryd', or lövskog/stone symbols, which are also scattered here as small circles. Too short to show a regular dotted symbol.",
+      "alternatives": ["part of the 'L.Ryd' lettering/punctuation", "lövskog or stone symbols", "dotted footpath (Gångstig) continuing east off-tile"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [930, 275],
+      "what_is_contested": "Whether a junction exists here: f03's south-west end sits at the L.Ryd lettering. It is unclear whether any road (f03 or the possible dotted path m01) meets or continues here, or whether nothing is drawn.",
+      "evidence_note": "The lettering 'L.Ryd', plot outlines and scattered small symbols overlap here. No clear road line enters or leaves."
+    },
+    {
+      "uv": [990, 120],
+      "what_is_contested": "Whether f02 (top-right corner) and f03 are parts of one settlement lane through Ryd that joins just off-tile. Inside the tile they are not connected by any visible drawn line.",
+      "evidence_note": "Between v 40 and v 190 at the right edge there are only the 'Ryd' lettering and orange/pink plot fill. No brown road is visible linking the two."
+    }
+  ],
+  "overall_note": "Almost the whole tile is barrskog, vass/mire hatching, water and lettering, crossed by three thin crimson lines. These are boundaries (gräns), not roads, and the overlay rightly leaves them out. The faint straight light line running from the right edge near v 420 to the bottom near u 650, and the pale streaks near the pasted 'Detta be' label, look like paper joins or folds rather than roads. Road evidence is limited to small fragments in the Ryd settlement corners: I accept f02, cannot judge f01, and reject f03 as a plot outline."
+}

@@ -1,0 +1,169 @@
+{
+  "tile_id": "cor_e0349_n6423",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [215, 454],
+        [240, 443],
+        [263, 435],
+        [303, 418],
+        [344, 398],
+        [385, 378],
+        [421, 352],
+        [458, 326],
+        [497, 296],
+        [530, 266],
+        [567, 233],
+        [603, 207],
+        [643, 180],
+        [684, 157],
+        [720, 137],
+        [746, 121],
+        [756, 108],
+        [760, 97]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow ochre strip has two close dark flanks, approximately 4–8 px apart where clearest; parts of the edging appear broken. It passes below the small green patterned rectangle and beside an elongated orange polygon. Aligned portions remain visible on both sides of the large black lettering.",
+      "uncertainty_note": "The distinction between continuous and dotted edging is unclear. The southwest course becomes difficult to separate from parcel outlines at the fold; the northeast course disappears into a small dark symbol and the broad pink line complex.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark flanks may be paired rows of short marks rather than continuous lines, resembling the poorer-track symbol in the worked example."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 247],
+        [30, 235],
+        [60, 225],
+        [88, 217],
+        [103, 215],
+        [121, 226],
+        [146, 247],
+        [171, 275],
+        [192, 301],
+        [211, 327],
+        [219, 341]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin red-brown trace enters from the left, bends near [103,215], and continues southeast as closely spaced intermittent dark marks with a faint ochre centre. The southeast portion reaches the heavy black initial letter.",
+      "uncertainty_note": "This is a plausible minor track, but its interrupted edging also permits a boundary reading. The western arm is redder than the southeast arm, so their interpretation as one road is uncertain. No continuation through the initial letter is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the intermittent dark marks as a minor track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read some or all of the trace as a property boundary; the western and southeast portions may represent different kinds of line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [232, 365],
+        [239, 376],
+        [244, 395],
+        [252, 418],
+        [263, 435]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A fine dark trace runs beside a small black-outlined pale rectangle, west of the green patterned square, and appears to meet the ochre double-edged strip. It has no consistently readable casing.",
+      "uncertainty_note": "The trace may be a short access path, an outline beside the rectangular symbol, or a continuation of f02. Lettering and nearby outlines prevent a certain connection to f02.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Read the fine trace beside the rectangle as an access path joining f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read it as a parcel or symbol outline; under this reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [215, 454],
+        [191, 473],
+        [168, 491],
+        [142, 512],
+        [116, 535],
+        [94, 558],
+        [81, 580]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Closely adjacent dark strokes run southwest between elongated orange polygons, with a very narrow pale interval. Their weight resembles the surrounding polygon outlines, and separate dotted edging is not consistently visible.",
+      "uncertainty_note": "This could be the southwest continuation of f01, but it could instead be adjacent field edges. The course is approximate where the strokes merge, and no continuation beyond the lower endpoint is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the narrow interval and its two flanks as a track continuing f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the strokes solely as outlines of adjoining orange polygons, with no road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [
+        [799, 41],
+        [817, 28],
+        [831, 15],
+        [840, 0]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short oblique brown-black trace with ochre colouring reaches the top edge beside the pink angular marking. Its flanks merge with heavier nearby strokes.",
+      "uncertainty_note": "A short track clipping the upper edge is possible, but the trace may instead belong to the tinted parcel or boundary marking. Its connection to f01 cannot be established across the intervening heavy symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the ochre trace and close dark flanks as a short road segment."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the trace as part of the parcel or boundary outline, with no road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [263, 435],
+      "branch_count": 3,
+      "evidence_note": "The ochre strip continues southwest and northeast, while a finer dark trace approaches from beside the small outlined rectangle to the north. Three branches are apparent if that fine trace is a path; its road interpretation is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [214, 331, 248, 380],
+      "why": "The heavy black initial letter overlaps the end of the southeast-running fine trace and prevents a reliable connection to the trace below it."
+    },
+    {
+      "bbox_uv": [198, 430, 233, 491],
+      "why": "The vertical scan fold and overlapping dark polygon edges obscure the southwest continuation of the ochre strip."
+    },
+    {
+      "bbox_uv": [750, 57, 817, 105],
+      "why": "Broad pink colouring, heavy dark edging and small symbols prevent a reliable road course between the diagonal ochre strip and the short upper-edge candidate."
+    }
+  ],
+  "overall_note": "The diagonal ochre strip is the clearest road candidate; the fine northwest trace and southwest continuation admit boundary or parcel-edge readings. The broad straight pink lines are read as boundaries, while the blue-edged shore and faint band across the water are excluded. Junction j01 is conditional on the uncertain short access trace being a road."
+}

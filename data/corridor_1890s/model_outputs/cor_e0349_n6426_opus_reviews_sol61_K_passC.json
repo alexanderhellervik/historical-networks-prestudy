@@ -1,0 +1,234 @@
+{
+  "tile_id": "cor_e0349_n6426",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thick brown band with dark edges runs from the junction near (410,320) through (430,365), (500,405), (615,455), then east-south-east past (700,495), (770,560), (850,628) to the east edge near (1000,640) under the 'Fogd' lettering. This is the dominant road of the tile.",
+      "uncertainty_note": "The road is certain. The class is uncertain: the band is brown-filled between two dark lines, but at this resolution narrow and wide double lines cannot be told apart."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At top left, from about (75,0) to (105,85) and (155,105), the overlay follows a thin crimson single line that runs beside the brown road rather than along it. On the neighbouring example, thin crimson lines like this are boundaries.",
+      "uncertainty_note": "The line is short and close to the brown road; a slight misregistration onto the road (120,0)-(155,100) cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line runs from the top edge near (212,0) down to (175,90) and meets the thick road near (160,105). It is brown, not black like the field edges, so it reads as a lesser road converging on the main one.",
+      "uncertainty_note": "It is thinner and fainter than f01. It could be a brown-edged field boundary, and the dark edging makes the class unclear (single_line vs double_line_narrow)."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line runs from the west edge at about (0,288) to (95,272), (130,240) and (200,172), joining the thick road near (205,165).",
+      "uncertainty_note": "The brown colour is clear. The width is moderate, so double_line_narrow is possible."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thick brown road runs from the junction near (410,320) south-west via (350,352) and (300,388), then down the left section through (210,465), (140,545), (95,615), (72,690), (40,780) to the west edge near (0,830).",
+      "uncertainty_note": "There is a scan or mosaic seam at u ~300-305 where the left and right sections are offset. Continuity across the seam is inferred, not directly seen."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line runs from the west edge near (0,592) to (78,635), meeting the f05 road.",
+      "uncertainty_note": "It is short. A brown-edged parcel boundary is possible, but the colour matches the road lines."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line leaves f05 near (72,700) and runs through (110,750), (200,780) and (232,805), then turns south through (228,880) to the bottom edge near (205,1000).",
+      "uncertainty_note": "Part of the overlay near (230,800)-(290,745) seems to follow a line up toward the seam, and I cannot see a brown road clearly there. The main course is clear."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (290,750) through (440,640) to the junction near (605,475), the overlay follows a thin crimson single line with a black line beside it. There is no brown road band. On the neighbouring sheet, thin crimson lines of this kind are boundaries (socken or hemman lines).",
+      "uncertainty_note": "Possible alternative: a minor road drawn in red single line. I judge a boundary more likely because the line is straight, ignores the terrain and continues as f12 on the far side of the junction."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road band runs almost straight from the junction near (410,320) east along v ~318-320 to about (600,318), then rises gently toward (700,290). It continues as the road toward the north-east (f11).",
+      "uncertainty_note": "If the overlay polyline also takes the north-south brown line from (600,240) to (612,450), that part is also a real brown line. The exact split between f09, f10 and f11 is not visible from the labels."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road runs north-south through the main crossroads at about (615,455). To the north it goes via (608,380) and (603,300) toward the farm near (610,245). To the south it goes via (628,540), (636,620), (622,710), (635,760), (620,830), (598,880) and (585,940) toward the bottom edge.",
+      "uncertainty_note": "The segment north of v ~300 is fainter and partly merges with building outlines near (600-690,200-260)."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thick brown band runs from about (690,215) via (735,272) and (830,292) east to (950,285) and the east edge near (1000,265). The crimson f12 line runs into it near (850,295).",
+      "uncertainty_note": "The western start is uncertain. The overlay begins near (690,215) at a building outline; the band may instead continue west along v ~285-300 to join f09."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the crossroads (620,450) via (660,395), (720,350) and (800,318) to about (850,298), this is a thin crimson single line, the continuation of f08. A dark line runs parallel to it at (700,400)-(830,320). There is no brown road band, and the symbol matches the boundary lines on the example sheet.",
+      "uncertainty_note": "Same alternative as f08: a red-drawn minor road. I consider it less likely."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line runs from the f11 road near (960,295) down via (948,345) and (905,405), then east along (950,432) to the east edge near (1000,438), around the 'G' farmstead.",
+      "uncertainty_note": "It could be the brown edge of the farm plot rather than a lane. The northern part (948,300)-(905,400) is partly hidden by the green meadow wash."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (500,755) to (612,718), the overlay follows the edge of the farmyard at '3G'. What is visible there is the dark outline of the light yard with buildings; there is no clear brown road band.",
+      "uncertainty_note": "An access lane from the f10 road into the yard is plausible, but the drawing does not separate it from the yard outline."
+    },
+    {
+      "reviewed_feature_id": "f15",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line leaves the f10 road near (635,748), passes the farm at (700,735), and runs east through (760,758), (820,782) and (900,795) to about (950,785), above the 'Björk' lettering.",
+      "uncertainty_note": "The brown colour is clear, but the line is thin. The section near the farm buildings (640-720,730-750) is crowded."
+    },
+    {
+      "reviewed_feature_id": "f16",
+      "verdict": "cannot_tell",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (950,775)-(1000,740/820), the f15 brown line reaches the long dark diagonal line from (800,580) and continues toward the east edge. It is hard to see whether the brown line continues and in which direction.",
+      "uncertainty_note": "The short feature sits on a crossing with a dark diagonal (probably a boundary or ditch) and the 'k' of 'Björk'."
+    },
+    {
+      "reviewed_feature_id": "f17",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The brown f10 road continues near (585,940)-(590,1000) to the bottom edge. The overlay line there follows it.",
+      "uncertainty_note": "Buildings and the bottom edge obscure the last few tens of pixels."
+    },
+    {
+      "reviewed_feature_id": "f18",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (580,960) via (660,978) to (720,1000), a brownish line runs along the lower edge between building outlines. I cannot separate it from parcel and building outlines.",
+      "uncertainty_note": "It is at the tile edge and partly cut off. It may be a lane branching from f10/f17."
+    },
+    {
+      "reviewed_feature_id": "f19",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the very top-left corner (0-40, 0-25), only the outline of a pink parcel and the map frame are visible. There is no distinguishable brown road band.",
+      "uncertainty_note": "Too little of the line is inside the tile to judge."
+    },
+    {
+      "reviewed_feature_id": "f20",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near the label (370,208), the overlay polyline is not clearly separable. If it is the thick brown road from (160,105) via (220,170) and (300,195) to (320,245), that is a real road (double_line_narrow). If it follows the dark edge of the green or pink parcel from (320,240) to (400,175), that is a field or meadow boundary, not a road.",
+      "uncertainty_note": "This is ambiguous because I cannot see which line the overlay takes, and because the mosaic seam at u ~300 offsets the road between sections."
+    },
+    {
+      "reviewed_feature_id": "f21",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay appears to follow the thick brown road from the seam near (310,240) via (360,275) to the junction near (410,318). It continues as f01.",
+      "uncertainty_note": "The label (436,262) sits slightly off this road, near a blue stream and a brown parcel edge running toward (470,240). If f21 follows that edge or the stream instead, it is not a road."
+    },
+    {
+      "reviewed_feature_id": "f22",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This very short segment near (855,405)-(870,415) sits on the dark building symbol at the 'G' farmstead. No road band leaves it.",
+      "uncertainty_note": "A very short farm access is possible, but nothing distinguishes it from the building mark."
+    },
+    {
+      "reviewed_feature_id": "f23",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted or dashed brown line runs from the top boundary near (778,35) south via (768,95) and (755,150), then west to (690,165) and (655,200). It matches the Gångstig dotted symbol, not a continuous road line.",
+      "uncertainty_note": "I do not know the class the overlay assigned. A dotted line could also be a boundary (Skifteslinje is dashed). The brown colour favours a footpath."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[812, 788], [800, 840], [790, 880], [775, 940], [755, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin brownish line seems to leave the f15 lane near (812,788) and run south through the 'Björk' lettering toward the bottom edge.",
+      "uncertainty_note": "It is crossed by large lettering and building outlines. It may be a brown-edged plot boundary rather than a lane.",
+      "alternatives": ["plot boundary, not a road", "not present (part of the lettering or plot outlines)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[125, 0], [150, 90], [175, 130], [220, 168], [300, 195], [320, 245]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thick brown road runs from the top edge near u=125 down to the convergence with f02/f03 near (160,105), then east-south-east to the seam near (300,195), where it continues in the right section as f21/f01. I list it only in case no overlay id covers it (f20 is ambiguous).",
+      "uncertainty_note": "The road is certain. Whether the overlay already covers it under f20 or another id is not visible, and the seam at u ~300 breaks continuity.",
+      "alternatives": ["already covered by f20 in the overlay"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [615, 455],
+      "what_is_contested": "The number of road branches. There are four certain brown branches (f01 west, f01 east, f10 north, f10 south). The crimson lines f08 (south-west) and f12 (north-east) also pass through; if they are counted as roads, it becomes a six-way junction.",
+      "evidence_note": "The brown bands cross clearly here. The crimson single lines are thin and straight, and read as a boundary passing through the crossroads."
+    },
+    {
+      "uv": [410, 320],
+      "what_is_contested": "Which lines meet. The f05 brown road from the south-west, the f21/f01 road and the f09 eastward road meet here, and a blue stream crosses at the same point. It is unclear whether the road from the seam (f21) is a separate branch or the same as f05.",
+      "evidence_note": "Brown bands converge at about (405-415, 315-325). The stream runs close by from (300,330) toward (460,245)."
+    },
+    {
+      "uv": [160, 105],
+      "what_is_contested": "Which lines meet and whether f02 belongs. The thick road from the top edge, the brown f03 line and the brown f04 approach (near (205,165)) converge here, and the crimson f02 line also touches.",
+      "evidence_note": "Several lines bunch together at top left; only the brown ones read as roads."
+    },
+    {
+      "uv": [302, 300],
+      "what_is_contested": "Position and continuity of roads across the mosaic seam at u ~300-305, where the left and right sections are offset. This affects how f05 and f20/m02 join their right-section continuations.",
+      "evidence_note": "A visible vertical seam with mismatched linework runs from top to bottom at u ~300."
+    }
+  ],
+  "overall_note": "The brown road network (f01, f05, f09, f10, f11 and the lesser brown lanes) is clearly drawn, and the overlay follows it well. The thin crimson diagonals f08/f12 and the tiny f02/f22 pieces read as boundaries or building marks, not roads. Several short or edge features (f14, f16, f18, f19, f20) cannot be decided from the drawing, and a mosaic seam at u ~300 makes connections across it uncertain."
+}

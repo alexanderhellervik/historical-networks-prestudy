@@ -1,0 +1,230 @@
+{
+  "tile_id": "cor_e0356_n6433",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[155, 0], [157, 20], [155, 60], [161, 105], [168, 151], [175, 196], [181, 229], [186, 262], [186, 285], [168, 324], [147, 365], [124, 408], [102, 451], [80, 493], [57, 535], [34, 578], [12, 617], [0, 637]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink band has a heavy dark, interrupted edge, especially along its right side; individual dark marks are much larger than those beside the central ochre route.",
+      "uncertainty_note": "Its interpretation as a road is doubtful. The interrupted edge could instead belong to a railway or a boundary with coloured emphasis; both listed junctions are conditional on the road interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible wide road if the dark marks represent broken casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible railway or coloured boundary, in which case this feature is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[157, 20], [175, 10], [195, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short pink-brown strip with dark edging turns right from the broad vertical band and reaches the upper edge.",
+      "uncertainty_note": "The short visible length does not establish whether this is road casing or coloured boundary emphasis.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible short cased road segment."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible boundary segment rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[205, 0], [227, 12], [253, 33], [283, 59], [294, 48], [306, 25], [320, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A pink-brown band with heavy, locally interrupted dark edging forms an angular bend immediately below the upper edge.",
+      "uncertainty_note": "The symbol resembles the coloured band on the left more than the central ochre road. Its possible connection to f02 lies outside the face and is not reported.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible road with dark casing and coloured interior."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible coloured boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 219], [38, 222], [77, 224], [116, 229], [151, 232], [181, 229], [211, 238], [242, 247], [276, 260], [310, 273], [345, 284], [380, 292], [416, 299], [446, 306], [470, 317]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03", "j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre band runs between two close dark edges; the lower edge is visibly dotted or broken in several stretches, with tree symbols and peach polygon outlines beside it.",
+      "uncertainty_note": "The route is comparatively clear, but its interrupted edging also supports a dashed-symbol classification. Junctions j02, j03 and j04 include doubtful adjoining features.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The closely spaced broken edge marks may be the defining road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[470, 317], [490, 302], [508, 290], [526, 280], [553, 268], [582, 255], [611, 245], [640, 230], [664, 209], [686, 182], [708, 152], [732, 123], [754, 92], [773, 61], [785, 33], [780, 17], [769, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown-ochre strip has two close dark, partly dotted edges; it curves between peach polygons and passes small dark rectangular marks near its lower portion.",
+      "uncertainty_note": "Dark marks crowd the lower curve, but the strip remains identifiable on both sides. The southern branch at j05 is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Several stretches appear to have paired broken edges rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[242, 247], [254, 228], [267, 208], [278, 186], [287, 169]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine ochre-brown stroke curves upward from the ochre route, between star-shaped tree marks; no consistently spaced second edge is visible.",
+      "uncertainty_note": "It may be a path, but a parcel division is also plausible. Its upper end becomes inseparable from a diagonal dark stroke, so no continuation is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel boundary or colour edge rather than a path."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some apparent interruptions could be genuine path-symbol breaks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[470, 317], [455, 329], [440, 344]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin brown trace diverges southwest from the ochre bend and approaches heavy black lettering; its dark edging is incomplete.",
+      "uncertainty_note": "A path interpretation is plausible, but lettering prevents a secure course beyond the endpoint. Connection to f08 is an alternative, not an asserted continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible narrow path continuing southwest beneath the lettering."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible polygon edge meeting the road rather than a road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[409, 367], [391, 383], [372, 398], [355, 408], [350, 419]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A thin ochre-dark trace runs southwest beside the irregular black outline of a small peach polygon; no reliable paired casing is visible.",
+      "uncertainty_note": "This may be the continuation of f07, or simply the polygon outline. The lower endpoint records the limit of the distinguishable trace.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible path continuing from f07 beneath the intervening lettering."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible field outline, with no road present."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[526, 280], [515, 295], [506, 309], [499, 324]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow pale-brown opening with close dark marks leaves the lower side of the ochre route and enters a cluster of black rectangular marks and lettering.",
+      "uncertainty_note": "It could be a short access track, but adjoining polygon edges offer another reading. The dense ink prevents tracing it through the cluster.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible short track with two close edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible gap between parcel outlines rather than a drawn road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[499, 375], [507, 395], [518, 417], [531, 438], [538, 446]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow pale corridor lies between dark irregular edges beside an elongated peach strip; the edges widen and become polygon outlines toward the lower end.",
+      "uncertainty_note": "A track is possible, but the marks may entirely delimit adjacent coloured polygons. Neither a connection to f09 nor a continuation south is secure.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible track occupying the pale corridor."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible adjacent field outlines, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [157, 20],
+      "branch_count": 3,
+      "evidence_note": "The broad pink band continues upward and downward while a shorter pink-brown strip turns right; three road branches are conditional on these bands being roads."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [181, 229],
+      "branch_count": 4,
+      "evidence_note": "The narrow ochre strip has visible arms on both sides of the broad pink band, which also continues above and below; four road branches are conditional on the pink band being a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [242, 247],
+      "branch_count": 3,
+      "evidence_note": "The paired-edge ochre route continues left and right, and a fine ochre stroke departs upward; the third branch could instead be a parcel line."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [470, 317],
+      "branch_count": 3,
+      "evidence_note": "The narrow ochre route bends from its western arm toward the northeast, while a thinner brown trace points southwest into lettering; the southwestern road branch is tentative."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [526, 280],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the close-edged brown route flank a narrow pale-brown opening directed downward toward rectangular black marks; the downward road branch is tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [418, 330, 461, 377],
+      "why": "Heavy lettering overlaps the possible southwestern path; its course and connection cannot be distinguished securely."
+    },
+    {
+      "bbox_uv": [474, 306, 542, 382],
+      "why": "Small rectangular symbols, lettering and closely packed polygon edges obscure possible access-track continuations."
+    }
+  ],
+  "overall_note": "The central ochre route is the clearest road symbol; the broad pink bands and several fine adjoining traces support competing road and non-road readings. Junction counts involving those doubtful traces are conditional. Thin red parcel outlines, long straight division lines and blue water lines were otherwise read as non-roads."
+}

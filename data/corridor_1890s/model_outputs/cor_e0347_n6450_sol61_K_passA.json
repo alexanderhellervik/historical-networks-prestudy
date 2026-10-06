@@ -1,0 +1,137 @@
+{
+  "tile_id": "cor_e0347_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,698],[37,684],[79,672],[119,654],[155,637],[195,613],[236,588],[285,554],[322,533],[365,517],[413,507],[461,497],[510,486],[560,479],[610,472],[660,465],[710,457],[755,444],[799,427],[841,410],[884,392],[927,373],[968,359],[1000,348]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j04","j01","j02","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A continuous brown ribbon about 12–18 px wide has two heavy dark outlines. Its paired edges remain identifiable through the blue-line crossings and beneath brief lettering overlaps.",
+      "uncertainty_note": "The contact with f05 is provisional because that faint line may not be a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,373],[29,379],[58,391],[89,403],[123,413],[160,419],[195,417],[208,419],[216,440],[224,472],[236,506],[249,528],[269,543],[285,554]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish-brown strip has darker margins, including small dots or short broken strokes. It bends sharply near [208,419] and visibly merges with the broad brown ribbon.",
+      "uncertainty_note": "The margins are partly stippled rather than consistently continuous paired lines.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The mixed solid and dotted margins could be treated as a distinct track symbol rather than a narrow double line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[510,486],[521,456],[538,428],[555,400],[577,373],[602,348],[624,324],[644,297],[658,275],[659,261],[653,245],[654,221],[663,193],[680,165],[700,137],[717,111],[737,84],[740,75]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A reddish-brown band roughly 6–10 px wide has dark, partly dotted margins. Black rectangular and red building symbols lie beside its upper section; matching brown segments establish its course across the large black lettering.",
+      "uncertainty_note": "At [740,75] the brown band loses its separate identity against an angled parcel outline. No continuation toward the upper edge is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The alternating dots and solid edge strokes do not form an entirely clear continuous double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[884,392],[882,427],[881,469],[881,512],[881,556],[882,601],[885,627],[897,659],[908,689],[908,711],[894,738],[878,766],[861,797],[847,829],[834,861],[821,892],[812,922],[808,935],[808,961],[811,981],[818,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow brown ribbon with two darker, partly broken margins descends from the broad road. It crosses a thin blue line, curves beside heavy blue outlines and green horizontal hatching, and passes red and black rectangles near the lower edge.",
+      "uncertainty_note": "Its road course is clear; the possible branch f06 at [808,935] is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The brown band and stippled casing could be classified as a mixed track symbol rather than a narrow double line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[155,637],[171,676],[187,714],[201,751],[214,781],[230,808]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two very faint gray traces, several pixels apart, descend obliquely from the lower margin of the broad brown road. They have no clear brown fill or heavy casing and become difficult to separate from black lettering near the endpoint.",
+      "uncertainty_note": "This is a candidate track only. A parcel line or image mark is also plausible, and its contact with f01 is not secure. It is stopped before the lettering; a continuation through that obstruction cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both faint traces are intentional road edges, they describe a lightly drawn narrow double-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The traces may instead be a parcel division or an image mark, with no road represented."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[808,935],[833,930],[869,924],[909,917],[951,910],[1000,902]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin dark line slopes across the upper edge of a pale green enclosure. Small hollow oval symbols form a row just below it, while black rectangular symbols occur near its western end; a separate pair of road edges is not clear.",
+      "uncertainty_note": "A tree-lined route and an enclosure boundary with planted-tree symbols are both possible. The apparent contact with f04 is provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The thin line and adjacent spaced oval symbols could represent a tree-lined route, although only one flanking row is clear."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may simply bound the green enclosure, with the ovals belonging to its planting rather than to a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [285,554],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish strip from the upper left merges directly into the broad, dark-cased brown ribbon, which continues in both directions: three visible road branches."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [510,486],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown strip from the upper right reaches the upper casing of the broad brown road; the broad ribbon continues on both sides, giving three branches."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [884,392],
+      "branch_count": 3,
+      "evidence_note": "A narrow brown strip leaves the lower side of the broad diagonal ribbon beside black lettering and a small dark rectangle. The broad ribbon continues both ways, giving three branches."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [155,637],
+      "branch_count": 3,
+      "evidence_note": "Provisional junction: the faint gray paired traces appear to touch the lower casing of the broad brown ribbon. Three branches apply only if those traces are a road; the contact is indistinct."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [808,935],
+      "branch_count": 3,
+      "evidence_note": "Provisional junction: the thin line above the row of hollow ovals appears to meet the narrow brown ribbon, which continues upward and downward. The third branch may instead be an enclosure boundary."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [225,808,310,930],
+      "why": "Heavy black lettering and overlapping dark land-cover outlines prevent reliable tracing of any continuation of the faint gray candidate f05."
+    }
+  ],
+  "overall_note": "Four brown road ribbons are clearly drawn; f05 and f06 retain competing road and non-road readings. Thin blue lines, patterned boundary strokes and land-cover outlines were distinguished from the brown road casings. Lettering and weak gray traces limit the minor-line reading, and the two provisional junctions depend on those candidates being roads."
+}

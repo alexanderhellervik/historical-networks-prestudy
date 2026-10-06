@@ -1,0 +1,106 @@
+{
+  "tile_id": "cor_e0355_n6429",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[270, 5], [320, 90], [360, 180], [380, 240], [420, 310], [458, 380], [492, 455], [515, 535], [528, 610], [532, 700], [528, 790], [532, 850], [560, 905], [585, 960], [600, 1000]],
+      "evidence_note": "Below the sheet join a fine brown/black dotted line runs just left of the pink 'till Kallafors' road, leaves it near (465,390), runs south past (530,650) and turns into a solid brown line from about (535,850) to the bottom edge near (600,1000). The drawn polyline follows this well below v=220. Above the sheet join, though, it follows the yellow-washed dotted curve (165,0)-(195,125)-(270,135). That curve looks like the outline of a land-use area that meets the crimson boundary, not a path. The dotted line that actually continues the path in the upper strip is the black-dotted one at (270,5)-(360,180), beside the main road.",
+      "uncertainty_note": "Dotted lines on this sheet are also used for land-use edges, so the dotted part could be an area boundary rather than a Gångstig. The solid brown continuation at the bottom supports reading it as a track. The two sheets are offset at the join, so the course across v≈200-235 is approximate."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A solid, fairly heavy brown line leaves the lake shore at about (250,630), bends through (330,635) and (375,720), and runs down through the hatched bog Hjortemossen via (390,850) and (430,950) to the bottom edge near (500,1000). It is brown, not blue, so it is not a stream. It does not take the long-dash (skifteslinje) or crimson boundary forms.",
+      "uncertainty_note": "Brown single lines are not in the model legend. The reading as a track or road depends on the neighbouring sheet, where brown and red-brown lines were read as roads. The start at the lake shore is an odd end for a road; it could be a winter or bog track."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[275, 0], [330, 100], [370, 195], [378, 237], [473, 400], [532, 500], [591, 600], [649, 700], [708, 800], [766, 900], [825, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad double band with pink/red wash and a heavy dark right-hand edge crosses the whole tile from NNW to SSE. It is labelled 'till Kallafors' along its length, which is the usual destination label for a through road, and it continues in the upper strip above the sheet join. This is the most prominent road on the tile, and the overlay leaves it out.",
+      "uncertainty_note": "The width and colour suggest Landsväg/Bygdeväg. A railway is a remote alternative, but the drawing lacks the black-and-white bar pattern. The thin crimson line just to its left is a boundary, not a second road edge.",
+      "alternatives": ["double_line_narrow (bygdeväg drawn slightly heavier than model)", "railway (unlikely: no bar pattern)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[518, 322], [528, 370], [570, 405], [680, 418], [790, 430]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j_790_430"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A thin orange-brown line starts near the south-west corner of the small lake and the stream that crosses the main road. It curves south and east and runs to the node at about (790,430), where several orange lines meet.",
+      "uncertainty_note": "Thin orange lines in forest may be tracks or land-parcel lines. It is unclear whether this line connects to the main road via the stream crossing near (500,340).",
+      "alternatives": ["not a road: ägoslag/parcel line", "continues west to meet m01 near (480,350)"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[675, 250], [715, 300], [730, 360], [735, 418]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A thin orange line comes down from just below the sheet join near the lake's east end and meets m02 near (735,418).",
+      "uncertainty_note": "Same symbol question as m02. The upper end is lost at the sheet join.",
+      "alternatives": ["not a road: parcel line"]
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[835, 235], [815, 320], [800, 385], [790, 430]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j_790_430"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A thin orange line runs from just below the sheet join, beside the crimson V-shaped boundary, south to the node at (790,430).",
+      "uncertainty_note": "Same symbol question as m02.",
+      "alternatives": ["not a road: parcel line"]
+    },
+    {
+      "feature_id": "m05",
+      "waypoints_uv": [[790, 430], [880, 445], [940, 455], [1000, 450]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j_790_430"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin orange line runs east from the node at (790,430) to the right edge, passing north of the hatched bog.",
+      "uncertainty_note": "Same symbol question as m02.",
+      "alternatives": ["not a road: parcel line"]
+    },
+    {
+      "feature_id": "m06",
+      "waypoints_uv": [[985, 290], [945, 380], [930, 460], [920, 540], [935, 610], [1000, 680]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Thin orange line(s) in the right margin run from the upper-right edge down past (925,540) and curve to the right edge near (1000,680). The line crosses m05.",
+      "uncertainty_note": "The line is faint and I cannot follow it continuously. It may branch from the (790,430) node instead, or be a parcel line.",
+      "alternatives": ["branch from (790,430) south-east to (1000,680)", "not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [465, 385],
+      "what_is_contested": "Whether the dotted line (f01) joins the main road m01 here or only runs parallel to it and then diverges. The stream between the lakes also crosses the road at the same spot.",
+      "evidence_note": "The dotted line, the road's left edge, the crimson boundary and the blue stream all converge within about 30 px, and the label 'till' lies over them."
+    },
+    {
+      "uv": [790, 430],
+      "what_is_contested": "The number of branches at the orange-line node (3, 4 or 5) and whether these lines are roads at all.",
+      "evidence_note": "Orange lines from W (m02), N (m04), E (m05) and possibly SE meet here. m03 joins m02 just west of the node."
+    },
+    {
+      "uv": [535, 850],
+      "what_is_contested": "Whether the dotted line and the solid brown line to the bottom edge are one continuous feature.",
+      "evidence_note": "The symbol changes from dots to a solid brown line with no visible gap. It is close to a long-dash skifteslinje crossing."
+    },
+    {
+      "uv": [370, 215],
+      "what_is_contested": "Continuity of m01 and f01 across the sheet join; the upper and lower sheets are offset.",
+      "evidence_note": "There is a black edge at v≈195-225 and the upper strip is shifted slightly. The pink road and the black dotted line line up only approximately."
+    }
+  ],
+  "overall_note": "The overlay misses the dominant feature, the pink double-band road labelled 'till Kallafors'. Its two features are a dotted/brown track (right below the sheet join, wrong above it) and a brown track across Hjortemossen. The orange thin-line network in the north-east may be forest tracks or parcel lines, and the drawing does not settle which. Crimson solid lines and long-dash black lines are boundaries."
+}

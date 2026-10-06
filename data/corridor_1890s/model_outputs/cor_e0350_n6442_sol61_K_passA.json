@@ -1,0 +1,107 @@
+{
+  "tile_id": "cor_e0350_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,210],[40,203],[80,198],[120,192],[160,189],[200,195],[239,187],[275,187],[313,191],[351,198],[389,209],[425,227],[456,247],[490,266],[527,282],[563,299],[599,321],[634,338],[666,353],[684,365],[691,389],[694,414],[705,423],[738,432],[775,438],[814,440],[848,438],[870,437]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow, largely continuous red-brown stroke has yellow-orange edging. Two small blue-outlined shapes lie alongside its bends near (596,297) and (667,383); separately spaced parallel strokes are not clearly resolved.",
+      "uncertainty_note": "The western portion closely adjoins a heavy blue outline, making its identity and exact centre less certain. The short overlap with the lake lettering is carried through because the reddish stroke is visible on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The coloured edging could conceal two closely spaced strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "West of approximately (200,195), some reddish marks could belong to the adjacent coloured water or boundary edge rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[870,437],[906,435],[943,437],[973,441],[1000,451]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One continuous red-brown stroke with ochre edging continues east from the meeting point, initially almost horizontal and then bending downward at the tile edge.",
+      "uncertainty_note": "Blur prevents a confident distinction between a single stroke and a very narrow paired symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The narrow ochre fringe may represent a second component of the line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[228,1000],[251,966],[277,931],[302,897],[327,860],[349,827],[375,805],[404,783],[438,765],[474,746],[503,721],[527,690],[547,659],[564,630],[582,604],[602,583],[628,563],[658,544],[687,526],[719,512],[751,500],[786,484],[819,466],[846,450],[870,437]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A reddish continuous stroke with yellow-brown edging crosses blue horizontal hatching, then passes beneath part of the large black lettering before joining the upper line.",
+      "uncertainty_note": "The line remains traceable through the hatching. Its short passage beneath the lettering is supported by aligned visible strokes on both sides, although the precise centre there is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Close paired components may be merged by the scan, especially over the hatching."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[598,909],[621,880],[647,850],[673,821],[700,790],[725,761],[751,731],[777,702],[802,674],[831,644],[859,617],[888,590],[916,572],[936,555]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "A narrow red-brown diagonal stroke with ochre edging has a tapered southwest end. Its northeast portion reaches heavy black letters; scattered star-shaped symbols sit alongside it.",
+      "uncertainty_note": "The tapered end appears to terminate near (598,909). Lettering obscures the northeast continuation, so no connection or extension to the right edge is asserted; a coloured boundary remains an alternative reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The edging could be an unresolved narrow paired track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "This isolated coloured line could instead be a boundary; the visible drawing does not settle that interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,28],[30,24],[61,16],[89,7],[118,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A short reddish-brown stroke clips the upper-left corner, with yellow edging and a nearby curved blue outline. Separate parallel strokes or a regular dash pattern are not resolved.",
+      "uncertainty_note": "Included as a doubtful road candidate: its close association with the blue outline also supports a coloured boundary or water-edge reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a road, its visible form is predominantly one continuous coloured stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a non-road coloured edge or boundary adjoining the blue line."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [870,437],
+      "branch_count": 3,
+      "evidence_note": "Three narrow red-brown arms visibly meet: west, east, and southwest. Their ochre edging merges at the meeting point, with no intervening lettering."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [930,525,1000,580],
+      "why": "Heavy black lettering obscures the possible northeast continuation of f04; a continuous course through it cannot be established."
+    }
+  ],
+  "overall_note": "The reddish strokes are visible, but blurred edging makes single versus narrow paired symbols uncertain. The corner fragment and isolated southeast diagonal retain possible non-road readings. Blue water outlines, marsh hatching, and the thin grey horizontal line were excluded."
+}

@@ -1,0 +1,43 @@
+{
+  "tile_id": "cor_e0354_n6429",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A fine orange-brown dotted line runs from the west edge at about (0,705) NE through (100,640), (170,600), (330,540), (430,480), (470,400), crosses the narrow neck of the hatched mire at about (480,370) and goes north to the sheet seam at about (490,190). The overlay follows it closely. In the neighbouring worked example, thin orange-brown dotted lines of this kind are read as Gångstig, and the line does not look like any of the black dash-dot boundary symbols.",
+      "uncertainty_note": "The overlay's class cannot be read from its colour, so the class match is not verified. A thin coloured dotted line through forest could also be a boundary or a ditch. It reads most like a footpath because of its colour and dot form, and because it crosses the mire at its narrowest point. If the overlay gives it a solid single_line class, read this entry as agree_with_different_class."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the misregistered strip above the seam (v<190), the same orange-brown dotted line runs from about (525,170) through (560,105), (600,70) and (635,35) to the top edge at about (645,0). The overlay follows it.",
+      "uncertainty_note": "This strip is a joined piece of the adjacent sheet, and its content is offset about 30-40 px east of the line below the seam. f02 is therefore most likely the continuation of f01 rather than a separate road. Its class is the same as f01's and carries the same uncertainty."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short, faint thin greyish line runs from the SE shore of L. Krökingen at about (325,317) to the west tip of the hatched mire at about (380,335). It joins open water to the mire and continues beyond neither end, which is the pattern of a drainage ditch or small brook (Bäck/dike) rather than a road. It has no brown dotted road colouring.",
+      "uncertainty_note": "The line is very faint at this resolution, and a short landing path to the lake shore cannot be fully excluded. If it is a road, it is a dead-end path of about 60 m."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [490, 190],
+      "what_is_contested": "Whether f01 and f02 are one continuous line across the sheet seam, given that the two parts do not meet at the same position.",
+      "evidence_note": "Below the seam the dotted line reaches about (490,190). Above the seam the line in the joined strip starts at about (525,170). The strip is visibly offset, since the lake shoreline and the mire outlines also jump at the seam, so a single line broken by misregistration is the most likely reading, not two separate features."
+    },
+    {
+      "uv": [380, 335],
+      "what_is_contested": "Whether the short faint line f03 links through or around the mire to the dotted line f01 at about (480,365), which would make a junction.",
+      "evidence_note": "f03 stops at the mire's west tip. Nothing is drawn across the hatching between (380,335) and f01, so I read no junction here."
+    }
+  ],
+  "overall_note": "The only road-like line on this tile is the orange-brown dotted line (f01, continuing as f02 above the offset sheet seam), which I read as a footpath. The other lines are not roads: the heavy black dotted mire outlines, the thin black near-vertical line at u≈125-145 (a construction or grid line), the crimson boundary lines at the top-right and bottom-right corners, and the faint lake-to-mire line f03. I found no missed roads."
+}

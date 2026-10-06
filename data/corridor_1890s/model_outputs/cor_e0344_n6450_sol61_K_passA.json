@@ -1,0 +1,244 @@
+{
+  "tile_id": "cor_e0344_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 219], [23, 232], [47, 236], [73, 232], [98, 236], [123, 248], [148, 264], [172, 283], [196, 304], [222, 320], [249, 330], [278, 334], [307, 335], [330, 343], [350, 352], [366, 354]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two parallel rows of dark dots, approximately 6–10 px apart, flank an orange-brown strip; several blue-green strokes cross it.",
+      "uncertainty_note": "Some dots merge into short bars. Its eastern attachment occupies a broad, blurred bend.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[366, 354], [374, 358], [383, 355]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A short orange strip with dark dotted edges connects the north-arm attachment to the south-arm attachment.",
+      "uncertainty_note": "The attachments appear approximately 17 px apart, but thick dots and overlapping outlines blur their separation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This short piece could belong to one broad four-branch junction near [375, 355], rather than connect two three-branch junctions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[383, 355], [401, 351], [424, 345], [453, 348], [483, 350], [513, 353], [536, 358], [549, 368], [562, 382], [571, 388]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close dark dotted margins enclose orange colouring; the strip bends southeast between black rectangles toward a red rectangle.",
+      "uncertainty_note": "The red rectangle hides the eastern endpoint and any connection to the faint strokes beyond it.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[366, 354], [376, 336], [390, 318], [402, 308]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "An orange band with close dark dotted flanks curves northeast from the bend and reaches the foot of a heavy black rectangle.",
+      "uncertainty_note": "The black rectangle and adjacent outlines conceal the terminal course; no continuation through them is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Near the rectangle, the two dotted margins merge sufficiently that a single dotted trace is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[383, 355], [374, 380], [369, 406], [362, 435], [354, 464], [346, 491], [339, 518], [333, 544], [328, 569], [314, 592], [307, 618], [301, 642], [291, 668], [286, 685], [290, 704], [290, 716], [297, 734], [300, 744]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One row of heavy dark dots and short blocks follows a narrow orange trace; hollow circular symbols lie alongside, and a continuous red line crosses near [286, 685].",
+      "uncertainty_note": "Large black lettering conceals the trace after [300, 744]. Its connection to f06 is plausible but not drawn through the concealed interval here.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Could be the same uninterrupted feature as f06 beneath the lettering, with the hidden course between [300, 744] and [310, 776]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[310, 776], [306, 791], [301, 807], [299, 819]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A single row of large dark dots reappears below the lettering on an orange trace and descends to the dotted transverse line beside a red rectangle.",
+      "uncertainty_note": "The northern endpoint is concealed by lettering; continuity with f05 remains uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "May continue north as f05 through the concealed interval."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 823], [25, 831], [53, 834], [80, 830], [104, 822], [127, 811], [151, 797], [179, 782], [202, 774], [222, 772], [242, 777], [261, 791], [279, 809], [299, 819]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A row of conspicuous dark dots follows an orange-brown stroke; a thin continuous red line crosses near [143, 802], and black lettering overlaps portions farther east.",
+      "uncertainty_note": "An apparent fine upper margin could be a second road flank rather than simply the edge of the orange colouring.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow two-margin symbol, with a fine upper stroke and dotted lower margin."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[299, 819], [321, 832], [345, 849], [367, 867], [376, 873]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Dark dots along an orange stroke run southeast past the red rectangle and between heavy black outlines before entering large lettering.",
+      "uncertainty_note": "The terminal stroke disappears beneath the large initial letter. Connection to f09 is likely, but the concealed bend is not traced.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Could continue directly into f09 beneath the lettering between [376, 873] and [412, 890]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[412, 890], [439, 891], [468, 892], [490, 895], [507, 903], [521, 915], [540, 919], [562, 914], [588, 921], [613, 932], [638, 943], [653, 950], [674, 954], [692, 946], [705, 944], [718, 957], [735, 963], [745, 975], [752, 989], [754, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A row of heavy dark dots accompanies an orange upper stroke beneath the word; the line makes several angular bends and crosses a continuous red diagonal near [640, 944].",
+      "uncertainty_note": "The western end is hidden by lettering. The continuous red diagonal has no visible road branch symbol, so its crossing is not recorded as a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The orange upper stroke may represent a continuous second margin of a narrow road symbol."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "May be one feature with f08 across the concealed western interval."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[650, 0], [642, 17], [633, 34], [624, 49], [616, 58]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A single oblique row of heavy dark dots or blocks lies on orange colouring and approaches the upper-right edge of a red building rectangle.",
+      "uncertainty_note": "The rectangle and nearby black strokes hide the lower termination; no connection to the continuous red line below is established.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[377, 34], [397, 54], [412, 78], [421, 100], [420, 121], [414, 143]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One very thin, pale reddish trace has separated segments and curves outside a blue-green loop; it lacks the heavy dark dots of the clearer paths.",
+      "uncertainty_note": "This is a doubtful path candidate. Its ends blend into a dark outline above and a continuous red transverse line below.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated reddish segments could form a lightly drawn path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a subdivision or property line; no road interpretation is secure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[590, 383], [610, 369], [630, 355], [640, 350]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin orange-reddish stroke extends northeast from the red rectangle, close beneath a blue-green outline; distinct paired edges or dark dots are not resolved.",
+      "uncertainty_note": "It might extend f03, but the rectangle conceals their contact. The northeastern end blends into blue-green strokes and lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a thin single-stroke track extending beyond the rectangle."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be the coloured edge of the adjacent enclosed symbol or a property line rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[587, 401], [597, 414]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "One short, faint reddish-orange stroke projects southeast from the lower-right side of the same red rectangle, without resolved dotted margins.",
+      "uncertainty_note": "Its outer end fades; whether it is a short path or part of the rectangle's surrounding coloured outline is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short single-stroke path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be an enclosing-symbol edge or boundary fragment rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [366, 354],
+      "branch_count": 3,
+      "evidence_note": "Paired dotted margins on orange colouring meet from west, northeast and east at a broad bend; the south-going dotted arm attaches approximately 17 px farther east. The blurred bend could instead be part of one four-branch junction near [375, 355]."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [383, 355],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted strip continues west and east, while one row of heavy dark dots leaves its underside toward the south. Its separation from j01 is approximate; a shared four-branch meeting is also possible."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [299, 819],
+      "branch_count": 3,
+      "evidence_note": "A north-going row of heavy dots meets the orange-backed dotted line running northwest and southeast, immediately beside the upper-right corner of a red rectangle."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [284, 741, 324, 778],
+      "why": "Heavy black lettering hides the course between the exposed dotted segments f05 and f06."
+    },
+    {
+      "bbox_uv": [372, 865, 414, 895],
+      "why": "A large black letter conceals the possible bend connecting f08 and f09."
+    },
+    {
+      "bbox_uv": [565, 377, 593, 407],
+      "why": "A red rectangle with a heavy black outline conceals the contact between f03 and the faint candidate strokes beyond it."
+    },
+    {
+      "bbox_uv": [395, 289, 416, 316],
+      "why": "A heavy black rectangle and adjacent strokes hide the terminal course of f04."
+    },
+    {
+      "bbox_uv": [597, 52, 624, 81],
+      "why": "A red rectangle and overlapping dark outlines conceal the lower endpoint of the top-edge track."
+    }
+  ],
+  "overall_note": "Continuous red-purple lines and blue-green strokes were excluded where their symbols match boundaries and drainage in the worked example. Lettering and building rectangles conceal several endpoints, so uncertain connections remain split. The upper joins may form one four-branch junction, and the faint reddish candidates retain non-road alternatives."
+}

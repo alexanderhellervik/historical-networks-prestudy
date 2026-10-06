@@ -1,0 +1,242 @@
+{
+  "tile_id": "cor_e0364_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[1000,30],[950,31],[900,31],[850,32],[805,32],[782,40],[752,63],[723,88],[690,116],[656,146],[621,177],[588,206],[565,223],[542,240],[505,271],[469,305],[438,333],[412,354],[376,378],[337,402],[297,428],[258,454],[219,478],[210,485],[183,504],[149,530],[115,554],[80,575],[58,595],[35,621],[12,647],[0,656]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j04","j07","j08","j09","j11"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish narrow strip lies between two close, dark, intermittently broken margins; it runs diagonally across other thin lines and bends into the horizontal strip near the upper-right edge.",
+      "uncertainty_note": "The principal course is clear. Junctions with the thinner candidate tracks are conditional on those candidates being roads; margins merge briefly at crossings.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[12,647],[8,669],[10,695],[23,723],[45,748],[73,773],[110,803],[146,826],[160,849],[172,880],[182,911],[186,945],[189,975],[198,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark, partly broken edges enclose a reddish strip around the southwest bend and beside the small black building rectangles near the bottom.",
+      "uncertainty_note": "The upper bend touches the tile edge, making the exact branching position approximate. The eastward branch at j03 is less secure than this through line.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,286],[27,284],[54,279],[76,285],[104,301],[137,309],[173,305],[216,305],[263,306],[300,314],[330,330],[359,346],[384,359],[398,358],[412,354]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j10"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A winding reddish strip has close dark, dotted or short-stroked margins, widening visually where those margins merge at the diagonal strip.",
+      "uncertainty_note": "Some sections coincide with coloured parcel edges, but the paired strip is traceable. The northern dotted candidate at j10 may instead be a boundary.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[146,826],[172,826],[202,825],[231,828],[256,835],[278,847],[294,860],[303,870]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A brown-orange curved stroke with a heavy, locally broken dark edge extends east from the southwest strip, along the upper edge of the peach-coloured polygon.",
+      "uncertainty_note": "This could be a short access track or the polygon boundary. Near the eastern endpoint it merges with a crossing dashed line and a dark parcel outline; no continuation is assigned.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The brown strip and close dark edging could represent the same narrow road symbol as f02."},
+        {"proposed_class":"unknown","note":"The entire curve could be a coloured parcel edge rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,146],[27,138],[65,126],[103,118],[139,115],[179,118],[217,111],[258,107],[298,103],[342,98],[386,90],[435,77],[470,63],[504,44],[545,33],[582,31],[617,34],[651,43],[688,45],[720,48],[741,53],[752,63]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04","j05","j06"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A fine orange-brown line crosses the upper portion of the tile; a second dark broken line is visible alongside parts of its western section, while much of the eastern section appears single.",
+      "uncertainty_note": "The changing symbol supports either a minor route or a parcel boundary. Its eastern contact with f01 is approximate, and all junctions on this candidate are conditional.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The western solid-and-broken pair could be a narrow track whose second margin becomes faint eastward."},
+        {"proposed_class":"single_line","note":"The thin orange stroke could itself be a single-line path."},
+        {"proposed_class":"unknown","note":"A parcel boundary could explain the line and its changes in edging."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[789,0],[791,14],[798,25],[805,32]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short pale strip with dark bordering strokes descends beside small black and red building marks to the reddish horizontal-diagonal bend.",
+      "uncertainty_note": "The short segment may be a road clipping the edge, but building and parcel outlines could account for its borders.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The pale interior and two dark edges could form a short road branch."},
+        {"proposed_class":"unknown","note":"The strokes could belong to the adjacent enclosure rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[435,77],[453,94],[471,123],[490,154],[508,185],[526,215],[542,240]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05","j08"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two approximately parallel dark strokes, roughly 8–15 px apart, run southeast beside peach fill; one is heavier and more continuous.",
+      "uncertainty_note": "The pair could enclose a track, or could be separate boundaries of the adjoining coloured strip. Both proposed contacts depend on the road interpretation.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The parallel strokes could be the two margins of a narrow road."},
+        {"proposed_class":"unknown","note":"Separate parcel edges could produce the apparent pair."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[542,240],[550,270],[559,301],[568,328],[577,343]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint pair of grey-dark, partly broken strokes descends obliquely from the diagonal strip toward a small dark rectangular symbol and large lettering.",
+      "uncertainty_note": "The line could be a short track or a parcel division. The rectangle and lettering hide its lower end, so it is not continued through them.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The faint parallel strokes could be narrow track margins."},
+        {"proposed_class":"unknown","note":"A dashed parcel line beside another thin stroke is also possible."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[588,206],[589,242],[589,280],[590,309],[592,337],[594,369],[595,402],[596,435],[598,474],[600,514],[602,554]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two thin grey-black lines, generally about 4–8 px apart, descend almost vertically; portions remain visible above, between and below the large black words.",
+      "uncertainty_note": "Matching line positions above and below the lettering support continuation, but parts of the margins are hidden. At the southern end the pair becomes indistinct among polygon edges and short black marks; a boundary interpretation remains possible.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The near-vertical pair could comprise a parcel edge and a neighbouring division line."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[179,118],[187,142],[198,169],[204,194],[220,216],[234,240],[245,265],[255,287],[263,306]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j06","j10"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A curved series of heavy short dark strokes and dots runs between the thin upper line and the reddish westward strip; no consistently separate casing is visible.",
+      "uncertainty_note": "This resembles a dotted path but could be a vegetation or parcel boundary. Adjacent broken lines cross or approach it, making parts of the course approximate.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A boundary between differently marked areas could explain the broken curved line."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[1000,248],[978,265],[954,283],[930,300],[916,307],[899,313],[889,303],[881,288],[868,296],[855,319],[844,336]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "An orange-brown strip with dark broken edging approaches red and black building marks, then becomes a heavier zigzag dark line near the large lettering.",
+      "uncertainty_note": "The eastern section supports a track reading, but the western zigzag may be a parcel outline. Building marks and lettering obscure whether one road continues through the whole sequence.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The orange strip and dark edges could be a narrow track throughout."},
+        {"proposed_class":"unknown","note":"Only the section from the edge to approximately [916,307] may be a road; the remaining zigzag may be a boundary."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[1000,811],[990,837],[985,861],[980,887],[977,916],[974,951],[972,977],[970,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown strip with two close, heavy dark margins curves along the extreme southeastern edge; its edges merge with other dark strokes near v=880.",
+      "uncertainty_note": "The strip is partly clipped at its northern end. The transverse blue-dark line near v=880 is not securely a road branch, so no junction is assigned there.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Some dark edging may belong to adjacent coloured parcel outlines, particularly near the transverse crossing."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[0,455],[28,466],[60,482],[91,493],[119,500],[146,496],[174,488],[193,483],[210,485]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j11"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A single curving row of small dark dots and short strokes crosses the pale area below several star-like tree symbols and approaches the diagonal reddish strip.",
+      "uncertainty_note": "A dotted path is possible, but this also resembles the broken outlines around vegetation patches elsewhere on the tile. The final contact is approximate.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The discrete dark marks could represent a footpath."},
+        {"proposed_class":"unknown","note":"The line may be a vegetation boundary rather than a road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[412,354],
+      "branch_count":3,
+      "evidence_note":"The reddish, dark-edged westward strip meets the similarly paired diagonal strip; three strip arms are visible."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[12,647],
+      "branch_count":3,
+      "evidence_note":"Near the left edge, dark margins surround a northeast arm, a short southwest arm reaching the edge, and a curving south arm; the margins overlap."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[146,826],
+      "branch_count":3,
+      "evidence_note":"The reddish paired strip continues northwest and southeast, while a brown, dark-edged curve extends east; the third branch is conditional on f04 being a road."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[752,63],
+      "branch_count":3,
+      "evidence_note":"A thin orange line meets the two dark-edged arms of the diagonal reddish strip; three road branches result only if f05 is a road."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[435,77],
+      "branch_count":3,
+      "evidence_note":"The thin orange line has west and northeast continuations, with two close dark strokes departing southeast; this is a conditional junction of f05 and f07."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[179,118],
+      "branch_count":3,
+      "evidence_note":"A curved broken dark line departs south from the thin orange line with visible east and west arms; the road interpretation of all three arms is uncertain."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[805,32],
+      "branch_count":3,
+      "evidence_note":"The paired reddish strip bends between southwest and east arms beside a short pale, dark-bordered north arm; the north arm may instead be an enclosure edge."
+    },
+    {
+      "junction_id":"j08",
+      "uv":[542,240],
+      "branch_count":4,
+      "evidence_note":"The two strong diagonal strip arms cross the alignment of a northwest dark pair and a faint southeast pair; four branches are conditional on the latter pairs being roads."
+    },
+    {
+      "junction_id":"j09",
+      "uv":[588,206],
+      "branch_count":3,
+      "evidence_note":"A thin near-vertical pair meets the reddish diagonal strip with northeast and southwest arms; the thin pair supplies the conditional third branch."
+    },
+    {
+      "junction_id":"j10",
+      "uv":[263,306],
+      "branch_count":3,
+      "evidence_note":"The curved row of dark short strokes reaches the reddish strip, which continues east and west; the northern arm may be a boundary."
+    },
+    {
+      "junction_id":"j11",
+      "uv":[210,485],
+      "branch_count":3,
+      "evidence_note":"A fine dotted curve approaches the heavier reddish diagonal strip with two through arms; the contact and the third road branch are uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv":[563,318,627,481],
+      "why":"Large black lettering and a dark rectangular symbol hide portions of the thin paired candidates; their exact margins and any small additional branches cannot be resolved."
+    },
+    {
+      "bbox_uv":[827,318,869,368],
+      "why":"Heavy lettering overlaps the western end of the eastern candidate strip, preventing a secure continuation beyond the reported endpoint."
+    }
+  ],
+  "overall_note":"The reddish strips with close dark margins are the clearest roads. Thin pairs and dotted curves sometimes resemble parcel or vegetation boundaries, so those candidates and their junctions remain conditional. Long isolated dashed divisions, blue-green water lines and clear polygon outlines were excluded."
+}

@@ -1,0 +1,89 @@
+{
+  "tile_id": "cor_e0366_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 88], [50, 85], [100, 82], [150, 80], [200, 79], [250, 78], [286, 78]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow dark, ochre-backed line passes regularly spaced black oval-and-stem symbols near u=48, 137 and 235. A rectangular image seam cuts off this strip.",
+      "uncertainty_note": "Its continuation across the seam is unclear. This may be displaced or repeated imagery of the line represented by f03.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The rectangular strip may repeat adjoining map content rather than depict a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[541, 55], [590, 53], [640, 51], [690, 50], [740, 49], [795, 48]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin dark, ochre-backed line has black oval-and-stem marks near u=545, 640 and 732. Its image strip ends at rectangular seams.",
+      "uncertainty_note": "Neither end has a certain continuation across the seams; this could be repeated imagery of f03 rather than another road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible duplicate map fragment; the short visible strip does not establish an independent road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 125], [50, 122], [100, 119], [150, 116], [200, 113], [250, 110], [287, 105], [325, 101], [370, 97], [420, 93], [470, 89], [520, 86], [570, 82], [620, 77], [670, 72], [720, 67], [770, 62], [820, 58], [870, 55], [920, 52], [960, 50], [1000, 48]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous heavy band has red colouring above dark blue-green colouring, with narrow dark strokes along it. Several upright black marks meet the band, and thin parcel lines descend from it.",
+      "uncertainty_note": "Included as a doubtful road candidate: the broad coloured band strongly supports an administrative-boundary reading. Possible avenue symbols are difficult to separate from parcel-line ends and the displaced strips f01 and f02.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "If the upright marks belong to this line, it may be a tree-lined road coincident with a coloured boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be entirely an administrative boundary, with no independent road along this course."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[500, 923], [534, 909], [571, 894], [608, 879], [640, 866], [675, 848], [710, 831], [738, 824], [775, 826], [818, 832], [860, 837], [905, 842], [950, 846], [1000, 851]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two closely spaced dark, dotted or broken edges enclose a narrow ochre strip. The paired marks run diagonally through the building cluster, bend near u=738, and continue to the right edge.",
+      "uncertainty_note": "The western end disappears among black building marks and lettering. No continuation or road branch there is sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "At this resolution, some sections could be read as a single broken line with an ochre halo rather than two distinct edges."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [275, 45, 345, 120],
+      "why": "Rectangular image seams displace or truncate the upper linework, preventing a certain connection between fragments."
+    },
+    {
+      "bbox_uv": [525, 25, 555, 90],
+      "why": "A rectangular seam interrupts the beginning of the upper central tree-marked strip."
+    },
+    {
+      "bbox_uv": [785, 25, 810, 85],
+      "why": "The upper central strip terminates against differently aligned linework; continuity is uncertain."
+    },
+    {
+      "bbox_uv": [450, 895, 510, 950],
+      "why": "Dense lettering and black building symbols obscure the western continuation of f04 and any possible short branches."
+    }
+  ],
+  "overall_note": "The upper image seams make it difficult to distinguish separate roads from repeated fragments, so those alternatives are retained. The red-green band is a doubtful road candidate and may be solely a boundary; the broad blue sinuous line and ordinary parcel divisions were read as non-road linework. No meeting of three clearly drawn road branches was identifiable."
+}

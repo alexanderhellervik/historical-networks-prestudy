@@ -1,0 +1,80 @@
+{
+  "tile_id": "cor_e0349_n6427",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line enters at the left edge near (0,555), runs diagonally SE through the infields to about (270,785), then bends south to leave the bottom edge near (225,1000). It is brown, not crimson, so it is a road and not a boundary. The overlay follows it.",
+      "uncertainty_note": "South of (270,800) the double line runs close to the crimson boundary from (470,645), and the two converge near the bottom edge, so the exact exit point is uncertain to about 20 px. Narrow or wide double line cannot be decided at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a brown double line in the lower-left infield from the left edge near (0,780) down to the bottom edge near (120,1000). A separate crimson boundary runs next to it slightly to the west.",
+      "uncertainty_note": "The crimson boundary and black field borders crowd the line near (40-80, 880-1000), so the exact course there is a little uncertain."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line runs from the left edge near (0,492) rising to the farm symbol at 'sberg B.' near (130,435). Its colour matches the road lines on the example tile.",
+      "uncertainty_note": "It could be a dotted path (dashed_line) rather than a continuous single line, because the stroke looks faintly beaded."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line continues east from the farm near (190,430) to around (290,440), passing small elongated brown/red shapes (outbuildings or plots). It ends near the west shore of Kråkevattnet.",
+      "uncertainty_note": "The end may be a dead end at the lake shore near (320,435), or the line may just be the edge of the brown plot shapes. The class could be dashed_line."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay runs from the bend of f01 near (250,750) NE to the point near (470,645) where the crimson boundaries meet the stream. At that position the tile shows the dark-blue stream just to the north, the crimson boundary just to the south, and the sheet join at u about 320-340. Between them there is only a pale, faint band and no clear brown road stroke.",
+      "uncertainty_note": "Topologically it is plausible that the dotted track f06 continues SW along the stream to the infield road f01. However, I cannot see a drawn road symbol that would confirm it, and the pale band could be paper damage or the join."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of brown/orange dots runs along the north side of the dark-blue stream from about (485,630) to the west tip of the eastern lake near (745,530). It is a dotted road or path symbol (Gångstig or Sämre körväg type) and not a boundary.",
+      "uncertainty_note": "I cannot tell whether it is a single row of dots (Gångstig) or a double row (Sämre körväg), because the stream line lies right next to it. If the overlay's class is already a dotted class, this verdict should read as agree. Its ends at (485,630) and (745,530) may continue, see contested junctions."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The label at the right edge near (990,505) is truncated to 'f0' (read here as f07), and the polyline is almost entirely outside or on the edge of the tile. At that position the tile shows the east end of the lake with reed hatching, the 'Br…' place-name lettering, and the start of a crimson boundary going SE. There is a small brown/red mark at the edge but no road stroke long enough to judge.",
+      "uncertainty_note": "This may be the start of a road leaving the farm 'Br…' east of the tile, or the continuation of the dotted track f06 along the lake. Too little of it is inside the tile to decide."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [470, 640],
+      "what_is_contested": "Whether this point is a road junction at all. The two crimson boundaries and the stream meet here and the dotted track f06 starts here, but it is unclear whether f06 continues SW (as f05) to the infield road f01 or simply ends at the stream and boundary corner.",
+      "evidence_note": "The brown dots fade out at about (485,630). West of it only the stream, the boundaries and a pale band near the sheet join are visible."
+    },
+    {
+      "uv": [745, 530],
+      "what_is_contested": "Whether the dotted track f06 ends at the west tip of the eastern lake or continues along the lake's north shore toward the farm 'Br…' and f07 at the east edge. That would add a branch running from about (745,530) to (960,495).",
+      "evidence_note": "The dots are clear up to the lake tip. Along the north shore I see only the blue lake outline, with possible faint brown edging that I cannot resolve."
+    },
+    {
+      "uv": [255, 750],
+      "what_is_contested": "The overlay's junction where f05 leaves f01. It exists only if f05 is a real road.",
+      "evidence_note": "The f01 double line is clear here. The stream crosses it nearby, and no clear brown branch leaves toward the NE."
+    }
+  ],
+  "overall_note": "The brown double lines in the SW infield (f01, f02) and the brown lines at the 'sberg B.' farm (f03, f04) are clear roads, and the crimson lines (the vertical one at u about 455, the diagonals from (470,645) and from (950,530)) are boundaries, which the overlay correctly leaves out. The dotted track along the stream (f06) is real but its class (single or double dotted) and both of its ends are uncertain. f05 and the truncated edge feature f07 cannot be confirmed from the drawing."
+}

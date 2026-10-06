@@ -1,0 +1,123 @@
+{
+  "tile_id": "cor_e0361_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,60],[45,73],[90,84],[135,86],[180,81],[225,72],[270,61],[315,48],[360,37],[398,23],[429,7],[443,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two approximately parallel rows of dark dots and short marks, about 8–10 px apart, enclose a reddish-orange strip; the strip curves continuously across the upper left.",
+      "uncertainty_note": "The edges are broken rather than continuously cased, making the symbol-form classification ambiguous.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired rows of dots and short dashes can instead be classified by their discontinuous strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,709],[24,739],[50,771],[77,804],[101,833],[126,850],[151,861],[187,884],[225,905],[266,925],[307,944],[348,962],[389,979],[427,993],[449,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, predominantly continuous dark edges enclose a reddish band approximately 12–16 px wide; two narrower reddish branches meet its upper edge.",
+      "uncertainty_note": "The narrower diagonal f05 approaches this road at the bottom crop, but their centreline meeting is not established inside the tile.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,945],[24,936],[51,926],[76,916],[87,893],[94,864],[101,833]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow reddish strip with dark dotted or broken margins, approximately 5–7 px apart, bends upward and meets the wider cased road.",
+      "uncertainty_note": "Some stretches resolve as dots more clearly than as two distinct edges.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark discontinuous marks may be treated as the defining symbol form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[151,861],[177,852],[201,845],[223,839]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short reddish band with small dark broken marks along its margins runs from the wide road to the southwest side of a dark square building symbol.",
+      "uncertainty_note": "The building symbol conceals the endpoint; no continuation through or beyond it is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "At this resolution the short branch can also be read as a dotted line with reddish colouring."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[459,1000],[482,981],[514,960],[547,938],[581,916],[614,894],[643,874],[665,858]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow reddish diagonal has dark margins, locally broken into short marks, about 5–8 px apart; several small rectangular symbols lie against or beside it.",
+      "uncertainty_note": "The upper endpoint disappears into the vertical sheet join. Its alignment with f06 supports a possible continuation, but the symbol changes there; a boundary reading remains possible. Its meeting with f02 is clipped by the bottom edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a coloured boundary with locally thickened or doubled printing rather than a road."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken dark margins could define its class instead of the narrow paired form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[690,832],[730,806],[773,778],[816,750],[859,720],[902,691],[945,662],[983,638],[1000,627]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A nearly straight purple-red stroke with a dark edge, generally about 2–4 px wide, crosses the pale ground; distinct parallel road casing is not consistently visible.",
+      "uncertainty_note": "A boundary is the stronger reading of this segment. It is retained as a doubtful road candidate because it aligns with the more road-like f05 across the obscuring sheet join.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If this is a road continuation, the visible symbol is chiefly one coloured stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured property or administrative boundary would make this a non-road feature."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [101,833],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish strip from below meets the upper margin of the wide, dark-cased reddish band; the wide band continues in both directions."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [151,861],
+      "branch_count": 3,
+      "evidence_note": "A short narrow reddish branch extends right and upward from the wide cased band, which continues toward both the upper left and lower right."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [665,815,697,878],
+      "why": "The grey vertical sheet join obscures the diagonal line and prevents a secure reading of its continuity and symbol change."
+    },
+    {
+      "bbox_uv": [428,817,552,909],
+      "why": "Dense black lettering and building symbols conceal portions of the fine linework; additional short paths or their endpoints cannot be resolved."
+    }
+  ],
+  "overall_note": "The main difficulty is distinguishing the lower-right reddish diagonal from a boundary, especially across the sheet join. Clear long dash-and-dot diagonals and blue-green irregular outlines were read as boundaries or other non-road linework. No road connection was completed through lettering, the sheet join, or beyond the bottom crop."
+}

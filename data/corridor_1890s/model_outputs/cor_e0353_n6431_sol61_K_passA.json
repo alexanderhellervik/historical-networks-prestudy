@@ -1,0 +1,87 @@
+{
+  "tile_id": "cor_e0353_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[324,0],[349,36],[366,75],[376,115],[385,158],[400,193],[421,229],[424,259],[428,286],[450,310],[474,333],[494,355],[512,376],[531,411],[555,439],[582,462],[610,478],[645,483],[676,484],[687,497],[692,532],[692,571],[696,603],[707,630],[730,652],[747,677],[758,710],[765,742],[786,770],[810,801],[824,830],[825,865],[820,901],[817,936],[821,965],[838,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow ochre trace carries closely repeated heavy black dots or short dashes. Some portions show a second fine orange margin, particularly around v=230–370; there are no flanking tree rows.",
+      "uncertainty_note": "The track course is readable, but the scan does not consistently distinguish paired margins from a single broken stroke over orange. Closely spaced strokes around v=230–370 could represent casing or a short parallel trace.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dominant visible element is a row of short black marks following the ochre trace."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The fine orange stroke beside the black marks may be a second road margin."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[139,0],[135,43],[133,87],[130,129],[126,169],[123,199],[134,226],[140,256],[140,295],[141,334],[144,370],[153,404],[161,426],[164,440]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "A slim orange trace with repeated dark short marks curves down beside black rectangular symbols and then follows the eastern side of a pink-filled enclosure. The marked trace ends near its lower corner.",
+      "uncertainty_note": "The broken-mark symbol supports a track reading, but its margins become mixed with enclosure outlines near the bottom. No continuation beyond the visible terminal marks is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the repeated black marks as one broken road stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The adjoining orange and dark strokes may be two closely spaced margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The southern portion could partly coincide with the pink enclosure's boundary rather than remain a separately drawn track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[512,376],[514,414],[521,449],[535,488],[550,526],[556,564],[557,603],[556,633],[562,668],[568,707],[571,748],[574,790],[579,847]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "One thin orange-brown stroke separates from the dark-marked curved trace and continues downward. It has no clearly resolved black casing or regular dash pattern and ends visibly at about v=847.",
+      "uncertainty_note": "Its apparent attachment supports a possible path, but the plain coloured stroke could also be a boundary. The exact separation point is uncertain by approximately 15 px.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This may be a non-road boundary; the symbol lacks the repeated dark marks visible on f01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[66,648],[62,676],[63,704],[73,735],[89,760],[103,792],[115,827],[118,847],[112,866],[118,890],[129,920],[141,949],[151,977],[155,1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "A single moderately weighted orange-brown stroke begins abruptly inside the tile, curves downward, crosses fine blue-green outlines, and exits the bottom edge. No paired casing or repeated black marks are resolved.",
+      "uncertainty_note": "A path reading is possible, but the same plain stroke could represent a boundary. Its upper endpoint is visible; no connection northward is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary rather than a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [512,376],
+      "branch_count": 3,
+      "evidence_note": "At the apparent split, one dark-marked orange trace arrives from the upper left, its continuation bends right, and a thinner orange stroke descends: three apparent branches. The separation is slightly blurred; the nearby magenta crossing stroke is not counted."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main difficulty is separating plain orange paths from boundaries and resolving the margins of the dark-marked tracks. Straight magenta lines, long isolated black dashes, blue-green outlines, and the continuous outlines enclosing pink fill were read as non-roads. The reported junction is conditional on the thinner orange branch being a path."
+}

@@ -1,0 +1,121 @@
+{
+  "tile_id": "cor_e0352_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[490, 0], [478, 27], [472, 58], [467, 93], [466, 126], [471, 153], [483, 176]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Closely spaced dark dots and short strokes accompany a narrow ochre trace; no clearly separated pair of continuous margins is visible.",
+      "uncertainty_note": "The ochre trace looks continuous in places, so the distinction between a punctuated single line and narrow casing is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The dark interruptions could be marks along one continuous ochre line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre trace and adjacent dark marks could represent two narrowly spaced margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[483, 176], [477, 206], [465, 236], [450, 266], [437, 299], [424, 332], [411, 367], [396, 405], [382, 441], [368, 477], [353, 512], [339, 547], [323, 582], [306, 618], [287, 641], [278, 650]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow ochre stroke with repeated dark dots follows a gently bending diagonal. Near its lower end it approaches a straight red rule and merges into a heavier red-brown hatched-polygon outline.",
+      "uncertainty_note": "The lower endpoint cannot be separated from the polygon outline; no continuation through the hatching is established. The closely spaced dark marks may be one margin of a narrow road symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre stroke and dark punctuated edge could be two narrow margins."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The visible symbol could instead be one continuous line with dark stippling."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[483, 176], [502, 201], [518, 225], [528, 248], [532, 271]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A slender ochre-brown line branches rightward from the punctuated trace, bends downward, and meets the thick red-brown upper edge of a horizontally hatched polygon.",
+      "uncertainty_note": "No independent continuation is visible beyond the polygon edge. Its largely continuous stroke could also be a division line rather than a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary or polygon-division reading remains possible because the line terminates against an outline and lacks a clear road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[840, 0], [850, 29], [858, 60], [855, 83], [847, 101], [853, 129], [844, 153], [833, 172], [831, 186], [841, 211], [843, 227], [836, 247], [826, 272], [816, 295], [807, 319], [792, 343], [783, 361], [768, 378]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin ochre-brown stroke follows several small bends. Turquoise lines cross or run beside it, and a separate long-dashed black line lies mostly to its left; no paired road margins are clear.",
+      "uncertainty_note": "The stroke merges into the red-brown hatched-polygon edge at its lower end. Its colour and winding course support a path reading, but the drawing also permits a boundary reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a boundary or other division line; no unambiguous dotted path symbol or casing is visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[92, 1000], [140, 987], [190, 974], [240, 962], [290, 950], [340, 938], [390, 926], [440, 913], [490, 901], [540, 889], [590, 876], [640, 864], [690, 851], [740, 839], [790, 826], [840, 814], [890, 802], [940, 789], [1000, 776]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink band crosses the lower tile, with a strong dark blue-black stroke along its lower side and an uneven softer upper edge. Straight red rules meet it, and lettering lies alongside its western portion.",
+      "uncertainty_note": "This is a doubtful road candidate: the broad colour band and dark edge also strongly support a highlighted boundary reading. Coordinates follow the approximate middle of the band.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured administrative boundary is a plausible non-road interpretation."
+        },
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the unequal edges are road margins, the pink interior could represent a wide cased road; the upper margin is insufficiently distinct."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[949, 0], [963, 13], [978, 25], [1000, 31]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short dark blue-black curved stroke clips the upper-right corner, with a faint reddish-brown rim. It crosses or meets the thin red near-vertical rule around (978, 25).",
+      "uncertainty_note": "The clipped length does not establish a road symbol. A boundary or other outlined feature is at least as plausible; the red rule is not counted as a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The dark stroke could be a single road line if the faint coloured rim is incidental."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road boundary or polygon-outline interpretation remains plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [483, 176],
+      "branch_count": 3,
+      "evidence_note": "The ochre trace forks into an upper arm, a dark-punctuated lower-left arm, and a thinner continuous lower-right arm. A separate long-dashed black line crosses this vicinity and is not counted as a road branch."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main difficulty is distinguishing continuous ochre path strokes from division lines and resolving the punctuated trace's casing. The broad pink lower line and short upper-right stroke are retained as doubtful candidates with non-road alternatives. Other straight red rules, long black dashed lines, turquoise lines, and hatched-polygon rims were read as non-road symbols."
+}

@@ -1,0 +1,70 @@
+{
+  "tile_id": "cor_e0351_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[18, 349], [21, 372], [31, 388], [59, 401], [91, 408], [119, 416], [130, 431], [134, 454], [145, 480], [165, 512], [193, 535], [221, 550], [242, 558]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One narrow row of dark dots and short strokes, with a faint brown-orange tint, curves outside the blue lake outline. No continuous paired casing or flanking tree symbols are visible.",
+      "uncertainty_note": "The northern end merges with horizontal hatching. At the southern end, shoreline, dark winding linework and hatching overlap; continuation through that overlap is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some marks could belong to an adjoining land-cover outline, although the detached dotted course supports a path reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[266, 651], [283, 667], [307, 680], [334, 689], [356, 701], [382, 719], [407, 734], [434, 729], [460, 718]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A fine brown-orange line with intermittent dark dots curves above a heavier blue-black outline and horizontal hatching. The two courses are separated by several pixels through much of the middle section.",
+      "uncertainty_note": "This is a doubtful path candidate. Its western continuation disappears among overlapping strokes; toward the eastern end it becomes difficult to distinguish from the hatched area's outline. No connection to f01 or f03 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The entire segment could be a colored land-cover edge rather than a path."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "If the small gaps result from fading, the symbol could be a thin continuous line."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "A shorter reading stops near [407, 734]; the remaining eastern segment may belong solely to the hatched outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[546, 748], [558, 766], [568, 786], [567, 808], [558, 835], [547, 858], [531, 885], [516, 913], [496, 946], [477, 974], [459, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A reddish-brown curved stroke approximately 6–9 px wide has dark, uneven, partly beaded edging. Its middle section crosses unhatched paper; below about v=880, blue-black horizontal hatching lies immediately alongside its western edge.",
+      "uncertainty_note": "The road or track course is readable, but separate continuous casing lines cannot be resolved confidently. The upper end touches the blue lake outline, so no continuation around or across the lake is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark edges may be two closely spaced lines surrounding a narrow brown center."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The beaded dark marks may represent a broken or dotted track symbol blurred into the brown tint."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [230, 545, 283, 658],
+      "why": "Blue-black winding strokes, shoreline outlines and dense horizontal hatching overlap the possible dotted path; its course through this small area cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The principal difficulty is distinguishing dotted path marks from colored edges of hatched areas. Thin angular red lines, blue water linework and the broad pale diagonal band were not read as roads. No meeting of three road branches is sufficiently supported."
+}

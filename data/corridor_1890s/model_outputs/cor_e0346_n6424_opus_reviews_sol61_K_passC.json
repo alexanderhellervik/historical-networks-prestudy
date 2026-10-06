@@ -1,0 +1,62 @@
+{
+  "tile_id": "cor_e0346_n6424",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brownish-red, broken (dotted/dashed) double line runs straight down through the pink field at u≈35 from v≈255 to the Sjöhagen T. buildings at about (45,490). It has the sienna road colour of the example's Sämre körväg rather than the crimson boundary band, and it ends at a torp, as an access track would.",
+      "uncertainty_note": "At this resolution the two dotted lines are barely separable. It could be a single dashed line (Gångstig), or less likely a coloured field or hemman boundary. Its north end appears to turn west (see m01) rather than stop at (35,255)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline runs east from the torp at about v≈505–510, straight through the lettering 'Sjöhagen T.', and stops at u≈165 in the middle of the word. No line can be seen in the clear gaps: not between the building and the 'S', not past the text toward the shore at u≈180, and not above or below the text. The proposal seems to follow the text baseline or the edge of the torp plot.",
+      "uncertainty_note": "The lettering covers most of the course, so a short path to the shore underneath it cannot be fully ruled out. Nothing outside the text supports one, though."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a single crimson/pink band with a fine dark edge. The band runs from the west edge at v≈480, past Sjöhagen, to the lake shore at about (100,720), where it ends against the shoreline. It is the same crimson as the straight band crossing open water in Mjörn (certainly a boundary), and the same as the lines the worked example reads as boundaries. It has no parallel casing lines and does not continue as a road south of the shore contact.",
+      "uncertainty_note": "Häradskartan sometimes fills main roads with red, and there is a pale strip just west of the band between v≈500 and 650 that could be a road bed. If it is a road, the course roughly matches the proposal: (0,480),(45,530),(65,580),(88,640),(100,715). I judge the boundary reading more likely, but not certain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a short crimson line from the west edge at about v≈935 to the bottom edge at about u≈20. Its colour and form match the f03 band and the lake boundary, and there is no road casing or dotting.",
+      "uncertainty_note": "The segment is very short, sits at the corner and does not connect visibly to f03. If the red band is a road symbol on this sheet after all, this would be a road continuing off-tile. Close to cannot_tell."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 249], [20, 253], [35, 257]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short brownish-red line enters from the west edge at v≈249 and reaches the top of f01 at about (35,257). It is the same road colour as f01 and looks like its continuation, giving the torp track a way out westward.",
+      "uncertainty_note": "It is short and close to the dashed field division at v≈240–265, which crosses the field. It may be part of that boundary or a field edge rather than a road. Whether it is double-lined cannot be seen.",
+      "alternatives": ["Part of f01 (the track turns west at the corner) rather than a separate feature", "Coloured field/skifte line, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [35, 256],
+      "what_is_contested": "Whether f01 ends here or bends west into m01 (a corner, not a true junction), and whether the dashed field line crossing near v≈250 is a third branch or only a boundary.",
+      "evidence_note": "The red-brown vertical double line and the short westward red line meet at a right angle, and a dashed black field division passes through the same spot."
+    },
+    {
+      "uv": [45, 492],
+      "what_is_contested": "Whether there is a junction at Sjöhagen T. at all. The proposal joins f01, f02 and f03 here. I read only f01 ending at the torp: f02 has no visible line, and f03 is probably a boundary band passing west of the plot.",
+      "evidence_note": "The black building mark of the torp sits here. The crimson band passes within about 10 px, and the label begins immediately to the east."
+    }
+  ],
+  "overall_note": "The only line I read with confidence as a road is the brownish-red double dotted track f01 leading south to Sjöhagen T., possibly continuing west as m01. The crimson bands (f03, f04 and the straight band across Mjörn) look like boundary colour bands, and f02 follows map lettering. The faint straight lines at u≈400, v≈300 and v≈830 are sheet grid/construction lines, not roads."
+}

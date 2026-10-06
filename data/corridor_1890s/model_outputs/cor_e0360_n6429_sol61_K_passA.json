@@ -1,0 +1,64 @@
+{
+  "tile_id": "cor_e0360_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [1000, 779],
+        [970, 791],
+        [940, 804],
+        [919, 815],
+        [902, 823],
+        [891, 830]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two closely spaced dark edges surround a narrow reddish-tan strip; the black marks become heavier beside the small building symbols at the western end.",
+      "uncertainty_note": "The casing is uneven and partly merges with adjacent outlines. The trace stops at the red and black building marks, which conceal its continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some apparent casing could belong to an adjacent enclosure edge; a dotted or otherwise indistinct track symbol is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [853, 832],
+        [824, 833],
+        [794, 838],
+        [782, 869],
+        [768, 901],
+        [757, 930],
+        [755, 953],
+        [765, 978],
+        [778, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A thin dark outline runs west from the building cluster and bends south; a second, intermittently visible line borders a narrow grey-green strip along portions of the bend.",
+      "uncertainty_note": "This is a doubtful access-track reading. The irregular spacing and greenish wash also support an enclosure or drainage-strip edge; connection to f01 is concealed and is not asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two visible edges are road casing, they define a narrow track with this approximate course."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The lines may instead outline a narrow land-cover or drainage strip, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 326, 1000, 363],
+      "why": "A thick, slightly sloping dark seam obscures the drawing; this bounding box includes its changing vertical position."
+    }
+  ],
+  "overall_note": "The lower-right access line is the clearest road candidate; its possible western continuation remains ambiguous. The diagonal alternating black-and-white symbol is railway, while the long straight dashed reddish lines read as boundaries and the meandering blue-green bands as drainage or land-cover strips. No three-branch road junction is clearly visible."
+}

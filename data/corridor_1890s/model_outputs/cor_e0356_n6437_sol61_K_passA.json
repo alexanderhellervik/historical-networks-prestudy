@@ -1,0 +1,141 @@
+{
+  "tile_id": "cor_e0356_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,408],[34,392],[72,380],[111,362],[149,343],[181,327],[217,307],[253,289],[286,273],[317,254],[345,233],[374,211],[402,188],[425,163],[445,139],[462,111],[478,84],[489,57],[501,28],[512,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "An orange-brown strip approximately 8–12 px wide lies between two heavy dark margins. Both margins follow the bends; the crossing red lines continue independently.",
+      "uncertainty_note": "The centre is locally covered by lettering, but the two margins establish its continuation.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,826],[27,798],[57,773],[87,745],[117,716],[151,685],[185,656],[217,629],[249,600],[280,566],[309,531],[337,496],[358,467],[375,442]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow ochre trace has closely spaced dark dots or short strokes along it, occasionally suggesting two margins. It curves across the straighter red and black parcel lines.",
+      "uncertainty_note": "The symbol does not consistently resolve into one line or two. Lettering conceals the northeastern end; the possible continuation is recorded separately as f03.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some clearer stretches appear to have two closely spaced interrupted margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Other stretches resolve as a single interrupted dark trace."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[401,388],[410,361],[419,337],[441,316],[467,302],[495,285],[522,271],[549,258],[571,263],[591,260],[615,248],[641,237],[663,228],[680,204],[702,176],[726,147],[750,116],[774,89],[800,63],[830,36],[855,15],[877,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A thin ochre line with dark, unevenly interrupted edging bends through the lettering, makes a shallow kink near [570,263], and continues northeast across a straight red line.",
+      "uncertainty_note": "The southwestern connection to f02 is concealed. Short stretches beneath lettering have uncertain centre positions; j01 depends on reading f04 as a branching path.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Much of the trace looks like one narrow dark-edged coloured stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Several exposed sections suggest two close, interrupted edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel division remains possible for some sections, although the irregular course and ochre edging favour a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[663,228],[666,246],[663,265],[676,283],[684,305],[681,324],[672,348],[675,373],[669,403],[654,438],[634,474],[612,508],[592,539],[578,567],[579,594],[587,623],[601,648]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A winding narrow trace has ochre colouring and dark dots or short strokes. It bows east near [684,305], then curves southwest and south; lettering overlaps several portions.",
+      "uncertainty_note": "This may be a path or a curving parcel edge. Its southern end meets a heavier diagonal line amid overlapping marks; no road continuation is secure. If it is a parcel edge, j01 is not a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The exposed dark marks can be read as a single interrupted path symbol."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre underpinning can instead be read as a continuous narrow stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line could delimit a parcel rather than represent a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,888],[18,913],[36,938],[57,966],[78,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "The corner contains a narrow ochre-orange strip with dark, partly interrupted margins approximately 5–9 px apart. A separate thin red line runs roughly parallel farther southwest.",
+      "uncertainty_note": "Only a short clipped portion is visible, and its margins are less distinct than those of f01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short visible strip could be a coloured parcel edge if the apparent second margin belongs to adjacent shading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[156,146],[171,134],[182,119],[184,108],[197,98],[199,86],[192,72]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Within the green compound, a pale winding strip is bordered by closely spaced dark curves. Small rings and coloured polygons crowd both sides.",
+      "uncertainty_note": "The paired curves might depict an internal path, but they may instead belong to vegetation or polygon outlines. Neither endpoint nor a connection to f01 is readable.",
+      "alternatives": [
+        {
+          "proposed_class": "park_path",
+          "note": "Possible internal path within the green patterned compound; the park interpretation itself is uncertain."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If linear, the mark appears to have two close margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The curves may be non-road parts of the compound's decorative or parcel drawing."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [663,228],
+      "branch_count": 3,
+      "evidence_note": "The thin ochre and dark trace appears to divide into southwest, northeast and southward courses. The southward attachment is cramped beside the heavier straight red stroke, so the junction is conditional on f04 being a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [359,397,416,447],
+      "why": "Heavy lettering overlaps the possible connection between f02 and f03; a continuous road course cannot be established."
+    },
+    {
+      "bbox_uv": [139,61,211,157],
+      "why": "Closely packed dark curves, ring symbols and coloured polygon edges prevent a reliable inventory of possible internal paths beyond the tentative f06 trace."
+    },
+    {
+      "bbox_uv": [552,722,685,858],
+      "why": "Small angular outlines, dark marks and lettering overlap in the compound; possible very short access lines cannot be separated reliably from polygon edges."
+    }
+  ],
+  "overall_note": "The strongest road reading is the cased orange route f01; the corner strip and thin winding traces are less secure. Straight red parcel lines, long black boundary dashes and blue water outlines were excluded where their symbols were clear. The lettering gap, compound paths and conditional junction remain unresolved."
+}

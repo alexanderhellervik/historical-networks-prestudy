@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0350_n6438",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Broad double line with red-brown fill, the strongest road on the tile, running from the bottom edge near (590,1000) via (620,800), (700,700), (820,630), (900,560), (915,470), (950,410) to the right edge near (1000,370). The overlay follows it closely.",
+      "uncertainty_note": "Course is certain. Class: it is clearly wider than the brown road f02, so it reads as Landsväg/Bygdeväg; I cannot see which class the overlay assigns."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Narrow red-brown line with dark edges, from the left edge at (0,425) via (130,440), (175,520), (230,575), (330,650), (365,730), (405,780), (405,840), (470,890), (550,950) to join f01 near (585,990). It matches the sämre körväg drawing in the worked example. The overlay follows it.",
+      "uncertainty_note": "Course is certain. Whether it counts as narrow double or as a heavy single line is a judgement call at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange-brown line running NE from near the stream crossing (410,560) via (480,450), (550,370), (590,320) and (605,250) to the sheet seam at (610,155). It matches the gångstig-style thin coloured line in the worked example.",
+      "uncertainty_note": "The lowest part, from about (410,560) down to f02 at (340,645), runs through the 'Säckegärde' lettering and the stream, so I cannot clearly see it there. That link is plausible but not certain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Above the paper seam (v<150) the overlay follows a line of dots running from about (640,130) to (770,0). It looks like the dotted field and property edges used all over this tile. It may have a faint brown tint, which would make it the continuation of f03 across the seam.",
+      "uncertainty_note": "The two paper strips are offset at the seam, so continuity with f03 cannot be checked. Alternatives are a footpath continuing f03 or a dotted boundary."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange-brown line branching from f03 at about (590,320), curving via (650,375), (690,440), (708,520), (735,590) and (770,635) to meet f01 near (790,650). The overlay follows it.",
+      "uncertainty_note": "Where it meets f01, the lettering 'Säckegärde' makes it unclear exactly where it joins, within about 20 px."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short piece at the top right above the seam, at about (930,150)–(1000,70). There is a faint line there along the field edge, which may continue f07 across the seam, but I cannot tell road colour from boundary dots at this size.",
+      "uncertainty_note": "Seam offset plus field-edge linework. Alternatives are the continuation of f07 or a field boundary."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin brown line from the seam at (915,165) down via (900,240), (890,310), (878,380) to about (860,425), where it meets f08 and f09 next to the small building at (820,420).",
+      "uncertainty_note": "The exact lower end, and whether it meets f08 at the same point as f09, are unclear."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin brown diagonal line through the 'Äkermans' lettering, from about (650,255) via (720,320) and (780,375) to (820,415).",
+      "uncertainty_note": "The upper end may continue a little further NW, to the farm buildings near (615,215). The overlay stops around (640,255)."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Short thin brown line continuing f08 from about (830,425) via (870,450) to join f01 near (905,480).",
+      "uncertainty_note": "Short and partly crowded by the 'i' mark and the building, but it is visible."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At v≈860–885 from the left edge to (405,840) there is only a black dotted line along a meadow edge, with no brown or orange road colour. This is the same symbol as the many field and property edges on the tile. A blue stream also runs nearby.",
+      "uncertainty_note": "The model legend draws Gångstig as a dotted line, so a footpath cannot be fully excluded. But this sheet draws its paths as thin coloured lines, and the line reaching f02 fits a boundary meeting a road."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (0,815) to (140,745), the only lines are dotted or solid black edges between meadow (green) and field areas. There is no road colour.",
+      "uncertainty_note": "This is the same caveat as f10: a dotted line could in principle be a footpath, but nothing here sets it apart from the boundary dots around it."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [340, 645],
+      "what_is_contested": "Whether f03 actually reaches f02 here, or ends near the stream crossing at about (410,560).",
+      "evidence_note": "The thin orange line is clear above (410,560). Below it, the 'G. Säckegärde' lettering, a building and the stream cover the area where it would meet f02."
+    },
+    {
+      "uv": [845, 425],
+      "what_is_contested": "How many branches meet and where: f07 comes down from the north, f08 from the NW and f09 goes off SE, and they may meet at one point or at two close points.",
+      "evidence_note": "A small building at (820,420) and an 'i' mark crowd the meeting point. The lines end within about 30 px of each other."
+    },
+    {
+      "uv": [610, 155],
+      "what_is_contested": "Whether f03 continues past the paper seam as f04, and so whether there is a junction or a break at the seam.",
+      "evidence_note": "The two paper strips are offset at the seam, and the line above it is a dotted line like the field edges."
+    },
+    {
+      "uv": [405, 840],
+      "what_is_contested": "Whether a junction exists here at all: it exists only if f10 is a road.",
+      "evidence_note": "The meeting line is a black dotted line with no road colour."
+    }
+  ],
+  "overall_note": "The main road f01, the brown road f02 and the thin coloured tracks f03, f05 and f07–f09 are clearly drawn and the overlay follows them well. The two lower-left lines (f10, f11) follow black dotted field and property edges and do not read as roads. The two pieces above the paper seam (f04, f06) cannot be judged because of the seam offset and the dotted linework there."
+}

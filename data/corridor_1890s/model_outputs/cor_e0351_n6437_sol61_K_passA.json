@@ -1,0 +1,47 @@
+{
+  "tile_id": "cor_e0351_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 67], [23, 67], [43, 66], [66, 66], [90, 64], [110, 64]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short approximately horizontal band has uneven dark edges roughly 5–8 px apart, with pale ochre colouring between them; dark rectangular symbols crowd its western portion.",
+      "uncertainty_note": "The eastern end merges with the heavy blue-black shoreline stroke, obscuring its precise termination. Edge spacing is difficult to resolve near the rectangular symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some apparent casing may come from overlapping symbols rather than two continuous road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[44, 119], [42, 141], [46, 164], [55, 181], [68, 182], [78, 165], [82, 143], [85, 120], [91, 99]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Separated, relatively heavy dark marks trace a narrow U-shaped course around a pale patch; green-blue colouring lies outside it, and lettering and rectangular symbols interrupt its upper ends.",
+      "uncertainty_note": "This may be an enclosure outline rather than a path. Neither upper end can be connected confidently to f01.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If these successive dark marks represent a path, its visible form is an irregular dashed line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may depict a hedge, garden enclosure or parcel edge, in which case this feature is not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 75, 105, 125],
+      "why": "Overlapping lettering, dark rectangular symbols and short strokes prevent reliable tracing of possible connections."
+    }
+  ],
+  "overall_note": "Most of the tile has no identifiable road drawing; the long blue-black line with blue wash is the shoreline. The short upper-left road is partly crowded by symbols, and the nearby U-shaped marks retain a substantial enclosure-versus-path ambiguity."
+}

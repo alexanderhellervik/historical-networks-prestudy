@@ -1,0 +1,91 @@
+{
+  "tile_id": "cor_e0359_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 650], [19, 671], [36, 692], [57, 716], [83, 740], [111, 756], [145, 766], [180, 774], [215, 780], [242, 791], [264, 796], [292, 787], [329, 776], [357, 770], [380, 766], [419, 758], [451, 759], [479, 766], [514, 763], [548, 756], [575, 746], [597, 737], [623, 727], [650, 718], [687, 713], [726, 705], [771, 699], [812, 693], [851, 684], [891, 674], [934, 662], [973, 654], [1000, 650]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j03", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow red-ochre band follows the entire course, with closely spaced dark dotted edge traces. Similar coloured branches attach near (380,766) and (771,699); lettering partly overlays the western section.",
+      "uncertainty_note": "The road course is clear, including beneath the western lettering. Its edges are dotted and locally merge, making the distinction between paired lines and a single stippled symbol less certain; j03 is conditional on the faint spur being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The coloured band and stippling are unmistakable, but continuous paired casing lines cannot be resolved throughout."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[380, 766], [367, 782], [357, 798], [355, 811], [361, 825], [378, 849], [397, 876], [417, 903], [438, 929], [460, 951], [485, 972], [512, 992], [523, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A red-ochre strip with dark dotted margins leaves the crossing road, bends sharply left, then curves toward the bottom edge. Its coloured width remains approximately 7–10 pixels.",
+      "uncertainty_note": "The course and attachment are clear; the dotted margins do not consistently resolve as continuous casing.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A narrow coloured road symbol with dotted margins rather than clearly continuous double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[771, 699], [773, 734], [772, 771], [772, 811], [774, 849], [773, 885], [771, 914], [762, 940], [756, 969], [749, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow red-ochre vertical band with dark stippled margins joins the crossing road. Black lettering and angular black parcel outlines sit alongside; the band bends slightly left near the bottom.",
+      "uncertainty_note": "The road is identifiable throughout, although adjacent black outlines locally obscure one margin.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The closely spaced dotted edges sometimes merge with neighbouring black outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[597, 737], [592, 730], [589, 723]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A very faint short narrow trace appears between the north margin of the coloured road and a small upright black building mark. Neither paired casing nor a regular dot pattern is clear.",
+      "uncertainty_note": "Low confidence: this may be a short access path, a parcel-edge fragment, or discolouration. Its attachment and coordinates are approximate within about 6 pixels; no continuation through the black mark is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the faint trace is deliberate road ink, it appears to be a single narrow access line ending at the black mark."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a parcel-edge fragment or colour bleed, in which case neither this feature nor j03 represents a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [380, 766],
+      "branch_count": 3,
+      "evidence_note": "The dotted red-ochre through-band continues east and west; a similarly coloured band attaches on its southern side and immediately curves southwest."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [771, 699],
+      "branch_count": 3,
+      "evidence_note": "The east-west red-ochre band meets a narrow south-running band with dark dotted margins, forming a visible T."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [597, 737],
+      "branch_count": 3,
+      "evidence_note": "Conditional junction: a faint narrow trace appears to touch the northern edge of the dotted through-road; three branches exist only if that trace is an access path."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The coloured dotted roads are clear, but their exact symbol-form class is less certain than their courses. Long black dashed diagonals match boundaries, and the irregular blue line matches a stream. A possible short building-access spur is retained with explicit doubt."
+}

@@ -1,0 +1,78 @@
+{
+  "tile_id": "cor_e0366_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 403], [23, 382], [47, 361], [69, 341], [89, 321], [110, 300], [125, 280], [128, 266], [151, 258], [180, 249], [209, 239], [220, 230], [224, 219]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced dark dotted edges enclose an ochre strip, roughly 8–12 px wide. The pair bends beneath large lettering and continues visibly on both sides.",
+      "uncertainty_note": "The road reading is strong; lettering makes some centreline positions approximate. Its junction with f03 is conditional on that faint line being a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[224, 219], [224, 199], [225, 182], [226, 171]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The narrow ochre strip and close dark edge marks turn north beside heavy rectangular building symbols; the edges become difficult to separate near the upper endpoint.",
+      "uncertainty_note": "Continuation through the building and lettering cluster is unresolved, so the trace stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the upper endpoint, some apparent edging may belong to the adjoining enclosure or building symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[224, 219], [258, 213], [292, 210], [326, 207], [361, 209], [398, 211], [437, 212], [477, 213], [514, 213], [543, 215]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint pink and ochre trace runs east, slightly wavering; portions appear to have two fine edges only a few pixels apart. No consistent dotted edging is resolved.",
+      "uncertainty_note": "This could be a narrow track or a field/property division. Its eastern end merges with the stronger vertical red line, and no continuation is established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the two faint edges delimit a track, this is a narrow double-line road."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "If the second edge is colour bleed, the visible trace could represent a single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property boundary is also plausible; that reading removes this feature and j01 from the road network."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[742, 98], [751, 117], [756, 143], [759, 171], [761, 198], [769, 220], [790, 243], [813, 260], [840, 261], [867, 251], [897, 251], [930, 252], [965, 253], [1000, 255]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two dotted dark edges, approximately 8–12 px apart, flank a pale ochre strip. They curve south beside angular solid outlines, then turn east.",
+      "uncertainty_note": "The northern tip merges into the red horizontal boundary stroke. A continuation beyond that overlap cannot be read.",
+      "alternatives": []
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [224, 219],
+      "branch_count": 3,
+      "evidence_note": "The close dotted road edges continue north and southwest, while a much lighter pink/ochre trace meets them from the east. Three road branches are present only if f03 is a track."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [214, 127, 319, 198],
+      "why": "Heavy building marks, lettering and enclosing solid lines prevent reliable separation of any small access tracks near the northern end of f02."
+    }
+  ],
+  "overall_note": "The clearest roads have paired dotted edges and ochre interiors. The faint eastward trace remains ambiguous, making j01 provisional. The straight red strokes across the top, vertically through the centre and diagonally across the bottom show boundary-style marks and are excluded."
+}

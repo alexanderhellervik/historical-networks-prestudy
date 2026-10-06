@@ -1,0 +1,208 @@
+{
+  "tile_id": "cor_e0359_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[231, 0], [230, 31], [225, 64], [216, 83], [179, 105], [148, 124], [124, 145], [115, 170], [115, 219], [114, 270], [108, 314], [99, 337], [73, 366], [43, 393], [13, 420], [0, 433]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark, largely continuous edges enclose a pale grey strip roughly 10–18 px wide; the strip curves past green ornament and small black building marks.",
+      "uncertainty_note": "The road is clear. Its eastern connections near the red band are less distinct than the main paired edges.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[216, 83], [215, 105], [224, 135], [238, 163], [243, 175], [258, 201], [278, 224], [305, 242], [334, 252], [359, 252], [390, 242], [430, 241], [479, 247], [529, 252], [580, 259], [626, 265], [650, 277], [678, 310], [716, 351], [754, 392], [794, 432], [834, 471], [875, 511], [916, 549], [958, 585], [1000, 610]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03", "j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The northwestern portion has paired dark edges around a pale strip. Farther east and southeast, a pale grey margin runs beside a broad pink band with heavy, interrupted black strokes.",
+      "uncertainty_note": "The paired road near Brobacka is clearer than the continuation. Beyond approximately [334,252], the pale margin may represent a road accompanying the boundary, or merely part of the boundary rendering; the listed course follows that margin.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Read the pale strip and its outer edge as a continuous cased road beside the pink boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the eastern portion as boundary rendering only; under this reading the road ends obscured near [334,252], and j04 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[225, 64], [253, 60], [290, 63], [339, 66], [389, 70], [439, 75], [489, 79], [539, 84], [589, 90], [638, 97], [683, 107], [707, 115]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow orange-brown strip has a fine dark edge and repeated dark stipples along the other edge; its gently bending course reaches clustered black and red rectangles.",
+      "uncertainty_note": "The attachment at the western end crosses red wash. The eastern end is stopped at the building marks because its precise connection to f09 is obscured.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled strip could be an outlined parcel edge, although its appearance closely resembles the cart-track symbol in the worked example."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[243, 175], [226, 177], [209, 188], [193, 186]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A short, narrow dark stroke with a light brown interior extends westward from the paired strip and reaches a small dark rectangular mark.",
+      "uncertainty_note": "Its short length and adjoining outlines make a building-yard edge an alternative to an access track. No continuation beyond the rectangle is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Treat the dark sides and light interior as a short access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Treat the stroke as a yard or parcel outline; under this reading j03 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 456], [29, 459], [56, 467], [86, 491], [119, 522], [157, 553], [194, 582], [232, 613], [270, 644], [306, 670], [331, 683], [365, 693], [405, 699], [452, 701], [499, 703], [543, 706], [581, 715], [620, 735], [660, 755], [699, 775], [737, 781], [775, 791], [799, 811], [816, 834], [831, 859], [818, 880], [788, 896], [754, 907], [712, 912], [669, 911], [625, 908], [580, 905], [535, 898]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A pale buff ribbon lies between a fine grey edge and a stronger reddish edge, generally about 8–15 px apart. The ribbon bends around the southern cluster of outlined patches and rectangles.",
+      "uncertainty_note": "Some stretches have only one crisp edge, so a boundary with a pale parallel margin remains possible. The western meeting with f01 would be outside the face and is not reported as a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The broader pale stretches could be read as a wider cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the reddish stroke and neighbouring pale edge as a parcel boundary rather than a continuous road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 791], [50, 793], [101, 795], [150, 804], [201, 817], [252, 831], [303, 842], [354, 854], [405, 865], [437, 870], [473, 882], [506, 892], [535, 898], [580, 909], [626, 918], [675, 929], [722, 937], [770, 949], [820, 959], [869, 968], [918, 979], [967, 987], [1000, 993]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05", "j06"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow orange-brown band carries a fine edge and a row of small dark stipples. Black and red rectangular marks interrupt parts of its course near the lower centre.",
+      "uncertainty_note": "The stippled symbol is consistent on both sides of the central rectangles, supporting continuation through them. The exact branching position with f05 is less certain within those marks.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An ornamented parcel edge is possible where the strip coincides with black outlines, but the repeated track-like stippling favours a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[437, 870], [421, 881], [381, 881], [335, 879], [285, 883], [244, 886], [225, 887], [230, 909], [238, 935], [246, 943]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Thin grey and dark strokes enclose an intermittent pale strip below the orange track. At its western bend, closely spaced black outlines and a rectangular mark crowd the strip.",
+      "uncertainty_note": "This may be a narrow access road, or adjoining parcel and building outlines mistakenly joined into one course. The southern end is stopped where the strokes merge with heavier lines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the intermittent paired edges as an access road bending south beside the rectangular mark."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the strokes as separate parcel and yard outlines; under this reading j06 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[650, 277], [689, 272], [735, 267], [781, 262], [829, 258], [877, 257], [925, 259], [976, 264]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Very faint grey-brown strokes run roughly eastward from the bend of the pink band; locally two parallel strokes can be distinguished, about 8–15 px apart.",
+      "uncertainty_note": "The strokes could be a lightly drawn track, a boundary, or incidental parallel marks. Their eastern termination merges with a darker blue-green line, so no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the faint parallel strokes as a narrow track branching east."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the strokes as a boundary or incidental marks, removing this feature and j04 from the road reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[747, 131], [771, 143], [798, 151], [826, 145], [850, 135], [857, 151], [859, 169], [907, 178], [952, 187], [1000, 194]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A thin yellow-orange strip with dark edging and intermittent dots winds between rectangular symbols, then follows the lower edge of a large outlined patch.",
+      "uncertainty_note": "The strip resembles f03, but parts also resemble the enclosing parcel outline. The obscured western gap is not bridged, and the small bends among the rectangles are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the coloured strip and stippled edge as the continuation of the upper cart track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read some or all of the eastern course as an outlined parcel edge rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [225, 64],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange, stippled strip approaches the eastern side of the paired grey corridor; the corridor continues above and below. Red wash makes the contact slightly indistinct."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [216, 83],
+      "branch_count": 3,
+      "evidence_note": "Three pale arms with dark bordering strokes separate here: one upward, one curving southwest, and one descending southeast."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [243, 175],
+      "branch_count": 3,
+      "evidence_note": "A short dark, light-centred stroke touches the western edge of the paired corridor, which continues in both directions; the third arm is conditional on f04 being a track."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [650, 277],
+      "branch_count": 3,
+      "evidence_note": "At the bend, the pale margin continues west and southeast while faint parallel grey strokes extend east; all three road arms are conditional on the uncertain readings of f02 and f08."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [535, 898],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange strip continues west and southeast, while a pale, reddish-edged strip approaches from the east. A red-black rectangle partly masks the separation."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [437, 870],
+      "branch_count": 3,
+      "evidence_note": "The orange, stippled strip continues west and east; faint paired strokes turn southwest beneath it. The third arm is conditional on f07 being an access road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [704, 105, 755, 143],
+      "why": "Overlapping black and red rectangular symbols conceal the precise connection between the upper stippled strip and the winding strip farther east."
+    },
+    {
+      "bbox_uv": [205, 870, 253, 948],
+      "why": "Closely packed rectangular marks, parcel outlines and pale parallel strokes prevent a secure distinction between a narrow access road and surrounding outlines."
+    }
+  ],
+  "overall_note": "The main difficulty is distinguishing pale road-like margins from the adjoining red boundary bands and parcel outlines. Conditional road readings and their junctions are retained explicitly; blue-green water lines and clearly patterned boundary strokes are otherwise excluded. Waypoints beneath the southern central rectangles follow matching visible approaches on both sides, while the uncertain upper connection is left open."
+}

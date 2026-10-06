@@ -1,0 +1,68 @@
+{
+  "tile_id": "cor_e0346_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 91], [15, 82], [45, 63], [76, 43], [107, 22], [139, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two strong, approximately parallel dark margins enclose a reddish-brown strip about 10–15 px wide. A narrower reddish stroke branches downward near the left edge.",
+      "uncertainty_note": "The course is clear. 'Wide' describes its width relative to the other cased line on this tile.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[15, 82], [20, 100], [30, 117], [39, 131]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, narrower reddish-brown stroke with dark edging leaves the lower margin of f01 and runs diagonally downward toward overlapping dark, green and red rectangular symbols.",
+      "uncertainty_note": "The short branch is visible, but its margins are not consistently separable. Its continuation among the rectangular symbols cannot be traced securely.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark edging may represent two closely spaced margins enclosing the reddish strip."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "At this resolution the branch could instead be one heavy stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[301, 0], [306, 26], [315, 54], [325, 83], [334, 111], [344, 140], [354, 169], [357, 197], [363, 224], [370, 252], [379, 280], [387, 308], [390, 330]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow reddish-brown strip has closely spaced dark margins containing repeated short marks or dots. It remains aligned on both sides of the large black lettering and reaches a red rectangular symbol near its lower end.",
+      "uncertainty_note": "Lettering hides portions of the margins, but the visible strip on either side supports continuity. The trace stops at the red symbol because continuation beyond it is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks along the strip could be read as paired dotted or dashed strokes rather than continuous casing."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [15, 82],
+      "branch_count": 3,
+      "evidence_note": "The broad strip continues toward both tile edges, while a narrower reddish stroke joins its lower dark margin and turns downward, giving three visible branches."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [28, 123, 61, 174],
+      "why": "Overlapping rectangular symbols and dark strokes conceal the possible continuation of f02."
+    },
+    {
+      "bbox_uv": [374, 326, 415, 383],
+      "why": "Red and dark rectangular symbols obscure the end of f03; nearby short strokes cannot securely be separated into road margins and symbol edges."
+    }
+  ],
+  "overall_note": "Large lettering obscures parts of the narrow descending road, and rectangular symbols obscure both access-road ends. Bold blue parcel outlines and the shoreline were distinguishable from the reddish road strokes; no continuation through the obscured endpoints is assumed."
+}

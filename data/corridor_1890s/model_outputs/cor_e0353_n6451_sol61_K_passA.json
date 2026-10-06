@@ -1,0 +1,227 @@
+{
+  "tile_id": "cor_e0353_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,242],[31,232],[64,219],[98,199],[131,177],[166,158],[202,144],[237,136],[274,137],[312,143],[350,149],[388,149],[426,149],[463,149],[494,145],[516,146],[531,121],[548,95],[566,76],[591,61],[622,53],[659,50],[699,51],[738,56],[774,53],[813,46],[850,44],[884,47],[914,56],[946,55],[968,51],[984,35],[1000,14]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "One row of regularly spaced, heavy dark dots, without continuous casing; it runs below a red outline in the west and above horizontally hatched patches in the east.",
+      "uncertainty_note": "The road/path reading is strong, but the marks are round dots rather than elongated dashes, so the supplied classes do not exactly describe the symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if dashed_line includes a single row of round, separated dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[914,56],[900,83],[883,107],[863,133],[848,155],[834,180],[813,202],[787,215],[758,222],[729,237],[702,258],[677,275],[648,281],[619,279],[596,278],[589,301],[579,328],[569,355],[563,378],[559,393]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A single dark dotted trace branches south from the upper dotted line, curves beside blue-edged hatching, and continues southwest toward the large lettering.",
+      "uncertainty_note": "The southern end disappears into the strokes of Sandbacken. Possible continuation f08 is kept separate because the overprint prevents a certain join.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The interrupted symbol could be grouped with dashed_line, although its marks are predominantly dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,317],[30,320],[58,331],[82,347],[96,369],[102,398],[104,429],[110,451],[111,474]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow brown-red band has dark, partly stippled margins roughly 5–9 px apart; it bends downward and passes beside small rectangular symbols and a numeral.",
+      "uncertainty_note": "The margins alternate between continuous and dotted-looking marks, making the precise symbol form uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches can be read as paired interrupted lines rather than continuous narrow casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[111,474],[102,490],[107,510],[123,519],[143,517]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two close dark margins enclose a pale strip that curls below the bend and approaches a red rectangular building symbol.",
+      "uncertainty_note": "The terminal marks merge with the building and adjacent lettering; no continuation beneath the large name is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short terminal curve could partly be a yard or parcel outline rather than a separate road spur."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[111,474],[139,488],[169,496],[201,502],[234,504],[268,508],[301,513],[335,521],[367,531],[393,541],[416,548]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin brownish trace with intermittent dark marks extends east from the bend, beside tan polygons; farther east it approaches close blue-edged angular outlines.",
+      "uncertainty_note": "This is a tentative farm-track reading. Some marks may instead belong to field edges, and the eastern end becomes indistinguishable from those outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the intermittent marks form one track, its symbol is an interrupted narrow line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a sequence of parcel or land-cover edges; under that reading the east arm of j02 is absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[1000,147],[997,188],[988,231],[975,275],[960,318],[944,361],[929,396],[920,417],[910,440],[890,484],[870,527],[853,567],[837,610],[822,651],[805,694],[786,737],[768,778],[749,820],[730,862],[712,903],[691,947],[679,975],[668,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A brown narrow corridor is bounded by two dark reddish margins, approximately 6–10 px apart, with intermittent dark stippling; blue outlines and horizontal hatching run beside much of its southern course.",
+      "uncertainty_note": "The road is partly covered by Klingsäter lettering. Its margins above and below the name support the continuation, but the centreline there is approximate; f09's connection is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken marginal marks could be treated as the principal symbol rather than as narrow casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[910,440],[936,430],[963,418],[1000,405]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One uncased row of heavy dark dots runs northeast from the narrow brown corridor to the right edge, crossing the tan-coloured area.",
+      "uncertainty_note": "No westward continuation through the nearby lettering is established. The symbol is dotted rather than clearly dashed.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if the class includes round-dotted paths."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[552,436],[546,451],[539,476]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Several separated dark marks describe a short southward trace between large black letter strokes and small blue oval symbols.",
+      "uncertainty_note": "This may continue f02, but both ends are hidden by lettering. At this resolution some marks could instead be vegetation symbols or fragments of letters.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If these marks belong to the dotted path, they form another visible interrupted section."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: isolated symbol or lettering fragments rather than a continuous path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[706,556],[731,563],[759,568],[789,571],[817,572]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short row of dark separated dots is visible beneath the Klingsäter lettering, alongside a thin blue curved outline.",
+      "uncertainty_note": "The western approach is hidden by letters and overlapping red outlines. The eastern end is hidden before a certain meeting with f06 can be demonstrated, so no junction is assigned.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if the round-dotted symbol is included in dashed_line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The visible row could be a shorter independent path rather than part of the central dotted route."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[691,947],[721,926],[750,913],[780,904],[810,898],[838,899],[865,908],[891,921],[918,932],[944,931],[969,925],[981,924]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "One dark dotted line arcs east from the brown corridor, below blue-edged horizontal hatching, then passes a red outline toward a red building rectangle.",
+      "uncertainty_note": "The last dots merge with the building and surrounding ink; no continuation beyond it is traced. Round dots do not exactly match the named dashed-line class.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if dashed_line includes single-row dotted paths."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[428,493],[441,475],[460,451],[475,431],[491,414],[506,404]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Faint close grey-brown traces run diagonally beside dark blue edges of tan polygons, with a pale strip between portions of the traces.",
+      "uncertainty_note": "A narrow lane is possible, but the traces could be adjoining field or land-cover outlines. Building ink obscures the lower end and Sandbacken lettering obscures the upper end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible road reading if the close traces are the two margins of a pale narrow lane."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: adjacent parcel or land-cover edges, without an independent road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [914,56],
+      "branch_count": 3,
+      "evidence_note": "Three arms of single-row dark dots meet: two follow the upper line and one bends south beside the blue outline; there is no broad casing."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [111,474],
+      "branch_count": 3,
+      "evidence_note": "At the narrow cased bend, a close-edged arm curls toward the red rectangle and an intermittent brown-dark trace extends east; the eastern arm is tentative as described in f05."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [910,440],
+      "branch_count": 3,
+      "evidence_note": "An uncased dotted arm from the right reaches the brown strip between its close dark margins, which continue both upward and downward."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [691,947],
+      "branch_count": 3,
+      "evidence_note": "The curved eastward row of black dots reaches the narrow brown corridor beside horizontal hatching; the corridor has visible continuations toward both tile edges."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [485,388,583,439],
+      "why": "Heavy Sandbacken letter strokes overlap the dotted and faint diagonal traces, preventing certain connections between their visible sections."
+    },
+    {
+      "bbox_uv": [521,463,586,504],
+      "why": "Kallebo lettering and nearby dark marks obscure the lower continuation of the central dotted trace."
+    },
+    {
+      "bbox_uv": [803,534,868,590],
+      "why": "Klingsäter lettering masks the possible meeting of the short east-west dotted section and the narrow cased road."
+    }
+  ],
+  "overall_note": "Round-dotted paths are assigned unknown, with dashed_line alternatives because the supplied classes lack a dotted-line category. Central lettering prevents several certain joins, and the farm-edge and faint diagonal traces retain non-road alternatives. Plain red parcel outlines, blue drainage or land-cover edges, and long pale dividing lines are excluded."
+}

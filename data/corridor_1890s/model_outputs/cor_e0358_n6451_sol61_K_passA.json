@@ -1,0 +1,271 @@
+{
+  "tile_id": "cor_e0358_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,319],[18,288],[35,253],[53,214],[70,174],[87,134],[104,98],[119,60],[132,25],[141,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish ochre ribbon has two close dark margins with repeated dark dots or short ticks. It remains visible beside the upper building symbols.",
+      "uncertainty_note": "The margins are stippled rather than uniformly continuous; the symbol-form class is approximate.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The repeated dark marks could be read as two discontinuous strokes rather than continuous casing."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[211,1000],[236,959],[260,921],[283,882],[307,844],[331,807],[353,766],[376,724],[399,684],[424,650],[444,606],[463,559],[483,515],[502,468],[520,422],[539,376],[550,337],[560,313],[586,288],[616,261],[649,232],[682,205],[715,173],[754,138],[786,108],[817,79],[843,54],[872,27],[899,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02","j06","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A pale diagonal strip lies between a reddish purple stroke and a roughly parallel grey dark stroke, approximately 8–14 px apart. Some dark marks interrupt its margins.",
+      "uncertainty_note": "This is a candidate road. The separated strokes suggest casing, but their colour and intermittent marks also support a boundary interpretation; its junctions are conditional on the road reading.",
+      "alternatives": [
+        {"proposed_class":"double_line_wide","note":"Read the pale strip and its parallel margins as a cased road."},
+        {"proposed_class":"unknown","note":"Read the reddish stroke and adjacent grey marks as a coloured boundary rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[601,0],[636,31],[672,61],[706,91],[737,119],[754,138]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A reddish dark diagonal stroke with a pale yellow grey companion band meets the broader diagonal strip. Its edges are less clearly separated than those of f02.",
+      "uncertainty_note": "The apparent third arm at j01 may be a boundary meeting another line rather than a road branch.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The adjacent strokes could be narrow road margins."},
+        {"proposed_class":"unknown","note":"A coloured boundary is an equally plausible reading."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[418,1000],[434,967],[447,937],[455,903],[460,882],[455,864],[453,847],[461,820],[477,792],[497,762],[518,737],[538,715],[559,686],[581,655],[598,628],[607,611],[625,582],[643,551],[658,520],[667,489],[672,462],[673,447],[680,423],[687,400]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j08","j09","j10","j12"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A winding reddish ochre strip has close dark stippled margins, generally about 6–10 px apart. The same marks remain visible through the bends and beside the building symbols.",
+      "uncertainty_note": "The northern end becomes entangled with lettering and building strokes near [687,400]; no continuation beyond that point is assumed. Several small access branches are tentative.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The dotted or ticked margins could instead be classified as a discontinuous line symbol."}]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[607,611],[631,613],[658,611],[684,605],[710,591],[739,574],[768,557],[795,542],[820,527],[844,512],[860,502],[886,485],[912,467],[939,449],[968,433],[1000,420]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j04","j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close rows of heavy dark dots or ticks border an ochre reddish strip. The strip bends eastward from f04 and remains visible to the right edge.",
+      "uncertainty_note": "The crossing at j04 depends on interpreting f08 as a road. The main course itself is comparatively clear.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"Its dominant dark marks are discontinuous rather than solid margins."}]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[860,502],[875,469],[892,433],[906,401],[916,366],[932,341],[946,331]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j05","j11"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A much thinner ochre brown line leaves the stippled strip and curves upward. Small dark marks occur along parts of it; there is no consistently resolved second margin.",
+      "uncertainty_note": "The upper end loses definition among small oval and angular symbols. It could continue farther, but no course through those symbols is asserted.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Some sections appear to consist of closely spaced small marks."},
+        {"proposed_class":"unknown","note":"A fine parcel edge remains possible where the dark marks cannot be resolved."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[843,54],[829,78],[819,103],[811,132],[808,160],[809,191],[812,223],[815,254],[814,282],[809,309],[833,303],[854,305],[875,315],[892,332],[905,351],[916,366]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02","j11"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A fine ochre orange stroke curves beside, but separately from, a blue green line. It turns sharply east near [809,309] and then southeast to f06.",
+      "uncertainty_note": "Its thin, mostly continuous appearance also permits a coloured parcel boundary reading. The attachment to f02 is tentative.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Faint small interruptions may represent a dotted path symbol."},
+        {"proposed_class":"unknown","note":"The line could be a coloured boundary rather than a path."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[673,447],[693,454],[710,461],[729,443],[744,440],[766,469],[790,495],[808,513],[820,527],[836,548],[860,579],[885,608],[910,635],[932,662]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04","j12"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A pale angular corridor has two dark grey strokes approximately 6–14 px apart. It passes between angular building or enclosure marks and crosses the reddish stippled strip.",
+      "uncertainty_note": "The paired strokes could outline a narrow road, or be adjacent parcel edges. The southeastern end merges with a dark polygon edge; it is not extended beyond that merge.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the two strokes as the margins of one narrow road."},
+        {"proposed_class":"unknown","note":"Read the strokes as separate enclosure or parcel outlines, with no road."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[331,807],[346,815],[360,824]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Short close dark grey strokes enclose a pale strip extending southeast from f02 toward the large B lettering.",
+      "uncertainty_note": "The strip disappears under lettering. It is not joined across that obstruction to f10.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The short pale strip could be a road entrance."},
+        {"proposed_class":"unknown","note":"The strokes could instead be the edges of adjacent parcels."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[403,838],[421,844],[439,853],[455,864]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A short pale passage bounded by fine dark strokes runs among angular building marks toward the reddish stippled track.",
+      "uncertainty_note": "Its western course is obscured by lettering and building outlines. A connection to f09 is possible but unproven.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the passage as a narrow access road."},
+        {"proposed_class":"unknown","note":"Read its strokes as building or enclosure edges."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[455,903],[435,897],[418,885],[398,880]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Fine ochre grey marks run westward from the stippled track toward a small dark reddish rectangular symbol. Their spacing is irregular.",
+      "uncertainty_note": "This short candidate access line cannot be separated completely from nearby enclosure strokes; its end is obscured by the rectangular symbol.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The fine marks could form one access path."},
+        {"proposed_class":"unknown","note":"They could belong to an enclosure boundary rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[538,715],[523,711],[508,710],[499,718],[487,725],[471,734],[461,730]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A pale winding gap with fine dark edging branches west among small filled rectangles and angular outlines. Parts have two close strokes.",
+      "uncertainty_note": "Buildings and enclosure outlines make the exact western course uncertain. No connection to f13 is asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the pale gap as a winding access road."},
+        {"proposed_class":"unknown","note":"Read the apparent margins as separate building and parcel outlines."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[424,650],[446,655],[470,665],[490,674],[509,684],[529,697]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two roughly parallel grey dark edges define a pale southeastward strip beside small black rectangular symbols; the separation varies around 8–15 px.",
+      "uncertainty_note": "This may be an access strip, but it also follows angular coloured parcel margins. The southeast end is interrupted by building marks, preventing a certain join to f12 or f04.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the paired edges as a narrow road."},
+        {"proposed_class":"unknown","note":"Read them as adjacent parcel boundaries."}
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[511,835],[516,861],[520,889],[519,914],[529,944],[531,963],[524,989],[523,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A fine ochre orange line descends through several gentle bends. It is lighter and thinner than the stippled tracks and lies close to blue green strokes in places.",
+      "uncertainty_note": "A path and a coloured parcel boundary are both plausible. The upper attachment is unclear among dark angular outlines, so it is left disconnected.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Read the continuous fine stroke as a path."},
+        {"proposed_class":"unknown","note":"Read it as a parcel boundary or an adjacent non-road line."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[754,138],
+      "branch_count":3,
+      "evidence_note":"Three pale reddish grey bands converge in a small widened patch; this is a three-arm junction only if f02 and f03 are roads."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[843,54],
+      "branch_count":3,
+      "evidence_note":"A fine ochre stroke appears to leave the southeast side of the paired diagonal band; the three-arm count depends on both candidate lines being roads."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[607,611],
+      "branch_count":3,
+      "evidence_note":"The dark stippled margins of the winding north–south strip meet a similarly stippled eastward strip in a widened reddish patch."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[820,527],
+      "branch_count":4,
+      "evidence_note":"The reddish stippled strip crosses a pale corridor with two dark margins; four road arms are present only under the road interpretation of f08."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[860,502],
+      "branch_count":3,
+      "evidence_note":"A thin ochre line meets the northern margin of the heavier stippled strip, whose marks continue on both sides."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[331,807],
+      "branch_count":3,
+      "evidence_note":"A short pale strip with close dark edging touches the east side of the diagonal band; the third road arm is tentative."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[424,650],
+      "branch_count":3,
+      "evidence_note":"A southeastward strip between two fine dark edges meets the diagonal band; this is conditional on both strips being roads."
+    },
+    {
+      "junction_id":"j08",
+      "uv":[538,715],
+      "branch_count":3,
+      "evidence_note":"A pale, finely edged gap appears to leave the west side of the reddish stippled track beside small black rectangles; the west arm is tentative."
+    },
+    {
+      "junction_id":"j09",
+      "uv":[455,864],
+      "branch_count":3,
+      "evidence_note":"Fine paired strokes from the northwest touch the stippled track beside angular building marks; the additional arm is uncertain."
+    },
+    {
+      "junction_id":"j10",
+      "uv":[455,903],
+      "branch_count":3,
+      "evidence_note":"Fine ochre grey marks extend west from the stippled track, which continues north and south; their interpretation as a third road arm is tentative."
+    },
+    {
+      "junction_id":"j11",
+      "uv":[916,366],
+      "branch_count":3,
+      "evidence_note":"Two thin ochre courses meet, with the upward course continuing beyond their contact; their fine strokes are less distinct than the main track margins."
+    },
+    {
+      "junction_id":"j12",
+      "uv":[673,447],
+      "branch_count":3,
+      "evidence_note":"A pale corridor between dark angular strokes touches the eastern side of the stippled track near building symbols; the third arm depends on the road reading of f08."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv":[350,794,412,845],
+      "why":"Large B lettering and dark building or enclosure strokes obscure the possible connection between f09 and f10."
+    },
+    {
+      "bbox_uv":[455,683,535,744],
+      "why":"Closely spaced building rectangles, pale gaps and parcel outlines prevent a certain connection between the candidate access strips."
+    },
+    {
+      "bbox_uv":[665,385,711,425],
+      "why":"Lettering and building strokes obscure the northern continuation of the stippled track."
+    },
+    {
+      "bbox_uv":[933,309,1000,407],
+      "why":"Small oval and angular symbols near the edge prevent tracing the thin upward path or distinguishing additional short passages confidently."
+    }
+  ],
+  "overall_note":"The reddish stippled tracks are the clearest road symbols. The broad diagonal band and several fine access lines admit road and boundary interpretations, which are retained explicitly. Junction counts involving those candidates are conditional, and obscured gaps have not been completed."
+}

@@ -1,0 +1,255 @@
+{
+  "tile_id": "cor_e0364_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,397],[39,394],[79,386],[121,373],[163,362],[201,371],[239,384],[282,400]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two continuous dark edges, approximately 8–12 px apart, enclose an ochre strip. Their course is visible on both sides of the heavy red-and-black crossing.",
+      "uncertainty_note": "The crossing briefly merges the strokes, but the continuation is clear.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[282,400],[319,420],[353,442],[378,454],[399,469]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two dark continuous strokes enclose a narrow ochre strip; small red and black rectangular symbols sit alongside.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[399,469],[433,480],[475,493],[519,502],[557,506],[587,508]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Closely spaced continuous dark edges curve around an ochre centre. A red rectangle touches the lower edge near u=470.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[587,508],[611,487],[634,459],[659,430],[685,403],[716,374],[748,343]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The ochre strip remains bounded by two continuous dark lines; heavier red and black strokes overlap portions of its northwest edge.",
+      "uncertainty_note": "Some individual edges merge with adjacent coloured linework, but the paired course remains traceable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[748,343],[762,314],[775,275],[789,233],[802,195],[823,158]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two continuous dark strokes, roughly 7–11 px apart, enclose a pale ochre strip. A thin red line crosses near v=235.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[823,158],[852,122],[878,84],[895,44],[903,20],[908,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow pale strip lies between two continuous dark edges, bending rightward toward the top edge.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[282,400],[252,418],[224,440],[203,467],[189,494],[182,518],[190,535]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two rows of small dark dots, approximately 7–10 px apart, curve toward a red rectangle beside the large ST lettering.",
+      "uncertainty_note": "The dotted pair disappears into the terminal rectangular symbol. The supplied classes do not explicitly distinguish paired dotted lines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Fits if this class includes two parallel rows of dots or very short dashes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[399,469],[385,497],[368,525],[350,557],[335,592],[321,628],[308,665],[297,704],[288,748]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "One narrow row of dark dots or very short dashes descends southwest from the paired continuous road and stops at a thin enclosure edge.",
+      "uncertainty_note": "The drawing ends at the enclosure edge; no continuation is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted enclosure divider is a possible reading, although its repeated small marks resemble the example's path symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[587,508],[587,549],[588,591],[590,635],[593,680],[597,726],[601,771],[604,815],[609,851],[626,881],[657,912],[684,947],[712,986],[722,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of dark dots follow a narrow pale strip; the pair bends southeast near v=860. A separate continuous red line lies to the east.",
+      "uncertainty_note": "The route is clear, but its paired dotted symbol has no exact named class in the supplied list.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Fits if paired dotted strokes are included in this class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[748,343],[752,373],[752,404],[752,433],[764,459],[788,481],[816,497],[839,505],[871,505],[903,513],[928,541],[952,578],[976,617],[1000,653]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two rows of small dark dots enclose a pale narrow strip. They curve around the green enclosure and run along the lower side of heavy black building symbols near u=850.",
+      "uncertainty_note": "Marks near the buildings partly merge with black symbols, but the dotted course is visible along their lower side. A connection to f11 cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Fits if the class includes paired dotted lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[842,587],[835,625],[828,665],[822,708],[819,751],[818,794],[821,837],[824,880],[828,923],[832,965],[836,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A narrow pale strip with two rows of dark dots runs down the green band, close to thin blue-green enclosure edges and, near the bottom, a red line.",
+      "uncertainty_note": "The northern course disappears toward the building cluster; no visible dotted connection to f10 is certain, so no junction is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Fits if paired dotted strokes are included in this class."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may continue through the building symbols to f10 near [853,507], but that intervening course is obscured."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[732,111],[756,129],[785,145],[823,158]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["dead_end","junction"],
+      "evidence_note": "A row of dark dots or very short dashes runs southeast from the pointed edge of a pale green, ring-marked enclosure to the continuous paired road.",
+      "uncertainty_note": "A second dotted row is not consistently separable. The western end coincides with the enclosure outline.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a dotted enclosure or property line rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[823,158],[861,167],[901,177],[942,186],[978,194],[1000,198]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two approximately parallel rows of dark dots, about 8–11 px apart, enclose a pale strip extending east from the continuous paired road.",
+      "uncertainty_note": "The paired dotted symbol is clear, but lacks an exact class name in the supplied list.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Fits if this class includes paired dotted strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[171,193],[187,205],[220,215],[258,221],[293,217],[327,209]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Two fine dotted rows bend through a pale green lobe, with approximately 12–18 px between them and a separate irregular green outline outside.",
+      "uncertainty_note": "The western marks merge into heavy red-and-black linework. The wider spacing leaves a track, tree-lined route, or non-road enclosure marking plausible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two dotted rows could form a short track."
+        },
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The spaced marks might flank a route as small tree symbols, although distinct trunks are not visible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The rows could instead be separate enclosure or land-cover marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[1000,89],[994,106],[985,130],[977,145]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "A short oblique heavy black mark has a transverse cap near the right edge and a faint lighter strip alongside part of its length.",
+      "uncertainty_note": "This is a doubtful road candidate: the mark may be an elongated building footprint, and two road edges cannot be distinguished reliably.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the lighter strip separates two strokes, this could be a short route clipping the right edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A solid or outlined building symbol is at least equally plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [282,400],
+      "branch_count": 3,
+      "evidence_note": "The continuous dark pair passes through; a narrower pair of dotted rows meets its southern edge and curves southwest."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [399,469],
+      "branch_count": 3,
+      "evidence_note": "Two continuous dark road edges pass through, with one row of short dark marks leaving the southern edge toward the southwest."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [587,508],
+      "branch_count": 3,
+      "evidence_note": "The continuous paired road bends northeast while two closely spaced dotted rows extend south from its lower edge."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [748,343],
+      "branch_count": 3,
+      "evidence_note": "The continuous dark pair continues north and southwest; a dotted pair leaves its eastern side and bends south."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [823,158],
+      "branch_count": 4,
+      "evidence_note": "The continuous paired road passes north–south; a thin dotted course approaches from the northwest and a clearer dotted pair extends east."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [826,482,879,587],
+      "why": "Heavy black and red building symbols conceal the possible northern continuation of f11 and its possible connection to the dotted east–west course."
+    }
+  ],
+  "overall_note": "Several routes use paired dots, which have no exact class in the supplied list. The building cluster prevents a certain connection for the southern right-hand route, and the short upper-right black mark remains a road-or-building ambiguity. Broad red-and-black marked lines, thin red enclosure lines and blue-green outlines were excluded where they lacked a separate road symbol."
+}

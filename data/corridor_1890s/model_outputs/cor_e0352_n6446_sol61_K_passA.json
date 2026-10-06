@@ -1,0 +1,140 @@
+{
+  "tile_id": "cor_e0352_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[345, 0], [318, 26], [285, 49], [264, 77], [245, 109], [231, 143], [216, 177], [200, 214], [179, 249], [153, 280], [130, 311], [114, 341], [102, 376], [97, 412], [84, 442], [63, 471], [38, 495], [0, 521]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two roughly parallel rows of dark dots or short strokes flank a tan strip about 8–12 px wide; these continue across thin red lines and partly beneath the large black lettering.",
+      "uncertainty_note": "The road reading is strong, but the dotted margins do not clearly fit the available symbol-form classes. Its passage beneath lettering is supported by aligned marks on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Treat the two dotted margins as the sides of a narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Emphasize the interrupted dark strokes rather than the paired margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[1000, 714], [998, 752], [991, 784], [965, 806], [934, 830], [903, 846], [867, 855], [839, 875], [811, 902], [786, 933], [758, 967], [729, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow tan-brown strip has dark, closely spaced dotted or serrated margins; it curves southwest among black star-shaped tree symbols.",
+      "uncertainty_note": "The upper portion hugs the cropped right edge, where the two margins are difficult to separate. The visible symbol resembles f01, but its exact class is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark marks may delineate two narrow track margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken dark marks may be the principal road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 868], [10, 891], [16, 915], [20, 937], [37, 956], [59, 972], [88, 985], [120, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy continuous dark strokes enclose a pale tan strip approximately 12–18 px wide; both bend together beside small red-and-black rectangular marks.",
+      "uncertainty_note": "The cased road is clear. Its possible connection with f07 is less certain because dark symbol ink overlaps the left margin.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[958, 171], [947, 204], [935, 238], [918, 279]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two thin, continuous, nearly parallel dark lines enclose a pale strip about 5–7 px wide between two transverse pink strokes.",
+      "uncertainty_note": "Both ends disappear into coloured transverse linework. A narrow road is plausible, although a narrow enclosed parcel strip is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired strokes could be parcel edges rather than a road; no continuation beyond either pink stroke is established."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[841, 470], [826, 497], [810, 524]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "Thin dark strokes enclose a pale, tapering strip beside the horizontally hatched area; spacing varies and the upper end merges with an angular outline.",
+      "uncertainty_note": "This may be a narrow track or simply adjacent land-cover and parcel outlines. The lower course becomes entangled with the StRyd lettering, so it is stopped here; the upper endpoint marks the end of the candidate reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the paired strokes as track margins, possibly continuing to f06 beneath the lettering."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read both strokes as edges of adjoining mapped areas, with no road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[778, 600], [761, 638], [744, 679], [724, 721], [710, 765]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "Dark continuous strokes border an uneven pale strip between horizontal hatching and pale blue-green colouring; the lower stroke joins a closed tan polygon outline.",
+      "uncertainty_note": "A continuation of f05 is possible, but lettering prevents a certain connection. The variable spacing and polygon attachment also support a land-cover or parcel-edge reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The strip may carry a narrow track continuing from f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent margins may belong entirely to adjoining area outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[20, 937], [16, 957], [9, 979], [0, 999]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short tan-brown strip with broken dark edging approaches the left side of the heavily cased curved line; small dark and red marks overlap its apparent attachment.",
+      "uncertainty_note": "This is a doubtful short branch. Cropping and overlapping ink leave open whether it connects to f03 or is a separate boundary or symbol edge; j01 is conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Interpret the broken edging as the two margins of a short connecting track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The brown and dark marks could be boundary or adjacent symbol ink, eliminating the branch and j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [20, 937],
+      "branch_count": 3,
+      "evidence_note": "Two heavy continuous margins carry f03 through a bend; a thinner brown strip appears to touch its left margin. Three branches are present only if the doubtful f07 attachment is a road connection."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [768, 525, 832, 601],
+      "why": "Heavy StRyd lettering overlaps the candidate narrow strip and prevents a certain connection between f05 and f06."
+    }
+  ],
+  "overall_note": "The broad pink bands and thin red parcel strokes were read as boundaries. Dotted margins make the track classes uncertain, while lettering interrupts the doubtful eastern strip. The lower-left junction is conditional on the short clipped branch being a road."
+}

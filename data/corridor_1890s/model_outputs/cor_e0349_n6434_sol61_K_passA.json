@@ -1,0 +1,201 @@
+{
+  "tile_id": "cor_e0349_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[483, 1000], [516, 966], [551, 931], [583, 895], [615, 857], [649, 825], [682, 798], [715, 780], [756, 757], [798, 737], [838, 714], [869, 686], [896, 653], [921, 615], [945, 577], [966, 541], [989, 511], [1000, 494]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two substantial dark edges enclose an orange-brown strip approximately 9–13 px wide; both edges remain recognizable through the diagonal red-line crossing near the bottom.",
+      "uncertainty_note": "The road itself is clear. Whether the finer brown lines at j02 are road branches is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[568, 216], [572, 253], [582, 292], [598, 328], [623, 363], [650, 396], [675, 427], [691, 459], [696, 486], [684, 519], [667, 551], [658, 582], [662, 616], [672, 654], [679, 691], [690, 731], [702, 766], [715, 780]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A fine, winding ochre-brown stroke has intermittent darker marks and no consistently separated casing; it crosses long black parcel dashes and pale blue-green strokes.",
+      "uncertainty_note": "This could be a path or a curving boundary. Its upper end merges with heavier red linework, so no continuation along that line is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The ochre-brown stroke may be a boundary rather than a road; that reading removes its road junctions."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent darker marks might constitute the actual path symbol, with the ochre stroke only a tint."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[715, 780], [727, 818], [740, 858], [757, 896], [778, 929], [800, 954], [825, 978], [849, 993]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A reddish-ochre stroke emerges below the cased diagonal line, curves southeast, and meets dark edging around a pale patch near the bottom.",
+      "uncertainty_note": "Its colour and terminal contact also support a boundary reading. No continuation through the dark patch edging is traced.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a coloured property or land-use boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[528, 690], [554, 711], [585, 729], [620, 742], [654, 746], [681, 753], [702, 766]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "One thin brown-orange stroke runs southeast from the vertical scan join, bends east, and meets the winding brown stroke; no clear parallel casing is visible.",
+      "uncertainty_note": "It may be a boundary rather than a path. Its western course cannot be established across the scan join.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation fits the single coloured stroke and its angular meeting with f02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[24, 642], [34, 675], [47, 710], [60, 744], [70, 770], [79, 787]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow chain of dark dots and short strokes runs southeast, with faint yellow-brown tint between marks; its lower end enters a heavy black symbol.",
+      "uncertainty_note": "The upper end meets red linework without a readable onward path. Irregular dash lengths leave some doubt between a path and a minor boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a minor boundary; the black marks are less uniform than the long parcel dashes elsewhere."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[79, 787], [88, 818], [100, 852], [113, 889], [124, 929], [136, 968], [147, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown strip with intermittent dark edging descends past black square marks and lettering; a continuous pair of road edges is not clear.",
+      "uncertainty_note": "This may be a track beside the symbols or a red boundary passing through them. The junction membership is provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some sections resemble a narrow tinted track with two broken dark margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, the red stroke is a boundary and the adjacent dark marks belong to buildings or lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[79, 787], [66, 807], [49, 829], [36, 850], [27, 873], [22, 898]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short ochre-brown strip with dark, locally paired margins curves southwest between peach patches and black rectangular marks.",
+      "uncertainty_note": "The lower end disappears among dark symbols. Parts of the apparent margins could instead be patch outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally paired margins could represent a narrow farm track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly adjoining cultivated-patch outlines rather than a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[105, 140], [130, 154], [157, 169], [185, 180], [211, 187], [233, 199], [251, 214]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A line of closely spaced dark dots or short strokes, with a faint ochre trace, runs from red vertical linework toward the large italic lettering and peach patches.",
+      "uncertainty_note": "The eastern course disappears beneath lettering; no connection through the lettering to other village traces is asserted. A dotted enclosure edge is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted line could be an enclosure edge rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[363, 351], [370, 379], [376, 409], [380, 439], [385, 466]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow, slightly winding chain of dark dots over an ochre trace descends from the peach patch outlines toward the dark-edged blue-green strip.",
+      "uncertainty_note": "The upper end is mixed with patch edging and symbols; the lower end is lost at the blue-green strip. A crossing and onward connection are not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dots could partly belong to patch or vegetation edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[444, 596], [462, 618], [485, 640], [508, 658]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short diagonal sequence of faint dark marks lies beside pale brown wash southeast of the blue-green strip; no continuous double edge is visible.",
+      "uncertainty_note": "A fragmentary path is possible, but the marks are difficult to separate from wash edges and other small symbols. Neither endpoint is connected to another feature.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The aligned dark marks may be the surviving portion of a dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively these are unrelated patch-edge or vegetation marks, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [702, 766],
+      "branch_count": 3,
+      "evidence_note": "Three thin ochre-brown arms meet: the winding stroke above and below, and a stroke from the west. This is a provisional road junction because these strokes may be boundaries."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [715, 780],
+      "branch_count": 4,
+      "evidence_note": "Two arms of the dark-cased orange diagonal strip intersect finer brown strokes above and below. Four road branches apply only if both finer strokes are paths."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [79, 787],
+      "branch_count": 3,
+      "evidence_note": "A dotted arm from the northwest and narrow tinted traces toward the southwest and southeast converge beneath a heavy black symbol; the precise contacts and road status of the southern arms are uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [230, 190, 374, 352],
+      "why": "Large italic lettering, dark symbols and closely spaced peach patch outlines obscure possible path continuations."
+    },
+    {
+      "bbox_uv": [65, 768, 100, 813],
+      "why": "A heavy black symbol covers the contacts at the provisional southwest junction."
+    },
+    {
+      "bbox_uv": [514, 640, 548, 722],
+      "why": "The vertical scan join and low-contrast adjacent marks prevent a reliable connection between faint diagonal traces and the eastern brown line."
+    }
+  ],
+  "overall_note": "The cased diagonal road is clear; finer brown and dotted traces admit path, boundary or patch-edge readings. Junctions involving those traces are provisional, with branch counts describing the reported road interpretation. Clear long-dashed parcel lines, angular red boundary linework and blue-green water lines are excluded."
+}

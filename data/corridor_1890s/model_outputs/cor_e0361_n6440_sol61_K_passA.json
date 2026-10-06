@@ -1,0 +1,154 @@
+{
+  "tile_id": "cor_e0361_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 213], [39, 190], [79, 163], [122, 134], [165, 105], [207, 77], [249, 48], [290, 20], [322, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark, mostly continuous edges enclose an orange-brown strip roughly 10–14 px wide; the paired edges remain visible along the diagonal.",
+      "uncertainty_note": "The exact centre near the top edge is affected by an adjoining angular brown symbol.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[823, 0], [807, 30], [780, 62], [748, 94], [716, 125], [687, 151], [663, 173], [645, 184]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow brown strip has two irregular dark edges, with short broken marks along portions of its casing; it approaches heavy black lettering and small orange outlined symbols.",
+      "uncertainty_note": "The southwest end merges with the black letter and building marks. A continuation toward approximately [615, 210] is possible but cannot be traced confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken edge marks could be read as a paired dotted or dashed track symbol rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[916, 0], [922, 23], [940, 40], [963, 56], [983, 75], [1000, 97]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two comparatively heavy continuous dark edges enclose an orange strip about 12–16 px wide, curving through the upper-right corner.",
+      "uncertainty_note": "Its relationship to the nearby north–south route lies beyond the top edge; no junction is visible inside the tile.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[894, 0], [895, 31], [908, 70], [925, 108], [942, 146], [953, 182], [951, 212], [942, 246], [922, 279], [893, 307], [861, 333], [829, 357], [797, 380], [767, 402], [751, 428], [740, 460], [725, 493], [707, 529], [686, 565], [658, 596], [629, 623], [598, 647]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow orange-brown band is flanked by irregular dark edge strokes, frequently broken into short marks. The same paired symbol bends beneath the large italic lettering and continues southwest.",
+      "uncertainty_note": "The paired drawing supports continuity through the lettering. At the southwest end, the dark sheet seam interrupts the drawing; a possible continuation is recorded separately as f08.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Much of the casing consists of separate dark marks, so a paired dashed track reading is also supported."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 527], [28, 531], [51, 538], [67, 552], [82, 576], [99, 599], [105, 622], [105, 644], [112, 660]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin brown strip with dark, partly broken edges runs from the left edge toward the small red and black building symbols. Fine paired strokes continue along the left and lower sides of the blue-tinted enclosure.",
+      "uncertainty_note": "The approach is clearer than the passage beside the buildings. Near the enclosure, a plot-edge interpretation is possible, and the junction is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The final section beside the blue-tinted enclosure could include its boundary rather than an uninterrupted road."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The approach's broken dark edges could be treated as a dashed track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[112, 660], [133, 654], [156, 647], [179, 640], [191, 636]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two fine, roughly parallel dark strokes enclose a pale strip approximately 5–8 px wide below the building enclosure; they turn northeast toward heavy lettering.",
+      "uncertainty_note": "The paired strokes may be a short access track or an enclosure edge. Beyond [191, 636], lettering prevents a secure connection to the curved marks around [210, 653] and [240, 647].",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible enclosure boundary rather than a road; alternatively, the feature could continue east beneath the lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[112, 660], [119, 676], [128, 692]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Fine dark strokes descend southeast beside a small outlined rectangular symbol; their separation is only a few pixels before large black letter strokes intervene.",
+      "uncertainty_note": "This is a possible third road branch. The strokes could instead belong to the adjoining plot or rectangular symbol, and no continuation through the lettering is secure.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both fine strokes are road edges, they form a short narrow cased access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road plot or symbol edge; under this reading j01 would not be a three-branch road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[580, 664], [566, 679], [551, 693], [543, 714]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short oblique dark strokes with faint brown between them occur southwest of the seam, approaching an orange-red rectangular building symbol. Nearby angular black outlines interfere with the apparent pair.",
+      "uncertainty_note": "This may continue f04 across the seam, but neither that connection nor the course beside the building is certain. The southern end is lost among the building and adjoining outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible continuation of the narrow brown cased route f04."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The visible strokes could instead be separate plot and building outlines, with no road continuation."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [112, 660],
+      "branch_count": 3,
+      "evidence_note": "Tentative junction: fine paired strokes arriving from the building enclosure appear to divide into an east-northeast pale strip and a southeast descending pair. Plot outlines crowd the contact; if the southeast strokes are symbol edges, only two road branches remain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [612, 160, 666, 220],
+      "why": "Heavy black lettering and closely spaced orange outlined symbols obscure the southwest termination of f02."
+    },
+    {
+      "bbox_uv": [182, 627, 246, 665],
+      "why": "Black lettering overlaps fine curved and paired strokes, preventing a secure continuation of f06."
+    },
+    {
+      "bbox_uv": [108, 686, 145, 724],
+      "why": "Large letter strokes merge with the fine lines beside the rectangular symbol at the possible continuation of f07."
+    },
+    {
+      "bbox_uv": [580, 636, 604, 674],
+      "why": "The dark sheet seam conceals the possible connection between f04 and f08."
+    }
+  ],
+  "overall_note": "The clearest roads are narrow brown bands with paired dark edges; the broad pink-and-black winding line is read as a boundary, and the separate blue lines as water features. Fine strokes around the western building enclosure support a tentative access-track junction but also permit plot-edge readings. Lettering, building symbols and the sheet seam prevent several short continuations from being resolved."
+}

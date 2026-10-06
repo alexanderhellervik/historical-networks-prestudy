@@ -1,0 +1,149 @@
+{
+  "tile_id": "cor_e0344_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[133, 0], [131, 20]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre strip has two dark stippled margins approximately 7–10 px apart; rectangular building symbols lie immediately west.",
+      "uncertainty_note": "The margins are stippled rather than continuously drawn.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired dotted margins do not fit a continuous double-line symbol exactly."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[131, 20], [129, 52], [126, 87], [125, 124], [121, 165]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close dark stippled margins enclose an ochre strip; green patches and small rectangular symbols flank its upper portion.",
+      "uncertainty_note": "The connection to the faint eastward spur at j02 is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled margins could be described as an unclassified paired-dot road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[131, 20], [155, 20], [178, 20], [198, 17], [207, 10], [214, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The ochre strip and close dark dotted margins turn east from the north–south strip, then bend upward to the tile edge.",
+      "uncertainty_note": "The upper edge clips the final bend; the visible course is retained without extending it.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Stippled edges make the double-line classification approximate."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[121, 165], [115, 207], [101, 236], [82, 261], [67, 287], [65, 316], [58, 346], [51, 376], [48, 411], [47, 444], [44, 478], [33, 498], [41, 519], [36, 543], [28, 575], [18, 607], [24, 628], [36, 642], [35, 657], [30, 673]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A winding ochre strip carries close dark dotted edges, generally 6–10 px apart. It remains visible on both sides of the heavy red transverse line near v=425.",
+      "uncertainty_note": "Continuity through the red overprint is supported by aligned drawing on both sides; the two short side branches are less secure than this strip.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The margins are paired dots rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[121, 165], [139, 169], [158, 177], [177, 178]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two thin dark strokes, roughly 10–15 px apart, outline a pale eastward strip; the strokes approach clustered oval tree symbols.",
+      "uncertainty_note": "This may be a short access track or simply a gap between field outlines. Its continuation among the oval symbols is not clear, so the trace stops.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both strokes are road margins, they form a short paired-line access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may instead be adjoining field boundaries, in which case this feature and j02 are not roads."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[30, 673], [36, 690], [51, 704], [50, 721], [40, 744], [42, 760], [57, 788], [68, 814], [75, 840], [84, 864], [85, 900], [88, 929], [97, 958], [109, 979], [126, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The narrow ochre strip continues between close dark stippled margins, bends beside red and black rectangular symbols, and reaches the bottom edge.",
+      "uncertainty_note": "The stippled edges locally merge with adjacent dark outlines, but the ochre course remains traceable.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired stippling is not a continuous double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[30, 673], [17, 684], [0, 694]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short oblique pale ochre line with dark dot-like marks runs southwest from the winding strip to the left edge; nearby rectangular symbols crowd the connection.",
+      "uncertainty_note": "The short length and adjacent symbols make the number of margins difficult to distinguish; the connection is probable but not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible marks may form one dotted path line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A faint second margin may make this the same paired-dot symbol as the main strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some marks could belong to adjoining parcel or building outlines rather than a separate road branch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [131, 20],
+      "branch_count": 3,
+      "evidence_note": "Three ochre strips with close dark stippled margins meet: one reaches the upper edge, one continues downward, and one turns east."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [121, 165],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre strip continues above and below a faint eastward pair of thin strokes; three branches apply if that pale side strip is a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [30, 673],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre strip continues upward and southeast beside rectangular symbols; a short dot-marked ochre stroke appears to join from the southwest, giving a tentative third branch."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [170, 160, 212, 199],
+      "why": "Oval tree symbols and faint adjoining outlines prevent a reliable continuation of the possible eastward access strip."
+    }
+  ],
+  "overall_note": "The broad red angular line, blue sinuous lines and long diagonal dashes are read as boundaries or drainage rather than roads. The two short side branches are uncertain, and their junction counts depend on the road interpretation. Stippled margins make the road symbol-form classifications approximate."
+}

@@ -1,0 +1,142 @@
+{
+  "tile_id": "cor_e0354_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[252, 0], [249, 40], [248, 80], [245, 120], [244, 160], [246, 196], [244, 225], [234, 253], [230, 267], [209, 292], [183, 319], [155, 350], [131, 377], [109, 398], [74, 423], [44, 447], [22, 466], [0, 482]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two roughly parallel edges enclose a pale strip, approximately 8–15 px wide; one edge carries red colouring, while the other is dark or grey. The strip curves beside horizontal hatching and orange polygon outlines.",
+      "uncertainty_note": "The eastern edge is faint in places, and adjacent outlines complicate the apparent width. The faint southeast branch at j03 is provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some of the apparent casing could combine a red boundary with an adjacent independent outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[512, 0], [537, 17], [568, 27], [600, 33], [632, 43], [656, 27], [694, 29], [731, 33], [765, 45], [793, 66], [824, 90], [851, 114], [877, 145], [903, 181], [927, 211], [951, 234], [978, 258], [1000, 279]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A single row of separated, heavy navy-black dots and short marks curves across the upper part of the face; there is no visible parallel casing. Another dotted row joins near [903,181].",
+      "uncertainty_note": "The supplied classes have no explicit dotted-line category. Some marks are elongated, leaving a short-dash boundary reading possible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Use this class if the separated dots are treated as very short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An irregular dotted boundary rather than a path is a weaker alternative, particularly along the uppermost section."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[903, 181], [869, 181], [835, 186], [804, 193], [779, 207], [752, 230], [724, 252], [700, 278], [671, 304], [641, 328], [612, 351], [582, 371], [560, 393], [545, 417], [536, 446], [527, 478], [511, 510], [487, 539], [459, 568], [432, 594], [403, 620], [372, 641], [337, 654], [297, 664], [277, 669], [252, 670], [223, 664], [197, 653], [175, 637], [151, 621], [145, 605], [152, 586], [148, 568], [131, 545], [111, 523]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One row of regularly separated dark dots runs southwest, then bends west and northwest. It crosses thin red strokes and horizontal hatching; dots remain visible on both sides of the central italic lettering.",
+      "uncertainty_note": "The central lettering hides short portions, but the approaching and emerging dotted rows support the continuation shown. The western end disappears into large lettering near [111,523]; it is not connected across that obstruction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The single dotted row can be represented as a line of very short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The small northwest bend beside the orange outline around [145,605] could follow a slightly different course within approximately 10 px."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[7, 401], [10, 424], [15, 447], [22, 466], [30, 489], [42, 516], [55, 536]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "A single row of dark, separated dots descends from a solid polygon corner, crosses the pale paired strip, and approaches large black lettering. No second parallel dotted row is visible.",
+      "uncertainty_note": "The northern dots meet a solid outline, so continuation along that outline is uncertain. Lettering prevents a secure connection to f03.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dots may be classified as very short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The row could be a dotted continuation of the adjoining boundary; alternatively it may connect to f03 beneath the lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[26, 0], [20, 29], [13, 61], [5, 93], [0, 116]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow pale strip clips the upper-left corner, between a dark western stroke and a reddish eastern stroke; both sides run approximately parallel.",
+      "uncertainty_note": "Only a short clipped section is visible, and nearby coloured polygon edges make its interpretation less secure than f01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired appearance could result from neighbouring boundary or polygon-edge strokes rather than road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[230, 267], [250, 284], [272, 302], [298, 324], [325, 347], [345, 365]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Very pale grey, approximately parallel diagonal strokes enclose a light band southeast of the stronger paired route. They weaken beside tree symbols and the upper edge of an orange polygon.",
+      "uncertainty_note": "Both the contact with f01 and the interpretation as a track are doubtful. The strokes become too faint to carry farther southeast.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the faint paired strokes are road edges, they describe a narrow branch leaving f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They could instead be faint subdivision lines or a diagonal image blemish, with no road junction at j03."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [903, 181],
+      "branch_count": 3,
+      "evidence_note": "Three arms of similarly heavy, separated dark dots meet: northwest, southeast and west-southwest; no parallel casing is visible."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [22, 466],
+      "branch_count": 4,
+      "evidence_note": "The pale strip between two continuous edges crosses a single dotted row; each symbol resumes on the opposite side, giving four apparent road/path arms."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [230, 267],
+      "branch_count": 3,
+      "evidence_note": "The stronger paired strip continues in two directions, while faint paired southeast strokes appear to touch its eastern edge; the third arm and therefore this junction are provisional."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [45, 515, 117, 567],
+      "why": "Large, heavy italic lettering overlaps the dotted marks and prevents a secure connection between the two reported western endpoints."
+    },
+    {
+      "bbox_uv": [330, 350, 385, 408],
+      "why": "The pale diagonal strokes lose contrast among tree symbols, a light diagonal band and coloured polygon edges; their continuation cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The dotted symbols lack an exact match in the supplied class list, so they are reported as unknown with dashed-line alternatives. Several red strokes follow parcel outlines and resemble boundaries in the worked example; they were not traced as roads. The faint diagonal candidate and its junction remain provisional, and no connection is completed beneath the western lettering."
+}

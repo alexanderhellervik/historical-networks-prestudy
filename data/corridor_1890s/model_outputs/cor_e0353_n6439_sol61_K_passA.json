@@ -1,0 +1,224 @@
+{
+  "tile_id": "cor_e0353_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 500], [25, 524], [43, 553], [58, 587], [77, 617], [99, 636], [118, 646]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange-brown band has dark, partly stippled margins roughly 5–9 px apart; both margins follow the bend.",
+      "uncertainty_note": "Lettering overlaps the upper portion, but the band remains traceable. The margins are not consistently continuous.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled margins could be treated as a symbol that does not clearly match continuous double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[118, 646], [155, 633], [194, 617], [233, 601], [271, 588], [297, 580], [332, 579], [367, 579], [393, 575], [402, 554], [407, 532], [400, 516]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The orange-brown band continues east between two dark irregular margins, then turns upward beside small red and black rectangular symbols.",
+      "uncertainty_note": "The final bend is crowded by lettering and rectangular symbols; its continuation beyond [400, 516] is not secure.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The closely spaced stippled edges become indistinct near the eastern end."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[118, 646], [115, 682], [111, 726], [108, 769], [105, 813], [102, 853], [105, 878], [120, 906], [143, 934]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close dark, stippled margins enclose a brown strip descending from the fork; the strip bends right before reaching the broad magenta and black diagonal symbol.",
+      "uncertainty_note": "The diagonal railway overprint hides the end. A continuation on its other side is possible but cannot be joined confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as a dark brown stroke with dots alongside rather than two distinct lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[177, 969], [174, 981], [181, 987], [174, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short, thin dark angular line is visible southeast of the railway band and reaches the bottom edge; no clear casing is resolved.",
+      "uncertainty_note": "This may be a fragment of the southward track, but neither that connection nor its road identity is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short uncased path continuing f03 across the obscured railway."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel outline rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[212, 953], [242, 954], [280, 963], [323, 967], [374, 966], [410, 969], [442, 977], [466, 989], [484, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03", "j04"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow ochre line with dark dots runs along the lower side of the peach polygons, passes below an elongated outlined rectangle, and bends past a red diamond-shaped symbol.",
+      "uncertainty_note": "The western start is indistinct. Parts coincide with parcel edges, and the three listed branch contacts depend on reading the finer adjoining lines as paths.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible narrow path with a single dotted or partly continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the line may be a dotted parcel edge rather than a continuous road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[242, 954], [260, 933], [274, 913], [295, 891], [321, 870], [352, 850], [386, 834], [419, 825], [440, 823]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine row of separated dark dots, with a faint ochre trace, curves northeast beside a stronger continuous polygon outline; there is no clearly resolved casing.",
+      "uncertainty_note": "The dotted trace resembles a path, but its close association with the polygon edge also supports a boundary reading. It becomes indistinct at the northeastern corner.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible interrupted path symbol, although the individual marks look more like dots than dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible dotted parcel boundary; the western contact with f05 could consequently be a boundary contact."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[374, 966], [383, 956], [397, 950], [403, 939]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A short thin dark and ochre trace angles upward from the lower line toward a red rectangular symbol; nearby black polygon edges are heavier.",
+      "uncertainty_note": "The short trace may be an access path or part of the enclosing polygon outline. Its terminal contact with the red symbol is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short uncased access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel edge, in which case j03 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[442, 977], [441, 955], [458, 933], [473, 915], [479, 899], [470, 876], [458, 850], [451, 837]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine dark, locally dotted trace accompanies the heavier black edge of the peach polygon; the two traces are only a few pixels apart in places.",
+      "uncertainty_note": "This is a doubtful path reading: the lighter trace may belong entirely to the parcel outline. Lettering obscures parts of the lower course, and a connection to f06 is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible thin path following the polygon edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel boundary or doubled outline rather than a road; j04 would then disappear."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[516, 651], [537, 650], [555, 656], [570, 666]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "Several small dark dots form a short, nearly horizontal trace from the railway margin toward a tilted red rectangular symbol; no paired continuous lines are visible.",
+      "uncertainty_note": "The marks suggest a short path, but their sparse spacing also permits disconnected marks rather than a complete line. The railway hides the western endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible interrupted access path drawn with dots."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible isolated marks or a short boundary fragment rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[487, 689], [482, 716], [479, 745], [476, 770], [471, 782]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A faint, fine dotted trace descends near a heavier black polygon edge toward a small red rectangle; the trace has no clear casing.",
+      "uncertainty_note": "This is a low-confidence path candidate. The upper portion is degraded beside the railway, and the dots may instead be part of the parcel edge or printing texture.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible narrow access path to the red rectangle."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel-edge detail rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [118, 646],
+      "branch_count": 3,
+      "evidence_note": "Three brown strips with close dark stippled margins visibly meet: one northwest, one northeast, and one south."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [242, 954],
+      "branch_count": 3,
+      "evidence_note": "The lower ochre and dotted trace has two continuing arms and an apparent dotted arm turning northeast; this is tentative because the latter may be a parcel edge."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [374, 966],
+      "branch_count": 3,
+      "evidence_note": "A short fine trace appears to leave the lower ochre line toward the red rectangle, producing three arms if that trace is a path."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [442, 977],
+      "branch_count": 3,
+      "evidence_note": "The lower dotted and ochre line continues in two directions while a fine dark trace turns upward beside the polygon edge; the third road arm is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [365, 495, 429, 550],
+      "why": "Heavy lettering and small rectangular symbols obscure the end of the brown track and any short branches."
+    },
+    {
+      "bbox_uv": [139, 927, 190, 987],
+      "why": "The broad magenta and black railway symbol masks the possible continuation of the southward track."
+    },
+    {
+      "bbox_uv": [450, 928, 532, 995],
+      "why": "Large lettering, building outlines, and fine parcel edges overlap; individual short path connections cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The west-side brown track and its three-way fork are clear; several finer southern traces support both path and parcel-edge readings. Tentative junctions are conditional on their adjoining doubtful features being roads, and coordinates on those traces are approximate. The broad diagonal railway, blue water lines, magenta boundary lines, and long southeast-running boundary dashes are excluded."
+}

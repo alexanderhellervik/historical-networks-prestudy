@@ -1,0 +1,219 @@
+{
+  "tile_id": "cor_e0358_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[392, 0], [389, 48], [386, 99], [385, 151], [385, 201], [385, 250], [386, 291], [387, 328], [393, 364], [408, 399], [436, 429], [466, 454], [495, 483], [526, 513], [556, 546], [584, 579], [612, 615], [637, 648], [657, 684]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two substantial dark edges enclose an orange strip approximately 10–15 px wide; some stretches also show broken dark marks along an edge. The paired edges remain visible through the bends.",
+      "uncertainty_note": "Buildings and intersecting ink partly cover the line around (387,328), but the casings on either side establish its continuation.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[343, 1000], [370, 960], [401, 923], [433, 887], [465, 854], [502, 823], [552, 786], [587, 765], [616, 743], [633, 717], [644, 697], [657, 684], [687, 661], [720, 641], [755, 623], [785, 602], [802, 577], [826, 546], [854, 519], [888, 486], [929, 469], [972, 453], [1000, 443]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j05", "j06", "j07", "j08"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous orange band lies between two heavy dark casings, generally 10–16 px apart. Red and black rectangular symbols sit beside several stretches.",
+      "uncertainty_note": "The main course is clear; the status of the thinner lines meeting it at j05, j07 and j08 is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 211], [18, 213], [34, 203], [65, 200], [105, 194], [145, 184], [184, 174], [220, 184], [261, 188], [302, 176], [344, 162], [385, 151], [428, 143], [470, 136], [510, 132], [540, 131]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow yellow-orange strip has closely spaced dark borders, with conspicuous short broken marks on portions of the borders. It crosses the broader vertical orange band.",
+      "uncertainty_note": "Near (540,131), the coloured paired symbol becomes indistinct against thin field-edge ink; no road continuation beyond that point is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken border marks could justify describing this as a paired dashed symbol rather than a narrow double line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 87], [8, 117], [16, 147], [18, 170], [25, 188], [34, 203]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short brownish strip along the left edge has two close dark traces and intermittent heavier marks; it approaches the narrow orange line amid blue and black ink.",
+      "uncertainty_note": "Its separation from adjacent outline ink and its final connection at (34,203) are difficult to resolve.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close parallel traces may be the borders of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be boundary or enclosure ink; under that reading j03 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 280], [49, 287], [99, 295], [148, 302], [197, 308], [246, 313], [294, 317], [340, 322], [387, 328], [432, 335], [480, 342], [520, 340], [560, 332], [596, 322], [638, 310], [679, 297], [719, 284]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A reddish stroke, approximately 4–7 px wide, accompanies dark continuous and broken edge marks. Black rectangular symbols overlap or abut it around (340,322) and (440,337).",
+      "uncertainty_note": "This could be a minor road or a coloured boundary. Its eastern end disappears into heavy lettering; connection to f06 is possible but is not drawn through the obscuration here.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have two close dark borders around the reddish strip."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Other portions resolve primarily as one substantial coloured line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation is credible, especially because a thinner red diagonal branches from approximately (596,322); under this reading j04 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[748, 303], [766, 329], [786, 361], [807, 397], [828, 431], [845, 452], [867, 471], [888, 486]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A red strip descends beside a dark, locally blue-black parallel trace, then bends toward the broad orange road. The spacing and weight vary considerably.",
+      "uncertainty_note": "The upper connection is covered by lettering. This may continue f05, but it may also be a boundary following adjacent blue outline ink; its meeting with the broad road is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The red strip and adjacent dark trace could form a narrow cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red and blue-black traces may represent a boundary and a separate outline rather than road casings; under that reading j05 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[755, 623], [766, 650], [782, 677], [807, 702], [835, 724], [867, 748], [898, 769], [935, 780], [969, 783], [1000, 791]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A slender orange-brown strip with close dark margins curves southeast and then east; short dark marks are visible along its margins. Large lettering overlaps the northwestern portion.",
+      "uncertainty_note": "The exact attachment around (755,623) is partly masked by rectangular symbols and lettering. The thinner eastern portion could instead be coloured boundary ink.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken marginal marks may be the principal symbol rather than continuous casings."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation remains possible, particularly along the eastern stretch; if the attachment is only a crossing or overlap, j06 is not a junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[552, 786], [574, 802], [599, 821], [630, 843]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin reddish-brown diagonal with dark intermittent marks leaves the broad orange strip near black rectangular symbols. A second edge is faint or absent.",
+      "uncertainty_note": "It could be a small track or a boundary. At (630,843), it meets competing thin outline ink, so no further road course is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks could denote a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The straight course and single marked trace also support a property-boundary reading; under that reading j07 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[370, 960], [350, 944], [334, 930], [322, 923]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short brown diagonal with a darker margin runs northwest from the broad road toward a cluster of heavy black outline and rectangular ink.",
+      "uncertainty_note": "The line may be a short access track or an enclosure edge. Its northwestern end cannot be separated confidently from the black symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible brown diagonal could be a single-line access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a parcel or enclosure edge; under that reading j08 is not a road junction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [657, 684],
+      "branch_count": 3,
+      "evidence_note": "Three broad orange arms with paired heavy dark casings meet: one from the northwest and two along the southwest–northeast course."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [385, 151],
+      "branch_count": 4,
+      "evidence_note": "The narrow orange line crosses the broad vertical orange band; paired margins continue on all four sides, though crossing ink merges locally."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [34, 203],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the narrow orange line meet a short brown, closely bordered trace from the northwest; the third arm is conditional on f04 being a track."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [387, 328],
+      "branch_count": 4,
+      "evidence_note": "The broad orange casings continue north and south, while a narrower red-and-dark line continues east and west through heavy rectangular ink; four road arms are conditional on f05 being a road."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [888, 486],
+      "branch_count": 3,
+      "evidence_note": "The broad orange strip has two continuing arms, and the thinner red-and-dark trace approaches from the northwest and merges with its ink; the third road arm is conditional."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [755, 623],
+      "branch_count": 3,
+      "evidence_note": "Two broad orange arms continue southwest and northeast; a narrower orange-brown trace departs southeast amid black and red rectangles, with its attachment partly obscured."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [552, 786],
+      "branch_count": 3,
+      "evidence_note": "A thin reddish-brown marked trace meets the southeastern casing of the broad orange line beside black rectangular ink; the third road arm is conditional on f08 being a track."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [370, 960],
+      "branch_count": 3,
+      "evidence_note": "A short brown diagonal meets the northwestern side of the broad, two-cased orange strip; the third road arm is conditional on f09 being an access track."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [294, 315, 416, 412],
+      "why": "Dense black rectangular symbols, blue outlines and crossing linework prevent reliable separation of additional short local tracks."
+    },
+    {
+      "bbox_uv": [714, 252, 769, 311],
+      "why": "Heavy black lettering covers the possible connection between f05 and f06."
+    }
+  ],
+  "overall_note": "The broad cased roads are substantially clearer than the thinner red and brown candidates, whose boundary alternatives remain explicit. Junction counts involving doubtful features describe the candidate road reading and are conditional as noted. Blue sinuous outlines, regular long-dashed diagonals and the thin red diagonal running approximately from (596,322) toward (810,865) were read as non-road linework."
+}

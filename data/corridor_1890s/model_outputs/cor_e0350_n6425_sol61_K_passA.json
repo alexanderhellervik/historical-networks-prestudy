@@ -1,0 +1,256 @@
+{
+  "tile_id": "cor_e0350_n6425",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[469, 0], [435, 21], [407, 45], [383, 80], [359, 117], [336, 159], [319, 201], [301, 234], [272, 261], [237, 285], [203, 307], [163, 331], [126, 351], [89, 369]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown band has two close dark margins, locally broken or beaded; it curves past black lettering and a patterned square.",
+      "uncertainty_note": "Lettering overlaps several margins, but the brown band is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[89, 369], [74, 376], [58, 383]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The close dark margins and brown interior continue southwest between two nearby branch points.",
+      "uncertainty_note": "The adjacent branches make the precise centres approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[58, 383], [29, 395], [0, 405]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown strip with close dark edges continues diagonally to the left edge.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 321], [20, 331], [34, 340]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short brown diagonal with dark edging enters from the left and becomes entangled with black building outlines and green fill.",
+      "uncertainty_note": "Its continuation through the building symbols is not certain; it may connect to f05.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The brown interior and close dark strokes could be the northwest approach to j01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured enclosure edge through the building symbols is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[63, 355], [77, 361], [89, 369]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A short brown diagonal emerges beside the green and black symbols and meets the northeast–southwest band.",
+      "uncertainty_note": "The northwest end is obscured; continuity with f04 is unconfirmed.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible dark edging may be a narrow paired road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The short visible segment could belong to an enclosure edge rather than a separate road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[89, 369], [121, 393], [159, 415], [194, 433], [216, 440], [240, 439], [278, 428], [305, 419], [321, 412]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A curved brown band with close dark, partly beaded margins runs beneath the large lettering and bends northeast.",
+      "uncertainty_note": "The eastern tip merges with a letter and a heavy irregular outline; no continuation beyond that overlap is asserted.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[58, 383], [56, 405], [64, 429], [75, 449]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow brown strip with dark margins bends south, then southeast, between the two forks.",
+      "uncertainty_note": "Small black symbols touch its upper margins.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[75, 449], [108, 474], [139, 497], [164, 515], [191, 542], [217, 569], [244, 591]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close dark margins enclose a brown diagonal band; one margin is visibly broken in places.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[75, 449], [59, 486], [47, 522], [34, 565], [23, 605], [16, 643]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown, dark-edged strip curves down the western side; the edging is locally dotted or interrupted.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[244, 591], [270, 624], [293, 657], [313, 687], [325, 704]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The paired dark margins and brown interior continue southeast across a blue-lined strip.",
+      "uncertainty_note": "The blue line overlaps the casing briefly, but the brown course is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[244, 591], [278, 589], [312, 582], [347, 573]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A short brown band with dark, partly beaded edges branches east and ends against the lower corner of a green patterned square.",
+      "uncertainty_note": "The terminal stroke touches the square's outline; no separate line is visible beyond it.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0, 647], [16, 643]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short brown band with two dark edges clips the left edge immediately beside the crossing.",
+      "uncertainty_note": "Nearby blue and black strokes make the margins less distinct.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[16, 643], [48, 637], [78, 635], [109, 640], [147, 644], [181, 646], [212, 653], [248, 668], [286, 684], [325, 704]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow brown strip bounded by dark strokes runs below the blue water line, then angles southeast to the other brown road.",
+      "uncertainty_note": "Blue fill and black outlines overlap near u=210, but both approaching brown segments align visibly.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[16, 643], [14, 681], [18, 724], [23, 763], [28, 795], [46, 827], [69, 859], [94, 894], [116, 930], [132, 967], [150, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown strip with close dark margins descends along the left side and bends southeast beside green patterned rectangles.",
+      "uncertainty_note": "A possible short western access line near v=795 is obscured where it approaches this strip; a junction there is unconfirmed.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[0, 806], [12, 801], [20, 798]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short ochre stroke with dark edging lies beside the clipped green patterned rectangle and points toward f14.",
+      "uncertainty_note": "The rectangle and its heavy outline obscure whether this is an access line or an enclosure edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may be a short paired access road meeting f14 near [28, 795]."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be the coloured edge of the adjoining enclosure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[325, 704], [333, 727], [337, 748], [331, 770], [330, 788], [344, 813], [351, 830], [366, 854], [378, 882], [390, 913], [398, 945], [396, 966], [382, 988], [377, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A winding brown band has close dark margins, locally broken; it passes beneath large letters and beside small black rectangular symbols.",
+      "uncertainty_note": "The letters overlap short stretches, but matching brown segments are visible on both sides. A possible western spur near v=885 is not clearly connected.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[273, 943], [303, 925], [331, 909], [353, 897], [367, 887]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two dark oblique strokes border an ochre strip and meet angular rectangular outlines; their spacing varies more than on the clearer roads.",
+      "uncertainty_note": "This may be an access track, but paired parcel edges are equally plausible. Blue and black outlines obscure the western end, and lettering obscures the approach to f16.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could delimit a short track approaching f16 near [378, 882]."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may be separate field or property edges bounding an elongated ochre parcel."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [89, 369],
+      "branch_count": 4,
+      "evidence_note": "The northeast–southwest brown band meets a southeast brown branch and a short northwest brown stroke; dark margins merge, though the northwest branch is less certain."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [58, 383],
+      "branch_count": 3,
+      "evidence_note": "The dark-edged brown diagonal continues both ways while another brown strip bends south from it."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [75, 449],
+      "branch_count": 3,
+      "evidence_note": "Three narrow brown strips with dark margins meet: one from above, one curving southwest, and one continuing southeast."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [244, 591],
+      "branch_count": 3,
+      "evidence_note": "The brown diagonal continues northwest and southeast; a close dark-edged brown spur leaves east toward the patterned square."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [16, 643],
+      "branch_count": 4,
+      "evidence_note": "A north–south brown strip crosses an east–west brown strip beside blue and dark water strokes; four brown approaches are visible."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [325, 704],
+      "branch_count": 3,
+      "evidence_note": "A brown band from the west joins the north–south curving brown band; their close dark margins merge into three approaches."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [24, 329, 68, 358],
+      "why": "Green fill, heavy building outlines and overlapping dark strokes prevent a reliable connection between the two visible pieces of the possible northwest approach."
+    }
+  ],
+  "overall_note": "The clearest roads are brown bands with close dark margins in the western half. The long angular red line across the eastern half is read as a boundary, consistent with the neighbouring example. Building symbols, lettering and elongated ochre parcels leave several short possible access lines uncertain."
+}

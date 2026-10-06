@@ -1,0 +1,146 @@
+{
+  "tile_id": "cor_e0357_n6430",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[164, 0], [185, 30], [206, 59], [232, 86], [263, 110], [298, 134], [332, 158], [362, 185], [392, 221], [422, 252], [447, 278], [480, 307], [516, 338], [545, 370], [567, 402], [591, 432], [617, 454], [646, 470], [682, 483], [722, 493], [763, 502], [804, 515], [831, 533], [850, 554], [863, 574], [884, 603], [908, 634], [932, 664], [955, 690], [976, 721], [1000, 757]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A rust-coloured band about 10–18 px wide has two dark, partly stippled margins. The margins bend together throughout; reed hatching, thin cyan lines and lettering locally touch or overlap them.",
+      "uncertainty_note": "The road course is clear. Width and margin continuity vary with printing; positions beneath the large lettering near the southeastern end are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if the irregular dark margins are read as a narrow paired symbol with unusually heavy colour fill."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[7, 0], [12, 26], [7, 51], [2, 79], [5, 108], [10, 139], [10, 166], [6, 191], [30, 204], [57, 210], [81, 209], [108, 206], [130, 225], [149, 258], [172, 294], [197, 332], [218, 363], [231, 376], [258, 387], [279, 400], [297, 423], [323, 432], [341, 441], [357, 460], [384, 478], [410, 508], [434, 539], [451, 565], [468, 581], [495, 590], [521, 590], [537, 601], [550, 624], [564, 635], [591, 643], [616, 651], [630, 651]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre trace carries one row of black dots and short strokes, generally several pixels apart. It winds down the left edge and southeast across straight burgundy and long-dashed black lines; no consistent paired casing is visible.",
+      "uncertainty_note": "The stippled symbol resembles the worked example's paths but does not cleanly match a supplied class. At the southeastern end, dark building marks prevent a certain continuation; it is stopped before that overlap.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dots and short strokes could be grouped as an intermittent path line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some portions follow ochre enclosure edges, allowing a non-road boundary reading; the possible connection to f03 or j03 remains unresolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[447, 278], [454, 306], [466, 337], [480, 364], [494, 375], [509, 411], [522, 447], [535, 480], [549, 510], [562, 532], [584, 549], [607, 567], [629, 587], [649, 608], [673, 632]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A thin ochre line with closely spaced dark dots or short ticks leaves the southwest margin of the broad rust band. It curves downward beside a salmon-filled polygon and continues diagonally through the large B toward the fork.",
+      "uncertainty_note": "The route is supported on both sides of the B, although the exact centre beneath the glyph is approximate. The dot-and-tick symbol is not a clean match to the available classes.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible interpretation of the closely spaced dark marks as a dashed path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Locally the ochre stroke and adjacent dark marks resemble two narrowly spaced margins, but this is not consistent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[673, 632], [690, 618], [712, 603], [739, 595], [763, 598], [791, 600], [814, 598], [839, 590], [863, 574]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow ochre stroke with a single row of dark dots and short ticks bends northeast from the fork, becomes almost horizontal, then turns upward into the broad road. Its marks are denser and shorter than the nearby long boundary dashes.",
+      "uncertainty_note": "The course and both contacts are visible; the stippled symbol does not clearly distinguish a single-line from an intermittent-line class.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks can be read as very short dashes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Possible if the thin continuous ochre stroke is treated as the principal line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[673, 632], [696, 656], [720, 683], [747, 704], [775, 722], [806, 737], [836, 746], [867, 748], [890, 751], [919, 766], [954, 779], [981, 789], [1000, 800]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre trace edged by irregular dark dots and ticks continues southeast from the fork. It crosses beneath the Halken lettering, follows the upper side of salmon-filled polygons, and remains visibly stippled toward the right edge.",
+      "uncertainty_note": "The matching approach and departure support continuation beneath the lettering, but individual waypoints there are approximate. Along the eastern portion, overlap with polygon outlines leaves a possible enclosure-edge reading.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible classification of the dark dots and short strokes as an intermittent track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The eastern stretch could partly be a dotted enclosure boundary rather than a separate track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[944, 604], [966, 607], [984, 601], [995, 592], [1000, 593]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Below the large T near the right edge, a short thin ochre stroke bends between irregular dark outlines and small coloured rectangles. Clear, uniformly spaced casing is absent.",
+      "uncertainty_note": "This is a weak possible access-track reading. Its western connection is obscured by overlapping outlines and is not extended to the broad road; the entire stroke may instead belong to an enclosure.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short access line if the ochre stroke is independent of the surrounding outlines."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: part of the adjacent enclosure or yard perimeter."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [447, 278],
+      "branch_count": 3,
+      "evidence_note": "The broad rust band with two dark margins continues northwest and southeast; one narrow ochre-and-dark-stippled arm leaves its southwest margin."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [863, 574],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the broad, dark-margined rust band continue through the bend, and a thin dotted ochre arm meets its western side."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [673, 632],
+      "branch_count": 3,
+      "evidence_note": "Three narrow ochre traces with dark dots or ticks meet: northwest, northeast and southeast. Nearby lettering and building marks obscure a possible additional westward connection, which is not counted."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [618, 636, 699, 695],
+      "why": "Dense building marks, polygon outlines and lettering prevent separation of short links from the western stippled line; its connection to the visible fork cannot be established."
+    },
+    {
+      "bbox_uv": [926, 578, 955, 630],
+      "why": "Small coloured rectangles and overlapping dark outlines obscure the western continuation of the short possible access line; the nearby broad road remains readable."
+    }
+  ],
+  "overall_note": "The narrow routes use dots and short ticks rather than clean dashes, so their symbol classes remain uncertain. Central building marks obscure a possible additional connection, and the short right-edge candidate may be an enclosure outline. Straight burgundy rules, long black boundary dashes, cyan water lines and clear polygon outlines were excluded."
+}

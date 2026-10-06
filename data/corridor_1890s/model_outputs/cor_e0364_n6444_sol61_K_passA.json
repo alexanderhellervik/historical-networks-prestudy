@@ -1,0 +1,166 @@
+{
+  "tile_id": "cor_e0364_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[11,1000],[36,951],[62,904],[84,856],[99,813],[109,769],[118,725],[132,685],[151,647],[170,609],[181,583]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two substantial dark continuous margins, roughly 14–22 px apart, enclose a rusty ochre strip. The strip curves toward the broad red/green band.",
+      "uncertainty_note": "The upper end disappears against the coloured band and adjacent patching; a crossing or continuation cannot be traced securely.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[646,0],[625,36],[607,70],[584,105],[561,140],[536,174],[507,206],[482,233],[455,265],[436,291],[415,321],[396,345],[372,367],[347,392],[327,419],[310,449],[296,480],[285,508],[279,523],[269,550],[265,562]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow pale brown strip has two close dark margins, about 7–12 px apart, with repeated short breaks or dots. Small red and black rectangular marks stand beside several portions.",
+      "uncertainty_note": "The paired symbol is clear over most of its length, but its margins vary between continuous and broken. The lower end is cut by a rectangular patch.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated broken marks could be read as two dotted margins rather than a continuously cased line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[279,523],[306,526],[335,531],[366,537],[397,545],[421,544],[448,539],[475,547],[496,560],[514,578]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two fine, closely spaced rows of brown-black dots or short strokes run approximately eastward, bending between heavier blue-black outlines and lettering.",
+      "uncertainty_note": "The eastern end becomes entangled with a diagonal red line, heavy letters and rectangular symbols. No continuation through that cluster is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some sections appear to have a faint continuous edge alongside the broken marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[1000,211],[988,249],[984,286],[979,322],[970,356],[962,384],[945,405],[916,421],[889,432],[872,438],[839,454],[808,472],[779,487],[753,500],[737,508]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A winding pale strip has close brown-black margins, roughly 6–11 px apart, with conspicuous dotted or broken portions. It passes beside a green patch and above several heavy rectangular outlines.",
+      "uncertainty_note": "The southwest end loses its distinct paired symbol among angular outlines. Its continuation and the southeast branch at j02 are less certain than the incoming track.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Much of the visible symbol consists of parallel broken marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[737,508],[718,533],[693,556],[669,578],[650,603],[635,629],[617,651],[602,677],[595,699],[594,718]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint grey-brown line follows the southwest direction below f04; short portions suggest a second edge, but heavier blue-black angular strokes dominate several sections.",
+      "uncertainty_note": "This is a possible continuation of the track, not a secure connection. It could instead follow parcel outlines; the lower end reaches a rectangular patch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint paired portions could represent a narrow track continuing from f04."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire trace could be a sequence of field or property edges rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[872,438],[879,458],[891,474],[909,486],[926,502],[944,517]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin brown-grey stroke turns southeast from the paired track, with intermittent close companion strokes beside red rectangles and heavy black outlines.",
+      "uncertainty_note": "The apparent branch may be a parcel edge. Its far end disappears among black marks and lettering; no passage through them is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent strokes could be a dotted access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If this is a property outline, j02 is a crossing or contact of unlike symbols rather than a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[330,550],[327,570],[330,589],[338,610],[344,631],[350,652],[350,666]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A thin grey to blue-black stroke descends through the central lettering, with a few separated dark marks but no consistently visible casing.",
+      "uncertainty_note": "A short path is possible, but an angular property outline is equally plausible. Lettering prevents a secure connection to f03, and patching interrupts the lower end.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a lightly drawn single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a property or enclosure boundary; no road connection is established."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [279,523],
+      "branch_count": 3,
+      "evidence_note": "The narrow paired north–south trace has two arms here, and a third close pair of broken brown-black strokes curves east into f03."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [872,438],
+      "branch_count": 3,
+      "evidence_note": "The two arms of the winding paired track meet an apparent thin southeast arm. Three road branches apply only if that faint arm is a path rather than a parcel outline."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [90,0,293,145],
+      "why": "Rectangular tonal patches interrupt original strokes; their replacement content cannot establish road continuity."
+    },
+    {
+      "bbox_uv": [295,199,344,353],
+      "why": "A nearly uniform rectangular patch removes the original linework."
+    },
+    {
+      "bbox_uv": [190,459,241,562],
+      "why": "A pale rectangular patch conceals strokes approaching the broad coloured band."
+    },
+    {
+      "bbox_uv": [241,562,292,666],
+      "why": "Patch edges interrupt the lower end of f02 and prevent a secure connection across the coloured band."
+    },
+    {
+      "bbox_uv": [292,666,497,874],
+      "why": "Stepped rectangular patches within this box interrupt original linework; intervening portions remain readable."
+    },
+    {
+      "bbox_uv": [497,874,548,976],
+      "why": "A rectangular tonal replacement prevents interpretation of original strokes beneath it."
+    },
+    {
+      "bbox_uv": [600,718,803,820],
+      "why": "Stepped patches interrupt faint strokes below the eastern traces; visible replacement symbols do not establish continuity."
+    },
+    {
+      "bbox_uv": [857,718,906,770],
+      "why": "A small rectangular patch cuts through an angular outline."
+    }
+  ],
+  "overall_note": "The clearest roads are the southwest cased strip and the winding paired tracks entering from the top and right. Faint central and eastern traces admit property-boundary readings, which are retained explicitly. The broad red/green band, thin red division lines and blue-black parcel or drainage outlines were otherwise read as non-road symbols."
+}

@@ -1,0 +1,125 @@
+{
+  "tile_id": "cor_e0370_n6452",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two parallel dotted lines with buff fill run down from the top edge at u~90 to about (85,180), then bend SW to the left edge near (0,290); same double-dotted road form as the other roads on the tile (Sämre körväg form in the model legend).",
+      "uncertainty_note": "Low. The overlay class is not shown on the image, so the class match is assumed."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "I read the truncated label 'f' at about (548,18) as f02: the blue line from the left edge at (0,345) NE via (395,145) to the apex at (530,5), then S via (580,180), (570,450), (560,590) to the junction at (595,655). Along its whole length the tile shows a double dotted road with buff fill.",
+      "uncertainty_note": "The label is mostly hidden behind 'f10', so it is an assumption that this id covers both the diagonal and the N-S leg. If they are separate features, both legs still follow a drawn road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A double dotted road with buff fill runs from the left edge at about (0,662) via (190,682) and (450,658) to the junction at (595,655), then ESE via (700,697) and (900,700) to the right edge near (1000,735). The green overlay line follows it closely.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A single row of dots (Gångstig form) runs from the croft T. at about (145,55) E and SE to the double road at (392,142). It then continues E via (480,170) to cross the N-S road at (582,178), and runs NE to a dead end at the field edge near (740,100).",
+      "uncertainty_note": "The part west of (395,145) and the part east of it could be two paths crossing f02 rather than one path. Either way the course is right."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a thin line from the top edge near (100,0) towards the red house at (125,45), but at this resolution I cannot tell whether it is dotted or doubled (an access track) or a plain plot or field outline next to the f01 road.",
+      "uncertainty_note": "Plausibly a short access track from the f01 road to the croft. It is also plausibly a field or plot edge."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Single dotted lines: one runs from the field corner at (50,607) E to about (245,632). Another arcs from there via (330,610), (400,600) and (480,612) down to the junction at (595,655). Both are drawn as a single row of dots, with no fill.",
+      "uncertainty_note": "It is unclear whether the western piece (50,607)-(245,632) really joins the arc, or ends just short of it at the field edge. See the contested junctions."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short dotted connector rises from the f03 road at about (190,682) NE to meet the f06 dotted arc near (245,632).",
+      "uncertainty_note": "Low for its existence. Its upper end may be a fork of f06 rather than a separate T-junction."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A single dotted path leaves the main road near (788,690) and runs NE via (870,650) to the SW corner of the Sikan T. garden at about (915,645). A short doubled lane with brownish fill also runs from there S to the main road at about (942,705); the overlay draws a dark line there, which I take to be part of f08.",
+      "uncertainty_note": "It is not certain whether the short N-S lane at u~930-942 belongs to f08 or to another id. The class of that lane looks heavier (double, filled) than the dotted path."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The red line from about (915,640) NE to (985,575) follows the NW edge of the light-green Sikan T. garden or plot. Along it the tile shows a plain solid outline of the plot, with no dotted or doubled road symbol.",
+      "uncertainty_note": "Moderate. A path into the farmstead could run along the garden edge and be drawn too small to tell from the outline at this scale."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the apex near (535-555, 0-15) the double dotted road continues to the top edge, so a short stub to the edge is drawn there.",
+      "uncertainty_note": "The f10 polyline is almost entirely hidden under its own label. I am judging only that a road reaches the top edge at that point."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-right corner a doubled, dotted line with fill crosses from about (925,1000) to the right edge near (1000,940).",
+      "uncertainty_note": "Only about 100 px of it is visible, so the class rests on a short segment."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the top-left corner, (0,20)-(55,0), there is only field colour and a thin field outline. No dotted or doubled road symbol is visible.",
+      "uncertainty_note": "Moderate. It is a very short corner segment, and a road just outside the tile could clip the corner."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [245, 632],
+      "what_is_contested": "The number of branches: either a 3-way meeting of the western dotted piece (from 50,607), the eastern dotted arc and the connector f07 rising from f03, or the western piece ends at the field edge just short of the arc.",
+      "evidence_note": "The dotted rows converge here, but the gap is only a few pixels and a field boundary also meets at this point."
+    },
+    {
+      "uv": [595, 655],
+      "what_is_contested": "Where the dotted f06 arc enters: at the same point where the N-S road meets f03 (a 4-branch node), or merging into f03 slightly further west around (560,650).",
+      "evidence_note": "The f06 dots run very close and nearly parallel to the f03 road over the last ~40 px before the junction."
+    },
+    {
+      "uv": [540, 3],
+      "what_is_contested": "The position and branch count of the node where the SW diagonal road, the N-S road and the stub to the north meet: it may lie just inside the top edge or just outside the tile.",
+      "evidence_note": "The double-dotted roads meet within ~10 px of the top edge, and the overlay labels cover the spot."
+    },
+    {
+      "uv": [918, 645],
+      "what_is_contested": "Which lines meet at the Sikan T. garden corner: the dotted path f08 from the west, the short filled lane south to the main road, and possibly a continuation NE along the garden edge (f09).",
+      "evidence_note": "The dotted path clearly reaches the corner, and a doubled lane runs south from it. I see no road symbol continuing NE, only the plot outline."
+    }
+  ],
+  "overall_note": "The tile has a network of double-dotted, buff-filled roads (f01, f02, f03, f10, f11) and single-dotted paths (f04, f06, f07, f08), and the overlay follows these closely. The long dashed lines in the southern half and the faint dashed lines in the NW are boundary symbols (Skifteslinje form), not roads. I dispute f09 and f12 as not-road outlines and cannot judge f05; the truncated label at the apex is assumed to be f02."
+}

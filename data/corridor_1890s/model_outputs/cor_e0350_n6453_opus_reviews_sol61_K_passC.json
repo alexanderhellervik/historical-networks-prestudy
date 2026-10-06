@@ -1,0 +1,63 @@
+{
+  "tile_id": "cor_e0350_n6453",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous thin orange-brown line edged with fine black dots runs from the top edge at about (325,0) via (415,230), (440,380), (560,560), (635,720), crosses the red band at about (637,760) and leaves the bottom edge at about (800,1000). The overlay polyline sits on it along its whole length. The orange-brown colour matches the road colour of the neighbouring example sheet, where the paths are thin orange-brown lines. It is distinct from the black dotted outlines of the open-land patches; it only touches one of them at (440,380).",
+      "uncertainty_note": "I am sure of the course. The symbol form is less certain. At this resolution the dots may be one row along a coloured line (a Gångstig-like path, dashed_line) or two rows with colour between (a Sämre körväg, which would be double_line_narrow). A dotted boundary is less likely because the legend's boundary symbols are dash-dot patterns, not even fine dots."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 822], [55, 822], [78, 802], [200, 795], [300, 788], [400, 778], [500, 770], [637, 760], [780, 748]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j_637_760", "j_780_748"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A broad opaque red band, about 12-15 px wide, crosses the lower part of the tile from the west edge to a Y-split at (780,748). It has a thin dark line on the north side and a heavy dark line with grey shading on the south side, which fits a shaded double-line road filled in road colour. It continues through the vertical black sheet-edge line at u~70, where the drawing on the two sides of the join is offset by about 20 px in v.",
+      "uncertainty_note": "The band could instead be a coloured administrative boundary: the grey-blue wash along its south side and the Y-shaped split are also typical of boundary colouring. The dotted line f01 crosses it without any visible break or widening.",
+      "alternatives": ["boundary with colour band (not a road)", "double_line_narrow if the red fill is only colouring of a narrower double line"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[780, 748], [830, 690], [880, 640], [915, 605], [940, 592], [1000, 590]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j_780_748", "j_940_590"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "From the Y-split at (780,748) the same red band runs north-east to about (940,592). It then bends east and leaves the east edge at about v=590. It has the same red fill and dark south/east edge line as m01.",
+      "uncertainty_note": "This band carries the same road-or-boundary doubt as m01. At (940,590) a thin dark-red line continues north-east to the edge at about (1000,515). It is not certain whether the band follows the east-going or the north-east-going line beyond that point.",
+      "alternatives": ["band continues NE along (940,590)-(1000,515) instead of turning east", "boundary with colour band (not a road)"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[780, 748], [840, 773], [875, 795], [930, 818], [1000, 846]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j_780_748"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The second branch of the red band runs east-south-east from the Y-split and leaves the east edge at about v=846. Its colour is strong to (840,773), fainter for a short stretch, then strong again from about (875,795) to the edge.",
+      "uncertainty_note": "The faint stretch around (840-875, 775-795) might be a real gap or a change of symbol. As with m01, the band may be a boundary rather than a road.",
+      "alternatives": ["boundary with colour band (not a road)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [637, 760],
+      "what_is_contested": "Whether this is a four-way road crossing (f01 crossing m01) or just a path crossing a boundary band, with no junction.",
+      "evidence_note": "The orange dotted line runs straight through the red band with no break, widening or change in either line. A road-road crossing would usually look the same, so the drawing does not decide this."
+    },
+    {
+      "uv": [780, 748],
+      "what_is_contested": "Three branches (W, NE, ESE) meet in a Y. The branch count is clear. Whether this is a road fork or a meeting point of boundaries depends on how the red band is read.",
+      "evidence_note": "The broad red band from the west splits cleanly into a north-east and an east-south-east arm, and both arms have the same width and colour."
+    },
+    {
+      "uv": [940, 590],
+      "what_is_contested": "Number of branches and which line continues: the broad band turns east here, while a thin dark-red line carries on north-east to (1000,515).",
+      "evidence_note": "The broad band is visible running east to the edge at v~590, and a thinner reddish line runs on from the bend at the same angle as the NE arm. The thin line may be a boundary rather than a road."
+    }
+  ],
+  "overall_note": "The overlay's single feature f01 follows the orange-brown dotted line, which I read as a minor road or path. The overlay leaves out the broad red band and its Y-split, which I read as a major double-line road, though it might instead be a coloured boundary. The vertical black line at u~70 is a sheet edge, and the blue-green lines in the north-east are water; I read neither as a road."
+}

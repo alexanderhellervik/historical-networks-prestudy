@@ -1,0 +1,85 @@
+{
+  "tile_id": "cor_e0347_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 196], [28, 191], [60, 193], [94, 191], [122, 183], [146, 171], [170, 150], [194, 127], [211, 112], [229, 102]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre-brown curved trace has intermittent dark marks along it; two consistently separated edges are not resolved. Large black lettering covers its northeastern continuation.",
+      "uncertainty_note": "This may be a dotted path, but a parcel or land-cover boundary is also plausible. Continuation beneath the lettering toward the upper edge is not certain, so the feature stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre trace may be one continuous thin path line with irregular dark overprinting."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel or land-cover boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[232, 283], [215, 312], [201, 341], [185, 365], [181, 378], [194, 403], [211, 434], [229, 466], [247, 487]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One very fine grey-brown uncased line descends beside hollow tree symbols, bends left, then turns southeast. No parallel edge or regular dash sequence is clear.",
+      "uncertainty_note": "A faint path is possible, but the line could be a property or land-cover division. Both ends lose definition; no connection to another candidate is established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary; the faint reproduction also makes the exact terminal course uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[846, 50], [866, 59], [888, 68], [910, 78], [932, 85], [948, 90], [958, 76], [969, 55], [979, 34], [986, 35], [1000, 45]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A rust-red band with dark margins, roughly 5–9 px apart where legible, runs east-southeast and then bends sharply northeast. Solid black building marks lie beside its southern margin.",
+      "uncertainty_note": "The band resembles a narrow cased track, but it also follows the edge of a peach-coloured polygon and may be a coloured parcel boundary. Its western end merges with heavy blue and dark linework.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road polygon boundary whose colour and adjacent outlines imitate a cased track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[554, 0], [551, 19], [547, 36], [543, 51]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short narrow brown strip with dark flanking marks descends from the upper edge through green wash. Heavy angular black marks obscure its lower end.",
+      "uncertainty_note": "This could be a short access track, but a coloured parcel edge or associated building linework is equally plausible. No continuation through the black marks is established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible closely spaced dark road margins around a brown centre."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel or building-associated linework."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [205, 55, 287, 119],
+      "why": "Heavy lettering prevents a secure reading of the northeastern continuation of f01."
+    },
+    {
+      "bbox_uv": [530, 46, 574, 82],
+      "why": "Dense black angular symbols prevent tracing the lower continuation of f04."
+    }
+  ],
+  "overall_note": "These are candidate roads or paths with substantial uncertainty; no three-branch road junction is established. The fine inland trace and coloured polygon edges are particularly difficult to distinguish from non-road divisions. Blue shorelines, the blue-green branching linework at lower left, the straight line across the water, and the red diagonal at lower right were read as non-road linework."
+}

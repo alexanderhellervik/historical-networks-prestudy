@@ -1,0 +1,222 @@
+{
+  "tile_id": "cor_e0370_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[32,1000],[75,977],[115,957],[155,942],[185,926],[206,916],[239,898],[272,879],[300,855],[315,844],[345,824],[377,802],[410,778],[445,752],[480,728],[515,702],[550,676],[580,655],[596,644],[625,621],[650,597],[677,568],[700,537],[722,505],[746,471],[773,437],[803,408],[833,384],[856,355],[877,319],[899,282],[927,252],[960,225],[1000,193]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark edges, approximately 8–12 px apart, enclose a pale ochre strip. The paired edges curve together; black and red building marks occur beside the middle section.",
+      "uncertainty_note": "The paired course remains legible through the nearby lettering. The exact attachment points of the dotted branches are less sharp than the road edges.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,475],[20,453],[35,438],[64,408],[91,380],[112,352],[141,322],[169,294],[195,268],[219,243],[240,223],[263,209],[294,202],[332,197],[374,192],[397,198],[421,206],[446,212],[466,202],[467,190],[455,164],[444,133],[438,100],[435,64],[433,30],[431,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Closely spaced dark dots or short strokes form two roughly parallel margins, about 6–9 px apart, with a faint brown strip between them. The trace passes beside red building squares and bends along a narrow green polygon.",
+      "uncertainty_note": "Some dots merge with polygon outlines near the buildings. Its crossing with the red trace is a road junction only under the alternative road reading of f10.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Locally the dotted margins merge with other outlines, so the precise symbol form is uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[57,684],[77,707],[99,733],[124,757],[144,779],[161,796],[182,814],[175,832],[177,849],[187,873],[198,897],[206,916],[226,938],[249,958],[267,965],[285,960],[307,947],[329,938],[347,947],[368,963],[387,986]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j06"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "The upper portion has two fine, nearly continuous brown-grey lines around a pale strip. Farther down, paired dark dots follow several bends, cross the broad road, and continue toward a red building mark near the bottom.",
+      "uncertainty_note": "The upper paired lines could outline a narrow parcel rather than a track; their apparent continuation into the dotted section supports, but does not establish, a single feature. The southern end disappears among building and polygon strokes. The northern junction is conditional on f08 being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The upper paired continuous strokes can be read as a narrow road."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dotted portion may be a separate track, beginning around [130,765]."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The upper portion may instead be parcel outlines, leaving only the dotted continuation as a road candidate."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[315,844],[325,863],[336,882],[353,890],[376,885],[398,878],[420,874],[438,892],[459,918],[479,945],[501,974],[520,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two rows of dark dots, approximately 6–9 px apart, leave the paired road edges, bend around an outlined patch, and continue southeast with faint brown colouring between them.",
+      "uncertainty_note": "Near [400,878] the dotted trace overlaps irregular polygon strokes. The southeast dotted continuation is visible, but a small displacement of the joining course is possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short section through the overlapping outlines may comprise two touching traces rather than one continuous track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[596,644],[605,674],[622,707],[644,742],[662,774],[678,812],[696,848],[718,888],[737,927],[749,966],[756,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow brown strip with paired dark dotted margins branches from the broad road beside black building marks. Both dotted margins follow the southeast bends alongside green outlined shapes.",
+      "uncertainty_note": "Building strokes partly obscure the first few pixels of the attachment. The two dotted margins are visible immediately beyond them.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[914,1000],[935,983],[956,966],[975,943],[989,922],[1000,905]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of dark dots clip the lower-right corner, with a faint brown interval between them.",
+      "uncertainty_note": "The dots coincide locally with the edge of a tinted polygon, which makes the individual margins harder to separate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted polygon or boundary edge is a weaker alternative to the paired-track reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,48],[18,37],[33,24],[43,13]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short diagonal string of dark dots appears near the upper-left corner, beside heavier outlines; large black lettering overlaps its upper end.",
+      "uncertainty_note": "A second margin is not consistently distinguishable. The trace could be a path or another dotted line; no continuation is carried through the lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible dotted string could represent a short path clipping the corner."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead belong to a boundary or the adjacent outlined symbology."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0,727],[30,704],[57,684],[91,654],[125,624],[157,598],[192,569],[228,539],[264,509],[299,480],[334,451],[370,421],[405,391],[440,359],[474,328],[509,297],[545,265],[582,232],[617,201],[649,172],[674,156],[706,146],[738,136],[765,124],[801,103],[837,79],[874,54],[913,28],[955,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A continuous pink-red diagonal stroke has a fine dark stroke beside it, generally only a few pixels away. It follows several long straight reaches, then bends around [650,170]; a short heavier dark mark overlaps that bend.",
+      "uncertainty_note": "This is a doubtful road candidate: the red stroke and its dark companion may be a coloured boundary with an offset or overprinted outline. There is no consistently legible open centre or pair of dotted road margins. Its listed junctions are conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the red and dark strokes are two road margins, they describe a narrow cased route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary is at least as plausible; under that reading this feature is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,277],[27,267],[53,253],[80,239],[103,220],[125,198],[146,175],[165,155],[184,138],[172,112],[158,82],[144,54],[132,31]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A heavy continuous maroon stroke, approximately 4–6 px wide, has intermittent dark edging. It makes a sharp bend near [184,138] and passes beside red rectangular marks before meeting black lettering.",
+      "uncertainty_note": "The dark edging could suggest a road margin, but a heavy coloured boundary is a strong alternative. Its upper continuation cannot be separated confidently from the lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a road, the consistently visible element is one heavy continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The stroke may be a coloured boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0,392],[19,417],[35,438],[59,469],[84,501],[110,535],[134,568],[157,598]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "One heavy maroon line with dark edging runs southeast across a dotted trace, beside a green polygon, and meets the pink diagonal. Black lettering overlaps its lower portion.",
+      "uncertainty_note": "Its straight course and meeting with another red trace favour a boundary reading. It is retained as a doubtful road candidate because the heavy dark edging is not fully separable; both listed junctions are conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A road reading would treat the heavy continuous stroke as a single-line route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a coloured boundary, in which case neither listed meeting is a road junction involving this feature."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [206,916],
+      "branch_count": 4,
+      "evidence_note": "The broad road's two continuous dark margins continue through this point, while a narrow dotted trace approaches from the northwest and resumes southeast. Four branches are visible under the continuous-track reading of f03."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [315,844],
+      "branch_count": 3,
+      "evidence_note": "Two branches of the ochre strip with paired continuous dark edges pass through; paired dark dots diverge southeast from its lower margin."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [596,644],
+      "branch_count": 3,
+      "evidence_note": "The paired continuous road edges pass southwest and northeast. A narrower brown trace with dotted margins leaves southeast beside heavy black building strokes."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [35,438],
+      "branch_count": 4,
+      "evidence_note": "Paired dark dotted margins cross one heavy maroon stroke with dark edging. Four road branches are conditional on f10 being a road; a boundary crossing would leave no road junction."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [157,598],
+      "branch_count": 3,
+      "evidence_note": "The heavy northwest maroon stroke meets the continuing pink diagonal beneath the edge of black lettering. Three branches are conditional on both red traces representing roads."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [57,684],
+      "branch_count": 3,
+      "evidence_note": "Two fine southeast-directed strokes around a pale strip appear to terminate at the red diagonal and its close dark companion. Three branches are conditional on both the strip and diagonal being roads."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [936,628,1000,732],
+      "why": "A pale rectangular replacement patch conceals the original drawing."
+    },
+    {
+      "bbox_uv": [834,732,1000,785],
+      "why": "A stepped pale replacement patch interrupts lettering and conceals any underlying lines."
+    },
+    {
+      "bbox_uv": [801,785,1000,833],
+      "why": "The lowest step of the pale replacement area conceals the original map strokes."
+    }
+  ],
+  "overall_note": "The paired curving road and several dotted tracks are legible, but short connections overlap building marks and polygon outlines. Red traces are retained as doubtful candidates with explicit boundary alternatives; junction counts involving them are conditional on their being roads. No courses are extended through the pale replacement patches."
+}

@@ -1,0 +1,97 @@
+{
+  "tile_id": "cor_e0363_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[43, 0], [53, 24], [70, 45], [85, 65], [92, 85], [97, 107], [106, 122]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow curving reddish-ochre trace has intermittent dark marks along its edges; dense horizontal hatching makes the number and spacing of those edges unclear.",
+      "uncertainty_note": "This is a doubtful track candidate. Its lower end merges into red linework, where continuation cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The intermittent dark marks could be two closely spaced track edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The coloured trace could instead be a field or property boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[1000, 498], [980, 516], [959, 537], [940, 558], [923, 579], [907, 602], [891, 624], [879, 642]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Closely spaced dark dots and short strokes flank a narrow pale ochre strip, approximately 5–8 px wide; continuous solid casing is not evident.",
+      "uncertainty_note": "The paired appearance is clearest near the right edge. The trace becomes entangled with large lettering at its lower end; no course through that lettering is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches resolve as one row of dark interrupted marks rather than two distinct edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Uneven reproduction prevents a consistent edge count along the whole segment."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[825, 810], [803, 841], [780, 873], [757, 904], [735, 929], [716, 940]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow dark, intermittently broken diagonal trace is visible between italic strokes and tree marks; near its lower end it meets concentrated black and reddish block marks.",
+      "uncertainty_note": "This may continue f02, but the intervening lettering hides too much drawing to connect them. Letter strokes also make this segment's exact course and edge count uncertain; it disappears at the lower block symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Weak parallel marks could represent the same paired track symbol seen in f02."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible marks could constitute a single dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Parts of the apparent trace could belong to parcel-edge drawing or lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[581, 714], [594, 716], [607, 722]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Beside a small red-and-black block, a short pale strip has fine dark edging toward the broad red diagonal; block ink and red wash conceal its ends.",
+      "uncertainty_note": "A short access track is possible, but the visible fragment is insufficient to distinguish it from the adjoining enclosure outline. No continuation along the red diagonal is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The fine edging could be two sides of a short track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment could be part of a yard or field outline rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [817, 642, 947, 810],
+      "why": "Large dark italic lettering overlaps the likely track corridor; road marks cannot be separated reliably from letter strokes."
+    },
+    {
+      "bbox_uv": [690, 929, 769, 1000],
+      "why": "Concentrated block symbols and large lettering prevent a reliable reading of whether the lower diagonal trace ends or continues."
+    }
+  ],
+  "overall_note": "The clearest road symbol is the narrow broken diagonal entering from the right; its possible lower continuation is reported separately because lettering interrupts the evidence. The upper-left trace and short central fragment remain doubtful, while the long red parcel divisions and coloured shoreline were read as boundaries. No three-branch road junction is securely visible."
+}

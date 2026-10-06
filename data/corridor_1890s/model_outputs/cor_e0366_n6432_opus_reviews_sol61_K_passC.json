@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0366_n6432",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown-filled road with dotted edges enters at the left edge near (0,267) and runs NE to about (62,238), where the horizontal road branches off; same symbol as the main roads on the tile (Sämre körväg type).",
+      "uncertainty_note": "Short segment; the only doubt is whether it should be split from f02 at (62,238), since the diagonal appears to be one continuous road."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted road runs diagonally from about (62,238) through (100,200), (165,120) to (200,75), across the 'gärde' lettering, then east along v≈62–80 to about (320,80).",
+      "uncertainty_note": "Course is partly hidden under the large lettering '…gärde' between v≈80 and v≈130, so the exact line there is interpolated."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted road runs east along v≈235 from (62,238) to about (270,230), then bends NNE past the farm '2.' at (300,150) to meet the top road near (320,80).",
+      "uncertainty_note": "Northern part runs close to black plot outlines near the farm buildings; the meeting point with the top road could be a few pixels off."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted road continues from (320,80) through (390,65), crosses the crimson boundary band near (400,62), passes south of the 'B' farm at (470,90) and descends to the junction at (570,130).",
+      "uncertainty_note": "Where it crosses the crimson boundary the road edges are masked by the boundary colour over a short stretch."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Clear brown dotted road from the junction at (570,130) running ENE through (760,75) and (850,40) to the top edge near (900,0).",
+      "uncertainty_note": "None of substance."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Clear brown dotted road from (570,130) south past the small green triangle, through (560,300), (548,385), (500,450), (455,520), then straight down through the 'Mengsholm' lettering to about (447,730).",
+      "uncertainty_note": "Between v≈570 and v≈640 it passes through the lettering 'Mengsholm', but the line is continuous above and below so the course is not in doubt."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (445,735) the road bends west along the south side of the Mengsholm farmyard to about (345,752).",
+      "uncertainty_note": "This is a bend in one continuous road (f06→f07→f08), not a junction; splitting here is a convention, not a disagreement."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "avenue_lined",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (345,752) south to about (330,905) the brown road is flanked on both sides by rows of small open circles, the Allébeteckning (tree-lined avenue) symbol.",
+      "uncertainty_note": "The circle rows could be read as hedges (Häck), but they flank a brown road on both sides, which fits an avenue; I cannot see which class the overlay assigned, so the class judgement is mine."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the end of the circle rows (v≈910) the same brown road continues SSW across the green meadow patch to the bottom edge near (297,1000).",
+      "uncertainty_note": "Exact point where the avenue ends and plain road begins is around v≈905–915."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Short spur from the road at (345,750) north to the red building at about (327,700); at that position there are black building marks and the farmyard outline but no clear brown dotted road edges.",
+      "uncertainty_note": "An access into the farmyard is plausible, but the drawing there is building symbols and plot outline; the road may simply end at the yard edge."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the top edge near (155,5) down to (200,75) the overlay follows the village plot outlines and buildings ('3', red houses); I do not see a clear brown-filled dotted road here, only black outline lines.",
+      "uncertainty_note": "A village street leading north out of the tile is plausible, but this stretch is cluttered with buildings and plot lines and the road symbol is not clearly distinguishable from them."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [200, 75],
+      "what_is_contested": "Number of branches: two (diagonal f02 turning east) or three (with f11 going north to the top edge).",
+      "evidence_note": "The northward branch f11 is not clearly drawn with the road symbol; it may be village plot outline."
+    },
+    {
+      "uv": [345, 750],
+      "what_is_contested": "Whether a third branch (f10) leaves north into the Mengsholm farmyard, or the junction is only the bend between f07 and the avenue f08.",
+      "evidence_note": "Building marks at (335,735–745) obscure whether brown road edges continue north."
+    },
+    {
+      "uv": [62, 238],
+      "what_is_contested": "Exact position of the T-junction where the horizontal road (f03) leaves the diagonal road (f01/f02).",
+      "evidence_note": "Both are dotted brown roads meeting at a shallow angle; the meeting point could lie anywhere between u≈55 and u≈70."
+    },
+    {
+      "uv": [320, 80],
+      "what_is_contested": "Exact meeting point of the north-running f03 with the top east-west road (f02/f04).",
+      "evidence_note": "Near the farm buildings and plot outlines at (300–330, 80–100) the road edges are hard to separate from black outlines."
+    }
+  ],
+  "overall_note": "All brown dotted roads I found on the bare tile are represented in the overlay and its courses match closely; the crimson band, the blue river and the thin black lines are boundaries, water or field outlines, not roads. The road south from Mengsholm is drawn as a tree-lined avenue for about 150 m. The only doubtful overlay features are the short spurs f10 and f11, where the road symbol cannot be separated from buildings and plot outlines."
+}

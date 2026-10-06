@@ -1,0 +1,197 @@
+{
+  "tile_id": "cor_e0363_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,276],[35,251],[73,223],[109,195],[137,176],[175,147],[212,119],[250,90],[289,60],[325,32],[356,7],[379,23],[409,48],[438,77],[465,110],[485,145],[501,171],[526,185],[549,184],[578,175],[608,157],[634,135],[655,107],[680,78],[705,51],[733,24],[757,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two close dark margins, approximately 6–10 px apart, surround a reddish strip; the margins contain conspicuous dots and short dark strokes. The strip remains identifiable through the large lettering.",
+      "uncertainty_note": "The stippled margins make the distinction between a narrow double line and a dashed symbol uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dotted or broken margins could be treated as a dashed road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[356,7],[395,6],[437,5],[467,5],[484,6]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A nearly horizontal dark red-brown stroke leaves the bend, with a faint adjacent edge in places; its eastern end merges with strong coloured overprinting.",
+      "uncertainty_note": "This may be a parcel boundary rather than a road. Its margins and termination are poorly resolved close to the upper edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint second edge could indicate a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A reddish property boundary is an equally plausible reading; under that reading this feature and the third branch of j03 are absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[526,185],[520,205],[500,232],[481,263],[473,288],[474,305],[486,331],[495,359],[496,387],[490,418],[478,450],[462,486],[446,519],[430,539],[402,558],[370,572],[338,584],[307,592],[285,599],[273,586],[261,568],[239,585],[215,607],[189,632],[158,645]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A single sequence of dark dots and short strokes follows the bends, with faint ochre colouring beneath parts of it and no consistent paired casing. It reaches a heavy black building or enclosure mark at the southwestern end.",
+      "uncertainty_note": "The line cannot be followed confidently through the black marks between approximately [158,645] and [124,707]; no connection through them is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches could be a dotted enclosure or property line rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[124,707],[109,731],[92,758],[74,786],[55,816],[36,846],[18,875],[0,895]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Dark, separated strokes accompany a narrow reddish-ochre trace running diagonally from the lower side of the building cluster to the left edge; no clear continuous casing is visible.",
+      "uncertainty_note": "The building marks hide its northeastern termination. It may continue into f03, but the intervening drawing does not establish that connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary with intermittent black marks remains possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[109,195],[120,216],[135,238],[145,254]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin oblique trace with intermittent dark marks leaves the lower margin of f01 and runs toward a solid black rectangular symbol; it is appreciably lighter and narrower than f01.",
+      "uncertainty_note": "The final few pixels are lost against the black rectangle. The sparse marks do not resolve the symbol form completely.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The faint connecting stroke could be continuous rather than dashed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[137,176],[151,199],[166,226],[181,254]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint narrow ochre-grey trace with scattered dark marks runs southeast beside stronger red enclosure lines and reaches a red rectangular symbol.",
+      "uncertainty_note": "A separate access path is plausible, but enclosure edges and nearby symbols make both its course and its attachment to f01 uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The scattered dark marks may be a dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace may belong to the enclosure drawing; under that reading this feature and j02 are absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,496],[48,475],[95,456],[143,436],[190,417],[236,398],[283,377],[330,361],[378,347],[426,331]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "A reddish diagonal stroke has a thin approximately parallel grey-dark edge, roughly 6–9 px away. Small oval tree-like marks form a row beside the section around [236,398]–[345,357].",
+      "uncertainty_note": "The oval marks are clearest on one side only. The paired strokes could instead be a boundary with an adjacent tree row; f08 is a doubtful continuation around the corner.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes may depict a narrow road, with adjacent tree symbols rather than a formal avenue symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A property edge with a tree row or hedge is also plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[426,331],[401,300],[375,266],[349,231],[323,198],[298,165],[272,132],[249,118]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "A straight red-brown strip with a dark edge turns northwest from the end of f07; occasional adjacent pale or dark edging is visible. Large lettering overlaps its upper portion.",
+      "uncertainty_note": "This resembles the red plot outlines elsewhere on the tile and may be entirely a boundary. A road continuing from f07 is possible, but a connection through the lettering to f01 is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The adjacent edging could represent a narrow road continuing around the corner from f07."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A property boundary is the stronger alternative; under that reading f07 and f08 do not form a road around the corner."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,942],[16,961],[28,975],[41,989],[48,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Short reddish-ochre and dark strokes pass between dense black outlines and green-grey filled patches at the lower-left corner; consistent margins cannot be separated.",
+      "uncertainty_note": "This is a tentative short track reading. Building and enclosure strokes obscure the bend and could account for some or all of the trace.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated dark strokes could depict a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An alternative course bends from approximately [28,975] toward [0,991]; the drawing does not securely distinguish that course from enclosure lines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [109,195],
+      "branch_count": 3,
+      "evidence_note": "The two close, dark stippled margins of f01 continue in both directions; a much thinner intermittently marked trace leaves their southeastern side."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [137,176],
+      "branch_count": 3,
+      "evidence_note": "Two branches follow the reddish, narrowly paired margins of f01; a faint ochre-grey trace appears to leave southeast. The third branch is conditional on the doubtful road reading of f06."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [356,7],
+      "branch_count": 3,
+      "evidence_note": "The dark stippled reddish strip bends from southwest to southeast, while a thinner red-brown stroke extends approximately horizontally east. The third branch is conditional on f02 being a road."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [526,185],
+      "branch_count": 3,
+      "evidence_note": "The narrowly paired red-brown strip continues west and east around the bend; a single dark dotted trace leaves its southern margin."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [118,637,184,720],
+      "why": "Heavy building and enclosure outlines overlap the dotted traces, preventing a reliable connection between f03 and f04."
+    },
+    {
+      "bbox_uv": [0,930,67,1000],
+      "why": "Dense building outlines, coloured patches and short reddish strokes prevent a secure road course through the corner."
+    }
+  ],
+  "overall_note": "The main difficulty is distinguishing faint access traces and reddish plot edges from roads; doubtful readings and conditional junctions are retained explicitly. The black-and-white diagonal railway, blue water lines and clear dashed parcel divisions are excluded. No connection is carried through the obscured building clusters."
+}

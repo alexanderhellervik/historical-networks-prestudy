@@ -1,0 +1,102 @@
+{
+  "tile_id": "cor_e0348_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 730], [17, 697], [29, 669], [42, 638], [57, 611], [77, 596], [104, 583], [132, 568], [158, 555], [184, 540], [209, 525], [236, 510], [263, 495], [289, 479], [314, 464], [341, 450], [365, 432], [386, 414], [406, 398], [428, 385], [453, 377], [481, 370], [505, 358], [523, 348], [539, 352], [568, 341], [596, 333], [615, 323], [629, 311], [653, 306], [674, 296], [692, 277], [718, 260], [745, 247], [770, 235], [797, 231], [819, 226], [842, 214], [868, 195], [890, 177], [912, 157], [936, 137], [960, 114], [983, 95], [1000, 80]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "An ochre strip follows the entire course between two closely spaced, dark, predominantly dotted borders, approximately 5–9 px apart. It resembles the ochre, dotted road symbol in the worked example.",
+      "uncertainty_note": "Lettering overlaps the southwestern section, but the borders and ochre strip establish its continuation on both sides. Border dots merge locally around the buildings.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[314, 464], [321, 447], [337, 430], [357, 414], [380, 400], [402, 385], [421, 372], [439, 366]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow, dark broken line curves north of the ochre road and orange polygons. Its short marks form one apparent course, with open oval tree symbols alongside and no consistent ochre casing.",
+      "uncertainty_note": "The northern end becomes mixed with tree symbols and polygon outlines; a connection back to f01 is not established. The apparent attachment at j01 is also conditional on this being a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken course could be a parcel or vegetation limit rather than a path; under that reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[309, 577], [333, 578], [356, 571], [379, 558], [403, 546], [425, 534], [447, 520]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Small dark dots and short strokes form a northeast-running course beside the southern orange polygons and through the pale blue-green area. No continuous pair of road borders is visible.",
+      "uncertainty_note": "The southwestern end merges with a polygon corner; the northeastern end is lost in large lettering. Its symbol could belong to a path or to the enclosure limit.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A single broken path is a plausible reading."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead mark the edge of the pale coloured enclosure. A continuation to f04 beneath lettering is possible but unconfirmed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[498, 488], [521, 474], [543, 458], [560, 441], [566, 423], [559, 405]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin dark broken course emerges among the letters, curves northeast, then turns north beside open oval tree marks. At its northern end it meets closely spaced solid outlines around an ochre strip.",
+      "uncertainty_note": "The southern continuation is hidden by lettering, and the northern marks cannot be separated confidently from polygon outlines. No connection to the main road is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "It could be a path continuing from f03 beneath the lettering."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire course could instead be an enclosure or vegetation boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[896, 344], [876, 365], [851, 388], [823, 412], [794, 428], [763, 439], [735, 445], [711, 455], [691, 470]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A very light grey, approximately single-width line curves southwest from the angular red line toward the upper edge of the horizontal hatching. It has no clear ochre fill, casing, or regular dot pattern.",
+      "uncertainty_note": "This is a weak path candidate. Its attachment at the red line is indistinct, and its southwestern end disappears among lettering and hatch-edge marks.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the pale stroke denotes a path, its visible form is a thin single line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A vegetation or wetland limit is at least as plausible, particularly where the course approaches the hatching."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [314, 464],
+      "branch_count": 3,
+      "evidence_note": "The ochre strip with two dark dotted borders continues southwest and northeast, while a thinner broken dark course apparently peels north. The three-branch reading depends on interpreting f02 as a path; overlapping marks make the meeting position approximate."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [447, 478, 501, 521],
+      "why": "Heavy lettering masks the possible continuation between f03 and f04; individual underlying broken marks cannot be followed confidently."
+    }
+  ],
+  "overall_note": "The ochre, dotted-border road is the clearest road feature. Broken lines around the central polygons and the pale northeastern curve admit path and enclosure-limit readings, which are retained explicitly. Angular red lines, the broad pink strip beside the water, water outlines, and horizontal land-cover hatching were read as non-road symbols."
+}

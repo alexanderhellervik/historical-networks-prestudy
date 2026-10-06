@@ -1,0 +1,192 @@
+{
+  "tile_id": "cor_e0358_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[140, 1000], [139, 969], [143, 932], [151, 896], [163, 859], [177, 820], [185, 782], [191, 744], [199, 708], [211, 676], [232, 647], [258, 616], [287, 581]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow reddish strip has two dark margins approximately 6–12 px apart; one margin includes closely spaced dots or short strokes.",
+      "uncertainty_note": "The margins vary between continuous and stippled, making the symbol-form class somewhat uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The stippled margin could be read as part of a paired dotted track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[287, 581], [308, 553], [330, 523], [352, 493], [373, 463], [387, 443]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The reddish strip and closely spaced dark margins continue northeast; short dark dots remain visible beside the eastern margin.",
+      "uncertainty_note": "The road edges disappear into the broad red-and-dark transverse band. Alignment suggests a possible continuation into f09, but the crossing does not clearly resolve the road symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittently visible margins could represent paired dotted lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[287, 581], [307, 598], [332, 616], [359, 632], [389, 641], [415, 648], [434, 650]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A thin brown strip with dark edges curves southeast, accompanied by repeated rounded dark tree marks on both sides.",
+      "uncertainty_note": "Some tree marks merge into the margins, but the flanking rows are visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[434, 650], [463, 644], [496, 641], [531, 642], [566, 639], [600, 636], [635, 634], [668, 628], [702, 629], [734, 632], [761, 637], [788, 650], [815, 665], [839, 679], [856, 684]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two close dark edges enclose a brown line, with repeated small rounded marks alongside; red building marks and large black letters overlap portions.",
+      "uncertainty_note": "The road's visible edges and flanking marks support continuation through the lettering, although individual tree positions are indistinct.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[856, 684], [878, 659], [901, 638], [921, 626], [937, 626], [956, 632], [978, 631], [1000, 631]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown, dark-edged branch turns northeast and then east; small rounded dark marks sit alongside parts of its course.",
+      "uncertainty_note": "The tree row is less distinct near the right edge, where the two road margins provide the stronger evidence.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The eastern portion could be classified by its paired margins where flanking tree marks are indistinct."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[856, 684], [874, 708], [893, 733], [910, 756], [927, 779], [944, 795]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The brown line continues southeast between close dark margins, with repeated rounded marks alongside before several blue-green and dark lines converge.",
+      "uncertainty_note": "The margins become inseparable from the intersecting strokes near the endpoint. A possible continuation is recorded separately as f10.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some apparent flanking marks may merge with adjacent vegetation symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[434, 650], [433, 665], [431, 679], [432, 695]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, narrow run of dark dots and broken strokes descends from the brown avenue toward heavy black lettering.",
+      "uncertainty_note": "This could be a short path, a parcel edge, or adjoining symbol marks. Its course cannot be established beneath the lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the broken strokes form a connected path, their discontinuous form fits this class."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may belong to a field boundary or separate symbols rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0, 392], [18, 374], [37, 357], [49, 352], [64, 354], [80, 360], [97, 370], [112, 379]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow brown-orange curve has close dark, partly stippled margins and runs into the broad red-and-dark band.",
+      "uncertainty_note": "The paired margins become indistinct at the eastern end; no continuation through the broad band is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins could be read as paired dotted track lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[404, 405], [432, 385], [459, 365], [480, 341], [493, 319], [513, 293], [539, 267], [569, 247], [602, 230], [638, 213], [674, 195], [711, 179], [749, 163], [788, 148], [827, 132], [866, 116], [903, 99], [932, 78], [950, 52], [966, 24], [977, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow dark trace, locally doubled or stippled, follows the northwestern side of a much broader pink strip; the pink width varies considerably.",
+      "uncertainty_note": "The narrow trace could be a road, but a boundary or field edge beside the pink wash is also supported. Its southwestern end merges with the broad transverse band, so connection to f02 is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches appear to have two close dark margins enclosing a narrow reddish line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace may be boundary edging rather than a road; the broad pink strip itself is not treated as road width."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[970, 825], [985, 838], [1000, 852]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow dark diagonal stroke beside pale brown colouring runs toward the right edge; a second margin is not consistently separable.",
+      "uncertainty_note": "This may continue f06 beyond the crowded crossing, but it could instead be a parcel edge. The obscured interval is not bridged.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If this is a road continuation, the clearly separable drawing is predominantly one dark line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property boundary is an alternative reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [287, 581],
+      "branch_count": 3,
+      "evidence_note": "The two dark-edged reddish branches meet a southeastward brown branch with rounded flanking marks; the three strips visibly touch."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [434, 650],
+      "branch_count": 3,
+      "evidence_note": "The brown, closely edged avenue continues west and east; a short dark broken trace touches its southern edge. The third branch is tentative because it may be non-road marking."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [856, 684],
+      "branch_count": 3,
+      "evidence_note": "Three narrow brown, dark-edged branches meet: northwest, northeast and southeast; rounded flanking marks occur along the adjoining approaches."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [373, 412, 416, 454],
+      "why": "Broad red wash and heavy dark boundary strokes obscure the narrow margins needed to decide whether f02 continues into f09."
+    },
+    {
+      "bbox_uv": [416, 690, 472, 751],
+      "why": "Heavy black lettering overlaps the possible southward trace from j02; a connected course cannot be separated."
+    },
+    {
+      "bbox_uv": [938, 786, 974, 827],
+      "why": "Intersecting dark and blue-green strokes merge with the possible road margins, preventing a secure connection between f06 and f10."
+    }
+  ],
+  "overall_note": "The broad red-and-dark bands with widely spaced heavy marks are read as boundaries and are excluded as roads. Lettering and crowded line crossings interrupt several smaller traces. The upper pink-strip trace and two short possible continuations retain road-versus-boundary alternatives."
+}

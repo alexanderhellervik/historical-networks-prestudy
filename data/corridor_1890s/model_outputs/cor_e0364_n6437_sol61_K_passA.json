@@ -1,0 +1,106 @@
+{
+  "tile_id": "cor_e0364_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 14],
+        [23, 9],
+        [48, 8],
+        [76, 12],
+        [104, 18],
+        [132, 27],
+        [160, 31],
+        [188, 33],
+        [214, 37],
+        [240, 55],
+        [266, 70],
+        [293, 79],
+        [324, 86],
+        [355, 92],
+        [389, 98],
+        [422, 105]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow reddish-orange strip runs between closely spaced dark, partly dotted margins, approximately 7–10 px apart. Small solid rectangular symbols sit beside it.",
+      "uncertainty_note": "Lettering covers short stretches, but matching margins and infill resume on both sides. The broken margins make the symbol-form classification uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The two margins consist substantially of dots rather than continuous lines; double_line_narrow may not describe this symbol adequately."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [422, 105],
+        [449, 118],
+        [476, 133],
+        [504, 141],
+        [535, 148],
+        [566, 153],
+        [597, 158],
+        [630, 162],
+        [664, 166],
+        [695, 173],
+        [725, 178],
+        [754, 183],
+        [786, 184],
+        [820, 185],
+        [855, 188],
+        [891, 190],
+        [927, 191],
+        [963, 194],
+        [1000, 197]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close dark dotted margins flank reddish-orange infill. The strip continues beneath the large lettering and becomes clearly visible again toward the right edge.",
+      "uncertainty_note": "The lettering conceals portions of the margins; their alignment and matching symbol on either side support continuation. Margin spacing and individual dots are approximate where ink merges.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The closely spaced dotted margins could be recorded as an unclassified road symbol instead of double_line_narrow."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [422, 105],
+        [449, 94],
+        [474, 81],
+        [496, 67],
+        [516, 49],
+        [533, 29],
+        [549, 13],
+        [565, 0]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A curving reddish-brown strip has two close dark, broken margins, roughly 7–10 px apart. It joins the similarly drawn transverse strip and exits through the top edge.",
+      "uncertainty_note": "Large black letter strokes partly cover the lower connection. The visible strip approaches and resumes at the same contact, supporting a three-branch junction; its coordinate is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The partly dotted, locally merged margins leave the exact symbol-form class uncertain."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [422, 105],
+      "branch_count": 3,
+      "evidence_note": "The reddish strip with close dark dotted margins has west and east continuations and a matching branch curving upward. Heavy lettering partly masks their contact."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Large lettering obscures short stretches of the upper road, but matching linework supports the connections shown. The main classification uncertainty concerns its dotted double margins. The long red diagonals and long black dashed lines across the horizontal hatching are read as boundaries."
+}

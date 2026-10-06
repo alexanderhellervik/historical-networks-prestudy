@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0367_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[145, 555], [190, 534], [239, 511], [288, 487], [338, 463], [388, 439], [438, 415], [488, 390], [538, 366], [588, 342], [638, 317], [688, 293], [738, 268], [788, 244], [838, 220], [888, 195], [938, 171], [1000, 142]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A faint gray-brown diagonal trace crosses the horizontal hatching. Portions suggest two close strokes, but neither their spacing nor a repeating dash pattern is consistently legible; there is no strong red casing.",
+      "uncertainty_note": "Possible track or winter-road trace; a boundary or other fine line remains possible. The southwest continuation becomes indistinguishable from the hatching, so it is stopped rather than extended to the edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches appear to have two closely spaced strokes."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Intermittent visibility could represent a broken road symbol, although hatching interference could produce the same appearance."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a fine boundary or other non-road line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 895], [15, 920], [30, 945], [46, 972], [62, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "The southwest corner contains an oblique pair of thin dark traces, approximately 7–12 pixels apart, with intermittent speckling and a reddish stroke alongside or between them.",
+      "uncertainty_note": "The short fragment and dense horizontal hatching prevent a firm distinction between a narrow track symbol and adjacent boundary strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two close traces could be the margins of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: boundary strokes intersecting the marsh hatching."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[938, 900], [929, 921], [919, 942], [908, 965]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two close rows of dark dots run diagonally through the pale patch near the southeast corner, with a light interval between them. Their lower end reaches the broad red band.",
+      "uncertainty_note": "The dotted pair supports a track reading, but its upper continuation is lost at a patch boundary and its lower continuation is covered by the red band. Neither continuation nor a road junction is established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The small fragment could instead be a dotted non-road symbol; the patch and red overprint limit comparison."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 146], [35, 139], [68, 127], [101, 113], [132, 99], [162, 84], [189, 67], [214, 49], [228, 38]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A continuous curved reddish stroke with a darker adjoining edge enters from the left and rises into the large lettering. No regular dotted shoulders or clearly separated road margins are visible.",
+      "uncertainty_note": "This is a weak road candidate: its red tint and stroke form also support a boundary reading. The course is stopped within the lettering because a continuation cannot be traced confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a path, the visible symbol is principally one continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a red-highlighted boundary rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 687, 206, 704],
+      "why": "An abrupt horizontal image seam truncates and displaces linework."
+    },
+    {
+      "bbox_uv": [457, 688, 514, 798],
+      "why": "A narrow replacement strip interrupts the diagonal strokes; connections across its edges cannot be established."
+    },
+    {
+      "bbox_uv": [355, 790, 514, 952],
+      "why": "Several stepped patch boundaries displace the red and blue line fragments, preventing reliable continuity through this area."
+    },
+    {
+      "bbox_uv": [204, 895, 308, 1000],
+      "why": "Stepped image patches interrupt the oblique red strokes near the bottom edge."
+    },
+    {
+      "bbox_uv": [973, 691, 1000, 742],
+      "why": "A blank pale rectangular patch removes the drawing."
+    },
+    {
+      "bbox_uv": [973, 847, 1000, 900],
+      "why": "A blank pale rectangular patch removes the drawing."
+    }
+  ],
+  "overall_note": "These are candidate traces with substantial uncertainty; no road junction is securely visible. The angular red lines through the marsh and along its right margin, and the broad red band at the bottom, are read as boundary markings rather than roads. Dense hatching, lettering and displaced image patches limit both symbol identification and continuity."
+}

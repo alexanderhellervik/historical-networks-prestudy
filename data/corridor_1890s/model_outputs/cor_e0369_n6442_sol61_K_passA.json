@@ -1,0 +1,188 @@
+{
+  "tile_id": "cor_e0369_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,107],[24,125],[53,143],[79,145],[113,141],[149,144],[187,142],[224,141],[264,143],[301,140],[333,130],[365,121],[396,123],[421,136]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two dark dotted edges, approximately 10–15 px apart, enclose a pale brown strip; occasional heavier strokes overlap the lower edge.",
+      "uncertainty_note": "The course is clear. The northeastern branch at the endpoint is less certain than the dotted southeastern continuation.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[421,136],[451,123],[486,107],[517,91],[541,74],[561,52],[585,31],[607,20],[631,27],[654,35],[675,44],[679,64],[675,86],[699,111],[724,137],[745,157],[751,180]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A thin red stroke and heavier blue-black edge follow this course, with a faint gray parallel stroke roughly 8–15 px outside them; continuous paired dots are not clear.",
+      "uncertainty_note": "This may be entirely a coloured property boundary rather than a road. Junctions j01 and j02 have three road branches only if this strip is a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint outer stroke could be a road edge partly merged with the coloured boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a property boundary with colour edging; omit this feature from the road network."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[751,180],[784,188],[819,192],[849,199],[880,209],[912,222],[945,232],[976,238],[986,243],[991,264],[998,283],[1000,286]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Paired dark dotted strokes enclose a narrow pale brown strip immediately below a red line; the dots turn downward near the right edge.",
+      "uncertainty_note": "The road edges merge with the red and dark boundary strokes near the eastern bend; the exit position is approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[421,136],[432,167],[447,189],[476,197],[512,206],[547,215],[579,225],[609,233]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two rows of dark dots, roughly 10–14 px apart, bend southeast and then east around a pale brown strip; black building strokes overlap the eastern end.",
+      "uncertainty_note": "The paired edges are clear until they merge with the building and yard outlines near j03.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[609,233],[622,217],[642,217],[677,229],[710,241],[721,233],[732,207],[751,180]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A paired dotted strip passes above red-filled building symbols, turns sharply northeast, and rises between two dark edges to the upper dotted strip.",
+      "uncertainty_note": "Heavy building strokes obscure individual dots around the western bend, but the paired strip is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[609,233],[614,253],[626,277],[633,299],[633,314],[622,328]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Short dark dots descend beside the green wash and red-filled rectangles, accompanied intermittently by a faint gray parallel stroke.",
+      "uncertainty_note": "A path beside the building symbols is plausible, but the dots may instead outline the plot. The southern course disappears into the pale block at v=328 and is not extended through it.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the short dark marks as a dotted path branching from the paired track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a plot outline rather than a road; j03 would then have only two road branches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[20,445],[49,449],[79,444],[103,446],[129,454]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","dead_end"],
+      "evidence_note": "One row of dark, nearly square dots follows the upper limit of a green wash, meeting heavier solid outlines at both ends.",
+      "uncertainty_note": "The dots could represent a short path or simply the edge of the coloured parcel; no road continuation is distinguishable at either end.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible single dotted path along the green-wash edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a land-cover or parcel outline, not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[759,684],[795,672],[829,664],[864,656],[899,647],[927,637],[951,621],[978,609],[1000,602]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A single row of regularly spaced dark dots runs northeast, initially separate from the heavier solid parcel edge and then close alongside it.",
+      "uncertainty_note": "The southwestern continuation is hidden by the pale block and is not reconstructed. A dotted parcel boundary remains possible, particularly where the dots approach the solid outline.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative interpretation: a dotted boundary rather than a path."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [421,136],
+      "branch_count": 3,
+      "evidence_note": "The western paired dots meet a paired dotted strip turning southeast; a faint parallel-edged strip continues northeast beside red and blue-black strokes. The third road branch is conditional on f02."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [751,180],
+      "branch_count": 3,
+      "evidence_note": "Paired dots arriving from the southwest meet the eastward paired dotted strip below a red stroke; the uncertain strip from the northwest supplies the third branch only under the road interpretation of f02."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [609,233],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted strip from the west bends northeast beside heavy black building strokes; another dotted line descends beside the green wash. Three branches are present if that descending line is the path interpretation of f06."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [96,0,299,15],
+      "why": "A pale rectangular replacement removes drawing along this part of the top edge."
+    },
+    {
+      "bbox_uv": [506,328,657,378],
+      "why": "A pale block removes linework immediately south of the building symbols, including the possible continuation of f06."
+    },
+    {
+      "bbox_uv": [557,378,657,430],
+      "why": "A pale block and heavy lettering prevent reliable tracing."
+    },
+    {
+      "bbox_uv": [761,328,861,378],
+      "why": "A pale rectangular block removes the underlying drawing."
+    },
+    {
+      "bbox_uv": [812,378,913,430],
+      "why": "A pale block intersects heavy lettering and removes underlying linework."
+    },
+    {
+      "bbox_uv": [812,430,861,534],
+      "why": "A tall pale block removes the drawing through this interval."
+    },
+    {
+      "bbox_uv": [455,483,709,534],
+      "why": "A pale block removes a broad central interval of linework."
+    },
+    {
+      "bbox_uv": [404,534,607,585],
+      "why": "A pale block removes the adjacent lower interval of linework."
+    },
+    {
+      "bbox_uv": [608,691,759,795],
+      "why": "A pale block hides drawing below the southwest end of f08."
+    },
+    {
+      "bbox_uv": [863,691,1000,744],
+      "why": "A pale block removes drawing above the broad coloured band."
+    },
+    {
+      "bbox_uv": [0,795,248,847],
+      "why": "A pale rectangular replacement removes drawing in the southwestern part of the tile."
+    },
+    {
+      "bbox_uv": [557,795,608,847],
+      "why": "A pale block interrupts drawing beside the cross-and-dash symbols."
+    }
+  ],
+  "overall_note": "Paired dotted tracks are clearest in the upper part; adjoining coloured boundaries make the northern arc and some junctions uncertain. Pale replacement blocks prevent tracing several continuations. The broad lower red-and-blue band with adjacent cross-and-dash symbols, solid parcel outlines, and the isolated dotted oval near [780,630] are read as non-road drawing."
+}

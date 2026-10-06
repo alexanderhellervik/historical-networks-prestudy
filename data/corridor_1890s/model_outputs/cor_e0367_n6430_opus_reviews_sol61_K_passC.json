@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0367_n6430",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Wide black double line with red-brown fill runs from the top edge near (595,0) via (650,170), (720,350), (775,435), (900,430), (945,480), (960,570) to the right edge near (1000,625); the polyline follows it throughout.",
+      "uncertainty_note": "The road itself is unambiguous. The class is read from the symbol width and fill (landsväg/bygdeväg form)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line, partly with black dots alongside, runs from the top-left area (0,40)-(95,150) along the forest edge, then as brown line(s) from about (185,165) south-east to (320,250) toward the Hagelyckan farmstead. The same colour is used for roads on the worked example.",
+      "uncertainty_note": "Between (185,165) and (300,230) the drawing may be two close parallel brown lines (double_line_narrow). The overlay starts at about (35,75) rather than at the tile edge near (0,40). The last leg, where it bends south-west to (285,325), is not clearly drawn; the line may instead enter the farmyard near (330,265)."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two parallel thin black lines leave the farm at B (Hagelyckan) near (305,350) and run east to about (420,350), where they meet the crimson boundary line. This is a short lane.",
+      "uncertainty_note": "East of (420,348) only a single black line continues to about (640,342), and it reads as a field/forest edge. Whether the lane goes on to the main road is not decided by the drawing."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From Kattås T (19) near (385,695), a brown line with a row of black dots alongside runs east via (500,695) and (650,665), then bends south near (705,675) to about (730,735) at the B (17) farmstead. The overlay follows it.",
+      "uncertainty_note": "The solid line plus dot row resembles the Bättre körväg form (one solid, one dotted line). It could also be read as a single line with a forest-edge dot row, so the class is uncertain. The southward bend near (705,680)-(730,735) is faint."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the B (17) farmstead near (765,715), a brown line with dots alongside runs north-east via (880,680) to the main road near (985,635). The overlay follows it.",
+      "uncertainty_note": "The class is uncertain for the same reason as f04 (solid + dotted pair, or single line with forest edge). The exact meeting point with f01 at the right edge is cramped."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A ruler-straight thin black line, with no fill and no brown colour, runs from the bottom edge near (440,1000) north-east to about (760,750) at the B (17) farmstead. The overlay follows its position.",
+      "uncertainty_note": "Its straightness, the lack of road colour, and an apparently parallel straight line in the bottom-right corner (about (870,1000)-(1000,895)) suggest a skifte/property line, as straight lines are on the worked example. Its ending at the farm and a possible doubled stroke near (650,830)-(740,760) leave a narrow road possible."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line leaves the main road near (915,435) and runs east to the right edge near (1000,420), along a field edge south of Ekåsen.",
+      "uncertainty_note": "The colour matches the brown road lines (f02, f04), but there is no dot row and it follows a parcel edge. It could be a path or a field boundary; only a short piece is visible inside the tile."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short stub near (683,432)-(700,422) lies on the 'G' lettering and the outline of the plot around the red church/building symbol. No separate road line is drawn there.",
+      "uncertainty_note": "A very short yard access from the main road to the plot could be hidden under the lettering, but nothing visible supports it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[830, 100], [870, 133], [940, 125], [1000, 118]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A thin orange-brown line, the same colour as the brown road lines elsewhere on the tile, runs along the meadow/field edge in the top-right corner to the right edge.",
+      "uncertainty_note": "It may be a parcel boundary rather than a path. It has no dot row and does not connect to any road inside the tile. Low confidence.",
+      "alternatives": ["not a road: field or parcel boundary", "single_line path continuing east beyond the tile"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [740, 730],
+      "what_is_contested": "Which lines meet at the B (17) farmstead: whether f04 really joins f05 here (or only reaches the farm) and whether the straight line f06 is a road branch at all.",
+      "evidence_note": "The farmstead symbols, field outlines and three lines converge within about 40 px. The bend of f04 is faint and f06 has no road colour."
+    },
+    {
+      "uv": [420, 348],
+      "what_is_contested": "Whether the Hagelyckan lane (f03) ends at the crimson boundary or continues east along the field edge to the main road near (680,340).",
+      "evidence_note": "The double stroke appears to stop near (420,348). East of it only a single black parcel line continues."
+    },
+    {
+      "uv": [320, 262],
+      "what_is_contested": "Where f02 enters the Hagelyckan farmstead: from the north-east near (330,265), or bending south-west to the B label as the overlay draws it.",
+      "evidence_note": "Brown lines, the crimson boundary and farm outlines overlap around (300-340, 230-300)."
+    },
+    {
+      "uv": [915, 435],
+      "what_is_contested": "Existence of a junction between the main road and the orange-brown line f07.",
+      "evidence_note": "The line touches the main road's south-east shoulder, but it may be a field boundary rather than a road branch."
+    }
+  ],
+  "overall_note": "The main red-filled road (f01) and the brown dotted farm roads at Kattås and B (f04, f05) are clearly drawn, and the short Hagelyckan lane (f03) and the north-western track (f02) are well supported. The straight unfilled diagonal f06 and the short brown line f07 may be boundaries rather than roads. f08 sits on lettering and the plot outline and is not a road."
+}

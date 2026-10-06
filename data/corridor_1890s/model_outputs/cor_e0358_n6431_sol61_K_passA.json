@@ -1,0 +1,127 @@
+{
+  "tile_id": "cor_e0358_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[793, 1000], [835, 974], [875, 948], [915, 920], [957, 891], [1000, 864]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A substantial reddish-ochre band follows the diagonal, with two dark bounding strokes roughly 8–12 px apart; black rectangular symbols sit alongside its northern edge.",
+      "uncertainty_note": "The centre is partly crossed by red boundary strokes, but the paired dark edges remain traceable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The distinction between wide and narrow is relative; the casing is locally compressed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[640, 0], [656, 20], [673, 48], [680, 75], [698, 87], [701, 111], [710, 136], [728, 166], [735, 186], [730, 204], [718, 222], [721, 241], [733, 264], [740, 286], [746, 312], [743, 339], [731, 365], [725, 392], [715, 422], [709, 452], [706, 482], [706, 510], [717, 539], [738, 566], [744, 593], [755, 621], [775, 649], [801, 672], [826, 689]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A fine ochre stroke is accompanied by closely spaced dark dots or short marks. It winds through the peach areas, crosses straight red strokes, and remains visible between the large italic letters.",
+      "uncertainty_note": "The dotted symbol does not clearly fit the supplied classes. Its southern end becomes entangled with black rectangular symbols; a connection to f03 is plausible but is not carried through those symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre stroke could be read as the principal continuous line, with the dark marks accompanying it."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark marks could be read as a broken path line, although many look like dots rather than dashes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[837, 704], [842, 729], [847, 753], [848, 781], [842, 810], [836, 840], [825, 868], [811, 895], [805, 919], [810, 939], [824, 958], [835, 974]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two close dark strokes enclose a narrow reddish-ochre strip, approximately 4–8 px wide. The strip curves southward from the black rectangular symbols and meets the broader diagonal casing.",
+      "uncertainty_note": "The northern transition to f02 is hidden among the rectangular symbols. The southern connection to f01 is visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[477, 529], [515, 542], [549, 558], [580, 572], [615, 586], [641, 601]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A pale grey band follows beside the red stroke, with intermittent darker margins several pixels apart; it bends southeast as the red stroke leaves its straight course.",
+      "uncertainty_note": "This is a candidate track. The pale band could instead be colour spread or a second trace of the boundary; its western beginning and exact centre are indistinct.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the intermittent grey margins are intentional paired edges, this is a faint cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a boundary trace or colour spread alongside the red line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[641, 601], [661, 626], [680, 654], [701, 685], [722, 719], [740, 749], [751, 774]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint grey strip continues southeast beside the curving red line. Its margins are uneven and weak, with no consistently dark casing.",
+      "uncertainty_note": "This may continue f04 as a track, or both may be effects associated with the red boundary. Below the final waypoint, a separate course cannot be distinguished reliably.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible continuation of a faint paired-edge track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: grey spread or an accompanying boundary trace."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[699, 504], [684, 529], [670, 551], [657, 576], [641, 601]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A light grey oblique trace with locally distinguishable margins runs southwest toward the grey band beside the curved red stroke.",
+      "uncertainty_note": "Both its symbol and its apparent meeting with f04/f05 are faint. Its northeastern end cannot be connected confidently to f02.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally paired margins could represent a faded track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a faded parcel edge or irregular colour boundary; the apparent three-way meeting may be incidental."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [835, 974],
+      "branch_count": 3,
+      "evidence_note": "The narrow ochre strip with dark paired edges opens into the broader diagonal cased band; that band continues toward both the bottom and right edges."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [641, 601],
+      "branch_count": 3,
+      "evidence_note": "Provisional junction: pale grey traces extend northwest, northeast and southeast beside the red stroke. Their convergence is indistinct, and the branch count applies only to the candidate-track reading."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [819, 645, 868, 710],
+      "why": "Dense black rectangular symbols and coloured outlines obscure the possible transition between the dotted ochre line and the southern cased line."
+    }
+  ],
+  "overall_note": "The diagonal cased road and its southern winding branch are the clearest road forms. The northern dotted line has an uncertain symbol class, while the grey traces and their provisional junction admit non-road readings. Straight red divisions, long black dashed divisions, blue-green water lines and ochre parcel outlines were excluded."
+}

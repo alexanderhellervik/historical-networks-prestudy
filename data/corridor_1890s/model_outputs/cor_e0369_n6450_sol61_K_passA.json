@@ -1,0 +1,213 @@
+{
+  "tile_id": "cor_e0369_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[622,0],[634,50],[649,100],[664,150],[680,201],[699,251],[714,281],[721,296],[725,332],[726,366],[728,394],[731,421],[733,446],[737,474],[741,512],[745,550],[749,593],[753,638],[760,682],[774,724],[784,764],[797,805],[810,850],[823,894],[835,940],[841,976],[847,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04","j05","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark edges, approximately 10–15 px apart, enclose a pale pink-tan strip. Both edges continue across the blue-green transverse line; small black building marks stand alongside farther down.",
+      "uncertainty_note": "The main course is clear. Connections j04 and j07 depend on whether the adjoining plot-edge strips are roads.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[121,0],[117,34],[116,70],[116,108],[110,146]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "Two close rows of small dark dots or short strokes flank a narrow pale tan strip. They bend slightly left and disappear at the edge of the blue-green fill.",
+      "uncertainty_note": "No continuation across the blue-green band is visible. The paired dotted symbol could also be described as a narrow double line.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The segmented marks form two parallel edges rather than one dashed centreline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,378],[25,356],[49,333],[76,309],[96,290],[109,273]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "A diagonal pale tan strip is bordered by two rows of dark punctuated marks, roughly 6–10 px apart. Its upper end reaches the blue-green band's edge.",
+      "uncertainty_note": "The drawing does not establish a crossing or a connection to f02.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two punctuated edges can be read as a narrow double-line track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[680,201],[711,204],[757,207],[803,207],[850,204],[893,201],[939,200],[974,202],[1000,211]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two rows of small dark dots or short strokes enclose a pale ochre strip approximately 8–12 px wide. The strip meets the solid-edged road and continues to the right edge.",
+      "uncertainty_note": "The route is clear; the symbol combines paired edges with punctuated strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A narrow double-line description also fits the paired segmented edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[721,296],[749,302],[783,310],[822,315],[861,322],[895,326]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "One row of regularly spaced dark blue-black dots runs rightward and slightly downward from the solid-edged road. There is no clear casing; a separate short black mark lies above its far end.",
+      "uncertainty_note": "A dotted path is plausible, but this could instead be an enclosure or property line. The dots do not visibly connect to the black mark above the endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road dotted enclosure or property edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[577,497],[603,486],[631,475],[653,468],[669,466],[692,456],[714,448],[733,446]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j06","j03"],
+      "endpoint_flags": ["dead_end","junction"],
+      "evidence_note": "Two dark dotted rows flank a narrow yellow-tan strip running from beside a black rectangular mark to the solid-edged road. A similarly punctuated arm turns downward near its middle.",
+      "uncertainty_note": "The paired dotted drawing supports a track. Its western endpoint is beside the black mark; no farther continuation is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired punctuated margins also support a narrow double-line classification."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[669,466],[678,483],[689,504],[696,511],[717,513],[741,512]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j06","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Paired dark dotted margins turn downward from f06, bend around a green patch containing a red building mark, and then run right toward the solid-edged road.",
+      "uncertainty_note": "This could be a track around the plot or a dotted enclosure edge; the lower horizontal portion closely follows the green fill.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow track with two segmented edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road enclosure outline around the green building plot."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[737,474],[758,476],[783,481],[804,481],[811,487]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Close rows of small dark marks border a pale strip immediately above red building marks within green fill. The strip extends right from the solid-edged road and becomes confused with the rightmost building and plot outline.",
+      "uncertainty_note": "The marks may represent a short access track or an enclosure edge. The eastern course cannot be carried confidently through the building symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow track represented by two punctuated margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible dotted enclosure or hedge-like edge rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[774,724],[792,719],[815,713]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A very narrow pale oblique strip with faint dark margins separates two green patches beside the solid-edged road. Black and red building symbols lie on opposite sides.",
+      "uncertainty_note": "Tentative road reading: the strip may simply be the adjoining edges of two building plots. Its far end meets the plot outline without a visible continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible shared parcel edge or gap between green fills, with no road intended."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[331,963],[347,979],[365,995],[370,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A faint pale diagonal strip with short dark fragments lies beside black marks and west of the red squares near the bottom edge. Stronger symbols interrupt its upper end.",
+      "uncertainty_note": "Only this short fragment is tentatively traced. It could be a punctuated track, a plot outline, or gaps between building symbols; no continuation through the upper symbols is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The short dark fragments may be the surviving margins of a dotted track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road plot outline or incidental spacing between symbols."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [680,201],
+      "branch_count": 3,
+      "evidence_note": "The paired solid edges continue upward and downward; the paired dotted ochre strip meets their right side."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [721,296],
+      "branch_count": 3,
+      "evidence_note": "A single row of dark dots begins against the right side of the continuing solid-edged strip; the third branch is conditional on its path interpretation."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [733,446],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted strip approaches from the lower left and reaches the left solid margin; the solid-edged strip continues in both directions."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [737,474],
+      "branch_count": 3,
+      "evidence_note": "A pale strip with punctuated margins appears to leave the right side of the continuing solid-edged strip; this connection is tentative because the marks also border green fill."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [741,512],
+      "branch_count": 3,
+      "evidence_note": "The lower horizontal dotted arm reaches the left margin of the continuing solid-edged strip; its track interpretation is uncertain where it follows the green plot edge."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [669,466],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted diagonal strip continues left and upper right, while a matching punctuated arm turns downward beside the green patch."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [774,724],
+      "branch_count": 3,
+      "evidence_note": "A faint narrow pale strip touches the right side of the continuing solid-edged strip between two green patches; the third branch depends on reading it as a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [311,936,433,1000],
+      "why": "Bold lettering, black building marks and faint parcel strokes prevent a secure reading of the short lines between them. Feature f10 records only a tentative visible fragment."
+    }
+  ],
+  "overall_note": "Paired dotted tracks are recorded as dashed_line, with narrow double-line alternatives where applicable. Dotted marks around building plots are ambiguous, and their junction counts are conditional on the road reading. The blue-green water linework, magenta boundary strokes and long straight field dashes are excluded."
+}

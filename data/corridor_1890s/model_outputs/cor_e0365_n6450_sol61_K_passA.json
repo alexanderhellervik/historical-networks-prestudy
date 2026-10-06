@@ -1,0 +1,123 @@
+{
+  "tile_id": "cor_e0365_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 638], [24, 667], [47, 692], [80, 716], [113, 742], [145, 773], [171, 812], [193, 845], [216, 880], [239, 909]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two roughly parallel rows of small dark dots, about 6–10 px apart, flank a narrow pale ochre strip. The rows remain visible across the thin red line near the left edge.",
+      "uncertainty_note": "The paired edges are dotted rather than continuous. The branch at j01 is conditional on the narrow outlined strip being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dots could be classified as an interrupted-line symbol rather than by its paired edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[239, 909], [230, 938], [223, 968], [217, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of dark dots descend from the fork, enclosing a light ochre strip; no continuous dark casing is apparent.",
+      "uncertainty_note": "The symbol is paired but dotted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "An interrupted-line classification is also supported by the dotted edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[239, 909], [273, 930], [313, 948], [353, 966], [392, 984], [428, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Fine dark dots follow the southeast arm immediately below a heavier continuous red stroke. A narrow pale strip separates the dotted edges where both can be distinguished.",
+      "uncertainty_note": "The red stroke overlaps the upper edge in places, making the track center and paired symbol less clear than on f01 and f02; coordinates are approximate within about 8 px.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Only the lower dotted edge is consistently distinct from the adjacent red line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[498, 850], [529, 865], [563, 884], [597, 905], [630, 926], [664, 946], [696, 961], [739, 973], [785, 981], [832, 987], [879, 992], [910, 992], [934, 977], [958, 954], [982, 933], [1000, 922]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two rows of dark dots, approximately 7–10 px apart, border a pale ochre strip. They pass beside a green outlined patch and red and black rectangles, beneath part of the large lettering, then curve toward the right edge.",
+      "uncertainty_note": "The northwest end merges with the black rectangular symbol at the green patch and is stopped there. Continuation beneath the large V is supported by aligned dotted rows visible on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired edges consist of dots rather than solid strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[829, 294], [849, 316], [870, 342], [893, 370], [916, 399], [941, 428], [966, 455], [991, 475], [996, 483], [989, 506], [981, 528], [981, 540], [990, 553], [1000, 565]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A light, regularly dotted dark line runs southeast from an outlined notch. Near the right edge it bends southwest and then southeast; this lower bend appears to have two close dotted edges around a pale strip.",
+      "uncertainty_note": "The upper section looks like one dotted row, while the lower bend looks paired. Their connection near the edge is likely but less distinct; the northwest end merges with a thin parcel outline and is not extended through it.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "One continuous dotted path, widening or gaining a second edge at the lower bend."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The lower bend may be a separate paired track meeting the single dotted path around [996, 483]."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The upper dotted section could instead be a boundary; this would leave only the lower paired bend as a road candidate."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[171, 812], [161, 840], [151, 868], [141, 895], [135, 912], [135, 920]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two thin blue-gray continuous outlines enclose a pale strip roughly 15–20 px wide. The strip approaches the dotted track and closes in a rounded end near [135, 920]; it has no repeated dots or heavy casing.",
+      "uncertainty_note": "This may be an elongated enclosed parcel rather than a road. Contact with f01 is indistinct, so both this feature and j01 are conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If read as a road, its two continuous edges enclose a noticeably wider strip than the dotted tracks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A closed land-cover or parcel outline, with no road branch and no junction at j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [171, 812],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted track continues northwest and southeast; the two thin outlines of f06 approach its southwest side. Three branches exist only if that enclosed strip is read as a connecting road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [239, 909],
+      "branch_count": 3,
+      "evidence_note": "Paired dark dotted rows converge from the northwest and separate into southward and southeastward arms. A heavier red line crosses and follows the upper side of the southeast arm."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The clearest roads have paired dotted edges, which do not map uniquely to the supplied symbol-form classes. The upper-right dotted line and the narrow closed strip at the southwest are retained with alternative readings. Long red strokes and thin land-cover outlines elsewhere are read as boundaries."
+}

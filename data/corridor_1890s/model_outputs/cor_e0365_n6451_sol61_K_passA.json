@@ -1,0 +1,269 @@
+{
+  "tile_id": "cor_e0365_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 471], [28, 446], [55, 424], [83, 400], [113, 373], [148, 348], [189, 322], [231, 297], [273, 273], [310, 252], [350, 233], [391, 215], [433, 199], [471, 187], [495, 181], [530, 172], [566, 157], [609, 136], [652, 115], [695, 98], [739, 80], [784, 61], [829, 41], [872, 23], [916, 7], [936, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous dark outlines, approximately 7–12 px apart, enclose a warm orange strip. The pair remains visible across the tile; red transverse lines cross it without forming road branches.",
+      "uncertainty_note": "The upper edge exit is approximate because the casing is clipped. The small attachment at j03 is less certain than the main road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[310, 252], [285, 238], [260, 222], [234, 207], [211, 194], [195, 184]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two close rows of dark dots flank a pale orange strip running from the continuous road toward a red rectangular building symbol.",
+      "uncertainty_note": "The last few pixels merge with the building symbol. The marks are dots rather than elongated dashes.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired dotted symbol has no exact counterpart among the supplied class names."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[55, 424], [70, 449], [86, 476], [108, 493], [134, 511], [158, 532], [173, 555], [185, 579], [195, 574]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j06"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Closely spaced dark dots form two sides around a narrow warm strip. The line curves past open tree symbols and reaches a narrow black building mark.",
+      "uncertainty_note": "The terminal bend and the short branch at j06 overlap building marks; their exact meeting point is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired dots could be classified separately from a dashed line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[185, 579], [169, 585], [153, 590]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A short warm strip bordered by dark dots extends leftward from the curved dotted route to a red building rectangle.",
+      "uncertainty_note": "It may be the terminal turn of f03 rather than a separate spur; the apparent continuation toward the black building is very short.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Read f03 and f04 as one turning approach, with no three-branch junction at j06."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[495, 181], [496, 171], [499, 163]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Very fine dark strokes leave the upper road casing beside a red rectangle; a narrow pale gap separates the strokes locally.",
+      "uncertainty_note": "This short attachment may be an approach, but the red rectangle interrupts its reading. Thin triangular lines farther above could be parcel outlines, so no continuation through them is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close strokes may form a short, narrowly cased approach."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may belong to the building enclosure rather than a road; j03 would then disappear."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 538], [13, 556], [24, 577], [29, 599], [29, 629], [29, 662], [31, 694], [30, 729]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A fine succession of dark dots bends inward from the left edge, then descends almost vertically. A faint warm trace accompanies portions of it.",
+      "uncertainty_note": "Only one dotted row is consistently distinct. Its attachment to the horizontal dotted strip is faint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted enclosure edge is possible, particularly near the lower attachment."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 733], [15, 730], [30, 729]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Close dark dots follow a narrow warm band immediately above a green-filled enclosure, continuing through the left edge.",
+      "uncertainty_note": "The band coincides with the enclosure's upper edge, so a fence or enclosure outline is an alternative.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This may be an enclosure edge rather than a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[30, 729], [51, 729], [73, 734], [96, 736], [116, 737]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A closely dotted dark strip with warm colouring follows the upper side of the green-filled shape and reaches a black rectangular symbol.",
+      "uncertainty_note": "Its coincidence with the enclosure edge makes the road reading uncertain. The terminal dots merge with the black rectangle.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The entire horizontal strip may be an enclosure edge, which would remove j07."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[946, 0], [960, 24], [975, 48], [990, 73], [1000, 91]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two rows of dark dots border a pale warm strip across the upper-right corner.",
+      "uncertainty_note": "Both ends are clipped. Its relationship to the main road at the top edge is not sufficiently visible to assign a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted strip could form part of an enclosure perimeter."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[1000, 98], [978, 111], [954, 123], [935, 130], [940, 151], [951, 170], [965, 180]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Paired dark dots and a warm intervening band bend left from the edge and then around a green-filled shape containing black and red rectangles.",
+      "uncertainty_note": "The dotted course closely follows the green enclosure, allowing a perimeter reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "These marks may outline the enclosure rather than depict an access route."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[965, 180], [982, 177], [1000, 168]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short paired dotted strip follows the lower-right side of the green-filled shape and continues to the right edge.",
+      "uncertainty_note": "The strip could be the lower enclosure edge rather than a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A perimeter interpretation would reduce or remove the road junction at j04."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[965, 180], [947, 202], [930, 225], [911, 250], [889, 276]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow warm diagonal strip is bordered by closely repeated dark dots. It runs from the dotted enclosure-side lines toward the red near-vertical line.",
+      "uncertainty_note": "Dots are locally faint near both attachments. The course is clearer than the precise junction centres.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired punctate marks do not precisely match a simple dashed-line class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[889, 276], [903, 298], [922, 328], [943, 355], [965, 380], [986, 401]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close dotted sides with a warm centre curve southeast from the meeting beside the red line. The final visible dots approach a heavy black curved mark.",
+      "uncertainty_note": "The black mark interrupts the endpoint reading. No continuation through it to the tile edge is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The final dots may belong to an enclosure edge, and their precise stopping position is uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[889, 276], [892, 317], [895, 361], [898, 405], [901, 450], [904, 495], [907, 541], [910, 587], [912, 631], [915, 679], [918, 722], [922, 741], [944, 763], [967, 786], [988, 806], [1000, 820]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A fine dotted trace follows a narrow warm band immediately right of the heavier red near-vertical line. Around v=735 it bends away from that line and continues diagonally beside the hatched area.",
+      "uncertainty_note": "The dotted trace and red line are very close over most of their length. They may form a road beside a boundary, or the dots may be part of the boundary or adjoining enclosure.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the dotted trace as a narrow route following the red boundary before turning southeast."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the near-vertical portion as boundary decoration, leaving only the lower diagonal portion as a possible route."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [310, 252],
+      "branch_count": 3,
+      "evidence_note": "The two continuous dark road casings continue in both directions; a paired dotted warm strip attaches from the upper left."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [55, 424],
+      "branch_count": 3,
+      "evidence_note": "The broad continuously cased orange strip continues northeast and southwest, while a narrower paired dotted strip leaves toward the lower right."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [495, 181],
+      "branch_count": 3,
+      "evidence_note": "Two directions of the continuously cased road meet very fine upward strokes beside a red rectangle; the third branch is conditional on those strokes being an approach."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [965, 180],
+      "branch_count": 3,
+      "evidence_note": "Three close dotted strips appear to meet at the lower corner of the green-filled shape: one around its left side, one toward the right edge, and one southwest. Enclosure outlines remain an alternative."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [889, 276],
+      "branch_count": 3,
+      "evidence_note": "A paired dotted diagonal arrives from the upper right; dotted warm traces depart southeast and approximately south beside the red line. The southern branch's road interpretation is uncertain."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [185, 579],
+      "branch_count": 3,
+      "evidence_note": "The curved paired dotted strip approaches from above, a short dotted warm arm reaches a red rectangle to the left, and a very short arm reaches the black rectangle to the right; the last arm may instead be part of the terminal symbol."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [30, 729],
+      "branch_count": 3,
+      "evidence_note": "A fine dotted north–south trace meets the closely dotted warm horizontal strip above the green enclosure. The three-branch reading depends on the horizontal strip representing a route."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [978, 389, 1000, 444],
+      "why": "A heavy partial black curved mark overlaps the projected end of the southeast dotted route; its continuation cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The broad diagonal road and several paired dotted approaches are readable. Dotted lines around the right-hand and lower-left enclosures permit both route and enclosure readings, recorded above with conditional junctions. The long red lines and faint long grey dashed lines are read as boundaries rather than roads."
+}

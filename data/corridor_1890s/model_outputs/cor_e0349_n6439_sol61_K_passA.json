@@ -1,0 +1,92 @@
+{
+  "tile_id": "cor_e0349_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[414, 0], [407, 29], [392, 66], [378, 102], [366, 135], [354, 168], [340, 199], [333, 224], [311, 240], [281, 258], [253, 275], [241, 287], [239, 306], [247, 324], [265, 342], [288, 362], [305, 377], [313, 386]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre strip has two darker, partly broken edges roughly 8–12 px apart. It bends through the central black outlines and ends against a small red-and-black rectangular mark.",
+      "uncertainty_note": "The broad pink band masks a short crossing, but the ochre strip aligns immediately on both sides. The rectangular mark hides the southern endpoint; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as an ochre stroke with dark dots rather than two consistently separate edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[110, 0], [109, 22], [115, 48], [127, 77], [137, 105], [144, 134], [155, 164], [162, 194], [171, 218], [176, 234]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One uncased row of dark round-to-short-oval marks curves beside the blue-and-yellow hatching. The marks disappear into the broad pink band.",
+      "uncertainty_note": "The predominantly dotted symbol has no exact class in the supplied list. Its continuation below the pink band is uncertain, so this fragment stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some marks are short elongated strokes and could be described as very short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary remains possible; the curved row is provisionally read as a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[275, 411], [260, 437], [247, 464], [230, 492], [212, 513], [184, 536], [156, 556], [126, 577], [97, 600], [75, 620], [65, 639], [66, 664], [75, 693], [91, 725], [107, 761], [121, 802], [127, 833], [123, 860], [116, 892], [107, 926], [99, 961], [90, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A single uncased row of dark dots and short heavy dashes curves southwest, bends around the hatched patch, and continues to the bottom edge. No parallel casing is visible.",
+      "uncertainty_note": "Black lettering hides the upper termination. The longer separated strokes also admit a boundary reading; no connection through the lettering to f01 is claimed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The mixture of dots and dashes may represent a boundary rather than a path, or an irregularly printed dotted path symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[211, 254], [217, 270], [229, 280], [241, 287]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A short oblique sequence of dark spots lies below the pink band and approaches the ochre strip. Nearby outlined oval marks make the sequence difficult to isolate.",
+      "uncertainty_note": "This is a tentative path fragment and tentative junction. The spots could instead belong to the surrounding vegetation symbols; continuity with f02 is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the spots form one short path, they could be read as a broken single line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent line may consist of separate vegetation marks, in which case this feature and j01 would be absent."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [241, 287],
+      "branch_count": 3,
+      "evidence_note": "Tentatively, the short row of dark spots meets the two-edged ochre strip at its bend, giving two ochre-road branches and one spotted branch; the merger is poorly resolved."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [658, 0, 695, 1000],
+      "why": "A dark scan seam and adjacent displacement obscure fine linework."
+    },
+    {
+      "bbox_uv": [261, 386, 291, 425],
+      "why": "Heavy black lettering covers the upper termination of the southwest dotted line."
+    }
+  ],
+  "overall_note": "The broad pink band with a heavy dark lower strip is read as railway-like linework, and the thin red strokes as boundaries, rather than roads. Dotted path symbols are difficult to distinguish from boundary strokes and isolated vegetation marks. The short feature f04 and its junction remain tentative."
+}

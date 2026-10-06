@@ -1,0 +1,217 @@
+{
+  "tile_id": "cor_e0361_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,550],[26,522],[53,495],[76,469],[98,439],[122,406],[144,375],[166,345],[188,313],[205,287],[224,257],[244,226],[264,195],[286,164],[305,142],[326,120],[348,98],[370,74],[388,49],[403,26],[413,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j03","j04","j05"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A broad reddish strip lies between two heavy, continuous black edges, generally about 10–16 px apart. Narrower ochre lines meet its western edge at several positions.",
+      "uncertainty_note": "The main road is clear. The side-line interpretations at j04 and j05 are less certain, so those junctions depend on accepting f06 and f07 as roads.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,302],[5,330],[19,359],[34,389],[49,420],[61,447],[76,469]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow brown-orange line curves down the left margin toward the broad road. Dark irregular dots or short strokes flank parts of the coloured strip.",
+      "uncertainty_note": "The course and contact with the broad road are visible, but the fine edging is insufficiently resolved to distinguish two dotted edges from a single stippled line.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The coloured strip may be bounded by two closely spaced, stippled road edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel-edge interpretation remains possible where the line follows the edge of the pale coloured area."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,247],[25,236],[46,223],[62,218],[88,235],[116,254],[143,275],[167,295],[188,313]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre strip with close dark, partly dotted edges bends at approximately [62,218], then follows the upper side of the rectangular garden symbols to the broad road.",
+      "uncertainty_note": "Black symbols obscure a short part around the bend. The aligned coloured strip on both sides supports carrying the course through, although its exact centre there is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The edging could be a stippled single track symbol rather than a clearly paired-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,199],[26,193],[49,191],[69,187],[85,180],[99,170]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short yellow-brown strip with dark stippling runs from the left edge toward a red rectangular building symbol. The dark marks become crowded near the building.",
+      "uncertainty_note": "The terminal portion is obscured by the building and adjacent black marks. No continuation or connection to f03 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Two close dotted margins may enclose the coloured strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some dark marks may belong to an enclosure edge rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[213,100],[235,118],[260,140],[286,164]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A short tan-orange strip, approximately 5–8 px wide and bounded by dark strokes, extends southeast from a red building rectangle to the broad cased road.",
+      "uncertainty_note": "The northwest endpoint touches the building symbol; any course beneath or beyond it is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short line could partly represent the edge of the building plot; the paired margins are less clear near its northwest end."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[242,29],[260,51],[282,73],[304,96],[326,120]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow tan corridor with dark bordering strokes runs southeast beside the small garden enclosure and reaches the broad road. Red and black building marks crowd its northwest end.",
+      "uncertainty_note": "This may be an access lane or the garden's outer edge. The proposed junction is conditional on the access-lane reading, and the endpoint at the building is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The bordering strokes may be two edges of a narrow access road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may instead be an enclosure or parcel boundary, in which case j04 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[310,0],[330,18],[349,34],[368,47],[388,49]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "An orange-brown diagonal line with dark edging clips the top of the tile beside dense green garden symbols and approaches the western edge of the broad road.",
+      "uncertainty_note": "Its colour resembles the narrow roads, but its position against the garden also supports an enclosure-edge reading. Contact with the broad road is crowded by black outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The coloured diagonal may be a narrow lane beside the garden."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be the garden perimeter rather than a road; under that reading j05 is absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[429,0],[452,22],[476,45],[505,69],[535,93],[565,119],[593,144],[622,168],[650,188],[680,198],[711,203],[741,196],[764,186],[784,177],[811,165],[842,155],[875,148],[909,146],[946,153],[974,168],[1000,175]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A winding ochre-brown strip about 6–10 px wide has close dark, predominantly stippled margins. It passes beneath large black lettering and forks near the right edge.",
+      "uncertainty_note": "Lettering and the vertical fold obscure short portions, but the same strip is visible on both sides. Its centre beneath those interruptions is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled margins could be read as a composite dotted track symbol rather than two distinct lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[741,139],[762,157],[784,177]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Two close, relatively straight black strokes enclose a pale ochre strip running southeast from a red building rectangle to the winding stippled road.",
+      "uncertainty_note": "The building covers the northwest endpoint. A plot-edge interpretation is possible because the short paired line also borders the pale rectangular area.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired strokes may delineate a narrow plot edge rather than an access road; that would remove j06."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[946,153],[951,136],[965,117],[981,99],[1000,82]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre strip with dark dotted edging branches northeast from the winding road, bends upward and exits the right edge.",
+      "uncertainty_note": "The course is clear, although individual edging dots merge into short strokes at this resolution.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The fine symbol may be a stippled track without separately readable paired edges."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [76,469],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown stippled line reaches the western black casing of the broad red strip; the broad strip continues in both directions."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [188,313],
+      "branch_count": 3,
+      "evidence_note": "The ochre line beside the rectangular garden meets the broad road's western edge, forming a three-branch contact."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [286,164],
+      "branch_count": 3,
+      "evidence_note": "A short paired tan line from the red building meets the west side of the continuous broad cased strip."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [326,120],
+      "branch_count": 3,
+      "evidence_note": "A narrow dark-edged tan corridor beside the garden appears to contact the broad road; three road branches result if that corridor is an access lane."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [388,49],
+      "branch_count": 3,
+      "evidence_note": "The orange-brown line bordering the upper garden appears to meet the western casing of the broad road; this is a conditional junction because the side line may be an enclosure edge."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [784,177],
+      "branch_count": 3,
+      "evidence_note": "The short, straight paired line from the red rectangle touches the winding ochre strip, which continues east and southwest; the third branch depends on the access-road reading."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [946,153],
+      "branch_count": 3,
+      "evidence_note": "Three narrow ochre strips with dark stippled edging visibly meet: one westward, one east-southeastward and one northeastward."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [433,0,469,1000],
+      "why": "A dark vertical fold and adjacent discoloration conceal fine line details. The upper road crossing remains traceable from matching drawing on either side."
+    }
+  ],
+  "overall_note": "The narrow stippled symbols and short lines beside garden and building outlines are the main ambiguities; their alternative readings are retained. Long diagonal dashed lines, the lower-right red diagonal and the red line across the bottom are read as boundaries, while the irregular blue lines are read as water or ditch lines. Coordinates near lettering, building symbols and the fold are approximate."
+}

@@ -1,0 +1,132 @@
+{
+  "tile_id": "cor_e0358_n6426",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown-filled double line enters at top edge u~390, runs straight south past the Smedtorpet buildings to about (390,330), then bends SE through (430,410), (500,480), (580,580) and joins the main road at about (660,685). The overlay polyline follows it throughout.",
+      "uncertainty_note": "Width is a little narrower than the main road (f02); could be the same Landsväg/Bygdeväg class drawn slightly thinner, i.e. double_line_wide."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Widest brown-filled double line on the tile: from the bottom edge near (355,1000) NE through (450,880), (540,790), (625,735), (660,690), (750,635), (790,590), (840,520), (890,485) to the east edge near (1000,440). The overlay follows it.",
+      "uncertainty_note": "East of about (880,485) a crimson boundary line runs on or along the road, which makes the last stretch harder to read, but the brown road fill continues to the edge."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown line runs from the small settlement near (25,185) east through (125,180), (195,173), (245,188), (305,163), crosses f01 at about (385,148) and continues to about (540,128). The overlay follows it east of about u=100.",
+      "uncertainty_note": "The overlay's westernmost stretch runs to the left edge at about (0,212); on the tile the brown line seems instead to turn north at about (24,183) into f04, and the strip between u=0 and u=25 is a white settlement blob. That end is uncertain. The line is fairly heavy and may be a narrow double line rather than a single line."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown line from the left edge near (0,85) running down through (12,140) to about (24,183), where it meets f03.",
+      "uncertainty_note": "This is a short piece right at the edge. It reads as the continuation of f03 and not as a separate road."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay traces the thin crimson/purple line from (0,285) through (340,322) and (590,322) to the corner at (735,280). The neighbouring example uses this colour and weight for boundaries (Gräns), and the line has no brown road fill. It also continues as the straight crimson line SSE from (590,320) to (810,860), which is clearly a boundary.",
+      "uncertainty_note": "Just north of the crimson line, from about (0,265) to (330,300), there is a pale double band, which may be an uncoloured lane (reported as missed feature m01). If that band is what the proposer meant, the verdict would instead be partly_agree_course_differs for the western half only."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the crimson corner at about (735,280) a pair of dark parallel lines about 10 px apart, with a pale fill, runs SE through (790,350) and (850,450) to the main road at about (885,480). The crimson boundary runs along its inner side. This reads as an uncoloured lane.",
+      "uncertainty_note": "The double band could instead be a ditch or field edge that carries the boundary, since it has no brown fill. Its NW end at the boundary corner may be a dead end, and it is unclear whether the overlay's continuation to the east edge is part of f06 or the end of f02."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown line leaves the main road in Rise at about (750,640) and runs SE through (800,700), (870,745) and (940,775) to the east edge near (1000,790). The overlay follows it.",
+      "uncertainty_note": "It might be a narrow double line. The class could be single_line or double_line_narrow."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin red-brown line leaves the main road at the G farm at about (545,790) and runs SE through (610,825) and (690,860) to about (740,925). Its colour matches the brown road lines, not the purple-crimson boundaries.",
+      "uncertainty_note": "It is thin and reddish, so it could be a property line in brown ink. Its SE end at about (740,925) seems to stop at a field or woodland edge (dead end)."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay is a very short stroke at about (320,920)-(350,948), just west of the main road among the buildings at the bottom. At this resolution I cannot pick out a separate brown road line there; only building outlines and dark plot lines are visible.",
+      "uncertainty_note": "It may be a short farm access off f02 or a plot boundary. The drawing does not decide which."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 266], [100, 272], [200, 282], [270, 292], [330, 302]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Pale grey double band (two faint parallel lines) running just north of and parallel to the crimson boundary, from the west edge toward the wet ground and buildings near Smedtorpet.",
+      "uncertainty_note": "It has no brown fill and is faint. It could be an uncoloured lane, a strip of meadow along the boundary, or a ditch. It fades out in the green wetland near u~330.",
+      "alternatives": ["not a road: boundary strip or ditch", "double_line_narrow lane continuing east to f01 at about (385,310)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[540, 130], [545, 200], [550, 270], [555, 325]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j1"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two thin dark parallel lines with pale fill run south from the east end of f03 at (540,128) to the crimson line at about (555,325). This looks like an uncoloured lane (fägata) linking the f03 road to the fields south of Smedtorpet.",
+      "uncertainty_note": "Without brown fill it could be a ditch pair or a fenced strip, so it may not be a road. It is unclear what it connects to at its south end.",
+      "alternatives": ["not a road (ditch or field strip)", "continues SSE as m03"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[595, 335], [630, 420], [670, 520], [705, 600], [725, 640]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Faint pale band bounded by a thin grey line, running just east of and parallel to the straight crimson boundary from about (595,335) toward the main road at Rise.",
+      "uncertainty_note": "Very faint. It may only be the paper showing along the boundary, or a field strip. Low confidence that it is a road.",
+      "alternatives": ["not a road", "southward continuation of m02 to f02"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [24, 183],
+      "what_is_contested": "Number of branches: whether f03 only bends north into f04 (2 branches), or also continues west to the edge at about (0,212) as the overlay draws it (3 branches).",
+      "evidence_note": "The brown line clearly turns north here. West of it the white settlement blob hides whether any road reaches the edge."
+    },
+    {
+      "uv": [540, 128],
+      "what_is_contested": "Whether this is a junction at all: f03 ends here, and the double band m02 runs south from the same point.",
+      "evidence_note": "The brown line ends at the band's top. A thin dark line continues east to about (660,160) and looks like a field edge, not a road."
+    },
+    {
+      "uv": [735, 280],
+      "what_is_contested": "Whether f06 starts at a real road junction or dead-ends at the boundary corner.",
+      "evidence_note": "Only crimson boundary lines meet the NW end of the double band. No brown road reaches this point."
+    },
+    {
+      "uv": [885, 482],
+      "what_is_contested": "Exact position, and which lines meet: f06 joins f02 here, but the crimson boundary following f06 then runs along f02 to the east edge.",
+      "evidence_note": "The boundary and road overprint each other between u~880 and the edge."
+    }
+  ],
+  "overall_note": "The brown-filled main road (f02), the N-S road (f01) and the brown single lines f03/f04, f07 and f08 are clearly drawn and the overlay follows them. f05 traces a crimson boundary, not a road, and f09 cannot be judged. The pale uncoloured double bands (f06, m01-m03) are the main uncertainty: they may be lanes or boundary strips."
+}

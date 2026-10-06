@@ -1,0 +1,120 @@
+{
+  "tile_id": "cor_e0345_n6446",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of bold black dots starts at the corner of the field near (600,118), runs diagonally down to the buildings near (700,228), then down their west side (~740,290-750,350) and east along the lot row to ~(830,375). The polyline follows this dotted line. The single row of dots matches the Gångstig symbol.",
+      "uncertainty_note": "On this sheet, fine dotted lines also mark boundaries between land-use types. The upper diagonal part runs along the edge between the wooded meadow and the farm lots, so it could be such a boundary rather than a footpath. The class is the symbol form only."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A reddish-brown band edged in black runs from about (845,352) east-north-east, under the 'Kn..' lettering, to the tile edge near (1000,318). It looks like the brown-washed bands that the worked example reads as Sämre körväg. The polyline lies on it.",
+      "uncertainty_note": "The band is partly covered by the place-name lettering and the building symbols at '78'. Its west end could stop at the buildings instead of joining the dotted line at (830,375). It could also be a narrow strip of tomt (plot) rather than a road. The overlay does not show its class, so the class here is my own."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (830,375) and (820,470) the polyline runs along the solid black east edge of the pink lot. At this resolution I cannot separate any dotted path symbol from the lot outline.",
+      "uncertainty_note": "A link between the village path and the road/dotted line at (820,470) is plausible on topological grounds. However, the drawing at this spot does not show it clearly."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line, with a faint reddish line under it, runs from about (835,466) east to ~(980,478). It then bends south along the east edge toward (1000,520+). The polyline follows it to the edge.",
+      "uncertainty_note": "This could be a meadow/land-use boundary instead of a path, because it bounds the open meadow to the south. The exact exit point is unclear: it could leave at (1000,500), or the line could turn south and leave lower down."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two thin grey parallel lines run from about (790,488), at the south-west corner of the lot, down-left to meet the larger grey band at ~(718,557). The polyline follows them.",
+      "uncertainty_note": "The double line is clear between ~(720,555) and (790,488). Whether it continues the last ~30 px to (820,472) is unclear. Its class could be single_line if the grey edges are a wash border rather than two drawn edges."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A grey-washed band, about 15-20 px wide with thin edge lines, runs from the shore at ~(605,482) down-right to ~(712,562). The polyline lies on it.",
+      "uncertainty_note": "The west end meets the reed/shore zone. The faint straight line that continues north-west across the lake toward (380,295) looks like a crease or pencil line, not the road. The width class (narrow vs wide) is a judgement."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same grey double band continues from ~(712,562) east-south-east through ~(800,615) and ~(900,630) to the east edge near (1000,615). The polyline follows it.",
+      "uncertainty_note": "Near the east edge the band is faint, so its exact exit v could be off by about 10-15 px."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short link runs from about (765,352) to ~(830,332), among the lot outlines and building symbols west of '78'. No dotted or double-line road symbol can be separated from the lot edges and the building symbols there.",
+      "uncertainty_note": "It could be a short lane between the lots to the farm building at ~(845,300), or just a lot edge."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the west edge of the large pink field from ~(530,750) to (595,965). There, only the solid field outline and a faint greenish dotted fringe between the field and the shoreline are visible. This looks like a land-use/shore boundary, not a road symbol. Nothing leads to it from either end.",
+      "uncertainty_note": "The fringe is a fine dotted line, which could also be read as a Gångstig along the shore. I find that less likely because the line hugs the field outline exactly."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the east edge, parallel lines with a row of dots between them run from ~(1000,780) down through ~(980,850) to the bottom near (960,1000). This looks like a road symbol (dotted double line, Sämre/Bättre körväg type) cut by the tile edge. The polyline runs alongside it.",
+      "uncertainty_note": "Much of the symbol lies on or beyond the tile edge. The polyline sits about 10-20 px west of the visible lines in places. I cannot tell the symbol form reliably enough to give a class."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[823, 473], [842, 492], [862, 510]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin reddish-brown line leaves the dotted line/junction near (823,473) and runs south-east to the north-west corner of the small pink parcel at ~(865,512). In the worked example, thin red-brown lines like this one were read as footpaths.",
+      "uncertainty_note": "The line is short and faint. It could be a boundary or a parcel-access mark instead of a path.",
+      "alternatives": ["not a road: parcel boundary line", "dashed_line footpath to the parcel"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [714, 560],
+      "what_is_contested": "Whether the narrow double line f05 really joins the grey band f06/f07 here (making a 3-way junction), and the exact position of the join (it could be ~10 px further east).",
+      "evidence_note": "Where the two grey bands meet, the edge lines merge and the washes overlap. Clear branches are visible on three sides, but the join itself is blurred."
+    },
+    {
+      "uv": [822, 472],
+      "what_is_contested": "How many lines meet here, out of f03, f04, f05 and m01. It is also unclear whether f05 reaches this point or ends at the lot corner near (790,488).",
+      "evidence_note": "Here the lot corner, the dotted line along the meadow, the end of the grey double line and the thin red line to the parcel all come within about 30 px of each other. The drawing does not show which of them actually connect."
+    },
+    {
+      "uv": [830, 375],
+      "what_is_contested": "Whether the brown band f02, the dotted line f01 and the putative link f03 meet at one junction, or the brown band ends at the buildings near '78' without joining.",
+      "evidence_note": "The building symbols and the 'Kn' lettering cover the area where the brown band ends and the dotted line turns."
+    },
+    {
+      "uv": [605, 482],
+      "what_is_contested": "Whether the road f06 ends at the shore (a dead end or landing place) or continues north-west.",
+      "evidence_note": "The road wash stops at the reed/shore belt. Beyond it, only a very faint straight line crosses the lake, which looks like a sheet crease or pencil line."
+    }
+  ],
+  "overall_note": "The clearest roads are the grey double bands f06/f07 and the branch f05. The village dotted lines f01/f04 fit the Gångstig symbol, but they could also be land-use boundaries. The thick red band with the black dash-dot line on the west is a boundary (Härads/Sockengräns type), not a road, and the faint straight lines across the lake look like creases or pencil construction lines."
+}

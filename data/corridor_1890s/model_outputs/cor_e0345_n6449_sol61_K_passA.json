@@ -1,0 +1,129 @@
+{
+  "tile_id": "cor_e0345_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,563],[41,548],[84,535],[122,529],[163,526],[205,520],[241,504],[280,484],[320,463],[358,440],[399,415],[438,390],[459,369],[482,347],[530,326],[578,308],[627,288],[677,269],[725,248],[772,223],[821,197],[869,170],[915,144],[960,118],[1000,92]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark casings enclose a brown strip approximately 10–14 px wide. Across the heavy red-and-black line near [145,527], closely spaced black cross marks obscure the strip, but matching casings remain visible on both sides.",
+      "uncertainty_note": "The centreline through the crossing is approximate; its continuity is clear.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[400,0],[403,31],[397,62],[396,94],[400,133],[401,166],[407,206],[413,246],[415,284],[415,316],[421,350],[438,390]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow brown strip runs between dark margins about 5–8 px apart; one margin contains repeated dark dots or short strokes. It bends directly into the wider brown strip.",
+      "uncertainty_note": "Individual marginal marks are blurred, so the distinction between two casings and a line accompanied by dots is imperfect.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The symbol could be a continuous brown line with an interrupted dark companion rather than two continuous casings."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[320,463],[344,475],[367,486],[375,502],[380,530],[392,548],[412,557],[435,560],[461,553],[487,544],[513,532],[535,525],[557,534],[580,548]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A brown strip approximately 6–9 px wide leaves the broad road. Dark dotted margins follow its bends, especially around [410,557] and along the approach to [535,525].",
+      "uncertainty_note": "Some stretches coincide with blue outlines of tan patches, which makes the individual road margins difficult to separate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Locally the drawing resolves as brown colouring with dots alongside a patch outline rather than a clearly separate pair of casings."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[580,548],[602,558],[623,566],[646,568],[666,565]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "The brown strip continues east with a dark lower margin and intermittent dots; a blue upper outline encloses a narrow tan wedge. The visible strip ends at the wedge's short eastern edge.",
+      "uncertainty_note": "This short continuation could instead be colouring along the edge of the tan wedge. No clear continuation to the nearby red or black rectangles is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible patch boundary rather than a separately drawn track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[580,548],[601,530],[622,512],[643,493],[665,473],[684,455],[697,440],[719,431],[734,435],[745,416]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Small dark dots and short strokes form a narrow interrupted trace beside a blue outline, running northeast from the brown strip. The trace bends around a small notch near [719,431] and disappears into heavy black lettering.",
+      "uncertainty_note": "A dotted path and an emphasized patch boundary are both plausible. Its course beyond [745,416], and any connection to the broad road, cannot be read.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the interrupted marks constitute a separate path, this is the closest available symbol-form class."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may belong to the adjacent patch boundary, in which case this is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[1000,180],[983,207],[967,234],[950,258],[934,282],[922,292],[933,298],[944,292],[951,307],[929,320],[905,334],[875,347],[850,359]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "An oblique trace of dark short strokes follows the outside of a tan patch, with a narrow pale or brown interval beside its blue outline. Near [933,298] it makes an angular detour; farther southwest black letters conceal it.",
+      "uncertainty_note": "This may be a narrow track beside the outline, or simply the interrupted outline itself. No connection beneath the lettering is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible interrupted track following the visible trace."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible patch boundary rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [438,390],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown strip from above opens into the broad, dark-cased diagonal strip; the broad strip continues in both directions."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [320,463],
+      "branch_count": 3,
+      "evidence_note": "A narrower brown strip with dotted margins leaves the southeast side of the broad double-cased strip, which remains continuous through the meeting."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [580,548],
+      "branch_count": 3,
+      "evidence_note": "The brown strip continues west and east, while an interrupted dark trace departs northeast along a blue outline. The count of three is conditional on that northeast trace being a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [733,333,819,432],
+      "why": "Heavy black lettering masks the possible continuation of the northeast interrupted trace."
+    },
+    {
+      "bbox_uv": [832,326,925,403],
+      "why": "Black lettering overlaps the southwestern end of the possible track beside the eastern tan patch."
+    }
+  ],
+  "overall_note": "The broad brown road and its northern and southern branches are the clearest road symbols. Two interrupted traces are retained as doubtful tracks because they coincide with patch outlines and disappear beneath lettering. The heavy red-and-black line curving from the left edge toward the bottom is read as a boundary, not a road."
+}

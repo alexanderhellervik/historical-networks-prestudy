@@ -1,0 +1,152 @@
+{
+  "tile_id": "cor_e0356_n6425",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[49, 0], [48, 45], [51, 95], [55, 145], [54, 195], [55, 245], [54, 295], [58, 335], [57, 363], [48, 400], [28, 448], [0, 488]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose an ochre-pink strip approximately 12–18 px wide; both edges follow the bend. A separate broken dark line runs beside parts of it.",
+      "uncertainty_note": "The road casing is clear. The red eastward lines meeting it appear to be parcel divisions, so they are not counted as road branches.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[849, 214], [880, 199], [914, 180], [946, 158], [973, 134], [1000, 111]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow brown-ochre strip has dark edging and irregular small dark marks along its sides; it bends toward the right edge. Its western end overlaps the heavy black railway symbol.",
+      "uncertainty_note": "The edging is uneven enough that the exact symbol class is uncertain. No continuation west of the railway overlap is sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The brown stroke and irregular edging could represent a track with a symbol that does not cleanly match the listed forms."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[720, 350], [747, 381], [774, 412], [802, 444], [829, 475], [856, 506], [883, 537], [910, 568], [937, 600], [964, 632], [991, 663], [1000, 674]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A pale diagonal strip lies between fine dark linework and a stronger red-brown line, roughly 8–15 px apart. It crosses the block-patterned railway and continues southeast.",
+      "uncertainty_note": "The parallel strokes could delineate a narrow road, but their different colours and weights also support a parcel-boundary or narrow field-strip reading. The upper end is lost among bank and crossing strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the parallel strokes are road casing, the polyline follows the middle of that casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a boundary with an adjacent field edge; under this reading it is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[205, 590], [191, 617], [174, 648], [159, 679], [147, 704], [132, 740], [115, 772], [96, 803], [90, 813]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin brown-red diagonal with dark edging passes beside small black rectangular building symbols. In places a second fine edge is visible a few pixels away.",
+      "uncertainty_note": "This may be an access track, but a field or property edge beside the buildings is also plausible. Its upper end merges with a heavier transverse red line; its lower end merges with red bank linework.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some sections appear to have closely spaced sides enclosing a pale strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a parcel or yard boundary rather than a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 700], [45, 701], [90, 703], [120, 703], [147, 704]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A nearly horizontal dark stroke with red-brown colour alongside it reaches the thin diagonal near the building symbols. No consistently separated pair of road edges is visible.",
+      "uncertainty_note": "Its apparent meeting with the diagonal supports a possible access line, but the stroke also resembles the red-edged parcel divisions elsewhere on the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a field boundary; the road interpretation and associated junction are uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 604], [40, 614], [80, 625], [120, 635], [151, 643], [174, 648]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A fine row of dark dots and short broken marks runs diagonally toward the small rectangular enclosure and the brown-red diagonal. It has no clear continuous casing.",
+      "uncertainty_note": "The marks could be a path, but a dotted field or enclosure limit remains plausible. The final few pixels are crowded by the enclosure strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a dotted boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[379, 609], [371, 645], [366, 683], [365, 720], [375, 748], [393, 769]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Fine grey-dark strokes border a pale narrow strip descending beside the lettering and small building marks. The strip turns southeast near its lower end.",
+      "uncertainty_note": "This could be a farm approach or merely the edge of the long enclosure. Lettering and building/bank strokes prevent a certain continuation at either end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip could be a narrowly cased approach."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly enclosure or field-edge linework rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0, 974], [25, 936], [48, 902], [72, 877], [88, 867], [102, 858]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two irregular dark edges enclose a pale, locally greenish strip roughly 20–30 px wide. They converge toward the dense linework below the horizontal watercourse.",
+      "uncertainty_note": "The strip is a possible track, but its variable width, irregular sides and green tint also support a drainage or meadow-strip interpretation. No distinct road stroke can be followed through the upper overlap.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the enclosing edges are road casing, they form a comparatively wide strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly water or land-cover boundaries enclosing a narrow strip, rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [174, 648],
+      "branch_count": 3,
+      "evidence_note": "The fine dotted line reaches the brown-red diagonal beside a small rectangular enclosure; the diagonal continues in both directions. This is a possible three-branch junction conditional on these lines being paths rather than boundaries."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [147, 704],
+      "branch_count": 3,
+      "evidence_note": "The horizontal red-dark stroke meets the thin diagonal, which continues northeast and southwest. The visible meeting supports three branches, but its interpretation as a road junction remains uncertain."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The western cased road is clear; the short northeastern brown line is also road-like. Finer farm approaches, the southeastern diagonal strip and the southwestern pale strip admit non-road readings, retained explicitly as alternatives. The block-patterned railway, blue water edges and clearly dashed or numbered parcel divisions are excluded."
+}

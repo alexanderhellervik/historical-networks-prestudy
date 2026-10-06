@@ -1,0 +1,77 @@
+{
+  "tile_id": "cor_e0361_n6450",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dense black dotted line (fine double row of dots, like the model legend's Sämre körväg) runs from about (825,818) through (795,880) and (760,950) to the bottom edge near (708,1000). The polyline lies on it.",
+      "uncertainty_note": "The symbol form is clear. The class is given as dashed_line because the vocabulary has no dotted class. A thin orange line runs parallel about 30-50 px to the west (see m01) and could be part of the same route. It is unclear where the top end meets f02/f03."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along the southern edge of the conifer area (asterisks) a pale band edged by two fine lines runs from (0,992) via (175,938) and (240,945) to (325,982), then (395,935), (600,832) and (752,725), and then turns SE to about (825,812). The skifteslinjer (black long dashes) end on this band at (385,940), (605,800) and (755,722), and it continues across the sheet join as f03.",
+      "uncertainty_note": "The band may only be the drawn edge between forest and meadow (an ägogräns with a wash margin), not a double-line road. Its smooth, continuous course and its continuation across the sheet join favour a road, but I am only moderately confident. The SE leg from (752,725) to (825,812) is the least certain part, because it coincides with the outline of the meadow and lövskog patch."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "East of the vertical sheet-join line (about u 870), a pale band with a fine brownish edge runs from about (870,815) up to the east edge near (1000,765). It continues the f02 band.",
+      "uncertainty_note": "The ambiguity is the same as for f02 (road or forest/meadow edge). The short link from (828,815) to the sheet join at (868,818) lies where the sheets are pasted together and is not clearly drawn."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the SW edge of a greyish translucent strip about 30-40 px wide that runs from (590,0) to (870,265). Its NE side is bounded by a crimson line (610,0)-(880,250), which continues east of the sheet join (895,262)-(1000,355). There is no inked line on f04's course itself, and the skifteslinjer dashes cross the strip without a break.",
+      "uncertainty_note": "The strip could be a road band whose crimson edge colours a landsväg, but it reads more like a wash or tone edge beside a crimson boundary line (crimson lines are boundaries in the worked example). If it is a road, its course would be along the strip centre, roughly 15-20 px NE of f04."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[800, 838], [748, 868], [738, 905], [716, 950], [686, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin orange-brown line runs SW from near the top of f01 through the lövskog/meadow patch to the bottom edge, roughly parallel to f01 and west of it. In the worked example, thin orange-brown lines of this kind carry the Gångstig reading.",
+      "uncertainty_note": "Low confidence. It may be the edge of a coloured area or an ägogräns, not a path.",
+      "alternatives": ["not a road: colour or area boundary", "same route as f01, drawn twice (the dotted and orange lines together forming one road symbol)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[393, 942], [405, 970], [416, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short reddish-brown line leaves the f02 band near (393,942), beside the small stream loop, and runs down to the bottom edge.",
+      "uncertainty_note": "Very low confidence. It is short and next to streams and the end of a skifteslinje, and could be a boundary or a colour edge.",
+      "alternatives": ["not a road: boundary or colour edge"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [828, 815],
+      "what_is_contested": "Whether f01, f02 and f03 meet here as a three-way junction. Alternatively, f01 could meet the f02/f03 road at the sheet join (about 868,818), or f02's SE leg could be only a meadow outline, so that no junction exists here.",
+      "evidence_note": "The dotted f01 line starts at the corner of the meadow outline. The f02/f03 link crosses the pasted sheet join, where the lines are not continuous."
+    },
+    {
+      "uv": [752, 725],
+      "what_is_contested": "Whether this is a bend in f02 or a junction where the forest-edge band continues while the SE leg is a separate area outline.",
+      "evidence_note": "A skifteslinje ends exactly here, and the band changes direction sharply."
+    },
+    {
+      "uv": [393, 942],
+      "what_is_contested": "Whether m02 joins f02 here, and so whether this is a junction at all.",
+      "evidence_note": "A skifteslinje end, a small stream loop and the reddish line all meet at this point."
+    }
+  ],
+  "overall_note": "Most lines on this tile are skifteslinjer (black long dashes across the conifer forest), streams, area outlines and a crimson boundary, not roads. The clearest road is the dotted f01. The f02/f03 band along the forest edge is probably a double-line road but could be an area edge. f04 follows a tone edge, not an inked line."
+}

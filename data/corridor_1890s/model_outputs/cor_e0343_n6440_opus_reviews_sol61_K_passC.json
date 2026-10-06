@@ -1,0 +1,77 @@
+{
+  "tile_id": "cor_e0343_n6440",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous thin line pair with red/brown dotted infill runs from the left edge at about (0,420) up through (60,300), (130,228), (200,232), (280,205), (380,152), (480,128), (560,150) and (650,212), then turns NE through (700,165) and (760,95) to the top edge at about (850,0). The polyline follows it closely. It looks like the red-dotted body of a road of the Sämre körväg type, as on the neighbouring example tile.",
+      "uncertainty_note": "Between (480,128) and (650,212) the red dotting runs tight against the black edge of a field, so part of that stretch could be field-edge dotting and not road. Continuity through the bend at (650,212) is still the most likely reading. The class could also be single_line, because the second edge line is faint in places."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short narrow line pair with red dots between the lines leaves the main road near (350,178) and runs SSE to the small red-marked croft (T) at about (380,288). It reads as an access track to the croft.",
+      "uncertainty_note": "This is a short feature, and the lines could be a field edge plus dotting rather than a true double line. The red infill is what decides it in favour of a road. The class could be single_line."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the croft at (382,300), the polyline follows the black outline of the pink field tongue down to its tip at about (400,395). This stretch has no red dotting and no second parallel line. It is the field boundary, and the croft track ends at the croft.",
+      "uncertainty_note": "A faint footpath along the field edge cannot be ruled out entirely, but nothing beyond the field outline is drawn there."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At (150,250)-(150,310), below the red house at (145,238), there is a short column of separate black blobs of uneven size. These look like small outbuilding symbols of the farm Ö, not the fine regular dots of a Gångstig, and no line connects them.",
+      "uncertainty_note": "The blobs are aligned, so a very short dotted path from the house cannot be excluded completely. Their size and irregularity favour buildings."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of fine black dots runs from beside the red house at about (760,192) SE, just south of the blue stream, to about (912,292). The dotted line does not stop there: it carries on around the field edge, south to (925,360) and then east to the right edge at about (1000,365). The polyline follows the first part of this dotted line correctly.",
+      "uncertainty_note": "A single row of dots fits the legend's Gångstig symbol, and it starts at a house, which favours a path. But the same dotting traces field corners further on, which is typical of a boundary (ägogräns) and not of a path. With no road colour visible, I cannot decide between a path and a boundary."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dead-straight, very faint pale line crosses the forest from about (5,415) to (525,1000). It has no red/brown colour, no infill or dotting, and no connection to any settlement. It ignores the terrain, which suggests a surveyed boundary (rågång) or a crease or fold in the paper, not a road.",
+      "uncertainty_note": "In places it looks like two faint parallel strokes, which could be a faint double line such as a winter road or an unfinished track. On the neighbouring example tile, straight uncoloured lines across forest were read as boundaries."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [650, 212],
+      "what_is_contested": "This could be a simple bend in one road (west arm plus NE arm) or a junction. It is also unclear whether the red-dotted stretch west of it, (480,128)-(650,212), is road or field-edge dotting.",
+      "evidence_note": "The red-dotted west arm meets the red-dotted NE arm at a field corner. No third coloured branch leaves the point, so I read a bend. The overlay draws it the same way."
+    },
+    {
+      "uv": [758, 190],
+      "what_is_contested": "It is unclear whether the dotted line (f05) actually joins the main road or ends at the red house beside it, and whether it is a road at all.",
+      "evidence_note": "The dots start just east of the red-dotted NE road, at the small red house at about (755,185). No dots are visible crossing the gap to the road line itself."
+    },
+    {
+      "uv": [912, 292],
+      "what_is_contested": "If f05 is a path, it is unclear whether it ends here at the stream or continues south and east along the field edge to (925,360) and (1000,365).",
+      "evidence_note": "The same fine dotting continues around the field outline. That continuation is the main reason to doubt that f05 is a path."
+    },
+    {
+      "uv": [5, 413],
+      "what_is_contested": "The overlay makes the diagonal f06 meet the main road at the left edge. I do not read f06 as a road, so I do not count this as a road junction.",
+      "evidence_note": "The faint straight line reaches the left margin at almost the same point where the red-dotted road leaves the tile, but it has no road colour."
+    }
+  ],
+  "overall_note": "The only clearly coloured roads are the red-dotted road crossing the north of the tile (f01) and the short spur to the croft T (f02). I found no coloured road that the overlay misses. The straight faint diagonal (f06), the field-edge continuation below the croft (f03) and the black blobs at Ö (f04) do not look like roads, and the dotted line SE of the red house (f05) could be either a path or a boundary."
+}

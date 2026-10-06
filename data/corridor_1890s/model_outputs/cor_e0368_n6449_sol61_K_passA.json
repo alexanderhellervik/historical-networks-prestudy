@@ -1,0 +1,214 @@
+{
+  "tile_id": "cor_e0368_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 14], [43, 11], [83, 14], [115, 17], [138, 15], [174, 9], [216, 14], [259, 20], [294, 27], [320, 31], [344, 23], [367, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two rows of small dark dots enclose a pale strip roughly 8–12 px wide; black building rectangles lie immediately below portions of it.",
+      "uncertainty_note": "The eastern bend is crowded by blue water lines, but the paired dotted margins appear to continue to the top edge.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[138, 15], [123, 50], [110, 87], [107, 119], [108, 158], [109, 192], [110, 227], [116, 247], [100, 269], [73, 300], [44, 335], [17, 365], [0, 379]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close dotted margins flank a pale strip; below the red diagonal the strip bends past black and red building symbols toward the left edge.",
+      "uncertainty_note": "The meeting with the red diagonal is crowded by building symbols; its position is approximate within about 10 px.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The northern and southwestern portions could meet the diagonal at two closely spaced junctions rather than one four-branch junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 143], [48, 179], [80, 203], [110, 227], [151, 257], [190, 285], [221, 305], [262, 335], [304, 366], [345, 395], [385, 420], [414, 464], [443, 507], [473, 552], [503, 597], [532, 642], [558, 682], [576, 707], [572, 737], [562, 772], [550, 807], [533, 848]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03", "j04", "j06"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "The diagonal has a strong red stroke with an offset row of dark dots and a narrow pale interval; below the sharp bend at [576,707], paired dotted marks continue south while the plain red stroke turns east.",
+      "uncertainty_note": "The red diagonal may combine a boundary with a track, or some adjacent marks may belong to the boundary symbol. Its road status and exact margin count are uncertain; the dotted southern continuation is clearer.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the red and dotted margins as a narrow road symbol, possibly overprinted by a boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read some or all of the red diagonal above [576,707] as a boundary rather than a road; the proposed junctions on those portions would then change."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[221, 305], [250, 275], [280, 243], [310, 210], [339, 179], [366, 149], [391, 124], [432, 96], [475, 67], [518, 38], [560, 10], [576, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A continuous red diagonal is accompanied by close dark dotted marks, most apparent beside the blue water strip and along its southeastern side.",
+      "uncertainty_note": "A narrow track coincident with a red boundary is plausible, but the second road margin is not consistently distinct.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The red stroke and adjacent dotted margin outline a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The diagonal could be a boundary with adjacent boundary marks rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[391, 124], [383, 102], [379, 77], [378, 49], [381, 24], [386, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close rows of dark dotted or short dashed marks enclose a pale strip; a small red rectangle and the letter B sit beside it.",
+      "uncertainty_note": "The adjacent lettering and rectangle locally crowd the margins, but their continuation is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[385, 420], [338, 458], [289, 499], [240, 543], [190, 584], [160, 608], [130, 632], [82, 673], [34, 712], [0, 738]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04", "j07", "j08"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A dark red diagonal has a close dotted margin on its southeastern side, separated by a narrow pale strip; pale outlined polygons and small black rectangles lie beside it.",
+      "uncertainty_note": "The paired appearance supports a track, but a red boundary with adjacent marks remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the red edge and dotted edge as the two margins of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the diagonal as a boundary rather than a road; the two dotted branches would terminate against that boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[240, 543], [260, 571], [279, 598], [304, 627]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two narrow rows of dark dots leave the diagonal and run toward a small black rectangular symbol, with a pale interval between them.",
+      "uncertainty_note": "The terminal marks merge into the black rectangle; no continuation beyond it is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short dotted strip could be a parcel division or enclosure edge rather than an access track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[130, 632], [152, 666], [173, 703], [194, 742], [217, 783], [244, 822], [276, 850], [309, 876], [326, 889], [365, 859], [403, 841], [438, 824], [468, 808], [497, 827], [533, 848]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j08", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Close dotted margins follow the descending curve, then turn northeast along pale polygon edges; a thin blue line and red diagonals cross the course near its lower bend.",
+      "uncertainty_note": "Around [326,889], several coloured lines overlap and one dotted margin is faint. A continuous track is proposed from the aligned visible marks on either side.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The northeastern portion from about [326,889] to [533,848] could be a parcel edge; alternatively, the two portions may end separately at the crowded crossing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[533, 848], [566, 883], [599, 905], [621, 913], [646, 904], [663, 883], [677, 860], [690, 843], [727, 832], [773, 824], [818, 819], [858, 824], [902, 833], [946, 846], [977, 856], [1000, 872]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two rows of small dark dots enclose a light strip curving past clustered black and red rectangles, then above the large Vägatorp lettering.",
+      "uncertainty_note": "Building symbols crowd the bend near [663,883], and lettering crowds the eastern end; the dotted margins support continuity through both.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[1000, 36], [976, 67], [950, 104], [921, 143], [891, 183], [862, 220], [832, 242], [840, 262], [876, 286], [911, 310], [929, 325], [912, 347], [892, 371], [879, 390], [883, 414], [897, 440], [916, 470], [936, 500], [958, 536], [980, 569], [1000, 597]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A pale strip is bounded by two close rows of dark dots or short dashes; it bends beside green patches containing red and black rectangles.",
+      "uncertainty_note": "The margins near [929,325] meet thin blue polygon outlines, but the dotted course remains distinguishable. No clear additional road branch is visible there.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0, 672], [30, 644], [60, 615], [91, 583], [121, 551], [151, 518]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "Two very fine grey-blue solid traces, approximately 5–8 px apart, run diagonally beside pale angular outlines; neither has conspicuous red colouring or heavy casing.",
+      "uncertainty_note": "These faint parallel traces could outline a track or could be adjacent parcel edges. They taper near [151,518], with no certain continuation or connection to the red diagonal.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent pair may consist of separate field or property outlines rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [138, 15],
+      "branch_count": 3,
+      "evidence_note": "The east–west pair of dotted margins meets a southward pair around a pale triangular opening."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [110, 227],
+      "branch_count": 4,
+      "evidence_note": "In the proposed reading, the red diagonal and its offset dotted marks cross the north–south dotted strip; black building symbols crowd the southwestern side."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [221, 305],
+      "branch_count": 3,
+      "evidence_note": "Three red arms with adjacent dark dotted marks meet over the blue-green water strip; the northeastern arm joins the northwest–southeast diagonal."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [385, 420],
+      "branch_count": 3,
+      "evidence_note": "Three red arms with close offset dark marks meet at an angular point, opening northwest, southwest and southeast."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [391, 124],
+      "branch_count": 3,
+      "evidence_note": "A nearly vertical dotted pair meets the red southwest–northeast diagonal, whose adjacent dotted marks remain visible beside the meeting."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [533, 848],
+      "branch_count": 3,
+      "evidence_note": "Three narrow dotted strips meet: one from the north, one from the northwest and one curving southeast; no red stroke continues through this meeting."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [240, 543],
+      "branch_count": 3,
+      "evidence_note": "A short southeastern pair of dots meets the red diagonal and its close dotted margin, producing three branches in the proposed reading."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [130, 632],
+      "branch_count": 3,
+      "evidence_note": "A southward pair of dotted margins leaves the red diagonal beside pale angular outlines, producing three branches in the proposed reading."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Several red diagonals have adjacent track-like marks, making roads coincident with boundaries difficult to distinguish from boundaries alone. Plain red segments and thin blue parcel or water lines were not traced as roads; the faint southwestern pair is retained with doubt. Junction counts follow the proposed road reading and would change under the boundary alternatives."
+}

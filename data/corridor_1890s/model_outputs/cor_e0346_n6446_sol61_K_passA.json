@@ -1,0 +1,373 @@
+{
+  "tile_id": "cor_e0346_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[145,0],[126,29],[108,53],[88,77],[70,96],[64,125],[59,159],[59,195],[60,232],[64,250],[81,257],[107,259],[125,271],[136,291],[136,320]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A reddish-orange strip has two close dark, stippled margins, roughly 8–12 px apart; black lettering partly overlaps its lower bends.",
+      "uncertainty_note": "The margins are intermittently dotted rather than continuous. Short overlaps with lettering have visible continuation on both sides.",
+      "alternatives": [{"proposed_class":"unknown","note":"The paired stippled margins may warrant a separate symbol description rather than a continuous double-line class."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[136,320],[131,337],[138,356]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The orange strip and close dark dotted margins continue through a short bend between two branching positions.",
+      "uncertainty_note": "The precise center of the upper branching position is blurred by converging stipples.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,318],[24,325],[49,335],[77,341],[103,337],[122,329],[136,320]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two dark stippled edges enclose an orange band that curves from the left edge into the vertically approaching band.",
+      "uncertainty_note": "The final few pixels merge with the other band's stippling; the joining position is approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[138,356],[170,353],[205,349],[240,347],[278,347]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A nearly horizontal orange band has two close dark dotted rims; large black lettering touches its southern rim.",
+      "uncertainty_note": "Lettering locally hides individual dots, but the strip remains traceable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[138,356],[145,382],[157,409],[177,433],[201,459],[216,484],[225,516],[239,552],[255,582]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The reddish band curves southeast with paired dark stippled edges, maintaining approximately the same width through the bends.",
+      "uncertainty_note": "The upper portion passes through lettering; its continuation is visible immediately above and below.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[255,582],[273,607],[294,627],[324,642],[351,652],[377,660]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "An orange strip with two dark dotted margins crosses green linework and bends toward a thin reddish branch.",
+      "uncertainty_note": "The green crossing lines have a different color and symbol and are not counted as road branches.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[278,347],[306,341],[341,338],[375,334],[398,329],[404,312],[419,305],[433,301]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow orange strip with dark stippled margins continues east, then turns upward into a cluster of black rectangular marks.",
+      "uncertainty_note": "The terminal black rectangle hides the end; no extension beyond it is asserted.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[278,347],[283,370],[300,391],[326,410],[355,426],[389,433],[415,442],[438,450],[459,444],[487,425],[510,409],[531,404],[548,412],[565,435],[587,464],[610,497],[632,528],[651,551]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j06"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A winding reddish-orange band has two dark stippled rims; its tight central bend and subsequent southeast course remain visible.",
+      "uncertainty_note": "A black letter overlaps the initial bend. Both sides establish the continuation, although the exact center there is slightly uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[651,551],[677,561],[701,565],[720,559],[732,570],[739,586],[747,599]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06","j07"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The orange band bends beside small black rectangles; short orange portions and dark margins appear again toward the southern branching position.",
+      "uncertainty_note": "Rectangles and lettering obscure part of the bend around 720–740, 555–585. The proposed connection follows the visible portions on either side, but its exact course is less secure than the adjacent segments.",
+      "alternatives": [{"proposed_class":"unknown","note":"The northern band could terminate among the rectangles, leaving a separate southern feature; the intervening marks prevent a fully secure connection."}]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[377,660],[387,642],[406,631],[431,623],[463,616],[496,607],[527,593],[550,589],[573,588],[601,578],[627,567],[651,551]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A much thinner reddish line, about 3–5 px wide, joins the wider bands at both ends; close casing is not consistently visible.",
+      "uncertainty_note": "Small dark marks interrupt the red stroke, so a dotted rather than continuous symbol is possible.",
+      "alternatives": [{"proposed_class":"unknown","note":"This may be a single dotted path symbol whose dots have merged into a reddish stroke at this resolution."}]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[377,660],[402,676],[430,695],[445,711],[450,744],[452,768],[466,790],[491,814],[513,839],[524,867],[532,895],[548,918],[568,930],[586,935],[592,944],[586,958],[576,976],[575,987],[590,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "The orange band retains two dark dotted rims through several bends, beside black rectangles and across blue or green strokes.",
+      "uncertainty_note": "Large lettering touches the final bends. Short visible orange portions on both sides support the continuation to the bottom edge.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[747,599],[760,626],[780,653],[803,676],[834,694],[855,693],[885,685],[915,681],[944,685],[972,697],[1000,706]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "An orange band with dark stippled margins curves southeast and then east, crossing a blue diagonal before reaching the right edge.",
+      "uncertainty_note": "The blue crossing is not counted as a road branch. Faint gray strokes near the eastern portion have an unresolved relationship to this band.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[747,599],[733,618],[721,637],[713,653],[710,670],[722,683],[752,698],[784,714],[817,731],[837,746],[843,766],[839,790],[832,820],[829,845],[812,873],[791,899],[768,926],[744,948],[724,966]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A second orange band with paired dark stippled rims leaves the branching position southwest, bends southeast, and then curves south toward large black lettering.",
+      "uncertainty_note": "The lower end disappears into the large lettering. No continuation to the bottom edge is asserted; faint gray crossings elsewhere do not establish additional road junctions.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[0,540],[20,560],[44,578],[72,590],[103,597]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "One row of regularly spaced dark dots curves southeast; there is no clear second parallel row or solid casing.",
+      "uncertainty_note": "The single dotted symbol resembles a path, but its coincidence with a faint color edge leaves a boundary interpretation possible.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"A discontinuous path class is the closest listed approximation, although the marks are dots rather than elongated dashes."},
+        {"proposed_class":"unknown","note":"It could instead be dotted non-road boundary linework."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[103,597],[133,597],[164,592],[195,585],[224,581],[255,582]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The same single row of dark, evenly spaced dots turns gently upward and reaches the orange band.",
+      "uncertainty_note": "Its visible arrival at the orange band supports a path reading, but the dot-only symbol has no exact match among the supplied classes.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Approximate classification as a discontinuous path."},
+        {"proposed_class":"unknown","note":"A dotted property or other boundary remains an alternative."}
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[103,597],[88,603],[78,615],[74,628]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A very faint curved gray stroke, locally appearing paired, leaves the dotted line and approaches green strokes and a small circular mark.",
+      "uncertainty_note": "This is a tentative third branch. It fades among the green linework and circular mark; it is not connected across that gap to f17.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"It could be a lightly drawn path connecting toward the southern dotted feature."},
+        {"proposed_class":"unknown","note":"It may instead be non-road gray linework associated with the adjacent green strokes."}
+      ]
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[0,779],[22,763],[40,747],[56,733],[68,714],[72,692],[75,669],[76,646]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "One row of dark dots, with a weak reddish tint in places, curves northeast from the left edge and then north beside green linework.",
+      "uncertainty_note": "The upper end loses its distinct dotted symbol near the green crossing. Connection to f16 is possible but not established.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The single dotted row may be a path, represented approximately by the discontinuous-line class."},
+        {"proposed_class":"unknown","note":"A dotted boundary interpretation is also possible."}
+      ]
+    },
+    {
+      "feature_id": "f18",
+      "waypoints_uv": [[256,1000],[276,962],[298,921],[321,881],[344,843],[368,812],[397,786],[424,773],[443,765]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A pale gray curved band has two apparent edges a few pixels apart; both are substantially lighter than the orange road margins.",
+      "uncertainty_note": "Its upper end becomes indistinct beside the orange band. The gray marks may be terrain or other non-road linework rather than a track; the center is approximate where one edge fades.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"If the two pale edges are deliberate road margins, this is a narrow uncolored double-line route."},
+        {"proposed_class":"unknown","note":"The apparent pairing could be the edges of gray shading or non-road terrain linework."}
+      ]
+    },
+    {
+      "feature_id": "f19",
+      "waypoints_uv": [[696,663],[677,680],[656,702],[633,722],[609,737],[589,732],[565,723],[544,708],[530,688],[524,669],[532,648],[541,627]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "An uneven pale gray curve passes among black star symbols; portions have two apparent edges, while others broaden into diffuse gray.",
+      "uncertainty_note": "Both ends fade rather than show clear terminations. The curve could be a track, a boundary, or the outline of gray terrain shading; no connection to the orange band is established.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Some stretches could represent two lightly drawn track margins."},
+        {"proposed_class":"unknown","note":"Its broad diffuse portions and enclosing curve favor a possible non-road shading or terrain interpretation."}
+      ]
+    },
+    {
+      "feature_id": "f20",
+      "waypoints_uv": [[610,392],[629,415],[646,447],[660,484],[673,520],[683,558],[689,591],[684,617],[671,641],[653,665],[635,688],[631,701]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Faint gray strokes curve beside a dark-edged peach polygon and then among star symbols; a narrow pale interior is visible intermittently.",
+      "uncertainty_note": "The strokes become diffuse at both ends. They may belong to the same non-road gray system as f19 rather than form an independent route.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Intermittent paired strokes could be uncolored road margins."},
+        {"proposed_class":"unknown","note":"A polygon-edge, terrain-shading, or other non-road interpretation remains plausible; f19 and f20 may be parts of one such marking."}
+      ]
+    },
+    {
+      "feature_id": "f21",
+      "waypoints_uv": [[1000,636],[974,648],[948,662],[924,676]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two weak gray strokes form a curving pale band approaching the orange east-running strip.",
+      "uncertainty_note": "The gray symbol cannot be followed distinctly into or across the orange strip. It might continue toward f22, but a crossing or junction is not established.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Possible uncolored paired road margins."},
+        {"proposed_class":"unknown","note":"Possible non-road gray boundary or shading line."}
+      ]
+    },
+    {
+      "feature_id": "f22",
+      "waypoints_uv": [[897,702],[880,716],[862,733],[851,747]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short pale gray curve, locally paired, is visible between the orange east-running strip and the lower orange bend.",
+      "uncertainty_note": "Both contacts are obscured or indistinct. This could be a continuation of f21 and f23, but the intervening connections are unresolved.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Possible short section of an uncolored double-line route."},
+        {"proposed_class":"unknown","note":"It may be non-road gray linework; the apparent separate features could be parts of one continuous marking."}
+      ]
+    },
+    {
+      "feature_id": "f23",
+      "waypoints_uv": [[854,769],[862,804],[880,838],[907,865],[936,887],[965,903],[1000,910]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A pale gray curved band has weak parallel edges and passes across or beside dark polygon outlines.",
+      "uncertainty_note": "Its northern end is lost beside the orange bend. A road reading is possible, but diffuse gray shading and non-road linework provide alternatives.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Possible lightly drawn paired road margins."},
+        {"proposed_class":"unknown","note":"Possible terrain or other non-road gray marking, potentially continuous with f22."}
+      ]
+    },
+    {
+      "feature_id": "f24",
+      "waypoints_uv": [[369,0],[374,43],[377,85],[386,127],[401,166],[414,205],[432,243]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two very light gray strokes curve through dense horizontal hatching; their narrow separation is clearer near the lower end.",
+      "uncertainty_note": "The lower end merges with dark polygon-edge linework. Hatching makes it difficult to distinguish a road from a non-road linear gray band.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Possible uncolored double-line route."},
+        {"proposed_class":"unknown","note":"Possible boundary or other gray linework within the hatched area."}
+      ]
+    },
+    {
+      "feature_id": "f25",
+      "waypoints_uv": [[850,0],[840,42],[834,86],[829,132],[828,177],[830,224],[835,271],[842,315],[852,354],[868,397],[889,440],[908,480],[930,520],[957,552],[986,580],[1000,591]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A long pale gray curved band shows two close, weak edges against horizontal hatching, with no orange fill or clear dark stippled casing.",
+      "uncertainty_note": "This is a low-confidence road candidate. The apparent double edges may belong to shading or other non-road linework, and the center is approximate where the hatching interferes.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"If the pale edges are road margins, they define an uncolored double-line route."},
+        {"proposed_class":"unknown","note":"A non-road gray band or boundary is equally possible from this tile."}
+      ]
+    },
+    {
+      "feature_id": "f26",
+      "waypoints_uv": [[341,1000],[362,962],[386,923],[408,889],[429,855],[451,824],[475,801],[487,804]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A very faint oblique gray stroke curves upward; a second nearby gray edge is intermittent, and star symbols overlap portions.",
+      "uncertainty_note": "The upper end is indistinct near darker marks. This may be another gray shading or terrain line rather than a road, and its course is less secure than the orange and dotted features.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Possible lightly drawn single-line route."},
+        {"proposed_class":"unknown","note":"Possible non-road gray shading edge, related to the similar pale curves elsewhere in the lower tile."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [136,320],
+      "branch_count": 3,
+      "evidence_note": "Three orange arms with close dark stippled margins meet: one from above, one curving in from the left, and one continuing downward; merged stipples blur the exact center."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [138,356],
+      "branch_count": 3,
+      "evidence_note": "The paired stippled orange band divides into an east-running arm and a southeast-running arm beneath the descending northern arm."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [278,347],
+      "branch_count": 3,
+      "evidence_note": "Three similarly narrow orange bands with dark stippled rims meet: west, east, and a strongly curving southeast arm partly overlapped by lettering."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [255,582],
+      "branch_count": 3,
+      "evidence_note": "A single row of dark dots arrives from the west at the paired-margin orange strip, which continues northwest and southeast."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [377,660],
+      "branch_count": 3,
+      "evidence_note": "The wider orange strip continues northwest and southeast, while a much thinner reddish stroke leaves toward the northeast."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [651,551],
+      "branch_count": 3,
+      "evidence_note": "A thin reddish stroke enters from the southwest where the wider paired-margin orange strip bends between northwest and east-southeast arms."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [747,599],
+      "branch_count": 3,
+      "evidence_note": "Orange arms extend southeast and southwest, with a shorter northern orange portion beside black rectangles and lettering; the northern connection is the uncertain reading described in f09."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [103,597],
+      "branch_count": 3,
+      "evidence_note": "Two arms of a single dark dotted row continue west and east; a very faint curved gray third arm appears to leave southwest, making this junction tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [716,548,770,612],
+      "why": "Black rectangles and lettering hide portions of the orange bend and prevent a precise trace of the proposed northern connection at j07."
+    },
+    {
+      "bbox_uv": [697,948,790,1000],
+      "why": "Large black lettering obscures the lower orange route; its continuation beyond the endpoint of f13 cannot be determined."
+    },
+    {
+      "bbox_uv": [65,615,88,650],
+      "why": "Green strokes, a circular mark, and fading gray or dotted marks prevent a secure connection between f16 and f17."
+    },
+    {
+      "bbox_uv": [837,739,871,780],
+      "why": "The orange bend, polygon outlines, and diffuse gray marks obscure whether the faint gray segments connect, cross, or terminate."
+    }
+  ],
+  "overall_note": "The orange paired-margin routes and single dotted lines are substantially clearer than the pale gray curves. The gray candidates are retained with explicit non-road alternatives, and uncertain contacts are not used to complete their network. Junction j07 depends on the obscured connection in f09, and j08 has a tentative faint third arm."
+}

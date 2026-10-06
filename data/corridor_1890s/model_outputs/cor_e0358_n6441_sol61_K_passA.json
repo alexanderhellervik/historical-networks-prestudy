@@ -1,0 +1,112 @@
+{
+  "tile_id": "cor_e0358_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,176],[15,143],[34,117],[54,90],[75,66],[96,44],[116,28],[124,12],[147,5],[158,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "One uncased row of gray-black dots and short marks, approximately 3–6 px wide and 10–15 px apart; green-blue outlines cross it and oval tree symbols lie beside it.",
+      "uncertainty_note": "Some marks merge with green-blue outlines; coordinates follow the visible dotted row, with approximately 5 px positional uncertainty.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary is possible, although no regular long-dash-and-dot sequence is resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[214,0],[210,24],[199,40],[188,56],[185,80],[180,101],[173,128]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A single uncased chain of dark gray dots and short strokes runs beside a heavier continuous black outline; green-blue lines overlap it near the lower end.",
+      "uncertainty_note": "The lower marks disappear into overlapping outlines. Connection to f03 is possible but insufficiently clear to bridge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The fragmented marks could represent a boundary beside the outlined strip."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "May be the northern portion of the same path as f03, with the connection hidden between their flagged endpoints."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[176,153],[156,165],[132,179],[108,191],[83,204],[65,208],[47,206]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "One row of dark gray dots crosses a star-shaped tree mark and continues southwest beside a solid black outline; the final marks overlap green-blue edging and horizontal marsh hatching.",
+      "uncertainty_note": "The northeastern connection to f02 is unresolved. At the southwestern end, separate path marks cannot be distinguished from the edging and hatching, so the trace stops.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a dotted boundary; the westernmost marks could also belong to the adjacent outlines rather than continue the path."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "May join f02 across the unresolved gap."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[578,0],[570,18],[549,39],[525,63],[501,87],[478,114],[457,140],[438,168],[420,196],[410,218],[405,241],[400,264],[393,287],[386,303],[369,317],[350,327]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow ochre-brown strip has dark dotted or short-dash edging, approximately 6–10 px across; black and red rectangular building marks stand beside its lower section.",
+      "uncertainty_note": "The edging is clearest above the buildings. Its lower end merges with building marks and heavy green-black outlines, preventing a certain continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches resemble two closely spaced edges, with one edge appearing nearly continuous at this resolution."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[622,58],[642,80],[659,99],[676,122],[686,145],[708,164],[725,187],[731,210],[729,236],[722,268],[714,299],[710,330],[709,359],[715,390],[718,420],[721,449],[729,478],[743,508],[759,537],[771,553]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "One continuous ochre-rust stroke, approximately 2–4 px wide, curves between star-shaped tree symbols and crosses green-blue outlines; no paired casing or regular dot sequence is visible.",
+      "uncertainty_note": "Road status is doubtful: similarly coloured strokes outline the narrow strip beneath the upper lettering. The upper end merges with lettering and building outlines; the lower end disappears into the thick transverse band.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "May be a parcel or other boundary rather than a road or path."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "A faint intermittent path symbol beneath the coloured stroke is possible, but individual marks cannot be resolved."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [164,112,188,157],
+      "why": "Overlapping dark outlines conceal whether the dotted traces f02 and f03 connect."
+    },
+    {
+      "bbox_uv": [35,190,88,225],
+      "why": "Dots, green-blue edging and marsh hatching merge around the southwestern endpoint of f03."
+    },
+    {
+      "bbox_uv": [322,299,397,354],
+      "why": "Building marks and heavy parcel outlines obscure the termination and any continuation of f04."
+    },
+    {
+      "bbox_uv": [578,0,860,96],
+      "why": "Large lettering overlaps coloured strokes and building edges, preventing reliable identification of additional road branches."
+    }
+  ],
+  "overall_note": "The thick transverse band with repeated dark rectangular blocks is read as railway; the straight red strokes and long black dashes are read as boundaries. Dotted traces and building overlaps leave several endpoints unresolved, and no three-branch road junction is clearly visible. The curved orange stroke is retained as an uncertain road candidate."
+}

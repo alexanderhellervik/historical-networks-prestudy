@@ -1,0 +1,87 @@
+{
+  "tile_id": "cor_e0365_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 672], [18, 660], [48, 641], [77, 623],
+        [106, 609], [140, 601], [174, 597], [207, 594],
+        [241, 593], [277, 591], [315, 591], [353, 590],
+        [390, 588], [430, 589], [470, 588], [510, 588],
+        [550, 589], [580, 592], [610, 598], [640, 607],
+        [670, 614], [710, 618], [750, 619], [790, 620],
+        [830, 622], [870, 625], [910, 626], [950, 626],
+        [1000, 630]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close rows of dark dots and short strokes, approximately 6–10 px apart, border a narrow orange-brown strip. Black rectangular symbols sit beside it around u=180–300; its eastern portion remains dotted beside green outlines.",
+      "uncertainty_note": "The edges are stippled rather than continuously cased. Fine detail is degraded near the sheet join and black lettering, but the orange strip and paired marks support the continuous course shown. The junction with f02 is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two interrupted edges could instead be classified by their dotted/dashed form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [18, 660], [26, 642], [37, 620], [48, 599], [59, 582]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint, narrow dark trace runs obliquely beside a pale blue-green patch. Some marks appear interrupted; neither paired edges nor casing are clearly resolved.",
+      "uncertainty_note": "Possible path, but it may simply be the patch outline. Its lower end appears to touch f01; its upper end merges with other outline strokes, preventing a secure continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the interrupted marks constitute a separate path, they form approximately one row."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire trace may be a land-cover outline, in which case f02 and junction j01 should be omitted."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [614, 1000], [633, 989], [651, 981],
+        [672, 974], [692, 973], [711, 977]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint warm-coloured trace with intermittent dark marks lies beside irregular green outlines and small black quadrangles. The marks become entangled with the large '2 B' lettering; edge spacing is unresolved.",
+      "uncertainty_note": "A short track entering the bottom edge is plausible, but its separation from the coloured outline is uncertain. The course stops at the lettering; no continuation or connection is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks may represent a dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The warm trace and dark marks may belong entirely to the adjacent land-cover outline, with no separate road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [18, 660],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted orange-brown strip continues in two directions, while the faint oblique trace f02 appears to meet its upper side. Three branches are conditional on f02 being a path rather than an outline."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 552, 1000, 593],
+      "why": "This box encloses the oblique brown sheet join, which masks or doubles fine strokes locally. The whole box is not uniformly unreadable; the principal orange-brown route remains partly visible."
+    }
+  ],
+  "overall_note": "The sheet join and large lettering make small traces difficult to separate from coloured outlines. Broad magenta strokes with dark boundary marks, thin red parcel lines, and blue-green drainage outlines were excluded as non-roads. Two doubtful candidates are retained without extending their obscured ends."
+}

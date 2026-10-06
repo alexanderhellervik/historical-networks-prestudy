@@ -1,0 +1,202 @@
+{
+  "tile_id": "cor_e0342_n6424",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[472,0],[482,36],[488,72],[484,111],[488,146],[501,174],[530,195],[544,226],[552,266],[557,304],[568,346],[582,374],[606,382],[630,388],[642,411],[656,449],[674,486],[699,526],[720,559],[735,586],[738,608],[734,640],[730,674]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two closely spaced dark, partly dotted edges enclose a reddish-brown strip approximately 6–10 px wide; the paired marks follow the bends.",
+      "uncertainty_note": "The edges merge locally with other dark marks near the buildings, but the winding strip remains traceable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[730,674],[721,689],[710,707]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Short reddish strip with dark broken margins between several black and red rectangular symbols.",
+      "uncertainty_note": "The exact centreline and separation of the two nearby branch points are uncertain by approximately 10 px because building symbols overlap the marks.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The symbols could conceal a single compact branching area rather than two distinct junctions joined by this short segment."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[710,707],[683,722],[659,742],[639,772],[622,804],[605,832],[583,855],[563,883],[551,919],[540,956],[529,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Closely spaced dark broken margins surround a narrow brown-red strip; the western margin is especially distinct beside the peach-coloured fill.",
+      "uncertainty_note": "The first few pixels overlap black rectangular symbols; the paired track marks become clearer southwest of them.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[730,674],[764,664],[795,651],[826,633],[855,618],[884,601],[914,588],[944,577],[973,563],[1000,551]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow yellow-brown trace has a strong dark edge and intermittent adjacent dark marks; large italic lettering and red-black rectangles cross it.",
+      "uncertainty_note": "The trace resembles a narrow access track, but parts also coincide with coloured parcel edges. Continuity beneath the large lettering is less secure than on the central track.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The adjacent marks may form the second edge of a narrow track."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches show only one narrow dark line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of this course may be a parcel boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[710,707],[731,732],[751,757],[775,783],[792,786],[814,780],[838,789],[862,799],[889,801],[915,812],[935,822],[934,836],[909,848],[883,846],[856,836],[832,827]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two dark, irregularly broken margins enclose a reddish-yellow strip, descending diagonally before bending east and then back west; peach fill lies alongside.",
+      "uncertainty_note": "The returning western end enters a cluster of heavy black marks. Its connection to other short lines there cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The eastern bend partly follows a narrow coloured parcel; its outer edge could be mistaken for a second road margin."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[829,838],[846,851],[858,872],[878,885],[899,876],[921,888],[941,878],[951,852]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Short reddish-brown stretches lie between heavy dark marks, locally showing a second parallel edge; black lettering and rectangular symbols interrupt them.",
+      "uncertainty_note": "This may be a short access track, several separate fragments, or coloured parcel margins. Neither connection to f05 nor continuation across the blue-dark line is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally paired marks could represent a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road reading as parcel edges and overlapping symbols is also supported."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[149,774],[156,735],[167,689],[177,641],[187,593],[194,555],[207,540],[248,532],[292,522],[318,542],[343,563],[371,585],[386,601]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Very pale grey-brown lines form a narrow corridor, locally with two edges several pixels apart; they bend sharply near v=540 and approach heavy lettering.",
+      "uncertainty_note": "The marks are faint and intermittently lost in the paper texture. Both ends lack a demonstrable continuation, and the corridor may be a parcel division.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale parallel edges could describe a lightly drawn track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property boundary is an equally plausible interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[708,553],[692,546],[675,557],[664,574],[652,591]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short bent yellow-brown trace with dark edging lies between the central track and red-black rectangles; a large italic character crosses its western end.",
+      "uncertainty_note": "Neither a join to the central track nor continuation beneath the character is certain. The trace could instead outline the small peach-coloured patch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Locally separated edges suggest a short access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may be the boundary of the coloured patch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[279,977],[316,950],[351,927],[392,903],[434,877],[478,851],[520,830],[561,812],[598,796]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint oblique grey-brown trace, locally accompanied by a second pale line, crosses the pale area above the green-filled patch.",
+      "uncertainty_note": "The trace is weak and could be a parcel division rather than a path. It fades at both ends; no connection to the central track is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as a path, most of its visible length has only one discernible line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road parcel line or discoloured edge remains plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[415,772],[433,746],[452,716],[470,687],[485,672],[507,660]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A thin pale grey-brown curving line, with a possible nearby second edge, runs from the bend in a red line toward the underside of the large place-name lettering.",
+      "uncertainty_note": "The upper end disappears among letter strokes. The lower end meets a red line without clear evidence of further road marks; this could be a parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The principal pale stroke could represent a lightly drawn path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A property division rather than a road is also plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [730,674],
+      "branch_count": 3,
+      "evidence_note": "The reddish paired track approaches from above and continues southwest; a narrow dark-edged yellow-brown trace extends northeast. Three branches are apparent, although the northeastern branch has a possible parcel-edge reading."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [710,707],
+      "branch_count": 3,
+      "evidence_note": "Among black rectangular symbols, narrow reddish strips extend northeast, southwest and southeast. The three-branch reading is probable, but the exact meeting point is obscured and may merge with j01."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [397,575,712,670],
+      "why": "Large heavy place-name lettering conceals several pale lines and possible short access-track continuations."
+    },
+    {
+      "bbox_uv": [681,665,743,731],
+      "why": "Closely grouped black and red building symbols obscure the precise separation and position of the apparent junctions."
+    },
+    {
+      "bbox_uv": [803,817,953,900],
+      "why": "Heavy lettering, building marks and overlapping coloured edges prevent certain connections between the short lower-right traces."
+    }
+  ],
+  "overall_note": "The paired reddish winding track is the clearest road symbol; several pale traces and short accesses admit non-road readings. Thin angular red lines and blue sinuous lines were read as boundaries or drainage, rather than roads. Connections concealed by lettering or dense symbols remain explicitly uncertain."
+}

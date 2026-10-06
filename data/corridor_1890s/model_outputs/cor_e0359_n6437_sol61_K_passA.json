@@ -1,0 +1,66 @@
+{
+  "tile_id": "cor_e0359_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 132], [25, 119], [50, 94], [75, 81], [100, 62], [135, 49], [170, 35], [205, 24], [240, 12], [282, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Broad pink-red stroke with repeated heavy dark marks along its lower side and a much fainter upper edge; no flanking tree symbols.",
+      "uncertainty_note": "Road identification is strong, but the blurred, asymmetric edges do not clearly distinguish paired road lines from a broken-line symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint upper edge and heavier lower marks may represent two road edges enclosing coloured fill."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks may be the defining road symbol, with the pink stroke supplying colour."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[548, 201], [577, 207], [597, 216], [611, 230], [630, 241], [652, 247], [690, 249], [731, 251], [770, 248], [802, 245], [825, 247], [849, 256], [868, 269], [883, 280], [910, 282], [942, 279], [970, 281], [1000, 282]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "One thin ochre-red continuous stroke, approximately 3–5 px wide, with occasional darker flecks and no clearly separated casing; a black star and large lettering intersect it.",
+      "uncertainty_note": "A path is possible, but the continuous coloured stroke also supports a property-boundary reading. The western endpoint is visibly blunt; continuity beneath the small symbol and eastern lettering is supported by the stroke on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "May be a coloured property boundary rather than a road; no regular road-dot pattern is resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[940, 0], [956, 13], [974, 25], [989, 35], [1000, 44]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Short diagonal ochre stroke with separated dark blue-black marks roughly 10–20 px apart; no clearly resolved second parallel road line.",
+      "uncertainty_note": "This corner-clipping segment could be a dotted or broken path, a boundary, or a land-cover perimeter whose remaining drawing lies outside the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated dark marks could form a broken path symbol over a faint coloured stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dark marks and adjacent colour could instead belong to a boundary or land-cover edge."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 235, 295, 315],
+      "why": "Large black place-name lettering overlaps building and polygon outlines; any separate narrow path beneath these strokes cannot be traced reliably."
+    }
+  ],
+  "overall_note": "The upper-left pink line is the clearest road, although its symbol-form class is uncertain. The transverse reddish line and upper-right corner segment are retained as doubtful candidates. Long dark boundary lines, pale green drainage lines and hatched-area outlines were excluded; no three-branch road junction is confirmed."
+}

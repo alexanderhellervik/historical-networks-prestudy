@@ -1,0 +1,151 @@
+{
+  "tile_id": "cor_e0346_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 211], [23, 206], [43, 201], [66, 198], [94, 192], [123, 183], [155, 175]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange stroke with closely spaced dark marks runs between heavy black parcel outlines and rectangular symbols at the left, then becomes clearer toward the junction; two continuous casing lines are not reliably separable.",
+      "uncertainty_note": "The western symbols partly mask the stroke. Its alignment remains visible, but the distinction between a dotted stroke and narrow paired linework is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks may represent one row of very short dashes."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some western portions appear edged on both sides of the orange stroke, but the nearby parcel outlines complicate that reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[60, 0], [81, 26], [102, 51], [124, 77], [149, 100], [146, 126], [141, 149], [146, 163], [155, 175]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One narrow orange alignment carries repeated dark, short separated strokes; it bends sharply near [149, 100] and joins the orange transverse line.",
+      "uncertainty_note": "Some marks are rounded rather than elongated. A boundary interpretation cannot be eliminated completely, although a regular long-dash/short-dot boundary rhythm is not apparent.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks could be a dotted path symbol, for which the supplied class list has no exact entry; a boundary is a weaker alternative."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[155, 175], [172, 186], [195, 191], [222, 190], [250, 194]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin orange line with dark beadlike interruptions runs immediately above and into the large black lettering; no consistently separate pair of casing strokes is visible.",
+      "uncertainty_note": "The line disappears into lettering near [250, 194]. Continuation to f04 is plausible, but its intervening course is not sufficiently exposed to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark beads may be short dashes belonging to a single interrupted path line."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The orange component appears continuous in several exposed intervals."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[309, 231], [334, 240], [365, 245], [398, 243], [429, 238], [454, 237], [481, 241], [510, 252], [535, 268], [554, 290], [567, 313], [577, 331]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "An orange stroke with a single sequence of dark dotlike or short dashlike marks emerges below the lettering and curves southeast; the marks become heavier near the meeting at [577, 331].",
+      "uncertainty_note": "The western continuation is hidden by letters. The exposed symbol does not clearly resolve into a solid single line, a dashed line, or two narrow casing lines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark interrupted component can be read as a row of short dashes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The pale orange stroke beneath the dark marks appears substantially continuous."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[577, 331], [595, 317], [617, 306], [643, 314], [670, 321], [692, 326], [716, 313], [741, 295], [767, 279], [794, 264], [821, 245], [843, 224], [859, 202], [869, 180], [875, 167]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow orange alignment with repeated dark beads rises northeast from the meeting, makes a shallow angular dip around [692, 326], and approaches heavy black lettering below the red rectangular building symbol.",
+      "uncertainty_note": "The northeast end becomes inseparable from lettering and building outlines. No course through those symbols is supplied; the exposed line's dotted versus dashed form is also uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark beads may be very short dashes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Several intervals show a continuous thin orange stroke beneath the beads."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[577, 331], [604, 348], [630, 368], [641, 391], [644, 430], [644, 473], [645, 518], [651, 557], [665, 589], [658, 617], [657, 655], [658, 695], [650, 733], [646, 772], [650, 811], [659, 851], [667, 889], [682, 929], [700, 969], [715, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A single thin orange stroke carries regularly separated dark short strokes and dots, with no resolved parallel casing; it bends repeatedly down the tile among isolated black star-shaped symbols.",
+      "uncertainty_note": "Several marks are distinctly dotlike. A boundary remains an alternative, but the visible sequence lacks a clear alternating long-dash/short-dot pattern.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted path symbol fits much of the line; a similarly coloured boundary is a less secure alternative."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 913], [13, 934], [28, 957], [40, 980], [53, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "The southwest corner contains a narrow orange stroke with spaced dark short marks, similar in weight and spacing to the north–south candidate; no paired casing is resolved.",
+      "uncertainty_note": "Only a short fragment is visible, so road versus boundary identification is less secure here.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment could be a dotted path or an interrupted boundary; its limited length does not establish the distinction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [155, 175],
+      "branch_count": 3,
+      "evidence_note": "Three orange alignments with dark intermittent marks meet: one from the west, one bending in from the north, and one continuing east beneath the lettering; the meeting has a small heavier dark patch."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [577, 331],
+      "branch_count": 3,
+      "evidence_note": "Three narrow orange and dark-marked branches converge beside a blue-grey polygon outline: northwest, northeast, and southeast; their strokes touch within a compact darkened bend."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [246, 185, 310, 239],
+      "why": "Heavy black lettering masks the possible connection between f03 and f04; its exact course and line form cannot be recovered confidently."
+    },
+    {
+      "bbox_uv": [849, 77, 976, 181],
+      "why": "Large black lettering overlaps rectangular building and parcel symbols around the approach of f05, preventing a confident trace of any continuation or additional branches."
+    }
+  ],
+  "overall_note": "The orange alignments with repeated dark marks are read as road or path candidates by comparison with the supplied example, with boundary alternatives retained where warranted. Dotlike printing makes several symbol-form classifications uncertain, and the central and northeast lettering prevents confident continuation."
+}

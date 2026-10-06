@@ -1,0 +1,62 @@
+{
+  "tile_id": "cor_e0354_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,707],[30,695],[61,675],[91,652],[124,633],[154,610],[185,588],[216,574],[252,567],[285,558],[317,547],[348,531],[379,513],[408,496],[434,479],[450,452],[463,421],[473,389],[483,357],[487,327],[482,293],[478,260],[480,228],[487,200],[490,188]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One narrow brown-orange trace carries repeated dark dots or short strokes, without clearly separated parallel casing. It remains distinguishable across the green horizontal hatching near (479,375).",
+      "uncertainty_note": "The coloured underlay looks continuous in places. The northern endpoint disappears into the dark sheet join; it may continue as f02, but the concealed connection is not traced.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the continuous brown underlay defines the symbol, this could be read as a single line with dark stippling."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[527,173],[545,140],[559,115],[578,88],[598,64],[625,43],[642,25],[647,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-brown curving trace has intermittent dark marks along its length. No stable pair of spaced casing lines or flanking tree symbols is visible.",
+      "uncertainty_note": "Its lower end enters the dark sheet join. It resembles f01, but their connection and precise course within the join are obscured.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre component appears continuous in some stretches, allowing a single-line reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[324,318],[347,327],[369,337],[380,342]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A very fine pale grey-green diagonal trace with a faint brownish edge runs between the heavy blue outline and the green hatched patch. Clear road dots or separated casing are absent.",
+      "uncertainty_note": "This is a weak road candidate: a stream or ditch is also supported by its colour and its merging with the two symbols. Neither endpoint can be followed confidently beyond those symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a faint single-line path if the coloured trace represents a road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a stream or ditch; under that reading it is not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,160,1000,201],
+      "why": "A thick, slanted dark sheet join hides linework within this bounding strip, including the possible connection between f01 and f02."
+    }
+  ],
+  "overall_note": "The winding dotted brown line is the strongest road/path reading, with its visible portions separated at the obscuring sheet join. The short pale connector is included with substantial doubt. The angular red lines, blue outlines, hatch perimeters and thin vertical line are read as non-road linework."
+}

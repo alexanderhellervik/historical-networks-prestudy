@@ -1,0 +1,34 @@
+{
+  "tile_id": "cor_e0346_n6437",
+  "reviews": [],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[630, 930], [690, 890], [750, 855], [810, 835], [860, 820]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Fine brownish dotted line running WSW-ENE across the lower right between the long-dash lines labelled 't. Sp...' and 't. Klostr...'; it does not outline any hatched or coloured area, so it is the most path-like line on the tile and resembles the dotted Gångstig symbol.",
+      "uncertainty_note": "Low confidence. Dotted lines on this sheet mostly outline land-cover (forest/marsh/field edges), and the worked example draws paths as thin solid brown-orange lines, not dots; both ends fade into the boundary and lettering clutter.",
+      "alternatives": ["not a road: ägoslag/land-cover boundary (forest vs. pasture edge)", "dashed_line footpath (Gångstig)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[0, 720], [55, 765], [110, 820], [160, 875], [170, 940], [165, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Brownish dotted line from the left edge below the pink parish boundary curving down to the bottom edge east of the 't. Hed...' lettering; its southern part runs along the right side of a hatched wet area.",
+      "uncertainty_note": "Low confidence. The southern part clearly hugs the hatched area and is most likely its outline; the diagonal upper part could be a forest edge or a path.",
+      "alternatives": ["not a road: outline of the hatched wet area plus forest edge", "dashed_line footpath (Gångstig)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [630, 930],
+      "what_is_contested": "Whether the dotted line m01 actually reaches and joins anything at its west end, or just stops (and so whether this is a junction at all).",
+      "evidence_note": "The dots fade near where the long-dash skifteslinje and a thin red boundary pass, and the 't. Sp' lettering crowds the spot; no road line continues clearly beyond."
+    }
+  ],
+  "overall_note": "The overlay images show no proposal features or ids (they look identical to the bare tile), so there is nothing to review. On my own reading the tile has no clearly drawn road: the pink bands with dash-dot black lines are parish/estate boundaries, the thin red straight lines and the long-dash lines (with 't. X' ownership labels) are property/skifte lines, the teal lines are ditches or streams, and most dotted lines outline hatched wet areas or field edges. I list two dotted lines that might be footpaths, with low confidence."
+}

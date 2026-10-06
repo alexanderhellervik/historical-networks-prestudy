@@ -1,0 +1,166 @@
+{
+  "tile_id": "cor_e0344_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 94], [27, 83], [51, 69], [70, 54], [80, 46], [58, 27], [27, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-tan band with dark punctate margins curves through the corner; a finer solid polygon edge lies beside it.",
+      "uncertainty_note": "The turn near [80,46] overlaps solid outline ink, making the separation of the two margins less clear.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The diagonal arm could instead be stippled parcel-edge linework meeting the curved road near [80,46]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 749], [36, 756], [75, 768], [104, 777], [148, 789], [195, 798], [243, 807], [292, 817], [335, 825], [377, 833], [401, 839], [453, 850], [503, 861], [554, 870], [602, 877], [628, 882], [681, 893], [735, 902], [768, 893], [804, 877], [841, 859], [883, 842], [929, 829], [967, 818], [1000, 808]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j03", "j04", "j05"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous reddish band has closely spaced dark dots or short strokes along two margins, several pixels apart. Heavier blue-black linework closely parallels portions of its lower side.",
+      "uncertainty_note": "The road course is clear; adjoining blue-black ink obscures individual margins around [401,839] and [735,902]. Junctions j02, j04 and j05 depend on the uncertain branch readings recorded separately.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Where the margins merge, the symbol could be read as a broad stippled stroke rather than two distinct lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 468], [11, 509], [26, 550], [49, 589], [77, 614], [101, 642], [119, 679], [129, 711], [121, 741], [112, 761], [104, 777], [90, 807], [70, 824], [43, 833], [24, 849], [13, 870], [0, 895]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A winding reddish strip carries paired dark punctate edges. It narrows amid converging solid outlines near [129,711], then continues through the reddish crossing at [104,777].",
+      "uncertainty_note": "Solid parcel outlines overlap the road near [129,711]; the reddish punctate drawing on both sides supports continuity.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[401, 839], [390, 870], [377, 912], [366, 951], [350, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow reddish band descends between dark, approximately parallel margins with small repeated marks; a heavier solid outline runs immediately beside it.",
+      "uncertainty_note": "The adjacent solid outline makes the western road margin difficult to separate locally.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A stippled parcel boundary beside a solid outline could produce part of this appearance."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[628, 882], [618, 915], [608, 950], [604, 983], [601, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin reddish-brown strip leaves the broad road, with repeated dark marks and a faint second edge only a few pixels away.",
+      "uncertainty_note": "The second margin is indistinct; this could be a narrow track or a marked parcel division.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint parallel edge and reddish infill may represent the same paired road symbol used elsewhere."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a stippled or dashed parcel boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[735, 902], [757, 914], [778, 925], [811, 945], [846, 966], [879, 988], [899, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow pale ochre trace carries one conspicuous row of closely spaced dark dots or short strokes, without clearly separated casing.",
+      "uncertainty_note": "The first roughly 40 pixels overlap heavier blue-black outlines. Connection to j05 is plausible but less secure than the visible dotted course from [778,925] onward.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some marks can be read as short dashes rather than dots."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a dotted parcel boundary. An alternative road reading starts at [778,925] with an obscured endpoint and no confirmed junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[377, 833], [400, 795], [424, 754], [449, 713], [468, 681], [488, 650], [505, 620], [503, 608], [497, 591], [515, 565], [540, 536], [559, 511], [577, 488]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A single succession of dark dots or short strokes follows a faint warm-coloured trace; its upper section coincides with an angular edge between tinted and untinted areas.",
+      "uncertainty_note": "This is a possible dotted path, but the shared parcel edge supports a boundary reading. The matching punctate symbol ends near [577,488], where solid outline ink continues.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated marks could be interpreted as short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a marked parcel boundary, especially along [468,681] to [577,488]; under that reading j02 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[884, 194], [914, 207], [946, 220], [976, 232], [1000, 243]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A reddish-ochre band with dark punctate margins follows the sloping solid outline; the upper margin is partly merged with that heavier outline.",
+      "uncertainty_note": "Near [884,194], the punctate band becomes inseparable from solid corner linework. No continuation through that overlap is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Only one punctate margin is consistently distinct; the apparent second margin may belong to the parcel outline."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [104, 777],
+      "branch_count": 4,
+      "evidence_note": "Two reddish bands with paired punctate edges cross; four visible arms emerge from the overlapping dark and reddish ink."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [377, 833],
+      "branch_count": 3,
+      "evidence_note": "A thin punctate diagonal reaches the northern margin of the paired reddish road, giving three road arms if the diagonal is a path rather than a boundary."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [401, 839],
+      "branch_count": 3,
+      "evidence_note": "A narrow reddish strip with dark parallel margins meets the lower side of the transverse reddish road; three arms are visible amid heavier blue-black ink."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [628, 882],
+      "branch_count": 3,
+      "evidence_note": "A thin reddish line with repeated dark marks meets the lower road margin; three road arms result under the track reading of that thin line."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [735, 902],
+      "branch_count": 3,
+      "evidence_note": "The paired reddish road bends beside heavy blue-black outlines, with a narrow dotted trace extending southeast; the third arm's attachment is partly hidden by overlapping ink."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Reddish bands with paired punctate margins provide the clearest road evidence. Single dotted traces and thin reddish parcel divisions admit both path and boundary readings, so their alternatives and conditional junctions are retained. Solid parcel outlines and pale blue-green traces were excluded unless a distinct road-like symbol was also visible."
+}

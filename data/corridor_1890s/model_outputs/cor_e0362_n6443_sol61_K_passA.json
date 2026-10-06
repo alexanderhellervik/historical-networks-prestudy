@@ -1,0 +1,91 @@
+{
+  "tile_id": "cor_e0362_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[410, 1000], [435, 973], [463, 947], [485, 923], [507, 896], [526, 870], [543, 845], [559, 823], [578, 801], [601, 779], [624, 751], [644, 727], [664, 704], [687, 679], [713, 657], [743, 644], [776, 631], [810, 618], [842, 607], [860, 597], [871, 584], [873, 567], [865, 545], [850, 520], [840, 496], [834, 472], [835, 446], [841, 422], [850, 400], [856, 376], [865, 351], [879, 329], [899, 311], [923, 298], [950, 284], [977, 269], [1000, 248]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A reddish strip approximately 8–14 px wide has two close, dark, irregularly dotted margins. It bends continuously past small red and black building symbols; its course remains visible through crossings with thin red and blue lines.",
+      "uncertainty_note": "The road course is clear. The broken margins make its symbol-form class less certain than its identification as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two stippled margins could be classified primarily by their broken strokes rather than by their spacing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 646], [32, 632], [65, 623], [102, 623], [137, 629], [171, 638], [203, 652], [226, 667], [241, 686], [245, 704], [233, 728], [211, 751], [191, 774], [179, 793], [175, 812], [177, 825]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A very fine gray trace curves east from the left edge, then turns south. Short darker marks occur along it, with occasional pale blue-gray sections; no consistently separated casing is visible, and conifer symbols lie on both sides.",
+      "uncertainty_note": "This is a possible faint path. Its weak, partly blue-gray stroke also supports a stream, ditch or parcel-outline reading; the connection at j01 is conditional on the path interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some sections appear to be one continuous, uncased gray stroke."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The darker separated marks may represent a finely broken path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a stream, ditch or parcel outline, with no road represented."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[177, 825], [161, 852], [140, 879], [115, 907], [89, 933], [61, 956], [31, 975], [0, 984]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin gray to blue-gray line continues southwest from the apparent meeting point, with intermittent dark sections. Near the bottom edge it runs beside the blue outline and horizontal hatching of a marsh symbol; it has no clear paired casing.",
+      "uncertainty_note": "Possible continuation of the faint path, but its proximity to the marsh outline and its blue-gray portions support a water or land-cover boundary interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If a path, the clearest sections are a single fine stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a stream or land-cover outline rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[177, 825], [207, 833], [239, 841], [271, 849], [302, 860], [331, 871]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint oblique gray trace with short separated marks runs southeast from the curved trace. It approaches a heavier blue-black angular outline at its eastern end; no reddish fill or clear casing is visible.",
+      "uncertainty_note": "This may be a path branch or a parcel division. It becomes indistinguishable from the heavier outline near the final waypoint, so no continuation across that outline is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated gray marks could be a faint broken path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace may be a parcel boundary, in which case it is not a road branch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [177, 825],
+      "branch_count": 3,
+      "evidence_note": "Two portions of a fine gray curved trace meet a faint southeast-running gray trace here. Three arms are apparent, but the road-junction reading is conditional because neither the curve nor the oblique arm has an unambiguous road symbol."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The reddish road with broken dark margins is the clearest feature. The southwest gray traces remain doubtful and are retained with non-road alternatives; their three-arm junction is conditional. Thin red angular lines and blue outlines elsewhere were read as boundaries or water-related lines using the supplied example."
+}

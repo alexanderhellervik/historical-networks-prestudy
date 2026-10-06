@@ -1,0 +1,159 @@
+{
+  "tile_id": "cor_e0366_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[1000, 382], [978, 418], [954, 453], [940, 475], [921, 508], [905, 539], [888, 567], [869, 591], [857, 604]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two faint gray-brown traces, approximately 4–8 px apart, run diagonally through stronger colored outlines; their separation is clearest above the buildings.",
+      "uncertainty_note": "The paired traces are faint and locally blend with other outlines. Their continuation through the broad horizontal band is unreadable; j02 is conditional on f09 being a road.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Some sections could be a single line with displaced or blurred printing rather than two road margins."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[888, 567], [922, 559], [960, 549], [1000, 540]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-red strip with dark, locally dotted margins runs beside black rectangular symbols and above a blue-black angular enclosure.",
+      "uncertainty_note": "The dark margins are not consistently separable from the adjacent enclosure outline. The apparent connection to f01 is faint.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The colored strip may lie between two narrow road margins."},
+        {"proposed_class": "unknown", "note": "An enclosure or property edge remains possible where the dark marks coincide with its outline."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[838, 628], [808, 663], [776, 702], [744, 741], [716, 777], [695, 809], [678, 843], [665, 877], [657, 901]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A pale diagonal strip, locally bounded by two fine gray-brown traces, crosses angular dark outlines and then horizontal green-red hatching.",
+      "uncertainty_note": "This may continue f01, but the horizontal band prevents a certain connection. Hatching weakens the margins, and lettering obscures the lower continuation.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Locally visible parallel traces support a narrow road reading."},
+        {"proposed_class": "unknown", "note": "A drain, boundary, or printing discontinuity could account for the faint strip."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[638, 975], [630, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Very faint oblique pale-gray marks appear below the heavy black lettering, across the horizontal colored hatch strokes.",
+      "uncertainty_note": "This short candidate approximately aligns with f03, but no connection through the lettering is asserted. Its margins are barely distinguishable from the hatch pattern.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "It could be the continuation of the pale paired diagonal."},
+        {"proposed_class": "unknown", "note": "The marks could be hatch or printing artifacts rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 356], [29, 371], [63, 387], [94, 407], [119, 422], [141, 433]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow yellow-ochre line with a reddish edge bends southeast from the left edge; darker marks occur beside portions of it.",
+      "uncertainty_note": "The colored line could be a track or a colored parcel edge. Its identity becomes unclear where it meets stronger blue outlines and hatching.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Some portions resemble a narrow colored strip between margins."},
+        {"proposed_class": "single_line", "note": "A single colored boundary stroke is also plausible."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[143, 432], [178, 410], [224, 399], [279, 394], [315, 386], [345, 383], [358, 405], [367, 424], [378, 439]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A very fine gray angular line runs above the large blue-outlined hatch patch and turns sharply southeast near its eastern end; no consistent casing is visible.",
+      "uncertainty_note": "A faint track is possible, but the angular course and weak single stroke also support a parcel-outline reading. Connection to f05 is uncertain.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If a track, its visible symbol is mostly a fine single stroke."},
+        {"proposed_class": "unknown", "note": "It may be a field or property outline rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[412, 792], [448, 790], [487, 786], [527, 787], [561, 779], [587, 761], [610, 743], [629, 723]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A loose chain of dark dots and short marks runs just above a stronger green-black outline; hollow oval symbols also occur nearby.",
+      "uncertainty_note": "The chain could depict a dotted path, but individual marks may belong to vegetation symbols or the adjacent land-cover edge. Neither endpoint is clearly defined.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The chain could be a path drawn with very short strokes or dots."},
+        {"proposed_class": "unknown", "note": "Vegetation marks or an outlined land-cover margin are equally plausible."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0, 909], [57, 913], [112, 910], [167, 908], [222, 907], [272, 905], [325, 896], [375, 896], [425, 887], [450, 893], [469, 883], [526, 893], [573, 884], [624, 883], [681, 881], [721, 875], [757, 873], [789, 879], [828, 873], [873, 868], [926, 872], [956, 892], [1000, 921]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous irregular red-brown stroke with a darker edge crosses the horizontal hatching; there is no clear white casing or repeated road-side dot pattern.",
+      "uncertainty_note": "A road or track is a weak alternative here. The uncased stroke could instead be a boundary or a watercourse; its apparent proximity to f03 does not establish a junction.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Boundary or watercourse rather than road."},
+        {"proposed_class": "double_line_narrow", "note": "Locally doubled color might represent two margins, although displaced printing could produce the same appearance."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[274, 581], [324, 569], [374, 557], [423, 548], [471, 538], [520, 530], [568, 521], [616, 510], [665, 500], [714, 491], [764, 482], [793, 486], [830, 479], [877, 474], [915, 474], [940, 475], [971, 479], [1000, 486]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A thin ochre-yellow line with reddish edging runs across several blue outlines, with little consistent black casing; short reddish angular strokes meet it elsewhere.",
+      "uncertainty_note": "A colored property boundary is a strong alternative to a track. The crossing with f01 has four visible line arms but no explicit joining symbol, so j02 is tentative.",
+      "alternatives": [
+        {"proposed_class": "single_line", "note": "If a track, most of its visible course reads as one narrow colored stroke."},
+        {"proposed_class": "unknown", "note": "A property boundary, with no road junction at j02, may explain the drawing."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0, 589], [250, 596], [500, 603], [750, 610], [1000, 617]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad, nearly straight olive-gray band has dark edges and coincides with an abrupt change in paper and printing color; no clear repeating railway blocks or sleepers are visible.",
+      "uncertainty_note": "This is more suggestive of a sheet or scan join than a road, but the dark parallel edges permit a road-like reading. Crossings and connections within the band cannot be resolved.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "If the dark edges are intentional road margins, they form a broad paired-line symbol."},
+        {"proposed_class": "unknown", "note": "A scan join, sheet edge, or obscured railway rather than a road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [888, 567],
+      "branch_count": 3,
+      "evidence_note": "The faint gray paired diagonal has two continuing arms, and the narrow ochre-red strip extends east beside rectangular black symbols; their apparent contact is blurred."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [940, 475],
+      "branch_count": 4,
+      "evidence_note": "Four line arms appear where the gray diagonal crosses the thin ochre-red stroke, without widening or an explicit joining mark; this junction exists only under the road interpretation of f09."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 582, 1000, 629],
+      "why": "A broad dark horizontal band and abrupt printing-color change obscure fine linework and prevent reliable identification of crossings."
+    },
+    {
+      "bbox_uv": [620, 907, 678, 975],
+      "why": "Heavy black lettering and dense colored hatching obscure the possible continuation between f03 and f04."
+    }
+  ],
+  "overall_note": "The strongest road candidates are the faint paired diagonal and the short colored branch beside the right-hand buildings. Several other candidates could instead be boundaries, vegetation marks, or watercourses, and their alternatives are retained. The broad horizontal band prevents a reliable continuous reading."
+}

@@ -1,0 +1,98 @@
+{
+  "tile_id": "cor_e0354_n6431",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous row of black dots with an orange-brown wash runs from the top edge at about (385,0) through (430,260), (440,400), (515,550) and past Bratteberg T at (540,650), then bends back to about (505,830), where it meets the pink diagonal band. The polyline follows it closely along its whole length.",
+      "uncertainty_note": "The course and road status are clear. The class could be Gångstig or Sämre körväg; the single dotted row points to a footpath or minor track."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "South of the pink diagonal band, a dotted orange-brown row runs from about (495,870) to the bottom edge near (540,1000). It lies between the blue stream on its left and a crimson boundary line on its right, and it looks like the continuation of f01 across the band.",
+      "uncertainty_note": "The dots are faint and lie close to the crimson line, but they are visible. Where it starts at the band is offset about 15-20 px from where f01 ends."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted row runs from the top edge at about (655,0), down the west side of the village, through (700,230) and (765,350), to about (775,398). There it turns west as a dotted row along (740,405) to about (695,435), ending at the Ultvarås T croft. The polyline follows both parts.",
+      "uncertainty_note": "It is not clear whether the dots also continue past the bend at (775,398) toward the diagonal band; I see no clear dots there."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A solid orange-brown line with darker edges runs from the top edge at about (300,0) through (290,150), (340,300) and (395,420) to the stream at about (405,550). In the worked example, the same orange-brown colouring is used for roads and paths. The polyline follows it.",
+      "uncertainty_note": "It ends at the stream with no visible continuation, which is unusual for a road. A coloured boundary or ditch edge cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (790,30) and (835,145), east of the village buildings, there is a narrow uncoloured strip between black outlines next to a pink plot. It may be a lane drawn as an uncoloured double line, or just the edge of a plot or garden. It has no road colour or dots, and it ends at the crimson field line near (830,145).",
+      "uncertainty_note": "At this resolution it is not possible to tell a narrow lane from plot outlines among the buildings."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line runs from the top edge near (940,0) south-west to the pink plot at about (878,95). In the worked example, the same thin orange line is read as Gångstig. The polyline follows it.",
+      "uncertainty_note": "The line is short and thin. A boundary reading is less likely, but possible."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[230, 1000], [380, 900], [500, 850], [580, 815], [680, 700], [760, 600], [840, 490], [920, 405], [1000, 300]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j1"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A wide pink-crimson band crosses the tile diagonally from the bottom-left to the right edge, with a black dash-dot line along its lower edge. Paths f01 and f02 meet it from either side, crofts sit along it, and the field strips at the lower right run off it.",
+      "uncertainty_note": "The black dash-dot line is clearly a boundary symbol (socken or härad). It is not clear whether the pink band is a road drawn as a coloured double line or only the colour wash along the boundary. I list it so it can be judged, not as a confident road.",
+      "alternatives": ["double_line_wide: a landsväg or bygdeväg with a boundary along it", "not a road: a socken/härad boundary with a colour band"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[940, 3], [965, 18], [985, 32], [1000, 45]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j3"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short row of black dots runs east-south-east from the top edge near (940,3) to the right edge near (1000,45). It starts close to where f06 enters the tile.",
+      "uncertainty_note": "The segment is very short and close to the corner. Dots can also be drawn along boundaries, so it may not be a path.",
+      "alternatives": ["not a road: part of a boundary", "a path that crosses the corner of the tile without meeting f06"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [505, 850],
+      "what_is_contested": "Whether this is a four-way crossing of the diagonal band (if it is a road) or only a path crossing a boundary. It is also unclear whether f01 and f02 are one continuous path, since their ends are offset by about 15-20 px.",
+      "evidence_note": "The dotted f01 reaches the upper edge of the pink band at about (505,840), and the dotted f02 leaves the lower edge at about (495,870). The stream also passes through here."
+    },
+    {
+      "uv": [775, 398],
+      "what_is_contested": "Whether f03 only turns west to the croft, or also continues south toward the diagonal band (making a three-way junction).",
+      "evidence_note": "The dotted row clearly bends west here. South of the bend there are only faint marks and the Ultvarås lettering, and no clear dots."
+    },
+    {
+      "uv": [940, 3],
+      "what_is_contested": "Whether f06 and the dotted line m02 meet inside the tile, or only beyond the top edge.",
+      "evidence_note": "Both lines begin right at the top edge, within a few pixels of each other."
+    },
+    {
+      "uv": [405, 550],
+      "what_is_contested": "Whether f04 ends at the stream or crosses it, which would make a junction or ford.",
+      "evidence_note": "The orange line stops at the blue stream next to small tree symbols, and there is no continuation on the west bank."
+    }
+  ],
+  "overall_note": "The dotted paths (f01, f02, f03) and the orange lines (f04, f06) match what is drawn. f05 cannot be told apart from plot outlines among the buildings. The main open question is the pink diagonal band with a black dash-dot boundary, which is missing from the overlay; the drawing alone does not show whether it is a major road with a boundary along it or only a coloured boundary."
+}

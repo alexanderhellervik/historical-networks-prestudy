@@ -1,0 +1,143 @@
+{
+  "tile_id": "cor_e0361_n6432",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The broad brown-filled double-lined road runs from the top edge near (40,0) via (170,210), (365,345), (560,375), (720,430), (820,520) to the right edge at about (1000,580). It is the widest road symbol on the tile, so it reads as a landsväg/bygdeväg. The overlay polyline follows it, keeping slightly to its lower edge around u 740-820.",
+      "uncertainty_note": "The sheet seam at u≈365 offsets the road a little, but its continuity is not in doubt."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the label position the overlay follows the thin solid crimson line that runs from about (110,550) NE through (180,475) and (230,410) to the main road at (300,325). This line has the same colour and weight as the other boundary lines on the tile and carries no road casing or dots.",
+      "uncertainty_note": "If f02 was meant to be the brown track just south of it (from (110,550) to (260,495)), that track is real, but f05 and f11 already cover it."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the main road at about (235,235), a black line with a row of dots beside it runs NE past the building at (330,120) to the seam near (375,90). It continues across the seam to (440,40) and reaches the top edge near (480,0). This is a narrow road symbol of the line-plus-dots form.",
+      "uncertainty_note": "Above the seam a crimson boundary runs close beside it, so the exact course between v 0 and 90 is less certain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted path leaves the main road at about (165,210) and runs S via (185,290), (235,410) and (270,480). From there it continues as an orange-brown dotted line via (300,540) and (320,620) to about (345,720) near the seam. This matches the orange dotted Gångstig on the neighbouring example.",
+      "uncertainty_note": "The northern part is drawn in black dots rather than orange. Its southern end at the seam (u≈345-355) is partly hidden."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (110,550) and about (265,492) the overlay follows a brown, thin double-lined track, which is real. Its NE part beyond the dotted path f04, up to (355,428), crosses the 'Strömsberg' lettering and the building cluster, and there no clear road line is visible.",
+      "uncertainty_note": "The western half is a road. Whether the track continues to the seam at (355,428) and on to the main road or the Mejeri cannot be decided from the drawing."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-brown dotted line runs from near the building at (330,745) W to about (220,765). It then turns S via (205,830) and (190,880) to about (150,915) and continues SW towards the bottom-left.",
+      "uncertainty_note": "The eastern stub between u 260 and 350 is faint and close to the seam. The overlay stops at about (150,915), while the dots seem to continue to roughly (80,1000)."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-brown dotted line starts at about (390,790), curves SE to (410,850) and then runs S via (412,930) to the bottom edge near (400,1000).",
+      "uncertainty_note": "Its northern end is unclear: it may be a dead end, or it may meet the thin dashed line running NE from (355,810)."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-brown dotted path runs from the T farm at (760,605) S and SW via (755,660), (720,720) and (670,780) to the small T farm at (625,830).",
+      "uncertainty_note": "The short link from the farm NE to the main road around (820-840,550-570) is drawn among buildings and is less clear than the main dotted run."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow line-with-dots track leaves the main road at about (725,428). It runs ENE past the Sotlanda T farm via (800,402) and (880,380) to about (920,372), then bends up to about (940,348).",
+      "uncertainty_note": "The bend at the east end lies where the crimson boundary and the field edges meet, so the last 30 px are uncertain."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short dotted line runs from the main road at about (90,50) NE to the top edge near (195,0).",
+      "uncertainty_note": "It is a short piece at the tile edge with field edges nearby, so it is only moderately certain. The class is a guess from the dot row."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the left edge at about (0,590), a brown, thin double-lined track rises ENE to about (110,550) and continues as f05. Its colour and weight match the Sämre körväg on the neighbouring example.",
+      "uncertainty_note": "Black field-edge lines run just below it near the left edge."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[940, 348], [932, 290], [938, 230], [955, 180], [985, 155]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Near the '4' label in the top-right, an orange-brown dotted curve runs N from about the east end of f09 towards the right/top-right corner.",
+      "uncertainty_note": "The dots may outline a field or bog area rather than mark a path, and they are hard to see between v 260 and 340.",
+      "alternatives": ["dotted area outline (not a road)", "path that ends at the farm buildings near (970,250)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[150, 915], [115, 950], [80, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "This is the continuation of the orange dotted path f06 beyond where the overlay stops; the dots seem to continue SW to the bottom edge.",
+      "uncertainty_note": "The dots are faint and may stop before the edge.",
+      "alternatives": ["f06 ends near (150,915)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [110, 550],
+      "what_is_contested": "Whether this is a road junction at all. f02 meets f05/f11 here, but f02 lies on a boundary line, so this may be only a boundary crossing a track.",
+      "evidence_note": "A crimson solid line and the brown track cross here with no change in the road symbol."
+    },
+    {
+      "uv": [265, 492],
+      "what_is_contested": "Whether the dotted path f04 crosses the brown track (four branches) or the track ends at it (three branches).",
+      "evidence_note": "The track can be followed clearly only up to the dotted path. Beyond that, buildings and the Strömsberg lettering cover it."
+    },
+    {
+      "uv": [345, 735],
+      "what_is_contested": "Whether f04 joins f06 here, and where exactly, since the meeting point lies on the sheet seam.",
+      "evidence_note": "Both dotted lines approach the seam near the building at (330,745), and the seam hides the meeting point."
+    },
+    {
+      "uv": [830, 560],
+      "what_is_contested": "Where, and whether, the path f08 from the T farm connects to the main road.",
+      "evidence_note": "Buildings and a crimson boundary crowd this spot, and the link line is short and indistinct."
+    },
+    {
+      "uv": [940, 348],
+      "what_is_contested": "Whether f09 ends here or continues N as the dotted line m01.",
+      "evidence_note": "The crimson boundary and field edges meet here, and the dots are faint."
+    }
+  ],
+  "overall_note": "The main brown road (f01) and several dotted paths and narrow tracks are clearly drawn and match the overlay well. The main disagreement is f02, which follows a crimson boundary rather than a road; the NE continuation of f05 cannot be judged. The sheet seam at u≈350-370 hides several meeting points."
+}

@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0347_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,755],[32,741],[65,729],[104,718],[143,710],[181,708],[217,712],[248,720],[276,732],[300,749],[322,772],[343,801],[363,834],[393,846],[426,857],[461,869],[495,881],[529,892],[562,904],[559,936],[557,969],[555,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish band has two dark edges, approximately 6–10 px apart, with repeated dark stippling especially along its western curve. Its eastern continuation bends into a narrow reddish, dark-edged vertical strip.",
+      "uncertainty_note": "The western curve is the clearest road symbol. The diagonal and southern portions coincide with orange parcel edges, making their reading less secure.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The diagonal or southern continuation could partly be a coloured parcel boundary rather than the continuation of the road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,795],[42,780],[73,761],[104,738],[132,733],[165,735],[201,739],[237,747],[272,758],[306,774],[333,794],[351,815],[363,834]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A fine, pale grey continuous stroke curves below the reddish band and approaches it near its bend. It has no clear casing or regular paired dots.",
+      "uncertainty_note": "This is a doubtful separate path; its convergence with f01 is faint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a land-use or parcel outline, or an associated outline of the reddish corridor, rather than a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[363,834],[358,855],[358,879],[359,902],[357,922]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin grey upright stroke lies immediately left of a heavier, curved dark parcel edge. Only the thin stroke is traced here.",
+      "uncertainty_note": "Its attachment to the reddish band is indistinct, and its lower end fades. No continuation along the heavier curved edge is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The thin stroke could be an additional boundary stroke rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[562,904],[590,912],[619,924],[648,936],[677,947],[701,959],[718,973]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A fine row of dark dots and short marks runs diagonally across the green wash, close above the long orange polygon. Open oval tree symbols occur beside it.",
+      "uncertainty_note": "The marks become difficult to separate from tree symbols toward the eastern end; the trace stops there. The connection at j02 is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted line could delimit a parcel or coloured area rather than represent a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[395,682],[408,710],[423,738],[443,763],[470,785],[501,804],[534,817],[568,826],[603,831],[637,833]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "One row of short dark dashes follows a broad curve within the blue wash. There is no clearly visible second parallel row or continuous casing.",
+      "uncertainty_note": "This is a doubtful road candidate. Both ends approach heavier shoreline strokes without a clear road connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a boundary or another water-related delineation; the single dashed row does not clearly match the paired winter-road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,28],[30,22],[59,14],[84,5],[98,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow dark brown stroke follows the lower edge of the orange corner sliver, above a green strip and a separate heavier blue shoreline. Paired road edges are not clearly resolved.",
+      "uncertainty_note": "Only a small corner fragment is visible, so a road cannot be distinguished confidently from the orange area's border.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark stroke and adjacent narrow coloured strip could constitute a clipped road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could simply be the boundary between the orange and green washes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[944,0],[970,12],[1000,24]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A fine dark oblique stroke crosses the orange upper-right corner, distinct from the heavier curved blue shoreline. A nearby open oval symbol complicates its appearance.",
+      "uncertainty_note": "The short fragment offers insufficient evidence to distinguish a narrow route from a parcel division.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It could be a single-stroke path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel boundary is also consistent with the visible stroke."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [363,834],
+      "branch_count": 4,
+      "evidence_note": "The reddish two-edged band passes through the bend; a faint grey curve approaches from the lower left and a thin upright stroke extends downward. Four branches are counted only if both faint candidates are roads."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [562,904],
+      "branch_count": 3,
+      "evidence_note": "The diagonal reddish strip meets a narrow downward reddish strip; a fine dotted course extends toward the lower right. The third branch and its exact attachment are doubtful."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The reddish western curve provides the strongest road evidence. Faint adjoining strokes, dotted lines and corner fragments are retained as doubtful candidates because parcel outlines can produce similar symbols. Both reported junction counts depend on those candidate readings."
+}

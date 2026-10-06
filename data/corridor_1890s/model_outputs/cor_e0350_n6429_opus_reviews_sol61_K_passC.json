@@ -1,0 +1,56 @@
+{
+  "tile_id": "cor_e0350_n6429",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f01 lies entirely in the narrow strip above the thick black neatline (v < ~55), on the piece of the neighbouring sheet. A fine dark dotted line with an orange/yellow tint does run there, from about (325,0) down to the neatline near u 365-395, so the polyline is on a drawn line. At this resolution I cannot tell dots (Gångstig / Sämre körväg) from the dash-dot of a boundary, and coloured tint along a line is also how boundaries are often shown. The line does not continue below the neatline on this sheet; the blue stream is the only line that crosses there.",
+      "uncertainty_note": "It could be a path or minor road on the adjoining sheet, or a boundary. It ends at the sheet edge with nothing matching on this sheet, so the symbol cannot be checked against a continuation."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f02 also lies only in the strip above the neatline. A fine dark dotted line runs there from the neatline at about (500,57) up to about (590,0), so the polyline follows a drawn line. Its symbol (dotted versus dash-dot, road tint versus boundary tint) cannot be resolved, and nothing continues it south of the neatline on this sheet.",
+      "uncertainty_note": "It could be a path or road, or a boundary on the neighbouring sheet. It covers only about 60 px of the tile, and all of that is off the main sheet."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[1000, 165], [830, 385], [668, 595], [513, 800], [360, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "This is the most prominent line on the tile: a broad pink-red band, with a black broken (dash) line along its south-east edge and a grey shadow band beside it. It runs dead straight from the east edge at v~165 to the south edge at u~360 and crosses Fjällsjön on a straight course (lake water on both sides around (650-850, 400-800)). The black-and-white broken line matches the railway symbols (Andra järnvägar) on the model legend better than the double line of a Landsväg. A straight course over open water also fits a railway embankment better than a road.",
+      "uncertainty_note": "I listed it because the overlay does not record it at all and the red colouring could mark a major road (landsväg). My preferred reading is a railway, i.e. not a road, so treat it as a contested inclusion rather than a confirmed missed road.",
+      "alternatives": ["railway (not a road) - preferred reading", "double_line_wide (Landsväg/Bygdeväg with red fill)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[728, 0], [820, 40], [905, 72]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "In the strip above the neatline there is a third fine dotted line with an orange/yellow tint, below and through the lake name 'Klarsj...'. It runs from the top edge near u 728 down to the neatline near u 905. It looks the same as the lines under f01 and f02, so if those are roads this one should be recorded too.",
+      "uncertainty_note": "Like f01/f02 it could equally be a boundary. It ends at the neatline with no continuation on this sheet; the 'dead_end' flag means the end at the sheet edge, not a real road end.",
+      "alternatives": ["boundary on neighbouring sheet (not a road)", "dashed_line (dotted path or Sämre körväg)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [370, 52],
+      "what_is_contested": "Whether f01 meets anything at the neatline: whether it continues as a road on this sheet, or only reaches the sheet edge next to where the blue stream crosses.",
+      "evidence_note": "The dotted line reaches the thick neatline near u 365-395. Directly below, only the blue stream and a faint pale green line are visible, and no dotted or road-coloured line continues."
+    },
+    {
+      "uv": [585, 810],
+      "what_is_contested": "Whether the short fine dashed line from about (585,810) to (670,870) branches off the broad band (m01) as a path, or is a boundary/skifteslinje that only ends near it.",
+      "evidence_note": "The fine black dashes start at the grey shadow edge of the band and end near a small triangular mark. The dash pattern looks more like a skifteslinje than a dotted Gångstig, so I did not record it as a road."
+    }
+  ],
+  "overall_note": "Both overlay features lie only in the strip of the neighbouring sheet above the neatline, and I cannot tell there whether the dotted lines are roads or boundaries. On the main sheet the only candidate is the straight broad pink-red band with a black broken line, which I read as more likely a railway than a road; the thin crimson diagonal and the black dash-dot lines at upper left read as boundaries, and the pale green lines as streams or ditches. I found no clear dotted or double-line road inside the main map face."
+}

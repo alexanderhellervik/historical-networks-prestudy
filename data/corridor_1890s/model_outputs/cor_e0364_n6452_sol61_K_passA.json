@@ -1,0 +1,129 @@
+{
+  "tile_id": "cor_e0364_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[568, 0], [541, 38], [510, 79], [480, 121], [449, 163], [420, 204], [405, 227], [405, 272], [409, 321], [412, 365], [412, 393], [415, 443], [419, 491], [424, 539], [425, 584], [420, 630], [421, 676], [437, 714], [466, 750], [492, 783], [511, 815], [514, 855], [516, 896], [530, 932], [555, 966], [580, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous dark edges enclose a pale ochre strip, generally about 8–14 px wide; the edges remain visible through the bends and beside coloured building and garden symbols.",
+      "uncertainty_note": "Short sections beside buildings are crowded, but the paired edges on either side support continuity. Centre coordinates are approximate where one edge is heavier.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 507], [39, 493], [79, 480], [118, 462], [154, 441], [188, 418], [222, 392], [253, 376], [278, 381], [314, 388], [361, 392], [412, 393], [455, 399], [497, 402], [535, 397], [560, 401], [585, 414], [615, 438], [650, 455], [682, 462], [711, 458], [739, 463], [760, 466], [793, 485], [827, 502], [862, 515], [885, 520], [910, 514], [939, 503], [958, 510], [978, 527], [1000, 540]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre strip has two closely spaced dark, largely dotted edges. It crosses the solid paired north–south line and continues east with repeated bends; small coloured rectangles sit beside its eastern end.",
+      "uncertainty_note": "East of about u650, dots and adjacent parcel outlines sometimes merge. The northeastern arm at j03 is a doubtful road interpretation, recorded separately as f06.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some eastern stretches could be a stippled parcel edge rather than the continuation of the double dotted track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 210], [30, 217], [61, 226], [78, 221], [98, 198], [119, 168], [141, 136], [156, 116]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two dark, partly dotted edges surround a narrow brownish strip along the bent lower-right margin of the hatched upper-left patch.",
+      "uncertainty_note": "At the northeastern end, the paired marks merge with a heavy pink stroke and thin parcel lines. A connection to f04 is possible but cannot be established through the overlap.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired appearance could partly result from a parcel outline beside the edge of the hatching."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[173, 111], [199, 101], [223, 99], [249, 106], [277, 118], [304, 132], [327, 151], [340, 176], [346, 190]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A very faint grey line curves east from the upper-left overlap, then southeast; occasional nearby marks suggest a second edge, but no consistent casing is visible.",
+      "uncertainty_note": "This is a doubtful path candidate. Its western connection is hidden in overlapping strokes, and its southeastern course becomes indistinct beside the large ST lettering; no continuation to the central road is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the faint continuous stroke is a path, it is predominantly a single line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be a parcel boundary or an incidental faint mark."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[253, 376], [247, 363], [241, 350], [230, 339], [222, 334]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Short dark strokes appear to leave the double dotted line northwestward, with a narrow pale gap between them near a dark rectangular symbol.",
+      "uncertainty_note": "The short arm may be an access track, but building and enclosure strokes interfere with its edges. It is stopped at the rectangular symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The short arm could be a narrowly cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent arm could be part of the building or enclosure outline rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[760, 466], [779, 447], [800, 426], [825, 409], [852, 397], [875, 389], [895, 384]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A bent strip leaves the winding dotted line northeastward. A dark lower edge and lighter, partly pink upper stroke enclose a narrow pale interval before meeting a heavy vertical pink line.",
+      "uncertainty_note": "A road arm and a parcel boundary are both plausible. The line is stopped where its symbol merges with the vertical pink stroke; the pink continuation eastward is not asserted to be road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two edges could represent a narrow road joining f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strip could be the shared edge of coloured parcels, with no road junction at j03."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [412, 393],
+      "branch_count": 4,
+      "evidence_note": "The two solid north–south edges intersect the two closely spaced dotted edges running west and east; four road arms are visible around the crossing."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [253, 376],
+      "branch_count": 3,
+      "evidence_note": "The double dotted strip continues west and east, while short dark strokes appear to depart northwest toward a rectangle; the third arm is conditional on the track interpretation of f05."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [760, 466],
+      "branch_count": 3,
+      "evidence_note": "The winding dotted strip continues west and southeast, and a narrowly edged strip departs northeast; the third road arm is conditional on f06 being a road rather than a parcel edge."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [335, 185, 389, 263],
+      "why": "Heavy ST lettering and weak underlying strokes prevent a reliable continuation of the faint line reported as f04."
+    }
+  ],
+  "overall_note": "Closely spaced dotted road edges can merge with stippled parcel outlines, especially east of the central road. Pink straight and angular strokes were generally read as boundaries; f04–f06 retain specific doubtful road readings. Junctions j02 and j03 are conditional on their doubtful third arms."
+}

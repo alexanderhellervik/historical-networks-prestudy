@@ -1,0 +1,130 @@
+{
+  "tile_id": "cor_e0368_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [239, 0], [251, 22], [261, 47], [272, 66],
+        [299, 88], [330, 111], [361, 139], [390, 170],
+        [403, 199], [410, 235], [414, 276], [417, 317],
+        [418, 345], [418, 371], [405, 404], [393, 442],
+        [379, 479], [359, 518], [337, 557], [315, 595],
+        [286, 631], [255, 667], [230, 700], [208, 735],
+        [184, 770], [158, 805], [132, 840], [107, 872],
+        [82, 906], [57, 940], [30, 974], [0, 995]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two closely spaced dark, predominantly dotted edges enclose an orange-pink strip approximately 7–12 px wide; both edges follow the same winding course.",
+      "uncertainty_note": "Individual dots merge into short strokes in places. The symbol could also be classified by its interrupted edges rather than its paired form.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two margins consist largely of dots and short interrupted strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [272, 66], [252, 86], [234, 110], [217, 131],
+        [195, 135], [178, 136], [168, 145], [171, 158],
+        [181, 168], [169, 181], [157, 190], [153, 207],
+        [137, 229], [126, 253], [110, 272], [89, 283],
+        [66, 295], [48, 315], [30, 339], [13, 360],
+        [0, 375]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow yellowish trace carries closely spaced black dots and short strokes; near the small orange polygons, portions coincide with heavier solid outlines.",
+      "uncertainty_note": "The course around [168,145]–[153,207] is crowded by polygon edges and small symbols. A possible western approach is recorded separately as f05 without assuming its connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some short portions beside the orange polygons could be their outlines rather than an independently drawn path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [418, 345], [450, 353], [481, 366], [512, 382],
+        [537, 402], [551, 426], [559, 453], [572, 477],
+        [596, 490], [625, 501], [655, 510], [682, 522],
+        [710, 540], [738, 561], [764, 579], [790, 590],
+        [814, 596], [829, 582], [842, 570], [868, 562],
+        [895, 552], [922, 540], [940, 522], [945, 495],
+        [950, 470], [959, 445], [977, 424], [1000, 401]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A single row of heavy black dots and short strokes follows a thin yellow wash; beside the lake it runs outside a separate solid black outline enclosing orange fill.",
+      "uncertainty_note": "The final approach to the right edge is less distinct where dotted strokes adjoin angular black outlines. Portions beside the orange fill could instead be a marked parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stretch approximately [829,582]–[1000,401] could partly represent a parcel outline; its dotted appearance supports the path reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [161, 904], [174, 927], [193, 949], [213, 966],
+        [239, 978], [265, 987], [287, 995], [297, 1000]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A single black dotted trace with a narrow yellowish wash curves southeast below the large lettering; individual dots remain visible between nearby small oval symbols.",
+      "uncertainty_note": "The northwest continuation overlaps lettering, building marks and the outlined blue patch. It may join f01 near [97,882] through [125,879] and [150,887], but that connection is not carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The obscured northwest continuation might belong partly to the outline of the blue patch rather than the path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [
+        [0, 235], [23, 215], [43, 197], [56, 188],
+        [69, 191], [91, 207], [113, 221], [128, 224]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Closely spaced dark solid strokes enclose a pale strip on the western approach; farther east they mix with thick angular outlines surrounding the large T and smaller black marks.",
+      "uncertainty_note": "This could be a narrow access road or adjacent parcel outlines. A possible continuation to f02 near [151,211] cannot be separated confidently from the intervening outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired western strokes could be the two margins of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes could instead be adjoining field or property outlines, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [272, 66],
+      "branch_count": 3,
+      "evidence_note": "The orange strip with paired dotted margins continues north and southeast; a narrower yellow trace with black dotted strokes departs southwest. A straight red line also crosses here but is not counted as a road branch."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [418, 345],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted orange strip continues above and below the contact, while a single black dotted trace on yellow wash begins toward the right."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Dotted road symbols are clearest away from lettering and angular parcel outlines. The possible connections of f04 and f05 remain obscured endpoints rather than asserted junctions; straight red lines and long dash-and-dot boundary symbols are excluded."
+}

@@ -1,0 +1,125 @@
+{
+  "tile_id": "cor_e0353_n6447",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-red stippled band runs from the top edge near (60,0) through (150,140) and (190,210) to the field corner at about (225,290). It crosses open field and looks the same as the brown bands the worked example reads as Sämre körväg.",
+      "uncertainty_note": "The class is uncertain: the band reads as a narrow stippled double line, but it could be read as a single brown line. At the sheet seam (v about 300) the course is broken, and the continuation to the south is not certain."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear black dotted line runs from just below the seam at (235,315) via (270,350) and (275,450) to (275,560), then bends south-west through (240,640) to the red line at about (215,690). This matches the Gångstig symbol, a dotted line.",
+      "uncertainty_note": "The symbol is a dotted line, not a dashed one; dashed_line is the nearest class in the vocabulary. The top end at the seam may connect to f01."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the long, thin crimson line from (0,815) via (215,690), (300,615) and (430,400) to (790,0), with a short stretch along the edge of the green meadow strip. This crimson line has the same colour and weight as the vertical crimson line at u about 830 and as the crimson lines the worked example records as boundaries. It has no brown band and no paired or dotted road symbol.",
+      "uncertainty_note": "In this series some roads are tinted red. If this line were a red-tinted road rather than a coloured socken or hemman boundary, the verdict would change. Nothing like a road band is visible beside it, but the line is thin at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line leaves the crimson line at about (215,695) and curves south-east through (225,730) and (250,765) towards (280,780). It is like the thin orange lines that the worked example reads as Gångstig.",
+      "uncertainty_note": "The line is short and faint. It could be the edge of a field or meadow parcel rather than a path. Where it ends to the south-east is unclear."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown stippled band runs from the farmstead at about (590,845) east through (700,795), (815,790) and (880,785), then north-east to the right edge at about (1000,700). It crosses the vertical crimson line and is the same symbol as f01.",
+      "uncertainty_note": "The west end is hidden by the lettering '30' and the buildings, so it is unclear where it joins f07."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short segment by the building at about (380,975), running to the bottom edge, lies under the large 'nabräckan' lettering and the house symbols. No road symbol can be told apart there.",
+      "uncertainty_note": "A road leaving the village to the south is plausible, but the drawing does not show one."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[440, 888], [490, 884], [540, 870], [590, 845]],
+      "evidence_note": "A brown edge or band is visible along the south side of the farmstead, under the '30', where it continues f05 to the west. The leg north-west to the corner of the yard at (400,820) runs between building symbols, and no road symbol is visible there.",
+      "uncertainty_note": "The yard leg could be an internal village road that is hidden by the buildings. West of about u 440 the band is lost under the lettering."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line runs from the crimson line at about (835,340) south-west through (800,440), (775,470) and (760,560) to the croft 'B' at about (705,630). It is the same thin orange line that the worked example reads as a footpath leading to a croft.",
+      "uncertainty_note": "It partly follows the edge of the forest, so it could be read as a parcel or marsh outline. Whether it continues north of the seam is not visible."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the left edge near (0-30, 355-370) there is only faint pencil lettering and a black field or dashed boundary line. No road symbol is visible.",
+      "uncertainty_note": "The proposed polyline is very short and barely visible on the overlay, so exactly what it traces is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line runs from below the seam at about (950,330) down to about (925,440), where it meets the edge of the green meadow. Its colour is like f08, but it is short and has no clear endpoints at a destination.",
+      "uncertainty_note": "It could be a footpath or the orange outline of a mire or meadow parcel. The drawing does not decide which."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[400, 12], [430, 40], [470, 78], [500, 115], [515, 170], [522, 230], [520, 290]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A brown stippled band starts at the small building symbol near the top edge (400,10) and runs along the east side of the pink field to the seam at about (520,290). It is the same symbol as f01 and f05.",
+      "uncertainty_note": "It runs along a field/forest border, so it may be field-edge colouring rather than a road. At the seam its continuation is lost; it may meet the crimson line near (535,320).",
+      "alternatives": ["field-edge tint, not a road", "road continuing south of the seam to the crimson line at about (535,320)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [228, 300],
+      "what_is_contested": "Whether f01 (brown band ending at about (225,290)) and f02 (dotted path starting at about (235,315)) are one continuous route across the sheet seam.",
+      "evidence_note": "The seam and fold line at v about 300 interrupts the drawing. The ends of the two lines nearly coincide, but their symbols differ."
+    },
+    {
+      "uv": [215, 692],
+      "what_is_contested": "How many branches meet here: f02 from the north, f04 to the south-east, and the crimson line, which is read here as a boundary. It is also unclear whether f02 continues as f04.",
+      "evidence_note": "The dotted path reaches the crimson line where the line bends. The thin orange line f04 leaves from the same point, but it is not clear that it is one path with f02."
+    },
+    {
+      "uv": [590, 845],
+      "what_is_contested": "Where f05 ends to the west, and whether it joins f07 or a road through the farmstead.",
+      "evidence_note": "The lettering '30' and the building symbols cover the place where the brown band meets the farmstead."
+    },
+    {
+      "uv": [835, 340],
+      "what_is_contested": "Whether f08 meets the vertical crimson line or continues north across the seam.",
+      "evidence_note": "The top of the orange line reaches the crimson line just below the seam. Above the seam, no clear continuation is visible."
+    },
+    {
+      "uv": [705, 630],
+      "what_is_contested": "Whether f08 ends at the croft 'B' or continues further.",
+      "evidence_note": "The orange line reaches the croft symbol, which is surrounded by black parcel outlines. No continuation in the same symbol is visible."
+    }
+  ],
+  "overall_note": "The roads on this tile are the brown stippled bands (f01, f05, m01) and the paths are the thin orange or dotted lines (f02, f04, f08). The long crimson lines are read as boundaries, which is why f03 is rejected. Detail around the village is hidden by lettering, and the sheet seam at v about 300 breaks continuity."
+}

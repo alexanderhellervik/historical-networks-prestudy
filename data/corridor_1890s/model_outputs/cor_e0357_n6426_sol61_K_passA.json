@@ -1,0 +1,160 @@
+{
+  "tile_id": "cor_e0357_n6426",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[174,420],[163,442],[154,469],[151,487],[155,500],[168,514],[175,546],[180,579],[190,611],[202,638],[218,680],[234,720],[247,762]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow brown strip has two close dark edges, approximately 5–9 px apart, with small broken marks along portions of its margin. It passes between angular building symbols and across blue outlines; the black-and-white diagonal crosses it near [198,632].",
+      "uncertainty_note": "The upper termination overlaps lettering and building marks, so no continuation beyond [174,420] is asserted. The two edges become indistinct at the railway crossing, but the brown strip is aligned on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some sections could be a continuous stroke accompanied by stippling rather than two continuous road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[247,762],[266,795],[284,818],[293,834],[287,852],[273,873],[249,897],[226,925]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The brown strip continues with close dark margins, bends sharply around [293,834], and becomes more reddish on its southwestward segment. Small rectangular symbols sit beside its upper portion.",
+      "uncertainty_note": "Both listed junctions involve short branches whose interpretation is less certain than this continuous strip.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[226,925],[201,948],[173,974],[132,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish-brown diagonal strip retains a thin dark margin on each side, with roughly 5–7 px between them, and exits through the bottom edge.",
+      "uncertainty_note": "The meeting with f05 is visible, but f05 may be a boundary rather than a road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[247,762],[234,768],[222,763],[209,754]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A short, narrow grey-brown angled trace runs west from the brown strip toward an orange-filled rectangular symbol. Adjacent black angular strokes make its edges difficult to separate.",
+      "uncertainty_note": "This may be a short access track, but the apparent connecting strokes could belong to the outline around the building symbols. The reported end is the visible termination beside the rectangle.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If read as an access track, the trace is predominantly one thin stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may instead be a parcel or building enclosure outline; in that reading, omit this feature and j01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[226,925],[250,952],[275,979],[300,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A comparatively straight reddish stroke leaves the bend toward the southeast. It is approximately 3–5 px wide, with a darker edge but no consistently separable pair of margins.",
+      "uncertainty_note": "Its colour resembles the adjoining road, but its straight course and thinner symbol also support a boundary reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A possible road branch drawn as one reddish stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a property boundary; in that reading, omit this feature and j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,1000],[5,970],[12,941],[23,916],[40,893],[60,868],[82,846],[103,823],[122,802]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A thin uncased sequence of closely spaced dark dots and short marks curves northeast from the lower-left edge. Its marks are shorter and more closely spaced than the conspicuous long boundary dashes elsewhere.",
+      "uncertainty_note": "The northeastern end merges with angular outlines and large lettering. No connection to the brown road or nearby building symbols is asserted; a dotted boundary remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted sequence could be a boundary rather than a path, particularly near its obscured northeastern end."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[274,557],[289,576],[308,596]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Short pale grey-brown strokes angle away from the southeast side of the black-and-white diagonal toward small angular symbols. They lack a clearly continuous casing.",
+      "uncertainty_note": "A short approach track is possible, but railway-associated lines and outlines beside the symbols overlap the trace. Neither endpoint establishes a road connection.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short access path represented by a thin, partly interrupted stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace may instead consist of railway casing and parcel or building outlines; omit it in that reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[753,361],[764,396],[775,430],[803,461],[837,499],[873,542],[908,584],[942,624],[974,661],[1000,691]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A very pale grey-tan diagonal trace crosses the right half of the face. Portions appear as two soft parallel margins several pixels apart, without bold casing, regular dots or tree symbols.",
+      "uncertainty_note": "This is a weak candidate: the trace may be a lightly drawn track, a paper or reproduction mark, or coincident field outlines. Its northern course cannot be separated reliably from the blue and black strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible lightly printed track if the two pale margins are intentional linework."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a crease, reproduction artefact or field outline rather than a road; omit this feature in that reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [247,762],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown strip continues in two directions, and a short grey-brown angled trace appears to meet its western margin. Three road branches are supported only if that short trace, f04, is an access track."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [226,925],
+      "branch_count": 3,
+      "evidence_note": "Two close-edged reddish-brown arms form the continuing bend, while a thinner reddish stroke leaves southeast. Three road branches are supported only if the thinner stroke, f05, is a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [138,394,198,459],
+      "why": "Heavy lettering and angular building marks overlap the upper end of the brown trace, preventing a reliable extension."
+    },
+    {
+      "bbox_uv": [103,781,154,827],
+      "why": "The dotted trace approaches overlapping lettering and angular outlines; its continuation cannot be isolated."
+    },
+    {
+      "bbox_uv": [260,540,335,614],
+      "why": "Railway casing, faint strokes and small building symbols overlap, preventing a reliable connection for the possible short approach."
+    }
+  ],
+  "overall_note": "The narrow brown road is the clearest road symbol; the dotted southwest trace and several short or pale traces admit alternative readings. Both recorded junctions are conditional on doubtful branches being roads. The black-and-white railway, blue water outlines and clearly patterned boundary lines are excluded."
+}

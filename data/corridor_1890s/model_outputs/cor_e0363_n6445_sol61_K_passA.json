@@ -1,0 +1,130 @@
+{
+  "tile_id": "cor_e0363_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[327,0],[343,35],[355,70],[360,103],[358,135],[351,166],[349,194],[354,218],[368,245],[384,271],[401,297],[414,321],[428,336],[441,356],[453,382],[461,414],[465,447],[470,478],[482,509],[491,534],[497,546]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow orange-brown strip has two dark, predominantly dotted margins roughly 6–12 px apart; lettering overlaps short portions near v300–360.",
+      "uncertainty_note": "The strip is traceable on both sides of the lettering. The short lateral stroke at j02 has an uncertain road interpretation.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[497,546],[487,568],[468,590],[443,616],[423,644],[400,674],[375,706],[347,738],[324,766],[310,794],[292,824],[268,855],[243,880],[212,907],[190,929],[174,951],[156,978],[141,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close dark margins, with repeated dots and short marks, enclose an orange-brown strip; small outlined rectangles lie beside several bends.",
+      "uncertainty_note": "Its attachment at j01 is partly crowded by heavier coloured and black strokes, but the narrow strip reaches the convergence from the southwest.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,194],[45,225],[92,257],[139,289],[165,309],[204,336],[245,365],[287,393],[329,422],[370,450],[412,478],[453,507],[483,530],[497,546]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A pale yellow strip follows two approximately parallel dark margins about 12–18 px apart; heavy black dashes and a broad red wash adjoin its lower side.",
+      "uncertainty_note": "The pale casing appears distinct from the adjoining heavy boundary marks, but their overlap makes this less secure than the orange dotted track. No continuation across the central overprint is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale strip could be part of the boundary colouring rather than a separately drawn road."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If part of the apparent width belongs to the adjoining boundary symbol, the road casing is narrower."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[548,524],[566,495],[584,474],[607,451],[637,435],[666,422],[699,412],[731,403],[764,399],[798,401],[834,407],[870,414],[910,418],[949,423],[982,429],[1000,435]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Two fine rows of dark dots and short marks flank a faint tan strip; they curve beside horizontal hatching and pass below the red '38'.",
+      "uncertainty_note": "The western approach disappears among the coloured band and stepped sheet join, so its connection to j01 is unresolved. Dot spacing and the separation of the two margins vary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some paired marks could be a boundary symbol; the faint tan interior supports, but does not establish, a track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "In the weakest portions, only one interrupted course is distinguishable."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[441,356],[451,353],[461,347],[472,342]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short, thin dark oblique stroke borders a yellow patch beside the orange track and runs toward the heavy 'B' lettering; no paired dotted casing is clear.",
+      "uncertainty_note": "This may be a short access path or merely an edge of the yellow patch. It stops at the lettering because no certain continuation is visible; j02 is conditional on the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible oblique stroke could represent a short path branching from the dotted track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be a parcel or enclosure outline, with no road branch at j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[545,694],[584,689],[625,681],[667,674],[712,666],[756,658],[800,650],[845,641],[890,634],[926,631],[957,635],[985,640],[1000,643]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A nearly continuous dark blue-brown stroke, with an uneven tan fringe, crosses the right-hand face; repeated large cross marks overlap its western approach.",
+      "uncertainty_note": "A separate second margin or dotted edge cannot be established. This is included as a doubtful road-like line, with a field or property boundary a substantial alternative; its western continuation is obscured.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If this is a route, the securely visible symbol is one continuous dark line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be an undotted field or property boundary rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [497,546],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange dotted strip approaches from above and southwest, while the pale cased diagonal approaches from northwest; heavy black marks crowd their eastern side. The count assumes the pale diagonal is a road and does not assume an eastern connection."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [441,356],
+      "branch_count": 3,
+      "evidence_note": "Beside the lettering, a short dark oblique stroke touches the orange dotted strip, giving two branches along that strip and one toward the yellow patch if the short stroke is a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [506,535,553,600],
+      "why": "Heavy black marks and overlapping red/green colouring conceal the individual courses immediately east of the central convergence."
+    },
+    {
+      "bbox_uv": [534,507,563,537],
+      "why": "The stepped sheet join and coloured band obscure the western end of the eastern dotted line."
+    },
+    {
+      "bbox_uv": [463,321,509,361],
+      "why": "Heavy 'B' lettering and adjacent rectangular symbols prevent a certain continuation of the short oblique stroke."
+    }
+  ],
+  "overall_note": "The paired dotted orange strips are the clearest roads; the pale diagonal casing and two weaker eastern or lateral strokes admit other readings. Broad coloured bands, repeated large crosses, thin tinted boundary lines, irregular blue outlines and horizontal hatching were excluded unless a separate road-like stroke was visible. Overprinting and the stepped sheet join prevent a certain connection to the eastern dotted line."
+}

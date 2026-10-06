@@ -1,0 +1,137 @@
+{
+  "tile_id": "cor_e0368_n6435",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown-washed road with dotted fill between two thin dark edges runs from the field corner at about (238,148) south past the Vatorp houses (275,260)-(300,420)-(330,505), on to the hamlet at about (440,700), then SE along the SW side of the 4G enclosure to (575,790) and on via (650,900), (710,965) to about (840,975). The overlay line follows this.",
+      "uncertainty_note": "Between the hamlet and (575,790) the overlay seems to cut a straight chord where the drawn road bends slightly along the enclosure edge; the offset is small. The overlay does not show classes, so the class given here is my own reading."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (238,148) NE to the top edge at about (305,0), the only line is the dark outline of the hatched area, with a reddish boundary tint. It has no brown wash and no dotted fill, and the brown road ends at the corner at (238,148).",
+      "uncertainty_note": "Low. A road continuing north could in principle be hidden under the area outline, but nothing on the tile shows one."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "West of (238,148) there is only the red boundary along v≈148 and a faint thin dashed dark line from about (0,185) to (120,162). The dashed line has no brown colour or dotted road fill, which matches a Skifteslinje/boundary rather than a road.",
+      "uncertainty_note": "Moderate. The faint dashed line is thin at this resolution and could be a footpath (Gångstig), but its dashes look like the boundary symbol, not a row of dots."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short brown dotted road leaves the main road at about (305,425) and runs east to farm '2' at about (395,405).",
+      "uncertainty_note": "It looks narrower than the main road and could be read as single_line. Its exact attachment point among the Vatorp buildings is uncertain by about 15 px."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted road runs from the west edge at about (0,635) through (120,610), (180,590) and (250,545) to join the main road at about (325,505). The overlay follows it.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted road leaves the hamlet at about (445,715) and runs SW through (330,765), (270,800), (230,860) and (160,900) to about (60,940) at the stream meadow. The overlay follows it.",
+      "uncertainty_note": "It is unclear whether the road ends at the wet meadow or crosses the stream to the west edge. Nothing is visible west of about u=55."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The feature seems to be a short spur from about (575,790) NE to house '10' at about (615,735), along the SE edge of the 4G enclosure. The edge there is a dark enclosure outline, possibly with a slight brown tint, but it lacks the clear dotted double-line road fill seen elsewhere.",
+      "uncertainty_note": "This could be a short farm access road drawn on the enclosure edge, or just the enclosure outline. The resolution does not decide it."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted road leaves the Ve farm at about (890,450), turns down to (890,495), then runs WSW through (830,520) to about (775,545) at the red boundary.",
+      "uncertainty_note": "Low. It is one stretch of a longer road that continues north to the top edge and south along the boundary; the overlay does not show those parts."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From near the junction at (857,795) SE to about (975,1000), the only line is a faint grey line with no brown wash or dotted fill. The drawn brown road from that junction instead runs nearly due south to about (850,1000), and I report it as a missed feature.",
+      "uncertainty_note": "If f09 was meant as the road leaving the (857,795) junction southward, it would be partly_agree_course_differs with waypoints (857,795),(862,860),(855,940),(850,1000). As drawn, it follows a non-road line."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[745, 0], [765, 60], [785, 130], [805, 200], [825, 260], [845, 320], [865, 380], [885, 440]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A clear brown dotted double-line road runs from the top edge at about u=745 SSE to the Ve farm, where it continues as f08. It crosses the blue stream at about (805,210).",
+      "uncertainty_note": "Low for the course. At the farm it may pass through the yard rather than meeting f08 at one point.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[775, 545], [800, 620], [825, 700], [845, 760], [857, 795]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Brown dotted road running alongside, just east of, the red boundary line, from the end of f08 at (775,545) south to the junction at about (857,795).",
+      "uncertainty_note": "It lies so close to the red boundary that at places the two are hard to separate. However, the brown wash and dots are visible along most of its length.",
+      "alternatives": ["could be read as a continuation of f08 rather than a separate feature"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[857, 795], [862, 860], [858, 920], [850, 970], [850, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Brown dotted road continuing south from the (857,795) junction to the bottom edge. f01 joins it from the west at about (840,975).",
+      "uncertainty_note": "Low. The last ~25 px may be shared with the end of f01.",
+      "alternatives": []
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [857, 795],
+      "what_is_contested": "Which lines meet here: the road from the north (m02) continues south (m03); the red boundary arrives from the WSW; the overlay instead has f09 leaving SE along a faint line.",
+      "evidence_note": "Only the N and S branches carry brown road fill. I read it as a road bend/through-route crossed by a boundary, with no SE road branch."
+    },
+    {
+      "uv": [238, 148],
+      "what_is_contested": "Whether the road ends at this corner or continues north (f02) or west (f03).",
+      "evidence_note": "The brown road reaches the corner of the red boundary and the hatched-area outline. Neither continuation carries road colour, so I read it as the road's end at a field corner."
+    },
+    {
+      "uv": [442, 700],
+      "what_is_contested": "Exact position and branch count among the hamlet buildings, where the N road, the SW road (f06) and the SE road (f01) meet.",
+      "evidence_note": "The buildings, the stream crossing at about (410,625) and the wet-meadow wash obscure where the branches actually join. They may meet at two points about 20 px apart rather than one."
+    },
+    {
+      "uv": [840, 975],
+      "what_is_contested": "Whether f01 joins the N-S road m03 here or runs separately to the bottom edge.",
+      "evidence_note": "The two brown roads converge near the bottom edge, and the merge point is within about 25 px of the tile edge."
+    },
+    {
+      "uv": [575, 790],
+      "what_is_contested": "Whether a spur (f07) leaves the SE road here toward house 10.",
+      "evidence_note": "The enclosure edge toward house 10 is ambiguous between an outline and a short road."
+    }
+  ],
+  "overall_note": "The tile's roads are brown-washed, dot-filled double lines. I agree with the overlay on the main Vatorp–hamlet–SE road and the f04, f05, f06 and f08 roads, but read f02, f03 and f09 as boundary or other non-road lines. The overlay misses the road from the top edge to Ve and its continuation south along the red boundary to the bottom edge."
+}

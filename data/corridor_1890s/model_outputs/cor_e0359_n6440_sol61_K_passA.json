@@ -1,0 +1,103 @@
+{
+  "tile_id": "cor_e0359_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,550],[29,530],[59,508],[99,506],[145,509],[184,500],[223,484],[260,460],[295,431],[329,402],[362,378],[398,363]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A reddish-brown band approximately 9–14 px across has two dark, irregular edges. Small black building rectangles occur alongside the middle section; the band remains visible between them.",
+      "uncertainty_note": "Some edging merges with adjacent building and parcel strokes, but the brown course remains traceable. Ink spread makes the width classification approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Locally separated dark edge marks could represent paired broken strokes partly concealed by the reddish-brown printing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[398,363],[441,366],[484,372],[530,379],[575,385],[621,391],[669,397],[711,405],[752,420],[792,442],[835,458],[879,465],[923,466],[965,463],[1000,463]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark edges enclose a continuous reddish-brown strip roughly 10–15 px wide. The strip bends downward between approximately u=710 and u=840, then becomes nearly horizontal.",
+      "uncertainty_note": "The edges are thick and locally ragged; narrow versus wide paired-line classification is approximate. Thin red and blue-black crossing lines do not visibly form additional road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The broadest portions could also be described as widely spaced paired edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[398,363],[424,335],[447,304],[466,272],[477,238],[481,205],[493,176],[521,152],[551,126],[581,104],[614,89],[650,76],[687,57],[713,31],[738,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A reddish-brown strip with two close, dark edges curves upward from the junction. The edging contains repeated short dark marks, especially above v=180; angular black parcel outlines sit beside it.",
+      "uncertainty_note": "The upper section's edging is intermittently broken, so its precise symbol form is uncertain. Thin red lines crossing near (493,176) appear to continue independently rather than merge as road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired dark marks may be a broken or dotted track symbol blurred together by the reddish printing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[1000,506],[982,531],[965,556],[946,584],[927,612],[909,640],[891,668],[874,696],[854,724],[832,743],[804,758],[776,773],[758,791],[750,811],[751,837],[761,870],[776,904],[793,936],[811,959],[823,982],[831,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish-brown band approximately 7–12 px wide has dark, partly broken edging. It turns sharply south near (750,810), passes beside black rectangles and a green patterned rectangle, and remains visible through portions of the large bottom lettering.",
+      "uncertainty_note": "The lower lettering masks short portions of the edging; continuation is supported by the aligned brown band immediately on both sides. Crossing blue-black and thin red lines have no visible brown road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "In the thinner sections, paired broken marks and a continuous cased line are difficult to distinguish."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[954,0],[961,20],[973,42],[984,60],[1000,82]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A short, oblique reddish-brown strip clips the upper-right corner. Dark marks border both sides, with approximately 8–12 px between them, but the edges are blurred.",
+      "uncertainty_note": "The visible length is short and its dark edging is insufficiently distinct to establish whether the symbol is continuously double-lined or formed from paired broken strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The brown strip and apparent paired edges resemble the longer road bands elsewhere on the tile."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [398,363],
+      "branch_count": 3,
+      "evidence_note": "Three reddish-brown bands meet without a visible separating edge: one from the southwest, one curving north-northeast, and one extending east. Their dark outlines open into a common brown area."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [79,398,266,467],
+      "why": "Heavy italic lettering and nearby black building strokes conceal fine lines; any subsidiary path through these strokes cannot be traced reliably."
+    },
+    {
+      "bbox_uv": [247,499,786,606],
+      "why": "The large place-name lettering overlaps parcel edges and faint marks. Short subsidiary tracks, if present beneath the letters, cannot be distinguished or connected securely."
+    },
+    {
+      "bbox_uv": [775,932,930,1000],
+      "why": "Large lettering obscures fine linework. The brown road band is traceable across it, but possible smaller branches are unreadable."
+    }
+  ],
+  "overall_note": "Five road traces and one three-way junction are distinguishable. Thin red lines and blue-black parcel or water lines were excluded where their drawing matches the non-road examples. The principal uncertainties are broken versus continuous road edging and fine linework beneath lettering."
+}

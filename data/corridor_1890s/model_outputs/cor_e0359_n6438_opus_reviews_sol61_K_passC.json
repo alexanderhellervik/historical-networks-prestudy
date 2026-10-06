@@ -1,0 +1,64 @@
+{
+  "tile_id": "cor_e0359_n6438",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A broad pink/magenta band edged with black runs from the bottom edge near (270,1000) through (600,885), (700,850) and (800,818) to the right edge near (1000,748). The farm B. and Skagen sit on it, the strip-field boundaries (red lines) end against it, and the dotted paths f02/f03 meet it at the farm. This reads as the main road through the tile, and the overlay follows it closely.",
+      "uncertainty_note": "The black edging looks partly dash-dot, like the legend's boundary symbols, so this could be a hand-coloured parish/hemman boundary rather than a road, or a boundary running along a road. I lean to road because paths and a farm attach to it. The class (wide double line vs. some other road form) cannot be read precisely at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A fine dotted line (the legend's Gångstig form) comes in from the top edge at about (945,0), runs down past (925,170) to (915,330), turns west to (820,370) and reaches the sheet join at (815,392). Below the join an orange-tinted dotted line continues from (825,420) through (850,560), curving SW via (810,670) to the Skagen farm at about (775,750). The overlay follows this course.",
+      "uncertainty_note": "The two halves are joined across the dark sheet seam at v~395 with a small offset. Their continuity is inferred, not seen. Below the seam a straight black dashed field boundary runs next to the path (820-880, 420-720) and must not be confused with it."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line (black dots with an orange tint) leaves the south side of the main road near (805,862) and runs SE through (870,920) to the bottom edge at about (945,1000). It matches the dotted path style of f02.",
+      "uncertainty_note": "This is a dotted path, not a dash-dot boundary, but at this resolution the dot rhythm is only moderately clear."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f04 is a short connector between the end of f02 at the Skagen farm (~775,750) and the main road (~790,830). That stretch is a smudged, pale, damaged patch beside the farm buildings, and no dotted or drawn line can be traced through it.",
+      "uncertainty_note": "Logically the path f02 should reach the road here, so the connector is plausible. The drawing itself does not show it, though, and it could run on the other side of the building at (770,745)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A solid orange-brown single line runs from the sheet seam at about (920,420) down through (940,600) to meet the main road near (960,765). Nothing continues it above the seam. In the worked example, thin orange-brown lines were read as paths, but solid coloured lines on this sheet are also used for boundaries.",
+      "uncertainty_note": "This could be a path or minor track (single_line), or a coloured property/parish boundary. Its abrupt start at the seam and its straight course parallel to the field strips slightly favour a boundary, so I do not agree by default."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [818, 400],
+      "what_is_contested": "Whether the dotted path above the sheet seam (ending ~815,390) and the orange-dotted path below it (starting ~825,420) are the same line. Alternatively, the upper dotted line could continue as the orange line f05 at u~920.",
+      "evidence_note": "The dark seam band at v~390-410 hides about 20 px. The upper line visibly turns west toward u~815 before the seam, which favours the f02 connection, but the join itself is not drawn."
+    },
+    {
+      "uv": [790, 835],
+      "what_is_contested": "The junction at Skagen/B.: whether f02 (from the north via f04) and f03 (to the SE) meet the main road at a single crossroads or at two offset points, and whether the northern branch reaches the road at all.",
+      "evidence_note": "f03 clearly leaves the road's south side near (805,862). The north side, at (765-790, 750-830), is smudged and damaged around the farm buildings."
+    },
+    {
+      "uv": [960, 765],
+      "what_is_contested": "Whether a junction exists here at all. It is one only if the orange line f05 is a road rather than a boundary meeting the road.",
+      "evidence_note": "The solid orange line reaches the pink road band near (960,765) without any dot pattern or road symbol at the meeting point."
+    }
+  ],
+  "overall_note": "The tile is dominated by NNW-SSE field and property boundaries (black dashed, crimson solid), which are not roads. The roads are the pink main road along the south (f01) and dotted paths serving the Skagen farm (f02, f03). The pink band could also be a coloured boundary along the road, and the sheet seam at v~395 and the smudged farm area leave the f04 connector, the f02 seam crossing and f05's status undecided."
+}

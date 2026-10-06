@@ -1,0 +1,185 @@
+{
+  "tile_id": "cor_e0351_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[351, 0], [343, 50], [332, 104], [320, 151], [304, 179], [280, 214], [260, 242], [249, 268], [247, 303], [245, 352], [243, 402], [244, 450], [246, 491], [246, 516], [249, 544], [244, 566], [242, 580]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close rows of dark dots and short marks, approximately 8–12 px apart, flank an orange-brown strip; the edges become heavier toward the southern end.",
+      "uncertainty_note": "The road reading is clear. Its interrupted edges also support dashed_line; j04 includes a doubtful lateral feature.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two edges are predominantly dotted or broken rather than continuous."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 586], [31, 597], [64, 612], [99, 625], [125, 620], [157, 607], [185, 592], [212, 582], [231, 578], [242, 580]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two heavy dark edges enclose a brown-grey interior approximately 12–18 px wide; large black lettering overlaps the western bend.",
+      "uncertainty_note": "The course through the lettering is supported by aligned casing visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[242, 580], [249, 607], [249, 632], [255, 657], [275, 682], [301, 694], [339, 700], [387, 710], [430, 708], [470, 705], [510, 707], [552, 711], [593, 717], [632, 725], [671, 737], [710, 744], [750, 752], [779, 780], [811, 813], [842, 842], [878, 858], [918, 864], [957, 861], [980, 861], [991, 866], [1000, 876]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03", "j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Continuous heavy black casing encloses a grey-brown strip, generally 12–18 px wide; a pale green strip borders part of its northern edge, and lettering overlaps several stretches.",
+      "uncertainty_note": "The casing supports continuity through the lettering and across the broad pink bands. The third branch at j05 is doubtful.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[387, 710], [363, 734], [337, 755], [320, 779], [305, 813], [294, 852], [283, 894], [278, 934], [276, 972], [276, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two narrow rows of dark dots and short strokes flank an orange-brown strip approximately 8–11 px wide; the strip crosses thin pink lines without changing course.",
+      "uncertainty_note": "The road reading is clear; the broken rims make its symbol-form class less certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Both rims consist largely of separated dark marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[750, 752], [768, 727], [786, 701], [785, 681], [779, 650], [778, 623], [780, 600], [787, 583], [809, 578], [849, 573], [883, 562], [915, 550], [941, 550], [965, 555], [985, 542], [1000, 527]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two rows of dark dots flank an orange strip approximately 8–12 px wide; red rectangular symbols sit alongside its eastern stretch, and a broad pink band crosses its southern leg.",
+      "uncertainty_note": "Pink overprinting partly hides the rims around [786, 701], but the orange strip and dotted edges align on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired edges are interrupted throughout much of the feature."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[246, 516], [260, 517]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine ochre-pink stroke leaves the eastern rim of the dotted road and disappears beneath a heavy black letter.",
+      "uncertainty_note": "This may be a path or a boundary. Its connection to f07 is hidden; no connecting course is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short single-stroke path is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The warm-coloured stroke could instead be a property boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[269, 501], [287, 481], [305, 466], [327, 454], [351, 446], [377, 439], [395, 424], [410, 405], [430, 395], [453, 394], [476, 398], [496, 403]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A curved ochre stripe with a fine pink edge, approximately 3–5 px across, is visible inside and beyond the black lettering; its eastern end meets a stronger pink line.",
+      "uncertainty_note": "A narrow path and a property boundary are both plausible. The western connection is obscured, and the eastern endpoint marks the end of the candidate trace rather than a demonstrated road termination.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The fine paired warm-coloured edges could depict a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a boundary, possibly continuous with f06 beneath the lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[145, 638], [176, 643], [209, 649], [237, 654], [255, 657]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A single row of relatively heavy dark dots follows a thin pink stroke; it starts against a thin polygon edge and meets the heavy casing of f03.",
+      "uncertainty_note": "The dots could indicate a path, but the pink stroke and polygon attachment also support a boundary reading. No continuation beyond the western endpoint is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A dotted walking path is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "This may be a property boundary rather than a road; under that reading j05 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[173, 19], [184, 45], [193, 77], [202, 108], [207, 126]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "dead_end"],
+      "evidence_note": "A narrow orange stroke with a pink edge descends from the hatched area's margin to a stronger oblique pink line; small black marks overlap its upper portion.",
+      "uncertainty_note": "This could be a minor path or a boundary. Neither endpoint has a demonstrable road continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The narrow orange stroke could represent a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Its pink edging and attachment to another pink line favour a possible boundary reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [242, 580],
+      "branch_count": 3,
+      "evidence_note": "The orange strip with paired dotted rims meets heavy cased strips extending west and south; their interiors join at the bend."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [387, 710],
+      "branch_count": 3,
+      "evidence_note": "An orange strip with two dotted rims joins the southern casing of the wide road, which continues west and east."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [750, 752],
+      "branch_count": 3,
+      "evidence_note": "A narrow orange strip with paired dark dots meets the northern edge of the heavy cased road; the latter continues in both directions."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [246, 516],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted road continues north and south, while a fine ochre-pink stroke leaves its eastern rim; the third branch is conditional on f06 being a path."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [255, 657],
+      "branch_count": 3,
+      "evidence_note": "The heavy cased road continues around the bend in two directions, and a single dotted pink-backed line reaches its western rim; the third branch is conditional on f08 being a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [257, 493, 286, 524],
+      "why": "Heavy black lettering hides the possible connection between f06 and f07 and prevents a reliable course through the gap."
+    }
+  ],
+  "overall_note": "The principal difficulty was distinguishing faint warm-coloured paths from property boundaries, especially beneath lettering. Doubtful traces are retained with alternatives, and j04 and j05 are conditional junctions. Broad pink boundary bands, thin polygon outlines and blue-green water lines were excluded where their non-road form was clear."
+}

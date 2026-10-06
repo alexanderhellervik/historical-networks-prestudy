@@ -1,0 +1,35 @@
+{
+  "tile_id": "cor_e0344_n6437",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a heavy, beaded black dotted line that runs from the W edge at about (0,410) through (200,485), (300,490), (450,525), (560,600), (680,700), (750,800) to the E edge at about (1000,800). This dotting is clearly heavier and more regular than the fine dotted marsh outlines on this tile (Hwerred marsh, Råda marsh). It crosses the hatched marsh at the left edge rather than going round it, so it is a line feature and not an area outline. A single row of dots matches the legend's Gångstig. The 'till Jerrklef' lettering is set along it.",
+      "uncertainty_note": "Moderate. Between about u=450 and u=560 the line merges with the SW outline of the Råda marsh, and from about u=740 to u=790 it touches the crimson line C. So part of its course could be an outline or boundary edge and not a path. The class could also be a dotted cart track (Sämre körväg) and not a footpath. I cannot tell from here whether the overlay's own class matches."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This short segment from about (115,285) to (185,222) only spans the gap between the two parallel crimson boundary lines A and B. At most a faint hairline is visible there. There is no road symbol (no dotting and no double line), and nothing continues beyond either crimson line. A short cross-line between two strip boundaries reads as a parcel division or survey line.",
+      "uncertainty_note": "The underlying mark is very faint. If it is a real drawn line, it may be a parcel division. It is unlikely to be a track, but a pencil-faint path cannot be fully excluded."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [765, 805],
+      "what_is_contested": "Whether the dotted line f01 actually meets or joins the crimson line C here, or only comes close to it, and whether this counts as a road junction at all.",
+      "evidence_note": "Between about u=740 and u=790 the beaded line runs tangent to or on top of crimson line C, then turns E and stays north of C to the tile edge. I read C as a boundary, so at most this is a path touching a boundary and not a road junction. If C were read as a road, this would be a branch point."
+    },
+    {
+      "uv": [510, 545],
+      "what_is_contested": "Whether f01 continues as a separate path here or merges with or becomes the SW outline of the Råda marsh.",
+      "evidence_note": "The heavy dots run into the fine dotted marsh outline under the 'till' lettering. Overlapping lettering makes it impossible to tell whether two lines meet or one line simply continues."
+    }
+  ],
+  "overall_note": "The three long straight crimson lines are, in my reading, red-coloured property or strip boundaries and not roads. They are about 100–250 m apart and have no road symbol. Parcel labels sit in the middle of the strips ('till Råda', 'till Jerrklef'), which matches how the neighbouring example reads similar crimson lines as Gräns. The black dashed lines at the upper right are boundaries or skifte lines, and the thin straight vertical at u≈855 is a grid or boundary line. The only plausible road on the tile is the heavy dotted path f01, and I found no missed roads."
+}

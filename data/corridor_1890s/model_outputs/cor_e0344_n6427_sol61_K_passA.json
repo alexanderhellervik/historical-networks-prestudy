@@ -1,0 +1,132 @@
+{
+  "tile_id": "cor_e0344_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[77, 0], [80, 17], [79, 32], [84, 44], [98, 46], [113, 35], [132, 21], [148, 17], [165, 23], [177, 37], [182, 59], [183, 79], [187, 91], [211, 103], [241, 112], [273, 116], [307, 123], [346, 123], [374, 119], [404, 110], [435, 100], [467, 88], [499, 75], [530, 64], [564, 57], [599, 51], [634, 45], [670, 36], [705, 25], [739, 14], [770, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A winding reddish-ochre band, approximately 6–10 px wide, has darker broken marks along both margins; the two margins are clearest around the upper-left bends.",
+      "uncertainty_note": "Some stretches resolve into dots and short strokes rather than continuous casing, making the exact symbol form uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired broken margins could be described as a dotted or dashed road symbol rather than continuous double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[346, 123], [362, 138], [376, 154], [386, 174], [397, 196], [413, 216], [432, 232], [452, 248], [459, 272], [465, 297], [468, 322], [464, 345], [455, 365], [442, 384], [420, 403], [397, 422], [375, 436], [353, 454], [335, 478], [328, 503], [325, 531], [318, 557], [310, 583], [299, 609], [291, 635], [285, 663], [283, 692], [282, 722], [282, 752], [279, 782], [273, 810], [261, 837], [243, 862], [221, 885], [197, 906], [173, 925], [148, 944], [123, 965], [102, 984], [88, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre trace carries a single succession of dark dots and short strokes, particularly clear between v=450 and v=850; it meets the wider upper band.",
+      "uncertainty_note": "The ochre trace sometimes appears continuous beneath the dark marks. Its crossing of the straight reddish diagonal is not counted as a road junction because that diagonal reads as a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The continuous underlying ochre stroke could be taken as the principal line, with the dark interruptions treated as detailing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[187, 91], [184, 110], [190, 131], [203, 151], [221, 173], [240, 193], [259, 207], [282, 222], [300, 237], [307, 251], [313, 259], [322, 262], [333, 257]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin continuous reddish-ochre stroke with a fine dark edge leaves the upper winding band and ends in a short rightward hook; it lacks clearly separated parallel margins.",
+      "uncertainty_note": "This is a weaker road candidate than f01 and f02: a boundary stroke is also plausible. The endpoint is the end of the visible hook; no continuation is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The thin continuous stroke could be a property boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[823, 752], [840, 767], [853, 783], [860, 803], [859, 829], [854, 854], [858, 875], [867, 893], [876, 906]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A fine reddish-brown continuous stroke starts against the blue outline beside horizontal hatching and curves downward; a dark cross-shaped mark overlaps it around [861, 798].",
+      "uncertainty_note": "Road identity is doubtful because there are no clear dotted margins or casing. The stroke is visible above and below the overlapping cross, supporting continuity there; j03 is conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This may be a property boundary connecting the blue outline to the three-way meeting."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[876, 906], [862, 922], [841, 935], [813, 947], [788, 959], [765, 974], [743, 986], [724, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A slim continuous reddish-ochre stroke runs southwest from the meeting, with a fine darker edge and no consistently visible second line.",
+      "uncertainty_note": "Its appearance supports either a thin path or a property boundary; the road interpretation and associated junction remain conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The continuous coloured stroke may be a boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[876, 906], [893, 918], [913, 932], [931, 941]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine reddish stroke branches southeast and reaches dark dotted edging beside horizontal hatch marks; it has no visible parallel casing.",
+      "uncertainty_note": "The line may be a boundary. At the southeast end it merges with the dotted hatch perimeter, so no course beyond [931, 941] is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A short property-boundary branch is equally plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[433, 947], [435, 964], [436, 977], [433, 990], [429, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A short thin reddish-brown stroke leaves the blue outline and bends slightly before reaching the bottom edge; no dots or separated casing are clear.",
+      "uncertainty_note": "This isolated stroke is a doubtful path candidate and could instead be a boundary ending at the blue outline.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A property boundary is plausible; the visible symbol does not establish road identity."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [187, 91],
+      "branch_count": 3,
+      "evidence_note": "The wider reddish band continues in two directions around a bend, while a thinner continuous reddish stroke leaves downward; three branches are visible, though the thin branch's road identity is uncertain."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [346, 123],
+      "branch_count": 3,
+      "evidence_note": "The narrow band with paired dark marginal marks continues left and right, and a thinner ochre line with dark broken marks leaves southeast, giving three road branches."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [876, 906],
+      "branch_count": 3,
+      "evidence_note": "Three fine continuous reddish strokes meet without visible widening or casing: one upward, one southwest and one southeast; this is a junction only under the doubtful road interpretation."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The winding upper band and the long dotted southward trace provide the strongest road evidence. Thin reddish strokes are included with explicit boundary alternatives where their identity remains ambiguous. The straight diagonal, long regularly dashed lines, blue water outlines and dotted hatch perimeters are read as non-road symbols."
+}

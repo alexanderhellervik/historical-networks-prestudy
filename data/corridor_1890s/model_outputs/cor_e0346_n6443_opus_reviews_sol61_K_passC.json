@@ -1,0 +1,91 @@
+{
+  "tile_id": "cor_e0346_n6443",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A wide double line with red-brown fill enters the top edge at about u 150-165. It runs south to about (190,250), bends at (185,300) and runs south-west through (100,400) to the left edge at about (0,515). The overlay line follows it.",
+      "uncertainty_note": "At about (90,390) the overlay line merges with f07, so I cannot tell whether f01 itself continues to the left edge. The drawn road clearly does continue to (0,515)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line with a dotted fringe leaves the double-line road at about (190,200) and runs north-east to about (265,152), next to the farm marked B. It is drawn in the same colour and form as the long road line f06, which the example reads as a road.",
+      "uncertainty_note": "It runs along the edge of the pink field, so it could be a coloured field boundary. The colour and the dot fringe point to a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted black line with a faint brown wash starts at short dashes near B (about (300,140)). It runs through (340,95), (400,78) and (460,97) to about (550,78). There are conifer symbols on both sides, so it is not a forest-edge outline. A single row of dots matches the Gångstig symbol.",
+      "uncertainty_note": "Dotted lines also outline the bogs on this sheet. Because it crosses uniform forest, a path is the more likely reading, but a boundary drawn dotted cannot be ruled out."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same dotted line, with brown wash, turns north at about (595,60) and passes (610,22). It then runs east just below the top edge through (700,12) to about (840,5), where it meets the long-dashed line.",
+      "uncertainty_note": "Near the top edge it runs along the bog's outline, so its eastern part may partly be a land-cover outline."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short piece of the same dotted line, from about (550,78) to (620,70), linking f03 and f04. At its east end the solid black outline of the pink field starts.",
+      "uncertainty_note": "This is just the continuation of f03/f04, so splitting it out is arbitrary. The line itself is clearly drawn."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A strong red-brown line with a dotted fringe runs from about (465,355) through (510,325), (600,365), (750,375) and (850,345) to the right edge at about (1000,365). It matches the line form that the example reads as Sämre körväg.",
+      "uncertainty_note": "The overlay seems to start at about (465,355). The same road clearly continues north-west past the buildings to B (see m01). If f06 already includes that stretch, m01 is a duplicate."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (90,385) through (125,410), (190,365), (320,320) and (370,305) to (375,280), the overlay follows the thin black solid outline of the pink field on its southern side, with a grey edge wash. There is no road colour and no road symbol.",
+      "uncertainty_note": "A field edge could carry a track, but nothing is drawn to show one."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[265, 152], [295, 180], [340, 220], [375, 270], [420, 315], [465, 355]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A red-brown line, partly paired with a black line and with a dotted fringe, runs south-east from the corner at B past the two dark building blocks (about (300,215) and (350,215)). It reaches about (465,355), where the road f06 continues east. It joins f02 to f06 as one continuous road.",
+      "uncertainty_note": "It may already be part of f06 in the overlay. Near the buildings the doubled drawing makes the exact course uncertain.",
+      "alternatives": ["part of f06 rather than a separate feature", "double_line_narrow between (290,175) and (370,260), where two parallel lines are visible"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [275, 155],
+      "what_is_contested": "How many branches meet at farm B, and exactly where. f02 (from the main road), m01/f06 (to the south-east) and the dashed connector to the dotted path f03 meet within about 30 px.",
+      "evidence_note": "Short black dashes link the dotted line to the red-brown road near (290,150). It is unclear whether the path joins the road at the corner (265,152) or slightly further east at (295,170)."
+    },
+    {
+      "uv": [190, 200],
+      "what_is_contested": "Where f02 meets the double-line road. It could be a T-junction on the road's east side, or the red line might stop at the field edge.",
+      "evidence_note": "The red-brown line reaches the double line at about (190,200). The pink field's fill on both sides makes the meeting point hard to read."
+    },
+    {
+      "uv": [840, 5],
+      "what_is_contested": "Whether the dotted path f04 ends at the long-dashed line here, or carries on beyond the top edge.",
+      "evidence_note": "The long-dashed line, which reads as a boundary or skifteslinje and not as a road, starts at about the same point at the top edge."
+    }
+  ],
+  "overall_note": "The roads are the wide double-line road on the left (f01), a red-brown road from it past farm B to the east edge (f02, m01, f06), and a dotted path along the north (f03-f05). f07 follows a field outline, not a road. The long-dashed lines on the right and lower left read as boundaries."
+}

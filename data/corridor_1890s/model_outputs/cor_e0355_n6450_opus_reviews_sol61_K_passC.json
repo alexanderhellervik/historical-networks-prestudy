@@ -1,0 +1,113 @@
+{
+  "tile_id": "cor_e0355_n6450",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "avenue_lined",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the main WNW-ESE road, a brown-filled double line with a dark lower edge running about (35,565) - (270,588) - (560,630) - (800,665) - (1000,690). It is flanked on both sides by rows of small open tree circles, which matches the Allébeteckning symbol.",
+      "uncertainty_note": "The overlay's class cannot be read from the image, so I only judged the course. The double line is landsväg-like, so double_line_wide is the alternative if the tree rows are not counted as an avenue. Near u 560-640 the course is partly hidden where it crosses the pond outlet."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the single black outline of the pale grey-green meadow/marsh strip in the NW corner, about (150,0) - (70,415) - (5,430). There is no brown fill and no paired or dotted road edge. It is a land-cover boundary.",
+      "uncertainty_note": "Low. The line is a plain black edge between two colour fills."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "avenue_lined",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the short western continuation of the main road from about (35,567) to the west edge near (0,578). The brown double line and the tree circles continue to the tile edge.",
+      "uncertainty_note": "The segment is very short and could just as well be part of f01. Splitting it from f01 at u≈35 implies a junction there with the southward brown line (f05)."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below about v 700 the line runs along the black edge of the narrow grey-green strip at the west margin (u≈22-30 down to v 1000). That edge has no brown road fill and no dotted road margin. Above v≈700 it duplicates the brown line already captured as f05.",
+      "uncertainty_note": "Medium. A narrow road could be hidden alongside the strip edge at this resolution, but nothing road-coloured is visible south of v≈720."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line with dotted margins, the same symbol as the long N-S field roads on this tile, leaves the main road at about (35,572) and runs SSW to about (18,710).",
+      "uncertainty_note": "Its southern end is unclear. It may leave through the west edge around v 710-730, or continue south hidden along the black strip edge."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[640, 499], [730, 510], [822, 520]],
+      "evidence_note": "A pair of thin parallel grey lines runs along the north side of the farmstead from about (640,499) to the brown N-S road at about (822,520). This looks like a lane joining that road. West of u≈640 the overlay follows the outline of the pond/watercourse (555,470)-(640,497), which is a water edge and not a road.",
+      "uncertainty_note": "The double line could instead be the fence or edge of the tomt or garden. Its light fill and its connection to the N-S road make it more likely a lane."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[334, 0], [301, 300], [270, 588], [247, 800], [224, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A long straight brown band with finely dotted margins crosses the whole tile N-S. It is the same colour and texture as the road fill and crosses the main road at about (270,588).",
+      "uncertainty_note": "Straight skifte-era lines can be boundaries. However, the boundaries on this sheet (worked example) are thin crimson or black dashed lines, while this one is a brown band with dotted edges, which reads as a körväg.",
+      "alternatives": ["single_line", "boundary (Skifteslinje / ägogräns) rather than road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[904, 0], [872, 235], [832, 520], [812, 668], [790, 800], [766, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A second straight brown band with dotted margins crosses the tile NNE-SSW. It passes east of the farmstead and through the 'Hed' lettering, and crosses the main road at about (812,668) beside the small red building symbols.",
+      "uncertainty_note": "Between v≈520 and 660 it is partly hidden behind lettering and buildings. The same road-versus-boundary doubt applies as for m01.",
+      "alternatives": ["single_line", "boundary rather than road"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[872, 235], [940, 240], [1000, 246]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short brown band with a dotted lower margin branches east from m02 at about (872,235) and runs to the east edge.",
+      "uncertainty_note": "It is short and could be a boundary. Its brown fill matches m02.",
+      "alternatives": ["single_line", "boundary rather than road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [35, 568],
+      "what_is_contested": "Number of branches and position: is this the main road continuing west (f03) plus a southward branch (f05), or does the road simply bend here?",
+      "evidence_note": "The brown double road reaches the west margin, and a brown line with dotted margins leaves southward from about the same point. The 'Godhem B' lettering and the strip edge crowd the spot."
+    },
+    {
+      "uv": [270, 588],
+      "what_is_contested": "Whether the N-S brown band (m01) actually crosses the main road as a 4-way road junction or is a boundary passing through it.",
+      "evidence_note": "The brown band is continuous on both sides of the main road. Its identity as a road rests on colour and dotted margins only."
+    },
+    {
+      "uv": [812, 668],
+      "what_is_contested": "Existence and form of a 4-way crossing of m02 with the main road beside the farm buildings.",
+      "evidence_note": "The brown band is obscured by the red building symbols and the 'Hed' / '82,63' lettering close to the crossing."
+    },
+    {
+      "uv": [822, 520],
+      "what_is_contested": "Whether the lane north of the farmstead (f06) joins the N-S road m02 here or ends at a fence.",
+      "evidence_note": "The double grey lines meet the brown band at about this point. The join is not clearly drawn."
+    },
+    {
+      "uv": [872, 235],
+      "what_is_contested": "Whether this is a T-junction (m03 branching from m02) or a boundary meeting a road.",
+      "evidence_note": "The brown branch with a dotted margin meets m02 at a clear angle. The class of both lines is uncertain."
+    }
+  ],
+  "overall_note": "The overlay captures the main avenue road (f01/f03) and the short southward branch at the west edge, but f02 and most of f04 follow land-cover edges rather than roads. It misses the two long straight brown N-S bands (m01, m02) and the eastward branch (m03), which I read as körvägar from their brown fill and dotted margins, with a boundary reading as the main alternative. Water outlines, the stream through the park and the thin grey line near u≈940 are not roads."
+}

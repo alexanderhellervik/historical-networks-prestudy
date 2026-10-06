@@ -1,0 +1,114 @@
+{
+  "tile_id": "cor_e0356_n6435",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A broad road band with black edges and a brown wash runs in from the left edge at about (0,590), past (125,597), loops north over (150,545) and (205,530), then follows (230,600), (280,680), (420,715), (540,722) and (580,780) to (690,857). The overlay follows it closely.",
+      "uncertainty_note": "The course is certain. The class is a judgement: this band is clearly wider than the brown-filled Sämre körväg in the example, so I read it as a main road, but it could be double_line_narrow."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown-washed double line continues east from the bend at about (690,857) through (760,846) and (860,836), crosses the pink boundary band, and reaches the right edge at about (1000,840).",
+      "uncertainty_note": "The course is certain. The class should match f01."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line, beaded or dotted along one side, runs from the right edge at about (1000,285) through (900,340), (840,400), (815,460), (805,530), (778,600), (785,660), (800,710), (790,770) and (760,825), and reaches the main road at about (745,850). It is brown like the roads, not magenta like the boundaries.",
+      "uncertainty_note": "Its existence and course are fairly clear. The symbol form is not: a solid brown line beside a dotted line may be a körväg symbol (solid plus dotted) rather than a simple path, so the class could be double_line_narrow or dashed_line."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short black line with an orange-red wash runs from about (385,105) to (555,15). It is coloured like a road, but it starts in open meadow, has no connection at its lower end, and the wash lies on one side only, which is how washed field or area edges also look.",
+      "uncertainty_note": "It may be a road stub that continues off the top edge, or the washed edge of a field or meadow parcel. The drawing does not decide which."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Around (580,425)–(610,450), next to the 'T' at Ljungstorp, there are only small plot or building outlines and the edge of the åker patch. No road symbol is drawn there.",
+      "uncertainty_note": "At this resolution a very short path between farm buildings could be hidden among the outlines, but nothing visible is drawn as a road."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (620,530)–(645,495) there are small rectangular building or plot outlines inside the settlement. No line with a road form or road colour is visible there.",
+      "uncertainty_note": "These are small features, so a short farmyard track cannot be completely ruled out."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline from about (655,545) through (600,640) and (595,700) to (580,770) follows the plain black outline of the cultivated (pink) area of Ljungstorp. Along the way it passes where the long dashed boundary from the north-west ends near (600,640) and where the thin magenta boundary leaves. None of these lines carries road colour or a double-line or dotted road symbol.",
+      "uncertainty_note": "A connection from the village south to the main road would be plausible on the ground, but none is drawn distinctly. If one exists, it would have to be hidden in the outline of the area edge."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of fine dots runs from the settlement edge at about (705,495) east through (750,485) to f03 at about (810,488). This matches the dotted Gångstig symbol.",
+      "uncertainty_note": "The dots are faint and the west end is hard to place within the buildings. The dotted symbol is closest to dashed_line in the class list."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[128, 596], [200, 655], [280, 725], [355, 798]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A pale strip about 15–20 px wide, bounded by the dash-dot boundary line and a thin parallel line, runs south-east from the road-and-stream crossing near (128,596) to about (355,798).",
+      "uncertainty_note": "Low confidence. This is most likely a cleared boundary lane (rågång) along the boundary rather than a road, and it has no road colour. It is recorded because an uncoloured double line is formally possible.",
+      "alternatives": ["boundary strip along dash-dot boundary, not a road", "uncoloured track continuing past (355,798) toward Bönhus at about (440,850)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[290, 0], [420, 135], [560, 260], [700, 385]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint pale band, edged by thin grey lines, runs diagonally from the top edge near (290,0) toward the Ljungstorp settlement, parallel to the dashed boundaries.",
+      "uncertainty_note": "Low confidence. It carries no road colour and may be a boundary lane or a fold or wear mark in the paper. Where it ends near the settlement is not visible.",
+      "alternatives": ["boundary lane (rågång), not a road", "paper wear or fold"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [745, 850],
+      "what_is_contested": "Where f03 joins the main road: at the bend at about (690,857), where f01 meets f02, or slightly east of it at about (745,850). Also whether any line from the village (the overlay's f07) joins here as well.",
+      "evidence_note": "The thin brown line reaches the road band east of the bend among dense outlines of buildings and fields. Nothing distinct comes down from the west side of the village."
+    },
+    {
+      "uv": [810, 488],
+      "what_is_contested": "Whether the dotted path f08 actually connects to f03 or stops just short of it.",
+      "evidence_note": "The dots fade before the brown line, and the gap is only a few pixels."
+    },
+    {
+      "uv": [128, 596],
+      "what_is_contested": "Whether this is a road junction (the main road plus a pale strip running south-east, m01) or only a crossing of the road with a stream and a boundary.",
+      "evidence_note": "The road band, the blue stream and the dash-dot boundary with its pale strip all cross at this point. Only the road band carries road colour."
+    },
+    {
+      "uv": [600, 640],
+      "what_is_contested": "Whether a road starts here, running south along the village edge as the overlay's f07 does, or whether this is only a meeting point of boundaries and the field edge.",
+      "evidence_note": "The long dashed boundary from the north-west, the thin magenta boundary to the east, and the black outline of the cultivated area meet here. None of them carries a road symbol."
+    }
+  ],
+  "overall_note": "The main brown road (f01 and f02) and the thin brown path on the east side (f03, joined by the dotted path f08) are clearly drawn. The short features inside Ljungstorp (f05, f06, f07) trace building or field outlines rather than road symbols, and f04 is too isolated to decide. The pale diagonal strips (m01, m02) are recorded as low-confidence possibilities that are most likely boundary lanes."
+}

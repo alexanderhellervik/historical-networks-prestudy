@@ -1,0 +1,124 @@
+{
+  "tile_id": "cor_e0356_n6453",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 36], [34, 45], [65, 54], [96, 66], [125, 81], [150, 97], [171, 114], [188, 129]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre-brown strip has two closely spaced dark, partly broken edges; conifer symbols stand alongside.",
+      "uncertainty_note": "Individual edge marks merge in places, making their continuity uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken edging could represent a paired dotted track rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 163], [21, 170], [39, 171], [58, 158], [80, 148], [110, 141], [140, 136], [167, 130], [188, 129]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close dark strokes enclose a pale brown strip, with conspicuous broken marks along the straighter eastern portion.",
+      "uncertainty_note": "A nearby angular parcel outline adds another parallel stroke locally.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some apparent casing may combine a broken track edge with the adjacent parcel outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[188, 129], [211, 137], [232, 144], [247, 136], [261, 116], [271, 90], [279, 65], [279, 43], [283, 23], [291, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pale narrow strip curves between two dark broken lines, passing black building rectangles and a red rectangle surrounded by circular tree symbols.",
+      "uncertainty_note": "Red boundary colouring overlaps the southern bend, but the paired track edges continue on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[1000, 54], [980, 77], [957, 104], [930, 126], [900, 145], [867, 161], [836, 178], [810, 190], [787, 202], [772, 210], [759, 224]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "An ochre-brown strip has close dark, partly dotted edges and red colouring along one side; its southwestern tip enters circular tree symbols beside a red building.",
+      "uncertainty_note": "The paired marks disappear among the circular symbols; no continuation through them is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Boundary colouring overlaps one edge, leaving the precise form of the road edging uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 638], [20, 663], [43, 690], [66, 718], [89, 744], [112, 768], [133, 791], [145, 815], [151, 841], [160, 866], [174, 887]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A pale strip with close grey-dark edges runs southeast; pink colouring overlaps its upper portion, and two clearer edges emerge south of the broad red-and-black band.",
+      "uncertainty_note": "The upper course overlaps boundary ink, reducing positional precision. The southern end disappears into pale stippling and building marks.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some upper edge marks may belong to the overlapping boundary rather than the track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[221, 926], [231, 943], [233, 953], [224, 965], [205, 983], [185, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Two close curved grey-dark edges enclose a pale strip, with a heavier red stroke immediately beside its northwestern edge.",
+      "uncertainty_note": "Its northern continuation is lost in the pale symbol-covered patch; connection to f05 or f07 is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "One edge could be a parcel boundary alongside a less distinctly drawn track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[156, 944], [138, 961], [119, 980], [99, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A faint pale diagonal strip lies between short grey-black marks, with a heavier broken stroke along its southeastern side.",
+      "uncertainty_note": "The marks suggest a track but could combine a parcel edge and stippling. Its northeastern end cannot be followed confidently through the pale patch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the two roughly parallel rows of marks as the edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the heavier stroke as a parcel boundary and the lighter marks as adjacent stippling; under this reading it is not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [188, 129],
+      "branch_count": 3,
+      "evidence_note": "Three narrow brown, dark-edged strips converge from northwest, west-southwest and east; a thin red boundary crosses the convergence."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [154, 882, 224, 947],
+      "why": "Pale stippling, blurred linework and small red-and-black symbols prevent reliable tracing between the three nearby road candidates or confirmation of a junction."
+    }
+  ],
+  "overall_note": "Road edging is often broken and overlapped by red boundary colouring. The broad lower red band carries black bars and crosses matching boundary symbology and is excluded; the pale diagonal and vertical seams are also excluded. Connections within the small blurred southern patch remain unresolved."
+}

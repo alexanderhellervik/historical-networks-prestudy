@@ -1,0 +1,316 @@
+{
+  "tile_id": "cor_e0369_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[255, 0], [260, 28], [270, 59], [287, 87], [309, 119], [332, 159], [346, 199], [359, 244], [373, 289], [387, 330], [409, 373], [434, 400], [473, 417], [515, 429], [558, 436], [601, 441], [630, 448], [649, 469], [658, 497], [664, 529], [675, 574], [684, 619], [695, 663], [711, 711], [726, 756], [742, 805], [752, 841], [769, 878], [783, 922], [798, 965], [810, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03", "j04", "j07", "j08"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two substantial dark edges enclose a pale tan strip, generally about 10–18 px wide; red and black building rectangles stand alongside. The paired edges remain visible around the large central lettering.",
+      "uncertainty_note": "The northernmost edges are less distinct and partly dotted. Connections to the two short southern access candidates are uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches have a narrower separation; the wide/narrow distinction is relative to the other drawn strips on this tile."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 430], [30, 417], [62, 404], [97, 394], [133, 390], [174, 387], [204, 382], [211, 369], [209, 343], [208, 326], [246, 318], [287, 308], [330, 298], [373, 289]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j06"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre strip has two dark continuous margins; it turns sharply upward near u=210 before following the sloping paired lines toward the main strip.",
+      "uncertainty_note": "Italic lettering covers portions of the western stretch, but the paired margins and their course can be followed on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[332, 159], [363, 144], [397, 130], [427, 110], [451, 88], [475, 68], [493, 60], [507, 79], [521, 99], [543, 92], [568, 80], [593, 68]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Closely spaced dark margins enclose a tan strip running northeast, then bending across the coloured winding band; heavy black and red rectangles crowd the crossing.",
+      "uncertainty_note": "The crossing is cluttered by building symbols and lettering, making the centreline approximate there. A pasted image edge also interrupts part of the eastern approach.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The heavy overlapping strokes at the crossing prevent an unambiguous reading of its local casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[593, 68], [622, 63], [657, 61], [686, 61], [704, 61]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two approximately parallel dark strokes enclose a narrow tan band below the upper lettering.",
+      "uncertainty_note": "The trace reaches a pasted-image seam near u=708. The eastern continuation is displaced vertically, so it is reported separately.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[710, 49], [746, 49], [785, 52], [822, 58], [850, 69], [882, 80], [904, 78], [935, 65], [967, 46], [1000, 28]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A pale ochre band between two dark continuous margins curves beneath small coloured rectangles and exits the right edge.",
+      "uncertainty_note": "Its western endpoint is at an image seam. It probably corresponds to f04, but the visible displacement prevents a certain continuous trace.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[589, 0], [589, 28], [590, 48], [593, 68]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close, near-vertical dark strokes with reddish tan colour between them descend into the upper road band.",
+      "uncertainty_note": "The short segment lies within the visibly pasted upper patch; the apparent meeting is crowded by text.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The coloured interior and overlapping lettering make a non-road linear symbol possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[673, 0], [650, 20], [628, 40], [609, 59], [593, 68]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A diagonal reddish brown stroke with a darker margin approaches the upper tan band; two separated margins are not consistently distinguishable.",
+      "uncertainty_note": "This could be another road arm, or a coloured boundary intersecting the road. Its apparent connection is retained as doubtful.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A narrow cased road is possible where the dark margin and coloured stroke separate."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is a boundary, not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[630, 448], [642, 425], [658, 407], [675, 390], [692, 379]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow pale diagonal interval lies between dark strokes and leads toward a dense cluster of black rectangular marks below the coloured winding band.",
+      "uncertainty_note": "The strokes could outline adjacent coloured parcels rather than an access road. The upper end disappears into heavy symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale interval and roughly parallel sides support a short cased access road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively these are parcel edges enclosing a pale strip, not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[664, 529], [687, 515], [716, 496], [748, 478], [782, 461], [817, 449], [855, 438], [894, 424], [927, 418], [961, 420], [1000, 427]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close rows of dark dots or short broken strokes flank a pale tan strip running northeast and then nearly horizontally; large italic letters cross its western part.",
+      "uncertainty_note": "The dotted casing is locally merged with lettering and coloured edges. The road reading is stronger than a boundary reading, but the exact symbol class remains uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have a continuous margin paired with a dotted margin."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation remains possible where only one broken row is separable."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0, 17], [17, 9], [39, 4], [57, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short ochre interval with dark bordering strokes clips the upper-left corner, above the broader blue-green winding band.",
+      "uncertainty_note": "Too little of the symbol is inside the tile to distinguish a narrow road confidently from an outlined parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible dark strokes may be the two margins of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is a field boundary, not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[97, 394], [94, 420], [88, 445], [82, 463], [60, 470], [34, 473]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin dark trace descends beside green patches and dark rectangles, then turns west toward red building marks; a second edge is only intermittently visible.",
+      "uncertainty_note": "This may be a short access track, but enclosure edges offer another reading. Heavy building strokes obscure the western end.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A lightly drawn access path could account for the thin continuous trace."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively the trace comprises enclosure boundaries, not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[742, 805], [719, 807], [698, 810], [680, 817], [673, 830]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short pale interval bounded by thin dark strokes extends west from the broad road beside a small green patch and red rectangular symbol.",
+      "uncertainty_note": "The visible sides may belong to the green enclosure rather than a road. The western end is lost among the rectangle and enclosure strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A short narrow access road is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is an enclosure edge, not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[769, 878], [788, 886], [804, 890], [819, 886]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Short dark strokes border a pale opening east of the main strip, between black and red rectangles and a blue-green outlined patch.",
+      "uncertainty_note": "A separate access track is possible, but the strokes may instead be parts of the building and parcel outlines. Lettering obscures the eastern end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale opening could be a narrow cased access road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively there is no separate road here."
+        }
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[0, 516], [12, 544], [18, 575], [22, 605], [34, 633], [48, 653]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Closely spaced dark broken marks follow the left-side coloured margin; some portions look like paired dotted rows, while others merge into dark outlines.",
+      "uncertainty_note": "This could be a minor track or simply a broken enclosure boundary. Lettering and the pasted block prevent tracing its lower end.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired broken marks could represent a minor track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is a boundary following the coloured enclosure, not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[23, 706], [20, 736], [20, 771], [17, 808], [10, 842], [0, 876]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow broken dark trace descends near the left edge with a faint approximately parallel stroke alongside it.",
+      "uncertainty_note": "Its upper end is interrupted by pasted imagery. It may continue f14, but that connection is not visible; a property boundary is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The close broken traces could be a minor track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is a property boundary, not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [332, 159],
+      "branch_count": 3,
+      "evidence_note": "The paired margins of the north–south tan strip open into another paired tan strip running northeast, giving three visible arms."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [373, 289],
+      "branch_count": 3,
+      "evidence_note": "The sloping western strip has two dark margins that meet the two margins of the broader curving strip, forming three arms."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [630, 448],
+      "branch_count": 3,
+      "evidence_note": "The broad paired strip bends southeast beside a narrow pale interval extending northeast; the third arm is doubtful because its edges also resemble parcel outlines."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [664, 529],
+      "branch_count": 3,
+      "evidence_note": "A pale strip between broken dark rows meets the eastern casing of the broad north–south strip; lettering partly covers the three-arm meeting."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [593, 68],
+      "branch_count": 4,
+      "evidence_note": "A crowded tan opening receives paired strips from west and east, near-vertical paired strokes from above, and a reddish diagonal stroke from northeast; the fourth arm may be a boundary."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [97, 394],
+      "branch_count": 3,
+      "evidence_note": "A thin southward dark trace touches the lower margin of the east–west cased strip; the apparent third arm could instead be an enclosure edge."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [742, 805],
+      "branch_count": 3,
+      "evidence_note": "A narrow pale opening with thin dark sides appears to meet the west casing of the broad strip; its status as a third road arm is uncertain."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [769, 878],
+      "branch_count": 3,
+      "evidence_note": "Short dark sides around an eastward pale opening abut the broad paired strip amid rectangular symbols; a separate third road arm is doubtful."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [46, 614, 453, 820],
+      "why": "Several overlapping rectangular pasted patches with large lettering interrupt the underlying drawing; the affected footprint is stepped rather than the whole bounding rectangle."
+    },
+    {
+      "bbox_uv": [557, 0, 759, 95],
+      "why": "Rectangular pasted patches and blank portions interrupt or displace the upper road drawing, especially around the seam near u=708."
+    },
+    {
+      "bbox_uv": [657, 94, 710, 202],
+      "why": "A narrow pasted strip shifts lettering and underlying linework relative to the surrounding image."
+    }
+  ],
+  "overall_note": "The paired road casings are clearest on the main strip and western approach. Dotted traces and short openings beside buildings sometimes admit a boundary reading, recorded explicitly above. Pasted image patches and heavy lettering prevent several certain continuations; doubtful junction counts describe the proposed road reading."
+}

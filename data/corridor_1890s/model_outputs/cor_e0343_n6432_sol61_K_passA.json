@@ -1,0 +1,105 @@
+{
+  "tile_id": "cor_e0343_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 315],
+        [22, 298],
+        [43, 279],
+        [58, 254],
+        [73, 228],
+        [87, 214],
+        [113, 202],
+        [140, 188],
+        [164, 173],
+        [190, 153],
+        [218, 133],
+        [241, 113],
+        [259, 89],
+        [281, 62],
+        [307, 31],
+        [330, 0]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close dark traces enclose a narrow ochre/red strip; portions of the edges are broken. The strip passes among angular yellow shapes and beneath large black lettering.",
+      "uncertainty_note": "The route is clear, including its continuation through the lettering. Its intermittently broken edges make the symbol-form class less certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The combination of paired broken edges and coloured infill may be better recorded without assigning a double-line class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [43, 279],
+        [65, 272],
+        [84, 252],
+        [104, 234],
+        [125, 217],
+        [145, 198],
+        [157, 190]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine, irregularly broken dark trace runs diagonally through a pale yellow patch, east of the ochre route. No consistent second edge or coloured casing is distinguishable.",
+      "uncertainty_note": "This may be a path, but a parcel edge is equally plausible. Its northeastern end merges with dense angular outlines, so no connection through those outlines is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If read as a path, its visible symbol is a single broken trace."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a field or property boundary rather than a road; j01 would then cease to be a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [173, 208],
+        [175, 237],
+        [185, 270],
+        [181, 291],
+        [168, 320],
+        [149, 356]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin dark line with separated strokes bends southward from the angular yellow outlines and reaches the broad pink band's corner. It has no clear casing or paired edge.",
+      "uncertainty_note": "A parcel boundary is a strong alternative to a path. The northern end cannot be connected confidently to f02 or f01, and the southern end disappears into heavier boundary ink.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If this is a path, the visible form is a single broken line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a parcel boundary rather than a road, or a separate parcel edge from f02."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [43, 279],
+      "branch_count": 3,
+      "evidence_note": "The paired ochre route continues in two directions, while a finer broken trace meets its eastern side. The three-road-branch reading is conditional on f02 being a path; thin reddish boundary ink also crosses here."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [145, 175, 184, 216],
+      "why": "Fine broken traces merge with dark angular outlines and coloured infill; their possible connections cannot be separated confidently."
+    }
+  ],
+  "overall_note": "The ochre route in the upper-left is clear; the two finer candidate paths remain ambiguous with parcel edges. The broad pink zigzag carries repeated dark boundary marks, and the thin reddish diagonals also resemble boundaries, so they are excluded. Junction j01 is conditional on the doubtful path reading."
+}

@@ -1,0 +1,90 @@
+{
+  "tile_id": "cor_e0347_n6433",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous orange-brown line runs from the farm with the red building at about (815,135), down through (880,250), (910,330), (920,450) and (945,560), to the east edge at about (1000,690). It runs beside the pink boundary ribbon at u≈915–930 but is separate from it. The overlay follows this line closely.",
+      "uncertainty_note": "The line looks like a narrow double or dotted-filled brown band, which suggests a körväg, but at this resolution it could also be read as single_line. I cannot see the overlay's class, so the class match is unverified. The overlay stops at the farm, but the same brown dotted line goes on north to the top edge (see m01)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The only line near this position is a row of black dots along the north side of the Fullestad fields, at about (735,630) → (800,620) → (870,605) → (950,592). That is north of the overlay's western part, which lies at v≈650–680 and crosses field colour and lettering with no line under it.",
+      "uncertainty_note": "On this sheet, dotted black lines also mark the edges of vegetation and meadow areas, as in the closed dotted curves further south. This row of dots could be a gångstig that ends at the f01 road, or it could be an area boundary. The drawing does not decide which."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (375,685) and (495,710) there is plain paper, the 'T' and the start of the 'T. Fullestads' lettering. The nearest line is the thin crimson boundary that leaves the band junction at (390,670) on a steeper ESE course (it passes v≈745 at u=495). That line is a boundary, not a road symbol.",
+      "uncertainty_note": "The proposal may have taken a short piece of that thin red boundary for a road. I see no road symbol on its course."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline (575,720) → (700,790) runs just above, and parallel to, the slanting place-name lettering 'Ödegården…' and across the orange field area of Fullestad. No road or path line is drawn along it.",
+      "uncertainty_note": "Field edges and dots of the lettering lie close by, so the polyline may come from the lettering baseline or a field edge. A faint path hidden under the lettering cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The SE corner (880–1000, 920–980) is crowded with the end of the 'Ödegården' lettering, thin crimson boundary lines, field edges and a pink wash at the edge. No clear road symbol can be separated out along (880,925) → (1000,975).",
+      "uncertainty_note": "The polyline could follow a field edge or one of the thin red boundary lines rather than a road. The tile edge cuts the context off."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[800, 0], [822, 40], [830, 85], [815, 135]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "The same orange-brown dotted line as f01 continues north from the farm at (815,135), along the west side of the field patch, to the top edge at u≈800.",
+      "uncertainty_note": "Near the farm buildings the line is hard to separate from field outlines. It could be a lane to the farm rather than a through road.",
+      "alternatives": ["single_line", "dashed_line"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[155, 0], [175, 100], [210, 230], [260, 330], [295, 400], [312, 460], [318, 540], [330, 610], [350, 655], [365, 680]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A long brown-black dotted line runs from the top edge at u≈155, south past Olanda and Äggvuttnet, and across both pink boundary ribbons to the band junction at about (365,680). It does not close around any vegetation area, which fits a gångstig.",
+      "uncertainty_note": "Dotted lines on this sheet also bound vegetation and meadow areas, and the line could be an ägogräns. Whether it is a path is uncertain.",
+      "alternatives": ["not a road: dotted area/ownership boundary"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [365, 680],
+      "what_is_contested": "Whether a road junction exists here at all. The grey/pink boundary bands, the thin red boundary going ESE, the dotted line m02 and the overlay's f03 all meet here.",
+      "evidence_note": "The wide pink and grey ribbons carry black dash-dot boundary patterns, so the meeting point is a boundary node. A road junction exists only if m02 is a path and f03 is real; I read f03 as not a road."
+    },
+    {
+      "uv": [948, 590],
+      "what_is_contested": "Whether the dotted line north of the Fullestad fields (f02 / dotted row) joins road f01 as a path branch, or is an area boundary that only touches it.",
+      "evidence_note": "The dots end close to the brown road at v≈590–600, but there is no clear meeting."
+    },
+    {
+      "uv": [815, 135],
+      "what_is_contested": "Whether f01 ends at the farm or continues north to the tile edge (m01), and whether a farm lane branches off here.",
+      "evidence_note": "The brown dotted line can be traced north of the red building, but farm outlines and the '2 G' lettering crowd the spot."
+    },
+    {
+      "uv": [525, 468],
+      "what_is_contested": "Whether this is a road crossing. I read it as a meeting of boundaries, not roads.",
+      "evidence_note": "Five wide pink or grey ribbons meet here. Each carries a black dash-dot (sockengräns-type) line rather than a double road line, so in my reading they are coloured boundaries."
+    }
+  ],
+  "overall_note": "The only clear road is the orange-brown line on the east side (f01, plus its northern continuation m01); the wide pink and grey ribbons meeting at (525,468) are colour-washed boundaries with dash-dot patterns, not roads. f03 and f04 match no drawn road, and f02 and f05 cannot be decided because dotted area boundaries and lettering crowd them. A long dotted line in the west (m02) may be a gångstig but could equally be an area boundary."
+}

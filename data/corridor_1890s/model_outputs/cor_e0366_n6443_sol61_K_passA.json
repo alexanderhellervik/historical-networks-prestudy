@@ -1,0 +1,202 @@
+{
+  "tile_id": "cor_e0366_n6443",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,666],[35,631],[70,595],[104,559],[139,521],[173,485],[208,448],[241,413],[274,378],[305,345],[332,325],[355,312]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Closely parallel dark brown strokes follow the diagonal within a broad pink band; heavier rectangular black marks occur along its southeast side.",
+      "uncertainty_note": "A narrow road alongside the heavier marked line is possible, but the strokes are difficult to separate. The listed course follows the apparent narrow corridor, with approximately 10 px positional uncertainty.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The closely spaced strokes may be the two sides of a road coinciding with a pink boundary band."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent corridor may belong entirely to a boundary or railway symbol; under this reading this feature and its contribution to j01 are not roads."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[355,312],[380,309],[409,300],[438,290],[467,283],[489,286],[511,288],[532,282]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two thin, irregularly dotted brown edges enclose a pale narrow strip between darker angular outlines; small dark and red rectangular symbols lie nearby.",
+      "uncertainty_note": "Lettering interferes with the eastern continuation. The feature stops where its paired edges become difficult to distinguish; a connection to f03 is plausible but not established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some stretches resolve as one dotted stroke rather than two independent edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Part of the eastern course could instead follow adjoining parcel outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[640,215],[656,203],[668,187],[678,168],[687,145],[694,121],[695,98]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow pale strip has two dark, partly dotted margins, curving upward beside solid angular outlines.",
+      "uncertainty_note": "The southwestern end disappears among lettering and overlapping outlines. Its continuation toward f02 is not carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the southwestern endpoint, one apparent margin may be a field outline rather than road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[674,0],[671,28],[668,54],[670,76],[680,91],[695,98]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two close rows of dark dots or short strokes border a pale strip; both bend right near its lower end.",
+      "uncertainty_note": "The paired marks are clearest around the bend; at the upper edge they merge into a heavier dotted stroke.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The upper stretch could be read as a single broad broken line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[695,98],[720,91],[746,79],[770,64],[796,48],[824,34],[853,22],[882,11],[913,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two roughly parallel dark dotted margins, about 7–12 px apart, enclose a tan strip running diagonally toward the top edge.",
+      "uncertainty_note": "Near the top edge, heavier overlapping strokes make the exact centre uncertain by several pixels.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired broken margins could represent a boundary convention differing from the supplied model, although the curved joining strip supports a track reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[133,278],[155,274],[179,273],[206,279],[232,280],[257,281],[282,287],[308,297],[334,306],[355,312]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Faint closely spaced dotted brown strokes run below black lettering and approach the diagonal corridor; a white rectangular interruption covers the western continuation.",
+      "uncertainty_note": "Letter strokes and nearby solid outlines obscure whether this is a paired track throughout. No continuation through the white interruption is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint parallel dotted marks may be the edges of a narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Only one dotted path may be present, with adjacent marks belonging to lettering or parcel edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the course could be a field or property boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[467,283],[476,266],[478,246],[483,221],[475,201],[466,184]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A pale narrow passage is bordered by thin dark strokes beside red rectangular symbols; farther north, a dark letter B overlaps the apparent approach.",
+      "uncertainty_note": "The passage may be a building approach, but its edges also resemble the surrounding angular field outlines. The upper end stops below the lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both bordering strokes belong to the passage, they form narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent approach could consist of adjoining field boundaries rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[478,246],[495,241],[512,232]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short thin brown stroke with a pale or yellowish strip alongside runs toward a red-and-black rectangular symbol.",
+      "uncertainty_note": "The stroke disappears into the rectangular symbol. It could be a short access path or part of the adjacent enclosure outline.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The visible thin stroke may represent a short uncased path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The stroke may be an enclosure edge; this would remove its contribution to j03."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [355,312],
+      "branch_count": 3,
+      "evidence_note": "The diagonal parallel strokes, a faint dotted approach from the left, and the eastward pale strip converge amid heavy dark marks and pink wash. Three road branches are a conditional reading because f01 and f06 are doubtful."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [467,283],
+      "branch_count": 3,
+      "evidence_note": "The paired east–west dotted corridor appears to meet a narrow pale passage rising between dark outlines. The third road branch depends on interpreting f07 as an approach."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [478,246],
+      "branch_count": 3,
+      "evidence_note": "Thin dark edges around the north–south passage meet a short oblique brown stroke toward a red rectangle. Three branches are possible, but enclosure outlines could account for the apparent meeting."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [695,98],
+      "branch_count": 3,
+      "evidence_note": "Three pale strips with close dark dotted margins meet at a rounded bend: one descends, one turns north, and one continues northeast."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,237,133,287],
+      "why": "White rectangular interruptions and overlapping lettering prevent tracing the western continuation of the faint dotted approach."
+    },
+    {
+      "bbox_uv": [527,218,645,289],
+      "why": "Large dark lettering overlaps thin lines; the possible connection between f02 and f03 cannot be traced continuously."
+    },
+    {
+      "bbox_uv": [695,237,747,288],
+      "why": "A white rectangular interruption removes portions of the drawing."
+    },
+    {
+      "bbox_uv": [798,184,925,288],
+      "why": "Several white rectangular interruptions remove or disrupt thin lines and symbols."
+    },
+    {
+      "bbox_uv": [83,341,134,392],
+      "why": "A white interruption prevents reading the covered line fragment."
+    },
+    {
+      "bbox_uv": [747,964,798,1000],
+      "why": "A white interruption removes the drawing at the bottom edge."
+    }
+  ],
+  "overall_note": "Paired dotted tracks are clearest in the upper-right portion; central lettering and overlapping field outlines make the short approaches uncertain. The broad pink north–south lines and long dotted line farther east were read as boundaries, while the diagonal corridor retains a boundary or railway alternative. Junction counts involving doubtful features are conditional on their road readings."
+}

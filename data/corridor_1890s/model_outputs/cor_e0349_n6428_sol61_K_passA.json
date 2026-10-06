@@ -1,0 +1,63 @@
+{
+  "tile_id": "cor_e0349_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 255], [25, 251], [47, 249], [67, 254], [87, 273], [109, 302], [137, 329], [169, 348], [203, 357], [231, 358], [253, 348]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow dark trace curves southeast from the small outlined patches at the left edge. Dark dots and short strokes follow a faint ochre trace; there is no clearly maintained pair of parallel lines. Its eastern end meets the outline of a small pink polygon.",
+      "uncertainty_note": "Possible path, but the intermittent marks could belong to a field outline. The western portion also overlaps polygon outlines. Stopped at the pink polygon because a continuation around or through it is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated dark marks could represent a dotted path."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The apparent interruptions could be deterioration of a continuous thin stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: an outline separating mapped parcels."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 345], [19, 373], [39, 394], [66, 410], [97, 425], [130, 433], [163, 431], [195, 424], [220, 420]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin dark, locally beaded stroke curves down from the left edge and then east. Ochre colour accompanies parts of it; near its eastern end it meets several closely spaced dark outlines around pink strips.",
+      "uncertainty_note": "Possible path along an outlined patch, but a field edge is an equally plausible reading. Stopped where the trace becomes inseparable from the clustered polygon outlines; no connection to f01 is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The beaded portions could be a dotted path symbol."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches appear continuous rather than deliberately dotted."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: the curved edge of a cultivated polygon."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [215, 365, 345, 445],
+      "why": "Closely packed polygon edges, small dark symbols and lettering prevent reliable separation of possible path continuations."
+    },
+    {
+      "bbox_uv": [344, 0, 378, 1000],
+      "why": "The vertical sheet seam shadows and interrupts fine linework."
+    }
+  ],
+  "overall_note": "The two reported traces are doubtful path candidates, with field-outline alternatives retained. The broad red-and-blue band contains interrupted black boundary marks, and the straight red and thin horizontal lines do not show sufficiently distinct road symbols to report as roads. No meeting of three road branches is established."
+}

@@ -1,0 +1,30 @@
+{
+  "tile_id": "cor_e0353_n6437",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two close, parallel thin brownish lines (about 6-8 px apart) run from the shore at about (522, 886) SSE between the pink arable parcels to the bottom edge at about (608, 1000). This is the paired-line road form; in the neighbouring example the minor roads (Sämre körväg) look the same. The polyline sits on it.",
+      "uncertainty_note": "The tile cuts the road off after about 140 px, so I cannot check its class against a longer run. A narrow lane between parcels or a paired ditch/boundary is a less likely reading. No colour fill is clearly visible between the lines."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A fine, regular dotted line is drawn on the lake surface just off the south shore. It runs from the left edge at about (0, 860) through about (200, 915) and (300, 936) to about (515, 882), where it ends exactly at the shore landing of the double-line road f01. Its dots are uniform, with no dash-dot rhythm, so it does not match any boundary symbol. Because it is a dotted line over water that continues a road, I read it as a route over the ice (winter road) or a path line. The polyline follows it closely.",
+      "uncertainty_note": "The symbol is dots, not the paired dashes of the model-sheet Vinterväg, so its road status is inferred from its position (continuing f01 across the water), not from a legend match. It could also be a water-area or fishing-boundary line. dashed_line is the nearest class for a dotted symbol; single_line or unknown are alternatives."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [520, 884],
+      "what_is_contested": "Whether this is a real junction or a road terminus. The double-line road f01 reaches the shore here and the dotted water line f02 starts from the same point. If f02 is a winter road, this is a 2-branch junction/landing. If f02 is not a road, f01 simply ends at the shore.",
+      "evidence_note": "The dotted line meets the shoreline at the same small notch where the two parallel lines of f01 end. No other line meets there except the shoreline itself."
+    }
+  ],
+  "overall_note": "Most of the tile is open water. The only road-like drawing is the short double-line road coming up to the south shore at about u 520 and the dotted line over the water that continues from it. The two long black dashed lines in the lower right, from about (665, 760) to (800, 1000) and from (845, 690) to (990, 1000), have the long-dash rhythm that the neighbouring example reads as boundaries (skifteslinje/gräns), so I did not add them as roads. The other dark lines at the bottom are parcel edges and the doubled shoreline."
+}

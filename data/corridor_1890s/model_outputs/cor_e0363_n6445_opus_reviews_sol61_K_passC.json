@@ -1,0 +1,88 @@
+{
+  "tile_id": "cor_e0363_n6445",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line with dotted fill (Sämre körväg form) is drawn from the top edge at about (335,0), through (360,100), (375,230), (420,300) and (455,360), past the B farm, and down to the junction at about (490,535). The polyline stays on it.",
+      "uncertainty_note": "The course is clear. The class is narrow double rather than wide because the road is a pair of fine dotted brown lines and not the heavy Landsväg double line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line leaves the junction at about (493,550) and runs SW through (420,620), (340,740), (270,840) and (195,905) to the bottom edge at about (150,1000). The polyline follows it within about 10-15 px; it sits a little east of the line between v 850 and 950.",
+      "uncertainty_note": "Small offset only. It is the same reddish-brown road colour as f01, so it is clearly a road. The exact edge style (solid or dotted) cannot be resolved at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pale corridor between two fine parallel lines runs from the west edge at about (0,190) SE to the junction at about (490,535). It lies directly NE of, and alongside, the red band with the black dash-dot boundary pattern. The polyline follows this corridor, not the boundary band.",
+      "uncertainty_note": "The road and a parish-type boundary share this alignment. The red band itself is a boundary symbol, not road colour. Whether the corridor is a wide Landsväg double line or a narrower road is uncertain; double_line_narrow is the alternative."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two rows of dots (Sämre körväg form) run from about (575,495) through (630,460), (700,425), (785,395) and (900,402) to the east edge at about (1000,425). The west end is fainter and pinkish where it meets the red/green boundary strip. The polyline follows it.",
+      "uncertainty_note": "The eastern half of the tile is a patchwork of pasted map fragments, so the road's continuity across patch seams is uncertain. It is not clear whether the road ends at the stream/boundary strip or crosses it to the main junction (see the contested junctions)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The f05 label sits at about (468,350), on the lower stretch of the same dotted brown road as f01, just east of the B farm. The only road drawn at that position is that dotted road, from about (420,300) to the junction at about (490,535).",
+      "uncertainty_note": "The polyline cannot be visually separated from f01 there, so f05 appears to duplicate f01's lower half. If f05 was instead meant for the thin orange line west of the road, that line is a footpath (see m01) and the class would be single_line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a thin, dark grey-brown, single solid line from the boundary/stream strip at about (540,690) east to (1000,630) across the field. It has neither the reddish-brown road colour nor the double or dotted road symbol; it looks like a field ditch or a property line.",
+      "uncertainty_note": "Moderate. A single solid line could be a minor track drawn without colour, but nothing in the legend or the worked example supports reading an uncoloured single line as a road."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[398, 298], [384, 335], [380, 380], [388, 410], [415, 435], [450, 455], [472, 478]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A thin orange-brown solid line leaves the dotted road (f01) near the farm buildings at about (398,298). It runs south along the west side of the road, then curves SE and rejoins the road at about (472,478). The worked example reads this thin orange-brown line type as Gångstig.",
+      "uncertainty_note": "The northern end may stop at the farm buildings rather than touching f01. Where it rejoins f01 is uncertain within about 20 px. f05 may have been intended for this line.",
+      "alternatives": ["park_path", "not a road: a thin coloured field or garden boundary"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [492, 540],
+      "what_is_contested": "The number of branches and their exact meeting point. f01, f02 and f03 converge here together with two boundary bands (the diagonal red band and the red/green strip). f01 may join f03 a few px NW of the point where f02 leaves, rather than at one single node.",
+      "evidence_note": "The convergence area is dense with black boundary dashes and a small dark mark, which obscures the individual road edges."
+    },
+    {
+      "uv": [570, 500],
+      "what_is_contested": "Whether f04 ends at the boundary/stream strip or crosses it to join the main junction at about (492,540), which would make that junction five-way.",
+      "evidence_note": "The dotted road fades into a pinkish dotted trace at about (575,495). No crossing of the green-banded strip is clearly drawn, and the patch seams nearby obscure it."
+    },
+    {
+      "uv": [398, 298],
+      "what_is_contested": "Whether the footpath m01 branches off f01 here or begins at the farm buildings without touching the road.",
+      "evidence_note": "The orange line's north end lies among small building symbols a few px west of the dotted road."
+    },
+    {
+      "uv": [472, 478],
+      "what_is_contested": "The position where m01 rejoins f01.",
+      "evidence_note": "The thin orange line merges gradually into the dotted road edge, so there is no crisp junction point."
+    }
+  ],
+  "overall_note": "The roads are the brown double or dotted lines: f01 from the north, f02 to the SW, f03 along the NW boundary band, and f04 in the patched eastern area. They meet at a junction at about (492,540), where boundaries also meet. The heavy red bands with black dash-dot patterns, the thin crimson lines and the black cross line are boundaries, not roads, and f06 looks like an uncoloured ditch or field line. f05 appears to duplicate f01, and a thin orange footpath west of f01 is missing from the overlay."
+}

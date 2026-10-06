@@ -1,0 +1,122 @@
+{
+  "tile_id": "cor_e0345_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[587, 0], [591, 35], [596, 76], [601, 116], [609, 160], [621, 203], [633, 234], [650, 249], [679, 257], [718, 261], [756, 263], [790, 267]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow rust-coloured band has closely spaced dark margins, with conspicuous dots or short marks along its edges; it curves into the branching point.",
+      "uncertainty_note": "The margins are uneven and partly merge with the coloured band, so a paired dotted symbol is also possible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark marginal marks could be read as two closely spaced dotted traces rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[790, 267], [812, 251], [838, 233], [866, 215], [896, 199], [925, 185], [953, 178], [979, 174], [1000, 170]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "One sequence of dark dots or short strokes follows a thin reddish trace; it is narrower than the incoming band and has no clearly separated continuous casing.",
+      "uncertainty_note": "Some dots merge into adjacent ink, especially toward the right edge; a second fine margin cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The reddish trace and dark marks might represent a very narrow paired road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[790, 267], [814, 285], [835, 307], [850, 331], [861, 360], [872, 392], [884, 427], [896, 464], [906, 502], [910, 534], [905, 560], [912, 598], [919, 639], [925, 681], [931, 723], [939, 766], [947, 804], [959, 843], [977, 878], [1000, 911]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The upper portion is a rust-coloured strip with dark marginal marks; farther down, conspicuous black dots follow a thin reddish line without reliably separable margins. A blue line crosses it near (884, 427).",
+      "uncertainty_note": "The course is continuous, but the apparent symbol changes from a narrow band to a single dotted trace; the image does not establish whether this is a class change or variable reproduction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The single dotted trace visible over most of the southern portion may describe the entire feature."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The wider northern portion may retain a paired road symbol whose second margin becomes indistinct southward."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[388, 0], [381, 21], [370, 44], [360, 65], [347, 88], [334, 105]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A single diagonal sequence of fairly heavy dark dots or short strokes descends toward the outlined coloured parcels beside Torpet; no parallel casing is visible.",
+      "uncertainty_note": "The trace becomes inseparable from the parcel outlines near its southern endpoint. It could be a dotted path or a boundary; no continuation through the parcel symbols is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel boundary remains possible because the dotted trace meets a solid parcel outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[272, 0], [273, 20], [276, 41], [278, 62]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short, approximately vertical row of separated dark marks reaches the upper edge of the green parcel; no coloured road band or clear paired margins can be resolved.",
+      "uncertainty_note": "There are too few distinct marks to distinguish a path from a boundary. Its continuation is lost in the parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated marks could be a short dotted approach path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks could instead be part of a property or subdivision boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[140, 0], [143, 28], [148, 52], [164, 67], [191, 83], [219, 99], [246, 113]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A very pale grey strip, locally bounded by two fine strokes roughly 8–15 pixels apart, bends southeast toward the left edge of the coloured parcel group; it lacks the strong rust colour and black dots of the clearer routes.",
+      "uncertainty_note": "This is a doubtful road candidate: the pale strokes may be parcel edges or a reproduction mark. At the parcel group, they cannot be followed independently, so the trace stops.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both pale strokes are intentional road margins, they form a narrow double-line approach."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road reading as parcel outlines or a scan/reproduction mark is equally plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [790, 267],
+      "branch_count": 3,
+      "evidence_note": "The rust-coloured band arriving from the left divides into a narrower dotted reddish trace running upper-right and a broader rust-coloured trace bending lower-right; all three visibly share the same branching point."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [240, 95, 348, 245],
+      "why": "Overlapping dark parcel outlines, coloured symbols and nearby lettering prevent the faint approach traces from being followed independently through this area."
+    }
+  ],
+  "overall_note": "The reddish routes and their three-branch meeting are the clearest road evidence. Symbol width varies along the southern route, while the short northern approaches admit boundary readings. The pale northwest approach is included as a doubtful candidate, without extending it through the parcel symbols."
+}

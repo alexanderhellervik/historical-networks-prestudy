@@ -1,0 +1,69 @@
+{
+  "tile_id": "cor_e0343_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[399,1000],[427,968],[454,937],[481,906],[507,875],[531,843],[565,840],[592,833],[615,822],[654,801],[693,780],[732,759],[771,738],[810,716],[849,695],[888,674],[926,653],[965,632],[1000,613]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark edges, roughly 10–15 px apart, enclose a pale strip; reddish colour follows one edge. The paired edges turn at approximately (531,843) and continue northeast.",
+      "uncertainty_note": "The road itself is clear. Both listed junctions are conditional on treating the thinner western red lines as roads.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,599],[43,618],[88,634],[137,650],[186,666],[234,683],[282,700],[329,717],[376,734],[423,751],[470,768],[518,785],[566,802],[615,822]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A thin continuous reddish stroke with a dark rim runs southeast, approximately 3–5 px wide overall. It crosses blue water tint and lettering without a clearly separated pale interior, then touches the northwest edge of the paired diagonal line.",
+      "uncertainty_note": "Boundary is the stronger reading: its narrow red-and-dark appearance resembles the red boundary in the worked example. The possible road reading is retained because the stroke also meets the clear road; aligned portions on both sides of the lettering support the recorded course.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If this is a road, the visible symbol is principally one narrow continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A property or administrative boundary rather than a road; under this reading, omit this feature and junction j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,769],[49,775],[100,782],[151,788],[202,795],[253,801],[304,807],[355,813],[406,819],[457,826],[496,832],[531,843]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow red stroke with a dark bordering stroke runs gently southeast, approximately 3–5 px wide overall. It continues across blue water tint and reaches the bend in the pale, paired diagonal strip.",
+      "uncertainty_note": "Its appearance and uninterrupted passage across the water tint favour a boundary. A narrow road remains an alternative, but no distinct pale strip or dotted road edge is resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible narrow continuous road joining the diagonal route at its bend."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary rather than a road; under this reading, omit this feature and junction j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [531,843],
+      "branch_count": 3,
+      "evidence_note": "The thin red line from the west touches the bend of the pale strip enclosed by two dark edges. Three road branches are present only if that western line is a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [615,822],
+      "branch_count": 3,
+      "evidence_note": "The thin red line from the northwest meets the northwest edge of the paired diagonal strip, whose edges continue southwest and northeast. The third road branch is uncertain because the thin line may be a boundary."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The paired diagonal road is clearly drawn; the two thinner western red lines are retained as doubtful candidates with boundary alternatives. Fine winding blue-green lines, wetland outlines, and long diagonal dashed lines were read as water or boundary symbols. No additional road symbol was resolved."
+}

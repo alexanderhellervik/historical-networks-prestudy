@@ -1,0 +1,60 @@
+{
+  "tile_id": "cor_e0368_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,906],[45,884],[90,862],[135,839],[180,816],[225,792],[270,768],[315,744],[360,721],[405,697],[450,672],[495,647],[540,622],[585,597],[630,573],[675,550],[714,530]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two parallel rows of small dark dots, approximately 8–12 px apart, border a pale ochre strip without continuous casing. Red and black rectangular symbols sit beside the lower row.",
+      "uncertainty_note": "The course is clear; the class is less certain because both edges are dotted rather than continuous.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark dots could be classified by their interrupted form rather than their paired arrangement."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[714,530],[751,509],[793,482],[834,458],[874,431],[912,402],[947,372],[979,343],[1000,325]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two closely spaced rows of dark dots continue northeast, with a pale strip between them. Green patches and red and black rectangles flank the rows; a heavier red diagonal crosses them without changing their course.",
+      "uncertainty_note": "The paired rows are readable throughout, but their dotted construction also supports an interrupted-line classification.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Both parallel edges consist of separated marks rather than continuous strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[714,530],[729,562],[751,600],[774,640],[797,681],[821,722],[845,763],[870,805],[895,847],[920,889],[944,930],[963,960],[982,972],[1000,971]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrower pair of dark dotted rows, roughly 6–9 px apart, leaves the diagonal road toward the southeast. The rows border a pale tan strip and bend toward the right edge near the bottom.",
+      "uncertainty_note": "Lettering partly overlaps the upper section, but aligned dotted edges resume on both sides. The dotted edges leave the symbol-form class uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The branch can alternatively be described by its repeated, interrupted edge marks."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [714,530],
+      "branch_count": 3,
+      "evidence_note": "The paired dark dotted rows continue southwest and northeast while another close pair opens southeast. Pale strips meet between the dots beside red and black rectangular symbols."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The visible paired dotted road has one southeast branch. Its dotted edges make the distinction between double_line_narrow and dashed_line uncertain. Red angular lines and thin outlines enclosing coloured or hatched patches were read as boundaries rather than roads."
+}

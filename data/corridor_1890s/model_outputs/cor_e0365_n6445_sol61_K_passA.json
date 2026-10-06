@@ -1,0 +1,140 @@
+{
+  "tile_id": "cor_e0365_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[222, 0], [214, 27], [195, 54], [173, 80], [155, 109], [138, 142], [119, 175], [101, 207], [88, 234], [85, 263], [88, 294], [98, 323], [117, 350], [136, 377], [144, 403], [146, 435], [145, 457], [150, 479], [158, 516], [168, 551], [180, 582], [195, 604], [222, 613], [249, 623], [274, 642], [293, 663], [298, 687], [293, 715], [280, 742], [266, 769], [255, 794], [254, 810], [267, 824], [296, 830], [327, 832], [356, 835], [369, 853], [372, 877], [367, 906], [362, 931], [365, 944]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03", "j04"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two dark, approximately parallel edges enclose a pale pink-brown strip, generally about 10–18 px wide. The strip bends repeatedly and passes beside red building marks near its lower end.",
+      "uncertainty_note": "The pasted image fragment near v=750–830 interrupts the consistency of the edges and makes the centreline approximate there. Large lettering masks the continuation near the final waypoint; f06 may continue this road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches have appreciably closer edges than others, so the width class is not uniform."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[146, 435], [163, 438], [178, 432], [190, 426]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short chain of dark dots or broken strokes leaves the paired road edges and runs towards a heavy black mark beside a red building symbol.",
+      "uncertainty_note": "The heavy black mark conceals the eastern continuation. Nearby solid lines outline the coloured enclosure, and cannot confidently be carried forward as this path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short broken sequence could partly belong to enclosure or vegetation marking rather than an independent path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[150, 479], [166, 475], [181, 469]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two short, fine dark strokes, separated by a few pixels, project obliquely from the eastern edge of the wider road.",
+      "uncertainty_note": "The short length and squared termination also permit a narrow enclosure-strip reading. No continuation is visible beyond the terminal strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly the edges of a narrow parcel or enclosure rather than a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 598], [27, 590], [54, 580], [81, 572], [108, 565], [135, 559], [168, 551]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One row of conspicuous, separated black dots runs diagonally across the pale ground and reaches the paired road. A green outlined symbol lies alongside the dots near u=85.",
+      "uncertainty_note": "Several dots are irregular or partly merged with nearby symbols, but the row remains traceable. Its symbol resembles the model legend's dotted path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary or vegetation line remains possible because the dots alone do not establish the function."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[61, 824], [92, 821], [122, 818], [152, 814], [180, 809], [204, 805], [230, 805], [254, 810]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two close rows of small dark dots flank a pale orange-pink strip. They cross the rectangular pasted fragment and approach the wider curved strip beside red building marks.",
+      "uncertainty_note": "The western end reaches an abrupt image-fragment seam; dark marks farther west cannot securely be joined to it. The eastern connection is partially disturbed by the fragment edge and building marks.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The two rows might represent symbols flanking a central lane, although individual tree symbols are not clearly resolved."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A hedge or enclosure marking is also possible; the small repeated marks are difficult to distinguish."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[382, 945], [407, 940], [433, 932], [463, 925], [492, 916], [520, 913], [542, 918], [561, 934], [578, 946]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Dark paired strokes enclose a tan strip above and between the large black letters. The strip runs beside a green enclosure and bends down near heavy black building marks.",
+      "uncertainty_note": "The lettering prevents a certain connection to f01 at the western end and conceals the eastern continuation. Some visible strokes may combine road edges with enclosure edges.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If this is the continuation of f01, the apparent narrowing may result from lettering and overlapping enclosure strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Parts could be enclosure edges rather than one continuous road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [146, 435],
+      "branch_count": 3,
+      "evidence_note": "The paired dark edges continue above and below this point; a short dotted sequence extends east from their side."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [150, 479],
+      "branch_count": 3,
+      "evidence_note": "The wider paired strip continues in two directions, with two short, closely spaced strokes projecting east-northeast. The third branch depends on reading that projection as a track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [168, 551],
+      "branch_count": 3,
+      "evidence_note": "A row of large dark dots meets the western side of the paired curved strip, which continues above and below."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [254, 810],
+      "branch_count": 3,
+      "evidence_note": "Two rows of small dots approach from the west beside red building marks, while the pale cased strip curves through from above towards the right. The fragment seam makes the precise contact uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 628, 264, 833],
+      "why": "Rectangular pasted fragments, displaced drawing and large lettering conceal or interrupt some linework; individual visible segments within this box remain partly readable."
+    },
+    {
+      "bbox_uv": [242, 932, 749, 1000],
+      "why": "Large, heavy black lettering overlaps the lower linework and prevents reliable tracing of continuations beneath several letters."
+    }
+  ],
+  "overall_note": "The winding paired strip is the clearest road; the short paired spur and dotted branches admit other readings. The long red diagonal is read as a boundary, while angular coloured-enclosure edges and marsh hatching are excluded. Fragment seams and lower lettering limit connections, particularly between f01 and f06."
+}

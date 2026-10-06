@@ -1,0 +1,80 @@
+{
+  "tile_id": "cor_e0345_n6443",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two parallel black lines with a brown/orange fill run in from the right edge at about (1000,515), bend down through (948,600) to (943,690), then run straight SW through (870,770), (760,880), (720,950) to the bottom edge near (695,1000). The overlay line follows this band throughout. It is the only clearly double-lined, road-coloured feature on the tile.",
+      "uncertainty_note": "The course is certain. The width (~10 px) and the brown fill suggest the narrower double-line road form rather than a wide landsväg, but whether the model sheet would call it Landsväg/Bygdeväg or Bättre körväg cannot be settled from the symbol alone."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line with a fine dotted line beside it leaves the Lersik farmstead at about (452,355). It runs south through (465,400) to (490,475), east almost level through (600,478) and (840,480), then SE through (900,545) to meet f01 at about (943,592). This is the same brown road colour the worked example reads as Sämre körväg. The overlay follows it, crossing the teal ditch figure at (520-600,478).",
+      "uncertainty_note": "The overlay's last segment seems to stop slightly short of f01; the brown line clearly reaches the double road at ~(943,592). The exact start inside the grey farmstead patch is not sharply drawn."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown/red line with an accompanying dotted line runs from the left edge at about (0,770) along the upper edge of the field band through (100,840), (200,890), (300,915) and (400,935) towards (460,955). It has the same brown road symbol as f02 and is distinct from the dark-blue stream below it (0,800)-(90,955)-(470,1000).",
+      "uncertainty_note": "It follows a field edge, so it could in principle be a coloured boundary. However, the brown fill with dots matches the road style used for f02 and in the worked example, so I read it as a road."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near the label '26' and the small red house at (485,945), the brown dotted road line of f03 continues down to the bottom edge at about (480-490,1000). The short overlay segment f04 appears to cover this continuation.",
+      "uncertainty_note": "The overlay segment is very short and partly hidden under labels, so I can only say that it lies on the brown line. I cannot verify whether it ends at the edge or at the house; if it is meant as a spur to the house, no separate spur is drawn."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From beside the house at about (500,935), a fine dotted line runs SE through (530,960) to about (560,990) near the bottom edge. It carries no brown road colour. The same fine-dot style is used on this sheet for plot (tomt) and meadow edges, e.g. the green meadow outline at (240-380,70-250).",
+      "uncertainty_note": "A row of fine dots is also the model-legend symbol for Gångstig, so this could be a footpath from the house. With no road colour and with the plot-edge alternative equally possible, the drawing does not decide."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[485, 318], [515, 335], [545, 355]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Just east of the Lersik farmstead, two close parallel black lines enclose a narrow uncoloured strip running ESE from about (485,318) to (545,355), between the arable parcels. It looks like a short field lane (fägata) leading from the farm towards the fields.",
+      "uncertainty_note": "Low confidence. It has no road colour, and similar narrow double-line notches elsewhere on the field edges (e.g. (480,65-105), (560,270-340), (595,230-340), (760,170-215)) appear to be field divisions or ditches rather than roads.",
+      "alternatives": ["field division / parcel edge, not a road", "double_line_narrow farm lane"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [943, 592],
+      "what_is_contested": "Exact meeting point of f02 with f01, and whether the overlay's f02 actually reaches f01.",
+      "evidence_note": "The brown line of f02 runs SE from (840,480) and touches the west line of the double road at about (943,592), next to a field corner. The junction itself is clear; the overlay's endpoint looks slightly short of it."
+    },
+    {
+      "uv": [943, 690],
+      "what_is_contested": "Whether this bend in f01 is also a junction: a single black line leaves eastward towards (1000,740).",
+      "evidence_note": "The line going east has no brown fill and borders the coloured fields, so it is most likely a field edge and the bend is a two-branch bend, not a three-way junction."
+    },
+    {
+      "uv": [485, 945],
+      "what_is_contested": "How f03, f04 and the dotted line f05 relate near the house: whether f03 continues to the bottom edge as one road, and whether f05 is a footpath branch or a plot edge.",
+      "evidence_note": "The brown road reaches the bottom edge near (485,1000). The dotted line from (500,935) to (560,990) has no road colour, and labels ('26') obscure the area."
+    },
+    {
+      "uv": [452, 352],
+      "what_is_contested": "Start of f02 at the Lersik farmstead, and whether the possible lane m01 branches from the same point.",
+      "evidence_note": "The grey farmstead patch and the 'Lersik' label obscure where the brown line begins; m01 starts a few tens of px to the NE at about (485,318)."
+    }
+  ],
+  "overall_note": "The overlay's main roads (the brown double-line road f01, the brown single-line roads f02 and f03, and f03's continuation f04) match what is drawn. The black dashed lines (boundaries) and the blue and teal lines (streams and ditches) are correctly left out. Only f05, a colourless dotted line by the house, is undecidable; the one possible omission is a short farm lane east of Lersik."
+}

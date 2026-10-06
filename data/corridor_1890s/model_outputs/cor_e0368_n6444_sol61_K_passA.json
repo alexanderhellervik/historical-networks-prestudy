@@ -1,0 +1,262 @@
+{
+  "tile_id": "cor_e0368_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[374, 0], [410, 17], [446, 45], [474, 76], [489, 102], [500, 118], [512, 149], [525, 178], [541, 208], [561, 239], [583, 268], [606, 296], [630, 326], [654, 355], [678, 386], [701, 418], [724, 449], [747, 481], [768, 517], [790, 555], [815, 561], [845, 557], [877, 549], [906, 537], [936, 520], [963, 510], [985, 499], [1000, 491]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous dark ink edges, generally about 7–12 px apart, enclose an ochre-brown strip. Both edges follow the diagonal and its eastward bend; red and black rectangular symbols sit alongside the middle section.",
+      "uncertainty_note": "The route is clear. Its apparent width varies with heavy ink and nearby outlines, so the distinction between wide and narrow double lines is less certain. The lateral branch at j01 is doubtful.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if the narrower stretches are taken as representative of the casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 672], [13, 669], [35, 641], [62, 624], [98, 606], [135, 588], [173, 568], [209, 550], [244, 535], [273, 530], [309, 533], [343, 530], [374, 524], [408, 511], [442, 494], [477, 479], [512, 463], [547, 443], [582, 423], [611, 407], [640, 392], [658, 386], [678, 386]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04", "j05", "j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two rows of small dark dots or very short strokes, approximately 5–9 px apart, flank a faint ochre strip. The paired marks pass beside green outlined patches and converge on the continuous diagonal casing.",
+      "uncertainty_note": "The paired dotted symbol supports a track reading, but does not exactly match a solid double line or an elongated dashed line. Its final few pixels mingle with heavier ink beside the diagonal road.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if dotted and very short broken strokes are included in this class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[13, 669], [37, 684], [63, 697], [84, 705], [100, 705]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Fine paired dotted marks depart southeast from the western dotted route and approach a group of heavy black and red rectangular symbols.",
+      "uncertainty_note": "The terminal trace merges into the rectangular symbols. No course through or beyond them is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The short dotted strokes could be grouped with dashed track symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[355, 222], [383, 246], [414, 274], [446, 302], [480, 329], [512, 357], [544, 386], [566, 406], [582, 423]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two close rows of grey-black dots run southeast across the pale fill, with roughly 5–8 px between rows. Their northwestern end meets heavy black ink beside a red rectangular mark.",
+      "uncertainty_note": "The dotted course is readable after the rectangular symbols, but its exact beginning beneath those symbols is hidden. The symbol is paired and dotted rather than clearly solid or dashed.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible broad classification of the repeated short strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 746], [34, 769], [65, 793], [94, 817], [118, 840]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow oblique trace of repeated dark dots approaches an elongated black rectangle beside red and black rectangular marks. A close second row is visible along parts of the approach.",
+      "uncertainty_note": "The trace disappears into heavy rectangular ink. Connection to f06 across the symbols is possible but insufficiently visible to carry through.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible classification of the fine broken track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[162, 867], [188, 877], [216, 882], [252, 879]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Fine dark dotted marks emerge east of the red and black rectangular group, bend slightly downward, and meet the north–south dotted trace. Portions show two closely spaced rows.",
+      "uncertainty_note": "The western endpoint is obscured by the rectangular symbols and their surrounding outlines. The possible continuation to f05 remains unjoined.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible if the dotted strokes are treated as a dashed symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[252, 879], [269, 862], [290, 853], [314, 852], [339, 856], [358, 851], [378, 835], [400, 823], [424, 812], [443, 803]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Close parallel rows of dots curve northeast, passing below black rectangular marks and across a pale green strip. The eastern end meets a heavy oblique black rectangle.",
+      "uncertainty_note": "The trace is lost at the black rectangle. A continuation toward f09 is plausible, but the intervening red and black symbols prevent a certain connection.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible broader classification for the paired broken marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[252, 879], [247, 902], [249, 927], [256, 951], [264, 975], [271, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two close rows of small dark marks bend south and then southeast. They cross the continuous blue-grey line near v940 and continue toward the lower edge.",
+      "uncertainty_note": "The marks are faint near the crossing and lower edge, but their paired course remains distinguishable. They do not clearly fit a solid double-line class.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible classification if short dotted strokes are included."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[487, 766], [510, 744], [535, 718], [562, 693], [587, 668], [615, 641], [645, 615], [673, 595], [703, 580], [734, 572], [764, 564], [790, 555]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two fine rows of dark dots run northeast, generally about 5–8 px apart. Small black rectangular marks interrupt short portions; matching paired marks resume on either side. The northeastern end reaches the cased bend.",
+      "uncertainty_note": "The southwestern end is hidden beside a red rectangular symbol. Its connection to f07 through the nearby heavy symbols is not certain and is left open.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible broad classification for the dotted track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[670, 0], [688, 42], [709, 86], [730, 128], [754, 169], [779, 207], [809, 246], [838, 279], [852, 310], [865, 344], [875, 373], [873, 399], [860, 437], [842, 476], [818, 516], [790, 555], [768, 588], [743, 623], [729, 653], [720, 689], [714, 715], [700, 750], [680, 786], [653, 824], [623, 853], [587, 879], [552, 898], [516, 909], [481, 918], [457, 923], [438, 949], [420, 975], [416, 978]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow red stroke with closely adjacent dark ink crosses the cased bend and curves toward the lower edge. Much of it appears uncased; short heavier dark marks occur along it, and large black lettering overlaps the northern curve.",
+      "uncertainty_note": "This is a doubtful road candidate: a boundary is a strong alternative, especially given the red stroke and intermittent dark marks. The course through the lettering is supported by the visible red trace on both sides, but its symbol form is obscured. The lower endpoint reaches an opaque pale patch.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible road reading if the red stroke and adjacent dark ink constitute one uncased line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible where the adjacent dark ink appears to form a very narrow casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may be a boundary rather than a road; under that reading it contributes no road branches at j03."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[879, 42], [904, 65], [929, 89], [952, 111], [976, 132], [1000, 148]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Very fine repeated dark marks form an oblique trace in the upper-right corner. A possible second close row is weaker than on the western tracks; heavier outlines intersect it near its northwestern end and around v110.",
+      "uncertainty_note": "A minor track is possible, but the trace could instead be a broken property boundary. Its exact northwestern termination is hidden in heavier outline ink.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible track interpretation of the repeated short marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary; no secure road casing is visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[500, 118], [514, 113], [529, 104]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Short dark transverse strokes border a pale gap east of the main-road casing, beside a green outlined patch and red and black rectangular symbols.",
+      "uncertainty_note": "A short access branch is plausible, but the strokes may belong solely to the outlined patch. Its junction and road status are conditional; the trace ends in overlapping symbol ink.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if the short bordering strokes form a narrow access strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road perimeter of the green outlined patch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [500, 118],
+      "branch_count": 3,
+      "evidence_note": "Two continuous cased arms pass through this position; short lateral dark strokes run east toward green fill and rectangular symbols. The third branch is conditional on f12 being an access rather than a perimeter."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [678, 386],
+      "branch_count": 3,
+      "evidence_note": "The two arms of the continuous diagonal casing meet a westward paired-dot trace. The final dotted marks mingle with heavier dark ink beside the casing."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [790, 555],
+      "branch_count": 5,
+      "evidence_note": "Two cased arms turn from northwest to east, and a paired-dot arm approaches from southwest. The thin red candidate passes through with two further arms: five branches under its road interpretation, three if it is a boundary."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [13, 669],
+      "branch_count": 3,
+      "evidence_note": "Close dotted rows lead toward the western edge, northeast along the main dotted trace, and southeast toward heavy rectangular symbols. The fork is compressed into a small patch of dark ink near the edge."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [582, 423],
+      "branch_count": 3,
+      "evidence_note": "Three paired-dot arms converge: southwest, northeast, and northwest. Their rows have similar weight and close spacing, with no continuous parcel outline separating the arms."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [252, 879],
+      "branch_count": 3,
+      "evidence_note": "Fine dotted rows meet from the west, turn northeast, and continue south. The three arms have comparable dark point marks and narrow spacing."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [280, 303, 329, 408],
+      "why": "Opaque pale rectangular overprinting and a large black letter conceal the original fine linework."
+    },
+    {
+      "bbox_uv": [228, 408, 329, 456],
+      "why": "A pale rectangular patch replaces or covers the underlying drawing."
+    },
+    {
+      "bbox_uv": [108, 826, 176, 876],
+      "why": "Heavy red and black rectangular symbols overlap the dotted approaches; continuity between f05 and f06 cannot be read securely."
+    },
+    {
+      "bbox_uv": [438, 757, 494, 812],
+      "why": "Black and red rectangular symbols obscure the interval between the terminal traces of f07 and f09."
+    },
+    {
+      "bbox_uv": [382, 978, 483, 1000],
+      "why": "An opaque pale patch at the lower edge hides the continuation of the red candidate and nearby linework."
+    }
+  ],
+  "overall_note": "Paired dotted tracks are classified as unknown because their symbol does not clearly match a solid double line or an elongated dashed line. The long red trace, upper-right broken trace, and short access beside the upper casing remain doubtful candidates with boundary or perimeter alternatives; their junction contributions are conditional. No connection is asserted across the gaps hidden by heavy rectangular symbols or pale patches."
+}

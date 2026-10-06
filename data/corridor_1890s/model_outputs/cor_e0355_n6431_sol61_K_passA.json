@@ -1,0 +1,174 @@
+{
+  "tile_id": "cor_e0355_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 304], [29, 269], [60, 231], [95, 190], [126, 154], [156, 125], [184, 91], [215, 53], [245, 15], [257, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink-red band carries heavy, discontinuous black strokes and intermittent pale gaps; two continuous road edges cannot be resolved consistently.",
+      "uncertainty_note": "This is a doubtful transport feature. Its heavy interrupted symbol could instead be a boundary; j01 is conditional on the road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Some stretches resemble a pale strip between two dark edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively not a road: a red-emphasized boundary with heavy black interruptions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 57], [12, 81], [31, 91], [47, 101], [61, 122], [73, 144], [84, 167], [95, 190]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One curving row of dark dots and short strokes lies on a faint ochre trace, without clear casing, and reaches the broad diagonal band.",
+      "uncertainty_note": "The final strokes merge with the diagonal's heavier ink. A path is plausible, but a boundary interpretation remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively a dotted boundary ending against or crossing the broad diagonal band."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[438, 0], [449, 30], [466, 64], [484, 93], [508, 130], [531, 165], [552, 195], [574, 218], [593, 237], [612, 244], [629, 254]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre trace carries closely spaced dark dots and short strokes; near the angular tan patches, parts of another fine edge are visible.",
+      "uncertainty_note": "The course is readable, but the marks do not consistently resolve into one dotted line or two narrow edges.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre strip may be bounded by a fine line and a dotted second edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[985, 0], [959, 34], [933, 68], [906, 101], [885, 124], [853, 128], [824, 137], [793, 153], [764, 165], [730, 176], [706, 181], [686, 182], [678, 194], [674, 211], [660, 229], [645, 242], [629, 254]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A winding ochre line with close dark beads runs across the upper-right area, then turns between black-outlined tan patches toward the central diagonal trace.",
+      "uncertainty_note": "The bend through approximately [674, 211] is crowded by polygon outlines; the road's exact centre is less certain there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Several clearer stretches show a thin edge alongside the dark bead row."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "At the crowded southwest end, an adjoining polygon edge could account for part of the proposed course."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[629, 254], [641, 277], [651, 299], [661, 324], [675, 348], [686, 373], [691, 397], [685, 417], [688, 434]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Short dark marks on a narrow ochre trace descend between tan polygon outlines; large black lettering overlaps portions of the trace.",
+      "uncertainty_note": "Visible ochre and bead fragments on both sides support continuation through the lettering, but waypoint placement beneath the thick letter strokes is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The overprinted portions do not reveal enough separate strokes to establish the symbol form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[688, 434], [717, 445], [750, 459], [777, 461], [807, 449], [840, 435], [871, 424], [900, 415], [922, 417], [944, 430], [972, 450], [1000, 478]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre curve with closely spaced dark dots passes below the red triangular symbol and bends eastward; no broad continuous casing is visible.",
+      "uncertainty_note": "Letter strokes and small oval symbols crowd the western portion, but the dotted ochre trace remains identifiable on either side.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A faint continuous edge may accompany the dotted edge in some stretches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[688, 434], [678, 460], [670, 488], [665, 516], [665, 536], [665, 557], [670, 580], [664, 604], [647, 626], [625, 651], [603, 674], [581, 698], [558, 723], [537, 737], [514, 747], [495, 748], [481, 746]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A single close row of dark beads on ochre descends beside black polygon edges, crosses red diagonals, and curves toward the small rectangular symbols beneath B.",
+      "uncertainty_note": "The last visible trace merges with heavy rectangular-symbol ink near [481, 746]; no continuation through those symbols is asserted. The transverse arm at j04 is doubtful.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have a very fine second edge alongside the beads."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[665, 536], [643, 536], [622, 532]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A short transverse dark stroke with apparent interruptions and slight ochre colouring extends west from the dotted north-south trace to a red diagonal and polygon corner.",
+      "uncertainty_note": "This may simply close the adjacent tan polygon rather than depict a track. No westward continuation is visible; j04 is conditional on the track reading.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the apparent interruptions belong to a separate trace, this is a short dotted track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively not a road: the bottom outline of the adjoining tan polygon."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [95, 190],
+      "branch_count": 3,
+      "evidence_note": "The fine dotted ochre trace reaches the broad red-and-black diagonal, which extends in two directions; three road arms exist only if that diagonal is a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [629, 254],
+      "branch_count": 3,
+      "evidence_note": "Narrow ochre traces with dark bead-like marks approach from northwest and northeast and share a southeast-going continuation; nearby lettering partly crowds the meeting."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [688, 434],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre trace from above divides into a south-going dotted arm and an east-going curve below the red triangular symbol."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [665, 536],
+      "branch_count": 3,
+      "evidence_note": "A short westward dark stroke meets the continuing north-south bead row; the third road arm is conditional because that stroke may be a polygon outline."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [630, 277, 700, 335],
+      "why": "Heavy place-name strokes overlap the narrow ochre trace and adjoining outlines, preventing exact separation of the road's individual strokes."
+    },
+    {
+      "bbox_uv": [460, 735, 498, 765],
+      "why": "Dark rectangular symbols and the crossing red diagonal merge with the approaching dotted trace; its continuation cannot be read."
+    }
+  ],
+  "overall_note": "The winding ochre traces are more readily distinguishable than their precise one-line or two-line symbol form. The broad northwest diagonal and the short southern transverse stroke remain explicit road-versus-boundary alternatives, with conditional junctions. Other parallel red diagonals and regularly spaced long black dashes were read as boundaries rather than roads."
+}

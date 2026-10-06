@@ -1,0 +1,139 @@
+{
+  "tile_id": "cor_e0352_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [611, 0],
+        [613, 35],
+        [616, 71],
+        [614, 109],
+        [609, 146],
+        [603, 184],
+        [596, 220],
+        [590, 255],
+        [580, 292],
+        [572, 326],
+        [566, 363],
+        [568, 398],
+        [566, 433],
+        [565, 467],
+        [558, 503],
+        [555, 541],
+        [556, 577],
+        [562, 614],
+        [567, 650],
+        [574, 685],
+        [589, 721],
+        [609, 756],
+        [632, 781],
+        [663, 801],
+        [692, 823],
+        [714, 847]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An orange-brown band roughly 8–14 px wide has two close dark margins, partly broken into short marks; blue outlines and horizontal hatching remain separately visible alongside it.",
+      "uncertainty_note": "The margins are irregular and intermittently obscured by lettering near v=430–470, but the aligned drawing on both sides supports continuity. The distinction between continuous casing and paired broken margins is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dark margins may be paired dotted or broken strokes rather than a conventional double solid line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [714, 847],
+        [722, 869],
+        [724, 893],
+        [723, 921],
+        [717, 951],
+        [708, 980],
+        [702, 1000]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The orange-brown band continues between close dark, intermittently broken margins, with dense horizontal hatching immediately to its right.",
+      "uncertainty_note": "Adjacent hatching sometimes merges with the eastern margin; the band itself remains traceable to the bottom edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "As on f01, the margins may represent paired broken strokes rather than solid casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [714, 847],
+        [741, 836],
+        [770, 827],
+        [803, 819],
+        [832, 817],
+        [855, 808],
+        [869, 792],
+        [882, 768],
+        [896, 738],
+        [910, 704],
+        [924, 674],
+        [938, 647],
+        [958, 622],
+        [979, 612],
+        [1000, 610]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thinner ochre-orange trace, about 3–6 px wide, carries spaced dark dots or short strokes; it crosses the thin red diagonal and approaches a heavy blue outline near u=925.",
+      "uncertainty_note": "The dotted versus dashed symbol form is unclear. Near u=920–960, dark marks overlap the blue outline, making the precise centreline uncertain by several pixels; the orange and dark-marked trace remains visible toward the right edge.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some spaced dark marks can be read as short dashes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre connector can instead be read as a thin continuous line accompanied by dark dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [0, 433],
+        [26, 431],
+        [48, 426],
+        [66, 424]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin red-orange single stroke enters from the left, without clearly resolved parallel casing or repeated dots, and disappears into dark blue outlines and horizontal hatching.",
+      "uncertainty_note": "This is a doubtful road candidate: a property boundary is the stronger alternative because its colour and weight resemble the tile's thin red boundary lines. No continuation through the overlapping symbols is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If interpreted as a road, only this exposed single-stroke fragment is supported."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a boundary rather than a road and would then be excluded from the road reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [714, 847],
+      "branch_count": 3,
+      "evidence_note": "The broad orange-brown band enters from the upper left and continues downward; a thinner ochre trace with spaced dark marks meets its right side, forming three visible branches."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main difficulty is distinguishing broken road margins from dotted path symbols, especially beside blue outlines and hatching. Thin red diagonals and long black dashed lines are read as boundaries, and their crossings are not road junctions. The short left-edge fragment is retained as an explicitly doubtful candidate."
+}

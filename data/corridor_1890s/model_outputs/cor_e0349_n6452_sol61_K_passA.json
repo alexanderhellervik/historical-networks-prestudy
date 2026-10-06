@@ -1,0 +1,89 @@
+{
+  "tile_id": "cor_e0349_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[298, 578], [325, 608], [352, 640], [377, 673], [403, 710]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A pale diagonal strip has faint gray strokes along both sides, roughly 10–15 px apart; conifer marks lie alongside.",
+      "uncertainty_note": "The edges are too faint to establish a road symbol confidently; a crease or discoloration is also possible. Its northwest continuation becomes indistinct against the hatching.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The two faint edges may delineate a narrow road."},
+        {"proposed_class": "unknown", "note": "The pale strip may be a paper crease rather than a drawn route."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[403, 710], [445, 710], [490, 716], [540, 720], [592, 722], [645, 728], [700, 735], [750, 738], [797, 732], [840, 719], [881, 699], [920, 678], [960, 648], [1000, 618]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two thin, uneven gray edges enclose a pale gray strip approximately 12–20 px wide, curving upward toward the right edge; neither edge is heavily cased.",
+      "uncertainty_note": "The paired edges suggest a road, but their washed appearance also permits a crease or other nondrawn strip.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "Read the separated gray edges as the sides of a road."},
+        {"proposed_class": "unknown", "note": "Read the broad pale band as a crease or discoloration; then it is not a road."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[223, 793], [250, 776], [279, 758], [309, 743], [340, 729], [371, 719], [403, 710]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A thin gray line consists of separated elongated strokes, without a clearly visible parallel casing, approaching the pale strip from the southwest.",
+      "uncertainty_note": "These elongated marks could be a division boundary rather than a path. The southwest continuation is indistinct near the blue-green line and adjacent symbols.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "A dashed property or division boundary is a plausible nonroad reading."},
+        {"proposed_class": "single_line", "note": "Some apparent gaps may result from fading rather than an intentionally dashed symbol."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[858, 861], [872, 835], [888, 806], [905, 780], [924, 759], [940, 749]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "obscured"],
+      "evidence_note": "A narrow reddish stroke curves northeast from a heavy blue line; portions have a dark edge, but a consistently spaced second edge is not clear.",
+      "uncertainty_note": "The red stroke may be a track or a colored boundary segment. At the northeast end it meets dark angular linework, and no road continuation is certain; the southwest flag denotes the visible stroke's termination.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The intermittent dark edging may belong to a narrow paired-line track."},
+        {"proposed_class": "unknown", "note": "The red stroke may accent a boundary rather than depict a road."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 675], [37, 670], [72, 658], [101, 639], [132, 621], [167, 604], [203, 589], [241, 578], [280, 575]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Faint gray oblique strokes and a pale gap cross or adjoin dense horizontal hatching; a continuous, regularly spaced pair of road edges is difficult to distinguish.",
+      "uncertainty_note": "This is a tentative trace of a possible route. Parts may instead be the irregular edge of the hatched area; its connection to f01 is not established.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The pale gap and faint bordering strokes may represent a narrow road."},
+        {"proposed_class": "unknown", "note": "The apparent route may consist of wetland-outline strokes and interrupted hatching, with no road present."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [403, 710],
+      "branch_count": 3,
+      "evidence_note": "The northwest pale strip, eastward paired gray strip, and southwest broken gray line converge here; three road branches exist only under the proposed road reading of these ambiguous marks."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [260, 550, 315, 600],
+      "why": "Dense hatching and faint gray strokes prevent a reliable connection between the western tentative trace and the diagonal pale strip."
+    },
+    {
+      "bbox_uv": [0, 957, 55, 1000],
+      "why": "Overlapping black marks, lettering, and small colored symbols conceal whether any short corner stroke belongs to a road."
+    }
+  ],
+  "overall_note": "The pale strips and broken gray line are ambiguous between routes, boundaries, and paper artifacts. Their possible road readings are retained explicitly, and the junction is conditional on those readings. Blue-green water lines, heavy angular field outlines, and horizontal hatching are otherwise excluded."
+}

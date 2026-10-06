@@ -1,0 +1,148 @@
+{
+  "tile_id": "cor_e0344_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [120, 0],
+        [140, 22],
+        [159, 44],
+        [170, 73],
+        [174, 105],
+        [171, 139],
+        [168, 174],
+        [169, 195],
+        [179, 218],
+        [194, 234],
+        [211, 245]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange-red strip has two close, dark, speckled margins, approximately 6–10 px apart; both margins follow its bends.",
+      "uncertainty_note": "The margins are stippled and locally blurred, making the symbol-form class less certain than the course.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired dotted margins may warrant unknown rather than a double-line class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [0, 492],
+        [22, 470],
+        [43, 448],
+        [65, 423],
+        [84, 398],
+        [101, 370],
+        [113, 340],
+        [122, 314],
+        [132, 295],
+        [152, 280],
+        [180, 264],
+        [211, 245]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close, irregular dark dotted margins enclose a warm orange-red strip, roughly 7–10 px wide, continuous through the southwest bends.",
+      "uncertainty_note": "Some individual margin dots merge in the scan; the route itself is clearly drawn.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted casing does not exactly match a continuous double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [211, 245],
+        [242, 253],
+        [274, 264],
+        [307, 274],
+        [337, 280],
+        [355, 277],
+        [379, 263],
+        [404, 245],
+        [428, 231],
+        [449, 225],
+        [473, 223],
+        [488, 221],
+        [503, 205],
+        [518, 181],
+        [531, 153],
+        [544, 126],
+        [555, 109],
+        [578, 111],
+        [602, 112],
+        [616, 103],
+        [628, 77],
+        [637, 47],
+        [646, 19],
+        [651, 0]
+      ],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An orange-red strip between close dark stippled margins curves east and then northeast. Portions of the northeast course lie beneath the large lettering; margin marks remain visible beside it and reappear above it.",
+      "uncertainty_note": "Lettering conceals parts of the casing around [525, 170]; the visible approach, exposed margin marks and continuation support carrying the same line through. Exact centre placement there is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled margins could be classified as an unmatched symbol rather than double_line_narrow."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [0, 107],
+        [32, 106],
+        [42, 119],
+        [50, 145],
+        [52, 165],
+        [44, 192],
+        [35, 220],
+        [34, 247],
+        [39, 278],
+        [45, 309],
+        [57, 339],
+        [70, 365],
+        [80, 383],
+        [84, 392]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint grey linear strip bends beside the left-hand peach polygons. Several stretches show two thin traces about 5–10 px apart, with scattered darker marks and little consistent coloured infill.",
+      "uncertainty_note": "This may be a lightly drawn track, a parcel-edge line, or a scan/paper artifact. Its lower end becomes indistinct beside the orange route; a road connection is not sufficiently clear to record a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both grey traces are intentional road margins, they form a narrow paired-line track."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "One trace may be incidental shading beside a single faint path line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: parcel boundary or paper/scan artifact."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [211, 245],
+      "branch_count": 3,
+      "evidence_note": "Three orange-red strips with similarly weighted dark speckled margins meet: one from above, one from the southwest and one curving east. Their coloured centres visibly join."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The main difficulty is distinguishing the faint grey candidate from parcel edges or scan artifacts, and interpreting dotted road margins within the supplied symbol-form classes. The broad pink diagonal with dark boundary marks, blue shorelines, polygon outlines and the thin line across the water are excluded as non-road lines."
+}

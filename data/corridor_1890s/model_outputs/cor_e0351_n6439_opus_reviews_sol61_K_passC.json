@@ -1,0 +1,85 @@
+{
+  "tile_id": "cor_e0351_n6439",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a grey-brown double line accurately from the top edge (~690,0) through (550,300), (530,500), (535,620), (495,750) to the bottom edge (~400,1000). The line has no red/brown road colour between its edges, keeps a constant width, curves very smoothly with a large radius, cuts straight through parcels and the Östvederna farm area, and crosses the red main road in a clean X with no kink or widening. These are railway-like traits. Against that, two tracks (f02, f03) end on it, which suggests a road they join.",
+      "uncertainty_note": "This is either an uncoloured road (Bättre körväg-type double line) or a railway drawn without the legend's black/white pattern at this resolution. The drawing does not decide which. If it is a road, the course and the class double_line_narrow are right. If it is a railway, it should be disagree_not_a_road."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line with dotted infill (Sämre körväg form, like the magenta road in the worked example) is clearly visible from about (385,468) east to (525,430), where it ends at the grey double line f01. The overlay follows it.",
+      "uncertainty_note": "West of u≈385 the track is hidden under the 'Ö' of Östvederna and the farm parcel. Its link to the main road at (~272,475) is likely but not visible. The symbol could also be classed as dashed_line. I could not see the overlay's own class."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line with dotted infill runs from a small red building mark at (~38,820) through (100,842), (200,870), (300,872) and (400,852) to the grey double line at (~462,828). The overlay traces it closely.",
+      "uncertainty_note": "Its east end sits on f01, about 60 px short of the red main road. Whether it connects onward to the main road depends on whether f01 is a road. The west end may stop at the farm or continue to the edge; nothing is visible beyond u≈30."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A single black dotted line (the Gångstig symbol) runs from the Svedjehagen buildings at (~80,295) south via (98,340), (102,380) and (118,415) to the main road at (~132,440). The overlay follows it.",
+      "uncertainty_note": "A few dots west of (80,290) towards (20,272) may continue the path into the Svedjehagen yard. The overlay starts slightly south of that."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint single dotted line runs south from f03 at (~103,845) through (97,900) and (90,950) to the bottom edge at (~85,1000), along the edge of the farm parcels. Its form matches the Gångstig symbol.",
+      "uncertainty_note": "The dots are sparse and run along parcel edges. A dotted parcel or meadow edge cannot be fully excluded."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 440], [100, 447], [200, 457], [270, 474], [314, 500], [394, 600], [469, 700], [534, 800], [580, 850], [622, 900], [700, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "This is the most prominent road on the tile, and the overlay leaves it out entirely. It is a wide black double line with a red-pink fill and grey shading (the landsväg/bygdeväg form). It enters at the west edge at v≈440, runs east to a kink by a small red building at (~272,474), then runs straight SE through Östvederna and V. Svederna to the bottom edge at u≈700.",
+      "uncertainty_note": "The course is certain. The only doubt is local: whether f02 actually leaves it at the kink (~272,474), and whether it meets f01 at (495,748) or only crosses it.",
+      "alternatives": []
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [495, 748],
+      "what_is_contested": "Whether this is a road junction (four branches) or a level crossing of a railway over the main road (no junction).",
+      "evidence_note": "f01 crosses the red main road obliquely in a clean X. Neither line kinks or widens there, and f01 carries no road colour."
+    },
+    {
+      "uv": [272, 476],
+      "what_is_contested": "The number of branches at the main-road kink: two (main road only) or three (with f02 leaving east).",
+      "evidence_note": "f02 is only visible from u≈385 eastward. The stretch between the kink and u≈385 is covered by the 'Ö' lettering and the farm parcel."
+    },
+    {
+      "uv": [528, 430],
+      "what_is_contested": "Whether f02 joins f01 here or just ends against it. If f01 is a railway, this is a dead end rather than a junction.",
+      "evidence_note": "The dotted double track stops on the grey double line, and nothing continues east of it."
+    },
+    {
+      "uv": [462, 828],
+      "what_is_contested": "Whether f03 joins f01 here, and through it the main road about 60 px to the east, or just ends against a railway.",
+      "evidence_note": "The track ends on the grey double line. No visible link runs to the red road at (~534,800)."
+    },
+    {
+      "uv": [103, 845],
+      "what_is_contested": "Whether the dotted line f05 joins f03 as a path branch, or is a parcel edge touching it.",
+      "evidence_note": "The dots are faint and follow parcel outlines south of the track."
+    }
+  ],
+  "overall_note": "The overlay misses the red-filled main road (west edge to the SE corner), which is the clearest road on the tile. Its long grey double line f01 may be a railway rather than a road, so I could not judge it. The two long orange-red single lines (top-centre to west, and NE to bottom-centre) and the dotted edge along the northern stream are boundaries or meadow edges, not roads, and the overlay rightly omits them."
+}

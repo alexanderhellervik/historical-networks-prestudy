@@ -1,0 +1,127 @@
+{
+  "tile_id": "cor_e0359_n6433",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along the top-left there is a dark-edged band filled red-brown, running from the west edge near (0,68) through (100,48) and (250,35), then turning up to the top edge near (290,0). It is the same red-brown double-line road symbol that the worked example reads as a road. The overlay polyline follows it.",
+      "uncertainty_note": "Wide versus narrow double line can't be decided at this resolution; the band looks heavier than the example's roads, so double_line_wide (Landsväg) is possible."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous row of black dots on a thin orange-brown line runs from just below f01 at about (280,35), east and down through (390,110), (380,220), (350,330), (350,410), (385,500), (380,620), (355,700), (375,800) and (390,900), to the bottom edge near (395,1000). The overlay traces it closely.",
+      "uncertainty_note": "Dotted form fits Gångstig or Sämre körväg; the series distinction is not resolvable here. Around v 640-760 it runs between two field parcels, and the exact side is slightly uncertain."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange line with black dots leaves the west edge near (0,80) and runs through (70,110), (110,160), (160,205) and (280,205) to about (350,200), where it bends down toward the crossing with f02. The overlay follows it.",
+      "uncertainty_note": "The western part near the edge lies close to the purple boundary and a green stream line, so the exact course in the first 50 px is a little uncertain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same orange-and-dot line carries on east from the f02 crossing: past the Gungeberg tomt at (430,255), through (550,320), (700,335) and (850,395), past the 'Gungeberg' lettering, to (950,470) and the east edge near (1000,510) toward Gästgifvaregården. The overlay follows it.",
+      "uncertainty_note": "Under the lettering between u 520 and 900 the dots are partly hidden, but the line is continuous on either side."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a short pinkish-orange line from about (305,381) to (390,390) and on toward (420,400), where it meets the purple boundary and the pale strip. It carries no dots, and its western part coincides with the top edge of the field parcel.",
+      "uncertainty_note": "It could be a short road stub linking f02 to the pale strip, or simply a coloured field or parcel edge. The drawing does not decide which."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a hair-thin, perfectly straight grey line at v≈735-750 across the western 600 px. It ignores the terrain and crosses field parcels and the dotted road. It has no road colour and no dots. Like the straight vertical line at u≈20, it is a sheet or construction line, of the kind the worked example records as 'Annan linje'.",
+      "uncertainty_note": "Low uncertainty that it is not a road."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-left, the overlay follows the pale outline of the meadow/field enclosure around the narrow pink parcels, from (20,1000) through (30,895), (100,900) and (180,950) to (250,1000). On the bare tile this is a faint uncoloured outline with no dots and no road fill, i.e. an area edge.",
+      "uncertainty_note": "The outline is faint, and a pale double line along a meadow edge can't be fully excluded as an uncoloured track. Nothing in the drawing marks it as a road."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Faint dots run from the dotted road f02 near (390,960) north-east through about (420,915) toward the building and stream near (465,865) by 'B'. They are consistent with a short path to the farmstead.",
+      "uncertainty_note": "The dots are faint and partly mixed with the vegetation symbols and the blue stream near 'B', so the course and the eastern end are uncertain; cannot_tell would also be defensible."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The label is cut off at the east edge (shows 'f0…'; read here as f09) and sits near (995,948). At that spot a dark-edged red-brown band runs along the east edge from about (1000,870) through (985,930) to (970,1000). It is the same road symbol as f01, likely the road past Lena Poststation.",
+      "uncertainty_note": "The overlay polyline itself is barely visible under the label at the edge, so whether it follows this band exactly can't be confirmed. The id is inferred from the truncated label."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[140, 185], [250, 270], [350, 350], [450, 430], [550, 510], [630, 585]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A pale grey band, about 15-20 px wide, with faint edges runs along the south-west side of the purple boundary from about (140,185) to the boundary bend at (630,585). It looks like an uncoloured double line.",
+      "uncertainty_note": "There is no road fill and no dots. It may be an uncoloured road, a faintly drawn railway, a later addition or erasure, or just a band along the boundary. Its west end merges into the boundary and f03 area.",
+      "alternatives": ["double_line_narrow road without colour", "railway drawn faintly", "not a road (boundary strip / erasure)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[640, 590], [700, 480], [760, 380], [850, 230], [930, 100], [1000, 10]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "From the purple boundary bend at (640,590), a pale straight band with faint grey edges runs north-east across the open ground and past the 'Gästgifvaregården' area to the north-east corner. It continues the alignment of m01.",
+      "uncertainty_note": "The edges are very faint and have no colour or dots. It may be a railway or road drawn lightly, or a later pencil line. It is not clearly a road.",
+      "alternatives": ["double_line_narrow road without colour", "railway", "not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [382, 225],
+      "what_is_contested": "Whether f03 and f04 meet f02 at one four-way crossing, or at two offset junctions (f03 joining near (375,210) and f04 leaving near (395,240) toward the Gungeberg tomt).",
+      "evidence_note": "The orange line of f03/f04 bends down through the dotted f02 between v 200 and 245, and the dots overlap, so the meeting point is smeared."
+    },
+    {
+      "uv": [282, 35],
+      "what_is_contested": "Whether the dotted f02 actually joins the red-brown road f01, or stops just short of it.",
+      "evidence_note": "The dots begin just south of where f01 turns north to the top edge. A small gap may or may not separate them."
+    },
+    {
+      "uv": [640, 590],
+      "what_is_contested": "Whether this is a road junction at all: the pale bands m01 and m02 meet at the purple boundary bend, and a faint line may continue south-west.",
+      "evidence_note": "The purple boundary turns sharply here. The pale strips meet at the same point, but neither is clearly a road."
+    },
+    {
+      "uv": [350, 385],
+      "what_is_contested": "Whether f05 really branches off f02 here, i.e. whether a junction exists.",
+      "evidence_note": "The orange stub touches the dotted line at the corner of the field parcel; it may be only a parcel edge."
+    },
+    {
+      "uv": [392, 955],
+      "what_is_contested": "Position and existence of the branch point of the faint path f08 off f02.",
+      "evidence_note": "f08's dots are faint and close to f02 near the bottom edge."
+    }
+  ],
+  "overall_note": "The dotted roads f02, f03 and f04 and the red-brown roads f01 and f09 are clearly drawn and the overlay follows them well. f06 is a straight sheet/construction line and f07 a field or meadow outline, not roads, while f05 cannot be decided. The pale bands along and north-east of the purple boundary are added as unknown features because the drawing does not show whether they are roads, a railway or later marks."
+}

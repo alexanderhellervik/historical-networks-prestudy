@@ -1,0 +1,110 @@
+{
+  "tile_id": "cor_e0357_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 751], [39, 735], [78, 715], [116, 689], [150, 659], [185, 628], [221, 597], [259, 568], [290, 543], [310, 534], [327, 552], [346, 572], [369, 580], [399, 576], [423, 578], [445, 596], [472, 623], [495, 608], [521, 595], [545, 584], [563, 573], [585, 579], [608, 571], [628, 559], [643, 547], [670, 520], [701, 500], [734, 480], [772, 462], [811, 441], [849, 420], [891, 408], [933, 398], [969, 381], [1000, 356]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre band, approximately 7–10 px across, has two dark broken or dotted edges. It bends beside several red building rectangles; the same paired-edge symbol remains visible around the large black lettering.",
+      "uncertainty_note": "Small portions beside the central buildings are overprinted, but the adjoining edges support the traced bends. j03 is conditional on f06 being a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[545, 584], [533, 560], [522, 538], [510, 513], [499, 491]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two close dark broken edges flank a brown-ochre strip running upward from the winding road to a red rectangle. Its width and edge marks resemble the adjoining road.",
+      "uncertainty_note": "The northern end meets the red rectangle; no continuation beyond it is sufficiently visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[643, 547], [655, 583], [666, 624], [677, 666], [689, 706], [701, 741]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow ochre strip with closely spaced dark broken margins branches downward from the dotted road. The margins remain visible beside the large lettering and approach the broad pink line.",
+      "uncertainty_note": "The southern end disappears into the heavy pink and black boundary stroke; continuation across that stroke cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The nearly straight course also resembles a parcel division, although its ochre fill and broken margins favour a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[916, 0], [903, 31], [891, 61], [880, 91], [879, 121], [886, 153], [898, 188], [909, 223], [924, 258], [945, 287], [971, 310], [1000, 332]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A curved ochre-brown band has two close dark dotted or broken margins. Large black letters overlap its upper portion, while the paired margins are clearer below.",
+      "uncertainty_note": "The upper course is partly covered by lettering; visible brown fragments on both sides support continuity. Its connection to f01, if any, lies beyond the visible face.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[632, 1000], [650, 982], [671, 966], [693, 948], [711, 934]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "A short yellow-ochre ribbon with irregular dark marks along both sides runs diagonally from the bottom edge to a red rectangle below ST. Several black strokes overlap its lower portion.",
+      "uncertainty_note": "The paired margins are less distinct than on f01, and part of the line coincides with a coloured-area edge. The red rectangle covers its upper termination.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The yellow ribbon and flanking dark marks can be read as the same narrow track symbol used elsewhere."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some of the apparent margins may belong to the adjoining parcel or land-cover outline rather than a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 585], [47, 567], [95, 548], [144, 530], [193, 511], [242, 492], [292, 473], [342, 454], [391, 435], [440, 416], [490, 397], [540, 378], [590, 358], [638, 337], [687, 316], [721, 301], [744, 286], [765, 315], [788, 347], [810, 378], [832, 408], [849, 420]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A long straight reddish stroke has a narrow pale-yellow parallel margin. It passes beneath black lettering, reaches a small dark rectangular symbol near the bend, then turns southeast as a stronger reddish line toward the ochre road.",
+      "uncertainty_note": "This is a doubtful road candidate: its straightness, red emphasis and angular bend strongly support a property-boundary reading. The narrow parallel margin also permits a road reading; j03 exists as a road junction only under that alternative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The reddish stroke and pale parallel margin could form a narrow cased road, with a sharp bend beside the rectangular symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The whole course may be a coloured property boundary, in which case omit this feature from the road network and omit j03."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [545, 584],
+      "branch_count": 3,
+      "evidence_note": "Three narrow ochre arms with dark broken margins meet: two follow the winding line and one runs upward toward a red rectangle. The shared meeting area is approximately 10 px wide."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [643, 547],
+      "branch_count": 3,
+      "evidence_note": "The paired broken edges of the winding ochre line meet a similarly narrow brown-ochre arm extending downward; three arms are visible."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [849, 420],
+      "branch_count": 3,
+      "evidence_note": "Two ochre arms with dark broken edges continue through this position, and a straight reddish arm touches them from the upper left. The three-branch road interpretation is conditional because the reddish arm may be a boundary."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Broken dark margins distinguish the clearest tracks from the thin parcel lines and broad pink boundary colouring. Lettering and building symbols hide short sections, especially near the central bends and the upper-right edge. The long reddish diagonal and the short line below ST retain explicit road-versus-boundary alternatives."
+}

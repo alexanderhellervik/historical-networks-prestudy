@@ -1,0 +1,53 @@
+{
+  "tile_id": "cor_e0351_n6429",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown/orange-brown winding line is drawn here. It runs from the straight pink boundary band near (335,420), past (440,455), (500,540), (600,610) and (680,700), and crosses the band at about (692,785). It then runs down to (690,870), east to (800,885), crosses back at about (805,885), and continues on the NE side of the band via (855,873) and (885,940), rejoining the band near (900,975). This is road colour, as in the worked example, and the overlay polyline follows it closely.",
+      "uncertainty_note": "The overlay starts at about (375,450), but the brown line can be traced further NW to where it meets the band at about (335,420), so the start is about 50 px short. The overlay does not show which class it uses, so I cannot say whether the class matches. The line has a lighter core with brown edges in places, so double_line_narrow is possible. The S end runs into the pink band at about (900,975), and whether it continues to the bottom edge under the band cannot be seen."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A very thin, faint grey-black straight line runs from the N tip of Timmersjön at about (450,765) NE to the edge of the bog at about (535,700). It has no brown road colour. It joins open water to the bog, which fits a ditch or a property line better than a road.",
+      "uncertainty_note": "The line is faint at this resolution. A gångstig drawn without colour cannot be fully excluded, so cannot_tell is the alternative."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (0,620) and (300,515), in the conifer area W of the stream, there is at most a barely visible faint grey trace: no brown road colour and no clear drawn stroke. It looks like a faint construction line, a crease or a lightly drawn boundary, not a road symbol.",
+      "uncertainty_note": "The trace is so faint that cannot_tell is a reasonable alternative. Nothing visible supports a road."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [335, 420],
+      "what_is_contested": "This is the NW end of the brown road, where it meets the pink boundary band beside the lake shore and stream. Either the road ends here, or it continues NW hidden under or along the boundary band towards (30,150).",
+      "evidence_note": "No brown line is visible NW of this point on either side of the band. The band is wide enough to hide a road drawn along it."
+    },
+    {
+      "uv": [692, 785],
+      "what_is_contested": "The brown road crosses the pink boundary band here. This is a true crossing (2 branches, no junction) unless a road also runs along the band.",
+      "evidence_note": "The brown line is continuous on both sides of the band, at (685,730) and (690,820). Nothing brown runs along the band itself."
+    },
+    {
+      "uv": [805, 885],
+      "what_is_contested": "This is where the brown road touches the band again after its southward loop. It is unclear whether the road crosses back to the NE side here or meets something running along the band.",
+      "evidence_note": "Brown is visible SW of the band at (760,893) and NE of it at (855,873), with the band in between."
+    },
+    {
+      "uv": [900, 975],
+      "what_is_contested": "This is the S end of the brown road. It either merges into the band and continues under it to the bottom edge at about (915,1000), or ends here.",
+      "evidence_note": "The brown line on the NE side of the band converges with the band near the bottom edge and cannot be followed separately."
+    }
+  ],
+  "overall_note": "The only clearly drawn road is the winding brown line (f01). The wide straight pink bands with black edging, the thin pink diagonal at the W edge and the black dashed lines are boundaries, and the faint vertical line at u≈770 is a sheet or grid line. f02 and f03 follow faint lines with no road colour, and I do not read them as roads."
+}

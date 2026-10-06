@@ -1,0 +1,88 @@
+{
+  "tile_id": "cor_e0344_n6433",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the west edge at about (0,462) to (75,425) a brown pair of lines with dotted fill runs NE. It is the same symbol as the road continuing to the torp at (205,378), and its colour is clearly different from the crimson boundary that crosses it at about (70,425).",
+      "uncertainty_note": "Course and existence are clear. The class (narrow double line vs a single line with dots) is uncertain at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The f05 label sits on the f01 label at (40,435), and no separate f05 trace can be told apart from f01/f02 on the overlay. On the bare tile there is only one road line at this spot, the brown dotted road from the west edge.",
+      "uncertainty_note": "If f05 runs along f01 it is a duplicate of a real road and would count as agree. If it runs elsewhere, I cannot see where, so I cannot judge it."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line runs from (75,425) via (150,395) to the torp buildings at about (205,378). From there it follows the brown field edge up to about (285,255), then east along the north edge of the pink field through (360,235) and (440,245) to the stream at about (545,258). This is the same red-brown road colour the worked example uses for Sämre körväg along field edges.",
+      "uncertainty_note": "The link from the torp (205,378) to (285,255) follows the field outline and could be a brown field edge rather than a road. East of the stream, the stretch (545,258) to (650,175) is not clearly drawn as a road; it runs among black field outlines and the stream bank. See the contested junctions."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (620,155) by the red building, two parallel brown lines with dots between them run NE past (720,110) and (800,65) to the top edge near (945,0). This is the clearest road on the tile.",
+      "uncertainty_note": "Existence and course are certain. Whether it is Bättre or Sämre körväg cannot be decided at this resolution. The SW end among the village buildings is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road line runs SE through the village under the 'Adels…' lettering, past (760,335) and (845,378), then east along about v=380-400 to the right edge near (1000,395). East of u=850 the brown dotted line is clear.",
+      "uncertainty_note": "The NW part, (645,195) to (740,330), is largely hidden by the large black lettering and the village buildings. Its exact course there, and where it leaves f02/f03, is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f06 follows the thin crimson line from (60,195) via (190,148), (330,165) and (430,140) to the top edge near (600,5). The line is crimson with a pale wash shadow, the same as the boundaries elsewhere on the tile (e.g. (580,490)-(600,630)-(770,730)). It has no brown road colour and no dotted fill.",
+      "uncertainty_note": "Low. It is a boundary (Gräns), not a road."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[658, 0], [668, 45], [685, 90], [705, 108]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A brown-red line comes down from the top edge at about u=658 and runs SSE to the buildings at about (720,100), where it meets the f03 road. It looks like an access road into the village from the north.",
+      "uncertainty_note": "Its colour lies between the road brown and the crimson boundary colour. It could be a boundary running down to the village rather than a road.",
+      "alternatives": ["boundary line (not a road)", "road continuing south through the village to f04"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [545, 258],
+      "what_is_contested": "Whether the field-edge road (f02) crosses the stream here and continues into the village, and if so by what course: NE to (650,175) as in the overlay, or east along about v=245 to f04.",
+      "evidence_note": "The brown line ends at the blue stream. East of it there are only black field outlines and the stream bank, with no clear brown road line."
+    },
+    {
+      "uv": [635, 185],
+      "what_is_contested": "How f02, f03, f04 and m01 meet in the village: one junction or several, and where.",
+      "evidence_note": "The red buildings, the church symbol and the large 'Adels…' lettering hide the lines between (600,150) and (720,260)."
+    },
+    {
+      "uv": [205, 378],
+      "what_is_contested": "Whether the road from the west edge ends at the torp or continues NE along the field edge as f02 draws it.",
+      "evidence_note": "Buildings and the letter 'T' sit at this spot. The field outline beyond is brownish but less clearly dotted than the road to the west."
+    },
+    {
+      "uv": [855, 380],
+      "what_is_contested": "Whether a branch leaves f04 southward here.",
+      "evidence_note": "A thin grey-blue line runs south from about (860,385) via (865,470) towards the hatched marsh. I read it as a ditch or stream, not a road, but it does touch the road."
+    }
+  ],
+  "overall_note": "The roads on this tile are the brown dotted lines: the NE road f03, the road from the west edge via the torp along the field edge (f01/f02), the road through the village to the east edge (f04), and possibly a northern access line (m01). f06 is a crimson boundary, and the thick black-and-magenta line at v≈830-900, the dash-dot vertical at u≈515 and the black dashed line from (720,420) are also boundaries, not roads. The connections in the village and across the stream are not decided by the drawing."
+}

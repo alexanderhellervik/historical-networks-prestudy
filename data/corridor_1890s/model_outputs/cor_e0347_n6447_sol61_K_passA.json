@@ -1,0 +1,131 @@
+{
+  "tile_id": "cor_e0347_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[315, 0], [336, 20], [359, 41], [366, 40], [389, 27], [415, 12], [438, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish band bends through the top edge, with dark broken marks along both sides, approximately 8–12 px apart; this resembles the example's paired-edge track.",
+      "uncertainty_note": "The small connection to f02 is partly crowded by a solid polygon outline; its junction position is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken edges could be read as two dotted rows rather than clearly defined double road lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[366, 40], [384, 59], [402, 81], [415, 108], [426, 131], [435, 143]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "One row of short dark marks runs southeast from the reddish track, beside conifer stars, and reaches dense horizontal hatching.",
+      "uncertainty_note": "The marks become inseparable from the hatching and its dark edge near the scan seam. No continuation through that area is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary is possible, although the repeated short marks resemble the example's footpath symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [771, 0], [775, 14], [800, 19], [810, 23],
+        [806, 51], [797, 85], [784, 119], [766, 144],
+        [777, 166], [792, 194], [807, 223], [818, 245],
+        [811, 270], [796, 296], [779, 321], [758, 352],
+        [739, 381], [720, 404], [727, 435], [734, 467],
+        [742, 502], [748, 535], [749, 565], [739, 592],
+        [724, 622], [713, 653], [699, 692], [685, 727],
+        [674, 761], [662, 793], [651, 825], [640, 857],
+        [626, 887], [613, 918], [605, 940], [599, 954]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A single conspicuous row of dark, short rounded marks follows a winding course. Cyan and red fringes accompany the marks; solid red and thin cyan lines cross it without acquiring the dotted symbol.",
+      "uncertainty_note": "The northernmost section closely follows a polygon edge. The southern junction with f04 is tentative because small dots, outlines and building symbols crowd the endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may be described as dots rather than dashes; a boundary reading is less securely excluded along the northern polygon."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If f04 is a polygon edge rather than a path, this feature ends obscured near [599, 954] and j02 is absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[553, 951], [574, 956], [590, 960], [599, 954], [613, 946], [625, 936], [633, 934]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Several small dark dots lie immediately above a heavy solid polygon outline west of f03; short dark marks continue toward the small reddish building and large black lettering.",
+      "uncertainty_note": "This is a candidate short path. Its western beginning and eastern continuation cannot be separated confidently from the polygon outline and nearby symbols; the three-branch junction is conditional on this reading.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dots could form a footpath passing through [599, 954] toward the building symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks could belong to the polygon edge or adjacent point symbols, in which case this is not a road and j02 is absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[400, 936], [402, 967], [404, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "Two faint, closely spaced gray-black strokes descend from the solid lower polygon outline to the bottom edge; portions appear broken, with approximately 5–8 px between them.",
+      "uncertainty_note": "The drawing is too faint to distinguish a narrow track from a field division or another paired line. The upper endpoint marks the visible termination at the polygon outline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both strokes are continuous road edges, they delineate a narrow track."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the breaks are intentional, this could be a paired broken-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field division or other non-road line remains plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [366, 40],
+      "branch_count": 3,
+      "evidence_note": "The reddish track supplies two branches around its bend, and a single row of dark short marks leaves southeast; a nearby solid polygon outline makes the exact attachment approximate."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [599, 954],
+      "branch_count": 3,
+      "evidence_note": "Tentative: the northward dotted line reaches small dark marks extending west and northeast beside a heavy polygon outline. Three road branches exist only if those lateral marks are the candidate path f04."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [423, 132, 455, 182],
+      "why": "The scan seam, dense horizontal hatching and dark polygon edge prevent a reliable continuation of f02."
+    },
+    {
+      "bbox_uv": [619, 905, 708, 964],
+      "why": "Large black lettering, building marks and overlapping outlines obscure the candidate eastern continuation of f04."
+    }
+  ],
+  "overall_note": "The repeated dark marks support footpath readings, but their attachment to polygon outlines is locally ambiguous. Solid red divisions, thin cyan winding lines and variable-width hatched margins were read as boundaries or drainage rather than roads. The southern short features and j02 remain explicitly tentative."
+}

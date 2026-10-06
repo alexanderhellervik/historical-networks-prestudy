@@ -1,0 +1,56 @@
+{
+  "tile_id": "cor_e0350_n6435",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The tile's dominant line is a red-brown filled double-line road. It enters at the top edge near (455,0), runs south past Freder(sberg) T, the '14' marker, Snassberget T and the '15' marker, bends west and crosses the stream at about (365,815), then passes Skolhus B and leaves the bottom edge near (330,1000). The overlay polyline stays on it the whole way.",
+      "uncertainty_note": "Course and existence are certain. Class: the colour-filled double line is the landsväg/bygdeväg form, which is the widest road symbol on this sheet."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-orange dotted line leaves the main road at about (415,132). It runs WSW through (370,170) and (330,197) to the Fredersberg buildings and meadow edge near (258,214). The overlay follows it. Going by the legend's dotted forms, this is a small road or path (Sämre körväg or Gångstig), not a boundary.",
+      "uncertainty_note": "At this resolution I cannot tell whether the dots form one row or two, so Sämre körväg versus Gångstig is open; the symbol form is dotted in either case. The overlay's class cannot be read from the image, so I judge the course only. It is unclear whether the line stops at (258,214) or carries on along the meadow strip."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (437,225)-(460,215) the only thing drawn east of the main road is the black dotted outline of the green meadow parcel, running from the road towards the shore at about (490,210). It is black and uncoloured, it matches the dotted land-use outlines found all over the tile (for example around the Snassberget wood patch), and it leads nowhere a road would go.",
+      "uncertainty_note": "A very short dotted stub is hard to tell from a path. I see no red-brown colour and no destination, so I read it as a parcel boundary."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the f02 line at about (330,197), a red-orange dotted line runs south through (338,260), (352,340), (360,410) and (360,470). It ends at the top of the dotted Snassberget wood/meadow patch near (358,490). It has the same colour and dot pattern as f02, and the overlay follows it.",
+      "uncertainty_note": "The line ends at the patch outline. I cannot tell whether it continues inside the patch towards the buildings near (320,610): nothing coloured is visible there. Dot-row count, and so körväg versus stig, cannot be resolved."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [330, 197],
+      "what_is_contested": "Whether f04 branches off f02 here as a three-way junction, or starts slightly east of this point; the exact meeting position is uncertain by about 10-15 px.",
+      "evidence_note": "The two orange dotted lines meet near the bend of f02 below the Fredersberg building group. The dots are sparse at the meeting point, so the branch point is not sharply drawn."
+    },
+    {
+      "uv": [437, 223],
+      "what_is_contested": "Whether any junction exists at all. The overlay attaches f03 to the main road here, but I read the line as a meadow-parcel outline, not a road branch.",
+      "evidence_note": "The dotted line east of the road at this point is black and uncoloured, like the other land-use outlines, and runs to the shoreline."
+    },
+    {
+      "uv": [258, 214],
+      "what_is_contested": "Whether f02 ends at the Fredersberg buildings or continues north or south along the narrow field strip; the number of branches here is unclear.",
+      "evidence_note": "The orange dotted line reaches the meadow edge by the building squares. Dotted black parcel outlines run along the strip to the north, and I cannot follow any coloured continuation."
+    }
+  ],
+  "overall_note": "The tile has one certain main road (f01) and a red-orange dotted path or minor-road system (f02 and f04) west of it, linking the road to Fredersberg and to the Snassberget patch. f03 looks like a black dotted meadow outline, not a road. I found no other coloured road lines; the remaining dotted lines are land-use outlines, and the faint horizontal lines near v≈690 and v≈820 look like construction or survey lines."
+}

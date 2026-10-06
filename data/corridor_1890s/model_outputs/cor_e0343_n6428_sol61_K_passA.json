@@ -1,0 +1,85 @@
+{
+  "tile_id": "cor_e0343_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[414, 0], [415, 35], [415, 68], [424, 103], [435, 137], [452, 174], [472, 212], [488, 250], [499, 288], [509, 321], [519, 343], [532, 366], [552, 399], [571, 428], [590, 459], [610, 490], [630, 521], [650, 544], [676, 544], [710, 537], [750, 528], [789, 514], [822, 499], [846, 484], [864, 490]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow yellowish line carries dark dots and short broken strokes. It bends through the centre, then turns east; small red-and-black rectangular symbols sit beside its eastern portion.",
+      "uncertainty_note": "Some marks merge into short strokes, making a second broken margin difficult to distinguish. The eastern endpoint disappears against heavy lettering and nearby building symbols; connection to f04 is uncertain. Junction j02 depends on accepting f03 as a track.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The yellowish band and irregular dark marks could represent a narrow track with two poorly resolved broken margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 552], [36, 543], [76, 539], [112, 533], [151, 523], [190, 509], [227, 494], [264, 476], [302, 457], [339, 438], [375, 429], [411, 414], [447, 396], [482, 384], [509, 376], [532, 366]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin yellow-brown trace with repeated dark dots runs diagonally across horizontal hatching. Its marks continue beyond the hatched outline and meet the winding dotted line.",
+      "uncertainty_note": "Hatching locally overlaps the dots, but the course is visible on both sides. The dotted symbol is clearer than any continuous casing.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[552, 399], [588, 370], [628, 339], [670, 309], [712, 278], [754, 247], [796, 216], [837, 185], [878, 157], [911, 135], [933, 145]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Closely spaced diagonal dark strokes follow the upper edge of a long pink-tan polygon. One stroke belongs to an outline with conspicuous angular steps; the northeast end meets a heavy blue contour.",
+      "uncertainty_note": "A separate track beside the polygon is possible, but these strokes may entirely belong to its parcel outline. Coordinates follow the upper margin; no continuation is asserted through the dark contour at the northeast endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both adjacent diagonal strokes delimit a separate narrow passage, they support a narrow double-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the apparent passage is the overlapping or reinforced edge of the closed pink-tan parcel."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[882, 512], [903, 542], [922, 575], [938, 608], [952, 640], [960, 665], [956, 691], [955, 711], [965, 737], [982, 764], [1000, 788]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-yellow band has dark broken marks along its sides. It curves down the right side beside a heavy blue outline; lettering crosses it near v=660.",
+      "uncertainty_note": "The upper connection is masked by large black lettering, so it is separate from f01. At v=660, aligned marks immediately above and below support carrying the line through the lettering. Individual margins are poorly resolved in places.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some sections resolve as one row of dark broken marks beside a coloured stroke rather than two distinct margins."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [532, 366],
+      "branch_count": 3,
+      "evidence_note": "The west-entering dotted trace meets the winding dotted trace, whose dark marks continue both north and southeast; three branches are visible."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [552, 399],
+      "branch_count": 3,
+      "evidence_note": "The winding broken line continues northwest and southeast where the diagonal dark strokes begin beside the pink-tan polygon. Three road branches are supported only if f03 is a track; otherwise this is an intersection with a parcel outline."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [860, 470, 916, 522],
+      "why": "Heavy black lettering and red-and-black rectangular symbols mask the possible connection between f01 and f04 and any short intervening branches."
+    }
+  ],
+  "overall_note": "The dotted routes are clearer than the possible track along the northeast polygon, which remains a conditional road reading. Straight red lines, long dash-and-dot lines, blue water outlines and closed hatched outlines were read as non-roads. Coordinates are approximate where strokes overlap."
+}

@@ -1,0 +1,93 @@
+{
+  "tile_id": "cor_e0358_n6433",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous broad red-brown band with a dark edge runs from the west edge (~0,100) via (65,115), (195,75), (300,35), dips to (520,88), rises to (640,35) and continues east; it bounds the pink field land of Fredrikshult. It is the same red-brown road drawing that the worked example reads as a road, and the drawn polyline stays on it.",
+      "uncertainty_note": "The band is wider than the example's road line, but at this resolution I cannot tell whether it is two cased lines with a fill or one heavy line, so it could be single_line. I could not see exactly where f01 hands over to f07 and f08 in the east and northwest."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near its label (~300-340, 20-40) the overlay sits on the same red-brown road band where it bends from the (195,75) junction up toward the top edge and Fredrikshult.",
+      "uncertainty_note": "In this corner the band overlaps pink field fill, place-name lettering and dark field outlines. Whether a separate branch really leaves the band and runs north to the top edge, rather than only the main road bending, is not clear."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the label (~950-1000, 40-65) the red-brown road band reaches the east edge at about v=60-65, with a dotted dark line just north of it. The overlay line runs on the band to the edge.",
+      "uncertainty_note": "Just north of here, the dark outline of a pink field corner (~930-1000, 0-40) lies close to the road. If f08 actually traces that field edge rather than the band, it would not be a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A black dotted line leaves the road at about (200,80) and runs south via (185,170) and (200,240). It turns into a thin orange-brown line around (215,280) and ends at the farm building 'B' at (245,350). A dotted line ending at a farm is the footpath (Gångstig) form, and the overlay follows it closely.",
+      "uncertainty_note": "The symbol is dotted rather than dashed, and the vocabulary has no dotted class, so dashed_line is the nearest fit. The last ~70 px are a solid orange line, which on its own would read as single_line."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line leaves the main road at (65,115). It runs south beside the purple property line to (70,250), then SE via (95,310), (160,375), (270,470) and (400,590) to (530,655), and turns NE to (600,640) and (665,605) at the corner of the hatched mire. This is the same orange line type the worked example reads as a path, and it is clearly not a purple boundary or a blue-green stream. The overlay follows it the whole way.",
+      "uncertainty_note": "Between v=250 and v=450 the line runs within a few px of the parallel purple boundary, so a wobble in the overlay there is hard to judge. Whether it is a cart track or a footpath cannot be decided; it is drawn as a plain single line."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line starts at the east shore of the lake (Ofvasjön) at about (310,815) and runs via (380,825), (440,845) and (500,890) to the south edge at about (565,1000), passing just left of 'No 6'. The overlay follows it.",
+      "uncertainty_note": "It starts where the blue-green stream leaves the lake. Whether the line ends at the shore or links to the stream-side ground further north cannot be seen."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the label (~100-130, 0-60) the only line is a straight dark-blue line running from about (0,175) to (110,0) across the pink field land. Its blue colour matches water or ditch lines, not the red-brown or orange of the roads, and it has no road casing or dot pattern.",
+      "uncertainty_note": "Next to it is a thinner dark line, which I cannot resolve. If the overlay traces that line instead, it is still more likely a field or ditch line than a road."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Around the label (~150-195, 0-75) a dark purplish line runs from the top edge down to the road junction at about (195,75), beside a small light-teal patch. Its colour is closer to the purple property boundaries than to the orange paths, but this corner is crowded with field outlines, lettering and the road band.",
+      "uncertainty_note": "It could be a short lane from the junction to the farmstead north of the tile, or a boundary or field edge. The drawing at this resolution does not decide it."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [195, 75],
+      "what_is_contested": "Number of branches. The main road (f01/f07), the dotted path f03 to the south and possibly the line f02 to the north all meet here. Whether f02 is a road branch, and so whether this is a 3- or 4-way junction, is in doubt.",
+      "evidence_note": "The dotted path clearly starts at the road band. The northward line is purplish and crowded by field outlines."
+    },
+    {
+      "uv": [300, 35],
+      "what_is_contested": "Whether a separate branch leaves the main road here toward the top edge (f07), or the main road only bends here.",
+      "evidence_note": "The road band, the pink field fill and dark field outlines overlap around 'Ostad' and the Fredrikshult lettering."
+    },
+    {
+      "uv": [665, 605],
+      "what_is_contested": "Whether f04 ends here or continues. It reaches the hatched mire where the heavy dash-dot boundary crosses, and the mire's dotted outline could be read as a continuation eastward.",
+      "evidence_note": "The orange line stops at the mire corner. Beyond it there is only the dotted mire edge and the boundary, neither of which is in road colour."
+    },
+    {
+      "uv": [310, 815],
+      "what_is_contested": "Whether f05 starts as a dead end at the lake shore or joins anything at the stream outlet.",
+      "evidence_note": "The orange line and the blue-green stream both start at the lake's east shore within a few px of each other."
+    }
+  ],
+  "overall_note": "The roads I see are the red-brown main road along the north, the dotted path to farm B, and two thin orange paths (one from the main road to the mire, one from the lake to the south edge). The overlay covers all of these, and I found no undrawn road. The heavy dash-dot line, the purple property lines, the blue-green stream and the grey horizontal line at v≈715 are not roads. The overlay's straight blue line in the top-left (f06) looks like water or a ditch, and f02 cannot be decided."
+}

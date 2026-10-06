@@ -1,0 +1,175 @@
+{
+  "tile_id": "cor_e0366_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,562],[35,552],[70,542],[103,533],[139,521]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre-red strip has closely spaced dark, partly dotted margins; lettering interrupts small portions near its eastern end.",
+      "uncertainty_note": "The margins are not consistently separable at this resolution.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The symbol could be a stippled line with colour spreading beyond it rather than two distinct margins."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[139,521],[158,511],[176,498]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "The ochre strip continues diagonally between dark lettering and red, black-outlined building rectangles; dark broken margins remain visible on either side.",
+      "uncertainty_note": "Buildings and lettering partly conceal the two nearby meeting positions.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The short obscured interval prevents a confident reading of the paired margins."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[176,498],[212,473],[247,443],[279,415],[311,388],[343,359],[376,332],[408,299]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow ochre-brown diagonal has dark stippled edges, approximately 4–8 px apart; its course is visible above and below intervening lettering.",
+      "uncertainty_note": "The lower portion passes through lettering, but the matching visible segments support its continuation.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Some stretches show only one distinct dotted margin beside the coloured strip."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[408,299],[450,287],[493,270],[536,251],[577,230],[620,212],[661,196],[704,177],[742,153],[782,129],[823,108],[865,93],[907,86],[951,86],[985,90],[1000,95]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "An ochre-red ribbon curves across the upper half; closely spaced dark edge marks include conspicuous dots along its upper margin.",
+      "uncertainty_note": "Colour bleed makes the lower margin less distinct than the upper dotted margin.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A single stippled road symbol with a coloured backing is another possible reading of the same course."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[408,299],[398,277],[393,250],[391,226],[394,204],[392,181],[393,152],[397,123],[402,101],[425,81],[453,63],[486,45],[522,28],[554,12],[578,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two irregular, approximately parallel strokes enclose a pale strip: the western stroke is brown and heavier, while the eastern stroke is grey-black; spacing varies around 8–15 px.",
+      "uncertainty_note": "The unequal strokes could represent adjacent independent lines rather than one road, especially toward the top edge.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"An ochre track beside a separate grey drainage or enclosure line could explain the apparent pair."},
+        {"proposed_class":"single_line","note":"If the grey stroke is independent, the road candidate follows only the western brown stroke."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[139,521],[136,542],[141,567],[147,588],[138,610],[114,633],[95,655],[80,683],[71,713],[66,746],[62,783],[59,821],[57,858],[53,893],[48,930],[43,957],[32,988],[29,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A winding brown strip is flanked by dark irregular strokes, generally 7–13 px apart; fine dark stippling occurs within or alongside it.",
+      "uncertainty_note": "The connection immediately below the buildings is crowded by outlines, but the brown strip remains traceable.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The individual edge strokes are locally merged with neighbouring outlines."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[176,498],[161,473],[144,446],[129,421],[115,399],[105,383]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A slender ochre-brown diagonal with a dark edge runs northwest from the crossing, partly beneath heavy black letters; no consistent second margin is visible.",
+      "uncertainty_note": "This may be a path or an enclosure edge. Its road identity and continuation beyond the lettering are uncertain, so the trace stops there.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The narrow ochre stroke could be a path."},
+        {"proposed_class":"unknown","note":"It may instead be the continuation of the dark land-cover or parcel outline approaching from the upper-left."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[176,498],[191,522],[207,550],[226,586],[245,620],[267,652]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A thin dark diagonal passes beside black-outlined red rectangles and continues southeast as a single stroke, without a clear pale interior or paired dotted margins.",
+      "uncertainty_note": "A parcel boundary is at least as plausible as a minor track. The endpoint marks where this candidate meets a heavier outline, rather than a visibly drawn road terminus.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The single stroke could be a minor track through the building symbols."},
+        {"proposed_class":"unknown","note":"It could be a non-road parcel division continuing across the main road."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,30],[27,32],[53,42],[80,57],[109,70]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre-red stroke with a darker irregular edge bends from the left border toward the meeting point; a second parallel edge is not consistently visible.",
+      "uncertainty_note": "The coloured stroke could also be an enclosure line; its road interpretation is tentative.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A non-road field or property boundary could account for the same stroke."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[109,70],[130,51],[151,28],[177,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short ochre diagonal has closely adjacent dark flanks, roughly 4–7 px apart, and reaches the top border.",
+      "uncertainty_note": "The eastern flank also aligns with a polygon outline, so the apparent pair may combine a track and a separate boundary.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Only the ochre stroke may belong to a path."},
+        {"proposed_class":"unknown","note":"Both strokes could belong to enclosure outlines rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[109,70],[119,90],[128,111],[143,123],[151,125]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A short brown stroke descends from the meeting point beside a finer dark line and merges into a dark polygon corner.",
+      "uncertainty_note": "The stroke may be a short path or simply a coloured polygon edge; no independent road continuation is visible at its lower end.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"The brown stroke could be a short path ending at the corner."},
+        {"proposed_class":"unknown","note":"The entire segment may be a non-road enclosure boundary."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [139,521],
+      "branch_count": 3,
+      "evidence_note": "The ochre diagonal has two opposing arms and a brown, dark-edged strip turning south; nearby letters and building outlines partly crowd the meeting."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [176,498],
+      "branch_count": 4,
+      "evidence_note": "Two arms of the stippled ochre diagonal intersect narrower northwest and southeast strokes among red rectangles; four road branches apply only if both uncertain strokes are roads."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [408,299],
+      "branch_count": 3,
+      "evidence_note": "The two arms of the ochre diagonal meet a northward pale strip bounded by brown and grey-dark strokes; three distinct line approaches are visible."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [109,70],
+      "branch_count": 3,
+      "evidence_note": "Ochre strokes approach from the west, northeast and southeast, with thin dark outlines alongside; the three-branch road interpretation is tentative because enclosure edges meet here too."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [97,370,155,430],
+      "why": "Heavy black lettering overlaps the northwest candidate and adjoining outline, preventing a reliable distinction between a continuing road and a boundary."
+    }
+  ],
+  "overall_note": "The main ochre route and its southern branch are clearest; unequal margins complicate the northern branch. Short candidates around the buildings and upper-left corner retain boundary alternatives, making two junction interpretations provisional. The broad crimson line on the right, its thin straight offshoots, and the marsh outlines are read as non-road lines."
+}

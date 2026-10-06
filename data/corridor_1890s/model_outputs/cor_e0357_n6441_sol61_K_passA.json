@@ -1,0 +1,120 @@
+{
+  "tile_id": "cor_e0357_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[737, 0], [720, 40], [700, 80], [681, 120], [661, 160], [643, 200], [625, 240], [605, 280], [588, 320], [569, 360], [550, 400], [533, 440], [514, 480], [496, 520], [478, 560], [460, 600], [441, 640], [422, 680], [402, 720], [388, 750], [375, 782]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow pale grey-brown ribbon runs beside, and west of, a stronger red stroke. Its dark margins are roughly 5–12 px apart, with an intermittently broken western margin; horizontal hatching lies immediately alongside parts of it.",
+      "uncertainty_note": "The ribbon is a plausible track, but its margins are difficult to separate from adjacent hatched-area outlines and the red line. Its southern end disappears beneath the heavy transverse band; continuation and a road junction are not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale ribbon and two close margins may constitute a narrow cased road."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark western stroke may be the actual path, with the neighbouring strokes belonging to other symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be overlapping boundary and hatched-area edge symbols, without a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[356, 839], [350, 866], [340, 898], [332, 925], [329, 947], [338, 971], [338, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Below the transverse band, two sinuous dark blue-grey strokes enclose a pale strip about 6–12 px wide. The strokes bend together near v=950; lighter blue-green lines occur alongside.",
+      "uncertainty_note": "This could continue f01, but the intervening band hides the connection. Blue colouring and the sinuous margins also support a water-line reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired margins may depict a narrow road continuing south from f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The paired blue-grey strokes may outline a stream or ditch rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 860], [50, 852], [100, 843], [150, 835], [200, 827], [250, 818], [300, 810], [350, 802], [400, 794], [450, 786], [500, 778], [550, 770], [600, 762], [650, 754], [700, 746], [750, 738], [800, 730], [850, 722], [900, 714], [950, 706], [1000, 698]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A nearly straight, very heavy band crosses the tile. A bright red upper strip adjoins a broader dark blue-black lower strip; the combined width is approximately 25–35 px, with small pale interruptions in the dark portion.",
+      "uncertainty_note": "Included as a doubtful road candidate: its unusually heavy, coloured symbol does not clearly match a road in the supplied model legend. Lines approaching it are masked, so neither crossings nor branching connections can be resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If this is a road, the broad band could represent heavily coloured casing around a wide road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dark band and pale interruptions may instead represent railway linework."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The adjacent red and dark strips may be a coloured administrative boundary, possibly overprinting another line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 695], [23, 701], [36, 711], [44, 728], [45, 752], [42, 781], [34, 809], [23, 834]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin brown-red stroke enters from the left, bends sharply downward, and approaches the heavy band. A dark margin is visible along portions, but a consistently separated second margin is not clear.",
+      "uncertainty_note": "A short path is plausible, but the colour and attachment to other outlines also permit a boundary reading. The lower end is lost in the red strip, so a junction with f03 is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally visible dark margin may be a second road edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The brown-red stroke may be a boundary or parcel outline rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[7, 0], [7, 30], [9, 59], [10, 83], [14, 103], [5, 118], [0, 124]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "At the upper-left edge, close dark strokes border a narrow tan strip, approximately 5–10 px wide. Short dark transverse or rectangular marks interrupt the strip beside larger tan shapes.",
+      "uncertainty_note": "This clipped ribbon could be a narrow passage or track, but the small dark marks and adjoining outlines make separation from plot or structure symbols uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close margins may enclose a narrow road clipping the corner."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may belong entirely to parcel and structure outlines, without a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [348, 779, 399, 840],
+      "why": "The heavy red and dark transverse band masks the possible connection between f01 and f02 and prevents determination of crossing or junction geometry."
+    },
+    {
+      "bbox_uv": [10, 830, 43, 874],
+      "why": "The transverse band obscures the end of the thin brown-red line f04; its attachment cannot be read."
+    }
+  ],
+  "overall_note": "The principal difficulty is distinguishing narrow pale ribbons from overlapping boundaries, water outlines and hatching. The heavy transverse band is retained as a doubtful road candidate, with non-road alternatives explicit. No meeting of three or more road branches is securely visible."
+}

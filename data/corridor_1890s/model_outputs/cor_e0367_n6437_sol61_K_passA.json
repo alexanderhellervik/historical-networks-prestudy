@@ -1,0 +1,129 @@
+{
+  "tile_id": "cor_e0367_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,255],[18,288],[46,318],[78,339],[112,353],[143,361],[162,363],[194,348],[218,337],[243,331],[280,335],[312,342],[352,350],[379,359],[406,377],[438,400],[477,416],[519,438],[558,450],[584,455],[611,452],[646,442],[685,434],[721,441],[762,454],[802,471],[827,475],[858,459],[892,438],[928,417],[966,396],[1000,379]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "An ochre strip approximately 7–12 px wide has two close, dark, finely dotted margins; small red rectangular symbols stand beside its western portion. Matching margins remain visible on both sides of the large black lettering.",
+      "uncertainty_note": "The paired margins are interrupted or dotted rather than consistently solid, so the symbol-form class is uncertain. Continuation beneath the lettering is supported by the aligned strip on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two finely interrupted margins could be classified by their dotted form rather than their paired spacing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[611,452],[618,480],[624,523],[627,567],[630,608],[635,645],[651,673],[665,703],[675,737],[687,772],[696,806],[711,827],[733,842],[739,877],[741,916],[747,935],[778,965],[810,991],[820,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close dark dotted margins flank a narrow ochre strip. It joins the similarly drawn transverse strip at its upper end and passes beside red and black rectangular symbols around v=730–800.",
+      "uncertainty_note": "The margins vary in visibility near lettering and rectangular symbols, but the strip's continuation is visible. Its dotted edging also supports a dashed-line classification.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the closely spaced dotted margins as an interrupted-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[733,842],[763,826],[788,808],[812,787],[829,766],[838,738],[850,711],[875,692],[918,674],[960,652],[1000,634]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre band with two dark dotted edges curves northeast from the junction. A red rectangular symbol and heavy black lettering sit beside the bend around [833,770].",
+      "uncertainty_note": "The edges are locally interrupted by adjacent symbols, but the course remains visible; classification between paired narrow lines and dotted lines is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark edging consists largely of short marks or dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[352,350],[349,370],[349,388]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short, near-vertical dark stroke borders a pale narrow strip immediately below the ochre road; its lower end reaches the red rectangular symbol and nearby black marks.",
+      "uncertainty_note": "This could be a short access track or a plot boundary. The rectangular symbol obscures its lower end, and no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If interpreted as an access path, the strongest visible component is one continuous dark stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a plot boundary rather than a road; under that reading omit f04 and j03."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[38,0],[35,23],[29,47],[18,61],[0,69]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A short ochre-toned strip with closely spaced dark marks bends between the top and left edges; a heavier continuous black outline runs beside it.",
+      "uncertainty_note": "The clipped symbol resembles the dotted road strips elsewhere, but the adjacent outline makes a boundary or edge treatment another possible reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre strip and close dark margins may be the same paired road symbol as f01–f03."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks may belong to an outlined area's edge rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[344,0],[365,7],[392,9],[414,6],[435,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A very short curved brown-ochre band with dark stippled marks clips the upper edge; most of its upper margin lies outside the face.",
+      "uncertainty_note": "Too little of the symbol is visible to establish whether this is a road, a boundary treatment, or an area's patterned edge.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible repeated dark marks could be part of a dotted track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The clipped band could be boundary or area-edge decoration rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [611,452],
+      "branch_count": 3,
+      "evidence_note": "The ochre strip with close dark dotted margins continues west and east, while a matching strip branches downward; their margins visibly merge."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [733,842],
+      "branch_count": 3,
+      "evidence_note": "Matching ochre strips with dark dotted margins meet from the northwest, northeast and south; a thinner reddish line also crosses here but is excluded from the road count."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [352,350],
+      "branch_count": 3,
+      "evidence_note": "The paired ochre road continues to either side, and a short dark stroke meets its southern margin. This three-branch count is provisional because the short stroke may instead be a plot boundary."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "Three long ochre courses are clearly drawn as roads; their dotted margins make the symbol-form classification less certain. The building-side spur and two upper-edge fragments are retained as doubtful candidates with non-road alternatives. Thin broken parcel lines, reddish boundary strokes and heavy outlines around hatched areas are excluded."
+}

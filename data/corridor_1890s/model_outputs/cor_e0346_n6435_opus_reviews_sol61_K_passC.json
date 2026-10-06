@@ -1,0 +1,59 @@
+{
+  "tile_id": "cor_e0346_n6435",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The f01 label sits at about (527,22) on the north edge of the Marberget farmstead (orange buildings, green garden), but I cannot see any f01 polyline separate from the buildings and the thin red boundary lines there. The bare tile shows no double, brown or dotted road line leaving the farm towards the top edge at this spot.",
+      "uncertainty_note": "The farm presumably has an access road. It may leave the tile at the top edge near u 500-530, but no road symbol is visible at this resolution, and the overlay line is not distinguishable."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f02 follows a faint pale strip with a thin grey edge line. The strip runs diagonally from the west edge near (0,420) through (220,490) and (450,570) to the pink boundary at about (700,648). It lies just south of, and parallel to, the red hemman line (240,455)-(700,640). It is distinct from the blue-green stream, which curves north through (150,395).",
+      "uncertainty_note": "The strip is only weakly inked. It could be an uncoloured meadow or ditch strip rather than a road. The western third, (0,425)-(220,490), is the least clear. The overlay does not show its class; my class is a guess from the paired faint edges."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[712, 646], [760, 662], [820, 700], [855, 730]],
+      "evidence_note": "East of the pink boundary, the pale strip of f02 continues ESE from about (715,645) to about (850,725), close beside the red line. Beyond the angle in the red line at about (860,740), f03 only shadows that red boundary line (860,740)-(900,715)-(1000,750). I can see no road strip of its own there.",
+      "uncertainty_note": "Past (855,730) the road may follow the boundary to the east edge or end there. It could also be no road at all, if the strip is not a road (see f02)."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown/red-brown broken line curves from the west edge near (0,845) through (60,880) and (110,930) to the bottom edge near (155,1000). Its brown colour matches the path and road colouring in the worked example, unlike the black dashed parcel lines and the crimson boundaries.",
+      "uncertainty_note": "The line is so fine that I cannot tell whether it is a solid single line or dotted (Gångstig). dashed_line is the alternative class."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-right corner, a brown/orange band with dark edges runs from the bottom edge near (918,1000) to the east edge near (1000,952). This is a coloured road symbol, and the overlay line coincides with it.",
+      "uncertainty_note": "Only about 100 px of it is inside the tile. The width could also be double_line_wide."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [712, 646],
+      "what_is_contested": "Whether f02 and f03 form one road crossing the pink boundary here, or two separate features that end at the boundary. Also whether a junction with the boundary line exists at all.",
+      "evidence_note": "The pale strip is visible on both sides of the heavy pink dash-dot boundary, with a short red line at (730,635)-(770,655). The boundary line itself shows no clear gap."
+    },
+    {
+      "uv": [855, 732],
+      "what_is_contested": "Whether the road ends here, turns along the red boundary to the east edge (as f03 draws), or continues ESE under the 'Gr...' lettering.",
+      "evidence_note": "The pale strip fades at the angle of the red line. East of it, only the thin red boundary line is visible."
+    }
+  ],
+  "overall_note": "The heavy pink bands with black dash-dot lines are boundaries, not roads. The labels 'till Häljered', 't. Attlered' and 't. Tollered' name outlying parcels between black dashed parcel lines (skifteslinjer); they do not name roads. The only coloured road symbols are f04 and f05 at the bottom corners, and the f02/f03 route rests on a faint pale strip whose road status is moderately uncertain."
+}

@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0351_n6423",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[136,714],[173,733],[211,755],[247,784],[281,815],[318,835],[356,846],[394,850],[432,843],[474,832],[520,823],[568,814],[616,803],[660,798],[704,795],[744,790],[780,798],[821,802],[858,791],[899,778],[935,761],[965,740],[986,721],[1000,715]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A fine dark line follows the heavier blue-black edge, generally about 8–15 px inland, with a narrow pale strip between them.",
+      "uncertainty_note": "This may be a narrow shore-side route, but the parallel strokes may both belong to the shoreline drawing. Lettering prevents tracing its western end further.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The parallel strokes could form a narrow cased route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: shoreline edging or a narrow coloured shoreline strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[821,802],[819,827],[825,850],[829,864],[809,879],[789,895],[766,918],[741,940],[709,961],[676,983],[650,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An uneven reddish-brown band with dark edging descends from the shore, then turns southwest beside the green patterned enclosure; it remains visible beside the Alfhem lettering.",
+      "uncertainty_note": "The band resembles the worked example's tracks, but it also coincides with coloured enclosure edges. Both junctions are conditional on the adjoining strokes being roads.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark edges and brown interior may depict a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: coloured field and garden boundaries forming one apparent continuous band."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[829,864],[848,881],[872,898],[896,913],[915,930],[928,953],[945,969],[966,987],[981,1000]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin continuous blue-black stroke curves southeast beside black rectangular symbols and crosses the diagonal black-block railway; no clear road casing is visible.",
+      "uncertainty_note": "Its colour and curved course also support a stream or ditch reading. The contact at its upper end is partly masked by a black symbol; its crossing with f05 does not clearly establish a connected junction.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: stream or ditch, consistent with the thin blue strokes in the worked example."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[137,747],[160,777],[183,807],[207,840],[224,873],[235,912],[241,951],[244,978],[241,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A reddish-brown strip with irregular dark sides follows the left edge of the peach-coloured area; nearby thin strokes form pointed enclosures rather than a regular casing.",
+      "uncertainty_note": "A track is possible, but the strip may be a land-cover boundary. Its upper continuation disappears among lettering and small dark outlines, so no connection to f01 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Parts of the brown strip have two dark sides compatible with a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: the coloured edge between adjoining mapped land-cover areas."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[908,1000],[936,978],[945,969],[971,946],[1000,925]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A diagonal reddish-brown band with dark margins clips the lower-right corner, separate from the railway's alternating black blocks.",
+      "uncertainty_note": "The short exposed segment could be a track or a coloured enclosure boundary. Its crossing with f03 lacks a clearly drawn joining node.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The brown interior and dark margins could represent a narrow cased route."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a coloured field or property boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [821,802],
+      "branch_count": 3,
+      "evidence_note": "The thin shore-parallel stroke has two lateral continuations where a darker brown-edged stroke descends; this is a possible three-branch junction, conditional on the shoreline stroke being a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [829,864],
+      "branch_count": 3,
+      "evidence_note": "Beside a black rectangular symbol, the descending brown-edged stroke appears to divide into a southwest brown continuation and a southeast thin blue-black continuation; the contact is partly obscured and may instead involve a stream."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,681,140,752],
+      "why": "Large lettering overlaps the shoreline and small dark outlines, preventing reliable separation or continuation of possible route strokes."
+    }
+  ],
+  "overall_note": "These are candidate routes with substantial uncertainty where brown bands coincide with enclosure edges or blue strokes may represent water. The red band across the lake, the faint straight seams, and the black-block railway are excluded. The two reported junctions are provisional rather than confirmed road connections."
+}

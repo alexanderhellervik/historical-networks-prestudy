@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0343_n6425",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[835, 655], [831, 684], [831, 715], [830, 745], [826, 780], [824, 818], [821, 854], [816, 889], [812, 928], [807, 964], [803, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow strip has closely spaced, broken dark edges and a brown-red centre, clearest beside the lower building symbols; a continuous transverse red line crosses it near v=745.",
+      "uncertainty_note": "The upper end is difficult to separate from lettering and black enclosure edges. The broken casing could support a dashed-line classification.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins appear intermittently dotted or dashed rather than continuously paired."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[927, 474], [912, 503], [895, 531], [877, 556], [863, 584]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A pale curved strip carries fine dark strokes along its sides between stronger black outlines; lettering overlaps its southwestern continuation.",
+      "uncertainty_note": "This may be a northern continuation of f01, but the intervening drawing does not establish that connection securely. Parts could instead be edges of the coloured enclosures.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the fine strokes are road casing, they define a narrow paired-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: separate cultivation or enclosure edges surrounding a pale strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[1000, 570], [975, 568], [947, 577], [920, 590], [897, 604]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Fine approximately parallel brown-dark strokes curve westward below the stronger transverse red line, beside a heavy black outline and green colouring.",
+      "uncertainty_note": "A track approaching the north-south line is plausible, but its western continuation and any junction are obscured. The visible strokes may instead delimit the adjacent coloured areas.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes could be the margins of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: cultivation edges, with the nearby red stroke belonging to a boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[767, 0], [782, 38], [797, 80], [810, 121], [820, 163], [834, 204], [848, 247], [863, 285], [868, 317], [863, 353], [856, 384], [860, 407]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin brown line curves downward, with occasional darker marks; it has no consistently visible second margin and disappears among heavy lettering and black outlines.",
+      "uncertainty_note": "The symbol is compatible with a faint path but also with a boundary. No connection through the lettering is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: a thin property or land-use boundary; the intermittent dark marks do not securely establish a path symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[649, 805], [676, 820], [709, 836], [744, 849], [777, 861], [801, 872]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint narrow brown course runs beside broken dark marks beneath an elongated peach-coloured enclosure, between building symbols and the stronger vertical mottled line.",
+      "uncertainty_note": "This could be a farm approach, but enclosure outlines provide a competing reading. Its contact with f01 is insufficiently clear to count a junction.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The faint brown stroke could represent a single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative non-road reading: the lower edge of the coloured enclosure and adjoining parcel marks."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [818, 395, 946, 473],
+      "why": "Heavy lettering and enclosure outlines obscure possible track continuations."
+    },
+    {
+      "bbox_uv": [793, 568, 888, 655],
+      "why": "Large letters overlap fine curved strokes, preventing a secure connection between the candidate northern approach and the clearer southern road."
+    }
+  ],
+  "overall_note": "The clearest road symbol is the narrow mottled course beside the buildings on the right. Fainter approaches remain ambiguous with enclosure edges, so their alternatives and obscured endpoints are retained without asserting junctions. The long straight red parcel lines, dashed black boundaries, marsh outlines and blue-green drainage strokes are excluded."
+}

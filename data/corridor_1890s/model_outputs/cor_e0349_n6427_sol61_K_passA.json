@@ -1,0 +1,149 @@
+{
+  "tile_id": "cor_e0349_n6427",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 559], [17, 581], [43, 603], [79, 631], [116, 661], [153, 691], [190, 720], [222, 743], [244, 767], [265, 790], [276, 810], [277, 833], [268, 858], [253, 885], [237, 916], [225, 947], [214, 976], [205, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two irregular dark margins enclose an ochre-brown band, approximately 8–14 px wide. The paired margins remain visible around the southern bend.",
+      "uncertainty_note": "Road identification is relatively clear; margin spacing varies. The eastbound branch at j01 is a doubtful road reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The broader stretches could reasonably receive this symbol-form class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 807], [19, 834], [37, 862], [52, 890], [70, 920], [89, 952], [109, 981], [121, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A diagonal tan-brown band has two dark, comparatively heavy edges. Large black lettering overlaps part of it; paired edges appear again below the letters.",
+      "uncertainty_note": "Lettering obscures the exact centreline through the middle stretch; coordinates there are approximate. No connection to f01 is visible within the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Overlapping lettering and adjacent enclosure outlines make the symbol width less certain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 494], [28, 493], [55, 488], [81, 479], [107, 466], [130, 460], [150, 460], [166, 453], [177, 440], [184, 432]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre trace with closely spaced dark, locally dotted margins runs from the left edge toward small brown building symbols.",
+      "uncertainty_note": "The eastern end overlaps building outlines. A continuation through the buildings, or a separate short access branch, cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as a dotted dark edge beside an ochre line rather than two distinct margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[214, 432], [239, 440], [263, 445], [285, 444], [305, 438], [318, 433]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short ochre-brown strip has dark irregular edges beside the building group. Additional angular outlines lie immediately below it; its eastern tip reaches the shaded fold.",
+      "uncertainty_note": "This may be a continuation of the approach, but the buildings prevent a certain connection to f03. The parallel outlines may instead enclose a narrow parcel.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road reading if the upper paired edges form a cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: edges of a narrow coloured enclosure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[222, 743], [243, 757], [269, 750], [298, 733], [329, 716], [363, 701], [399, 685], [433, 669], [460, 654], [483, 634]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow pale strip has an ochre/dark southern edge and a heavier blue-dark line nearby on its northern side. The southern edge approaches the cased southwest road.",
+      "uncertainty_note": "A track and an enclosure beside a water line are both supported readings. At the northeastern end the strokes converge, so no certain road continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road reading if the broken dark margins delimit a track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a narrow enclosure bounded partly by the blue water line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[492, 622], [530, 618], [569, 610], [608, 598], [647, 583], [681, 567], [714, 549], [742, 531]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A fine ochre and dark stippled stroke closely accompanies a heavier blue-dark stroke. Toward the eastern end these meet the blue area's shoreline.",
+      "uncertainty_note": "The fine stroke could be a path, but a water-edge or enclosure-edge reading is at least as plausible. Neither its connection to f05 nor a continuation around the blue area is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible path reading of the fine accompanying stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: stippled bank or enclosure edge beside the blue line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[972, 501], [986, 506], [1000, 506]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short ochre trace between dark strokes clips the right edge, among horizontal reed hatching and heavy lettering beside the blue area.",
+      "uncertainty_note": "Too little unobstructed drawing is visible to distinguish a short track from shoreline or reed-symbol strokes. Its western continuation is obscured.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible track reading of the short paired strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: shoreline or part of the adjacent horizontal hatching."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [222, 743],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the ochre band with dark paired margins meet a narrower eastbound outlined strip. The count of three road branches is conditional on f05 being a track rather than an enclosure edge."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [167, 415, 217, 457],
+      "why": "Building symbols and heavy dark outlines obscure the end of the approach and any short branches through the group."
+    },
+    {
+      "bbox_uv": [313, 419, 345, 472],
+      "why": "The shaded fold reduces separation of the fine paired and angular strokes at the eastern end of f04."
+    },
+    {
+      "bbox_uv": [959, 472, 1000, 550],
+      "why": "Lettering, shoreline outlines and dense horizontal hatching overlap the possible short edge-clipping track."
+    }
+  ],
+  "overall_note": "The southwest cased lines and left-hand approach are the clearest road readings. The central diagonal candidates are difficult to separate from water and enclosure edges, and their alternatives include non-road readings. Red boundary strokes, blue water lines and clearly angular parcel outlines were excluded."
+}

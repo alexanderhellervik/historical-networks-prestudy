@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0360_n6430",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown/orange road band enters at the top edge near u~45, runs down the left side to about (25,140), bends east at about (60,220) and continues as the heavy brown band with dotted infill past the 'G' farm to the junction near (270,295). The polyline sits on it.",
+      "uncertainty_note": "The northern part (v<200) is drawn thinner than the section east of (90,235), so it may be a lower road class. A single_line reading of that part is possible."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A straight brown road band with a dark edge line runs diagonally from the main road near (270,300) SW past (150,440) to the left edge near (0,610). It has road colouring, unlike the red boundary lines.",
+      "uncertainty_note": "It is slightly narrower than the main road. Whether it is the same class or one step lower is not decidable at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (0-40, 590-620) the drawing shows the SW end of the f02 road band reaching the edge, the 'G' farm symbol at about (60,580), and the start of the dotted path. A short separate feature here would be either the last bit of f02 or the west end of the dotted path; the image does not show which.",
+      "uncertainty_note": "If f03 is the continuation of f02 to the edge, it should be agreed. If it is meant as the dotted path running to the edge, the dots appear to start at the farm rather than at the edge."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Main brown road band with dotted infill from the junction near (270,295) ESE past 'B' and the building '5' to about (440,380), then curving south to (470,440). The polyline follows it.",
+      "uncertainty_note": "Width (~8-10 px) is at the boundary between narrow and wide. It could be read as double_line_wide (Landsväg/Bättre körväg)."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Same main road band continuing south from about (470,440) through (480,490) to the sharp bend at about (500,540).",
+      "uncertainty_note": "Class as for f04."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the bend near (510,545) the main road runs NE through (600,505) to about (690,430). It is drawn clearly as a brown band with dotted infill.",
+      "uncertainty_note": "Class as for f04."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The main road continues ENE from about (690,430) through (780,400) and (870,360) to the right edge near (1000,305). The brown band with dotted infill is clear.",
+      "uncertainty_note": "Class as for f04."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line with brown/orange tint runs from the 'G' farm near (70,595) through (120,610) and (230,605), past the pond, and NE through (340,575) to about (470,555). This matches the dotted path/track symbol (Gångstig or Sämre körväg).",
+      "uncertainty_note": "Gångstig and Sämre körväg are hard to tell apart at this resolution, but it is a dotted road symbol in either case."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The last stretch of the dotted path from about (465,555) to the main road at the bend near (505,545). The dots are visible and reach the road band.",
+      "uncertainty_note": "The exact meeting point with the main road is crowded by parcel lines and the green meadow edge. It could be a few px either way."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dark dotted line with orange tint leaves the main road near (690,430), runs north through (680,390) and (700,350), loops round through (750,300) and (740,265), and runs west to about (690,252) by the 'Hvittene' lettering. It is a dotted path symbol, not the dash-dot of a boundary.",
+      "uncertainty_note": "The overlay starts the line further west, at about (660,248). Here the dots are hard to follow west of about u=690, and the line may end at the field edge there."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between the main road near (470,450) and the dotted path near (455,555) there are only thin black uncoloured lines. These are parcel or field-strip edges in the same style as the surrounding field boundaries. There is no brown road tint and no dotted road symbol.",
+      "uncertainty_note": "A narrow black double line could be an unmarked lane, but nothing in the drawing marks it as a road. The neighbouring example treats such uncoloured lines as not roads."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [270, 298],
+      "what_is_contested": "Where f02 meets the main road (f01/f04): is it a single three-way junction, and is it at about (270,298) or a little east, next to the 'G' farm buildings?",
+      "evidence_note": "Farm symbols and the 'G' lettering sit on the junction, and the two brown bands merge over roughly 20 px."
+    },
+    {
+      "uv": [40, 595],
+      "what_is_contested": "Does the dotted path (f08) join the f02 road near the left edge, or does it start at the 'G' farm near (60,580) without touching f02? This also decides what f03 is.",
+      "evidence_note": "The farm symbol, the 'G' lettering and the end of the f02 band all fall within about 40 px, and the dots cannot be traced through it."
+    },
+    {
+      "uv": [505, 545],
+      "what_is_contested": "How many branches meet at the main-road bend: the main road in and out, the dotted path (f09), and possibly the uncoloured line proposed as f11?",
+      "evidence_note": "Parcel lines, the meadow edge and the road bend crowd together here. Only the dotted path's connection is supported by road symbology."
+    },
+    {
+      "uv": [690, 430],
+      "what_is_contested": "Exact point where the dotted loop (f10) meets the main road, between about u=685 and u=695.",
+      "evidence_note": "The dots fade into the road band's dark edge just before the meeting point."
+    }
+  ],
+  "overall_note": "The overlay's road network matches my own reading of the bare tile: one main brown road band (f01, f04-f07), a diagonal brown road (f02) and two dotted paths (f08/f09, f10). I disagree only with f11, which follows uncoloured parcel lines, and f03 cannot be judged. Red lines (top left, lower right), black dashed skifte lines, the blue stream and the blue-green ditch double lines in the south were read as not roads, so no missed roads are reported."
+}

@@ -1,0 +1,218 @@
+{
+  "tile_id": "cor_e0368_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,350],[43,328],[88,307],[121,281],[154,260],[198,236],[245,212],[288,188],[332,168],[378,144],[420,123],[460,106],[498,92],[537,83],[575,81],[611,68],[646,49],[672,37],[689,38],[710,51],[726,62],[737,60],[742,48],[742,36],[752,27],[771,27],[792,33],[816,33],[840,41],[862,46],[870,33],[879,18],[892,10],[906,11],[919,20],[925,34],[931,45],[946,50],[964,52],[983,59],[1000,65]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A winding reddish band has dark, locally broken edges several pixels apart; a finer blue line closely accompanies its lower edge over much of the course.",
+      "uncertainty_note": "The dark edges resemble the worked example's road symbol, but overlap with the red colouring and adjacent blue line makes their separation uncertain. Junction j01 depends on treating the diagonal candidate as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The red band could mark a boundary beside another linear feature; the apparent pair of road edges is not equally clear throughout."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[378,144],[411,182],[448,225],[484,268],[522,312],[559,355],[597,399],[636,443],[674,487],[711,530],[747,552],[766,575],[800,615],[837,658],[876,702],[919,751]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow, nearly straight red stroke has a dark edge and closely spaced dark dots along portions of its southwest side; it passes beside black and red building marks near v=550–585.",
+      "uncertainty_note": "This is a doubtful road candidate: the red stroke strongly resembles a boundary, while the accompanying dots could represent a coincident path. The seam interrupts the drawing at the southeast endpoint.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could be a path running beside the red boundary, with portions concealed by the heavier stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire feature could be a boundary without a road; under that reading j01 and j02 are not road junctions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[913,762],[941,791],[970,823],[1000,855]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Below the seam, a heavy red diagonal is accompanied by dark and green rounded marks, principally on its northeast side.",
+      "uncertainty_note": "It aligns approximately with f02, but the seam and colour displacement prevent a certain join. Its road status is doubtful.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The rounded marks could be tree symbols beside a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary accompanied by a hedge is also consistent with the visible stroke and rounded marks; this may be the continuation of f02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[766,575],[787,540],[808,504],[829,466],[847,435],[866,414],[896,395],[927,377],[951,364]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "One row of small, regularly spaced dark dots curves northeast from the red diagonal toward a heavy black building symbol; no continuous casing is visible.",
+      "uncertainty_note": "The dotted symbol supports a path reading, but does not literally match a continuous or dashed line class. Its northeast continuation is hidden or terminates beside the black symbol; no connection through that symbol is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Use this class if the single dotted path symbol is grouped with discontinuous line symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[982,349],[975,371],[973,393],[977,417],[986,442],[1000,466]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A separate single row of dark dots descends beside the red building near the right edge, then curves right; it has no visible casing.",
+      "uncertainty_note": "The upper end is interrupted by the building marks. A connection to f04 across those marks is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dots may be treated as a discontinuous path symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,981],[30,963],[63,943],[96,921],[129,899],[159,879],[184,853],[205,835],[224,825],[253,810],[280,801],[305,790]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow diagonal strip has closely spaced dark marks and green offset marks along its edges; two fine edge traces are locally distinguishable, roughly 6–12 px apart.",
+      "uncertainty_note": "The symbol could be a narrow track or a line accompanied by vegetation. Its northeast end disappears into the black building mark near [317,777]; continuity to f08 is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two close edge traces could enclose a narrow track."
+        },
+        {
+          "proposed_class": "avenue_lined",
+          "note": "Some rounded marks could be trees flanking the strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A hedge or parcel edge remains possible, particularly where the edge traces merge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[224,825],[242,850],[260,871],[287,892],[316,917],[347,944],[378,968],[405,989],[419,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A southeast branch carries two close, irregular dark traces with repeated dark and green marks; it passes beside the outlined enclosure and red building near [270,925].",
+      "uncertainty_note": "The paired marks support a track reading, but colour displacement and nearby enclosure edges make a hedge or parcel-line reading possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close traces may be the two edges of a narrow track."
+        },
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The repeated rounded marks could represent trees beside the line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The feature could instead be a hedge or field boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[329,769],[339,756],[348,742]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short sequence of dark and green marks runs northeast between the black building and the horizontal seam; distinct continuous edges are not resolved.",
+      "uncertainty_note": "This may continue f06 beyond the building, but the intervening symbol hides the course. The seam obscures the opposite end.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "It could be a vegetation or enclosure-edge fragment rather than a track, or part of the same feature as f06."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[477,762],[504,772],[533,796],[560,820],[585,847],[611,876],[639,907],[666,937],[695,966],[720,991],[731,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "One row of comparatively large, separated dark-green rounded marks follows a southeast course; red offset marks accompany several dots, and no clear road casing is visible.",
+      "uncertainty_note": "The marks could denote a dotted path or a hedge. The upper end lies among seam damage and small marks; crossing the oblique blue line does not establish a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated marks could be a discontinuous path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A hedge or parcel boundary is an equally plausible reading of the rounded marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[673,772],[700,799],[727,825],[756,850],[783,876],[812,903],[842,929],[872,956],[902,981],[932,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A second southeast-running row consists of spaced dark and green oval marks, with occasional red displacement and a very faint connecting trace.",
+      "uncertainty_note": "A dotted path and a hedge or field boundary are both supported. The seam hides the northwest continuation; no road junction is inferred at the blue-line crossing.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The regularly separated marks may represent a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The rounded marks and faint connecting trace may instead represent a hedge or parcel edge."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [378,144],
+      "branch_count": 3,
+      "evidence_note": "The narrow red diagonal touches the dark-edged winding red band, leaving two winding branches and one southeast branch; this is a road junction only if f02 is a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [766,575],
+      "branch_count": 3,
+      "evidence_note": "The northeast dotted curve meets the red diagonal beside a red building mark; the diagonal continues northwest and southeast, but those two branches have uncertain road status."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [224,825],
+      "branch_count": 3,
+      "evidence_note": "The close dark-green traces form a visible fork with southwest, northeast and southeast branches; the three-branch road reading depends on these traces being tracks rather than hedged boundaries."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,727,1000,762],
+      "why": "A sloping horizontal sheet join, pale patches and displaced printing obscure short portions of lines crossing this strip."
+    },
+    {
+      "bbox_uv": [382,750,432,810],
+      "why": "A pale rectangular patch removes or greatly weakens the drawing beside the lower building cluster."
+    }
+  ],
+  "overall_note": "The main difficulty is separating road-like dotted marks from boundaries and hedges, especially below the sheet join. Doubtful candidates and conditional junctions are retained explicitly; plain blue lines and clearly separate enclosure outlines are not treated as roads. No connection is completed through hidden building or seam details."
+}

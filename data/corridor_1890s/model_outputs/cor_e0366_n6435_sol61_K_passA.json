@@ -1,0 +1,106 @@
+{
+  "tile_id": "cor_e0366_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[35, 0], [25, 29], [22, 63], [26, 99], [40, 137], [59, 176], [86, 211], [122, 233], [168, 255], [207, 275], [224, 296], [237, 331], [251, 370], [267, 407], [284, 444], [296, 473], [306, 499]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two closely spaced dark dotted strokes flank a narrow ochre strip; the paired edges remain visible around the bends. There are no clearly drawn flanking tree circles.",
+      "uncertainty_note": "The edges are stippled rather than continuous, so the class describes their paired, narrow arrangement. Building ink near the southern end partly overlaps the symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two edges could instead be classified by their repeated dots and short broken marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[306, 499], [329, 513], [342, 534], [338, 572], [333, 609], [335, 651], [343, 690], [365, 723], [396, 748], [417, 779], [430, 814], [443, 845], [468, 878], [500, 905], [540, 931], [576, 951], [607, 972], [648, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow ochre ribbon has two dark stippled edges, approximately 7–12 pixels apart. Matching ochre and dark edging reappear southeast of the broad red diagonal.",
+      "uncertainty_note": "Heavy ink overlaps the first bend. The short crossing beneath the red band is carried through because the same paired symbol is visible immediately on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken edge strokes permit a classification based on stippling rather than the paired ribbon."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[306, 499], [279, 505], [256, 524], [237, 549], [214, 575], [190, 597], [158, 619], [124, 633], [103, 634], [95, 628], [91, 663], [85, 702], [85, 736], [96, 764], [98, 790], [85, 813], [56, 832], [24, 846], [8, 856], [0, 868]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow succession of dark dots runs southwest from the ochre ribbon, closely beside a solid polygon outline, then continues as a winding dotted line to the left edge. No consistent second casing is visible.",
+      "uncertainty_note": "Between approximately (256, 524) and (95, 628), dots overlap the parcel outline and could partly belong to that outline. A faint bluish dotted arc below the parcel creates a locally ambiguous course.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the line beside the parcel could be a boundary rather than a path."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Near the lower parcel corner, an alternative trace follows the faint dotted arc through approximately (179, 625), (155, 651), (127, 645), and (99, 637). Its bluish colour makes this reading less secure."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[1000, 831], [985, 837], [972, 832], [962, 825], [951, 835], [940, 851], [919, 878], [900, 902], [902, 929], [894, 951], [902, 976], [912, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Near the right edge, an ochre strip runs between dark irregular edges beside small black building marks. Southwestward it narrows; below about (900, 902), separated dark dots form a southward line.",
+      "uncertainty_note": "The paired strip and southern dotted segment appear connected, but parcel corners obscure their meeting. The southern segment could instead be a boundary, making these two separate features.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The northern ochre segment can be read as a narrow road with paired dark edges."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The southern segment can be read separately as a dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The southward dots could mark a parcel boundary; under that reading the road trace stops near (900, 902)."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[1000, 723], [978, 708], [967, 720], [979, 738], [952, 750], [922, 771], [892, 799], [875, 824], [863, 850], [852, 851], [838, 842]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two dark, mostly continuous outlines enclose a pale angular strip, roughly 10–20 pixels wide, between horizontal hatching and an ochre polygon. The outlines merge with a small rectangular outline at the southwest end.",
+      "uncertainty_note": "This may be a narrow road, but the apparent sides may instead be the independent edges of the hatched area and adjoining parcel. The upper kink is approximate, and the southwest endpoint becomes indistinguishable from the surrounding outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the pale strip is a road, its two continuous dark sides support this class."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire strip may be a gap between land-cover and parcel outlines rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [306, 499],
+      "branch_count": 3,
+      "evidence_note": "The ochre strip with paired dotted edges continues northwest and southeast; a narrower dark dotted trace approaches from the southwest. Black building ink overlaps their meeting, so its position is approximate."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad red diagonal and long, widely spaced dashed lines are read as boundaries. Road identification is hardest where dots coincide with parcel outlines and where pale strips lie between independently outlined polygons. The lower-right candidates retain alternatives because their road interpretation is uncertain."
+}

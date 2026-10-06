@@ -1,0 +1,204 @@
+{
+  "tile_id": "cor_e0352_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[878,0],[859,37],[849,61],[826,104],[804,144],[779,186],[762,227],[744,270],[727,313],[709,354],[692,384],[678,421],[661,463],[642,498],[631,510],[619,529],[605,552],[572,568],[532,588],[495,607],[472,626],[443,651],[409,674],[371,693],[331,710],[291,722],[252,733],[233,736],[222,758],[213,800],[200,843],[183,886],[162,930],[134,968],[99,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A brown-orange band approximately 7–12 px wide has two dark edges, with intermittent dots or short breaks along portions of the edging.",
+      "uncertainty_note": "The course is clear. Some edging is broken enough to support a dashed-symbol reading; the adjoining minor branches are less certain.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The dark edges may represent two closely spaced rows of short marks rather than continuous casing."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[845,1000],[885,979],[923,954],[946,944],[961,926],[976,895],[989,864],[996,825],[996,786],[1000,758]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A relatively broad brown-orange strip curves through the corner between two heavy dark edges; a fine dotted line approaches its inner edge.",
+      "uncertainty_note": "The broad strip is clear, although the exact meeting point of the dotted branch is approximate.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Parts of the edging resolve into short dark marks, resembling the broken edging of f01."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[489,0],[497,42],[503,84],[509,118],[526,153],[543,185],[554,218],[549,251],[542,288],[537,320],[539,354],[542,388],[544,420],[550,446],[562,466],[583,465],[605,466],[617,477],[623,497],[631,510]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Fine dark dots and short strokes follow a heavier black outline, generally separated from it by a pale strip of several pixels; the marks turn beside black building rectangles.",
+      "uncertainty_note": "This may be a narrow track following the outlined parcels, or the apparent paired lines may be parcel outlines and unrelated dotted marks. Its final connection is partly crowded by building ink.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Read the fine interrupted outer stroke as a path."},
+        {"proposed_class":"double_line_narrow","note":"Read the pale strip between the strokes as a narrowly cased track."},
+        {"proposed_class":"unknown","note":"Non-road alternative: adjoining field or property outlines; j02 would then disappear."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[619,529],[598,515],[579,520],[550,522],[522,520],[496,524]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two thin, irregular black strokes enclose a pale strip roughly 6–12 px wide, narrowing near the black building marks at the eastern end.",
+      "uncertainty_note": "A short access lane is possible, but two adjacent parcel outlines also explain the drawing. At the western end the strokes merge with other outlines; no continuation is asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Interpret the two strokes as the sides of a short lane."},
+        {"proposed_class":"unknown","note":"Non-road alternative: separate edges of adjacent shaded parcels; j03 would then disappear."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[605,552],[623,570],[639,584],[644,610],[648,637],[644,657],[647,682],[653,712],[664,742],[681,763],[710,785],[747,808],[790,834],[822,856],[860,880],[899,903],[936,919],[961,926]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04","j05","j06","j07","j09"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Small dark dots or short dashes accompany a narrow ochre trace; some portions have an adjoining solid black outline. The trace crosses the blue-green band through a narrow dark-edged gap.",
+      "uncertainty_note": "The dotted southeastern section is clearer than the portion among the buildings and blue-green band. The latter may combine access-path marks with parcel outlines, so continuity there is less certain.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The central portion could be separate parcel edges rather than one continuous path."},
+        {"proposed_class":"single_line","note":"Some southeastern stretches appear as one thin ochre-dark stroke with only occasional interruptions."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[647,682],[619,686],[580,702],[542,725],[507,751],[485,772],[471,801],[460,829],[448,855],[433,885],[433,909],[414,930],[392,951],[373,976],[348,993],[324,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A fine row of dark dots follows an ochre line beside a heavier irregular black outline, then continues past small rectangular building marks toward the lower edge.",
+      "uncertainty_note": "Much of the line follows a shaded parcel edge, supporting a boundary alternative. Near the lower lettering and buildings, the traced course has greater positional uncertainty.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Non-road alternative: a dotted parcel edge with short access segments near the buildings."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[790,834],[805,858],[817,887],[824,925],[831,963],[836,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin ochre-dark interrupted stroke curves away from the oblique dotted line; its marks are finer and shorter than the nearby long black boundary dashes.",
+      "uncertainty_note": "It could be a path branch or a property division. Its contact with f05 is visible, but the road interpretation is uncertain.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Interpret the fine interrupted stroke as a path."},
+        {"proposed_class":"unknown","note":"Non-road alternative: a property boundary; j06 would then disappear."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[849,61],[837,99],[830,141],[829,190],[840,211],[859,228],[870,259],[877,299],[884,342],[892,390],[898,435],[916,490]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j08"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "One narrow ochre-backed row of closely spaced black dots and short strokes bends beside a pale orange area; no consistently separated second casing line is visible.",
+      "uncertainty_note": "The symbol could indicate a minor path, but it also outlines the pale orange parcel. Both junctions depend on the path interpretation.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Read the closely spaced interrupted marks as a path."},
+        {"proposed_class":"unknown","note":"Non-road alternative: the edge of the shaded parcel."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[916,490],[946,482],[974,474],[1000,469]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A thin line of dark, closely spaced marks with ochre beneath turns east from the dotted north-south stroke.",
+      "uncertainty_note": "It may continue a path or complete a parcel outline; the latter would remove its road junction.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Interpret the dotted stroke as a path reaching the tile edge."},
+        {"proposed_class":"unknown","note":"Non-road alternative: a parcel boundary."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[916,490],[906,520],[892,549],[873,580]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Fine dark interrupted marks descend along the edge of a pale orange shape and converge with a heavier thin red-dark diagonal stroke.",
+      "uncertainty_note": "The line may be a path or parcel edge. Its identity becomes inseparable from the red-dark diagonal at the endpoint, so no continuation is traced.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Read the interrupted marks as the southern branch of a path."},
+        {"proposed_class":"unknown","note":"Non-road alternative: an outlined parcel edge."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[639,584],[647,568],[650,547],[660,536]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A fine dark stroke bends toward dense black building marks, with an adjacent heavier outline and a narrow pale gap.",
+      "uncertainty_note": "A short access spur is possible, but the stroke may belong to the surrounding parcel outline. It is stopped at the building ink.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Interpret the fine stroke as a short access path."},
+        {"proposed_class":"unknown","note":"Non-road alternative: part of the enclosed parcel outline; j09 would then disappear."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id":"j01",
+      "uv":[849,61],
+      "branch_count":3,
+      "evidence_note":"A fine dotted stroke separates from the eastern side of the brown band, whose two edged branches continue through the position; conditional on f08 being a path."
+    },
+    {
+      "junction_id":"j02",
+      "uv":[631,510],
+      "branch_count":3,
+      "evidence_note":"Fine marks beside the black building rectangles converge on the brown band, which continues in both directions; the minor branch is ambiguous."
+    },
+    {
+      "junction_id":"j03",
+      "uv":[619,529],
+      "branch_count":3,
+      "evidence_note":"The pale gap between two thin black strokes opens toward the broad brown band, giving three branches under the lane reading."
+    },
+    {
+      "junction_id":"j04",
+      "uv":[605,552],
+      "branch_count":3,
+      "evidence_note":"A fine ochre-dark trace leaves the brown band beside a small outlined rectangular symbol; the brown band continues on both sides."
+    },
+    {
+      "junction_id":"j05",
+      "uv":[647,682],
+      "branch_count":3,
+      "evidence_note":"The interrupted ochre-dark stroke continues upward and downward while another dotted stroke turns west along a heavier parcel outline; the western branch is uncertain."
+    },
+    {
+      "junction_id":"j06",
+      "uv":[790,834],
+      "branch_count":3,
+      "evidence_note":"A fine curved interrupted stroke meets the oblique ochre-dotted line, which continues in both directions; conditional on the curved stroke being a path."
+    },
+    {
+      "junction_id":"j07",
+      "uv":[961,926],
+      "branch_count":3,
+      "evidence_note":"The oblique dotted ochre line reaches the inner dark edge of the broader brown strip, whose two branches continue around the bend."
+    },
+    {
+      "junction_id":"j08",
+      "uv":[916,490],
+      "branch_count":3,
+      "evidence_note":"Closely spaced dark marks converge from above, right and below around an angular corner of pale orange shading; all three path readings are uncertain."
+    },
+    {
+      "junction_id":"j09",
+      "uv":[639,584],
+      "branch_count":3,
+      "evidence_note":"A fine stroke toward black building ink meets the trace descending toward the blue-green band, with a third branch returning toward the brown road; the access-spur reading is uncertain."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note":"The broad brown routes are clear, but several fine dotted or paired strokes coincide with parcel outlines and are retained as uncertain candidates. Junction counts include those candidates and are conditional where stated. The thin red diagonal, long black boundary dashes, blue-green water lines and offshore dots are excluded."
+}

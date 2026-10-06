@@ -1,0 +1,243 @@
+{
+  "tile_id": "cor_e0361_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[424, 0], [445, 17]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short oblique brown-pink strip has heavy dark edges; lettering overlaps its upper end.",
+      "uncertainty_note": "The entry coordinate and connection at j01 are approximate because dark lettering overlaps the casing.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[445, 17], [478, 40], [516, 62], [553, 81], [580, 105], [609, 132], [638, 157], [666, 175], [694, 189], [711, 210], [722, 240], [733, 275], [744, 311], [757, 350], [773, 392], [802, 437]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two strong dark outlines enclose a roughly 12–18 px brown-pink strip. The strip bends sharply near [710,210] and continues across the vertical scan seam.",
+      "uncertainty_note": "The seam hides a short section near [658,170]; matching casing on both sides supports continuation. The northern junction is partly covered by lettering.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[451, 0], [445, 17]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short, narrow reddish stroke approaches the oblique cased strip from the top edge, amongst heavy black lettering.",
+      "uncertainty_note": "This may be the northern continuation of f04, but its separate course and contact with the broad strip are poorly resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The reddish stroke may be a single-line continuation of f04."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may belong to overlapping lettering or casing rather than form a separate road branch; j01 would then have three branches."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[445, 17], [435, 55], [427, 100], [416, 143], [405, 190], [394, 235], [384, 281], [373, 330], [362, 377], [350, 425], [339, 473], [326, 517], [311, 548], [280, 581], [247, 614], [209, 647], [168, 683], [133, 716], [92, 754], [51, 793], [14, 828], [0, 841]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A continuous fine dark-red line has a pale grey-brown strip alongside it, commonly about 8–15 px wide. The companion edge is faint and irregular; there are no flanking tree circles.",
+      "uncertainty_note": "The strip supports a narrow road reading, but its casing is much less distinct than the roads on the right. Lettering obscures the northern connection.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip and faint outer edge may constitute narrow paired road casing."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Only the reddish edge may be intentional linework; the pale companion could be printing or scanning displacement."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary with adjacent pale displacement remains possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[802, 437], [820, 425], [830, 413], [835, 392], [840, 371], [881, 346], [928, 319], [974, 292], [1000, 277]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A roughly 7–11 px orange-brown strip with dark, partly stippled margins leaves the broad casing, makes two abrupt bends, and reaches the right edge.",
+      "uncertainty_note": "One margin is more stippled than continuous, so the paired-line class is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled margin does not consistently resemble a continuous second casing line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[802, 437], [816, 475], [832, 516], [847, 555], [859, 589]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Dark paired edges enclose brown-pink fill, with repeated small hollow oval tree marks along both sides.",
+      "uncertainty_note": "The tree symbols begin close to j02; the precise transition from plain casing is indistinct.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[859, 589], [899, 570], [946, 546], [1000, 520]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two dark margins enclose a narrow orange-brown strip extending northeast from the crossing. The numerous hollow circles chiefly flank the crossing roads.",
+      "uncertainty_note": "A few circles near the crossing could also belong to this branch; sustained avenue marking farther east is not clear.",
+      "alternatives": [
+        {
+          "proposed_class": "avenue_lined",
+          "note": "The circles beside the western end may indicate that avenue marking extends onto this branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[859, 589], [868, 633], [878, 681], [887, 729], [897, 779], [907, 829], [916, 875], [924, 909]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j03", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown-filled, heavily dark-edged strip has rows of small hollow ovals on both sides. Black lettering overlaps its lower portion.",
+      "uncertainty_note": "The casing remains traceable through the lettering. j05 is a junction only if the diagonal candidate f11 is a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[924, 909], [934, 953], [953, 1000]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The dark paired casing and brown fill continue to the bottom edge, with small hollow tree marks flanking both margins.",
+      "uncertainty_note": "The division at j05 is conditional on the diagonal candidate being a road.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[859, 589], [834, 622], [808, 661], [779, 706], [750, 752], [733, 782]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow brown-filled strip has strong dark casing and repeated hollow oval marks along its sides. A black rectangular building symbol sits close to its western margin near [710,735].",
+      "uncertainty_note": "j04 is conditional on the diagonal line f11 being a road rather than a boundary.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[733, 782], [770, 804], [806, 827], [844, 851], [880, 880], [903, 897], [924, 909]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04", "j06", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A reddish-brown diagonal band, roughly 5–8 px wide, has irregular dark or dotted margins. It meets the southwest cased strip and runs toward the vertical avenue; lettering overlaps its eastern end.",
+      "uncertainty_note": "The visible fragments support this diagonal course, but the symbol could be a coloured field/property boundary. Its three listed junctions are conditional road interpretations.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The brown band and dark margins may represent a narrow track joining the two avenues."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire diagonal may be a field/property boundary, in which case j04, j05 and j06 are not road junctions."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[733, 782], [708, 820], [678, 862], [653, 893], [650, 923], [645, 954], [637, 981], [630, 1000]],
+      "proposed_class": "avenue_lined",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The southwest brown strip continues with dark casing and hollow oval marks above the lettering. Below it, reddish casing bends toward the bottom edge beside the scan seam.",
+      "uncertainty_note": "Lettering and the seam hide short sections, but aligned casing is visible on both sides. Tree marks become difficult to distinguish below about v=890.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The portion below the lettering may continue as plain narrow casing without avenue symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[903, 897], [894, 932], [885, 968], [877, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A fine reddish stroke with an intermittent dark companion descends obliquely from the diagonal band, partly beneath lettering. There are no clear flanking tree marks.",
+      "uncertainty_note": "A field/property boundary is at least as plausible as a path. The connection near [903,897] is partly obscured, and j06 is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If interpreted as a path, its visible symbol is chiefly one thin reddish line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a coloured field/property boundary with no road function."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [445, 17],
+      "branch_count": 4,
+      "evidence_note": "The oblique broad brown strip and the narrower reddish course appear to intersect amongst heavy black lettering. Four branches are proposed, but the short northern narrow branch and the exact contact are obscured."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [802, 437],
+      "branch_count": 3,
+      "evidence_note": "The broad dark-cased strip continues above and below; a narrower brown strip with dark, partly dotted margins joins from the northeast. Hollow oval marks begin beside the lower continuation."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [859, 589],
+      "branch_count": 4,
+      "evidence_note": "Four brown-filled, dark-edged arms meet: north, south, northeast and southwest. Hollow oval tree marks flank the north–south and southwest arms."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [733, 782],
+      "branch_count": 3,
+      "evidence_note": "The southwest avenue casing continues in two directions, while a thinner reddish-brown diagonal touches its eastern margin beside a black building mark. The third road branch is conditional on f11 being a track."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [924, 909],
+      "branch_count": 3,
+      "evidence_note": "The vertical avenue has two continuing cased arms; a thinner reddish-brown diagonal appears to touch its western margin under lettering. The third road branch is conditional on f11 being a track."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [903, 897],
+      "branch_count": 3,
+      "evidence_note": "A fine descending red stroke appears to meet the diagonal brown band beneath black lettering. Three branches exist only under the road interpretation of both candidate lines."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [635, 0, 665, 1000],
+      "why": "A displaced vertical scan seam masks a narrow, shifting strip of linework, including short portions of the northern broad road and lower southwest road."
+    },
+    {
+      "bbox_uv": [410, 0, 479, 112],
+      "why": "Heavy lettering overlaps the narrow reddish course and the proposed northern junction, preventing a secure reading of its short branches and casing."
+    },
+    {
+      "bbox_uv": [642, 873, 938, 942],
+      "why": "Large black lettering locally conceals casing, tree marks and the contacts of the thin diagonal candidates; much of the surrounding drawing remains readable."
+    }
+  ],
+  "overall_note": "The strongest road evidence is the brown-filled dark casing on the right, with hollow tree symbols along its lower branches. The thinner left course and lower diagonal lines admit different symbol readings, and their alternatives are retained. Junctions j01 and j04–j06 have conditional topology because of lettering or possible boundary symbols."
+}

@@ -1,0 +1,134 @@
+{
+  "tile_id": "cor_e0343_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,422],[17,395],[34,362],[54,329],[75,296],[94,266],[112,241],[128,226],[142,225],[160,236],[180,239],[205,230],[229,217],[244,209],[255,212],[267,222],[283,216],[314,197],[350,175],[378,161],[412,147],[447,137],[477,131],[502,133],[533,139],[561,149],[589,165],[615,186],[639,208],[650,219],[671,195],[693,172],[718,145],[742,117],[766,89],[794,58],[823,29],[853,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish band has close-set dark dots or short dashes along both margins, approximately 6–10 px apart overall. The paired marks follow the bends and continue across the blue-black line near the northeastern portion.",
+      "uncertainty_note": "The road course is clear. Dotting and scan blur make its symbol-form class less certain than its identification as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dotted margins can also be read as narrow road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[350,175],[352,198],[357,219],[364,242],[373,266],[380,282]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow pale strip with dark marginal marks turns downward beside a black rectangular symbol. Small dark dots follow its eastern side toward the red and black symbols around (382,294).",
+      "uncertainty_note": "The upper trace appears to branch from f01, but parts also coincide with the edge of the peach wash. It is stopped before the building symbols; continuity to f03 cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The small marginal dots may represent a dotted track."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip and two dark margins may represent narrow casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the trace could be a parcel outline beside the symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[386,316],[392,344],[398,370],[403,397]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Below the black symbols, a thin dark line with a close, fainter parallel stroke descends to the pointed end of the peach polygon. The strokes are roughly 3–5 px apart.",
+      "uncertainty_note": "This could continue the narrow track represented by f02, but the intervening symbols hide the connection. Its coincidence with the polygon edge makes a non-road reading equally plausible; the endpoint marks where that edge closes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The closely spaced strokes could be a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes could be a parcel boundary and a colour-registration fringe."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[151,258],[151,275],[150,293],[150,312]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Several heavy black dots or short upright marks form a loose north–south sequence below the red building symbol, with approximately 15–20 px between their centres. No continuous casing is discernible.",
+      "uncertainty_note": "These may be a short dotted path, but individual vegetation or small structure symbols are also possible. A connection to f01 is hidden by the building cluster and is not asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read as a short path formed by separated dark marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read as separate symbols rather than a road line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[769,202],[794,218],[819,233],[844,248],[869,263],[894,278],[915,291]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A sequence of heavy black dots or short dashes follows the northeastern side of a thicker continuous blue-black line, generally within about 3–7 px of it. The marks begin beyond the red building and merge into the heavier outline near the southeastern end.",
+      "uncertainty_note": "A dotted path alongside the blue line is possible, but the marks could belong to a boundary or the channel outline itself. Neither a connection through the building nor a continuation beyond the merged marks is established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated black marks could represent a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks could be boundary decoration or irregularities in the adjacent blue-black line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,414],[37,456],[75,498],[113,540],[151,583],[189,625],[227,667],[266,711],[305,754],[344,797],[383,840],[422,883],[461,926],[499,969],[527,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A faint grey diagonal consists of a thin darker edge beside a broader pale band, about 4–8 px wide. It crosses the printed washes and symbols without a clear dotted or dashed road pattern.",
+      "uncertainty_note": "This is a low-confidence road candidate: its paired appearance could indicate a faint track, but its nearly straight course and washed-out edges strongly permit a paper crease or other non-road mark. Its contact with f01 at the left edge is not counted as a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the pale band is intentional printed casing, it could be a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A paper crease, scan artefact or non-road ruling is a plausible reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [350,175],
+      "branch_count": 3,
+      "evidence_note": "The reddish paired dotted line continues in two directions, while a narrower marked strip turns downward beside a black rectangular symbol. Three branches are present under the proposed road reading of f02; the downward branch has parcel-edge ambiguity."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [371,283,397,316],
+      "why": "Overlapping red and black building marks and lettering prevent a reliable reading of continuity between the upper dotted trace and the lower paired strokes."
+    }
+  ],
+  "overall_note": "The winding reddish road is clearly identifiable, while the short traces beside buildings and the blue-black channel permit non-road readings. Those doubtful traces are retained explicitly, including the faint diagonal that may be a paper crease. No connection has been carried through an unresolved symbol overlap."
+}

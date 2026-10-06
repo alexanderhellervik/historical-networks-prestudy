@@ -1,0 +1,170 @@
+{
+  "tile_id": "cor_e0356_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[776, 0], [756, 44], [737, 86], [717, 128], [698, 174], [678, 216], [659, 260], [639, 305], [617, 351], [595, 398], [576, 442], [557, 486], [537, 531], [518, 576], [497, 622], [478, 666], [459, 711], [437, 758], [417, 803], [398, 848], [378, 893], [358, 937], [338, 980], [329, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink strip, approximately 15–22 px across, follows two dark margins; the eastern margin has repeated heavier black segments. Thin red lines cross it at several positions.",
+      "uncertainty_note": "The broad casing supports a road reading, but the repeated black segments also permit a railway reading. Its inclusion as a road and the corresponding junction j01 are provisional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the two dark margins are road casing, this is a wide double-line road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The segmented black margin may belong to a railway symbol; under that reading this feature is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[595, 398], [630, 409], [669, 421], [707, 429], [749, 430], [780, 428], [806, 422]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Closely spaced dark dots and short marks follow a thin ochre stroke, bending southeast and then east. No distinct second parallel margin is visible.",
+      "uncertainty_note": "The broken stroke resembles the example's paths, but portions could be a parcel edge. Contact with the pink strip is visible; whether that contact is a road junction depends on f01.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted stroke could mark a parcel edge rather than a path."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The faint connecting ochre stroke could be read as the principal line, with the dark dots incidental to it."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[806, 422], [837, 411], [869, 394], [880, 392], [902, 411], [931, 422], [962, 432], [986, 443], [1000, 448]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow dark dotted stroke rises toward a small ochre building symbol, then bends southeast beside tan polygons. Heavy lettering overlaps it around [946, 421], with matching strokes visible on both sides.",
+      "uncertainty_note": "The short passage through lettering is carried through because the visible strokes align. Some portions coincide with polygon margins, allowing a boundary reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the dotted course may be parcel outlines rather than a continuous path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[806, 422], [783, 449], [757, 480], [731, 511], [704, 542], [675, 572], [654, 599], [641, 624]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin ochre diagonal with closely spaced black dots leaves the curved dotted stroke and crosses a solid red line near [757, 480]. Its lower portion becomes mixed with dark lettering and small outlined symbols.",
+      "uncertainty_note": "The final course is less distinct near the lettering. Connection to f05 is plausible but not sufficiently clear to join the two traces.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The diagonal could be a dotted parcel edge."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "It may continue beneath the lettering to f05, but that hidden connection is not asserted."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[613, 681], [609, 719], [603, 760], [596, 800], [587, 842], [579, 882], [569, 927], [561, 970], [556, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A fine ochre-to-dark stroke with repeated black dots descends beside tan polygon outlines. It crosses a thin red line near [575, 900] and remains visible toward the bottom edge.",
+      "uncertainty_note": "Its northern end disappears into lettering and polygon outlines. The fairly straight southern portion could be a property division instead of a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel-boundary reading is possible, particularly south of [600, 780]."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "This may be the continuation of f04 beneath the lettering."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[780, 1000], [819, 975], [855, 950], [887, 924], [913, 898], [939, 869], [961, 842], [982, 814], [1000, 791]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "An oblique orange-brown ribbon has two closely spaced dark, locally dotted margins, approximately 6–12 px apart. It crosses the thinner red angular stroke near [957, 846].",
+      "uncertainty_note": "The paired margins resemble the example's coloured tracks, but the northeastern end overlaps tan polygon outlines. The possible short eastern branch f07 has no certain connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The ribbon could partly represent a narrow coloured parcel or a strengthened boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[1000, 867], [980, 868], [962, 872], [952, 875]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short thin dark blue-brown stroke curves slightly southwest from the right edge, below the red angular line. Its western end blends into heavier strokes beside the orange-brown diagonal.",
+      "uncertainty_note": "It could be a short track joining f06, a drainage stroke, or a polygon margin. The joining point cannot be resolved, so no junction is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short single-line track is possible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a ditch or parcel edge and therefore not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[153, 1000], [174, 986], [198, 975], [218, 967], [229, 963]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two irregular dark strokes enclose a pale tan ribbon entering the bottom edge. The ribbon narrows northeast toward small ochre rectangular symbols; its margins are less regular than those of f06.",
+      "uncertainty_note": "This could be a short access track, but an elongated cultivated polygon is an equally plausible reading. Its northeastern termination is mixed with the rectangular symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the enclosing strokes are road margins, they depict a narrow double-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The two strokes may simply enclose a narrow cultivated parcel, with no road present."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [595, 398],
+      "branch_count": 3,
+      "evidence_note": "The narrow dotted ochre stroke meets the eastern margin of the broad pink strip, which continues northeast and southwest. Three road branches are present only under the road reading of f01."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [806, 422],
+      "branch_count": 3,
+      "evidence_note": "Three thin dark dotted strokes meet: two follow the curved east–west course and one departs southwest. Their weights and close dot spacing are similar."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [594, 615, 654, 685],
+      "why": "Heavy lettering, small dark symbols, and tan polygon outlines overlap the possible connection between f04 and f05; an independent path stroke cannot be followed reliably through this area."
+    }
+  ],
+  "overall_note": "The pink diagonal has an ambiguous segmented margin, and several dotted traces could also be parcel edges. Lettering prevents a certain connection between f04 and f05; the lower-edge candidates retain explicit non-road alternatives. Thin red boundary-like lines, blue drainage strokes, and ordinary outlines enclosing coloured parcels are otherwise excluded."
+    }

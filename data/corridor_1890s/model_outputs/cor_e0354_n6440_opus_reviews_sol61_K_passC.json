@@ -1,0 +1,77 @@
+{
+  "tile_id": "cor_e0354_n6440",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The diagonal from about (330,1000) to (1000,340) is one heavy dark line with a crimson/pink colour band on its NW side and a dark shadow on its SE side. It has no paired road casing. The sheet's own thin grid lines (vertical near u=450, horizontal near v=470) stop at it, and several red and dashed boundaries (f02, the red lines from (710,0) and (890,0), the dashed line ending near (705,690), f04 and the red line at (530,915)) end on it from both sides without crossing. That looks like a coloured administrative boundary, or a join between two sheets, rather than a landsväg.",
+      "uncertainty_note": "Moderate. A broad red-brown band could also be read as a main road coloured in. The heavy ink and the boundaries ending on it are what make me read it as a boundary or sheet join. Alternative: double_line_wide road that also serves as the boundary."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin single crimson line from (345,0) straight to about (710,740), with a faint pink wash on its W side. It looks the same as the other red property/administrative boundaries on this tile and on the worked example, where red lines are recorded as Gräns. It is perfectly straight, has no brown road colour and no second line.",
+      "uncertainty_note": "Low. It is a boundary symbol, not a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a brown/ochre line running from the bottom edge at about (745,1000) up through (765,900) and (790,820), bending NE at about (805,790) to (870,750), then E along the top of the green meadow area to about (1000,765). Its brown colour matches the road colour in the worked example, and the polyline follows it.",
+      "uncertainty_note": "The overlay's class label is not visible to me, so I give my own class. The E section along the meadow edge could be a field-edge outline rather than a road. Near the bottom it is also hard to tell apart from the blue stream and the black building outlines."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin crimson line from about (850,597) running E to the tile edge at (1000,600), starting on f01. It has the same red colour and weight as the property boundaries (f02 and the red lines in the N half), with no brown road colour or double casing.",
+      "uncertainty_note": "Low to moderate. It is short and runs into the lettering 'Bj...', so the detail is limited."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[652, 1000], [700, 982], [735, 966], [762, 952]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A dotted dark line with a brownish tint runs from the bottom edge NE and appears to join the brown line (f03) at about (762,952). A run of dots matches the Gångstig symbol.",
+      "uncertainty_note": "The dots are faint and mixed with orange colouring, so a dotted boundary is possible. Past the junction with f03 its course can't be followed among the garden outlines.",
+      "alternatives": ["dotted boundary (not a road)", "continuation E along the garden edge at about v=930 to (900,935)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[0, 888], [50, 920], [100, 958], [150, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A dotted line, black dots with reddish tint, crosses the SW corner from the W edge to the bottom edge. The dotted form matches Gångstig in the model legend.",
+      "uncertainty_note": "The reddish colour suggests it may be a dotted boundary rather than a path. I include it as a possible miss rather than a sure road.",
+      "alternatives": ["boundary (not a road)", "dashed_line footpath"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [710, 740],
+      "what_is_contested": "Whether this is a road junction at all. f02 (a red line), the E dashed line and possibly a short dark tick all end on f01 here.",
+      "evidence_note": "If f01 is a boundary or sheet join, this is a meeting point of boundaries with no road branches. If f01 is a road, it is a boundary meeting a road. Either way, none of the lines meeting here looks like a road."
+    },
+    {
+      "uv": [800, 795],
+      "what_is_contested": "Whether the brown line f03 has a branch N to f01 (at about 780,725) or only bends NE along the meadow edge.",
+      "evidence_note": "The blue stream rises toward f01 near (782,760) right beside the brown line's bend. A short link to f01 can't be confirmed or ruled out at this resolution."
+    },
+    {
+      "uv": [762, 952],
+      "what_is_contested": "Whether the dotted line m01 joins f03 here, and whether it continues E.",
+      "evidence_note": "The dots fade into building and garden outlines and orange colouring just W of f03."
+    }
+  ],
+  "overall_note": "The only line with road colouring is the brown line f03 SE of the heavy diagonal. The heavy diagonal f01 reads as a coloured boundary or sheet join rather than a road, because grid lines and many boundaries end on it. The red lines (f02, f04) and the two long-dash black lines in the N half are boundaries (red lines and Skifteslinje), and the two dotted lines near the bottom edge are possible footpaths of uncertain status."
+}

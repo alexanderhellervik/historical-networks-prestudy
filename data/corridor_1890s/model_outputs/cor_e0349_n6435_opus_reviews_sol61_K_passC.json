@@ -1,0 +1,59 @@
+{
+  "tile_id": "cor_e0349_n6435",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous row of black dots with an orange/brown wash runs from the seam near (555,42) west via (420,95), (400,125), (300,158), then south-west past the farm at (240,230), (200,340), (150,420), (100,455), (50,520) to the left edge near (0,640). The overlay polyline follows it closely along the whole length. The dot row with road colouring matches the dotted road symbols (Gångstig / Sämre körväg) and not the dash-dot boundary symbols.",
+      "uncertainty_note": "Course and existence are clear. The class is less certain: I read a single row of dots, which suggests Gångstig, but at this resolution a narrow double row (Sämre körväg) cannot be ruled out. I cannot see the overlay's class, only its colour. The eastern end at the paper seam (u≈557) may be cut short; see m01."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown single line runs from the top edge at about (265,0) down through the settlement via (250,50), (235,100), (220,150) to the buildings around (225,210). Its brown colour matches the thin brown path lines in the worked example, and it is not crimson like the boundaries.",
+      "uncertainty_note": "The line is thin and partly overprinted by the meadow wash and the buildings. It could be a farm track or a path, and it might even be a lot outline. Whether it meets f01 near (240,215) or stops at the buildings is not clear."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[0, 442], [50, 440], [100, 447]],
+      "evidence_note": "A thin orange/brown line runs from the left edge at v≈442, just below the crimson boundary at v≈410–420, east to meet the dotted f01 near (100,447). The overlay draws it a little lower and bends it down to meet f01 at about (90,485). I see no line along that southward bend.",
+      "uncertainty_note": "The line is faint and short. It might be a field edge or a coloured boundary edge rather than a path, but its colour matches the road wash on f01."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[557, 42], [590, 40], [630, 20], [650, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "East of the paper seam, below the 'B' of 'Bratthall', there is orange colouring near (580–640, 20–45). It may be f01 continuing north-east to the top edge.",
+      "uncertainty_note": "This is low confidence. The seam at u≈560 has an offset and the lettering overprints the area, so the orange could be part of the lettering or a wash rather than a continuation of the road.",
+      "alternatives": ["f01 ends at the seam/boundary at (557,42) and this colour is not a road", "f01 continues along the top edge eastwards out of the tile"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [100, 450],
+      "what_is_contested": "Where f03 meets f01: at about (100,447) as I read it, or at (90,485) as the overlay draws it.",
+      "evidence_note": "The orange side line meets the dotted road just below the crimson boundary. I see no drawn line running down to v≈485."
+    },
+    {
+      "uv": [238, 215],
+      "what_is_contested": "Whether the brown line through the farm (f02) joins the dotted road f01 here, or ends at the buildings without a junction.",
+      "evidence_note": "Both lines come within about 10–15 px of each other beside the buildings, and the buildings and meadow wash hide whether they touch."
+    },
+    {
+      "uv": [557, 42],
+      "what_is_contested": "Whether f01 ends at the crimson boundary and paper seam, or continues east or north-east (m01), which would make a junction or a through-route here.",
+      "evidence_note": "The image is offset across the seam and the 'Bratthall' lettering overprints the spot."
+    }
+  ],
+  "overall_note": "The only clear road is the long dotted, orange-washed route from the north-east seam through the farm to the south-west edge. The brown line through the farm and the short orange line on the west edge are plausible minor paths. The crimson lines are boundaries, the blue and green lines are streams, and the bold black dashes in the western fields are field divisions or ditches, not roads; the darker red-brown line along the bottom (0,790)–(615,945) I read as a boundary."
+}

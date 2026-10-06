@@ -1,0 +1,95 @@
+{
+  "tile_id": "cor_e0363_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,217],[30,202],[61,188],[90,175],[126,159],[151,139],[177,111],[197,81],[213,53],[227,27],[241,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two strong, mostly continuous dark edges enclose an orange ribbon approximately 12–18 px wide. A narrower brown branch attaches at (126,159).",
+      "uncertainty_note": "The centreline is approximate within the thick ribbon.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[126,159],[133,179],[145,202],[160,226],[173,236],[199,229],[223,224],[247,218],[269,225],[300,241],[328,230],[353,219],[375,212],[395,204],[408,224],[419,243],[427,259]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow orange-brown ribbon has two closely spaced dark, irregularly stippled edges. It bends sharply at approximately (173,236), (300,241) and (395,204); a small outlined rectangular symbol sits alongside its northern end.",
+      "uncertainty_note": "Some stretches merge visually into adjoining solid parcel outlines. The paired edges are intermittently broken into dots, making the symbol-form class less certain than the course.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken or dotted dark edging could be classified by its interruptions rather than by its two-sided ribbon form."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[88,410],[113,395],[140,382],[169,370],[200,359],[228,348],[258,334],[286,323],[317,310],[348,294],[379,281],[404,270],[427,259],[451,247],[471,236],[486,220],[505,213],[521,225],[532,247],[543,269],[560,273],[583,273],[606,266],[622,268],[644,276],[673,273],[700,266],[727,254],[748,241],[765,228],[793,218],[819,210],[850,209],[878,213],[905,220],[934,226],[965,230],[1000,230]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A brown-orange band approximately 6–10 px wide follows the diagonal and then the eastward bends. Closely spaced dark dotted or scalloped edges are visible, with small filled rectangular symbols beside the section around (427,259)–(486,220).",
+      "uncertainty_note": "At (88,410), the coloured road symbol merges into a heavy angular outline; its continuation cannot be distinguished securely. Junction j03 depends on interpreting f04 as a path.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Much of the dark edging consists of closely spaced dots or short strokes rather than continuous casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The stippled, coloured ribbon does not match an entirely continuous double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[200,359],[193,337],[183,317]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two approximately parallel solid dark strokes, roughly 12–18 px apart, enclose a pale peach strip immediately above the brown diagonal line. Their upper portion overlaps the large black lettering.",
+      "uncertainty_note": "This is a doubtful short path candidate: the strokes also resemble the sides of the adjacent narrow field parcels. No continuation through the lettering is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the enclosed strip is an access path, its visible form is a narrow pair of solid edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be two parcel boundaries enclosing a field strip, with no road represented; under that reading j03 is absent."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [126,159],
+      "branch_count": 3,
+      "evidence_note": "The broad orange ribbon continues in two directions; a narrower brown ribbon with stippled dark edges leaves its southeastern side."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [427,259],
+      "branch_count": 3,
+      "evidence_note": "The narrow brown diagonal ribbon continues northeast and southwest, while a similarly edged short ribbon joins from the northwest beside a filled black rectangular symbol."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [200,359],
+      "branch_count": 3,
+      "evidence_note": "Two directions of the brown diagonal ribbon meet the end of a pale strip bounded by two solid dark strokes. The third road branch is conditional on the uncertain path reading of f04."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [106,283,198,337],
+      "why": "Large black lettering overlaps narrow solid outlines and prevents a secure continuation of the doubtful short path candidate."
+    }
+  ],
+  "overall_note": "Three road ribbons are clearly distinguishable; one short candidate beside lettering remains ambiguous with parcel boundaries. The narrower roads have stippled edges, so their symbol-form classes are less certain than their courses. No continuation is inferred beyond the obscured endpoints."
+}

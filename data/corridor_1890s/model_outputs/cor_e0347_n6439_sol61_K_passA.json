@@ -1,0 +1,100 @@
+{
+  "tile_id": "cor_e0347_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [1000, 382],
+        [979, 404],
+        [957, 434],
+        [934, 449],
+        [909, 458],
+        [887, 477],
+        [879, 502],
+        [879, 535],
+        [876, 559],
+        [864, 603],
+        [849, 644],
+        [831, 681],
+        [819, 703],
+        [818, 725],
+        [820, 743]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One winding row of small, closely spaced black dots follows a fine brown trace; there is no clear second row or casing. Its southern end reaches a small brown rectangular symbol.",
+      "uncertainty_note": "The broken marks are predominantly dots rather than elongated dashes. The course becomes obscured at the rectangular symbol; a continuation through the surrounding outlines is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A strictly dotted symbol does not exactly match the available dashed_line label."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [1000, 601],
+        [980, 646],
+        [960, 692],
+        [940, 738],
+        [925, 784],
+        [904, 830],
+        [883, 875],
+        [862, 921],
+        [840, 966],
+        [824, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A broad pink band lies beside a dark gray strip with approximately parallel dark margins, roughly 15–25 px apart. The strip runs diagonally across the southeast corner.",
+      "uncertainty_note": "The pink overprint and heavy dark strokes make the underlying symbol uncertain. Coordinates follow the dark strip; the pink band's centre lies approximately 10–20 px farther left. Its interpretation as a road remains conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The dark margins may be the two sides of a broad cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The pink band and adjacent dark strokes may instead represent a highlighted boundary; under that reading this feature is not a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [925, 784],
+        [947, 776],
+        [973, 764],
+        [1000, 753]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An oblique pink band with adjoining dark strokes extends rightward from the broad diagonal strip. Two roughly parallel margins are visible along portions of it.",
+      "uncertainty_note": "This has the same unresolved road-versus-boundary interpretation as f02. The meeting point is approximate because the coloured bands and dark margins merge.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The paired margins may depict a cased road branching from f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a branch of the highlighted boundary rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [925, 784],
+      "branch_count": 3,
+      "evidence_note": "Three arms of pink bands and adjoining dark strips meet: two along the diagonal and one extending toward the right edge. This is a road junction only under the road interpretation of f02 and f03."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The single dotted path is the clearest road-like symbol. The broad pink diagonal and its branch are retained as doubtful candidates because their dark margins could depict either roads or highlighted boundaries. No connection is inferred through the clustered rectangular symbols."
+}

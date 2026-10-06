@@ -1,0 +1,123 @@
+{
+  "tile_id": "cor_e0361_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 614], [28, 618], [49, 625], [78, 645], [113, 655], [146, 663], [177, 659], [213, 665], [249, 668], [283, 667], [318, 663], [352, 671], [382, 664], [407, 653], [444, 649], [474, 641], [494, 639], [507, 626], [518, 610], [532, 590]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A winding ochre stroke carries closely spaced dark dots, predominantly in one row; it passes below the large place-name lettering and approaches the black building and letter symbols.",
+      "uncertainty_note": "The dotted symbol has no exact counterpart in the supplied class list. Its eastern continuation becomes inseparable from heavy lettering and building strokes; connection to f02 is plausible but not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible classification if the small dots are treated as very short dashes."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Possible classification based on the continuous ochre stroke beneath the dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[557, 566], [576, 553], [594, 548], [610, 547]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short ochre segments with dark stippling appear above and between the heavy black letters and small angular building marks.",
+      "uncertainty_note": "Both ends disappear into symbols. This may be the continuation of f01, but the intervening course and any branching cannot be read reliably.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The stippling may represent the same dotted path symbol as f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some of these short strokes may belong to building or enclosure symbols rather than a separate path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 925], [48, 913], [98, 901], [149, 886], [199, 873], [252, 859], [306, 846], [355, 832], [405, 817], [454, 802], [504, 786], [554, 772], [604, 757], [654, 742], [704, 727], [751, 713], [785, 704]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A straight diagonal pale band, approximately 8–12 pixels wide, has a strong reddish upper edge and a weaker grey-brown lower edge; a similarly drawn southward band meets it.",
+      "uncertainty_note": "The red stroke could instead be a boundary with an adjacent pale margin. The eastern end becomes difficult to separate from angular enclosure and marsh-edge strokes, so no continuation is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two apparent edges may represent a narrower cased road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative reading: a red property or administrative boundary, with the apparent second edge supplied by adjacent linework or colour."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[306, 846], [316, 875], [326, 910], [337, 946], [347, 978], [355, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A reddish stroke and a weaker approximately parallel edge enclose a narrow pale strip; its upper end visibly meets the diagonal band at an angle.",
+      "uncertainty_note": "Its straight course and red colour also support a boundary reading. The reported junction is conditional on interpreting these bands as roads.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative reading: a field or property boundary rather than a track."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "If the weaker edge belongs to adjacent parcel linework, only one continuous reddish line remains."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[367, 706], [381, 726], [396, 749], [407, 766]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short southeast-slanting dark stroke has a nearby lighter edge or pale strip; its upper end is entangled with the large T, small angular marks and the number 28.",
+      "uncertainty_note": "This could be a short access track, but it could equally be an enclosure edge beside blue-green linework. No connection to f01 or f03 is established, and its lower continuation is indistinct.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible short track if the adjacent strokes form intentional casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative reading: parcel edge or ditch-associated linework, not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [306, 846],
+      "branch_count": 3,
+      "evidence_note": "The pale diagonal band continues in two directions, while a narrower reddish-and-pale band meets its southern side; three branches are visible under the road interpretation, although a boundary intersection remains possible."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [524, 539, 623, 611],
+      "why": "Heavy black lettering and angular building symbols obscure the dotted line's course and possible connections."
+    },
+    {
+      "bbox_uv": [346, 661, 390, 716],
+      "why": "The large T and nearby small symbols overlap the dotted line and the possible southward track."
+    },
+    {
+      "bbox_uv": [718, 0, 753, 1000],
+      "why": "A dark, slightly slanting sheet seam locally hides or displaces fine strokes; only the narrow seam itself is unreadable within this bounding box."
+    }
+  ],
+  "overall_note": "The winding dotted line is the strongest path evidence, but its dot symbol does not exactly match the available classes. The straight reddish bands support both road and boundary readings, so their features and junction remain conditional. Long black dashed divisions, blue-green lines and angular marsh compartments were read as non-road linework."
+}

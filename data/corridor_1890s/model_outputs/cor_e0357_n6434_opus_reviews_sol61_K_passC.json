@@ -1,0 +1,154 @@
+{
+  "tile_id": "cor_e0357_n6434",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thick brown-filled double line with dark/red edging enters at the top edge near u=350 and runs SSE through (405,120) and down past 'Hjelmsled' to about (402,320); this is the same road symbol as the main road further south.",
+      "uncertainty_note": "Red edging may mean a boundary also follows the road; class wide vs narrow is a judgement on line width."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [[402, 320], [420, 355], [445, 395], [475, 445], [505, 485], [540, 498]],
+      "evidence_note": "From about (402,320) to (540,498) the polyline follows the thick brown road, but its western start runs from (330,345) over (375,322) along the thin crimson line bordering the small pink parcel, which is a boundary, not road.",
+      "uncertainty_note": "Main course is clear; only the westernmost ~80 px is disputed."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thick brown double line continues from (540,498) south past (560,560), (580,640), (615,700) to the point near (640,737) where the thin crimson line from the north meets it.",
+      "uncertainty_note": "Low; the line is crisp throughout."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown double line continues SE from (640,737) past '2T' and the '147' numerals to about (750,870).",
+      "uncertainty_note": "Exact end point among the buildings and boundary lines near (750,870)-(765,905) is hard to fix."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows a thin single crimson line (field/parish boundary style, like the boundaries in the worked example) from about (330,345) down to (205,520)/(170,550); no brown road fill or dotted path symbol.",
+      "uncertainty_note": "Low; same symbol as other boundary lines on the tile."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A black dotted line runs from about (35,470) down to (55,630) through unwooded ground; dotted single line = Gångstig symbol.",
+      "uncertainty_note": "Southern end fades into the pink field; it may continue toward the Slätas road (see f12)."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the left edge (0,400)-(170,550) the only lines are a thin crimson boundary and a field/parcel outline; no road symbol.",
+      "uncertainty_note": "Moderate: the left edge is cluttered with parcel edges and a dotted line; if f07 was meant to be the dotted line it would duplicate f06."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thin orange-brown line with black dots runs from the main road near (545,495) ENE through (650,435), (710,420), (800,395), (900,350) to the right edge near (1000,285), crossing the crimson boundary at (708,420); this matches the path/track drawing in the worked example.",
+      "uncertainty_note": "Class between single_line and dashed_line (dotted) is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Black dotted line runs from the Slätebacke farmyard (~(600,50)) south through the conifer forest at u≈590-605 to meet f08 near (580,470); dotted = Gångstig; it bounds no coloured parcel, so it is not a land-use outline.",
+      "uncertainty_note": "Northern end inside the farmyard is unclear."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown line leaves the Slätas road near (180,750) and runs SSW through (160,800), (140,850) to the crimson line at about (125,882); brown colour, not crimson, indicates a road.",
+      "uncertainty_note": "Width is ambiguous between narrow double line and single line."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown double line with dark edges arcs from (180,750) through (300,738), (380,765), (450,820), (520,875) to (560,905) past 'Slätas T.', and then a brown line continues NE through (610,870), (660,852) toward the main road near (710,845).",
+      "uncertainty_note": "Where exactly the NE continuation joins f04 (around (700,820)-(720,850)) is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between (110,680) and (180,750) the polyline crosses a pink arable field; there are faint marks but no clearly drawn road or dotted path symbol visible at this resolution.",
+      "uncertainty_note": "It would be a plausible link from the f06 path to the Slätas road, but the drawing does not show it clearly."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows a thin crimson line from (595,995) through (700,950) to (750,890); same thin crimson symbol as the boundaries, no brown road fill.",
+      "uncertainty_note": "Moderate: the line is partly dark and passes buildings, so a narrow road cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Thick red-brown double line runs from near (765,905) east to (850,890), then bends SE through (880,925), (905,965) to the bottom edge near (920,1000); same weight as the main road, probably its continuation.",
+      "uncertainty_note": "The proposal's course is somewhat south/east of the drawn line in places (within ~20 px); its strongly red tint leaves a small chance it is an emphasised boundary."
+    },
+    {
+      "reviewed_feature_id": "f15",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near the river at the right edge the only lines are thin crimson boundary lines and the blue watercourse; no brown road symbol along (900,780)-(1000,850).",
+      "uncertainty_note": "Moderate: the area is cluttered with 'Rannäs' lettering and the river edges."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [640, 737],
+      "what_is_contested": "Whether this is a road junction at all: the main road (f03/f04) is met by the thin crimson line coming from (735,140); if that line is a boundary, the road just passes through here.",
+      "evidence_note": "The northern line is thin crimson without brown fill, which reads as a boundary; I record no road junction here."
+    },
+    {
+      "uv": [560, 905],
+      "what_is_contested": "Number of branches: the Slätas road (f11) meets its NE continuation and thin crimson lines running N and S; only two of the four branches look like roads.",
+      "evidence_note": "Brown double line enters from the W and leaves to the NE; crimson single lines go to (520,820) and (575,1000)."
+    },
+    {
+      "uv": [715, 845],
+      "what_is_contested": "Where the NE branch from (560,905) joins the main road: around (700,820) or nearer (740,855).",
+      "evidence_note": "The junction lies among buildings, the '147' numerals and dark ink marks."
+    },
+    {
+      "uv": [760, 890],
+      "what_is_contested": "How the main road (f04) links to the thick red road (f14) and whether f13 joins here as a road; the overlay leaves a small gap between f04 and f14.",
+      "evidence_note": "Buildings and a 'T.' mark, plus crimson boundary lines, converge at (750,870)-(770,910)."
+    },
+    {
+      "uv": [180, 750],
+      "what_is_contested": "Whether this is a 3-way junction (f10, f11, f12) or a 2-way bend (f10 and f11 only).",
+      "evidence_note": "f10 and f11 are clearly drawn; a westward continuation (f12) is not clearly visible."
+    }
+  ],
+  "overall_note": "Brown/red-brown double lines (f01-f04, f10, f11, f14) and the dotted paths (f06, f08, f09) are roads; thin crimson single lines (f05, f07, f13, f15, and the N-S line from (735,140)) are boundaries, as in the worked example. The pink-banded V of lines at the top right (620-850, 0-80) and the dotted outlines around the hatched parcels at the top are read as boundary banding and land-use outlines, not roads. f02 wrongly starts along a parcel boundary, and f12 cannot be judged."
+}

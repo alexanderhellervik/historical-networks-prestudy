@@ -1,0 +1,189 @@
+{
+  "tile_id": "cor_e0365_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,842],[28,846],[56,852],[81,852],[117,844],[155,835],[195,824],[230,815],[252,815],[276,822],[293,824],[316,816],[350,799],[383,786],[408,780],[438,772],[461,778],[484,795],[510,816],[537,838],[565,855],[592,869],[629,880],[668,889],[706,899],[747,908],[789,916],[834,920],[879,923],[923,921],[967,915],[1000,909]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantial, continuous dark outlines enclose a reddish-orange band about 10–15 px wide; the pair remains identifiable through several crossings and printed characters.",
+      "uncertainty_note": "The course through the lower lettering is supported by visible casing on both sides. The distinction between wide and narrow double-line symbols has no supplied numerical threshold.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible alternative description of the same paired symbol if 'wide' is reserved for more widely separated lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,383],[12,411],[19,447],[24,475],[27,501],[35,535],[46,563],[62,590],[85,612],[111,632],[145,653],[177,671],[209,682],[243,692],[274,705],[305,719],[334,735],[367,749],[391,758],[405,764]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A fine orange-brown trace with closely spaced dark dots curves down the left side and then runs southeast; it is much lighter and narrower than f01.",
+      "uncertainty_note": "The seam hides a short interval near v=480–500; the traces immediately above and below align. Some stretches could instead be a dotted property boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The orange carrier sometimes appears continuous, with the dark dots alongside it."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary reading remains possible because this thin dotted symbol also coincides with several parcel edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[405,764],[408,780]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j01"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A short, narrow dark and orange segment joins the dotted fork to the upper casing of the paired road.",
+      "uncertainty_note": "The segment is too short and congested to distinguish one dotted line from a narrowly paired symbol reliably.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "It may be a continuation of the dotted symbol used by f02 and f04."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[405,764],[424,753],[442,739],[459,728]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A fine orange-brown line with dark dots turns northeast from the fork and reaches the large black 'T' lettering.",
+      "uncertainty_note": "The lettering and adjacent black strokes obscure the upper end. A continuation toward the small black symbol farther northeast cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some dark strokes near the endpoint may belong to lettering or parcel outlines rather than the dotted line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,85],[18,68],[38,45],[56,24],[72,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange-brown diagonal with closely spaced dark dots clips the upper-left corner; it differs from the longer, widely separated black parcel dashes nearby.",
+      "uncertainty_note": "The short visible run supports a path reading, but its relationship to the line descending along the left edge is outside or at the clipped edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary is an alternative interpretation of this short corner segment."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,86],[8,112],[18,140],[18,166],[12,191],[15,212],[25,238],[29,258]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A fine brown-orange trace with dark interruptions descends beside several heavy black building outlines along the left margin.",
+      "uncertainty_note": "Building edges and clipping make the trace difficult to separate from adjoining outlines, especially at the lower end. Its connection to f05 is not resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the fine dotted trace is independent of the building outlines, it resembles the path symbol used by f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent trace may combine a boundary with building or enclosure edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[83,214],[113,196],[143,180],[176,162],[214,146],[250,135],[289,124],[321,111],[347,91],[382,78],[417,73],[450,69],[479,58],[506,44],[539,36],[575,25],[612,13],[644,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A dark interrupted edge with some brown-orange colour follows the northwest side of a diagonal band filled with close horizontal hatching; another dark edge lies southeast of it.",
+      "uncertainty_note": "A track alongside the hatched band and an irregular edge of the hatched symbol are both supported readings. The southwestern termination does not clearly expose a separate road end.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The interrupted northwest trace could be a separate dotted track alongside the hatching."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Both dark edges may belong entirely to the wetland symbol, leaving no road here."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[774,508],[782,546],[791,585],[800,628],[805,669],[802,704],[789,740],[770,769],[745,797],[724,828],[709,859],[702,880]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint, thin brown-orange curved trace is visible within the pink area, west of the darker dotted line; portions have small dark interruptions and no clear casing.",
+      "uncertainty_note": "The trace could be a path or an internal parcel division. The seam obscures its upper continuation, and lettering and the paired road obscure its lower termination; a road junction is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some sections appear to form one continuous fine line."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark interruptions could represent a dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "An internal field or property boundary is also plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[667,904],[678,930],[690,958],[703,985],[710,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A narrow oblique dark and brown-orange trace descends from just below the paired road; a nearby stroke makes parts appear narrowly paired.",
+      "uncertainty_note": "The upper connection is lost among the road casing and other diagonal strokes. This may be a short track, a parcel boundary, or two unrelated adjacent lines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the neighbouring strokes form one symbol, they could outline a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may instead be separate parcel edges."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [408,780],
+      "branch_count": 3,
+      "evidence_note": "The two dark casings of f01 continue west and east, while the short narrow segment f03 reaches the upper casing: three visible arms."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [405,764],
+      "branch_count": 3,
+      "evidence_note": "Fine dark and orange strokes form a fork with northwest, northeast and short southward arms; crowding makes the precise meeting point approximate."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,474,1000,509],
+      "why": "A sloping horizontal map seam obscures or displaces fine strokes; this bounding box encloses the affected strip."
+    },
+    {
+      "bbox_uv": [430,687,501,741],
+      "why": "Large black lettering and adjacent symbols prevent reliable separation of the dotted spur from other strokes."
+    }
+  ],
+  "overall_note": "The lower paired road is clear; fine dotted and brown-orange traces admit path and boundary readings. Candidate features with unresolved road identity are retained with alternatives, and obscured connections are not completed. Long parcel dashes, the straight red diagonal and clearly hatched or blue water symbols are excluded."
+}

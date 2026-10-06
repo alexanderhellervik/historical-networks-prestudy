@@ -1,0 +1,157 @@
+{
+  "tile_id": "cor_e0366_n6428",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f01 follows the broad pink/magenta band from (230,0) to (265,315), then SE to about (600,740) and on to (880,1000). In the top segment the band carries a black dash-dot edge, like a socken/härad boundary with a colour wash. At (265,315) it meets a second band of the same style running west (f02), and at (600,740)-(645,705)-(665,735) it makes a sharp jog to meet the stream. Both of these fit a boundary, not a road. The brown roads (f05 at ~(420,515), f07/connector at ~(550,690)) cross the band; none runs along it.",
+      "uncertainty_note": "Moderate. Along (300,350)-(560,690) the band has two thin edges with pink fill and could be read as a double-line landsväg. However, no road symbol (brown double line or dots) is visible inside it, and the boundary reading fits the dash-dot pattern and the jogs better. South of (660,735) the drawn line also departs from f01's straight course (f01 runs about 40-50 px SW of the band near (700,850))."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (0,440) to (265,320) the drawn line is a row of heavy black dashes with a pink wash band beside it. This is the boundary symbol (dash-dot with colour band), continuous with the band under f01. There is no brown road line along it.",
+      "uncertainty_note": "Low. A thin second line runs parallel to the dashes, but at this resolution it reads as the band edge, not a road casing."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double thin-line road runs from near 'Gallkrok' (~155,295) SE via (190,380), (250,450), (340,540), (420,620), (455,690), (465,750), then S/SW via (430,840), (405,920) to the bottom edge near (380,1000). It has the same brown casing as the Sämre körväg in the worked example. f03 follows it.",
+      "uncertainty_note": "The north end under the 'Gallkrok' lettering is not resolvable; the road may continue a little north under the text or end at the farm."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line runs from the farm symbol near '27' (~65,550) east via (110,520), (170,507), (240,510), (300,518) to the road junction at ~(340,540). The fine dots match Gångstig.",
+      "uncertainty_note": "The western continuation from (65,550) to the tile edge near (0,580) is faint; it may end at the farm."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted/thin line leaves f03 near (345,540), runs E to (415,515), crosses the pink band and the black dashed skifte line, and climbs NE via (470,500) and (520,465) to the croft 'T 26' at ~(560,445). It is brownish dotted, not the black dashed boundary that runs parallel to it.",
+      "uncertainty_note": "Between (430,520) and (470,500) the path lies right next to the black dashed boundary and the two are hard to separate. The small hook at the croft end is not verifiable."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near f06's course there are (a) two thin black parallel lines forming a narrow strip from ~(345,560) SW to ~(250,700), and (b) a short brown dotted line dropping from ~(330,565) roughly south toward (315,640). Neither runs straight to (185,705) as f06 does, and neither is clearly a brown-cased road.",
+      "uncertainty_note": "The double black strip could be a narrow uncoloured track or a ditch/field strip, and the dotted line could be a short path. The drawing does not decide which, if either, f06 intends."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double-line road runs from ~(548,692) E along (630,690) and (700,655), past the Heda settlement near (770,685), then NE via (840,650), (880,580) and (910,522), past the croft 'T 25' to the right edge near (1000,400). This is the same brown casing as f03. It crosses the thin straight dark-red line (boundary) at ~(910,522) rather than following it.",
+      "uncertainty_note": "Small offsets around (720-800,650-690), where the road meets buildings and the stream bank. The west end should continue SW to join f03 (see m04) unless that is already part of f07."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a thin brownish line running from ~(835,145) ENE to the right edge near (1000,95), alongside a dark field-boundary line. Between the croft 'T' at (750,175) and (830,140) the area is crossed by several dark boundary and stream lines, and no road casing is distinguishable.",
+      "uncertainty_note": "The brownish line could be a single-line track or a coloured field edge. Whether it links to the 'T' at (750,175) as f08 suggests cannot be judged."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f09 is a short E-W segment from the Stensås No 8 farm symbol (~440,190) along the baseline of the 'Stensås' lettering. No line is visible continuing it east of the lettering. The only road-like line here is the dotted path that runs N-S through the farm (m01/m02).",
+      "uncertainty_note": "The lettering could hide a short farm track, so this is not certain."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[395, 0], [403, 60], [415, 120], [430, 170], [442, 190]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A fine brown dotted line comes in from the top edge at ~(395,0) and runs S to the Stensås No 8 farm symbol (~442,190). It has the Gångstig pattern.",
+      "uncertainty_note": "Clear in the top half; near the farm it merges with the building outlines and lettering.",
+      "alternatives": ["could be a dotted hemmansgräns segment, but the colour is brown, not black"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[442, 195], [452, 240], [458, 290], [458, 340], [470, 400], [505, 425], [545, 442]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A dotted path leaves the Stensås farm southward between the field parcels and bends SE to the croft 'T 26', where it meets f05.",
+      "uncertainty_note": "The course between (450,230) and (460,330) runs along parcel edges and could be partly a boundary; the dots are faint.",
+      "alternatives": ["a parallel dotted line slightly further east, (430,190)-(470,330), may be the actual path"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[275, 338], [320, 342], [370, 335], [405, 325]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A faint dotted line runs E from the boundary junction near (265,320) across the open ground toward the parcels at ~(400,325).",
+      "uncertainty_note": "Low confidence. The dots are sparse and could be a field-edge or boundary symbol rather than a path.",
+      "alternatives": ["not a road (dotted boundary)"]
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[462, 758], [500, 728], [548, 692]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A brown double-line link runs NE from f03 at ~(462,758) to the west end of f07 at ~(548,692), crossing the pink band. It has the same casing as f03 and f07.",
+      "uncertainty_note": "Only missing if it is not already part of f07; the overlay rendering here is hard to separate from the map.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m05",
+      "waypoints_uv": [[295, 680], [305, 730], [300, 770], [250, 810], [215, 860], [175, 910]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "dead_end"],
+      "evidence_note": "A thin orange-brown single line curves from ~(295,680) S then SW toward (175,910) through the forest W of L. Stensmossen. In the worked example, similar orange-brown thin lines accompany Gångstig.",
+      "uncertainty_note": "Low confidence. It may be a coloured land-cover edge (bog/meadow limit) rather than a path; it has no dots and connects to nothing.",
+      "alternatives": ["not a road (land-cover edge)", "single_line path"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [265, 318],
+      "what_is_contested": "Existence of a road junction: the overlay joins f01 and f02 here, but I read it as a meeting of three boundary bands, not a road junction.",
+      "evidence_note": "Black dash-dot edges and pink wash on all three arms; no brown road casing at the meeting point."
+    },
+    {
+      "uv": [340, 542],
+      "what_is_contested": "Number of branches: f03 passes through, and f04 (W), f05 (E) and possibly f06 (SW) and a short dotted spur (S) meet. Whether f04 and f05 meet f03 at one point or at two nearby points is unclear.",
+      "evidence_note": "Several dotted and thin lines converge within about 20 px, close to lettering and parcel edges."
+    },
+    {
+      "uv": [420, 518],
+      "what_is_contested": "Whether f05 makes a road junction with anything here or only crosses the pink band and the black dashed skifte line.",
+      "evidence_note": "The dotted path, the black dashed boundary and the band edges all cross in a small area."
+    },
+    {
+      "uv": [462, 758],
+      "what_is_contested": "Position and existence of the f03/m04 junction (the link toward f07).",
+      "evidence_note": "The brown double line toward (548,692) leaves f03 somewhere between (455,740) and (465,770), and the exact split point is blurred."
+    },
+    {
+      "uv": [910, 522],
+      "what_is_contested": "Whether this is a road junction or only f07 crossing the thin dark-red boundary and the stream edge.",
+      "evidence_note": "Several lines cross at one point. Only f07 carries brown road casing; the others are a boundary and a watercourse edge."
+    }
+  ],
+  "overall_note": "The brown double-line roads (f03, f07 and the link m04) and the dotted paths (f04, f05, m01, m02) are well drawn and agree with the overlay where it has them. The broad pink band under f01/f02 reads as a boundary with colour wash rather than a road, so those are recorded as disagreements, though a landsväg reading of the f01 band is not fully excluded. f06, f08 and the faint m03/m05 lines are not decided by the drawing at this resolution."
+}

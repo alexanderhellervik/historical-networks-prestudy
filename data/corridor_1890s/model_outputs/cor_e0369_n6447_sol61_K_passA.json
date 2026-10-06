@@ -1,0 +1,197 @@
+{
+  "tile_id": "cor_e0369_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,65],[13,60],[19,34],[29,20],[49,18],[88,24],[127,31],[170,43],[211,52],[222,45],[235,28],[245,25],[259,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish strip has dark margins roughly 6–10 px apart; short dark marks appear along its upper margin.",
+      "uncertainty_note": "The blue line touching its southern margin locally makes the casing harder to distinguish.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Parts could instead be a red boundary coincident with a blue line; the paired margins favour a road reading."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[245,25],[243,64],[242,110],[242,159],[245,209],[246,261],[247,310],[244,359],[236,399],[222,443],[202,489],[174,530],[154,576],[136,623],[116,674],[99,719],[86,753]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two parallel rows of dark dots, approximately 7–10 px apart, enclose a pale ochre strip.",
+      "uncertainty_note": "The lower end reaches the horizontal image seam. Its relationship to the displaced dotted line below the seam is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[174,530],[207,545],[244,561],[280,578],[315,594],[343,613],[361,631],[370,649],[383,685],[397,724],[411,766]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Paired dark dotted margins enclose a narrow ochre strip; the line bends south beside the green enclosure and black building marks.",
+      "uncertainty_note": "Black lettering overlaps a short part of the bend, but matching dotted margins are visible immediately before and after it. Continuity across the lower image seam is uncertain.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[563,0],[554,43],[546,88],[539,134],[536,182],[531,232],[529,280],[525,326],[519,376],[514,425],[509,472],[505,504],[488,519],[460,538],[435,554],[420,568]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two close rows of dark dots flank a pale ochre strip; their diagonal end approaches the large black A.",
+      "uncertainty_note": "The margins disappear into lettering. A connection to f03 through the enclosure is possible but cannot be traced securely.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"It may continue southwest beneath the lettering to meet f03; that hidden course is not supplied."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,465],[18,480],[51,497],[85,513],[118,526],[149,534]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "One row of relatively heavy, closely spaced dark dots curves southeast, without a visible second margin.",
+      "uncertainty_note": "The dots stop roughly 20–25 px short of f02. A faint or missing connection to j02 is possible; a boundary interpretation is also possible.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The single dotted row could be a boundary rather than a path."},
+        {"proposed_class":"dashed_line","note":"It could join j02 across the short undrawn gap, adding a fourth branch there."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[280,578],[270,615],[259,654],[246,692],[232,731],[221,756]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A single thin dark broken line leaves the paired dotted diagonal and runs southwest; some marks are longer than the intervening dots.",
+      "uncertainty_note": "Its mixed dots and dashes support a field or property boundary reading as well as a path. It disappears at the image seam.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"If read as a path, this is a single broken-line branch from f03."},
+        {"proposed_class":"unknown","note":"If it is a boundary, j03 is not a road junction."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[400,779],[416,817],[438,859],[459,900],[484,947],[508,984],[522,991],[558,977],[596,955],[633,933],[671,910],[706,887],[740,867],[781,854],[817,839],[853,819],[888,800],[921,783],[948,759],[975,731],[1000,707]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Paired dotted margins with reddish and turquoise registration fringes bend sharply near the bottom edge and pass beside dark buildings in a green enclosure.",
+      "uncertainty_note": "The upper-left continuation to f03 is displaced and interrupted at the seam. The northeastern course remains visible through colour changes, although its paired margins become less distinct near the right edge.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The northeastern end may reduce to a single dotted path rather than retain two margins."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[60,770],[46,805],[31,840],[18,874],[10,898],[5,918]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Two close rows of dark dots, fringed with turquoise and red, descend along the left edge and cross a heavier solid diagonal line.",
+      "uncertainty_note": "The upper end is interrupted by the seam and offset from f02. Large black lettering obscures the lower end.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Colour displacement makes it possible that the apparent pair is one broken line rather than two road margins."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[201,772],[188,800],[178,824],[155,854],[137,882],[124,908],[113,940]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "A single broken dark line with conspicuous turquoise and red offsets descends southwest; several strokes are long and heavy.",
+      "uncertainty_note": "The long strokes favour a boundary interpretation, but a dashed path remains possible. It ends against the solid diagonal red-and-dark line.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The repeated marks could represent a path affected by colour misregistration."},
+        {"proposed_class":"unknown","note":"It may be a field or property boundary rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[862,0],[870,44],[883,89],[898,134],[913,179],[927,223],[942,267],[955,306],[973,351],[989,386],[1000,410]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two substantial dark margins enclose a pink strip approximately 12–20 px wide; a pale blue-green strip runs alongside it.",
+      "uncertainty_note": "Small dark flecks along the margins are not resolved well enough to exclude a railway or another cased linear symbol. No secure connection to f11 is visible.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The cased pink strip could be a railway or another linear feature rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[897,73],[918,64],[940,52],[955,40],[967,27],[979,13],[989,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A reddish diagonal strip has close dark margins and crosses the curved paired line near the upper-right corner.",
+      "uncertainty_note": "Its western end touches blue and dark linework; a connection across that area to f10 cannot be established.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A red boundary beside blue linework is an alternative to the road reading."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[950,0],[961,16],[967,27],[976,56],[983,88],[987,122],[988,157],[990,189],[997,222],[1000,239]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two thin, mostly continuous dark curves enclose a narrow pale tan strip; reddish marks occur along parts of the course.",
+      "uncertainty_note": "The symbol could instead be parallel boundary or bank lines. At f11 the marks overlap without a clearly resolved bridge or junction symbol.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Parallel bank or boundary lines could account for this course."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [245,25],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted line departs south from the narrow reddish, dark-edged curve; three arms are visible, with some overlap at the attachment."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [174,530],
+      "branch_count": 3,
+      "evidence_note": "Paired dotted margins continue north and southwest while another paired dotted strip leaves southeast. The separate western dotted line stops short."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [280,578],
+      "branch_count": 3,
+      "evidence_note": "A single broken dark line touches the southeast-running paired dotted strip, producing three arms if the single line is a path; its boundary reading would remove this road junction."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [967,27],
+      "branch_count": 4,
+      "evidence_note": "The reddish diagonal and the thin paired curved line overlap with four visible arms. A connection, crossing, or non-road intersection cannot be distinguished at this resolution."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [50,748,103,781],
+      "why": "The horizontal image seam interrupts and displaces the dotted courses, preventing a secure connection between f02 and f08."
+    },
+    {
+      "bbox_uv": [390,752,431,795],
+      "why": "Seam displacement and overlapping colour obscure the connection between f03 and f07."
+    },
+    {
+      "bbox_uv": [399,569,436,643],
+      "why": "Heavy black lettering hides the end of f04 and any possible continuation through the enclosure."
+    },
+    {
+      "bbox_uv": [199,809,249,861],
+      "why": "A rectangular pale image patch suppresses fine linework."
+    },
+    {
+      "bbox_uv": [761,777,812,811],
+      "why": "A rectangular seam patch interrupts the underlying drawing."
+    }
+  ],
+  "overall_note": "Paired dotted tracks are the clearest road symbols on this tile. Single broken lines and the cased lines at the right edge admit non-road readings, retained as alternatives. Lettering and the horizontal image seam prevent several connections from being established."
+}

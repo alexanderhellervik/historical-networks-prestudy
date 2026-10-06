@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0348_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[510, 0], [516, 50], [521, 100], [526, 150], [532, 192], [545, 238], [561, 282], [582, 324], [603, 371], [625, 416], [646, 462], [666, 505], [687, 550], [706, 594], [723, 639], [741, 685], [758, 721], [766, 741]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Broad pink strip with dark longitudinal edging; an adjoining gray-black band on its right contains repeated dark blocks and pale gaps. The combined mark is approximately 20–35 px wide.",
+      "uncertainty_note": "A road reading is possible, but the repeated blocks resemble railway symbology. These waypoints follow the pink strip; whether the adjoining gray band is part of the same symbol or a separate parallel feature is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The pink strip and dark margins could form one broad cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire mark could be a railway rather than a road, or a road could run immediately beside a railway."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[766, 741], [772, 784], [782, 823], [791, 865], [797, 910], [802, 953], [800, 986], [796, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Pink strip continues downward between dark margins, with a heavier mottled gray-black band immediately to its right. Blue outlines cross or touch it at several positions.",
+      "uncertainty_note": "The symbol continues visibly through the crossings, but its interpretation as a road remains uncertain because of the adjoining repeated dark marks.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible continuation of a broad cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible railway, or closely parallel road and railway represented by the adjoining bands."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[766, 741], [800, 723], [837, 700], [875, 678], [912, 650], [945, 619], [975, 585], [1000, 556]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pink band approximately 15–25 px wide curves toward the right edge, bounded by dark strokes. Its lower margin includes spaced heavier black marks and pale interruptions.",
+      "uncertainty_note": "The course and convergence are visible, but the heavy interrupted margin permits both road and railway readings.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Two dark margins enclosing pink colour could depict a broad road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The interrupted heavy margin could instead belong to a railway symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[809, 767], [840, 750], [875, 730], [910, 718], [945, 712], [976, 712], [1000, 717]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A much thinner reddish stroke, approximately 3–6 px wide, runs below the broad diagonal band. Small dark interruptions accompany it; no consistently separated pair of margins is visible.",
+      "uncertainty_note": "This could be a minor route or a coloured boundary. Its western continuation overlaps blue and gray-black strokes, so it is stopped at the last separately visible portion.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible minor route drawn as one thin reddish line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible property or administrative boundary rather than a road; any connection to the broad north–south mark is unresolved."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [766, 741],
+      "branch_count": 3,
+      "evidence_note": "Three broad pink branches converge within overlapping dark edging: one above, one below, and one toward the upper right. This is a provisional road junction because the shared symbol could instead represent railway branches."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [773, 763, 812, 793],
+      "why": "Overlapping blue outlines, pink colour, and heavy gray-black strokes prevent a separate reading of the thin reddish line's western continuation."
+    }
+  ],
+  "overall_note": "The broad pink marks have visible courses but ambiguous road-versus-railway symbology, so they are retained as uncertain candidates. The thin eastern stroke also permits a boundary reading. The long angular dashed line in the southwest reads as a boundary, and the straight pale band across the middle appears to be a fold or scan seam."
+}

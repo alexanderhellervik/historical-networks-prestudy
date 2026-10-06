@@ -1,0 +1,175 @@
+{
+  "tile_id": "cor_e0346_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,714],[29,696],[61,678],[99,657],[137,638],[177,619],[216,601],[257,582],[299,565],[338,548],[366,534],[390,517],[410,503],[430,492],[449,497],[472,510],[493,501],[520,487],[551,473],[583,454],[616,440],[647,427],[674,411],[701,389],[731,356],[759,326],[786,293],[805,263],[827,230],[846,199],[863,165],[885,132],[900,113],[925,91],[950,66],[972,35],[985,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j03","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A reddish strip approximately 8–12 px wide has closely repeated dark stipples along both margins. The paired stippled margins remain recognizable through the bends and beside the black building rectangles.",
+      "uncertainty_note": "The road reading is strong, but the dotted margins do not clearly match a supplied symbol-form class. Junctions j02 and j03 depend on the doubtful road readings of f03 and f04.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Applicable if two stippled margins are treated as a narrow double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[338,548],[337,582],[342,618],[350,654],[360,688],[369,714],[348,728],[308,739],[298,759],[279,781],[273,805],[273,840],[273,873],[273,901],[267,925],[245,948],[219,969],[194,978],[166,985],[144,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark stippled margins enclose a reddish narrow strip. They turn sharply near [369,714] and [308,739], then continue around the lower bends.",
+      "uncertainty_note": "The road reading is strong; its paired dotted symbol has no exact supplied class. Junction j04 is conditional on the faint f06 line being a path.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two stippled edges could be classified as narrow double lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[492,116],[505,153],[516,191],[527,229],[535,264],[547,300],[563,336],[582,374],[601,411],[616,440],[631,469],[645,495],[655,515]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Two fine gray lines approximately 6–12 px apart run diagonally through the horizontal hatching. A broader gray wash adjoins them, and short transverse marks are visible along parts of the course.",
+      "uncertainty_note": "This is a doubtful road candidate: the paired lines could belong to a watercourse, another linear symbol, or a scan crease. The upper course is indistinct at the horizontal image seam; the lower course enters heavy lettering, so neither continuation is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible road reading if the fine parallel rules are road edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road reading as watercourse banks or another linear or scan feature; transverse marks may be background hatching."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[410,503],[419,522],[431,541],[438,554],[424,569]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short, faint gray course runs between black rectangular marks and a red outlined rectangle. Portions appear paired, but building strokes interrupt their edges.",
+      "uncertainty_note": "Possible access track; adjoining building or parcel outlines could account for some strokes. The trace stops at the upper edge of the large G lettering.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if the short pale paired strokes enclose a track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road reading as building or parcel outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,723],[23,721],[44,727],[61,741],[76,761]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A faint gray curved stroke, locally accompanied by a second pale edge, lies below the reddish stippled line. Its eastern end reaches the black dots and strokes of the large lower-left label.",
+      "uncertainty_note": "Possible path, but a parcel margin or wash edge is also plausible. No connection to f01 or continuation beneath the label is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible path reading where only one gray stroke is discernible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road reading as a parcel margin or edge of gray wash."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[147,838],[170,853],[198,867],[225,872],[250,873],[273,873]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin pale gray line curves beneath the lower-left lettering and runs approximately horizontally into the stippled north–south strip. It has no clearly continuous casing or regular dash pattern.",
+      "uncertainty_note": "Possible path or parcel margin. Its western origin is concealed by lettering; a connection with f05 is possible but cannot be traced confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible single-stroke path joining f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel margin; f05 and f06 might also be exposed portions of one obscured line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[938,746],[939,779],[934,813],[923,848],[909,882],[897,917],[886,950],[878,979],[873,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Two very pale gray curved edges, approximately 5–10 px apart, interrupt the horizontal hatching near the right side. Their upper end approaches a much heavier blue diagonal stroke.",
+      "uncertainty_note": "Possible narrow track, but the faint paired edges could instead outline a ditch or another strip. The connection at the heavy blue stroke is unclear and is not treated as a road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible road reading of the paired gray edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road reading as ditch banks or margins of a narrow mapped strip."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [338,548],
+      "branch_count": 3,
+      "evidence_note": "The reddish strip with paired dark stippled margins continues southwest and northeast; a similarly stippled strip turns south at the same point."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [616,440],
+      "branch_count": 4,
+      "evidence_note": "The reddish paired-stipple line crosses the fine paired gray diagonal lines. Four branches are visible under the road interpretation of f03; a connected road junction is uncertain."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [410,503],
+      "branch_count": 3,
+      "evidence_note": "A faint gray course approaches the underside of the reddish stippled bend beside black rectangles. Three branches are possible if f04 is an access track."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [273,873],
+      "branch_count": 3,
+      "evidence_note": "A pale gray approximately horizontal stroke meets the west edge of the north–south reddish stippled strip. Three branches are possible if f06 is a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,758,242,843],
+      "why": "Large black lettering conceals the possible continuation of the faint lower-left line."
+    },
+    {
+      "bbox_uv": [368,564,440,620],
+      "why": "The heavy G symbol hides any continuation of the short candidate access track."
+    },
+    {
+      "bbox_uv": [475,485,850,576],
+      "why": "Large Rasan lettering conceals the lower continuation of the paired diagonal candidate."
+    },
+    {
+      "bbox_uv": [475,88,520,139],
+      "why": "The horizontal image seam and gray wash make the upper continuation of the fine diagonal candidate indistinct."
+    }
+  ],
+  "overall_note": "The two reddish paired-stipple routes are the clearest roads, although their symbol has no exact supplied class. Faint gray candidates are retained with non-road alternatives, and j02–j04 are conditional junction readings. Lettering, hatching, and the image seam prevent confident continuation of several fine lines."
+}

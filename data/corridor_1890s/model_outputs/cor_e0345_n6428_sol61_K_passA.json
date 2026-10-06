@@ -1,0 +1,99 @@
+{
+  "tile_id": "cor_e0345_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[929,0],[933,39],[942,78],[952,113],[953,135],[941,170],[922,207],[903,246],[886,280],[878,307],[879,328],[890,339],[908,344],[932,358],[945,374],[953,399],[957,425],[955,451]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow reddish-ochre strip has dark dots or short strokes along its margins, approximately 5–10 px apart across the strip; it curves beside the heavy blue outline.",
+      "uncertainty_note": "The broken margins do not clearly establish continuous double-line casing. Its continuation near the eastern building symbol is difficult to separate from other strokes.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The marginal marks may be two interrupted, closely spaced road outlines."},
+        {"proposed_class":"dashed_line","note":"The dark dotted or short-stroke pattern may be the principal road symbol."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[1000,134],[972,156],[951,180],[941,209],[932,250],[919,295],[910,326],[908,344]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A fine ochre-brown stroke with a faint yellow fringe curves down-left; no clearly separated second outline or regular dots are visible.",
+      "uncertainty_note": "This is an apparent thin road or path branch, but a parcel boundary remains possible. Its contact with the dotted strip is slightly blurred.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The thin coloured stroke could be a field or property boundary rather than a road."},
+        {"proposed_class":"double_line_narrow","note":"The faint fringe could conceal a second very close outline."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[978,493],[990,506],[1000,520]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Short dark marks and a faint ochre-reddish trace run southeast below the orange, dark-outlined building symbol at the right edge.",
+      "uncertainty_note": "This may be the visible continuation of f01, but the intervening course cannot be traced confidently. The marks may instead belong to boundary or building-adjacent linework.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The short dark marks may form a dotted track continuation."},
+        {"proposed_class":"unknown","note":"A non-road boundary interpretation, or a different course through the obscured patch, is possible."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,898],[25,889],[47,882],[65,886],[87,899],[113,919],[142,941],[172,963],[201,985],[225,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two close, irregular rows of dark dots or short strokes flank an ochre-red band approximately 8–12 px wide; the band bends continuously through the corner.",
+      "uncertainty_note": "The outlines are broken rather than continuously cased, so the symbol could also be described by its dotted or dashed pattern.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Both narrow marginal rows consist largely of separated marks."},
+        {"proposed_class":"unknown","note":"A paired dotted road symbol is not explicitly named in the available class list."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[337,1000],[362,993],[397,990],[434,990],[472,990],[510,991],[548,994],[590,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A shallow curved ochre-red band clips the bottom edge, with dark dots along its upper margin and intermittent lower marginal marks visible just inside the face.",
+      "uncertainty_note": "The lower outline is partly clipped. This may continue f04 outside the tile, but no connection within the face is drawn.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The visible dark outline is predominantly dotted or broken."},
+        {"proposed_class":"unknown","note":"Clipping prevents a confident distinction between paired outlines and a single dotted symbol."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,861],[34,834],[68,805],[102,777],[136,749],[169,721],[199,697],[221,682],[239,675]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A relatively straight red stroke with a narrow yellowish fringe and thin dark edging runs northeast; dark shoreline strokes and small oval symbols overlap its upper end.",
+      "uncertainty_note": "This is a doubtful road candidate. Its apparent continuation becomes a red broken line across the blue fill, strongly favouring a property boundary; the coloured terrestrial stroke nevertheless resembles a narrow road band.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Likely a non-road property boundary continuing into the red dash-and-dot line across the blue area."},
+        {"proposed_class":"double_line_narrow","note":"If read as a road, the thin edging and coloured centre could represent narrow paired outlines."},
+        {"proposed_class":"single_line","note":"The apparent edging may be colour bleed around one red boundary or road stroke."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [908,344],
+      "branch_count": 3,
+      "evidence_note": "The fine ochre stroke apparently meets the reddish dotted strip, which continues northwest and southeast, producing three visible arms; the meeting is blurred and depends on accepting f02 as a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [945,450,1000,500],
+      "why": "An orange, dark-outlined building symbol, nearby dark marks and clipped linework prevent confident tracing between f01 and f03."
+    }
+  ],
+  "overall_note": "The dotted coloured strips provide the clearest road evidence, although their broken outlines make symbol-form classification uncertain. The thinner eastern branch and southwest diagonal are retained as doubtful candidates with boundary alternatives. Blue-green fine lines, heavy blue outlines, straight faint ruling and clearly patterned boundaries were excluded."
+}

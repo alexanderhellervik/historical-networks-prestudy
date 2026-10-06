@@ -1,0 +1,105 @@
+{
+  "tile_id": "cor_e0353_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[473, 964], [498, 942], [527, 920], [561, 898], [597, 878], [634, 858], [673, 838], [711, 817], [749, 796], [785, 780], [825, 768], [866, 754], [906, 738], [946, 721], [976, 710], [1000, 703]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-brown trace has irregular dark beading along its edges. Some sections suggest two close edges enclosing a lighter centre, but their separation is indistinct; scattered star-shaped tree symbols sit alongside.",
+      "uncertainty_note": "This is the strongest road candidate, but its fine line pattern is unresolved. The southwestern end disappears into large black lettering; no continuation through that lettering is assumed.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark beading may represent two closely spaced road margins."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "The apparent margins may instead be one irregular stroke with ochre colouring."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary remains possible because the repeated marks cannot be distinguished confidently from boundary punctuation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 623], [45, 609], [92, 594], [140, 579], [189, 564], [238, 549], [286, 532], [334, 516], [382, 499], [430, 482], [478, 465], [526, 449], [574, 431], [621, 413], [668, 395], [715, 378], [761, 359], [807, 340], [852, 320], [896, 300], [939, 280], [975, 267], [1000, 257]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A pale diagonal band roughly 15–25 px wide has a faint sepia lower margin. Its upper margin is less distinct and often follows the edge of dense blue-green horizontal hatching; there is no clearly resolved dotted or dashed road pattern.",
+      "uncertainty_note": "The light band could be a broadly drawn route, but it could also be an unhatched strip adjoining the marsh symbol. The polyline follows the approximate middle of the band, with positional uncertainty of about 10 px.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If both faint margins are independent drawn lines, they could form a wide road symbol."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Only the lower sepia margin may be a route; its course would lie approximately 8–12 px below the reported centre."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The margins may delimit land-cover colouring rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 54], [16, 46], [27, 37], [35, 22], [43, 8], [49, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short ochre-brown bent stroke clips the upper-left corner. Dark reddish edging is visible, and a separate blue stroke crosses it near [27, 37]; distinct parallel road margins are not resolved.",
+      "uncertainty_note": "The fragment resembles a narrow coloured route, but its short extent and indistinct punctuation also permit a boundary reading. The blue crossing is not counted as a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The brown marking may be one continuous route stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark edging may enclose a narrow ochre road centre."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary fragment is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 215], [4, 233], [9, 249], [0, 263]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A very short brown marking enters the left edge, widens into a dark-edged wedge, and returns to the edge. Its interior is ochre-brown; neither paired lines nor regular dots are distinguishable.",
+      "uncertainty_note": "This is a marginal candidate only: the clipped marking is too short to establish a road symbol or a reliable centreline.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "It may be a route briefly entering the tile."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be a clipped coloured boundary or another non-road marking."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 132, 1000, 171],
+      "why": "An opaque black horizontal band, sloping slightly downward to the right, hides the underlying fine drawing."
+    },
+    {
+      "bbox_uv": [430, 957, 500, 1000],
+      "why": "Large black lettering and the tile crop prevent a confident reading of the southwestern continuation of f01."
+    }
+  ],
+  "overall_note": "The lower ochre diagonal is the strongest road candidate, although its fine edging remains unresolved. The pale diagonal band and the left-edge fragments are retained with non-road alternatives. No place visibly establishes three road branches meeting."
+}

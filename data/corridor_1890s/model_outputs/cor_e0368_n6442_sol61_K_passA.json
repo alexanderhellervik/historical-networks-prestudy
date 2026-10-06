@@ -1,0 +1,327 @@
+{
+  "tile_id": "cor_e0368_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[154, 0], [145, 29], [132, 60], [119, 87], [107, 109]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow pale strip lies between dark and reddish strokes; blue-green colouring closely accompanies its western side.",
+      "uncertainty_note": "The pale strip could be a cased road, but the strokes could instead belong to a boundary beside a water line.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Treat the pale strip and its two dark margins as a road."},
+        {"proposed_class": "unknown", "note": "Boundary and water-line interpretation would exclude this feature from the road inventory."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[107, 109], [86, 133], [58, 160], [29, 188], [9, 213], [5, 242], [0, 265]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Closely adjacent dark, red and blue-green strokes descend southwest, with a small pale interval visible in places.",
+      "uncertainty_note": "A road beside another linear symbol is possible; a boundary following a water line is also supported.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Read the narrow pale interval as the road interior."},
+        {"proposed_class": "unknown", "note": "Boundary and water-line interpretation would exclude this feature."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[107, 109], [133, 131], [167, 150], [201, 176], [234, 202], [265, 226], [295, 254], [321, 281]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two roughly parallel margins enclose a pale band about 10–15 px wide; one margin is strongly reddish and the other dark brown.",
+      "uncertainty_note": "The reddish margin may include an overlapping boundary, but the enclosed band is visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[321, 281], [337, 318], [348, 356], [362, 396], [373, 432], [362, 452], [356, 491], [351, 531], [342, 572], [334, 610], [330, 638]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A pale narrow band has a heavy red western margin and a lighter dark or stippled eastern margin; both bend together southward.",
+      "uncertainty_note": "Lettering weakens the eastern margin, and a rectangular pale patch prevents following the line beyond the endpoint. The solid red arm near [373, 440] is read as a boundary.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Some of the southern casing could instead be a boundary with an adjacent field edge."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[343, 741], [347, 778], [351, 813], [357, 846]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A red stroke and a weaker brown companion enclose a very narrow pale strip below a rectangular gap.",
+      "uncertainty_note": "This may resume f04, but the gap prevents a secure connection; the surviving symbol also resembles a boundary. The lower endpoint reaches the horizontal seam.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Possible surviving continuation of the cased line above."},
+        {"proposed_class": "single_line", "note": "The companion stroke may be incidental; a boundary interpretation would exclude the feature."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[321, 281], [301, 303], [281, 329], [260, 357], [239, 389], [222, 421], [205, 454], [187, 482], [163, 490], [132, 501], [99, 515], [66, 527], [45, 537], [59, 561], [76, 591], [83, 618], [84, 638]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close rows of dark brown dots or short marks flank a pale ochre strip; they turn sharply near [45, 537].",
+      "uncertainty_note": "Pale patches weaken the middle portion, although aligned dotted remnants remain readable. The southern continuation disappears into a rectangular gap.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The paired stippled margins could be classified by their double-line form."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[21, 692], [18, 715], [15, 740]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two short, nearly vertical rows of brown dots survive near the left margin amid pale rectangular patches.",
+      "uncertainty_note": "Neither end can be connected securely to the other southwestern fragments.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The fragment is too short and interrupted to establish its full symbol confidently."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[17, 793], [10, 816], [0, 840]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "Short brown dotted rows descend obliquely towards the left edge below an obscuring patch and lettering.",
+      "uncertainty_note": "A connection to f07 or f06 is possible but hidden.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Lettering and the short surviving length make the paired-road reading uncertain."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[321, 281], [347, 273], [376, 262], [404, 248], [442, 236], [479, 221]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark stippled margins, separated by a narrow ochre band, run beside black rectangular symbols and a red number.",
+      "uncertainty_note": "The marks are partly merged with adjacent symbols near the western end, but the paired course remains visible.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Alternative classification emphasizing the two parallel margins."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[479, 221], [512, 201], [545, 183], [579, 166], [611, 158], [637, 158], [666, 169], [708, 179], [746, 183], [778, 169], [810, 146]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Paired dark dotted or short-dashed edges enclose a pale strip; the edges follow the same shallow bends.",
+      "uncertainty_note": "Short stretches have merged stippling, but the course and the eastern meeting are readable.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The symbol can also be described as a narrow double line with stippled edges."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[810, 146], [807, 121], [815, 94], [826, 68]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04", "j05"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two closely spaced dark stippled edges bend northward around an irregular solid black outline.",
+      "uncertainty_note": "The northern meeting is crowded by several dark symbols.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Alternative classification of the paired margins."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[826, 68], [803, 50], [778, 34], [752, 20], [730, 0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Closely parallel rows of small brown-black marks run northwest from the crowded meeting and clip the top edge.",
+      "uncertainty_note": "Individual marks are faint near the top edge.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "The faint uppermost marks could include an overlapping boundary symbol."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[826, 68], [854, 78], [883, 96], [913, 120], [943, 139], [970, 136]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow pale strip with stippled dark margins curves southeast among heavy black outlines and small coloured symbols.",
+      "uncertainty_note": "The eastern course becomes inseparable from clustered black marks; it is stopped before a presumed connection to the edge fragment.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Some marks in the crowded eastern portion could belong to outlines rather than the road."}
+      ]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[988, 117], [1000, 119]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short pale interval between small dark strokes survives immediately beside the right edge.",
+      "uncertainty_note": "This may continue f13, but the intervening symbols prevent establishing either the connection or the symbol form.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Possible continuation of the nearby paired stippled track."},
+        {"proposed_class": "unknown", "note": "An irregular outline interpretation would exclude this fragment."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[826, 68], [845, 49], [860, 27]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Short dark margins around a pale strip lead towards a compact red-and-black symbol.",
+      "uncertainty_note": "This could be a short road arm, but the margins merge with the symbol at its northern end; the junction count includes this doubtful arm.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Read the pale strip as a short cased road."},
+        {"proposed_class": "unknown", "note": "The strokes may be part of the adjacent symbol rather than a separate road."}
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[810, 146], [820, 182], [830, 219], [840, 258], [848, 299], [855, 341], [859, 382], [862, 421], [863, 452]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04", "j06"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two roughly parallel dotted dark margins enclose an ochre strip, passing beside red dots, black rectangles and large letters.",
+      "uncertainty_note": "Adjacent symbols locally thicken one margin, but both sides support the continuous course.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Alternative classification emphasizing the paired edges."}
+      ]
+    },
+    {
+      "feature_id": "f17",
+      "waypoints_uv": [[863, 452], [878, 488], [892, 525], [907, 565], [924, 607], [941, 650], [957, 694], [974, 738], [992, 782], [1000, 808]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pale diagonal band has two narrow dark stippled margins; black rectangles and large letters sit alongside or overlap it.",
+      "uncertainty_note": "Lettering obscures short stretches, but aligned paired margins are visible on both sides.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Alternative description of the two stippled margins."}
+      ]
+    },
+    {
+      "feature_id": "f18",
+      "waypoints_uv": [[863, 452], [857, 481], [849, 510], [841, 529], [832, 563], [817, 609]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Dark stippled marks bend southwest beside a red stroke, with a narrow pale interval most visible near the northern fork.",
+      "uncertainty_note": "A road branch is plausible, but farther south the marks merge with the red divider and irregular black outlines. No continuation down the solid red line is asserted.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Read the stippled margins as a road branch overlapping the red divider."},
+        {"proposed_class": "unknown", "note": "A boundary interpretation would remove this branch and reduce j06 to two road arms."}
+      ]
+    },
+    {
+      "feature_id": "f19",
+      "waypoints_uv": [[479, 221], [494, 260], [507, 300], [518, 341], [523, 382], [546, 419], [570, 461], [589, 495], [606, 535], [623, 574], [635, 611], [640, 638], [633, 658]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close dotted margins descend from the northern track; a red stroke overlaps part of the diagonal section, and black rectangles and lettering interrupt the lower marks.",
+      "uncertainty_note": "The paired margins support passage through the lettering, but become confused with dark and blue-green strokes at the southern endpoint. The solid red lateral arms are read as boundaries.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Alternative classification of the paired stippled margins."}
+      ]
+    },
+    {
+      "feature_id": "f20",
+      "waypoints_uv": [[637, 675], [640, 698], [646, 723], [653, 747], [665, 772], [678, 795], [691, 819]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A single curving row of relatively large dark round or oval marks runs south-southeast, without a clearly visible second margin.",
+      "uncertainty_note": "The marks could indicate a dotted path or tree symbols. The northern connection to f19 and the course beneath the southern red number and black lettering are unclear.",
+      "alternatives": [
+        {"proposed_class": "avenue_lined", "note": "The oval marks could be trees, although a central road and opposite tree row are not clearly resolved."},
+        {"proposed_class": "unknown", "note": "If the marks are independent tree symbols, no road is established."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [107, 109],
+      "branch_count": 3,
+      "evidence_note": "The pale diagonal band meets the north–south group of dark, red and blue-green strokes; three arms are counted only under the possible-road reading of f01 and f02."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [321, 281],
+      "branch_count": 4,
+      "evidence_note": "Four pale linear arms meet among black rectangular symbols: cased northwest and south arms, and paired stippled northeast and southwest arms."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [479, 221],
+      "branch_count": 3,
+      "evidence_note": "A southbound pair of dotted margins joins the southwest–northeast paired dotted strip, producing three visible arms."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [810, 146],
+      "branch_count": 3,
+      "evidence_note": "The paired stippled strip arriving from the west meets paired stippled north and south arms beside an irregular black outline."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [826, 68],
+      "branch_count": 4,
+      "evidence_note": "Stippled northwest, southeast and south arms meet amid heavy black marks; a short pale northeast arm is also counted, with the symbol ambiguity recorded on f15."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [863, 452],
+      "branch_count": 3,
+      "evidence_note": "The northbound paired stippled band divides into a southeast band and a southwest group of stippled marks beside red ink; the third arm depends on the road reading of f18."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [177, 328, 227, 381],
+      "why": "An abrupt pale rectangular patch suppresses fine drawing; some marks survive along its eastern edge."
+    },
+    {
+      "bbox_uv": [177, 381, 277, 534],
+      "why": "Overlapping pale rectangular areas weaken or remove fine linework; the surviving dotted course is only locally readable."
+    },
+    {
+      "bbox_uv": [228, 534, 277, 639],
+      "why": "A narrow pale rectangle interrupts lettering and nearby fine lines."
+    },
+    {
+      "bbox_uv": [75, 639, 175, 691],
+      "why": "A pale rectangular gap hides the continuation of the southwestern paired dotted line."
+    },
+    {
+      "bbox_uv": [228, 639, 329, 691],
+      "why": "A pale rectangular gap removes part of the central line and adjacent drawing."
+    },
+    {
+      "bbox_uv": [0, 691, 175, 741],
+      "why": "A broad pale patch interrupts the southwestern drawing; only short dotted remnants survive near the left edge."
+    },
+    {
+      "bbox_uv": [228, 691, 380, 741],
+      "why": "Pale rectangular gaps interrupt the central line and large lettering."
+    },
+    {
+      "bbox_uv": [24, 741, 73, 793],
+      "why": "A pale rectangle interrupts dark lettering and the nearby dotted fragments."
+    },
+    {
+      "bbox_uv": [0, 846, 1000, 866],
+      "why": "An abrupt horizontal image seam interrupts or displaces linework, preventing secure connections across it."
+    }
+  ],
+  "overall_note": "Paired stippled tracks are the clearest road symbols; several narrow red-edged strips remain ambiguous. Pale rectangular gaps, lettering and the lower horizontal seam prevent secure connections between some fragments. Solid red lateral dividers and the broad cross-marked band near the bottom were read as boundaries."
+}

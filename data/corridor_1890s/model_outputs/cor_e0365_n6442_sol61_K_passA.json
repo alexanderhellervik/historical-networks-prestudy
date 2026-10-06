@@ -1,0 +1,115 @@
+{
+  "tile_id": "cor_e0365_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[674, 0], [643, 34], [611, 68], [580, 101], [548, 134], [516, 167], [484, 199], [452, 232], [421, 266], [389, 300], [357, 334], [325, 368], [293, 402], [260, 436], [228, 470], [195, 504], [163, 537], [131, 571], [99, 605], [74, 632], [53, 654], [43, 668]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two continuous dark strokes, approximately 6–10 px apart, run diagonally beside a broader pink wash; the northwestern stroke is heavier and reddish. No regular railway blocks or sleepers are visible.",
+      "uncertainty_note": "The pink wash makes the apparent width uncertain. The southwestern continuation becomes indistinct in a rectangular colour seam and the heavy western boundary markings; it is not extended through them.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The actual paired strokes are much narrower than the surrounding pink wash."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[315, 0], [336, 35], [355, 70], [374, 105], [394, 140], [415, 176], [436, 210], [452, 232]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow reddish stroke with dark edging runs almost straight southeast and meets the paired diagonal strokes; nearby irregular black outlines cross or touch it.",
+      "uncertainty_note": "A property boundary is a substantial alternative to a narrow road. The junction designation is conditional on this being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a road represented by one narrow continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a red-overprinted property boundary; under that reading, j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[766, 0], [744, 22], [718, 38], [694, 55], [675, 78], [651, 92], [638, 115], [631, 140], [626, 168], [620, 193], [623, 214], [636, 238], [643, 259], [634, 277], [610, 293], [582, 309], [567, 328], [558, 354], [553, 381], [546, 408], [532, 435], [512, 462], [490, 488], [466, 514], [443, 540], [422, 565], [402, 591], [384, 618], [373, 646], [359, 674], [345, 701], [330, 720], [305, 731], [283, 746], [269, 771], [258, 798], [251, 822], [242, 842]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One winding row of separated dark dots and short oval marks is visible, finer at the northeastern end and heavier through the centre. It passes beside a red rectangular symbol near [600, 210] and across the large italic lettering.",
+      "uncertainty_note": "The oval marks could represent a hedge or another dotted division rather than a path. The course through the lettering is supported by aligned marks on both sides, but the southern end merges with irregular black outlines and cannot be continued confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some marks appear hollow or oval, allowing a hedge reading rather than the model legend's filled-dot footpath."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[161, 147], [185, 140], [211, 130], [233, 117], [243, 98]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A faint single row of small dark dots curves northeast between conifer symbols and reaches a thin irregular north–south stroke.",
+      "uncertainty_note": "The dots could be a short path or a dotted boundary. A rectangular image seam interrupts the western end, and overlapping thin linework makes the eastern termination uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated dots could be a lightly printed footpath."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a dotted property division joining the irregular stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[137, 1000], [173, 979], [210, 957], [247, 936], [281, 916], [309, 900]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A very pale diagonal trace, locally appearing as two fine grey edges several pixels apart, crosses the conifer-symbol area toward heavier outlines near the lower red building symbol.",
+      "uncertainty_note": "This is a weak candidate: the trace could be a narrow track, a paper crease or a reproduction artefact. Its northeastern continuation is lost among heavier outlines and is not joined to f03.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Locally paired fine edges could represent a lightly printed track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a crease or image artefact rather than drawn transport linework."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [452, 232],
+      "branch_count": 3,
+      "evidence_note": "The paired diagonal strokes continue southwest and northeast, while a narrow red-and-dark stroke meets them from the northwest. Three road branches are present only if f02 is a road; a boundary reading removes this junction."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [58, 585, 111, 741],
+      "why": "A rectangular colour seam reduces contrast where the diagonal paired strokes approach the heavy western markings; their continuation cannot be resolved."
+    },
+    {
+      "bbox_uv": [150, 65, 250, 155],
+      "why": "Rectangular image seams and faint printing obscure the ends and connections of the short dotted candidate f04."
+    },
+    {
+      "bbox_uv": [235, 820, 315, 905],
+      "why": "The dotted candidate meets dense irregular outlines and small dark symbols; a separate path continuation cannot be distinguished reliably."
+    }
+  ],
+  "overall_note": "The paired diagonal is the strongest road reading. The winding dotted line and faint candidates retain boundary, hedge or artefact alternatives, and j01 is conditional. The cross-marked western line and the repeated eastern hatching are read as non-road symbols."
+}

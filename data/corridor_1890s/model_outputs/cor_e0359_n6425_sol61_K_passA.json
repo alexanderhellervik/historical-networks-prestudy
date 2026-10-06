@@ -1,0 +1,172 @@
+{
+  "tile_id": "cor_e0359_n6425",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 398], [35, 408], [71, 418], [105, 432], [138, 443], [171, 450]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow pale strip has closely spaced dark margins and red overprinting; a heavier blue line runs alongside its lower margin.",
+      "uncertainty_note": "The adjacent blue line and red overprint obscure parts of the road symbol; a boundary coincident with the road is possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some apparent casing may belong to the adjacent blue line rather than to a second road margin."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[171, 450], [207, 458], [244, 466], [279, 470], [316, 466], [352, 463], [377, 459], [398, 462]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The pale strip continues between dark, partly interrupted edges; red linework follows it, with blue linework immediately below.",
+      "uncertainty_note": "The margins merge with other linework near both junctions, making the precise centre uncertain by several pixels.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An uneven solid-and-stippled road symbol may account for the apparent paired edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[398, 462], [375, 488], [349, 519], [326, 551], [302, 582], [279, 612], [254, 644], [229, 675], [205, 707], [185, 741], [169, 779], [153, 816], [135, 845]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A diagonal pale lane has a prominent red-dark western edge and a fainter grey eastern edge, generally about 8–15 pixels apart.",
+      "uncertainty_note": "Lettering interrupts portions of the margins, but their aligned reappearance supports carrying this lane through. Red overprinting may represent a coincident boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The faint eastern edge could be a separate parcel line rather than continuous road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 817], [24, 822], [53, 824], [82, 830], [110, 839], [135, 845]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow yellowish-red line with dark, locally dotted edging runs beneath the large lettering and meets the diagonal lane.",
+      "uncertainty_note": "This is a tentative track reading; the line also separates differently coloured areas, and lettering obscures its edging.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip and intermittent dark edges could be narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be a coloured parcel boundary without a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[135, 845], [121, 873], [110, 900], [102, 928], [102, 951], [103, 975], [126, 984], [145, 989], [146, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A pale, partly paired trace descends beside a red-dark line, then turns sharply beside dark angular outlines near the bottom.",
+      "uncertainty_note": "The descending portion resembles a lane; the lower turn may instead follow a parcel outline. Its continuation to the bottom edge is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale strip may retain two road margins throughout."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The road may terminate near [103, 975], with the remaining course belonging to a parcel boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[135, 845], [152, 864], [167, 873], [187, 875], [195, 903], [203, 934], [213, 959], [235, 968], [252, 974]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A red-dark angular trace has a locally pale parallel edge and runs beside several heavy rectangular and polygonal marks.",
+      "uncertainty_note": "A short access track is possible, but the trace also follows the edge of a pink polygon. The endpoint merges into heavy outlines, so no further course is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The locally paired trace could be a narrow access lane."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire trace could be a parcel outline rather than a road; under that reading it contributes no junction branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[171, 450], [151, 470], [130, 492], [108, 519], [85, 544], [62, 567], [45, 582], [23, 579], [0, 570]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An oblique pale strip has dark edges and lies beside wider blue-green linework; its western end bends past angular black outlines.",
+      "uncertainty_note": "The strip could be a track beside the blue-green line, but parts of its apparent casing could instead be edges of that line or adjoining coloured polygons.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dark edges may delimit a narrow lane."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A watercourse margin and parcel edges could explain the complete trace without a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[398, 462], [430, 453], [462, 445], [492, 432], [518, 415], [543, 398]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A red-dark curving line has a locally visible pale parallel trace and meets heavy angular outlines at its northeastern end.",
+      "uncertainty_note": "This may continue the road, or may be a boundary following polygon edges. At [543, 398] the possible road margins become indistinguishable from crossing outlines; the red line beyond is not carried through as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale parallel trace could be a second road margin."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red-dark line could be a boundary alone, contributing no northeastern road branch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [171, 450],
+      "branch_count": 3,
+      "evidence_note": "The red-edged pale strip continues east and west; a pale, dark-edged candidate strip approaches from the southwest beside blue-green linework. The third branch is tentative."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [398, 462],
+      "branch_count": 3,
+      "evidence_note": "The western pale strip and southwestern paired lane meet amid overlapping red and blue strokes; a red-dark candidate continuation curves northeast. The northeastern branch is tentative."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [135, 845],
+      "branch_count": 4,
+      "evidence_note": "The diagonal paired lane meets westward, southward and southeastward traces beside heavy lettering and angular outlines. Four branches describe the proposed reading; the three smaller branches have boundary alternatives."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 742, 154, 825],
+      "why": "Heavy lettering overlies thin village linework, preventing reliable separation or tracing of additional short lanes."
+    }
+  ],
+  "overall_note": "The clearest road-like drawing is the western strip meeting the southwest diagonal lane. Additional traces are retained as tentative candidates because pale road margins overlap coloured parcel edges, blue linework and lettering; junction counts include those candidates. The long red southeastern line, upper red lines and long black dashed lines are read as boundaries without independently distinguishable road symbols."
+}

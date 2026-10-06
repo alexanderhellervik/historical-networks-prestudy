@@ -1,0 +1,148 @@
+{
+  "tile_id": "cor_e0366_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 300], [8, 273], [24, 239], [45, 208], [71, 176], [98, 145], [126, 117], [155, 96], [182, 76], [202, 51], [221, 24], [239, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two close rows of small dark dots run diagonally across the upper-left part of the face; red and black rectangular symbols sit beside them.",
+      "uncertainty_note": "Lettering interrupts some dots near the top, but the paired alignment is visible on both sides. The class list has no explicit paired-dotted symbol.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "Describes the two closely spaced rows, although neither row is continuous."},
+        {"proposed_class": "dashed_line", "note": "Describes the interrupted strokes, but does not specify that there are two rows."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 410], [14, 386], [26, 360], [41, 341], [62, 331], [79, 332], [98, 342], [119, 356]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow pair of dark dotted rows bends upward from the left edge, then turns right and downward; large black lettering overlaps its western bend.",
+      "uncertainty_note": "Several dots are hidden by the lettering. The visible rows support the bend, but the western approach is less clear than the section east of the lettering.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The paired rows resemble a narrow two-line track symbol."},
+        {"proposed_class": "dashed_line", "note": "The rows consist of separate dots or short strokes."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 355], [15, 366], [25, 373], [33, 363], [42, 345]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Short dark dotted alignments form a small angular bend immediately below and through the black lettering at the left edge.",
+      "uncertainty_note": "This may be a second road approach joining f02 near its western bend. Its apparent connection is obscured, and some marks could belong to lettering or the neighbouring dotted symbol.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "If the isolated marks form a separate path, its visible symbol is dotted."},
+        {"proposed_class": "unknown", "note": "The marks may be part of f02 or lettering rather than an independent road."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[119, 356], [143, 379], [162, 402], [173, 428], [183, 455], [199, 473], [219, 468], [245, 454], [276, 437], [306, 419], [323, 412], [349, 422], [373, 408], [401, 387], [433, 368], [466, 353], [500, 342], [536, 339], [576, 345], [619, 354], [660, 362], [702, 368], [744, 373], [783, 371], [819, 366]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two rows of fine dark dots bend around red and black rectangular symbols, then run east beneath the large Bodaberg lettering; the rows remain separate and have no continuous casing.",
+      "uncertainty_note": "Letter strokes hide individual dots in the central section. The paired drawing reappears on both sides and supports continuity, although waypoint placement beneath the lettering is approximate.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The symbol has two narrow, closely spaced rows."},
+        {"proposed_class": "dashed_line", "note": "Both rows are interrupted rather than solid."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[119, 356], [133, 336], [145, 321], [155, 313]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, faint dotted alignment branches upward beside the stronger paired rows and approaches a red diagonal line and a small green-blue patch.",
+      "uncertainty_note": "The spur is less distinct than the main track. Its last marks merge with the diagonal line and coloured patch; no continuation is asserted.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The faint interrupted marks may depict a short path."},
+        {"proposed_class": "unknown", "note": "Some marks could be an enclosure edge or overlap from the adjacent symbols; j01 would then have only two road branches."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[819, 366], [851, 359], [884, 348], [914, 334], [943, 316], [972, 293], [1000, 271]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two closely spaced dotted rows curve toward the upper-right edge, crossing a heavier red diagonal without adopting its solid stroke.",
+      "uncertainty_note": "The road course is clear; the uncertainty concerns which listed class best describes paired dots.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "There are two narrowly spaced rows."},
+        {"proposed_class": "dashed_line", "note": "The visible rows are dotted throughout."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[819, 366], [842, 394], [866, 429], [893, 466], [919, 503], [940, 539], [960, 575], [980, 608], [1000, 632]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Paired dark dotted rows leave the eastward track diagonally downward, cross lettering, and pass beside red and black rectangular symbols near the right edge.",
+      "uncertainty_note": "Lettering and rectangular symbols obscure small portions of the lower approach; the edge exit and nearby waypoints are approximate.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The two rows define a narrow track."},
+        {"proposed_class": "dashed_line", "note": "Both edges consist of interrupted marks."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[302, 283], [338, 269], [374, 256], [410, 242], [447, 229], [483, 219], [520, 214], [555, 207], [590, 201], [624, 197]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Pale, thin blue-gray solid lines form an elongated band leading toward the black and red rectangles beneath Klintorp; spacing varies and angular enclosure lines attach to it.",
+      "uncertainty_note": "This could be a lightly drawn access track, but the strokes also resemble adjacent field or property outlines. Neither endpoint establishes a road connection.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "If the elongated band is a road, its two pale solid edges suggest this class."},
+        {"proposed_class": "unknown", "note": "The band may instead be an elongated enclosure bounded by non-road lines."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[947, 1000], [969, 988], [990, 978], [1000, 974]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short diagonal alignment of dark dots, apparently in two close rows, clips the bottom-right corner beside pale angular outlines.",
+      "uncertainty_note": "Only a small portion is visible, so the pairing and precise centreline are less secure than on the longer tracks.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The visible dots appear to form two close rows."},
+        {"proposed_class": "dashed_line", "note": "The clipped marks could represent a single interrupted path symbol."},
+        {"proposed_class": "unknown", "note": "With so little exposed, a non-road dotted marking cannot be excluded."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [119, 356],
+      "branch_count": 3,
+      "evidence_note": "The stronger paired dotted rows bend southeast here, while a faint dotted spur appears to leave toward the upper right; the third branch is tentative."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [819, 366],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted band arriving from the left divides into an upper-right band and a lower-right band; the adjacent red solid diagonals are separate strokes."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 326, 46, 364],
+      "why": "Heavy black lettering obscures the possible connection between the short western dotted approach and the bending track."
+    },
+    {
+      "bbox_uv": [616, 173, 650, 213],
+      "why": "Black rectangles and lettering obscure the termination and identity of the pale elongated band near Klintorp."
+    }
+  ],
+  "overall_note": "The main road symbols are paired dotted rows, which do not map uniquely to the supplied class names. Lettering makes the western approaches and central bend harder to place, while the pale Klintorp band and corner fragment admit non-road readings. Solid red diagonals and ordinary angular enclosure outlines were excluded."
+}

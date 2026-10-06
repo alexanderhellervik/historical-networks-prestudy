@@ -1,0 +1,157 @@
+{
+  "tile_id": "cor_e0358_n6453",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the top edge around u 560-640, v 0-45 the only lines are the crimson boundary with its pink wash and thin black parcel lines at the ST plot; no paired-dot road symbol is visible there.",
+      "uncertainty_note": "The overlay line is short and thin here and hard to separate from the boundary. A lane into the ST farmyard from the north cannot be ruled out entirely, but nothing in the drawing shows one."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line runs along the thick crimson line with its pink wash band, from about (485,260) down to (497,397) and then WSW towards (260,480). That is boundary styling (Gräns), the same as the crimson lines that the worked example records as boundaries. It has no dotted road casing.",
+      "uncertainty_note": "Low uncertainty that this is a boundary. Roads on this tile are drawn as paired dotted lines, and none run along this line."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (640-660, 45-70) and southwards, the visible lines are the blue-green stream/ditch line edging the ST plot and a crimson/black boundary. There is no dotted road symbol.",
+      "uncertainty_note": "The overlay's course for f03 is hard to make out, because its colour is close to the teal water line it seems to follow. If it is meant as an entry lane to the ST farm, the drawing does not show one."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The paired dotted road under 'egården' carries on west from about (50,585) to the west edge near (0,598).",
+      "uncertainty_note": "At the west edge the road runs very close to the crimson boundary that rises from (0,610) to (50,590), so the last ~50 px could be the boundary rather than the road. The overlay's class is not visible to me."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The paired dotted lines (Sämre körväg form) run from about (50,583) to (200,556), just below the 'egården' lettering.",
+      "uncertainty_note": "Faint where it passes under the lettering, but continuous. The class is my reading of the symbol form; the overlay's own class is not shown."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The road's paired dotted lines are clearly visible along v ~550-555 from u 200 to u ~390.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[390, 551], [480, 549], [560, 550], [630, 545]],
+      "evidence_note": "The dotted road runs just above the 'Snaddan' lettering at v ~545-555 and meets the N-S dotted road at about (630,545). The overlay bends down to about (605,575) at its east end, into the lettering, and stops short of that junction.",
+      "uncertainty_note": "The offset is only ~20-30 px and limited to the east end. The west part matches well. The lettering partly masks the dots between u 450 and 620."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the road at about (392,555), a thin single black line runs down to the farmstead '3' at about (400,595). It has no dots, and at this resolution I cannot tell whether it is a short farm access or the outline of the tomt.",
+      "uncertainty_note": "An access lane from the road to farm 3 is plausible on the ground, but the symbol does not decide it."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The curve runs through the yard among the farm-3 buildings, about (418,600) to (388,655). All that is visible there is building blocks and the tomt outline; there is no road symbol.",
+      "uncertainty_note": "Moderate. Yard tracks are often not drawn at all, so the absence of a symbol is the deciding evidence here."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the junction at about (630,545), paired dotted lines run NE past the Snaddan buildings at about (700,523) and (790,495), then past the K- farm at about (850,470) up to the junction at about (900,420).",
+      "uncertainty_note": "Between u 720 and 860 the buildings break up the dotted casing, so the exact course there is approximate."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Dotted road lines continue east from the junction at about (900,420) to the east edge at v ~410.",
+      "uncertainty_note": "Short segment. The dotted lines are thin, and the teal stream runs close by to the south."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[615, 205], [645, 240], [705, 270], [775, 308], [825, 343], [880, 390], [900, 420]],
+      "evidence_note": "A clear paired-dotted road runs diagonally from the ST farm at about (615,205) SE to the junction at about (900,420). Over the middle section, about u 700-860, the overlay polyline lies roughly 25-35 px south-west of the dotted lines.",
+      "uncertainty_note": "This is the same road and the endpoints match. Only the middle course is displaced; my waypoints are read against the dashed grid to within about 10 px."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[630, 545], [624, 600], [612, 700], [600, 800], [590, 900], [578, 1000]],
+      "evidence_note": "The paired dotted N-S road starts at the junction with the E-W road at about (630,545) and runs to the south edge at about (578,1000). The overlay follows it from v ~635 southwards but leaves out the top ~90 px to the junction.",
+      "uncertainty_note": "The lower course matches well. The difference is the missing link to the junction, which matters for the road topology."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line follows the crimson boundary with pink wash from about (50,590) via (100,630) and (70,780) to the west edge near (0,900). It has no dotted road symbol.",
+      "uncertainty_note": "Low. The styling matches the other boundaries on the tile."
+    },
+    {
+      "reviewed_feature_id": "f15",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line follows the thick crimson boundary with pink wash from about (200,560) via (130,650) and (120,760) to the south edge near (130,1000). It is boundary styling, not a road symbol.",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f16",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line follows the crimson boundary curve at the far west, about (0,170) to (45,280), which edges a pink-washed parcel. It has no dotted road symbol.",
+      "uncertainty_note": "Low."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [630, 545],
+      "what_is_contested": "Position and connectivity. I read a three-way junction of the E-W road (f07), the N-S road (f13) and the NE road (f10). The overlay ends f07 at about (605,575) and starts f13 at about (623,635), so the N-S road is left unconnected.",
+      "evidence_note": "The dotted casings of all three roads meet just above the 'Snaddan' lettering. North of this point only a solid black field line continues, so the junction is a T or Y, not a crossing."
+    },
+    {
+      "uv": [900, 420],
+      "what_is_contested": "Number of branches. Three roads clearly meet here (f12 from the NW, f10 from the SW, f11 to the E). A fourth short branch towards the K- farm or along the stream cannot be excluded.",
+      "evidence_note": "The dotted lines converge near the teal stream. The stream and the buildings at about (850,480) clutter the area."
+    },
+    {
+      "uv": [200, 556],
+      "what_is_contested": "Existence of a road junction. The overlay meets two boundary lines (f02, f15) with the road at this point. I read it as the road simply crossing a crimson boundary, with no branching road.",
+      "evidence_note": "The road's dotted casing runs straight through. The crimson line crossing it has a pink wash band and no dots."
+    },
+    {
+      "uv": [392, 555],
+      "what_is_contested": "Existence of a branch to farm 3 (f08).",
+      "evidence_note": "A thin undotted line drops from the road to the farmstead. It could be a farm access or just the tomt outline."
+    }
+  ],
+  "overall_note": "Roads on this tile are drawn as paired dotted lines (Sämre körväg form), with a T/Y junction at about (630,545) and a junction at about (900,420). The thick crimson lines with pink wash, which make up six overlay features (f01-f03, f14-f16), are boundaries rather than roads. A faint straight grey line crossing the top of the tile (about (0,15) to (1000,125)) looks like a construction or later line, not a road, so I have not recorded it."
+}

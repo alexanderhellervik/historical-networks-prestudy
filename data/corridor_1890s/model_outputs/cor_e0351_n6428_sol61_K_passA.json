@@ -1,0 +1,65 @@
+{
+  "tile_id": "cor_e0351_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[931, 0], [949, 21], [973, 45], [994, 65], [1000, 72]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges, roughly 15–25 px apart perpendicular to the course, enclose a pink-red strip running diagonally across the corner.",
+      "uncertainty_note": "The road symbol is clear; the centreline is approximate within its broad casing.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [936, 27], [916, 36], [891, 30], [867, 25], [846, 23],
+        [819, 28], [793, 44], [766, 63], [739, 83], [712, 108],
+        [686, 133], [662, 159], [639, 185], [615, 214], [593, 245],
+        [572, 277], [553, 309], [536, 343], [519, 377], [502, 412],
+        [487, 448], [474, 484], [468, 515], [462, 551], [451, 589],
+        [439, 628], [425, 667], [416, 706], [410, 748], [405, 789],
+        [399, 830], [392, 870], [389, 911], [388, 951], [385, 981],
+        [384, 1000]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "One very pale grey-ochre winding band, generally several pixels wide, has diffuse edges and occasional darker fragments; no consistent casing or dot spacing is readable. Black tree symbols sit alongside it.",
+      "uncertainty_note": "This is a doubtful route candidate: its diffuse, uneven appearance may instead be a paper crease or discoloration. Its upper end reaches the dark casing of f01, but a connection or crossing cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If the pale band is intentional route ink, it could represent a faded single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a non-road crease or discoloration, potentially continuous with f03 beneath the corner road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[950, 6], [969, 16], [990, 22], [1000, 23]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short ochre-brown stroke with adjacent pale wash runs from the upper side of the red road toward the right edge; separate casing lines or regular dots cannot be resolved.",
+      "uncertainty_note": "It could be a short drawn track, a parcel edge, or the continuation of the discoloration recorded as f02. Its relationship to f01 is obscured by the broad road symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A short single-line track is possible if this is intentional route linework."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road parcel edge or crease is also plausible; continuity with f02 is uncertain."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [],
+  "overall_note": "The upper-right cased red strip is the only clear road. The pale ochre segments are retained as doubtful candidates, possibly parts of one crease; no road junction is established at their obscured ends. Blue water outlines, red boundary dashes, marsh hatching and faint straight grid lines are excluded."
+}

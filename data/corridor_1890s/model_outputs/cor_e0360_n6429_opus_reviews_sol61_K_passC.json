@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0360_n6429",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the farmstead G (red-marked building near 885,820) a dark line pair runs east-north-east to the right edge at about (1000,770), starting from the black building blob near (925,800). It reads as an access road leaving the farm eastwards.",
+      "uncertainty_note": "The overlay shows no class, so the class match cannot be checked. The line is short and dark, and it could be a narrow double line or a single heavy line, or even a building or field edge. The brownish tint near the right edge may belong to the brown line that runs south from G (see m05)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two thin parallel uncoloured lines leave the west side of the G farmstead at about (850,830), run west to about (790,835), then turn south past (760,940) to the bottom edge near (765,1000). The polyline follows them.",
+      "uncertainty_note": "The two lines carry no road colour. On the neighbouring example tile, uncoloured lines were not roads, so this could be a pair of field edges or a ditch with a bank. The stream ends or turns near (800,905), close to this line. A second thin line diverges towards (845,1000), and that one is more likely the stream or ditch."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[140, 518], [185, 610], [230, 698], [270, 775], [300, 830], [340, 925], [380, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A straight orange-brown (sienna) coloured line with black dashes along it runs NNW-SSE across the fields. It crosses the railway near (215,680) and the stream near (300,830). On the example tile, the paths read as Gångstig and Sämre körväg are drawn with this colour.",
+      "uncertainty_note": "This could instead be a coloured boundary (hemmans- or sockengräns). It is dead straight, it is parallel to m02, m04 and m05 at roughly 300 m spacing, and north of (140,518) it continues only as an uncoloured black dash line to about (60,340). At this resolution I cannot tell dots from dash-dots. Its width suggests it might be a narrow double line.",
+      "alternatives": ["not a road: coloured boundary line (dash-dot over colour band)", "double_line_narrow (Sämre körväg) instead of footpath", "continues north along the black dashed line to (60,340) and beyond"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[448, 542], [490, 615], [530, 700], [570, 790], [610, 880], [640, 950], [660, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j_d_rail"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "This is the same orange-brown line with black dashes as m01. It starts at the railway near (448,542) and runs straight SSE to the bottom edge, crossing the stream near (605,875).",
+      "uncertainty_note": "The same boundary-versus-road doubt applies as for m01. It is unclear whether it continues north of the railway as the uncoloured double line m03.",
+      "alternatives": ["not a road: coloured boundary", "double_line_narrow", "continuous with m03 across a level crossing"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[355, 352], [385, 410], [415, 465], [440, 515]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j_d_rail"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "Two thin parallel black lines, the western one dashed, run from just below the paper fold at (355,352) down to the railway at about (440,515), in line with m02. A black dashed line branches off it at about (410,460), heading ENE.",
+      "uncertainty_note": "The two lines are uncoloured. They may be a boundary pair, a ditch next to the stream branch that runs parallel at about (430,380) to (500,490), or the uncoloured northern part of a road. The fold hides where they go north.",
+      "alternatives": ["not a road: boundary / ditch lines", "double_line_narrow road continuing m02 north"]
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[722, 60], [760, 155], [800, 245], [845, 300], [868, 340], [890, 380], [920, 445], [960, 535], [1000, 635]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j_a_rail"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "An orange-brown line with black dashes runs from (722,60), where it meets a black dashed line, SSE to the farm and stream complex at the fold near (845,300). South of the railway, a matching brown line runs from (890,380) to the right edge at about (1000,635).",
+      "uncertainty_note": "The two parts are offset by about 30 px across the fold and the railway, so they may be two separate lines. The same boundary-versus-road doubt applies as for m01.",
+      "alternatives": ["two separate features split at the railway/fold", "not a road: coloured boundary", "double_line_narrow"]
+    },
+    {
+      "feature_id": "m05",
+      "waypoints_uv": [[897, 830], [930, 890], [960, 950], [985, 1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j_g"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown line with black dashes leaves the G farmstead at about (897,830) and runs SSE to the bottom edge near (985,1000). It is parallel to m01, m02 and m04.",
+      "uncertainty_note": "It may be a coloured property boundary that runs through the farmstead rather than a farm road. A faint brownish vertical line near (970,800) to (975,870) may be a second branch, which I cannot resolve.",
+      "alternatives": ["not a road: coloured boundary", "double_line_narrow"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [890, 825],
+      "what_is_contested": "This is the number of branches at farmstead G. f01 goes east, f02 goes west then south, and m05 goes SSE. A possible fourth faint brown branch runs south near u = 970.",
+      "evidence_note": "The building symbols and red marking crowd the spot, so it is unclear which lines actually meet the farm and which only pass beside it."
+    },
+    {
+      "uv": [448, 540],
+      "what_is_contested": "It is unclear whether the brown line m02 crosses the railway and continues north as the uncoloured double line m03 (a level crossing), or ends at the railway.",
+      "evidence_note": "The two lines are collinear, but north of the railway the colour stops and the drawing changes to thin parallel lines."
+    },
+    {
+      "uv": [868, 340],
+      "what_is_contested": "It is unclear whether the brown line north of the railway (722,60 to 845,300) and the one south of it (890,380 to the right edge) are one line crossing the railway.",
+      "evidence_note": "The paper fold and the railway hide the crossing, and the two parts are offset by about 30 px."
+    },
+    {
+      "uv": [140, 518],
+      "what_is_contested": "It is unclear whether m01 ends at this field edge or continues NNW as the uncoloured black dash line to about (60,340).",
+      "evidence_note": "The colour starts exactly where a solid field-edge line from (0,580) meets this line. The line is straight through the point, but the colour does not continue north of it."
+    }
+  ],
+  "overall_note": "The overlay only marks two short uncoloured double lines at farmstead G. It leaves out four or five straight orange-brown lines with black dashes, which carry the same colour as roads and paths on the example tile. I list those as probable paths or tracks, but they could equally be coloured property boundaries, and that question decides most of this tile."
+}

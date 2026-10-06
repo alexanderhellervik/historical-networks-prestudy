@@ -1,0 +1,38 @@
+{
+  "tile_id": "cor_e0368_n6448",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous road band drawn as two parallel dotted lines about 8-10 px apart with an ochre fill runs from the left edge at v~895 past Nyhem T., B., Botten T. and Källtorp T. to the Lilletorp buildings at ~(720,525). The f01 polyline lies on this band along its whole length.",
+      "uncertainty_note": "The overlay's class isn't readable from the line colour, so I can only confirm the course. The symbol looks like the legend's Sämre körväg (paired dotted rows), which I record as double_line_narrow. A wider class is unlikely because there are no solid edge lines."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same dotted double-line road continues NE from ~(720,525) past the Lilletorp buildings and the green pond. It crosses the red boundary at ~(805,455) and leaves the right edge at about v~320 near the T. and B. buildings. f02 follows it.",
+      "uncertainty_note": "f02 is a continuation of the same road as f01. The split at ~(715,525) is only the place where f03 branches off. Class confidence is the same as for f01."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[725, 522], [745, 560], [765, 600], [790, 650], [818, 700], [850, 750], [885, 800], [912, 850], [935, 900], [965, 940], [1000, 968]],
+      "evidence_note": "There is a real branch road, also drawn as paired dotted lines with ochre fill, leaving the main road at Lilletorp and running SSE to the bottom-right corner. The f03 polyline is straight and runs along the west side of the drawn band, outside it for much of its length. Near the bottom it is about 20-30 px west of the road (~(960,958) against a road at ~(985,955)) before it hooks east.",
+      "uncertainty_note": "This is clearly the right road. The offset is only about 10-30 m, so if the tolerance is generous this could count as agree. The exact exit point near the SE corner (right edge at v~965-970 or bottom edge at u~990-1000) is not certain."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [722, 522],
+      "what_is_contested": "Where exactly the SSE branch (f03) leaves the main road: just west of the Lilletorp building group at ~(720,525) or a little further NE at ~(735,512). The buildings and the green-water patch crowd the joint.",
+      "evidence_note": "The dotted edges of the branch merge into the main road's dotted band among the building symbols at Lilletorp, so the joint is a 3-way T/Y junction, but its exact position is uncertain by about 10-20 px."
+    }
+  ],
+  "overall_note": "The tile shows one through road (f01+f02) drawn as paired dotted lines with ochre fill (Sämre körväg form) and one branch running SSE from Lilletorp (f03). The overlay places f03 slightly west of its drawn course. All the crimson lines are boundaries, and I found no further roads, tracks or footpaths to add."
+}

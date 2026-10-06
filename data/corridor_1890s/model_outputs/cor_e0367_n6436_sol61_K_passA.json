@@ -1,0 +1,119 @@
+{
+  "tile_id": "cor_e0367_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 92], [40, 102], [80, 120], [120, 141], [160, 162], [188, 174], [210, 176], [239, 166], [268, 151], [293, 139], [309, 136]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow reddish-brown strip has closely spaced dark dots along its edges; it bends smoothly and meets a thin black outline at its eastern end.",
+      "uncertainty_note": "The dotted edging resembles the example's tracks, but its coincidence with a colour-area edge also supports a boundary reading. No continuation is distinguishable beyond the black outline.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dotted margins could represent the paired edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a dotted boundary along the colour-area edge rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[821, 0], [843, 28], [862, 51], [881, 72], [904, 84], [937, 91], [971, 92]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A curving reddish-brown band has dark, closely spaced dotted margins and a narrow lighter centre; its eastern portion becomes nearly horizontal.",
+      "uncertainty_note": "The drawing resembles the example's dotted tracks, though the precise symbol form is unclear. The meeting near the right edge is darkened by adjacent black marks.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired dotted margins could be read as narrow road edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary following the colour-area edge remains possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[971, 92], [1000, 86]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The narrow brown band continues rightward with dark dotted edging; black angular outlines sit immediately above and beside it.",
+      "uncertainty_note": "Only a short section is visible, and adjacent outlines obscure the separation of its margins.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possibly a continuation of the paired-edge track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a boundary or an outline beside the black angular symbols."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[971, 92], [977, 115], [986, 134], [1000, 147]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short reddish strip with heavy dark margins turns downward from the brown band, then bends right beside black rectangular marks.",
+      "uncertainty_note": "Black symbols overlap much of this short arm; a separate track branch is plausible, but the marks could instead belong to adjoining outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possibly a narrow track with two dark edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly adjoining boundary or building-outline marks rather than a road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[520, 287], [534, 319], [543, 354], [550, 395], [560, 432], [575, 471], [591, 510], [610, 544], [636, 573]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two faint grey-brown strokes, approximately 8–15 pixels apart, enclose a pale curving strip across the horizontal hatching; no tree symbols or railway blocks are visible.",
+      "uncertainty_note": "This is a doubtful road candidate: the pale strip could be a drainage feature or an irregular break in the hatching. Its upper end merges with dark blue linework, and its lower end fades into grey marks; neither continuation is certain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a ditch or other non-road linear feature."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "One grey stroke may be the feature itself, with the apparent second edge supplied by adjacent hatching."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [971, 92],
+      "branch_count": 3,
+      "evidence_note": "The dotted brown band has westward and rightward arms, with a short dark-edged reddish arm turning downward. This three-branch reading is tentative because black angular marks overlap the meeting."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [503, 264, 548, 322],
+      "why": "Dark blue linework, red colouring and hatching obscure the upper termination of the faint grey paired-line candidate."
+    },
+    {
+      "bbox_uv": [617, 554, 663, 599],
+      "why": "The faint grey candidate loses distinguishable edges among dense horizontal hatching and blurred grey marks."
+    }
+  ],
+  "overall_note": "The upper-corner dotted bands are plausible tracks, but boundary readings remain possible. The central grey paired line is substantially less certain. Broad red bands, straight red parcel divisions and blue channel outlines were read as non-road linework."
+}

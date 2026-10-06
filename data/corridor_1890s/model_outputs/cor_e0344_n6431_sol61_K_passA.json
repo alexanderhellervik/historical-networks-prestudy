@@ -1,0 +1,107 @@
+{
+  "tile_id": "cor_e0344_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[482, 478], [479, 507], [482, 543], [489, 573], [499, 596], [519, 617], [545, 631], [575, 642], [594, 654], [614, 674], [636, 703], [657, 733], [681, 762], [704, 787], [728, 804], [749, 807], [783, 802], [822, 797], [861, 795], [896, 797], [933, 802], [969, 813], [1000, 824]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A reddish-brown band approximately 6–10 px wide has two dark, irregular, locally dotted margins. Black rectangular symbols overlap its northern end; the band remains visible around the southern bend and to the right edge.",
+      "uncertainty_note": "The northern termination is hidden by a black symbol. Connection to f03 cannot be established across the intervening symbols and polygon outlines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins resolve locally into dots or short dashes rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 484], [27, 474], [54, 465], [80, 451], [107, 437], [133, 420], [158, 403], [181, 390], [209, 383], [238, 380], [269, 380], [295, 385], [323, 396], [349, 405]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre-brown stroke carries repeated dark dots or short marks. Its curved course is visible on both sides of the large black lettering, and it crosses a stronger diagonal magenta-black line near [80, 451].",
+      "uncertainty_note": "Lettering obscures small portions of the western course; waypoint positions there are approximate. The stronger diagonal crossing line has boundary-like styling and is not counted as a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "An underlying fine continuous brown stroke is visible between the dark marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[349, 405], [369, 418], [393, 431], [414, 440], [430, 446]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The dotted ochre-brown line continues southeast from the fork, with heavier black marks near small brown and black rectangular symbols at its eastern end.",
+      "uncertainty_note": "The trace becomes inseparable from the small symbols and dark polygon outlines near [430, 446]. A connection toward f01 is possible but is not traced through that obscuration.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The final dark stroke may partly belong to a polygon outline rather than to the dotted path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[349, 405], [348, 382], [348, 356], [351, 337], [364, 314], [381, 294], [398, 275], [405, 255], [408, 235], [401, 213], [391, 194], [384, 182]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine brown stroke with dark dots branches north from the west–east dotted line. It crosses a thin magenta line around [407, 246], then passes among large black letters toward small outlined brown symbols.",
+      "uncertainty_note": "The course through the lettering is partly visible but its precise position is uncertain. The northern endpoint disappears among overlapping letters and outlined symbols; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches show a continuous brown hairline with only intermittent dark marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Short portions beneath the lettering could be symbol outlines; the connected northern course is less secure than the stretch below [405, 255]."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[416, 606], [401, 625], [381, 643], [356, 658], [328, 674], [301, 681], [274, 686], [249, 694], [224, 707], [197, 723], [169, 738], [141, 751], [116, 761], [96, 765]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A thin orange-brown line curves southwest, with occasional dark marks but no clearly separated parallel margins. Its southwestern portion crosses an area of horizontal hatching and a dotted enclosure.",
+      "uncertainty_note": "This is a doubtful path candidate: the stroke could instead delimit a coloured parcel. Its northeastern continuation is indistinct, and its southwestern end is lost among hatching and enclosure marks.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A field or parcel edge rather than a road is a supported alternative."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Intermittent dark marks could represent a dotted path whose fine brown connecting stroke is enhanced by the reproduction."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [349, 405],
+      "branch_count": 3,
+      "evidence_note": "Three narrow ochre strokes bearing dark dots meet: one curves west, one continues southeast, and one turns north. The north branch visibly terminates against the other two at the meeting point."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [423, 419, 494, 492],
+      "why": "Overlapping black and brown rectangular symbols and dark polygon outlines prevent a reliable reading of the possible connection between f03 and f01."
+    },
+    {
+      "bbox_uv": [374, 170, 420, 247],
+      "why": "Large black lettering overlaps the fine northern trace of f04; parts of its course and its endpoint cannot be positioned confidently."
+    }
+  ],
+  "overall_note": "The broad reddish route and the western dotted fork are the strongest road readings. Lettering and small symbols obscure their possible connection, while the thin southwestern stroke also supports a parcel-edge reading. Thin magenta boundary-style lines and blue water outlines were excluded."
+}

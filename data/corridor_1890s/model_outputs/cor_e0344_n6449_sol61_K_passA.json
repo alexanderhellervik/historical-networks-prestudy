@@ -1,0 +1,173 @@
+{
+  "tile_id": "cor_e0344_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[554,1000],[564,976],[576,950],[589,924],[614,892],[638,862],[664,832],[689,803],[713,776],[737,742],[771,722],[807,697],[842,669],[878,642],[916,610],[941,592],[970,583],[1000,565]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose an ochre-pink strip roughly 8–13 px wide; both edges follow the diagonal bends.",
+      "uncertainty_note": "The diagonal road is clear. Its connections to f04 and f05 depend on interpreting those finer strokes as paths; the possible f08 connection is less secure.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[123,350],[129,375],[137,399],[148,426],[163,452],[173,479],[163,505],[145,526],[130,549],[121,571],[117,590],[127,620],[138,651],[150,683]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A narrow ochre stroke carries closely spaced black dots or short dashes, winding past red lines and small dark building marks; continuous paired casing is not clear.",
+      "uncertainty_note": "The upper course becomes mixed with numerals and building strokes. No continuation through that overlap is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some portions could be a dotted parcel division rather than a path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Locally the ochre stroke appears edged on both sides, but two separate road edges cannot be followed consistently."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,675],[34,666],[65,655],[88,648],[116,654],[135,670],[150,683],[174,700],[203,714],[233,720],[262,719],[292,714]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Small dark dots lie on a fine ochre line; it bends through the meeting with f02 and continues southeast before turning nearly horizontal.",
+      "uncertainty_note": "The eastern end merges into a solid dark parcel edge. The shared course with parcel edges also permits a boundary reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted line may mark a parcel boundary, especially along its eastern portion."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[970,583],[968,615],[962,650],[957,690],[954,728],[954,759],[965,780],[981,796],[1000,811]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre strip with repeated dark dots descends from the diagonal road, then bends toward the right edge; a dark solid edge accompanies parts of it.",
+      "uncertainty_note": "The dots are visible, but their association with the adjoining solid parcel outline makes the road interpretation uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could be a dotted boundary beside a solid field outline."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The accompanying solid stroke could be one edge of a narrow track with a broken opposite edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[350,850],[366,868],[391,883],[425,893],[462,900],[506,908],[550,917],[589,924]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin ochre line with small dark dots follows the lower edge of the transverse hatching and continues toward the cased diagonal strip.",
+      "uncertainty_note": "A footpath and a dotted parcel edge are both supported. At the western end, dark and blue-green strokes overlap, preventing a secure continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated small dots resemble the fine path strokes elsewhere on the tile."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may solely delineate the adjoining parcel or hatched area."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[752,0],[756,28],[766,54],[783,81],[799,108],[819,128],[843,142],[872,153],[891,168],[902,190],[907,220],[913,250],[923,277],[939,301],[955,325],[967,350],[977,376],[984,399],[978,418],[956,441]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "One winding row of small black dots or short strokes has a faint ochre backing; it has no clearly separated continuous casing.",
+      "uncertainty_note": "The lower end meets a heavier solid outline. Its uninterrupted winding course resembles a path, but a dotted property boundary remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted stroke could be a property boundary rather than a road or path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[40,971],[39,986],[39,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A very short ochre vertical stroke contains several dark dots immediately below a solid sloping outline.",
+      "uncertainty_note": "Too little of the symbol is exposed to distinguish a short path from a dotted parcel division; no course above the solid outline is inferred.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The exposed dots could be the continuation of a fine path clipping the bottom edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead divide the small ochre parcels at the corner."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[916,610],[923,593],[929,581],[936,573]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short pale neck with irregular dark edges approaches a red block from the diagonal cased strip; the edges blend with adjacent parcel outlines.",
+      "uncertainty_note": "This may be a short access track, but the same strokes can be read as an indentation of the parcel outline. The red block obscures its upper end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If read as an access track, the dark edges form a narrow pair around the pale interior."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent branch may consist entirely of parcel and building outlines."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [150,683],
+      "branch_count": 3,
+      "evidence_note": "Three fine ochre-and-dark-dotted arms converge: northward, westward and southeastward; blue-green and thin red strokes overlap nearby."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [589,924],
+      "branch_count": 3,
+      "evidence_note": "The fine dotted ochre line reaches the dark edge of the diagonal cased strip, which continues in two directions; this is a junction only under the path reading of f05."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [970,583],
+      "branch_count": 3,
+      "evidence_note": "The narrow dotted ochre stroke descends from the broad diagonal strip between its two continuing arms; a thin red transverse stroke also occurs here."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [916,610],
+      "branch_count": 3,
+      "evidence_note": "An irregular pale neck touches the upper dark casing of the diagonal strip; three road arms result only if that neck is the short track proposed as f08."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [101,279,150,350],
+      "why": "Heavy lettering, numerals and small building marks overlap the possible upper continuation of f02; its road stroke cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The broad diagonal cased road is clear; the fine dotted ochre lines are less secure because several coincide with parcel outlines. Thin red lines, long black boundary dashes, blue-green strokes and dense transverse hatching were excluded as separate road features. Junctions involving doubtful features describe the proposed road reading and remain conditional on it."
+}

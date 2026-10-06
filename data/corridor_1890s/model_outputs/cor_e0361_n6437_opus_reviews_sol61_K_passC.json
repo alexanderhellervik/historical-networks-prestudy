@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0361_n6437",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pair of fine dotted lines with a brown-red tint runs from the farm G. (~375,600) east, crosses the sheet seam at ~(500,585), follows just north of the red property line to ~(780,500), then bends up to ~(930,455). The overlay line follows it. The symbol matches the model legend's Sämre körväg (two dotted lines), and the brown-red colour matches the Sämre körväg lines in the worked example.",
+      "uncertainty_note": "West of ~(430,600) the line is short and reddish, and it is not clear whether the road ends in the farmyard or carries on west. The drawing sits close to the red boundary for most of its length, but it stays visibly separate from it."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An evenly dotted black line leaves the croft 2 T. at ~(820,185) and curves south-east through ~(830,300), (870,390) and (910,440) to the road junction at ~(935,462). The overlay follows it. The spacing is even and has none of the dash-dot pattern of the boundary symbols, so it reads as a path (Gångstig) linking the croft to the road.",
+      "uncertainty_note": "In the lower half a faint brownish line runs alongside the dots. That could make it a Sämre körväg (double dotted) rather than a footpath, so double_line_narrow is an alternative class. The course itself is clear."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Short connector from the f01/f02 meeting point at ~(935,462) to the north-east road at ~(985,500). A brown dotted road edge runs along this stretch next to where the red boundaries converge.",
+      "uncertainty_note": "The red property lines meet in the same spot and much of the stroke is hidden by them. The connector's exact course and its class can only be read approximately."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the east edge, ~(990-1000, 490-500), brown road lines leave the tile. This is where the f01 road and the road down to Gråsten (f05) meet the edge.",
+      "uncertainty_note": "Only the cut-off id label is visible at the edge and the stub is a few pixels long. I judge only that a road does leave the tile here, not the stub's exact course."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double-line road runs from the east edge at ~(995,505) south-west through ~(960,555) and (940,600) to the Gråsten farm buildings at ~(918,640). The overlay follows it.",
+      "uncertainty_note": "The line is clearly double and tinted. It could be a better cart road (Bättre körväg, one solid and one dotted line) rather than double dotted; at this resolution I cannot tell which line is solid."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the Gråsten farmyard (~905-955, 640-720), building symbols, a garden patch and field outlines crowd the drawing. A road through the yard joining f05 to the main road at ~(958,722) is plausible, but no continuous road symbol can be traced there.",
+      "uncertainty_note": "This could be a real yard road or a field or plot outline. Record it as uncertain."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "East of the farm, ~(940,650)-(1000,685), there are thin dark lines below the letter G at the tile edge. They could be a road leaving east or the outline of a plot or field; no paired road edges or brown tint can be separated.",
+      "uncertainty_note": "This needs the neighbouring tile to the east to decide."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At ~(955,725) the heavy brown double road (f09) curves north-east and leaves the east edge at ~(1000,700). A short feature here matches that bend and exit.",
+      "uncertainty_note": "Only the label and a short stroke are visible. Whether f08 is the bend to the east edge or a spur from the farm cannot be fully separated."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The widest road on the tile is a heavy double line with brown fill. It runs from the bottom edge at ~(897,1000) north through ~(925,900) and (945,800) to ~(958,725). The overlay follows it. This is the Landsväg/Bygdeväg form.",
+      "uncertainty_note": "Course and class are both clear."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay line at ~(90,600)-(130,635)-(170,685) traces the thin black outline of the pink arable (åker) patch south of 'ården'. That line is a land-use outline. It has no paired edges, no dots and no road colour.",
+      "uncertainty_note": "Low uncertainty: no road symbol is visible anywhere along this line."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [935, 462],
+      "what_is_contested": "The point where f01 and f02 meet: whether the dotted path f02 joins f01 here or only at the east-edge junction ~(985,500), and whether f03 is a separate segment or simply f01 continuing.",
+      "evidence_note": "Two red property lines converge on the same spot, so the road strokes are partly hidden and cannot be traced cleanly through the meeting point."
+    },
+    {
+      "uv": [988, 500],
+      "what_is_contested": "The number of branches at the east-edge junction: f03, f05 and the edge stub f04 could make a three-way junction, or f03 may run straight into f05 without a separate road leaving the tile.",
+      "evidence_note": "The junction lies within ~10 px of the tile edge, and the red boundary also ends there."
+    },
+    {
+      "uv": [958, 722],
+      "what_is_contested": "Whether the farm road (f05/f06) joins the main road f09 here through the Gråsten farmyard, and whether f08 is the main road's bend to the east edge or a separate spur.",
+      "evidence_note": "Building symbols, a garden patch and field outlines crowd the farmyard. The heavy road clearly bends east here, but no farm-road stroke can be traced continuously into it."
+    }
+  ],
+  "overall_note": "The roads I found on the bare tile before looking at the overlay are the heavy brown main road on the east (f09), the brown road down to Gråsten (f05), the dotted cart road along the red boundary (f01) and the dotted path from the croft T (f02); the overlay matches all of them. f10 traces the outline of an arable field and is not a road, and the farmyard pieces f06/f07 cannot be judged at this resolution. I found no additional roads; the dashed lines across the top are boundaries and the dotted outlines around meadow patches are land-use edges."
+}

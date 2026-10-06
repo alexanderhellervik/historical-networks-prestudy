@@ -1,0 +1,146 @@
+{
+  "tile_id": "cor_e0353_n6424",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The widest brown-filled double line on the tile runs from the top edge near (75,0), past the 63.2 benchmark at (150,75), down to (660,490), east to (820,505) and then bends south to about (880,640). The overlay follows it closely.",
+      "uncertainty_note": "South of the crossing with f06 at about (880,640), the overlay seems to continue the line at u~865 across the river and down to the bottom edge. A red/brown line is drawn there through the built-up area. At this resolution I cannot tell whether that line is the same road or a separate village street."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line with dark edges runs from the junction at (145,85) south-south-west through (95,250), (75,375) and (40,520) to the left edge near (0,700). It is drawn in road colour. The black dashed line just west of it is a separate boundary-type line (Skifteslinje style), not the road.",
+      "uncertainty_note": "The overlay polyline lies close to both the brown road and the parallel dashed line. Where they converge near (0,650-700) I cannot confirm that it tracks the brown line and not the dashed one."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[310, 225], [355, 150], [395, 85], [405, 0]],
+      "evidence_note": "A brown double line leaves f01 at about (310,225) and runs north-north-east to the corner of the wood patch at (395,85). From there it continues north along the edge of the patch to the top edge at about (405,0). The overlay line seems to sit slightly east of the drawn line and to stop near the wood patch.",
+      "uncertainty_note": "The offset is small. The main correction is the endpoints: it should join f01 and reach the top edge. Near (400,0-80) the road and the edge of the wood patch merge, so the northernmost 80 px could be only the wood edge."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short brown line in road colour runs from the left edge at (0,345) to f02 at about (75,378).",
+      "uncertainty_note": "It is thin and short. A brown field-boundary line cannot be fully excluded, but its colour matches the other roads and not the blue/black boundaries."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double line runs from the top edge at (890,0) through (930,110) and (975,200) to the right edge at about (1000,340). A blue stream runs alongside it on the east, but the brown road casing is distinct.",
+      "uncertainty_note": "Because the stream runs so close, the class (narrow double vs single) is somewhat uncertain."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A wide brown/red double road enters from the right edge at about (1000,600) and runs through (890,630) and the crossing with f01 at about (880,645). It continues past the Mejeri at (780,770) and along the north bank of the river through (690,850) and (600,930) to the bottom edge at about (535,1000). I read f06 as this road.",
+      "uncertainty_note": "The f06 label sits at (765,788), close to where the river and a possible bridge are. If f06 is only a short bridge segment and not the whole road, the verdict should be read as covering that segment, and the long road would then be missed."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown line leaves f01 at about (660,495), runs south past (650,560) and (655,630), then turns south-east around the Mejeri buildings through (700,700) to meet f06 at about (775,775). The overlay follows it.",
+      "uncertainty_note": "The class is uncertain: it may be a narrow double line at full resolution."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the Nolhaga area, brownish and dark curved lines run from about (0,860) through (180,880) and (250,940) to (500,975). They mix with woodland and park outlines and with the large 'Nolhaga' lettering. I cannot separate a road casing from the edges of the land-cover areas.",
+      "uncertainty_note": "This could be a park or estate drive (park_path), or just the outline of the woodland or garden area."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (0,935)-(70,1000) in the bottom-left corner there is a brownish line close to the edge of the lettering and woodland. It is too small and too crowded to judge.",
+      "uncertainty_note": "It may be a road leaving the tile at the bottom-left, but there is too little context."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The label at (45,897) sits on the left stroke of the large 'N' of Nolhaga. A near-vertical line here may be the letter, not a road.",
+      "uncertainty_note": "If the polyline only follows the letter stroke, it is not a road (disagree_not_a_road). I cannot separate the two."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Around (865-930,785) the river, the red house symbols and the dotted red edge of the built-up area all overlap. A short east-west road along the river may be drawn here, but the red dots and the river banks hide it.",
+      "uncertainty_note": "This could be a village street or the edge of the built-up/garden area."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a very short segment at the bottom-left corner near (0-30,980). Nothing drawn there is clear enough to identify as a road.",
+      "uncertainty_note": "It may be the stub of the same line as f09 at the tile corner."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[150, 72], [190, 42], [228, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brown road-coloured line leaves the f01/f02 junction at the 63.2 benchmark and runs north-east to the top edge at about (228,0). I do not see it on the overlay.",
+      "uncertainty_note": "The blue stream crosses near (150,80), and the line is short. It could also be read as a continuation of f02 northward and not a separate branch.",
+      "alternatives": ["f02 continues past the junction to the top edge as one road", "the line is a brown field boundary and not a road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[775, 775], [790, 800], [805, 825]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short red/brown line runs south-south-east from the junction of f06 and f07 at the Mejeri toward the river. It looks like a bridge or crossing into the built-up area south of the river.",
+      "uncertainty_note": "The river banks, the pink edge of the built-up area and the f06 casing overlap here. It may be part of f06 itself.",
+      "alternatives": ["part of the f06 casing", "outline of the dairy plot"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [148, 78],
+      "what_is_contested": "The number of branches: f01 (NW and SE), f02 (SSW), and possibly m01 (NE), with a stream passing through the same point.",
+      "evidence_note": "The benchmark dot, the blue stream and three or four brown lines all meet within about 15 px."
+    },
+    {
+      "uv": [880, 645],
+      "what_is_contested": "Whether f01 crosses f06 and continues south (a four-way crossing), or ends on f06 as a T-junction with the southern line being a separate village street.",
+      "evidence_note": "Two wide brown/red roads meet next to the 'Inspek' lettering. The red line south of the crossing becomes mixed with the built-up-area symbols."
+    },
+    {
+      "uv": [775, 775],
+      "what_is_contested": "The branches at the Mejeri: f07 meets f06, and a possible bridge or branch (m02) continues south across the river.",
+      "evidence_note": "The river, the buildings, the 'Mejeri' lettering and the road casings overlap."
+    },
+    {
+      "uv": [310, 225],
+      "what_is_contested": "Exact position where f03 joins f01. A blue ditch ends at the same spot.",
+      "evidence_note": "The brown line of f03 and the blue ditch line converge on f01 at almost the same point."
+    }
+  ],
+  "overall_note": "I agree with the overlay on the brown road network in the open fields: f01, f02, f04, f05, f06 and f07, with f03 needing its endpoints corrected. The Nolhaga corner features (f08, f09, f10, f12) and f11 in the built-up area cannot be judged, because lettering, woodland and park outlines and house symbols mix with any road lines there. The blue lines are streams or ditches and the black lines (solid and dashed) are field or property boundaries, so I do not read them as roads."
+}

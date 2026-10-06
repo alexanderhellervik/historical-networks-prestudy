@@ -1,0 +1,120 @@
+{
+  "tile_id": "cor_e0370_n6445",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the main road: two parallel black lines with a light brown fill. It runs from the bottom-left corner (~0,995) through (300,840), (600,630), (740,450), (860,320) to the right edge at ~(1000,190). It is the widest road on the tile and the farms at (535,712) and (670,598) sit on it.",
+      "uncertainty_note": "The course is certain. The class is inferred from the width and fill relative to the other roads on the tile (Landsväg/Bygdeväg style)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Paired dotted lines run from the left edge (~0,460) NE to the farm at (210,210). From there they run east along the south side of the green strip to (380,190), on to (465,205), and then north to the top edge at ~(435,0). This matches the Sämre körväg form (double dotted).",
+      "uncertainty_note": "The SW section between (0,460) and (110,355) is faint, and it is not certain that it reaches the left edge. The east-west section along the strip could be a strip edge rather than a separate track."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pair of thin lines runs SE from the crimson diagonal at (60,690) to ~(175,815). A dotted continuation runs down to the main road near (195,895). South of the road a dotted line passes along (240,955), (310,945) and (390,975) towards the house at (395,985).",
+      "uncertainty_note": "The upper section could be a field-edge pair rather than a lane. It is not certain that the parts north and south of the main road are one continuous track (see contested junction)."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line leaves the main road near (320,845) and runs along the south of the small enclosure to ~(420,875). From there a paired dotted line runs SSE through (460,930) to the bottom edge at ~(510,1000).",
+      "uncertainty_note": "The short east-west section along the enclosure could be an enclosure edge. The dotted line to the bottom edge itself is clear."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Paired dotted lines run from the main road at ~(595,645) SSE past the green meadow through (650,760), (700,840) and (735,900) to the bottom edge at ~(745,1000).",
+      "uncertainty_note": "The course is clear. The class is dotted, not solid."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-right corner, a brown-filled double line runs from ~(880,1000) to the right edge at ~(1000,905). The overlay line sits on it.",
+      "uncertainty_note": "Only about 150 px are visible, so the class is uncertain: it may be as wide as f01. The overlay segment may be slightly shorter than the drawn band."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Around the label at (35,32) there is only the place-name lettering, a black field edge and the purple boundary further east. I cannot make out an overlay polyline under the label, and no road symbol (paired or dotted lines, brown fill) is visible at that position.",
+      "uncertainty_note": "If f07 runs along the field edge or the boundary, it is not a road. I cannot judge it without seeing its course."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a single bright crimson line that runs dead straight from the left edge (~0,720) to the top edge (~960,0). Its colour matches the boundary colouring on this sheet (in the worked example, the crimson line is read as Gräns). The purple boundary f10 ends exactly on it at (160,600), and it does not connect to any farm or to the road network.",
+      "uncertainty_note": "A faint thin line with a pale band runs parallel to it in places, notably between (640,180) and (870,60) and around (300,550). This could be a track along the boundary, or a railway or other straight line. If so, a road would be single_line or double_line_narrow along the same course."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the thick dark-purple boundary line from the left edge (~0,275) to the corner at (185,135). The same line continues north to (130,0) as a plain boundary. Between (0,270) and (110,220), however, a second thin dark line runs alongside it with a pale band between them, and the line passes close to the farm at (210,190).",
+      "uncertainty_note": "This is either just a boundary (disagree_not_a_road) or a narrow lane running along the boundary to the farm (double_line_narrow). The drawing does not decide which."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a thick single dark-purple line from the left edge (~0,390) to the crimson diagonal at (160,600). It has the same colour and weight as the boundary at the top-left, with no parallel line, no dots and no fill. It is a boundary.",
+      "uncertainty_note": "Low uncertainty."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[528, 742], [480, 790], [440, 832], [415, 880], [398, 930], [388, 975]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "Two thin parallel lines with a pale fill run from the main road at the farm (535,712) SSW past the enclosure. They end at the house near (395,985) at the bottom of the tile.",
+      "uncertainty_note": "It could partly be a pair of field or meadow edges. It may continue to the bottom edge rather than ending at the house, and it may cross or meet f04 near (420,870).",
+      "alternatives": ["field-edge pair, not a road", "same course ending at the bottom edge (edge_of_tile)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [195, 895],
+      "what_is_contested": "Whether the lane from the NW (f03 upper) crosses the main road and continues as the dotted track to the south (a four-way crossing), or whether the two are separate tracks meeting the road at offset points.",
+      "evidence_note": "The dotted lines on both sides of the road are close but not clearly aligned, and the road edges are dense with field lines here."
+    },
+    {
+      "uv": [420, 872],
+      "what_is_contested": "Whether f04 meets or crosses the narrow lane m01, or merely passes close to it.",
+      "evidence_note": "The dotted f04 bend and the m01 double line come within a few pixels of each other near the enclosure corner, and no clear connection is drawn."
+    },
+    {
+      "uv": [215, 215],
+      "what_is_contested": "The number of branches at the farm: f02 from the SW, f02 to the east, and possibly f09 along the boundary to the west.",
+      "evidence_note": "f09 is either just a boundary or a lane along it. If it is a lane, this is a three-way junction; otherwise f02 only bends here."
+    },
+    {
+      "uv": [60, 690],
+      "what_is_contested": "Whether the northern end of f03 is a junction with a track along the crimson diagonal (f08) or a dead end at a boundary.",
+      "evidence_note": "This depends on whether the diagonal carries a track; its colour indicates a boundary."
+    }
+  ],
+  "overall_note": "The brown-filled main road (f01), the dotted tracks f02, f03, f04 and f05, and the corner road f06 are well supported. The crimson diagonal (f08) and the purple line f10 read as boundaries, and f09 and f07 cannot be decided. A faint straight grey line at v≈235 across the whole tile is a construction or other line, not a road, and the overlay misses one narrow lane (m01) running south from the farm at (535,712)."
+}

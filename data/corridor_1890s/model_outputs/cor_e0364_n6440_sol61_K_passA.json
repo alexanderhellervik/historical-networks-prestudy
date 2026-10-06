@@ -1,0 +1,144 @@
+{
+  "tile_id": "cor_e0364_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[53, 0], [51, 32], [50, 61], [49, 88], [49, 104], [50, 116]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow ochre strip has closely spaced dark margins with repeated dots or short strokes; it meets a similarly narrow curved strip.",
+      "uncertainty_note": "The margins are too blurred to distinguish continuous casing from two broken lines.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "The repeated dark marks may form two dotted margins."},
+        {"proposed_class": "double_line_narrow", "note": "Some portions appear to have two continuous margins."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 94], [16, 99], [31, 104], [42, 110], [50, 116]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two thin, approximately parallel dark strokes enclose a pale ochre strip about 5–8 px wide, curving into the upright strip.",
+      "uncertainty_note": "The last few pixels merge with the upright symbol; the precise meeting point is approximate.",
+      "alternatives": [
+        {"proposed_class": "unknown", "note": "Blur makes the separation and continuity of the margins uncertain."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[50, 116], [57, 127], [67, 138]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short ochre strip with dark edging bends southeast from the meeting point and disappears into the broad red and dark horizontal band.",
+      "uncertainty_note": "Its continuation within or across the red band cannot be resolved.",
+      "alternatives": [
+        {"proposed_class": "double_line_narrow", "note": "The short visible portion resembles the paired margins of f02."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [
+        [365, 129], [386, 149], [405, 173], [420, 199],
+        [432, 229], [445, 258], [461, 274], [489, 285],
+        [512, 287], [548, 284], [583, 280], [620, 284],
+        [661, 287], [701, 286], [743, 285], [781, 282],
+        [817, 286], [850, 295], [878, 305], [903, 319],
+        [925, 333], [945, 351], [951, 366], [945, 380],
+        [938, 397]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A narrow ochre band is edged by closely spaced dark dots and short strokes, with a more continuous thin margin in places; it curves beside the broad red band before running east.",
+      "uncertainty_note": "The northwest continuation disappears in the dense red and black overlap. The alternating continuous and dotted margins do not clearly fit one symbol-form class.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Repeated dots and short strokes dominate much of the edging."},
+        {"proposed_class": "double_line_narrow", "note": "The two margins enclose a consistently narrow strip."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[938, 397], [948, 407], [966, 417], [986, 423], [1000, 426]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The ochre strip bends east through dark rectangular symbols; short dark marks remain visible along its margins toward the tile edge.",
+      "uncertainty_note": "Rectangular symbols partly cover the margins, but the strip remains visible between them.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Visible margin fragments resemble the dotted edging west of the bend."},
+        {"proposed_class": "double_line_narrow", "note": "The pale strip may have two narrow continuous margins beneath the symbols."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [
+        [0, 166], [35, 160], [69, 154], [107, 150],
+        [144, 144], [181, 139], [215, 133], [249, 126],
+        [277, 120], [303, 116]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A gray strip lies immediately below a broad red band, with dark elongated marks along its edges; its width and margins become indistinct near the central overlap.",
+      "uncertainty_note": "This is a doubtful road candidate: the gray strip may instead be hatching or another linear symbol beside a boundary. No connection through the central overlap is asserted.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "If the dark edges belong to one cased road, they enclose a relatively broad strip."},
+        {"proposed_class": "unknown", "note": "Boundary with adjacent hatching or a water-related line, rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[451, 0], [432, 25], [411, 53], [389, 82], [365, 104], [344, 119]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "An oblique gray strip adjoins a broad pink-red line with a heavy dark core; horizontal hatching crosses or abuts the strip, and the lower end merges into several dark strokes.",
+      "uncertainty_note": "A separate road casing is not securely distinguishable from the red boundary and adjacent hatching. Its relationship to f04 and f06 is unresolved.",
+      "alternatives": [
+        {"proposed_class": "double_line_wide", "note": "The gray strip could represent a broad cased route beside the red line."},
+        {"proposed_class": "unknown", "note": "The entire oblique symbol may be a boundary with adjacent shaded ground, without a road."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[938, 397], [939, 418], [941, 440], [944, 450]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short, narrow dark and ochre trace extends south beside a red rectangular symbol; its dark edging breaks into small marks before merging with other black symbols.",
+      "uncertainty_note": "This may be a short road branch, but a field edge or the edging of the adjacent symbols is also possible. No continuation beyond the covered portion is inferred.",
+      "alternatives": [
+        {"proposed_class": "dashed_line", "note": "Small dark marks could be a dotted track symbol."},
+        {"proposed_class": "unknown", "note": "Field boundary or symbol edging rather than a road branch."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [50, 116],
+      "branch_count": 3,
+      "evidence_note": "Three narrow pale or ochre strips with dark margins meet: one extends upward, one curves left, and one bends southeast; the merged dark strokes obscure the exact center."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [938, 397],
+      "branch_count": 3,
+      "evidence_note": "The dotted ochre strip bends from north to east, with a short dark/ochre trace extending south beside rectangular symbols; the third branch is conditional on f08 being a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [302, 94, 366, 142],
+      "why": "Broad red colouring, heavy dark strokes and adjacent gray hatching merge, preventing reliable separation of route margins and connections."
+    },
+    {
+      "bbox_uv": [925, 432, 969, 478],
+      "why": "Red and black rectangular symbols cover the end of the possible southern branch and prevent tracing its continuation."
+    }
+  ],
+  "overall_note": "The clearest road is the narrow ochre route with repeated dark margin marks running toward the right edge. The broad red enclosing outlines and long straight divisions were read as boundaries, while two gray strips near the upper overlap are retained as doubtful road candidates. The eastern three-branch junction depends on the uncertain short southern trace."
+}

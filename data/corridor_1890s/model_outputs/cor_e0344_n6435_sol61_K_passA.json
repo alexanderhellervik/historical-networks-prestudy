@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0344_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[788,769],[817,747],[845,724],[875,707],[904,697],[935,692],[964,691],[1000,692]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two dark, fairly continuous strokes enclose a narrow pale tan strip; small outlined circles and angular parcel outlines sit alongside. Heavy lettering overlaps the eastern portion.",
+      "uncertainty_note": "The paired strokes become difficult to separate beneath the eastern lettering; their alignment on either side supports the reported continuation. The connection at j01 is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some apparent casing could belong to adjacent parcel outlines, particularly around (875,707)."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[595,945],[620,924],[647,902],[674,878],[704,851],[727,824],[751,799],[771,784],[788,769]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin brown-dark diagonal approaches the heavy pink and dark stroke near (704,851); northeast of it, separated dark marks continue toward the paired pale strip. Small circular symbols overlap portions of the course.",
+      "uncertainty_note": "This is a doubtful track candidate. The southwestern portion could be a property boundary, and the crossing near (704,851) is partly masked by heavier linework. The southwestern endpoint loses its identity where it meets the pink diagonal.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated dark marks northeast of (704,851) could represent a path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The southwestern diagonal could be a property boundary rather than a road; under that reading the road candidate begins near (727,824)."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[1000,251],[985,282],[970,315],[952,352],[933,390],[915,428],[903,460],[897,496],[893,535],[889,573]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A narrow oblique dark line has repeated separated marks and, intermittently, a faint parallel stroke a few pixels away. It runs beside horizontal hatching and meets angular outlines farther south.",
+      "uncertainty_note": "The marks are not clear enough to distinguish a track symbol from a dashed boundary. The line loses a separable course among the outlines near (889,573), so no connection across that area is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could be a drawn path or track."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The intermittent parallel stroke could be the second edge of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary following the edge of the hatched area is also plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[867,623],[851,651],[836,679],[817,709],[801,738],[788,769]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Short dark oblique strokes and a narrow pale interval descend beside hatching and irregular tan polygons toward the southwest end of the clearer paired line.",
+      "uncertainty_note": "Parcel edges interrupt the apparent line, making both its road identity and its meeting with f01 and f02 uncertain. It may continue toward f03, but the intervening drawing does not establish that connection.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale interval between dark strokes could be narrow road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "These strokes could instead be successive parcel and marsh outlines, with no road branch at j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [788,769],
+      "branch_count": 3,
+      "evidence_note": "Tentative three-branch meeting: a narrow paired line extends northeast, separated dark marks approach from the southwest, and faint oblique strokes approach from the north-northeast. Small outlined symbols make the precise meeting difficult to resolve."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [862,570,906,630],
+      "why": "Dark parcel outlines, small symbols and weak parallel strokes cannot be separated reliably enough to establish a road course between f03 and f04."
+    }
+  ],
+  "overall_note": "The clearest road symbol is the narrow paired strip across the lower-right settlement; its approaches are less secure. Straight pink diagonals, long isolated dashes and the pink line through the upper-right water were read as boundaries rather than roads. The reported junction and southwestern approach remain tentative."
+}

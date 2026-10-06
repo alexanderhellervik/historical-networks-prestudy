@@ -1,0 +1,93 @@
+{
+  "tile_id": "cor_e0344_n6441",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Top-left corner (u 0-90, v 0-95): a black field outline with reddish-brown dotted edging runs from about (0,90) up to (85,45) and on toward (50,0). The colour looks like the road band elsewhere on the tile, but only a few tens of pixels are visible and it hugs a field edge.",
+      "uncertainty_note": "It could be the end of a road leaving the tile corner, or red edging along a field boundary. The fragment is too short to decide."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear reddish-brown road band with dark dotted edging crosses the whole tile: from the left edge at about (0,748) through (105,775), (380,830), (620,882) and (740,903), then rises to the right edge at about (1000,815). This is the same symbol as the Sämre körväg in the worked example. A blue stream line runs alongside it from about (400,840) eastward and is not part of the road.",
+      "uncertainty_note": "I cannot read the overlay's class from the image, so I give my own. It could be drawn as single_line instead. It is not clear whether the overlay carries f02 beyond the bend at (740,903) to the right edge; the road itself clearly does continue there."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown road band with dark edging enters at the left edge at about (0,455). It curves through (40,550) and (105,630) to a node at (130,710), where black field boundaries meet. It then runs south-southwest, crosses f02 at about (105,775), and continues through (75,825) to the left edge at about (0,880). This matches the overlay's course.",
+      "uncertainty_note": "The band is a little thinner than f02, so single_line is a possible alternative class. Near (130,710) the road coincides with black field outlines."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown line leaves f02 at about (400,840) and runs south through (380,900) to the bottom edge at about (352,1000). A black field outline runs beside it on its east side.",
+      "uncertainty_note": "The red line may be road colouring on a field boundary rather than a separate road, but its colour and width match f05 and the road band."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow red-brown line branches south off f02 at about (623,885) and reaches the bottom edge at about (603,1000).",
+      "uncertainty_note": "It is short and inside the tile it has no junction other than the one with f02. The class could be double_line_narrow."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [[760, 905], [800, 925], [850, 960], [900, 1000]],
+      "evidence_note": "Bottom right: a dotted line (dark dots with faint red) runs down-right from just south of the f02 road band at about (780,915) to the bottom edge at about (900,1000), along the edge of a woodland patch. Its dotted form matches the Gångstig symbol and the style of f07. The overlay line lies close to this but starts on the road bend at (740,903).",
+      "uncertainty_note": "Where it meets f02 between u 740 and 790 is unclear because the blue stream line and the road band overlap there. It could also be a dotted boundary along the woodland edge."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line of dark dots with reddish tint starts at the woodland corner at about (575,490). It runs down-left through (505,575) and (500,600), then crosses the field through (470,690) and (430,750) to f02 at about (380,830). The dots-only form matches Gångstig on the legend.",
+      "uncertainty_note": "Between (575,490) and (500,600) it follows the woodland edge, so it might be boundary edging. The northern end at the woodland corner looks like a dead end."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Top right: a red-brown band with dark edging runs from about (880,200), next to the corner of the woodland polygon, east-southeast to the right edge at about (1000,242). Its symbol is the same as the f02 road band.",
+      "uncertainty_note": "Its western end at (880,200) has no visible continuation, so it is either a dead end or a road that turns off along the woodland edge. Red edging of a field boundary is possible."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [380, 832],
+      "what_is_contested": "Whether f07 (arriving from the north at about 380,830) and f04 (leaving southward at about 400,840) form one four-way crossing of f02 or two T-junctions offset by about 20 px.",
+      "evidence_note": "Both lines meet the road band within a short stretch where the blue stream and the dotted road edging overlap, so the exact meeting points are not distinct."
+    },
+    {
+      "uv": [105, 775],
+      "what_is_contested": "Whether f03 crosses f02 here as a four-way junction, or the two parts of f03 meet f02 at slightly different points.",
+      "evidence_note": "The red bands intersect around u 95-115, next to a small black loop at (70,780)-(75,830) and black field outlines."
+    },
+    {
+      "uv": [130, 710],
+      "what_is_contested": "Whether this is a road junction at all, or only a point where black field boundaries meet the f03 road.",
+      "evidence_note": "Several black outlines converge on the road band here, but no other red-brown line branches off."
+    },
+    {
+      "uv": [760, 905],
+      "what_is_contested": "The position of the junction where the dotted f06 line meets f02, and whether it touches the road at all.",
+      "evidence_note": "The road bends northeast here and the blue stream crosses near it; the dotted line becomes clear only from about (780,915)."
+    }
+  ],
+  "overall_note": "The tile has one through road (f02) and several red-brown branches (f03, f04, f05, f08), plus two dotted path-like lines (f06, f07). I found no road on the tile that the overlay omits, provided f02 continues to the right edge. Black lines are field and woodland outlines, blue lines are streams, and the vertical line at u≈970 is not a road."
+}

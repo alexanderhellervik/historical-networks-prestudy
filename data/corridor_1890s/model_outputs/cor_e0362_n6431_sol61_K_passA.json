@@ -1,0 +1,153 @@
+{
+  "tile_id": "cor_e0362_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,740],[18,715],[32,702],[45,702],[57,709],[79,705],[107,690],[132,681],[158,672],[190,670],[229,662],[270,650],[309,639],[343,616],[372,594],[400,568],[428,543],[455,515],[480,489],[505,465],[530,439],[552,426],[567,411]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A winding rust-coloured strip has two dark margins roughly 7–12 px apart, with broken or dotted portions; several small black building rectangles sit beside its western section.",
+      "uncertainty_note": "The course is clear. Broken margins make the precise symbol form less certain than the road identification.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The margins may represent a partly dotted cart-track symbol rather than a consistently double-line symbol."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[567,411],[586,382],[603,352],[619,318],[634,283],[646,250],[653,223]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two dark, locally broken margins enclose a rust-coloured strip about 8–12 px wide; thin straight reddish lines cross it without comparable road branches.",
+      "uncertainty_note": "The road continues visibly across the straight-line crossings. Margin detail is locally blurred.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A mixed solid-and-dotted cart-track symbol is also possible."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[653,223],[655,199],[650,177],[637,153],[621,129],[608,106],[598,80],[596,47],[596,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A curved rust-coloured band has two dark edges approximately 9–13 px apart, with conspicuous short dark marks along portions of its margins.",
+      "uncertainty_note": "The course is clear; the broken edging leaves the exact symbol-form classification uncertain.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The dark marks may be dotted cart-track margins rather than continuous casing."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[653,223],[673,224],[688,208],[700,181],[710,151],[715,137],[738,126],[765,128],[792,121],[822,113],[851,98],[884,76],[916,53],[950,29],[987,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "The rust-coloured strip bends eastward and then northeastward between close dark margins; lettering overlaps portions, but matching margins remain visible on both sides.",
+      "uncertainty_note": "Continuity through the lettering is supported by the visible strip and margins. Some edging is dotted or indistinct.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The partially dotted margins could constitute a different cart-track symbol."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[567,411],[591,401],[615,396],[638,402],[658,415],[681,439],[702,465],[720,490],[734,515],[744,545],[754,575],[768,602],[782,630],[799,658],[809,690],[816,723],[825,758],[836,790],[851,818],[875,841],[905,860],[936,885],[964,907],[1000,930]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A curved rust-coloured strip runs between dark margins roughly 6–11 px apart; the western attachment overlaps lettering, and the descending section has repeated dark marginal marks.",
+      "uncertainty_note": "The attachment at j01 is less crisp than the remaining course, but the paired margins can be followed into the fork.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The locally broken margins may be a dotted cart-track symbol."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[452,0],[457,29],[458,59],[456,89],[453,120],[447,148],[437,175],[425,200],[416,222]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "One thin, irregular sequence of black dots and short dashes curves downward without clear casing or coloured infill, ending among dark building strokes.",
+      "uncertainty_note": "Read as a possible path; a boundary remains possible. Its endpoint cannot be separated from the black symbols near [416,222].",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The dotted line could be a boundary rather than a path."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[290,325],[301,346],[314,366],[333,391],[349,425],[361,455],[372,487],[384,513]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A narrow sequence of dark dots and short strokes descends beside stepped solid outlines; its upper portion overlaps small outlined and filled building symbols.",
+      "uncertainty_note": "A path and a boundary are both plausible. At the lower end it overlaps other dark lines; no connection to the rust-coloured road is asserted.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The strokes may mark a boundary; the lower course could turn northeast along the solid outline instead of continuing southeast."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[616,291],[637,270],[658,249],[681,228]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A short northeast-running pale strip is bordered by fine, nearly parallel dark strokes a few pixels apart, close to the rust-coloured northern fork.",
+      "uncertainty_note": "This could be a separate narrow track, parcel edging, or part of the adjacent road's drawing. Both apparent attachments disappear into overlapping strokes, so additional junctions are not asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"If the paired strokes depict a separate track, they form a short connection between the two nearby road branches."},
+        {"proposed_class":"unknown","note":"The strokes may be parcel boundaries or road-margin detail, with no separate road feature."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,781],[15,760],[29,743],[40,727]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two irregular dark strokes enclose a narrow pale diagonal strip below a small tilted black-outlined building near the western edge.",
+      "uncertainty_note": "A short approach or path is possible, but the strokes could be an outlined parcel edge. The upper end is obscured by building and outline strokes.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The pale strip could be a narrow track approaching the building."},
+        {"proposed_class":"unknown","note":"It may be a parcel outline rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[311,751],[350,778],[389,804],[430,831],[474,860]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint, almost straight pair of grey strokes, approximately 3–5 px apart, crosses the peach-coloured area beneath 'Torpet', without rust-coloured infill.",
+      "uncertainty_note": "A narrow track and a field-division line are both possible. The northwest continuation is hidden by lettering; the southeast end merges with dark edging beside pale blue colouring.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The faint paired strokes could depict a narrow track."},
+        {"proposed_class":"unknown","note":"They could instead be a field division or other fine survey line."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [567,411],
+      "branch_count": 3,
+      "evidence_note": "Three dark-edged strips meet: southwest, northeast, and east. The east branch is narrower at its attachment and partly overlapped by black lettering, but its margins approach the same fork."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [653,223],
+      "branch_count": 3,
+      "evidence_note": "Three rust-coloured, dark-margined branches meet in a curved fork: one south-southwest, one north, and one bending east then northeast."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [177,681,315,756],
+      "why": "Heavy 'Torpet' lettering and nearby black symbols obscure the northwest continuation of the faint diagonal candidate f10."
+    },
+    {
+      "bbox_uv": [269,293,315,346],
+      "why": "Overlapping filled building marks and outlined polygons prevent a reliable separation of the upper endpoint of f07 from possible short connecting strokes."
+    }
+  ],
+  "overall_note": "The rust-coloured, dark-edged roads are the clearest features and form two three-branch forks. Features f06–f10 preserve doubtful path or track readings, including alternatives in which they are not roads. Obscured fine lines were stopped rather than extended through lettering or symbols."
+}

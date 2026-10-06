@@ -1,0 +1,184 @@
+{
+  "tile_id": "cor_e0357_n6453",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[142,0],[144,6],[158,44],[171,91],[178,140],[182,192],[187,244],[192,295],[200,347],[209,390],[231,418],[251,444],[269,483],[281,526],[290,563],[296,590],[298,629],[297,674],[284,718],[277,752],[283,779],[299,816],[310,859],[319,905],[330,954],[344,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark edges, generally about 10–14 px apart, enclose a pale pink-ochre strip; the casing remains visible through the bends.",
+      "uncertainty_note": "The junction very near the upper edge is partly clipped.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,62],[26,46],[53,31],[81,20],[103,8],[117,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow orange strip has closely spaced, broken dark margins and runs diagonally across the upper-left corner.",
+      "uncertainty_note": "The upper end leaves the face before any connection to the broad road is visible.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The small dark marks could be read as paired dotted strokes rather than narrow casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[144,6],[160,7],[178,2],[190,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A short ochre trace with broken dark margins leaves the east casing of the broad road immediately below the upper edge.",
+      "uncertainty_note": "The trace is clipped by the upper edge; its possible continuation toward f04 cannot be followed within the face.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Clipping makes the short branch's margin pattern and exact attachment difficult to distinguish."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[225,0],[250,9],[277,20],[306,27],[333,29],[363,25],[393,17],[422,6],[440,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two closely spaced broken dark margins follow a shallow ochre arc along the top of the face.",
+      "uncertainty_note": "Both ends are clipped; the western continuation may belong to f03, but no course outside the face is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The margins consist mostly of separate dark marks rather than continuous lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[296,590],[327,607],[365,619],[401,614],[439,606],[477,598],[514,591],[553,582],[580,568],[603,546],[623,522],[647,519],[680,521],[710,529],[735,542],[757,551],[782,566],[815,584],[847,602],[879,615],[911,623],[940,625],[970,620],[1000,612]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre strip has dark, partly dotted edges about 3–7 px apart; it bends beside black building rectangles, passes below large lettering, and continues toward the right edge.",
+      "uncertainty_note": "Lettering and the blue line obscure short stretches around u=725–780. The incoming and outgoing narrow margins support the connection, but their precise position beneath the ink is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches show one continuous edge and one broken edge, so the symbol is not uniformly a clear double line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[553,582],[578,577],[601,575],[626,576],[652,578],[681,580]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A thin dark stroke with a faint yellow companion runs east along the lower side of the pale plot containing a red building; its apparent spacing is only a few pixels.",
+      "uncertainty_note": "This may be a short access track or simply the plot outline. The eastern stroke stops at an angular parcel margin without a clearly drawn onward route.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark and yellow parallel strokes could form a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If these strokes are the parcel perimeter, this feature should be omitted from the road reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[553,582],[552,607],[557,628],[560,650],[565,672],[566,690]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin, nearly continuous dark stroke descends beside angular plot edges; locally a faint parallel stroke appears, but there is no consistent broad casing.",
+      "uncertainty_note": "It could be a path or a parcel boundary. Its lower end disappears into heavy red and black bank-side ink; no continuation across that ink is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The dominant visible stroke could represent a narrow path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Its alignment with adjoining parcel outlines supports a non-road boundary reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[448,1000],[462,976],[474,951],[477,926],[482,902],[500,884],[519,866],[533,869],[557,881],[580,895],[605,904],[627,912],[644,918],[658,935],[664,957],[666,979],[667,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A winding orange-brown strip is bordered by two close rows of dark broken marks; it crosses a blue strip near u=650 and continues downward with the same dotted edging.",
+      "uncertainty_note": "Dark marks and blue ink overlap around the crossing at approximately [653,932]; the short crossing position is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two margins can also be described as paired dotted or dashed strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[644,918],[633,903],[638,885],[642,867]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Several short black marks form a roughly north–south trace between the orange track and a red building; no continuous casing is visible.",
+      "uncertainty_note": "The marks may be a short path, separate small building symbols, or a mixture. Their apparent connection to f08 is uncertain, and the trace is stopped below the red building.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated black marks could represent a short dashed access path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "If the marks are individual building symbols, there is no road feature here."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [144,6],
+      "branch_count": 3,
+      "evidence_note": "The broad pink strip continues toward both the upper edge and downward; a short narrow ochre trace appears to meet its east casing. The upper limb and attachment are partly clipped."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [296,590],
+      "branch_count": 3,
+      "evidence_note": "The two broad dark casings continue above and below while a narrower ochre, broken-edged strip leaves the eastern side toward [327,607]."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [553,582],
+      "branch_count": 4,
+      "evidence_note": "The narrow ochre route has west and northeast limbs; thin strokes also extend east and south from the same vicinity. Four branches are conditional on those two thin strokes being paths rather than parcel outlines."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [644,918],
+      "branch_count": 3,
+      "evidence_note": "The orange, broken-edged track continues west and southeast; a trace of short black marks approaches from the north. The third branch is conditional on those marks representing a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [723,511,790,568],
+      "why": "Heavy black lettering overlaps the narrow route and blue line, hiding portions of the margins."
+    },
+    {
+      "bbox_uv": [627,867,667,920],
+      "why": "Short black symbols, lettering, and the nearby red building prevent a reliable distinction between a dashed path and separate building marks."
+    }
+  ],
+  "overall_note": "The broad cased road and orange broken-edged tracks are the clearest routes. Thin strokes beside the central parcels and below the southern red building support alternative path and non-road readings, so their junction counts are conditional. The strong red boundary strokes and blue water lines are excluded."
+}

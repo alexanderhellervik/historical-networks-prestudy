@@ -1,0 +1,266 @@
+{
+  "tile_id": "cor_e0363_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 263], [18, 286], [43, 305], [82, 315], [125, 323], [166, 325], [203, 317], [241, 302], [275, 282], [310, 269], [351, 263], [391, 256], [428, 240], [469, 225], [510, 207], [550, 188], [588, 172], [621, 153], [650, 136], [687, 123], [726, 105], [764, 86], [794, 74], [813, 77], [827, 84], [852, 76], [887, 63], [916, 48], [931, 34]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A continuous heavy red band follows this course, with dark blue-black edges approximately 15–30 px apart. Horizontal hatching abuts much of its lower edge; no regular road dots can be resolved.",
+      "uncertainty_note": "Its appearance resembles the broad red road identified in the worked example, but the red wash and adjoining hatching obscure the underlying line symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The two dark margins could be read as widely spaced road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary or polygon margin remains an alternative to the road reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[931, 34], [941, 55], [956, 44], [978, 31], [1000, 20]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The broad red band bends sharply downward and then rises toward the right edge, retaining heavy dark margins roughly 15–25 px apart.",
+      "uncertainty_note": "The bend is readable, but the relationship to the short band reaching the upper edge is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The dark margins may represent road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "This may be a coloured boundary continuing f01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[909, 0], [925, 10], [935, 22], [931, 34]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A short red and dark blue-black stroke enters through the upper edge and appears to merge with the broad band at its sharp bend.",
+      "uncertainty_note": "This could be a third branch, or merely the clipped outer margin of the same broad band; its centre is poorly resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "Possible short cased road branch."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible band margin rather than a separate feature; under that reading j01 is not a junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 522], [43, 511], [88, 502], [131, 487], [172, 474], [212, 459], [250, 440], [287, 423], [319, 408], [350, 389]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin ochre-orange stroke, approximately 2–4 px wide, runs across the pale face. Small dark interruptions occur along it, but a consistently separate second line is not visible.",
+      "uncertainty_note": "At the eastern end it joins the dark red outline of a hatched polygon and loses its distinct symbol. Continuation along that outline cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The small dark interruptions could represent a dotted track symbol rather than a plain single line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel boundary is also possible because the stroke terminates on a polygon corner."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[604, 438], [598, 447], [600, 455]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A short ochre stroke with a dark edge emerges beside the southern hatched-polygon outline and reaches the small cluster of intersecting lines.",
+      "uncertainty_note": "The stroke overlaps the polygon margin; it may be a road approach or part of that outline.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short continuation of the thin ochre path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road polygon boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[600, 455], [625, 465], [651, 474]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow ochre-orange line crosses the small pale triangular space. A heavier dark red diagonal overlaps it near its eastern end.",
+      "uncertainty_note": "The ochre stroke is visible, but the overlap prevents a certain reading of its connection at j03.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible parcel edge within the small triangle rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[600, 455], [605, 472], [611, 493]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A short dark and ochre stroke forms the western side of the small triangular line cluster, with no clearly separated parallel casing.",
+      "uncertainty_note": "This is the least distinct side of the triangle and could be an outline rather than a separate path.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible connecting path between the two visible ochre stretches."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road enclosure edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[611, 493], [631, 490], [647, 484], [651, 474]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04", "j03"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A fine ochre line bends eastward along the bottom of the pale triangle, then turns upward into the heavier crossing strokes.",
+      "uncertainty_note": "Its bend is visible, but whether this is a path or the lower outline of the triangle is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short curved path connector."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road polygon outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[651, 474], [664, 454], [678, 432], [691, 411], [702, 398]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow ochre stroke lies beside a darker red-black line rising toward the eastern corner of the hatched polygon; separation is only a few pixels.",
+      "uncertainty_note": "The apparent track coincides with the polygon edge and becomes inseparable from it at the northern end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The closely spaced ochre and dark strokes could be a narrow cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire stretch may be a parcel or land-cover boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[651, 474], [695, 462], [742, 449], [787, 435], [833, 421], [879, 408], [924, 394], [963, 382], [1000, 371]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin, mostly continuous ochre-orange line runs toward the right edge, approximately 2–4 px wide, with scattered darker marks and no obvious paired casing.",
+      "uncertainty_note": "The straight course and contact with parcel outlines allow a boundary reading; its junction with the central strokes is also crowded.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible dotted track symbol whose individual marks blur together."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[611, 493], [607, 527], [605, 560], [608, 595], [615, 630], [625, 665], [637, 701], [650, 738], [662, 774], [675, 812], [689, 849], [703, 886], [714, 923], [728, 961], [740, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin ochre-brown line bends gently southward, with small dark interruptions and variable weight around 2–4 px. Green polygon outlines cross it without following its course.",
+      "uncertainty_note": "The line remains traceable, but the blurred interruptions do not establish whether it is a dotted path symbol. A boundary reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible dotted path or track rather than a continuous single line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[866, 1000], [886, 986], [909, 975], [927, 957], [941, 937], [949, 916], [958, 899], [975, 896], [1000, 900]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A winding dark blue-black line with an adjacent ochre stroke skirts black rectangular marks and a pale outlined patch in the lower-right corner. Portions appear paired, about 4–8 px apart.",
+      "uncertainty_note": "The apparent paired course is crowded by building and polygon outlines. A road reading is plausible, but a ditch or parcel edge is also supported; the turn toward the right edge is especially uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow cased road beside the black rectangular symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible stream, ditch, or parcel outline; the upper turn could instead follow the adjacent outline toward approximately [969, 880]."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [931, 34],
+      "branch_count": 3,
+      "evidence_note": "Three apparent red-band arms converge amid heavy dark margins close to the upper edge. Count is conditional: the upper arm may instead be the clipped margin of the bending band."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [600, 455],
+      "branch_count": 3,
+      "evidence_note": "Short northward, southeastward and southward ochre/dark strokes meet beside the hatched outline. Three road branches are possible, but one or more strokes may belong to the outline."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [651, 474],
+      "branch_count": 4,
+      "evidence_note": "Ochre candidate arms approach from northwest, southwest, northeast and east, while a heavier red-black diagonal crosses the cluster. The four-branch count excludes that heavier diagonal and remains conditional on the polygon-edge arms being roads."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [611, 493],
+      "branch_count": 3,
+      "evidence_note": "A southward ochre line meets a short northward stroke and an eastward-curving stroke at the bottom-left corner of the pale triangle. Three branches are visible only under the path reading of its edges."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [895, 0, 960, 65],
+      "why": "Clipping and overlapping heavy red and dark margins prevent a certain distinction between a third branch and the edge of one bending band."
+    },
+    {
+      "bbox_uv": [589, 432, 672, 503],
+      "why": "Thin ochre strokes, polygon outlines and a heavier diagonal overlap; their separate symbols and exact connections cannot be resolved reliably."
+    }
+  ],
+  "overall_note": "The broad upper band resembles the road identified in the worked example, although its underlying symbol is obscured. Thin ochre candidates and the lower-right corner admit road and non-road readings; the reported junction counts are conditional where their arms overlap polygon outlines. Straight parcel divisions and green land-cover outlines have not otherwise been treated as roads."
+}

@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0359_n6446",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown-filled narrow double line with dotted edges runs from the top edge at about (90,0) via (100,100) and (128,160) down to the heavy black line at about (120,343). It looks the same as the Sämre körväg roads in the neighbouring worked example, and the overlay polyline follows it closely.",
+      "uncertainty_note": "The course is clear. The class (narrow double line, sämre/bättre körväg) is a judgement call from the drawn width."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown dotted double line continues south of the heavy black line: (120,345), (130,450), (170,495), (205,515), (215,620), (285,715), (330,790), (375,880), (400,1000). The overlay follows it to the bottom edge.",
+      "uncertainty_note": "Course is clear. The blue line that touches it near (175,490) is a boundary, not a branch."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the left edge at v≈355 to (120,343) the line is a single heavy black line with a pink wash below it. It continues as f04 and matches the black line with white breaks that the legend uses for railways (järnväg), not the double-line road symbols.",
+      "uncertainty_note": "I read it as a railway. Alternative: the red/pink wash beside it could be a coloured landsväg next to the railway, in which case a double_line_wide road would run here."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (120,343) via (250,365), (450,345), (650,290), (800,210) to the right edge at about (1000,95) there is a heavy black line broken into regular dashes with dots (a railway-type pattern) and a broad crimson band on its south side. There are no paired thin edge lines like the road symbols in the legend, and it crosses road f01/f02 like a level crossing.",
+      "uncertainty_note": "Fairly but not fully sure. The crimson band has no road equivalent in the legend crop. If the sheet colours main roads crimson, this is a wide road (double_line_wide) running beside or on the railway, and the overlay's course would then be correct."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted double line starts at about (865,460) at a field edge and runs (835,525), (845,620), (870,720), (890,800), (895,835) into the farm cluster with buildings 21–23. The overlay follows it.",
+      "uncertainty_note": "The north end at (865,460) seems to stop at the field boundary. Whether it continues north to the railway as an undrawn or faint track cannot be seen."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "South of the farm buildings near (880,870), the brown dotted road continues past building 18 down to the bottom edge at about u≈858. The overlay segment labelled f06 meets the bottom edge there.",
+      "uncertainty_note": "Among the red/orange building squares and lettering ('G', '18', '2B'), the exact line between (880,870) and (860,960) is partly hidden."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line leaves the southward road at about (860,962) and runs east just above the bottom edge towards about (960,975). It is drawn with the same dotted brown edges as the roads.",
+      "uncertainty_note": "It runs very close to the tile edge and under the '2B' lettering. It could be a property-edge line in brown rather than a track, and its exact course and length are uncertain."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the bottom-right corner (about 960–1000, 950–1000) there are short brown dotted strokes, which may continue f07 to the right edge or be a separate fragment. Too little is inside the tile to decide.",
+      "uncertainty_note": "This is only a few tens of pixels at the corner. The neighbouring tile would decide it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[405, 42], [440, 22], [478, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A short brown dotted double line runs from the east end of the wooded patch near (405,42) north-east to the top edge at about (478,0). It looks like the f01 road symbol.",
+      "uncertainty_note": "Short and near the edge. The orange-brown edging along the south side of the patch (180,100)–(405,42) looks like a land-use edge, not a road, so I left it out.",
+      "alternatives": ["field or meadow edge drawn in brown, not a road", "continues west along the patch edge to join f01 near (100,100)"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[700, 0], [740, 15], [790, 40]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "At the top right, a brown dotted double line comes in from the top edge near (700,0) and ends at the corner of the field parcel near (790,40).",
+      "uncertainty_note": "It runs beside a blue/green watercourse and meadow edges, so it could be a ditch or edge in brown. It is short and ends at a parcel corner.",
+      "alternatives": ["not a road (field edge)", "single_line track"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [120, 344],
+      "what_is_contested": "Whether this is a road junction at all. If the heavy black/crimson line is a railway, f01/f02 just cross it (level crossing, one road). If the crimson band is a road, this is a four-way junction.",
+      "evidence_note": "The brown double-line road passes straight through the heavy black line. On the heavy line, only the black dashed railway-like pattern and the crimson wash are visible."
+    },
+    {
+      "uv": [865, 460],
+      "what_is_contested": "Whether f05 ends here or continues north (for example to the railway).",
+      "evidence_note": "The brown dotted line stops at a black field boundary. North of it only field lines and dashed parcel lines are visible."
+    },
+    {
+      "uv": [862, 962],
+      "what_is_contested": "How many branches meet south of the farm cluster: the southward road (f06), the eastward line (f07) and possibly the corner fragment (f08). The position is also unclear.",
+      "evidence_note": "Buildings, the '18' and '2B' lettering and the tile edge crowd the area, and the brown lines are hard to separate."
+    }
+  ],
+  "overall_note": "The one clear road is the brown double line f01/f02 running north–south. The village road f05/f06 is also clear. I read the heavy black dashed line with the crimson band (f03/f04) as a railway, not a road, but a coloured main road along it cannot be ruled out. The fine parallel dashed lines in the fields and the blue line are boundaries (skifteslinjer, gräns), not roads."
+}

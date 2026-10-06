@@ -1,0 +1,127 @@
+{
+  "tile_id": "cor_e0356_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[919,0],[901,27],[882,57],[865,85],[843,109],[815,137],[797,159],[789,182],[787,210],[781,239],[762,261],[737,282],[710,301],[682,320]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A thin orange-brown stroke with dark, intermittently dotted edging follows these bends; its total width is approximately 3–6 px. It crosses the heavier red diagonal without branching there.",
+      "uncertainty_note": "The course is readable, but the interrupted edging does not resolve consistently into a single line or two separate margins. A boundary interpretation remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The orange interior and dark edging may represent a narrow track with two interrupted margins."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Some sections resolve mainly as a succession of dark short strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, this is an orange-accented property division rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[682,320],[681,290],[679,259],[676,232],[669,213]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow orange-brown line with small dark interruptions extends upward from the fork. Its upper end meets the heavier blue line, where the strokes merge.",
+      "uncertainty_note": "This may be a second track branch or a boundary segment. No continuation across the blue stroke can be established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The orange stroke can be read as one thin line with incidental dark marks."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The dark interruptions may be two poorly resolved margins around a narrow orange interior."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A property-boundary interpretation would remove this branch from the road network."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[682,320],[680,337],[677,351]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "The thin orange/dark stroke continues downward from the fork into the dark outline of an orange polygon. Separate road margins cease to be distinguishable at that outline.",
+      "uncertainty_note": "The short continuation is visible, but its identity as a road remains uncertain. It is stopped at the polygon outline; an onward course beside the orange shapes and black marks cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "This short section may be a single-stroke path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may instead be the continuation of a property or polygon boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,481],[49,508],[98,536],[148,564],[198,593],[247,622],[296,651],[345,681],[394,710],[443,737],[492,765],[542,793],[591,822],[640,851],[689,880],[738,908],[787,937],[836,965],[885,992],[899,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A long pale diagonal strip has a thin darker lower margin and a fainter approximately parallel upper margin, generally several pixels apart. Matching margins and intervening fragments remain visible around the large black lettering.",
+      "uncertainty_note": "This is a doubtful track candidate: the very straight course and unequal margin weights also support a field or property-strip interpretation. Continuation through the lettering is supported by the aligned visible margins; no connecting road branch is resolved.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The fainter margin may be colour spread beside a single continuous line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The two strokes may bound a narrow land strip rather than depict a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0,709],[45,741],[90,773],[135,806],[180,838],[225,871],[270,905],[315,939],[360,973],[397,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two thin grey-to-dark diagonal strokes enclose a pale band below the orange polygons. Their separation is roughly 10–25 px and varies; neither margin shows a regular boundary dash pattern.",
+      "uncertainty_note": "The enclosed pale band supports a road reading, but variable spacing and adjacency to polygon outlines make a bounded land strip an equally plausible interpretation. No branch into the nearby orange shapes is sufficiently distinct to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If only the closer inner strokes belong to the feature, its casing is narrower than the full pale band."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively, these are separate field or property edges enclosing a strip, with no road symbol."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [682,320],
+      "branch_count": 3,
+      "evidence_note": "Three thin orange-brown strokes with dark interrupted edging meet: one upward, one toward the upper right, and one downward. This is a three-branch road junction only under the track interpretation of those strokes."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [165,588,390,710],
+      "why": "Large black lettering overlaps pale diagonal strokes and nearby polygon outlines; finer local connections cannot be separated reliably."
+    },
+    {
+      "bbox_uv": [651,345,704,426],
+      "why": "Orange fill, dark polygon outlines, lettering and compact black marks merge around the lower endpoint of f03, preventing a reliable onward trace."
+    }
+  ],
+  "overall_note": "The upper-right orange-edged strokes are road candidates, although their symbol form and possible boundary role remain uncertain. The two pale lower diagonals are included with explicit land-strip alternatives. Heavy red diagonals, long regularly dashed divisions, blue water lines and dotted vegetation outlines were excluded."
+}

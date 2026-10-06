@@ -1,0 +1,119 @@
+{
+  "tile_id": "cor_e0346_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 485], [23, 491], [46, 499], [69, 508], [89, 520], [101, 534], [105, 545]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow light strip follows dark dots beside the green tint and heavy outlines of orange polygons; two separate margins are not consistently distinguishable.",
+      "uncertainty_note": "This is a doubtful western approach. Its margins become inseparable from angular polygon outlines near the endpoint, so no connection across the following gap is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The light strip and dark margins may represent a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted strokes may instead belong to the enclosure boundary beside the green tint."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[147, 608], [163, 623], [183, 636], [204, 647], [221, 651]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A short reddish strip with closely spaced dark, partly dotted margins runs between angular orange outlines and beneath the large lettering.",
+      "uncertainty_note": "The western continuation is obscured among polygon and building strokes. The course toward the junction is visible on either side of the lettering, but its precise center is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some short marginal strokes could be polygon outlines rather than a separate track edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[221, 651], [251, 664], [281, 676], [312, 688], [344, 699], [374, 704], [405, 704], [433, 699], [464, 690], [495, 677], [526, 663], [552, 650], [570, 631], [588, 606], [606, 585], [625, 567], [646, 554], [662, 550], [679, 558], [699, 576], [721, 597], [742, 611], [766, 616], [795, 618], [824, 616], [854, 611], [884, 603], [913, 595], [943, 584], [972, 576], [1000, 568]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A winding reddish ribbon has closely spaced dark dotted margins, roughly 5–10 px apart where separable; the dots sometimes merge into a single heavy row.",
+      "uncertainty_note": "The course is clear. Resolution makes the distinction between paired dotted edges and one dotted stroke less secure in places.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "At this resolution, portions could be read as a single dotted path with reddish tint alongside."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[221, 651], [230, 671], [240, 695], [250, 720], [260, 747], [269, 770], [274, 789]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow reddish strip with dark broken margins follows the eastern side of the elongated orange polygon; its two edges are clearest below the lettering.",
+      "uncertainty_note": "The upper few pixels overlap lettering and the polygon corner. The matching strip immediately above and below supports continuity.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[274, 789], [295, 811], [319, 829], [344, 839], [372, 842], [396, 851], [408, 869], [412, 896], [413, 924], [415, 955], [416, 982], [416, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A reddish band bounded by dark short dashes and dots bends right, then downward; near the green enclosure, a dotted enclosure edge lies close to its eastern margin.",
+      "uncertainty_note": "The course remains visible, although the track margin and adjacent enclosure outline partly coincide beside the green tint.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Individual dark strokes beside the green tint may belong to the enclosure rather than the road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[274, 789], [258, 807], [244, 825], [236, 846], [234, 873], [232, 903], [231, 935], [229, 967], [228, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow pale-to-reddish strip branches left, with prominent dark dots on its western side and a fainter second margin, then descends to the bottom edge.",
+      "uncertainty_note": "The branching course is readable, but the second margin is weak. A dotted parcel boundary is an alternative reading of the lower portion.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the faint second margin is incidental, the symbol could be a single dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The lower dotted stroke could instead mark a parcel boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [221, 651],
+      "branch_count": 3,
+      "evidence_note": "Three narrow reddish traces with dark broken margins converge: one from the upper left, one curving right, and one descending; heavy lettering partly covers the meeting point."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [274, 789],
+      "branch_count": 3,
+      "evidence_note": "Below the pointed orange polygon, the descending reddish strip divides into a left dotted strip and a broader reddish strip bending right; three branches are distinguishable."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [91, 534, 157, 616],
+      "why": "Closely packed orange polygon outlines, dark building strokes and green enclosure dots prevent a secure trace of a connector between the two reported western fragments."
+    }
+  ],
+  "overall_note": "The recurring reddish strips with dark dotted margins provide the strongest road evidence. Dense outlines and lettering make the western approach less secure, so its obscured fragments remain separate. Thin red strokes in the upper corners, straight gray lines and broad diffuse gray bands lack that track symbol and are not reported as roads."
+}

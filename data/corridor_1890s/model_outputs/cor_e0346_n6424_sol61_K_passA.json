@@ -1,0 +1,85 @@
+{
+  "tile_id": "cor_e0346_n6424",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[33, 270], [34, 310], [34, 350], [35, 390], [34, 430], [35, 464], [44, 488]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A narrow brownish strip has closely spaced dark edges, with broken or dotted marks visible along its sides; its southern end meets solid black building symbols.",
+      "uncertainty_note": "The paired edging suggests a track, but a marked field edge remains possible. The northern termination merges with another line, and buildings prevent a certain connection at the southern end.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a field boundary with irregular dark edging rather than a track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[57, 509], [88, 513], [119, 514], [147, 511], [164, 506]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Short dark marks lie along a narrow pale strip among small black rectangles; italic lettering overlaps the strip and interrupts its apparent edges.",
+      "uncertainty_note": "This may be a short track through the building symbols, but the marks could belong entirely to buildings and lettering. Its connection to f01 and its eastern termination cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The interrupted marks may be two edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly separate building and lettering marks without a continuous road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 483], [21, 519], [43, 557], [63, 596], [80, 635], [91, 675], [98, 710], [102, 730]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin continuous red stroke follows a dark edge, with a pale strip alongside; near its lower end it merges with the heavier blue-black shoreline stroke.",
+      "uncertainty_note": "A coloured boundary is the stronger reading, particularly in comparison with the worked example, but a narrow road sharing that line cannot be excluded. No continuation beyond the merger is traced.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If interpreted as a road, its visible symbol is principally one continuous coloured stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly solely a coloured boundary, with no road represented."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 918], [8, 946], [15, 974], [23, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A short red stroke with adjacent dark edging clips the lower-left corner; no regularly dotted road edges are resolved.",
+      "uncertainty_note": "This resembles the coloured line in f03 and is probably a boundary; a road coincident with it remains a doubtful alternative. The intervening shoreline does not establish continuity.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible short road fragment represented by a continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly solely a coloured boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [24, 479, 180, 552],
+      "why": "Building symbols and large italic lettering obscure the edges and possible connections of the short track candidates."
+    }
+  ],
+  "overall_note": "The narrow broken-edged line near the left edge is the clearest track candidate; the remaining features retain substantial doubt. No meeting of three road branches is sufficiently visible to report a junction. The broad red diagonal stripe, ruled grid lines, shoreline and ordinary field outlines are read as non-road marks."
+}

@@ -1,0 +1,80 @@
+{
+  "tile_id": "cor_e0361_n6446",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From the left edge near (0,220), a fine dotted line with orange-brown colouring runs along the upper edge of the pink field at (40,240)-(75,285), then east past (110,297) and (160,288) to about (240,287). Both its form (dotted, like Gångstig in the model legend) and its colour (orange-brown, like the footpaths in the worked example) mark it as a footpath. f01 follows it.",
+      "uncertainty_note": "The overlay does not show f01's class, so the class given is my own reading. In the stretch beside the pink field, the dots could partly be the field's edge, but the line keeps going past the field, which supports a path."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same orange dotted line turns south-east at about (240,287) and runs down by (265,315) and (285,345) to about (300,368). f03 follows that bend.",
+      "uncertainty_note": "This is one continuous path with f01 and f02. Splitting it into separate ids at (240,287) and (300,368) does not mean there are junctions at those points."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (300,368), the orange dotted line runs along the bottom of the pink patch under the hatched pond at (345,390)-(380,425), then east by (430,428) and (470,432) to about (520,445), next to the north-west corner of the Bistockemaden T. croft. f02 follows it.",
+      "uncertainty_note": "Near the croft, the path's last few dots and the croft's outline are hard to tell apart. Exactly where the path stops, somewhere in (520-545, 420-445), is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f05 runs from (540,420) along the north-east side of the pink croft field to about (640,505), close to the small orange building at (632,522). What is drawn along that course is the croft's solid black field outline. I cannot see any orange dotting on it like the path to the west has.",
+      "uncertainty_note": "On these maps a footpath often goes all the way to the house, so a path along or inside the croft fence is plausible. But nothing drawn on this course separates a path from the plain field boundary. My reading is that the drawn path ends at the croft's corner."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f04 runs from about (378,278), above the hatched pond, north-east to about (468,197) at the pale band beside the red boundary. The only lines along that course are dark teal outlines of wetland and vegetation, the same as the many others on the tile. None has the orange colouring or the dotted or double-line form of a road symbol, and none clearly links to the dotted path.",
+      "uncertainty_note": "At this resolution a short fine path could be lost among the teal outlines. If the pale band were a road (see m01), a link up to it would make sense, but I cannot see one drawn."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[205, 0], [330, 85], [470, 175], [620, 268], [768, 362], [790, 378], [900, 440], [1000, 500]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A straight pale grey-beige band about 25-30 px wide crosses the whole tile north-west to south-east. On its north-east side is a thin dark line; on its south-west side is the red-coloured boundary with its black dash-dot line, running from (175,0) to (1000,548). The waypoints give the band's centreline. The band jumps sideways at the sheet join near u=770-790.",
+      "uncertainty_note": "Very uncertain whether this is a road. The band's straight course, constant width and parallel edge lines look like a double-line road (Landsväg or Bygdeväg) running beside a parish boundary. But it carries no road colour, and the worked example's reader left a similar pale strip beside a red boundary unread as a road. It may just be a cleared boundary strip or part of how the boundary is drawn.",
+      "alternatives": ["double_line_wide road (landsväg or bygdeväg) running alongside the boundary", "not a road: a cleared boundary strip (rågång) or the boundary's colour band beside a Sockengräns or Häradsgräns"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [535, 430],
+      "what_is_contested": "Whether the dotted footpath (f02) ends at the croft's north-west corner, or carries on along or inside the croft to the house at about (632,522), as f05 claims.",
+      "evidence_note": "The orange dotting stops at about (520-545, 420-445). Past that point, only the croft's solid black outline is visible."
+    },
+    {
+      "uv": [240, 287],
+      "what_is_contested": "Whether there is a junction here at all. The overlay changes id here (f01 to f03), but I see only a bend in one continuous dotted path, with no third branch.",
+      "evidence_note": "The dotted line is continuous through the bend, and no other line with the road symbol leaves from here."
+    },
+    {
+      "uv": [300, 368],
+      "what_is_contested": "Whether there is a junction here at all. The overlay changes id here (f03 to f02) on what looks like one continuous path with no branch.",
+      "evidence_note": "The dotted line continues along the bottom of the pink patch with no break and no branch."
+    },
+    {
+      "uv": [378, 278],
+      "what_is_contested": "Whether f04 links to the dotted path (and so forms a junction) or is a separate, unconnected line. I read it as not a road.",
+      "evidence_note": "f04 starts above the hatched pond, about 40 px from the nearest point of the path, and no connecting dots are visible."
+    }
+  ],
+  "overall_note": "The one clear road symbol on this tile is an orange-brown dotted footpath from the left edge to the Bistockemaden croft, and f01, f03 and f02 follow it well. Its extension along the croft fence (f05) cannot be judged, and f04 follows vegetation outlines rather than a road. The straight pale band beside the red boundary is the main open question: it may be a double-line road missing from the overlay, or a boundary strip that is not a road."
+}

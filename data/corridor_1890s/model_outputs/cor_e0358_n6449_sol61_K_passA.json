@@ -1,0 +1,203 @@
+{
+  "tile_id": "cor_e0358_n6449",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[23,0],[44,36],[67,75],[93,115],[120,157],[147,195],[175,232],[190,262],[183,291],[170,321],[152,354],[127,390],[111,415],[78,431],[40,448],[0,465]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j03","j04","j05"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two dark, mostly continuous edges enclose a pale buff strip approximately 12–20 px wide. Red-brown ink overlaps the lower, westward section.",
+      "uncertainty_note": "The paired road edges are clear. Connections to the thin orange candidates at j03, j04 and j05 are less certain than the junction at j01.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,240],[17,253],[31,269],[51,289],[72,313],[94,343],[111,366],[127,390]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow buff strip has a red-brown edge and a darker, partly broken parallel edge, approximately 5–9 px apart. Both converge with the wider paired line at its bend.",
+      "uncertainty_note": "The narrow road reading is supported by the paired edges. The orange line departing near j02 may instead be a boundary.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,730],[22,700],[44,678],[78,659],[116,639],[155,617],[190,595],[214,575],[246,547],[278,515],[312,480],[347,443],[382,405],[417,367],[451,330],[486,292],[520,255],[555,217],[590,180],[626,142],[661,105],[698,67],[736,30],[768,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A strong red-brown diagonal trace runs beside a pale strip and a much fainter gray-brown parallel trace. Their separation varies, reaching approximately 15–25 px southwest of the centre; the red trace continues across horizontal hatching.",
+      "uncertainty_note": "This is a doubtful road candidate. The red trace could be a boundary beside a separate road, or the apparent pale corridor could be part of the boundary drawing. The reported course follows the visible combined corridor; its centre is less secure than either individual ink trace.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The red and faint gray-brown traces may be the two edges of one road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red trace may be a boundary, with a separate road approximately 10–25 px to its southeast over the southwestern portion."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire diagonal may be a boundary rather than a road; the northeastern continuation is particularly weak evidence for a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[31,269],[52,278],[74,280],[95,273],[118,260],[144,246],[177,233]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "One thin orange-brown line bows downward and then rises toward the wide paired line. A consistent second dark edge is not resolved.",
+      "uncertainty_note": "Its appearance supports either a small path or a boundary. Both reported junctions depend on accepting the path reading.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An orange boundary connecting the red-brown diagonal to the edge of the wider road is also plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[190,269],[209,259],[226,242],[249,227],[277,216],[303,202],[325,182],[344,156],[361,128],[378,101]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A fine orange-brown trace curves northeast from beside the paired road, then turns north. No consistently separated pair of road edges is visible.",
+      "uncertainty_note": "The exact attachment to the paired road is faint. The trace ends visibly near [378,101]; no continuation is inferred. A boundary reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The orange trace may be a boundary rather than a path; its southwest attachment could lie a few pixels east of the reported junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[111,415],[112,448],[118,480],[124,504],[141,526],[165,543],[189,556],[214,575]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "One fine orange-brown line leaves the vicinity of the wide road, bends southeast and reaches the red diagonal. No clear casing or repeated dot pattern is resolved.",
+      "uncertainty_note": "This may be a path or a boundary. Its southeast end reaches the red component of f03; connection to a separate gray road would be uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary joining the wider road edge to the red diagonal is equally plausible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[251,1000],[276,970],[302,940],[330,914],[363,891],[397,870],[431,850],[462,831],[492,819],[514,795],[538,771],[562,753],[588,742],[612,737],[628,741],[644,770],[660,801],[670,832],[674,851],[698,872],[729,888],[766,901],[801,914],[823,911],[848,918],[875,931],[896,941],[930,947],[947,960],[966,977],[981,945],[993,913],[1000,894]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A heavy red-brown winding line is accompanied on its upper side by a finer gray-brown line and a pale buff strip, generally approximately 8–15 px wide. Blue-green lines meet or cross it at several bends.",
+      "uncertainty_note": "The pale strip and parallel trace suggest a road, but a red boundary with adjacent parcel edging also fits the drawing. The sharp bends are retained as drawn.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The red-brown and gray-brown traces may enclose a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The winding red trace may be a boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0,637],[16,653],[31,668],[44,678]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two short dark slanting edges enclose a pale strip approximately 8–12 px wide and meet the southwestern diagonal corridor.",
+      "uncertainty_note": "The short paired segment is visible, but its receiving feature f03 has an uncertain road interpretation. Nearby heavy lettering limits the detail at the meeting point.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short pair could delimit a narrow parcel rather than form a road branch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[868,1000],[878,976],[888,952],[896,941]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow buff tongue lies between a heavy straight dark edge and a thinner, less regular edge, approximately 20–30 px apart, immediately below the winding red-brown line.",
+      "uncertainty_note": "This is a weak road candidate. Unequal edge weights and the coloured interior favour a narrow parcel interpretation; the apparent connection is conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If the two edges are road casing, they describe a short wide branch entering from the bottom edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The two edges may bound a narrow coloured parcel, in which case this is not a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [127,390],
+      "branch_count": 3,
+      "evidence_note": "The narrow red-brown paired strip from the northwest meets the bend of the wider pale strip; paired edges continue northeast and southwest."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [31,269],
+      "branch_count": 3,
+      "evidence_note": "A thin orange line diverges eastward beside the narrow paired diagonal, which continues in both directions. Three road branches are conditional on the orange line being a path."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [177,233],
+      "branch_count": 3,
+      "evidence_note": "The orange line from the west reaches the western edge of the wide paired strip, whose two directions remain visible. The third branch has no resolved casing."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [190,269],
+      "branch_count": 3,
+      "evidence_note": "A fine orange trace turns northeast beside the eastern edge of the wide pale strip. The attachment is faint, so three branches are conditional on its path interpretation."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [111,415],
+      "branch_count": 3,
+      "evidence_note": "A fine orange trace departs downward from the vicinity of the wide paired strip, which continues northeast and west. The third branch could instead be a boundary."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [214,575],
+      "branch_count": 3,
+      "evidence_note": "The thin orange curve reaches the strong red diagonal near its bend; the diagonal continues northeast and southwest. This is a road junction only under the road readings of both traces."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [44,678],
+      "branch_count": 3,
+      "evidence_note": "A short pale strip between dark edges reaches the diagonal pale corridor from the northwest. The diagonal continues in both directions, with heavy lettering immediately below."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [896,941],
+      "branch_count": 3,
+      "evidence_note": "The two unequal edges of the buff tongue terminate against the winding red-brown and gray-brown pair. Three road branches are conditional on both features being roads."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,674,146,779],
+      "why": "Heavy black lettering and symbol strokes conceal small line details below the diagonal corridor; additional short tracks or their endpoints cannot be resolved reliably."
+    }
+  ],
+  "overall_note": "The paired road at the northwest and its narrow diagonal branch are the clearest readings. Red and orange traces elsewhere are retained as doubtful candidates because their faint parallel marks can also be read as boundaries or parcel edges; junction counts involving them are conditional. Blue-green sinuous lines, horizontal wetland hatching and faint straight sheet lines were not read as roads."
+}

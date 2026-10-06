@@ -1,0 +1,135 @@
+{
+  "tile_id": "cor_e0360_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,201],[19,213],[42,222],[68,230],[96,234],[124,233],[152,231],[179,226],[205,218],[231,207],[251,196],[264,185],[277,171],[289,155],[309,141],[331,124],[353,107],[349,92],[341,76],[361,58],[383,40],[405,24],[417,13],[425,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A winding reddish trace has irregular dark edging, intermittently showing two edges approximately 3–10 px apart; it passes closely between black building marks.",
+      "uncertainty_note": "The edging is uneven and sometimes merges into one stroke. The connections at j03 and j04 depend on interpreting the adjacent pale passages as lanes.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some sections could be a road coincident with a red boundary; the road's independent edges are not consistently separable."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken dark edging could represent paired stippled track lines rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[42,222],[59,239],[83,254],[106,269],[130,280],[153,283],[180,280],[207,277],[234,273],[260,266],[287,261],[314,256],[338,252],[359,248]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A curving row of separated dark dots and short marks, roughly 3–5 px heavy, runs below the buildings; a faint ochre trace accompanies parts of it.",
+      "uncertainty_note": "No consistent second row is visible. The eastern end becomes indistinct beside black building marks and lettering; no continuation through those marks is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The symbol is predominantly dotted rather than dashed; a dotted division line remains a less likely reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[106,269],[121,290],[129,314],[128,337],[119,356],[106,374],[87,394],[66,416],[43,439],[20,460],[0,477]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A light rust-brown stroke, approximately 3–5 px wide, bends south and then southwest; occasional darker marks occur along its sides, without continuous casing.",
+      "uncertainty_note": "Its northern connection to the dotted line is faint. The pale stroke could have a second broken edge that is lost in the scan.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Intermittent side marks may be the surviving edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured division line is possible, although this curved trace differs from the nearby straight red boundaries."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[277,171],[264,155],[257,140],[261,126],[269,108],[274,90],[279,72],[277,57],[268,44],[266,34]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03","j05"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A pale grey passage curves between angular black outlines; its sides are approximately 8–15 px apart in places, with a thin reddish stroke beside the southern portion.",
+      "uncertainty_note": "This may be a lane, but the apparent edges also belong to adjoining polygon and building outlines. The northern course becomes inseparable from overlapping black marks, so it stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the pale passage is a lane, the flanking strokes could constitute its two edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The complete feature could instead be adjoining property outlines with an unmarked gap between them."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[279,72],[299,70],[319,70],[341,76]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04","j05"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A short pale strip lies between dark angular outlines, with uneven spacing of about 8–12 px; its eastern end reaches the reddish winding trace.",
+      "uncertainty_note": "A connecting lane and a gap between building or property outlines are both supported. Both endpoint junctions are conditional on the lane interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The flanking dark strokes could be two narrow lane edges."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "There may be no road here: the strokes may belong entirely to adjacent outlined shapes."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [42,222],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish line continues in two directions while a dark dotted trace leaves southeast; a thin red line also extends south, read as a boundary rather than another road branch."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [106,269],
+      "branch_count": 3,
+      "evidence_note": "The dotted trace continues east and northwest, and the pale rust-brown curve leaves south; their contact is faint but appears continuous."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [277,171],
+      "branch_count": 3,
+      "evidence_note": "The reddish winding trace has two continuing arms beside a black building mark; a pale grey passage approaches from the northwest, giving a conditional third road branch."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [341,76],
+      "branch_count": 3,
+      "evidence_note": "The reddish trace bends between northeast and southeast arms, while a short pale strip enters from the west; the third branch is conditional because its dark edges resemble adjoining outlines."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [279,72],
+      "branch_count": 3,
+      "evidence_note": "A pale passage has north and south arms and an apparent eastward opening between angular black strokes; all three branches depend on reading these gaps as lanes."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [229,0,283,42],
+      "why": "Heavy black lettering and angular outlines overlap the possible northern continuation of f04; its course cannot be separated reliably."
+    }
+  ],
+  "overall_note": "The greatest ambiguity is among the pale passages and angular outlines around the upper buildings; their possible road connections are retained conditionally. The broad pink-and-black band, straight thin red divisions, blue-green water lines and marsh hatching are read as non-road marks. No road continuation is inferred beyond the indistinct eastern end of the dotted path."
+}

@@ -1,0 +1,47 @@
+{
+  "tile_id": "cor_e0347_n6441",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 807], [22, 829], [41, 851], [51, 874], [59, 899], [69, 923], [87, 947], [110, 970], [135, 990], [148, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous, relatively heavy dark edges enclose an ochre strip approximately 10–15 px wide. The strip curves through the southwest corner; italic lettering overlaps its middle, with matching edges visible on both sides.",
+      "uncertainty_note": "The course beneath the lettering is supported by the visible continuation. Coordinates there are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired edges are clear, but the distinction between wide and narrow is uncertain without a defined width threshold."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 955], [10, 937], [22, 918], [33, 902]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Small separated dark marks form a short diagonal trace near the left edge. Their upper continuation overlaps heavy italic lettering; a dark blue continuous line is nearby.",
+      "uncertainty_note": "This may be a dotted path, but its symbol and upper course cannot be separated confidently from lettering and the nearby blue line. No connection to f01 is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The separated marks could represent a path drawn with dots or very short dashes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The apparent trace could instead comprise lettering fragments or marks associated with the nearby blue line, with no separate road feature."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 862, 120, 956],
+      "why": "Overlapping italic lettering and dark linework prevent a confident reading of the possible dotted path's continuation or connection; the ochre cased road remains traceable."
+    }
+  ],
+  "overall_note": "The southwest cased road is clear; the nearby possible dotted path is uncertain. The long diagonal broken lines match boundary symbols, while the blue lake outline and outlet do not show road casing. The faint nearly vertical line crossing the water appears to be a seam or ruling."
+}

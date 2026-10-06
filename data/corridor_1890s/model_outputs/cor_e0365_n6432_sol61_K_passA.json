@@ -1,0 +1,117 @@
+{
+  "tile_id": "cor_e0365_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,657],[30,639],[60,622],[85,607],[116,591],[146,574],[174,548],[201,516],[226,485],[249,456],[278,426],[300,419],[340,414],[386,406],[432,400],[478,397],[526,395],[574,393],[620,390],[668,384],[715,375],[757,362],[800,347],[839,330],[880,311],[920,294],[960,277],[1000,263]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow ochre-red strip has two closely spaced rows of dark dots or short strokes along its edges. It bends beside and across the black-and-white railway, then continues east above the large lettering; matching edges establish continuity through short symbol overlaps.",
+      "uncertainty_note": "The course is clear. The edges are stippled rather than continuously ruled, so the symbol-form classification is less certain. Junction j02 depends on interpreting f03 as a track.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dotted edges could instead be classified by their interrupted strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[130,451],[116,466],[96,485],[82,512],[72,535],[69,552],[72,579],[85,607],[105,632],[127,659],[141,683],[145,718],[147,746],[143,763]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "Two thin dark contours enclose a pale winding strip, approximately 8–14 pixels wide. They cross the ochre dotted road and the railway and remain visible alongside small outlined plots before entering the lower-left lettering.",
+      "uncertainty_note": "The northern end meets an angular red and dark parcel line without a clearly continuing road symbol. Lettering obscures the southern continuation. A boundary or drainage-line reading remains possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The pale enclosed strip could be a drainage line or a boundary corridor rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[715,375],[718,395],[723,417]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A fine dark line, locally accompanied by a close second stroke, extends south from the ochre road into the large black lettering. It has no clearly resolved coloured casing.",
+      "uncertainty_note": "This may be a short access track, but a parcel outline is equally plausible. Its continuation through the lettering is not certain, so it stops at the obscuration.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If both close strokes belong to one symbol, they could outline a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a parcel boundary, in which case j02 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[734,482],[736,513],[740,547],[743,578],[746,599]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","dead_end"],
+      "evidence_note": "Below the lettering, a thin dark stroke with a nearby parallel stroke runs roughly south beside the angular outline containing the small black building marks. Farther south, the drawing becomes a single outline bordering pale green fill.",
+      "uncertainty_note": "This could be the lower part of f03, but the lettering prevents a certain connection. The apparent pair may combine a track with a parcel edge, or consist entirely of parcel outlines; the reported segment ends where a separate road symbol ceases to be distinguishable.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The close strokes could be the edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes may be parcel outlines rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[939,0],[954,4],[975,7],[1000,9]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A short, nearly horizontal dark and ochre-marked line clips the upper-right edge. Individual dark marks are visible, but its full width and any second edge lie partly outside the face.",
+      "uncertainty_note": "The clipped marks may belong to a dotted track, but a coloured parcel edge is also plausible; too little of the symbol is inside the tile to distinguish them confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible interrupted dark marks could be part of a track symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The fragment could instead be the edge of the adjoining coloured parcel."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [85,607],
+      "branch_count": 4,
+      "evidence_note": "The ochre strip with paired dotted edges crosses the pale strip between thin dark contours; both symbols are visible on both sides, giving four branches if the pale strip is a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [715,375],
+      "branch_count": 3,
+      "evidence_note": "A fine south-running stroke meets the ochre dotted strip, which continues east and west. Three road branches are present only under the access-track reading of f03."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [104,751,168,839],
+      "why": "Heavy lower-left lettering obscures the possible continuation of the narrow pale strip."
+    },
+    {
+      "bbox_uv": [711,418,748,484],
+      "why": "Large black lettering masks the interval between the two possible access-track fragments."
+    }
+  ],
+  "overall_note": "The ochre dotted road is the clearest road symbol; the narrow pale crossing and possible access-track fragments have competing boundary or drainage readings. The railway, angular red lines and ordinary land-cover outlines were read as other symbols. The fragment clipping the upper-right edge is particularly uncertain."
+}

@@ -1,0 +1,115 @@
+{
+  "tile_id": "cor_e0361_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 217], [27, 235], [53, 255], [78, 275], [108, 301], [132, 292], [157, 287], [192, 289], [219, 286], [239, 288], [252, 310], [271, 339], [290, 362], [304, 377]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A single chain of closely spaced heavy black dots follows a thin ochre trace; continuous parallel casing is not visible. The dots remain distinguishable where the line meets solid field outlines.",
+      "uncertainty_note": "The road reading is comparatively clear. The proposed class represents the interrupted symbol, which consists mainly of dots rather than elongated dashes.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The symbol-form list has no separate dotted-line class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[304, 377], [325, 383], [345, 391], [359, 412], [378, 429], [399, 430], [421, 423], [441, 424], [458, 431], [477, 444], [499, 451], [514, 453], [523, 442], [530, 426], [541, 419], [557, 427], [578, 437], [598, 450], [614, 462]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Closely spaced black dots continue over a narrow ochre trace, following several sharp bends along the peach-filled polygons. Black lettering and angular building marks overlap its eastern end.",
+      "uncertainty_note": "The trace becomes inseparable from lettering near the eastern endpoint. A possible continuation is recorded separately as f05; the intervening course is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches merge with solid polygon edges, and the principally dotted symbol has no exact class in the supplied list."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[304, 377], [319, 358], [331, 339]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thinner dark oblique trace leaves the dotted line toward the closely hatched patch. A faint nearby stroke gives parts of it a narrow paired appearance, without clearly resolved dots.",
+      "uncertainty_note": "This is a doubtful road branch: it may instead be the edge of the adjacent peach polygon. Its continuation cannot be distinguished at the hatching.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The nearby strokes could form the two edges of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a polygon or property boundary adjoining the hatched patch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[377, 280], [395, 257], [412, 232], [431, 216], [452, 207], [467, 198]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Fine dark oblique strokes, with faint pale brown colour alongside portions, run between the hatched patch and the broad red band. They overlap green-blue outlines and small black symbols.",
+      "uncertainty_note": "The road reading and precise course are doubtful; these strokes may belong to intersecting boundaries. A connection with f03 through the hatching is possible but is not traced. The northern end disappears into the red band.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some adjacent fine strokes could be narrow track casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: adjoining field or property outlines; this could also comprise more than one line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[634, 490], [642, 505], [636, 520]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A short sequence of dark marks beside a faint ochre trace appears below the large lettering and approaches a small ochre-and-black rectangular mark. No clear continuous casing is visible.",
+      "uncertainty_note": "This may be a short continuation of f02, but lettering prevents a certain connection. The marks could instead be parts of the lettering or polygon outline; the endpoint records the last distinguishable trace.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the separated marks are path dots, this is a short dotted continuation of f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: overlapping lettering and the edge of the peach-filled polygon."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [304, 377],
+      "branch_count": 3,
+      "evidence_note": "Two limbs of the heavy dotted trace meet a thinner northeast-running stroke at approximately the same point. Three road branches are provisional because the thinner limb, f03, may be a polygon boundary."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [329, 269, 407, 376],
+      "why": "Dense horizontal hatching and dark outlines prevent a reliable reading of any fine continuation between f03 and f04; the hatching itself is legible."
+    },
+    {
+      "bbox_uv": [603, 447, 653, 506],
+      "why": "Large black lettering and nearby angular marks obscure the possible connection between f02 and f05."
+    },
+    {
+      "bbox_uv": [748, 0, 784, 1000],
+      "why": "This box encloses the narrow slanting dark sheet join, which hides linework directly beneath it; the whole rectangular box is not unreadable."
+    }
+  ],
+  "overall_note": "The clearest road symbol is the closely dotted trace across the upper-middle part of the tile; the thinner candidate branches remain uncertain. The broad red diagonal with heavy interrupted black marks reads as a boundary rather than a road, as do the long dash–dot lines elsewhere. Lettering, hatching and the dark sheet join limit the tracing."
+}

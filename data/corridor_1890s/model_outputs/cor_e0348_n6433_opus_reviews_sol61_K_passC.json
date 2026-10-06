@@ -1,0 +1,90 @@
+{
+  "tile_id": "cor_e0348_n6433",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line with black dots along it runs from the pink boundary band near (285,165) south through (300,380), (350,490), (385,570), (395,650), bends round the Lagmansholm buildings near (365,710) and continues down to the band at about (390,835). Its colour and weight match the thin brown path lines (Gångstig) in the neighbouring example, and it is not the black dash-dot boundary pattern.",
+      "uncertainty_note": "The class could be a lesser cart track (Sämre körväg) rather than a footpath; at this resolution I cannot tell whether it is one line or two. The bend at v 690-760 runs among the buildings and the 'Lagmansholm' label, so the exact course there is approximate."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the wide pink-washed band from the left edge at (0,910) to the corner at (625,790). A black dash-dot line runs along its north edge. The band is continuous with the same symbol that hugs the lake shore at u~560 and runs NW to (180,0), which reads as a parish boundary (Sockengräns, coloured), and 'socken' is lettered nearby. However, this east-west stretch is wider than the lake-shore part and seems to have a row of dots along its south edge, so a road running along the boundary is possible.",
+      "uncertainty_note": "Alternatives: (a) the boundary only, so not a road; (b) a road (two lines, one with dots, as in Bättre/Sämre körväg) that follows the boundary. Without zooming I cannot separate the boundary dots from a road edge."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin red-brown line runs near the left edge from about (12,700) through (25,850) and (40,905) down to (60,1000), passing the small settlement with buildings and 'B.' at the bottom left. Its crimson tone matches the thin red lines elsewhere on the tile, at (230,120)-(0,400) and (1000,800)-(680,1000). The neighbouring example reads lines in that tone as boundaries.",
+      "uncertainty_note": "It could be a village track leading into the settlement south of the band, or a red-drawn boundary. Part of it is crowded by the 'T' letter and the band crossing at (40,905)."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line curves along the bottom-left from about (90,990) through (230,975) and (300,935) to about (345,912), below the 'Rafvelsbo' label. It is dots only, with no dashes, which fits a footpath (Gångstig).",
+      "uncertainty_note": "Its ends are unclear: to the west it may run off the bottom edge near (60,1000), and to the east it may reach the dark grey band at (310,940). It is faint and could also be a field or meadow edge."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "West part: a dotted line runs from about (415,875) NE to the band corner at (620,795), separate from and south of the band. East part: a dotted line leaves the corner at (645,790) and runs through (700,810), (780,845) and (805,880) down to (830,1000), curving round the Humlebo ground.",
+      "uncertainty_note": "The dotted pattern may include dashes, which would make it a lesser boundary (Hemmansgräns) or field edge rather than a path, because it starts exactly at the boundary corner. The west end may continue under the 'Rafvelsbo' lettering rather than stop at (415,875)."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[680, 1000], [800, 925], [900, 860], [1000, 800]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two thin parallel red-brown lines, about 8 px apart, cross the lower-right corner diagonally. A drawn double line is the road form (Landsväg/Bygdeväg).",
+      "uncertainty_note": "Low confidence that this is a road: the neighbouring example reads very similar paired crimson lines as a boundary. I include it only so the alternative is on record.",
+      "alternatives": ["boundary (Gräns) drawn as paired red lines, not a road", "double_line_narrow road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[305, 942], [340, 970], [375, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short, wide, dark-grey band enters from the bottom edge at about (375,1000) and runs NW to about (305,942), with pink wash beside it. Its width is that of a major road or railway, not a boundary.",
+      "uncertainty_note": "Only about 90 px of it is on the tile, so the symbol cannot be read. It could be a railway, a large road, or the dark edge of a built-up area.",
+      "alternatives": ["railway", "double_line_wide road", "not a linear feature (settlement edge)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [625, 790],
+      "what_is_contested": "Whether a road junction exists here at all. f02, the west part of f05 and the east part of f05 meet at this point, and the parish boundary band turns north here.",
+      "evidence_note": "The meeting point is the corner of the pink dash-dot boundary. If f02 is boundary only, this is a boundary corner where two dotted lines (f05) touch, not a road junction with three or four branches."
+    },
+    {
+      "uv": [390, 835],
+      "what_is_contested": "Whether f01 ends at the boundary band, crosses it to join the dotted line south of it (f05 west, near (415,875)), or joins a road along the band.",
+      "evidence_note": "The brown line reaches the band at about (390,835). The f05 west end lies just SE of this point, but no continuous line across the band is clearly visible."
+    },
+    {
+      "uv": [40, 905],
+      "what_is_contested": "Whether f03 crosses or joins the band/f02 at the left edge, and whether either of them is a road.",
+      "evidence_note": "The red-brown left-edge line, the band and lettering ('T', 'B.') overlap at the small settlement, so the line junction is crowded."
+    },
+    {
+      "uv": [285, 165],
+      "what_is_contested": "Whether f01 dead-ends at the NW boundary band or continues across it toward Ulfvestorp.",
+      "evidence_note": "The brown line fades as it reaches the pink band at about (285,165), and no continuation beyond the band is clear."
+    }
+  ],
+  "overall_note": "The prominent pink bands with black dash-dot edging read as a coloured parish boundary (they follow lake shores and 'socken' is lettered), so whether f02 is a road is undecided. The clearest road-like lines are the thin brown path f01 and the dotted lines f04/f05. The red thin lines (top-left diagonal, f03, lower-right pair) are most likely boundaries but are recorded with alternatives."
+}

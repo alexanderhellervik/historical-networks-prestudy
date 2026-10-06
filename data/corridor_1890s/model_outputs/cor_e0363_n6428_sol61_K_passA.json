@@ -1,0 +1,136 @@
+{
+  "tile_id": "cor_e0363_n6428",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 402], [33, 382], [68, 360], [105, 334], [140, 307], [167, 283], [194, 255], [218, 225], [240, 191], [258, 159], [269, 126], [286, 88], [302, 49], [313, 22], [319, 0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy dark outlines, roughly 12–18 px apart, enclose a tan strip; small coloured building rectangles adjoin it near v280.",
+      "uncertainty_note": "Lettering locally covers an edge, but the paired strip continues visibly on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[269, 126], [313, 129], [358, 132], [407, 136], [455, 138], [498, 140], [523, 140], [567, 144], [608, 147], [644, 149], [687, 152], [731, 155], [761, 152], [790, 144], [811, 135], [841, 129], [872, 128], [900, 135], [926, 141], [951, 137], [977, 124], [1000, 110]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03", "j04"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A continuous tan band enclosed by two dark, fairly heavy lines about 10–15 px apart; its eastern end bends beneath a separate thin polygon outline.",
+      "uncertainty_note": "The thin outline above the eastern bend appears to enclose a patch rather than provide a separate road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[451, 0], [471, 29], [493, 58], [515, 87], [538, 110], [527, 118], [523, 140]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow orange-brown diagonal has a dark continuous margin and intermittent dark marks alongside; a short pale strip with paired margins reaches the upper road.",
+      "uncertainty_note": "The diagonal coincides with an orange patch edge, and the short terminal bend is blurred.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The diagonal may be a parcel edge, with the short paired terminal marks belonging to the enclosed patch rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[634, 0], [638, 40], [641, 83], [643, 120], [644, 149], [647, 183], [649, 219], [651, 259], [652, 300], [654, 340], [656, 377], [659, 397], [669, 426]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Closely spaced dark stipples and an orange-brown margin define a narrow strip, crossing the broad horizontal band and passing beside a black-outlined orange rectangle.",
+      "uncertainty_note": "The strip disappears into the heavy winding water line. Connection to f05 is possible but not sufficiently clear to carry through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some portions could be a narrow parcel or land-cover margin; under that reading j03 would not be a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[686, 449], [708, 462], [714, 479], [710, 500], [719, 522], [739, 536], [751, 551], [773, 558], [783, 565], [773, 577], [751, 585], [742, 596], [765, 615], [790, 637], [805, 663], [814, 693], [833, 722], [858, 748], [878, 773], [893, 798], [890, 823], [886, 841], [896, 866], [892, 894], [886, 921], [882, 948], [886, 975], [890, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "An orange-brown continuous stroke and offset dark dots follow a winding course, wrap around a black-outlined orange patch, and cross two strong red lines farther down.",
+      "uncertainty_note": "Its spacing and second margin vary; the bend near [783,565] overlaps dotted enclosure marks. The northern connection to f04 is obscured by the water line.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The continuous stroke and offset stipples may be the two margins of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire course, or portions beside the enclosed patches, may instead delineate land cover."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[724, 0], [740, 27], [758, 59], [774, 80], [791, 106], [811, 135]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two dark diagonal margins enclose a narrow tan-orange strip; their separation increases beside a small angular outline before they meet the broad horizontal band.",
+      "uncertainty_note": "The widened lower section also resembles a tapering enclosed parcel.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired diagonal could delimit a narrow parcel rather than a road, which would remove j04."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[426, 354], [440, 383], [459, 415], [477, 446], [493, 476], [513, 507], [536, 544], [557, 580], [581, 622], [613, 662], [637, 688], [664, 718], [693, 745]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Very pale red separated strokes form a diagonal among black star-shaped symbols; there is no visible casing or consistent second line.",
+      "uncertainty_note": "The upper strokes fade near the stream; the lower end merges with a stronger red line. Road status is particularly uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the aligned pale strokes represent a path, their visible form is a single dashed line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "They may instead represent a boundary or another coloured annotation."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [269, 126],
+      "branch_count": 3,
+      "evidence_note": "The heavy paired tan strip running diagonally meets another paired tan strip extending right, forming a clear three-arm connection."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [523, 140],
+      "branch_count": 3,
+      "evidence_note": "A short pale stem with close dark margins touches the northern edge of the broad horizontal strip; three road arms if f03 is a road."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [644, 149],
+      "branch_count": 4,
+      "evidence_note": "The narrow orange and stippled strip is visible above and below the broad paired horizontal band, giving four arms under the track reading."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [811, 135],
+      "branch_count": 3,
+      "evidence_note": "The paired tan diagonal terminates against the upper casing of the bending horizontal strip; three arms under the road reading of f06."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad paired roads are clear; narrow orange and stippled lines are harder to distinguish from enclosure margins. Strong solid red diagonals were read as boundaries, and dark winding lines with cyan edging as water. The possible track crossing of the central stream is left disconnected."
+}

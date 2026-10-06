@@ -1,0 +1,105 @@
+{
+  "tile_id": "cor_e0344_n6423",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,117],[30,103],[61,82],[91,59],[121,35],[151,15],[168,0]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose an ochre strip approximately 8–14 px wide; a reddish stroke follows its southeastern edge.",
+      "uncertainty_note": "The reddish edging partly merges with the dark casing, making the centre position approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The apparent width includes reddish edging and ink spread."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[151,15],[160,51],[174,88],[191,125],[213,162],[237,197],[252,214],[281,235],[313,260],[345,286],[377,311],[406,331],[418,347]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow ochre trace carries short dark strokes and dots; these remain visible beside the peach polygon and along the diagonal toward the large lettering.",
+      "uncertainty_note": "Lettering and overlapping polygon edges conceal the continuation. It may connect with f03, but the intervening course cannot be traced confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches suggest two narrowly separated edges, with one edge broken."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Part of the trace coincides with polygon edging, permitting a property-edge interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[573,454],[599,477],[624,502],[638,526],[649,558],[660,596],[670,634],[682,674],[694,715],[707,755],[719,794],[730,823],[739,837]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "An ochre line with dark broken edging descends southeast, crosses the thin red diagonal near (627,503), and continues to the fork. Small hollow oval symbols occur intermittently alongside it.",
+      "uncertainty_note": "Its northwestern end merges with polygon outlines below the lettering; a connection to f02 is plausible but obscured. The closely spaced edging is difficult to resolve.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The broken marks may be the edges of a narrow cased strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[739,837],[735,861],[729,889],[726,916],[724,944],[726,961],[735,976],[734,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "The fork's southern arm has a narrow ochre centre and irregular dark dashes, with occasional hollow oval symbols beside it; its lower portion overlaps italic lettering.",
+      "uncertainty_note": "The trace is partly covered near the bottom, but aligned broken strokes remain visible on both sides of the lettering. The final waypoints are approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Short portions show closely spaced dark edges around the ochre centre."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[739,837],[765,820],[794,813],[823,810],[850,797],[878,777],[902,752],[925,724],[946,696],[962,665],[975,633],[984,599],[991,567],[1000,533]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre strip with dark broken edging curves east and then north. Hollow oval symbols sit in uneven groups beside it; the strip crosses the thin red diagonal around (962,665).",
+      "uncertainty_note": "The edging becomes crowded with oval symbols near the right edge, so the last section's centre is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some bends appear narrowly cased, although the dark edges are interrupted."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [151,15],
+      "branch_count": 3,
+      "evidence_note": "The broad ochre strip continues in two directions, while the narrow ochre trace with broken dark edging meets its southeastern casing."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [739,837],
+      "branch_count": 3,
+      "evidence_note": "Three narrow ochre, dark-edged arms meet: one northwest, one south, and one northeast; the dark strokes visibly converge at the fork."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [412,340,577,454],
+      "why": "Large black lettering and overlapping peach-polygon outlines prevent a confident trace between f02 and f03."
+    }
+  ],
+  "overall_note": "The narrow ochre traces have broken edging whose separation is difficult to resolve. Thin red diagonals, long regularly dashed black lines, winding green lines, and plain polygon outlines were read as non-road symbols using the legends and worked example. The obscured central continuation is left disconnected."
+}

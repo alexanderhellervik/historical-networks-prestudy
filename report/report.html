@@ -1,0 +1,882 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Historical road networks: feasibility demonstration</title><style>
+:root { --ink: #222; --muted: #555; --rule: #ccc; --head: #f3f3f3; }
+body { font-family: "DejaVu Serif", Georgia, serif; max-width: 52rem; margin: 2rem auto;
+       padding: 0 1rem; line-height: 1.5; color: var(--ink); background: #fff; }
+h1 { font-size: 1.6rem; line-height: 1.25; }
+h2 { margin-top: 2rem; border-bottom: 1px solid var(--rule); }
+table { border-collapse: collapse; font-size: .85rem; margin: 1rem 0; }
+th, td { border: 1px solid var(--rule); padding: .25rem .5rem; vertical-align: top; }
+th { background: var(--head); }
+figure { margin: 1.5rem 0; }
+.pair { display: flex; gap: 1rem; align-items: flex-start; }
+.pair figure { flex: 1 1 0; margin: 1rem 0; min-width: 0; }
+img { max-width: 100%; }
+figcaption { font-size: .85rem; color: var(--muted); }
+code { font-size: .9em; }
+@page { size: A4; margin: 18mm 16mm 20mm 16mm;
+        @bottom-center { content: counter(page) " / " counter(pages); font-size: 8pt;
+                         color: #777; font-family: "DejaVu Sans", sans-serif; } }
+.nav { font-family: "DejaVu Sans", sans-serif; font-size: .9rem; color: var(--muted);
+       border-bottom: 1px solid var(--rule); padding-bottom: .5rem; }
+@media screen and (max-width: 760px) {
+  .pair { flex-direction: column; gap: 0; }
+  table { display: block; overflow-x: auto; }
+}
+@media print {
+  body { max-width: none; margin: 0; padding: 0; font-size: 10pt; }
+  h1 { font-size: 17pt; } h2 { font-size: 13pt; break-after: avoid; }
+  h3 { font-size: 11pt; break-after: avoid; }
+  table { font-size: 7.5pt; } tr, figure { break-inside: avoid; }
+  figure img { max-height: 200mm; display: block; margin: 0 auto; }
+  .pair, .keep { break-inside: avoid; } .pair figure img { max-height: 110mm; }
+}
+</style></head><body><p class="nav"><a href="report.pdf">PDF version</a> · <a href="https://github.com/alexanderhellervik/historical-networks-prestudy">Code and data on GitHub</a></p><h1>Routable historical road networks from old map sheets: a feasibility demonstration</h1>
+<p><em>Alexander Hellervik, Chalmers University of Technology. Version 1.0, October 2026.</em></p>
+<p>This is a pilot feasibility study. It is not a historical accessibility series, and it contains
+no analysis of population response. It demonstrates, on one corridor in western Sweden, that a
+routable road network can be read from 19th-century map sheets by AI models at bounded cost, that
+it can be stitched and repaired into a graph, and that population can be wired in to produce
+accessibility surfaces for different periods.</p>
+<p>The corridor is the former Västergötland–Göteborg railway (VGJ) between Sjövik, Anten, Gräfsnäs,
+Sollebrunn and Nossebro, north of Alingsås and about 45 km north-east of Göteborg: 32 parishes,
+1,472 km², within a box of about 48 × 50 km. For the 1890s, 816 km² at its centre were read.</p>
+<p><strong>Key numbers</strong></p>
+<ul>
+<li><strong>AI reading of the 1890s map:</strong> about 2 hours of unattended time per map sheet (≈ 110 km²);
+  816 tiles of 1 km² read and reviewed.</li>
+<li><strong>Accuracy:</strong> the best setup, which a national run would use, found on average 93–97 % of the
+  road length on one checked tile, with 1–2 % false length (97 % and 2 % on Lantmäteriet's clean
+  scan).</li>
+<li><strong>Human checking</strong> of a machine-read tile: about 7 min per km² once practised.</li>
+<li><strong>Southern Sweden:</strong> between about 36,000 and 116,000 tiles to read (section 3).</li>
+<li><strong>Coverage:</strong> 22 % of the 1890 population in the mapped area lives outside the area read and is
+  left out of the 1890s map.</li>
+</ul>
+<h2>1. What was built</h2>
+<div class="keep"><div class="single"><figure><img alt="Pipeline: three routes to a routable network, one route from network to map" src="figures/pipeline.png"><figcaption>Pipeline: three routes to a routable network, one route from network to map</figcaption></figure></div></div>
+
+<ul>
+<li><strong>Sources:</strong><ul>
+<li>Häradsekonomiska kartan: 1:20 000, surveyed 1890–97 in this area; Lantmäteriet sheets in
+  georeferenced scans by Naturvårdsverket.</li>
+<li>Ekonomiska kartan: 1:10 000, Lantmäteriet, 41 sheets of 1963–74.</li>
+<li>FOLKNET: a database of Swedish parish and town population, 1810–1990.</li>
+<li>Historical parish boundaries: Riksarkivet, via the histmaps package.</li>
+<li>OpenStreetMap.</li>
+<li>The 1963 timetable of the VGJ.</li>
+</ul>
+</li>
+<li><strong>Reading:</strong> each 1 km² map tile is read by OpenAI's Codex agent running the model
+  gpt-6.1-sol, given the map legend and one worked example (a neighbouring tile traced by the
+  author). Claude Opus 5.5 then reviews the reading and keeps, corrects, removes or adds lines.</li>
+<li><strong>Timetable:</strong> the VGJ's 1963 running times were transcribed from scans of the printed
+  timetable (<em>Sveriges Kommunikationer</em> 1963 nr 6, tables 161 and 161 a) by an AI agent. It read
+  the scans cell by cell, with no OCR, in about 0.6 hours.<ul>
+<li>368 cells: none unreadable, 7 of medium confidence.</li>
+<li>Three whole trips were read a second time, and where the two tables repeat the same trains
+  their times agree to the minute.</li>
+<li>The transcription is in <code>data/timetable_1963/</code>.</li>
+</ul>
+</li>
+<li><strong>Which tiles:</strong> the plan was a search outward from main roads and towns that stops once every
+  parish is connected. In this corridor the search was replaced by reading every tile in the core
+  area (section 4).</li>
+<li><strong>1960s, without AI reading:</strong> each of today's roads is checked against the ink of the 1960s
+  economic map along it.<ul>
+<li>Roads with no ink are dropped.</li>
+<li>Roads straightened since the 1960s are found by searching a wider band.</li>
+<li>Short gaps (300 m or less) that would strand a kept road or force a long detour are bridged
+  and labelled as assumed.</li>
+</ul>
+</li>
+<li><strong>Network:</strong> read lines are stitched across tile edges. Loose pieces and short missing links are
+  connected by AI repair passes, each repair labelled as a best guess. The result is a routable
+  graph.</li>
+<li><strong>Accessibility:</strong><ul>
+<li>Population is spread from parishes to 250 m cells in proportion to the road length in each
+  cell.</li>
+<li>For every cell, accessibility is <code>A_i = Σ_j P_j · exp(−t_ij / 30)</code>, where <code>P_j</code> is the
+  population of cell <code>j</code> and <code>t_ij</code> the travel time in minutes from cell <code>i</code> to cell <code>j</code>. The
+  same 30-minute decay is used on foot and by car.</li>
+<li>The car maps are computed with HierX 0.1.1, an open-source program for fast approximate
+  accessibility on large networks, and checked against exact shortest paths. The walking maps
+  currently use exact shortest paths.</li>
+<li>At national scale, exact shortest paths are not an option. HierX will be used for every map,
+  with its settings tuned for the right balance between computation speed and accuracy.</li>
+</ul>
+</li>
+</ul>
+<h2>2. Results</h2>
+<div class="keep"><div class="single"><figure><img alt="The three routable networks, same extent and scale" src="figures/networks.png"><figcaption>The three routable networks, same extent and scale</figcaption></figure></div></div>
+
+<p>The three networks are built in different ways, which shapes what they show:</p>
+<ul>
+<li><strong>1890s:</strong> only the area read has roads. Small tracks drawn on the 19th-century map make it look
+  denser than the later networks.</li>
+<li><strong>1960s and today:</strong> they share their geometry, because the 1960s network is today's network
+  minus what is not on the 1960s map.</li>
+</ul>
+<p>The maps below show relative accessibility on 250 m cells: each period's value divided by its own
+99th percentile, with values above it shown as 1. Each period uses its own network, travel mode
+and population year.</p>
+<p><strong>Compare the maps by pattern, not by brightness.</strong> Walking maps are darker than car maps because
+fewer people are within reach on foot, not because they are worse.</p>
+<p>On the 1890s map, grey is almost all area that was not read. The bright block at Alingsås is the
+town's own population, which dominates what can be reached on foot nearby; its straight edges
+follow the edge of the area read.</p>
+<div class="keep"><p>The fair comparison across time is on foot, at the same speed (6 km/h):</p><div class="pair"><figure><img alt="1890s on foot: roads read from Häradsekonomiska kartan by AI models; population 1890" src="figures/accessibility_1890s.png"><figcaption>1890s on foot: roads read from Häradsekonomiska kartan by AI models; population 1890</figcaption></figure><figure><img alt="1960s on foot, no railway: roads on the 1960s map; population 1960" src="figures/accessibility_1960s_walk_novgj.png"><figcaption>1960s on foot, no railway: roads on the 1960s map; population 1960</figcaption></figure></div></div>
+
+<div class="keep"><p>By car, the 1960s and today:</p><div class="pair"><figure><img alt="1960s by car: roads on the 1960s map; population 1960" src="figures/accessibility_1960s.png"><figcaption>1960s by car: roads on the 1960s map; population 1960</figcaption></figure><figure><img alt="Today by car: OpenStreetMap roads; population 1990" src="figures/accessibility_today.png"><figcaption>Today by car: OpenStreetMap roads; population 1990</figcaption></figure></div></div>
+
+<p>On both car maps the far northern tip is brightest. It lies next to Trollhättan, the second town
+zone, just outside the mapped area.</p>
+<p>The 1960s walking variant shows what the pipeline can do with a historical railway. The VGJ is
+added with its 1963 timetable times and 10 minutes at each station used (boarding, alighting), and
+the map is computed with and without it. The second map shows the difference.</p>
+<div class="keep"><div class="pair"><figure><img alt="1960s on foot with the VGJ" src="figures/accessibility_1960s_walk.png"><figcaption>1960s on foot with the VGJ</figcaption></figure><figure><img alt="1960s on foot: what the VGJ added" src="figures/vgj_gain_1960s_walk.png"><figcaption>1960s on foot: what the VGJ added</figcaption></figure></div></div>
+
+<p><strong>Travel time to Alingsås.</strong> Minutes from the 250 m cell at each parish's centre point to the
+Alingsås town zone, on the same networks as the maps. Every time includes the straight walk from
+the cell to the nearest road (at most 2 km, at 5 km/h); for Rödene in the 1960s that walk is
+1.9 km, 23 of its 30 car minutes. Rows are sorted by today's time.</p>
+<table>
+<thead>
+<tr>
+<th>Parish</th>
+<th style="text-align: right;">1890s, on foot</th>
+<th style="text-align: right;">1960s, on foot</th>
+<th style="text-align: right;">1960s, on foot with the VGJ</th>
+<th style="text-align: right;">1960s, car</th>
+<th style="text-align: right;">today, car</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alingsås Landsförsamling</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>Bälinge</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr>
+<td>Lena</td>
+<td style="text-align: right;">185</td>
+<td style="text-align: right;">219</td>
+<td style="text-align: right;">219</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr>
+<td>Hol</td>
+<td style="text-align: right;">138</td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">144</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr>
+<td>Östad</td>
+<td style="text-align: right;">323</td>
+<td style="text-align: right;">202</td>
+<td style="text-align: right;">185</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr>
+<td>Siene</td>
+<td style="text-align: right;">203</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr>
+<td>Kullings-Skövde</td>
+<td style="text-align: right;">281</td>
+<td style="text-align: right;">289</td>
+<td style="text-align: right;">289</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr>
+<td>Bergstena</td>
+<td style="text-align: right;">263</td>
+<td style="text-align: right;">258</td>
+<td style="text-align: right;">258</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">19</td>
+</tr>
+<tr>
+<td>Horla</td>
+<td style="text-align: right;">220</td>
+<td style="text-align: right;">177</td>
+<td style="text-align: right;">177</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>Långared</td>
+<td style="text-align: right;">171</td>
+<td style="text-align: right;">191</td>
+<td style="text-align: right;">191</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">22</td>
+</tr>
+<tr>
+<td>Tumberg</td>
+<td style="text-align: right;">320</td>
+<td style="text-align: right;">334</td>
+<td style="text-align: right;">334</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr>
+<td>Ljur</td>
+<td style="text-align: right;">278</td>
+<td style="text-align: right;">239</td>
+<td style="text-align: right;">239</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr>
+<td>Fullestad</td>
+<td style="text-align: right;">227</td>
+<td style="text-align: right;">225</td>
+<td style="text-align: right;">225</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr>
+<td>Algutstorp</td>
+<td style="text-align: right;">262</td>
+<td style="text-align: right;">257</td>
+<td style="text-align: right;">257</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr>
+<td>Södra Härene</td>
+<td style="text-align: right;">371</td>
+<td style="text-align: right;">413</td>
+<td style="text-align: right;">358</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">26</td>
+</tr>
+<tr>
+<td>Magra</td>
+<td style="text-align: right;">318</td>
+<td style="text-align: right;">336</td>
+<td style="text-align: right;">239</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">27</td>
+</tr>
+<tr>
+<td>Erska</td>
+<td style="text-align: right;">345</td>
+<td style="text-align: right;">363</td>
+<td style="text-align: right;">197</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">27</td>
+</tr>
+<tr>
+<td>Rödene</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">28</td>
+</tr>
+<tr>
+<td>Barne-Åsaka</td>
+<td style="text-align: right;">460</td>
+<td style="text-align: right;">428</td>
+<td style="text-align: right;">291</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">28</td>
+</tr>
+<tr>
+<td>Fåglum</td>
+<td style="text-align: right;">401</td>
+<td style="text-align: right;">406</td>
+<td style="text-align: right;">290</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">29</td>
+</tr>
+<tr>
+<td>Skepplanda</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">324</td>
+<td style="text-align: right;">324</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr>
+<td>Kyrkås</td>
+<td style="text-align: right;">359</td>
+<td style="text-align: right;">374</td>
+<td style="text-align: right;">278</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">31</td>
+</tr>
+<tr>
+<td>Nårunga</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">257</td>
+<td style="text-align: right;">257</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">32</td>
+</tr>
+<tr>
+<td>Essunga</td>
+<td style="text-align: right;">446</td>
+<td style="text-align: right;">460</td>
+<td style="text-align: right;">245</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">32</td>
+</tr>
+<tr>
+<td>Bäreberg</td>
+<td style="text-align: right;">452</td>
+<td style="text-align: right;">486</td>
+<td style="text-align: right;">236</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">36</td>
+</tr>
+<tr>
+<td>Lagmansered</td>
+<td style="text-align: right;">436</td>
+<td style="text-align: right;">441</td>
+<td style="text-align: right;">261</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">36</td>
+</tr>
+<tr>
+<td>Hålanda</td>
+<td style="text-align: right;">416</td>
+<td style="text-align: right;">468</td>
+<td style="text-align: right;">296</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">37</td>
+</tr>
+<tr>
+<td>Ale-Skövde</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">456</td>
+<td style="text-align: right;">379</td>
+<td style="text-align: right;">46</td>
+<td style="text-align: right;">37</td>
+</tr>
+<tr>
+<td>Stora Mellby</td>
+<td style="text-align: right;">394</td>
+<td style="text-align: right;">430</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">42</td>
+</tr>
+<tr>
+<td>Främmestad</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">519</td>
+<td style="text-align: right;">287</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">42</td>
+</tr>
+<tr>
+<td>Väne-Åsaka</td>
+<td style="text-align: right;">–</td>
+<td style="text-align: right;">561</td>
+<td style="text-align: right;">381</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">43</td>
+</tr>
+<tr>
+<td>Upphärad</td>
+<td style="text-align: right;">507</td>
+<td style="text-align: right;">552</td>
+<td style="text-align: right;">372</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">46</td>
+</tr>
+</tbody>
+</table>
+<p>How to read the table:</p>
+<ul>
+<li><strong>"–"</strong> means the parish is outside the area read for the 1890s.</li>
+<li><strong>Walking times run to hours,</strong> so the walking columns compare network shape rather than
+  journeys anyone made.</li>
+<li><strong>1960s on foot is often slower than 1890s on foot.</strong> The 1960s network starts from today's
+  roads and so misses roads abandoned since then (section 5), while the 1890s network includes
+  small tracks and guessed repairs. The difference measures the two methods, not historical
+  change.</li>
+<li><strong>By car,</strong> the 1960s times are 1.0–1.6 times today's (median 1.2).</li>
+</ul>
+<h2>3. Effort and scale</h2>
+<p>All model work ran on fixed-price subscriptions (Codex and Claude Code). The figures below are
+time and tokens, not prices.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Measured in the pilot</th>
+<th>Per sheet of Häradsekonomiska kartan (≈ 110 km², every tile read)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reading, gpt-6.1-sol via Codex, with the legend and one worked example</td>
+<td>816 tiles: about 7.0 min (median 6.6) and 123,000 tokens per 1 km² tile, retries included</td>
+<td>≈ 13 h model time, ≈ 13.5 million tokens</td>
+</tr>
+<tr>
+<td>Review, Claude Opus 5.5</td>
+<td>median 1.75 min per tile; 819 review runs (816 tiles, one check tile, two runs redone)</td>
+<td>≈ 3 h model time</td>
+</tr>
+<tr>
+<td>Unattended wall-clock, 8–12 tiles read and reviewed in parallel</td>
+<td>402 tiles in 6.9 h, then 386 in 6.5 h (≈ 59 tiles per hour both times); the other 28 tiles in a short search in between</td>
+<td><strong>≈ 2 hours</strong></td>
+</tr>
+<tr>
+<td>Human check of a machine-read tile (mark each line road / not road, fix geometry, add missed roads)</td>
+<td>17 min for the first tile, of which about 10 min learning the tools and symbols; about 7 min per km² once practised (author's estimate)</td>
+<td>≈ 13 h for a full check; a sample check scales down from there</td>
+</tr>
+<tr>
+<td>Human tracing from scratch, for comparison</td>
+<td>51 min for one tile, of which about 30 min setup; about 20 min per km² once practised (author's estimate)</td>
+<td>≈ 37 h</td>
+</tr>
+<tr>
+<td>1960s route: modern roads checked against the 1960s economic map</td>
+<td>no model reading; seconds of computing per sheet; the author's audit of 251 items took 50 min (≈ 12 s per item)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Timetable: tables 161 and 161 a of the 1963 timetable, transcribed by an AI agent from the scans</td>
+<td>368 cells in ≈ 0.6 h agent time; ≈ 0.5 h of the author's time finding the source</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Railway events: openings, closures and timetable changes of the VGJ, dated from four kinds of sources (not used in the maps)</td>
+<td>34 events in ≈ 0.7 h agent time and ≈ 2 h of the author's time</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>National scale (estimate).</strong> Häradsekonomiska kartan covers about 116,000 km² of land in
+southern Sweden on 1,447 sheets. A sheet spans about 110 km²; coastal sheets are partly sea, so
+land averages about 80 km² per sheet.</p>
+<ul>
+<li><strong>Lower bound, about 36,000 tiles:</strong> a search outward from main roads and towns that stops once
+  every parish is connected. Simulated on today's roads, it reads about a third of the land. The
+  simulation assumes a road read on one tile continues cleanly into the next.</li>
+<li><strong>Upper bound, about 116,000 tiles:</strong> in this corridor that assumption failed. Readers often
+  stop lines short of a tile's edge, so the corridor needed every core tile: 816 against 392
+  simulated, about twice as many. A national run should be costed between the two figures.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>National totals (estimate)</th>
+<th style="text-align: right;">36,000 tiles</th>
+<th style="text-align: right;">116,000 tiles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reading, model time</td>
+<td style="text-align: right;">≈ 4,200 h</td>
+<td style="text-align: right;">≈ 13,600 h</td>
+</tr>
+<tr>
+<td>Unattended wall-clock at 59 tiles per hour</td>
+<td style="text-align: right;">≈ 610 h</td>
+<td style="text-align: right;">≈ 1,970 h</td>
+</tr>
+<tr>
+<td>Tokens</td>
+<td style="text-align: right;">≈ 4.4 billion</td>
+<td style="text-align: right;">≈ 14 billion</td>
+</tr>
+<tr>
+<td>Human check of 1 % of tiles, at 7 min per km²</td>
+<td style="text-align: right;">≈ 42 h</td>
+<td style="text-align: right;">≈ 135 h</td>
+</tr>
+<tr>
+<td>Human check of 10 % of tiles</td>
+<td style="text-align: right;">≈ 420 h</td>
+<td style="text-align: right;">≈ 1,350 h</td>
+</tr>
+<tr>
+<td>Human check of every tile</td>
+<td style="text-align: right;">≈ 4,200 h</td>
+<td style="text-align: right;">≈ 13,500 h</td>
+</tr>
+</tbody>
+</table>
+<p>The 1 % and 10 % shares are illustrations, not a sampling design. The share that is needed depends
+on the accuracy required and on how well checking can be aimed at likely errors (section 6). All of
+these steps can be run in parallel, which shortens the calendar time.</p>
+<h2>4. How good is it?</h2>
+<p>The aim is the end result, usable historical networks, not a benchmark of AI models. The method
+for scaling up is the best configuration found: Lantmäteriet's clean scans, the series legend,
+worked examples traced by a person, an AI reader and an AI reviewer, and human checking. More
+human examples and continual tuning of the pipeline are part of the method.</p>
+<p>Road reading is scored against one 1 km² tile, checked by the author starting from a machine
+reading, at 15 m tolerance:</p>
+<ul>
+<li><strong>Completeness:</strong> the share of the reference road length found within 15 m.</li>
+<li><strong>False-positive length:</strong> the share of the read length with no reference road within 15 m.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Setup</th>
+<th>Completeness</th>
+<th>False-positive length</th>
+<th>Road-class agreement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reader alone, best setup (means of 4 runs on each of two scans)</td>
+<td>0.97–0.99</td>
+<td>0.14–0.15</td>
+<td>unstable, 0.43–0.92</td>
+</tr>
+<tr>
+<td><strong>Reader + review, best setup (means of 4 runs on each of two scans)</strong></td>
+<td><strong>0.93–0.97</strong></td>
+<td><strong>0.01–0.02</strong></td>
+<td>unstable, 0.37–0.92</td>
+</tr>
+<tr>
+<td>Corridor production run, used for the maps (1 run)</td>
+<td>0.88</td>
+<td>0.12</td>
+<td>0.91 (one run)</td>
+</tr>
+<tr>
+<td>1960s route, author's audit of 209 segments on one sheet, scoring</td>
+<td>0.83</td>
+<td>0.12</td>
+<td>0.52</td>
+</tr>
+<tr>
+<td>1960s route, same audit, network rule (roads judged present or uncertain kept)</td>
+<td>0.95</td>
+<td>0.18</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The best setup is the one to scale up.</strong> It is the reader followed by an AI reviewer, read four
+times on each of two copies of the tile:</p>
+<ul>
+<li><strong>Lantmäteriet's clean scan:</strong> on average 97 % of the reference road length found, with 2 %
+  false length.</li>
+<li><strong>Naturvårdsverket's resampled copy:</strong> 93 % found, with 1 % false length.</li>
+</ul>
+<p>Single runs varied more (completeness 0.79–0.99). The review lowers completeness a little because
+it removes some real roads along with most of the false ones.</p>
+<p>The maps in section 2 come from an earlier production run, made before those improvements: 88 %
+of the reference road length found, with 12 % false length. That run had two handicaps against
+the best setup:</p>
+<ul>
+<li>It used Naturvårdsverket's georeferenced copies, which are resampled from the scans, because
+  Lantmäteriet's clean scans had not yet been downloaded for the whole corridor.</li>
+<li>It used a review route chosen so that the run could proceed unattended.</li>
+</ul>
+<p><strong>Limits of this measurement:</strong></p>
+<ul>
+<li>One tile and one reader: these are measurements of feasibility, not a validated accuracy.</li>
+<li>The reference tile was itself checked from a machine-read starting point, which may favour the
+  pipeline.</li>
+<li>Road classes are not reliable and are not used for speeds.</li>
+</ul>
+<p>The 1960s audit covered 251 items: 211 road segments on one sheet (209 usable, 2 marked
+unsure), 20 segments from two late editions, and 20 questions about routes.</p>
+<p><strong>What did not work first time</strong> (kept in the record, not hidden):</p>
+<ul>
+<li><strong>The search rule.</strong> The corridor search's first rule counted two tiles as connected when a line
+  in either reached their shared edge. The network it produced was in hundreds of pieces, so every
+  core tile was read instead: 816 tiles, 2,083 km of road lines.</li>
+<li><strong>Gaps.</strong> An AI repair pass joined loose pieces where the map shows a road: 388 joins, 49 km,
+  over eight passes. The main network grew from 1,442 km to 2,007 km, 93 % of the 2,159 km
+  network of read lines, joins and repairs.</li>
+<li><strong>Detours.</strong> The first 1890s walking times showed long detours inside the main network (Östad
+  611 min to Alingsås, Långared 452). A second AI pass looked at every dead end that had another
+  part of the network within 400 m but more than 2 km away by road: 884 cases, 329 joined
+  (63 km). Those two times fell to 323 and 171 min.</li>
+<li><strong>Georeferencing.</strong> The 1960s sheets, placed with the projection file that comes with them,
+  were 160 m off. The standard coordinate-system code (EPSG) fixed it.</li>
+</ul>
+<h2>5. Limits</h2>
+<ul>
+<li><strong>One corridor, one map series, one reference tile.</strong> Times per sheet are extrapolated from 816
+  tiles of one corridor. Accuracy is measured against a single 1 km² tile checked by the author,
+  with one reader. These are feasibility measurements, not a validated accuracy.</li>
+<li><strong>Road classes are not used.</strong> Class agreement is unstable between runs, so every 1890s road is
+  given one walking speed (6 km/h). Ferries, seasonal roads and fords are not modelled.</li>
+<li><strong>Repairs are guesses, and gaps remain.</strong><ul>
+<li>AI passes join loose pieces and short missing links of the 1890s network where the map
+  suggests a road: 717 joins, 112 km in a network of about 2,200 km.</li>
+<li>Each join is labelled as a guess and kept in its own layer, so it can be removed or checked.</li>
+<li>The second pass was added after the first maps showed detours.</li>
+<li>Roads the reader missed entirely are not recovered by either pass.</li>
+</ul>
+</li>
+<li><strong>Coverage.</strong> Cells reach the network by a straight walk capped at 2 km. Cells farther away
+  (grey on the maps) are left out: on the 1890s map, 22 % of the 1890 population in the mapped
+  area, all but a handful of it outside the area read.</li>
+<li><strong>The 1960s network starts from today's roads.</strong><ul>
+<li>A modern road is kept if the 1960s economic map shows a road along it, or within 60 m for a
+  road straightened since.</li>
+<li>Short absent links (300 m or less) that would strand a kept road, or force a detour of more
+  than 2 km, are kept and labelled as assumed (31 km in the corridor). These gap rules were
+  added after the first 1960s maps showed long detours; the networks without them are kept for
+  comparison.</li>
+<li>A road that existed in the 1960s but is gone today cannot be found this way. Reading such
+  pieces from the sheet, as for the 1890s, would close that gap.</li>
+<li>The 1960s car map uses modern speeds by road class.</li>
+</ul>
+</li>
+<li><strong>Population is spread, not located.</strong><ul>
+<li>Parish totals from FOLKNET are spread over 250 m cells in proportion to the road length in
+  each cell. This is a modelling device, not settlement.</li>
+<li>A falsely read road therefore also attracts population, so road errors count twice.</li>
+<li>Towns whose parishes are merged in the population source are single zones.</li>
+<li>"Today" uses the 1990 population, the latest year in FOLKNET.</li>
+</ul>
+</li>
+<li><strong>Accessibility values are approximate on the car maps.</strong><ul>
+<li>HierX 0.1.1 is checked against exact shortest paths for every cell. The median relative error
+  of the score is 4 % today and 4 % for the 1960s (95th percentile 13 %).</li>
+<li>At walking speed the error is larger with the settings used here (median 10–11 %, 95th
+  percentile 32–34 %), so the walking maps currently use exact values. At national scale HierX
+  will be used throughout, with settings tuned for walking speeds as well.</li>
+<li>Scores are relative to the 99th percentile of each map, so maps of different periods are
+  compared by pattern, not by level.</li>
+</ul>
+</li>
+<li><strong>Railways.</strong> Only the VGJ is included, in the 1960s walking map, at its 1963 timetable times
+  with 10 minutes at each station used. Main lines and modern railways are left out by design.</li>
+<li><strong>National scale is an estimate.</strong> It is a range: the lower bound simulates a search on today's
+  roads, and the corridor needed about twice the simulated number of tiles (section 3).</li>
+<li><strong>No inference.</strong> The maps show what the pipeline produces. They are not a historical
+  accessibility series and carry no analysis of population change.</li>
+</ul>
+<h2>6. Improvements to evaluate before scaling up</h2>
+<p>The pilot shows the pipeline works; it does not show it is the cheapest or best way to cover
+southern Sweden. The ideas below were collected for testing before a national run. Each comes
+with a small test that would decide whether to adopt it.</p>
+<h3>Six to test first</h3>
+<p>Together they take one to two weeks of human and machine time. They decide
+whether the national figure is nearer 36,000 or 116,000 tiles, and whether a sample check by a
+person is enough.</p>
+<ol>
+<li><strong>An independent reference set.</strong> Every accuracy figure rests on one tile, itself checked from
+   a machine reading.<ul>
+<li>Trace 12–15 tiles from scratch (about 5–13 hours), spread over sheets, terrain (forest,
+   plains, coast) and survey years.</li>
+<li>Report completeness and false-positive length per stratum, and the spread between tiles.</li>
+<li>No other test on this list can be judged without it.</li>
+</ul>
+</li>
+<li><strong>Read every symbol, not only roads.</strong> Ask a frontier model (or an image model) for a full
+   reading of the map: roads, paths, boundaries, streams, ditches, field edges, railways, buildings
+   and farms, water, names.<ul>
+<li>Every line drawn then gets a verdict. A boundary or a stream can no longer slip in as a road,
+   which is where much of the false length comes from.</li>
+<li>The result is a set of layers, not only a road network: buildings and farms give a place to
+   put the population (instead of spreading it along roads, so road errors no longer count
+   twice), and settlements and water give context for checks.</li>
+<li>A model with common sense can also see where a road is going: a track that ends at a farm is
+   a real dead end, not a gap to repair; one that stops short of a road it was heading for is a
+   gap.</li>
+<li>Test on 20 tiles: false-positive length and completeness of the road layer against the
+   current reading; the share of dead ends explained by a farm or building; people per building
+   against FOLKNET, which should be stable across parishes.</li>
+</ul>
+</li>
+<li><strong>Overlapping tiles and an edge rule.</strong> Readers stopping lines short of a tile's edge doubled
+   the tiles read (816 against 392) and caused most of the repairs.<ul>
+<li>Show the reader a 150–250 m margin of the neighbouring map, and require every road to be
+   carried to the tile edge and its exit point listed.</li>
+<li>Test on 60 tiles. If more than 90 % of roads meet a neighbour's exit within 15 m and repairs
+   halve, the outward search becomes usable again, and that could halve the national cost.</li>
+</ul>
+</li>
+<li><strong>Human checking aimed by disagreement.</strong> Checking every tile would take 4,200–13,500 hours.<ul>
+<li>Read each tile 2–3 times and keep lines found at least twice; this may cut false lines
+   without the review's loss of real roads.</li>
+<li>Send to a person only the tiles where runs disagree, the reviewer disagrees with the reader,
+   or the network has suspicious dead ends and loose pieces.</li>
+<li>On the reference tiles, adopt if at least 80 % of the error length falls in at most 25 % of
+   tiles.</li>
+</ul>
+</li>
+<li><strong>One network with a lifespan for each road.</strong> The 1960s route cannot see roads gone since,
+   which is why 1960s walking times often exceed the 1890s ones.<ul>
+<li>Match the three periods into one network and record, for each road segment, the periods in
+   which it is present.</li>
+<li>For every 1890s road missing today, ask a yes/no question of the 1960s sheet: is there road
+   ink here?</li>
+<li>The author's audit ran at about 12 s per item. Test on the corridor with an audit of 100
+   items, and measure the km recovered and the change in walking times.</li>
+</ul>
+</li>
+<li><strong>A small trained model.</strong> Reading costs scale with every tile read.<ul>
+<li>Train an image-segmentation model (a U-Net) on the 816 reviewed tiles, run it over all
+   tiles in hours on one GPU, and keep the AI reader for tiles where the model is unsure or
+   disagrees with the modern roads.</li>
+<li>Validate on the independent reference tiles. Adopt as a first pass if completeness is at
+   least 0.90 and false-positive length at most 0.10.</li>
+</ul>
+</li>
+</ol>
+<h3>Other ideas worth a small test</h3>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Idea</th>
+<th>Test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reading</td>
+<td>Classify roads in a separate pass: legend snippets along each traced line plus a measured ink width (single or double line)</td>
+<td>200 segments; adopt if class agreement is stable above 0.85, which would allow road-class speeds for the 1890s</td>
+</tr>
+<tr>
+<td>Reading</td>
+<td>Read whole sheets or 2 × 10 km strips at low resolution for the main roads, then tiles for detail</td>
+<td>one sheet; completeness of main roads and detours</td>
+</tr>
+<tr>
+<td>Reading</td>
+<td>Lower resolution of Lantmäteriet's clean scans</td>
+<td>40 tiles at full, 0.75× and 0.5× resolution; if 0.75× loses under 2 points, tokens fall by about 40 %</td>
+</tr>
+<tr>
+<td>Reading</td>
+<td>A cheaper or open-weight reader, keeping the strong reviewer</td>
+<td>100 tiles; adopt if within 3 completeness points</td>
+</tr>
+<tr>
+<td>Reading</td>
+<td>Ask the reader to paint over the roads (a mask) instead of listing coordinates</td>
+<td>20 tiles; positional error at 5, 10 and 15 m</td>
+</tr>
+<tr>
+<td>Reading</td>
+<td>Ink thresholding and thinning first (the 1960s route already scores ink), AI only for ambiguous junctions and symbols</td>
+<td>20 tiles; share of the reference recovered by thresholding alone</td>
+</tr>
+<tr>
+<td>Reading</td>
+<td>Today's roads as a prior: the reader confirms or rejects known roads and traces only the rest</td>
+<td>50 tiles; adopt only if completeness on roads gone today does not drop</td>
+</tr>
+<tr>
+<td>Checking</td>
+<td>Network warning signs (dead ends, loose pieces, unmatched tile edges) as free quality signals</td>
+<td>correlate with the reference scores</td>
+</tr>
+<tr>
+<td>Checking</td>
+<td>An 1890s line with no counterpart in the 1960s or today as a candidate false positive</td>
+<td>false-positive rate inside and outside that group</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>Join gaps only where the raster shows continuous ink, before any AI repair</td>
+<td>corridor rerun; joins and scores against the AI passes</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>Further map editions as yes/no presence checks to date roads: the 1930s economic sheets, and the 1:100 000 Generalstabskartan, which is too coarse in position to trace from and would be used only to check whether a road was present</td>
+<td>one sheet</td>
+</tr>
+<tr>
+<td>Accessibility</td>
+<td>Check travel times against contemporary records: posting-station distance tables, 1960s bus timetables</td>
+<td>30 place pairs; median error under 10 % would be strong evidence</td>
+</tr>
+<tr>
+<td>Accessibility</td>
+<td>Slope from a terrain model, ferries with waiting time, once road classes are stable</td>
+<td>corridor</td>
+</tr>
+<tr>
+<td>Engineering</td>
+<td>A job list and cache keyed on tile, prompt, model and examples, so no paid work is repeated</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Engineering</td>
+<td>Read the most populated tiles first, so any budget covers the most people</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Engineering</td>
+<td>Release each segment with its provenance (run, review action, repair label, agreement score) so users can drop guesses themselves</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Approach</td>
+<td>Invert the pipeline: read the sharper 1:10 000 1960s sheet as the base, and check the 1890s against it</td>
+<td>one sheet; cost and accuracy against the current order</td>
+</tr>
+</tbody>
+</table>
+<h2>7. Sources, licences and how to rerun</h2>
+<p>The repository <code>historical-networks-prestudy</code>
+(<a href="https://github.com/alexanderhellervik/historical-networks-prestudy">https://github.com/alexanderhellervik/historical-networks-prestudy</a>, archived on Zenodo) holds
+the code, the instructions given to the models, and the derived data that may be shared:</p>
+<ul>
+<li>the models' answers;</li>
+<li>the 1890s road lines and repairs, read from Lantmäteriet maps;</li>
+<li>the 1960s scored road edges and the corridor's modern network, derived from OpenStreetMap.</li>
+</ul>
+<p><strong>Licences:</strong></p>
+<ul>
+<li><strong>Repository:</strong> code, this report and the author's derived data are under MIT;
+  OpenStreetMap-derived files under ODbL 1.0 (© OpenStreetMap contributors); parish geometry
+  under CC0.</li>
+<li><strong>Sources:</strong><ul>
+<li>Häradsekonomiska kartan is out of copyright: Lantmäteriet states that maps older than 70
+  years may be published freely.</li>
+<li>Ekonomiska kartan is Lantmäteriet open data under CC0.</li>
+<li>Riksarkivet's historical boundaries (via histmaps) are CC0.</li>
+<li>Population: Demografiska databasen, CEDAR, Umeå universitet (2022): Folkmängdsdatabasen,
+  <a href="https://dx.doi.org/10.17197/folknetdb_v01">https://dx.doi.org/10.17197/folknetdb_v01</a>.</li>
+</ul>
+</li>
+</ul>
+<p>No map sheet or scan is included, apart from the 1 km worked-example tile and two legend images given to the reading model; no FOLKNET population figure and no other raw source file is included.
+<code>SOURCES.md</code> lists where to download each input, and <code>LICENSES.md</code> gives the terms for each
+path. The terms were checked on 6 October 2026.</p>
+<p><code>make demo</code> rebuilds the networks, maps and travel times from the shipped data plus those
+downloads. From a fresh copy it took 65 minutes on a 16-CPU machine and reproduced the numbers in
+this report exactly.</p>
+<h2>Use of AI</h2>
+<p>AI models are part of the method described here: Codex (gpt-6.1-sol) reads the 1890s map tiles
+and Claude Opus 5.5 reviews the readings and makes the repairs, as set out in sections 1 and 4. AI
+assistance (Claude Code, Anthropic) was also used to write the pipeline code, run the analyses,
+and draft the text and figures of this report. The author directed the work, has reviewed the
+report, and takes responsibility for its content.</p></body></html>

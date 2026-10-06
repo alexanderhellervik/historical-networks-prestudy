@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0350_n6422",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[734, 1000], [748, 978], [752, 964], [744, 952], [733, 941], [743, 925], [772, 900], [806, 871], [839, 843], [865, 817], [877, 798], [873, 781], [858, 757], [843, 735], [866, 710], [887, 690], [907, 667]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A continuous brown strip has two uneven dark margins roughly 5–9 px apart. It bends sharply near (843,735) and crosses thin blue-black enclosure lines without losing its brown centre.",
+      "uncertainty_note": "The margins sometimes merge into one heavy stroke; the course is clearer than the exact symbol form.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Some stretches could be read as one heavy brown stroke with dark edging rather than two separately drawn lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[907, 667], [914, 638], [922, 607], [931, 578], [935, 550], [949, 534], [964, 520], [979, 505]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark, locally broken margins enclose a narrow brown strip. The strip passes beside black rectangular and diamond-shaped building symbols before turning northeast.",
+      "uncertainty_note": "Building outlines crowd the margins near (935,550), but the brown course is visible on both sides.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The uneven margins could combine a road stroke with adjacent enclosure or building outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[907, 667], [929, 647], [946, 627], [960, 603], [969, 575], [974, 547], [978, 524], [979, 505]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrower curved brown-red strip with dark edges runs east of f02, enclosing a pale strip between the two courses. Its edges are most distinct around (960,603).",
+      "uncertainty_note": "The upper connection is crowded by the diagonal road and a building symbol. An enclosure-edge reading remains possible because this line also follows a colour boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Parts appear as a single brown-red stroke with a dark edge."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternatively this is a coloured enclosure boundary rather than a separate road; that reading removes the loop and reduces the road branch counts at j01 and j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[979, 505], [1000, 482]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A short diagonal brown strip, bounded by dark strokes about 6–9 px apart, continues to the right edge beside an oblique rectangular building symbol.",
+      "uncertainty_note": "The nearby building touches the upper margin; the brown centre remains visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[907, 667], [899, 641], [895, 616], [890, 591], [887, 565], [879, 545], [883, 530]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A pale narrow strip lies between fine dark blue-black strokes west of f02. It curves beside several black building outlines; it lacks the strong brown centre of the other reported lines.",
+      "uncertainty_note": "This may be a narrow access track or closely spaced enclosure edges. Its northern course disappears into building and parcel strokes, so it stops there; if it is an enclosure edge, j01 has three road branches rather than four.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired strokes and pale interior could represent a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes could instead be adjacent parcel and building boundaries, with no road here."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [907, 667],
+      "branch_count": 4,
+      "evidence_note": "The southwest brown strip meets two northward brown courses and a finer pale, dark-bordered strip on the northwest side. Four branches are counted under the proposed track reading of f05."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [979, 505],
+      "branch_count": 3,
+      "evidence_note": "Two brown courses approaching from the south converge into one northeast diagonal strip beside a black oblique building outline; the short connecting strokes are crowded."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [868, 516, 920, 583],
+      "why": "Dense building outlines and overlapping fine enclosure strokes prevent a reliable continuation or termination of the possible track f05."
+    }
+  ],
+  "overall_note": "The brown road courses are substantially clearer than the fine strokes beside the buildings. The loop and possible western access track retain boundary alternatives, so the junction counts depend on those readings. The red band at the upper-left edge, blue shoreline outlines, and long dashed parcel lines were read as non-road symbols."
+}

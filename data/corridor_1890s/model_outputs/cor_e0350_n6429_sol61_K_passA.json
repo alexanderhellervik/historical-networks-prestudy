@@ -1,0 +1,59 @@
+{
+  "tile_id": "cor_e0350_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[333, 0], [350, 21], [365, 35], [377, 43], [394, 48], [412, 61]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One narrow ochre-brown course carries short dark marks and bends southeast. Separate continuous casing lines are not resolved; its lower end meets the heavy horizontal black band.",
+      "uncertainty_note": "This is a road or track candidate, but the short exposed section does not securely distinguish interrupted road edging from boundary marks. Its continuation beneath the horizontal band cannot be traced.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The short dark marks could constitute a single broken track line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre centre and dark edging could represent a narrow road with poorly resolved casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary remains possible. This section and f02 might belong to one line hidden by the horizontal band."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[593, 0], [569, 17], [544, 35], [520, 51], [499, 64]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One narrow ochre-brown diagonal course has closely spaced dark interrupted marks. It curves slightly southwest into the horizontal black band; two continuous casing lines are not clearly visible.",
+      "uncertainty_note": "The marks support a road or track reading, but a boundary interpretation remains possible. No course or connection is asserted beneath the horizontal band.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could form a single broken track line."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The brown centre and dark marks could be a narrowly cased road whose edging is unresolved."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary remains possible, and an obscured connection to f01 cannot be established."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 45, 1000, 90],
+      "why": "A heavy horizontal black band with red edging masks underlying strokes, including the lower ends of both reported candidates."
+    }
+  ],
+  "overall_note": "The two short ochre sections at the top are retained as uncertain road or track candidates. The broad southwest–northeast band is read as railway symbology because of its repeated dark rectangular blocks and pale intervals; the thin red southeastern line and long broken western line are read as boundaries. No road junction is visibly established."
+}

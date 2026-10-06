@@ -1,0 +1,114 @@
+{
+  "tile_id": "cor_e0366_n6452",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,128],[22,160],[47,195],[61,222],[89,263],[120,302],[151,336],[181,371],[211,409],[236,452],[257,491],[274,537],[285,580],[298,621],[310,625],[314,650],[334,687],[349,724],[361,759],[366,778],[369,803],[365,831],[353,858],[339,884],[329,905]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two dark, approximately parallel strokes enclose a pale strip about 6–10 px wide; the pair curves down the tile and remains traceable beside the large black lettering.",
+      "uncertainty_note": "The lower curve is partly overwritten by lettering, so its centre and the position of j01 are approximate. The faint branches at j02 and j03 may instead be boundaries.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The casing becomes broader near the lower bend; the distinction between narrow and wide is relative to the other paired road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,977],[43,960],[86,940],[132,920],[175,901],[210,886],[239,873],[265,873],[291,882],[312,894],[329,905],[350,922],[385,945],[424,972],[465,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A yellow or ochre centre, approximately 10–16 px across, lies between two heavy dark edges; it crosses the blue strip and bends beside red building rectangles and black lettering.",
+      "uncertainty_note": "Buildings, lettering and heavy overlapping strokes obscure some casing around the bend. The visible paired approaches support continuity, but the centre near j01 is approximate.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[310,625],[350,594],[390,562],[433,529],[475,498],[516,465],[548,443],[567,431]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint, narrow grey trace with separated strokes runs diagonally from the paired road toward an irregular dark outline; no clear coloured centre or continuous casing is visible.",
+      "uncertainty_note": "This could be a lightly drawn path or a field division. Its northeastern termination merges with an irregular outline and cannot be carried farther confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible path interpretation if the separated grey strokes belong to a road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road field or property boundary; the near-straight course and faint strokes also support this reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[366,778],[406,748],[447,716],[487,684],[524,654],[551,630],[570,609]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A thin, pale grey, intermittently broken diagonal trace lies between a red line and the broader pink-blue band; it reaches the paired road at its southwestern end.",
+      "uncertainty_note": "The symbol is too faint to distinguish a path from a field division. Its northeastern end becomes indistinct beside short dark outlines and hatching.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible lightly drawn track or path represented by broken strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel division or edge of the hatched patch."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[174,701],[178,735],[184,768],[193,799],[203,826],[212,851]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Very faint grey strokes, locally appearing paired several pixels apart, curve beside the pink band and a narrow hatched patch toward small red and black symbols.",
+      "uncertainty_note": "A minor access path is possible, but the strokes may be land-cover outlines. Neither end has a sufficiently clear continuation to connect it to another road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow path if the locally paired strokes form continuous casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road outline of the narrow hatched patch."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [329,905],
+      "branch_count": 3,
+      "evidence_note": "The narrow dark pair approaches from above and meets the bending yellow-centred pair, which continues southwest and southeast; lettering and overlapping dark strokes partly mask the meeting point."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [310,625],
+      "branch_count": 3,
+      "evidence_note": "The dark paired line continues in both directions while a faint broken grey trace leaves northeast; this is a three-branch road junction only if that trace is a path."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [366,778],
+      "branch_count": 3,
+      "evidence_note": "A pale diagonal trace touches the eastern side of the continuing dark pair near the pink shading; the third road branch is conditional on interpreting that trace as a path."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [279,812,379,934],
+      "why": "Large black letters overlap dark casing and coloured strokes; the main paired approaches can be followed, but small connections and the exact junction geometry cannot be resolved."
+    }
+  ],
+  "overall_note": "The two dark paired roads are the clearest features. Faint diagonal and bank-side traces are included with non-road alternatives, and j02 and j03 are conditional junctions. Broad blue-pink bands, single red lines and clearly dotted boundary outlines were not counted as roads."
+}

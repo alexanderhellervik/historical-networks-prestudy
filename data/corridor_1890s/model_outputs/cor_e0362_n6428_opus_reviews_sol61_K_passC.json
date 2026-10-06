@@ -1,0 +1,143 @@
+{
+  "tile_id": "cor_e0362_n6428",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The widest road on the tile: two parallel dark lines with a red fill, running from the left edge at about (0,835) through (200,770), (310,680), (500,590), (750,535) and (840,505) to the right edge at about (1000,400). The overlay follows it the whole way.",
+      "uncertainty_note": "The course is certain. Wide vs narrow is a judgement: it is clearly wider than every other road here and matches the Landsväg/Bygdeväg double line with red infill."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow brown/orange line with dark edges comes from the top edge near (270,0) and curves through (190,100) and (100,180) to the left edge near (0,240). It looks like the brown-edged road (Sämre körväg) in the worked example. The overlay's thin blue line runs along it.",
+      "uncertainty_note": "At this resolution it could be a single brown line, i.e. single_line. Brown is not used for boundaries on this sheet, so it is most likely a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A very short fragment hugging the left edge near the top-left corner, about (0-10, 0-80). A brownish line does touch the margin there, but too little of it is inside the tile to read a road symbol.",
+      "uncertainty_note": "It may be the edge of a road on the neighbouring tile, or just the brown border of a field."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay runs from the left edge at about (0,735), north of and parallel to f01, up to about (300,640), then joins f01 near (350,655). Between u=40 and 220 there is a faint thin line just above 'Hol', but from u≈200 to 340 the course runs under the large lettering 'kyrkoherdebost', and I cannot see a continuous road line there.",
+      "uncertainty_note": "This could be a minor single-line track feeding into the main road, or a field edge. The lettering hides the part that would decide it."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At about (160,520)-(185,600) the lines are the dark-edged, green-filled channels that branch south off the large stream at (170,540). They are the watercourse/ditch symbol, not a road.",
+      "uncertainty_note": "I am fairly confident. Only the green fill and the wavy dark banks are visible; there is no road infill or parallel road edges."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is a short feature near (100-165, 520-590), next to the stream channels and field outlines south of the big stream. I cannot separate its drawn course from the black field edges and ditch banks there, and I see no road symbol at that spot.",
+      "uncertainty_note": "Most likely a field edge or ditch rather than a road, but the overlay stroke is too short and too faint for me to be sure which line it follows."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From about (178,605) to (140,690) the overlay follows the lower part of the green-filled ditch/stream channels west of 'kyrkoherdebost'. The drawing there is watercourse banks with green fill.",
+      "uncertainty_note": "The lettering partly covers the lower end, but nothing visible there suggests a road."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The thin olive line follows the brown/orange dark-edged road that leaves f01 at about (835,512) and runs south through (860,650), (885,790) and (895,870), past the farmstead 'G' at (900,800), then bends to the bottom edge near (845,1000).",
+      "uncertainty_note": "The road is certain, but the overlay drifts slightly west of it near the bottom edge. f08 and f09 seem to follow the same road twice; one of them may be a duplicate."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The red-brown stroke sits on the same brown/orange road from f01 at about (835,512) southward past (860,650). The road symbol under it is the narrow brown-edged one, like the Sämre körväg in the worked example.",
+      "uncertainty_note": "The overlay colour almost matches the map's brown, so I cannot see exactly where f09 ends. A small red tick at about (855,597) may instead be a stub along the thin field edge running east to (900,585), which is not a road."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A tiny stub at about (903,800)-(920,805) going into the farmstead east of the brown road. At that spot there are only building symbols (red and black blocks) and yard outlines, with no drawn road line.",
+      "uncertainty_note": "A yard access probably exists in reality, but none is drawn as a road symbol here."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Runs from about (865,460) to the right edge near (1000,345), just north of and parallel to f01. A thin dark line does run there along the edge of the cultivated field, and there is a line leaving the road near (985,390) toward the top-right. Neither shows a road fill or a double edge.",
+      "uncertainty_note": "It could be a side track that splits off f01 just inside the right edge, or only the field/meadow edge next to the road. Only the neighbouring tile would decide it."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 918], [130, 915], [270, 935], [450, 945], [600, 940]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A heavy black line, partly doubled, crosses the lower part of the tile at v≈915-945 from the left edge to about u=600, where it reaches the green patch. It is noticeably heavier than the plain field edges and keeps a steady course across several fields.",
+      "uncertainty_note": "Low confidence that this is a road. There is no red or brown infill, and on this sheet heavy black lines are often ditches or field boundaries, as in the worked example. I list it so a later pass can check it.",
+      "alternatives": ["ditch or stream (Bäck eller dike)", "field / property boundary", "double_line_narrow road without infill"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[455, 25], [490, 60], [520, 110]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "A faint grey double line runs next to the teal stream near the top centre, from about (455,25) to (520,110), and fades out where it reaches the dark stream.",
+      "uncertainty_note": "Very faint. It may be a stream bank or old pencil work rather than a path.",
+      "alternatives": ["second bank of the teal stream", "Gångstig (dashed_line)", "not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [350, 655],
+      "what_is_contested": "Whether a branch (overlay f04) really joins f01 here, and where.",
+      "evidence_note": "The supposed branch runs under the large lettering 'kyrkoherdebost'. There is a faint line west of u≈220, but no visible connection to f01."
+    },
+    {
+      "uv": [835, 512],
+      "what_is_contested": "Where exactly the brown road (f08/f09) meets f01, and whether anything continues north of it.",
+      "evidence_note": "The brown road clearly meets f01 on its south side. North of f01, the line from (720,450) to (880,480) carries a flow arrow at (800,430), so it is a stream, not a road continuation. That makes this a 3-way junction, not a 4-way."
+    },
+    {
+      "uv": [745, 535],
+      "what_is_contested": "Whether there is a junction at all where the straight crimson line meets f01 beside 'Skolhus'.",
+      "evidence_note": "The straight crimson lines, (540,0)-(540,120)-(745,540) and on south of the road (315,680)-(460,1000), have the form of boundaries, not roads. I read this as a boundary crossing, not a road junction."
+    },
+    {
+      "uv": [985, 390],
+      "what_is_contested": "Whether a side line (overlay f11) branches off f01 just inside the right edge.",
+      "evidence_note": "A thin line leaves the road area toward the top-right, but there is no road fill, and it may only be a field edge."
+    },
+    {
+      "uv": [420, 668],
+      "what_is_contested": "Whether the thin lines meeting f01 here, one running SW to (130,880) and one running east to (1000,705), are roads.",
+      "evidence_note": "Both are thin single dark lines with no infill that cross fields. I read them as field edges or ditches, but a single_line track cannot be ruled out."
+    }
+  ],
+  "overall_note": "The main red-filled road f01 and the two brown-edged minor roads (f02 top-left, f08/f09 south to the farmstead) are clearly drawn, and the overlay matches them. The overlay's short features west of 'kyrkoherdebost' (f05, f07) follow ditch/stream channels, and f04, f06 and f11 cannot be decided at this resolution. The straight crimson lines are boundaries, which the overlay correctly leaves out."
+}

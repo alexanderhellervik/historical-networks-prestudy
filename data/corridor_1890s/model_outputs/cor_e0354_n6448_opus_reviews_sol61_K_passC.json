@@ -1,0 +1,96 @@
+{
+  "tile_id": "cor_e0354_n6448",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted double-line road runs from the 3G farm (about 120,380) north to a bend at about (210,235), then NE past (300,200), (390,140), (480,70) towards the top edge near (540,0). The polyline sits on this brown symbol.",
+      "uncertainty_note": "Class could be read as a dotted single track (dashed_line) because the two edges are faint. Where it reaches the top edge, and whether it joins f02 at the farm buildings, cannot be confirmed."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted double line from the 3G farm buildings (about 60,410) runs SE through (190,490), (310,590), (460,715), (540,830), (620,930) to the bottom edge near (670,1000). It crosses the crimson boundary and the blue stream near (465,725).",
+      "uncertainty_note": "The westernmost piece, from (0,390) to (60,410), follows a crimson line next to the red house symbols. It is unclear whether a road continues to the left edge there or stops at the farm."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The clearest road on the tile: a brown double line with dotted fill runs from farm B (about 605,120) south past Svedjan (665,400) to a bend at (680,545). From there it turns SE through (740,595), (830,700), (920,820) to the right edge near (1000,885).",
+      "uncertainty_note": "Above farm B, a brown line continues along the green strip towards (585,0). It is unclear whether the road goes on to the top edge or ends at the farm."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown dotted line branches off f03 at about (740,595) and runs NE along a field edge through (790,520) and (830,460) to about (860,390).",
+      "uncertainty_note": "The dots look narrower than on f03, so dashed_line (footpath-like) is an equally plausible class. North of (860,390) the edge goes on as a grey field boundary, and the road character there is doubtful."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows crimson/red lines with grey edge shading from (40,1000) up past (140,745), (260,690), (400,800) and (465,720) to (680,550). In this sheet, and in the worked example, such crimson lines are boundaries, not roads. No brown road symbol is visible along them.",
+      "uncertainty_note": "Small doubt for the segment from (465,720) to (680,550), where the red line is doubled with a grey band. It still reads as a boundary or field edge."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Follows a crimson boundary line from about (640,240) via (540,305) diagonally down to (675,520). The line is red/crimson, not brown dotted, and matches the boundary symbology of the example tile.",
+      "uncertainty_note": "A faint grey line runs parallel to the crimson one between (560,320) and (660,480). It could be a very faint track, but nothing makes it a road symbol."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (750,930) to (900,815) the only drawn line is a black field/forest edge with grey shading around the forest patch at 'As'. It has no brown dotted or double road symbol.",
+      "uncertainty_note": "No serious doubt; the line is the outline of the land-use parcel."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[605, 120], [598, 80], [590, 40], [585, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A brownish line runs from farm B along the west side of the green meadow strip to the top edge. It could be the northward continuation of the f03 road.",
+      "uncertainty_note": "It may simply be the coloured edge of the meadow strip. The double/dotted road symbol is not clearly visible here, and the overlay may already include this stretch as part of f03.",
+      "alternatives": ["field/meadow boundary only", "continuation of f03 as double_line_narrow"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [680, 545],
+      "what_is_contested": "Whether this is a road junction or just a bend of f03. Three non-road lines meet here (the f06 crimson boundary, the f05 crimson line and a straight grey line running south), so the overlay makes it look like a multi-branch junction.",
+      "evidence_note": "Only the two arms of the brown double road (north and SE) carry road symbology. The other lines are crimson or grey."
+    },
+    {
+      "uv": [740, 595],
+      "what_is_contested": "The position, and whether f04 actually joins f03 or ends at the field corner just beside it.",
+      "evidence_note": "The brown dots of f04 run into the f03 road edge at the corner of a field. A junction is likely, but the dots fade at the contact."
+    },
+    {
+      "uv": [100, 400],
+      "what_is_contested": "Whether f01 and f02 meet at the 3G farm, and whether any branch goes on west to the left edge.",
+      "evidence_note": "Both roads end among the red house symbols and the lettering. The crimson line to the left edge looks like a boundary, not a road."
+    },
+    {
+      "uv": [465, 722],
+      "what_is_contested": "Whether this is a road junction or only f02 crossing a boundary and a stream.",
+      "evidence_note": "The crimson f05 line and the blue stream both meet f02 here. Neither carries a road symbol, so I read it as a crossing, not a junction."
+    }
+  ],
+  "overall_note": "The tile has three or four genuine brown dotted/double-line roads (f01, f02, f03, f04), and the overlay traces these well. The overlay also draws crimson boundary lines (f05, f06) and a black parcel edge (f07) as roads; I reject these. The only possible miss is a northward continuation of f03 from farm B to the top edge, which is uncertain."
+}

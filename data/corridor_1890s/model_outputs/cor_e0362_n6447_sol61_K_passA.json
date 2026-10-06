@@ -1,0 +1,215 @@
+{
+  "tile_id": "cor_e0362_n6447",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[214,0],[203,39],[192,81],[183,122],[183,145],[192,164],[211,177],[250,187],[287,192],[302,201],[319,220]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow brown-red band has two close, dark, unevenly stippled margins; both margins follow the rounded bend.",
+      "uncertainty_note": "The stippling makes the distinction between two broken lines and narrow casing imperfect.",
+      "alternatives": [{"proposed_class":"unknown","note":"Could be described as a paired dotted track symbol rather than continuous double lines."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[319,220],[338,242],[358,264],[378,284],[398,303],[414,318]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two dark, closely spaced margins enclose a brown-red strip beside small black-outlined and red-filled rectangles.",
+      "uncertainty_note": "Building symbols touch the margins, but the diagonal strip remains traceable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[414,318],[436,345],[458,371],[478,391],[503,408],[546,426],[590,444],[634,463],[679,482],[724,501],[768,521],[812,541],[857,560],[901,580],[947,602],[1000,626]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A brown-red strip runs between two narrow dark margins with repeated stipples; pale polygons and star symbols sit alongside.",
+      "uncertainty_note": "Large lettering covers short portions near the start, and a scan seam crosses the eastern portion; matching margins on both sides support continuity.",
+      "alternatives": [{"proposed_class":"unknown","note":"The broken margins could be classified as a paired dotted track symbol."}]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[319,220],[324,241],[316,269],[312,297],[306,324],[296,350],[283,375],[251,395],[210,418],[167,441],[124,465],[80,488]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j06"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two dark, stippled edges flank a brown-red band; the band bends south beside red rectangles and then southwest beneath the large word.",
+      "uncertainty_note": "Letter strokes obscure parts around v310–375. Visible pieces above and below support the connection, but small additional branches there cannot be resolved.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[80,488],[74,512],[64,539],[54,565],[44,592],[36,616],[31,635]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A narrow reddish strip with two dark margins curves down-left; its margins remain visible across the horizontal scan seam.",
+      "uncertainty_note": "Colour and alignment change slightly at the seam around v557.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[31,635],[18,653],[0,678]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Two close, dark, stippled margins continue around a reddish band toward the left edge.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[31,635],[48,626],[65,619],[80,621]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short brown-red strip with dark, irregular edging branches right toward black lettering and red-filled rectangles.",
+      "uncertainty_note": "The apparent spur disappears among the lettering and building marks; no continuation is supplied.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The visible strip may have two close road margins."},
+        {"proposed_class":"unknown","note":"Some of the dark edging may belong to the adjacent enclosure or lettering."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[414,318],[452,305],[489,289],[527,273],[553,252],[582,223],[610,191],[637,157],[662,122],[687,88],[708,55],[724,28]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A brown-red band with paired dark, stippled margins curves northeast; the same edging is visible above and below the word Tegelbruk.",
+      "uncertainty_note": "Lettering and a thin diagonal red line overlap the band near [553,252], but its course is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[659,0],[691,14],[724,28]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A relatively heavy brown-red diagonal strip has dark edging and meets the ascending stippled strip.",
+      "uncertainty_note": "This short piece has less clearly separated road margins than f08; a boundary reading remains possible.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The dark edging may be two close road margins."},
+        {"proposed_class":"unknown","note":"Could instead be a coloured boundary segment."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[724,28],[746,39],[766,49],[778,29],[796,0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A heavy reddish strip with dark edges continues southeast, makes a sharp corner, and turns northeast to the top edge.",
+      "uncertainty_note": "Its angular course and partly continuous edging also support a boundary interpretation; j03 depends on treating this strip as a road.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Could be a narrow road enclosed by two dark margins."},
+        {"proposed_class":"unknown","note":"Could be a coloured boundary, continuous with f09."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,735],[44,755],[88,776],[130,795],[145,804],[154,822],[166,839],[202,855],[247,873],[291,889],[336,904],[382,920],[427,935],[472,950],[518,966],[562,981],[605,983]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A comparatively heavy brown-red band carries two close dark, densely stippled edges; a broader pale band surrounds parts of it.",
+      "uncertainty_note": "The dense edging and colour displacement make the centre less precise, especially at the bend around [154,822].",
+      "alternatives": [{"proposed_class":"unknown","note":"The stippled edges do not everywhere resolve as continuous casing."}]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[605,983],[631,993],[649,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "The heavy reddish band and its paired dark edges continue diagonally into the bottom edge.",
+      "uncertainty_note": "The junction position is approximate because the joining dotted line overlaps the upper road margin.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[605,983],[647,967],[688,953],[730,938],[773,923],[816,917],[859,914],[901,909],[944,899],[975,888],[1000,881]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "One sequence of separated dark dots follows a faint reddish trace, without an enclosing pair of continuous margins.",
+      "uncertainty_note": "The marks are dots rather than elongated dashes; several overlap green polygon edges and thin other lines.",
+      "alternatives": [{"proposed_class":"unknown","note":"A dotted single trace is only approximately represented by the available dashed_line class."}]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[0,113],[30,93],[60,73],[87,53],[110,38]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A thin oblique reddish-brown trace has dark uneven edging and reaches the long, thin red diagonal line.",
+      "uncertainty_note": "Road margins are not clearly resolved. It may be a boundary; no course beyond its contact with the diagonal line is established.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"Could be a lightly drawn single road or path trace."},
+        {"proposed_class":"unknown","note":"Could be a field or property boundary rather than a road."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[0,220],[18,250],[30,282],[37,319],[46,356],[56,397],[69,444],[80,488]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A slender curved red-purple band has dark edging, appreciably lighter and narrower than the stippled band joining it at [80,488].",
+      "uncertainty_note": "The drawing could be a narrow road, but its mostly continuous coloured stroke also resembles the tile's boundaries. The third branch at j06 is conditional on the road reading.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Two close dark edges may enclose a narrow road strip."},
+        {"proposed_class":"unknown","note":"Could be a boundary meeting or following the road."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [319,220],
+      "branch_count": 3,
+      "evidence_note": "Three brown-red strips with close dark stippled margins meet beside small black and red rectangles: northwest, southeast and south."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [414,318],
+      "branch_count": 3,
+      "evidence_note": "Three paired-margin brown strips meet: northwest, northeast and southeast; nearby heavy letter strokes partly overlap their edges."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [724,28],
+      "branch_count": 3,
+      "evidence_note": "The ascending stippled band contacts a heavy reddish strip continuing northwest and southeast; three road branches apply only if f09 and f10 are roads."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [31,635],
+      "branch_count": 3,
+      "evidence_note": "The paired-margin strip continues north and southwest, while a short reddish, dark-edged spur leaves east toward lettering and rectangles."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [605,983],
+      "branch_count": 3,
+      "evidence_note": "A single dark dotted trace leaves the upper side of the heavy paired-edge diagonal band; that band continues northwest and southeast."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [80,488],
+      "branch_count": 3,
+      "evidence_note": "A stippled brown band turns between northeast and southwest, contacting a thinner red-purple curve from the northwest; the third road branch is doubtful."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [64,602,104,648],
+      "why": "Heavy lettering and building or enclosure marks prevent reliable separation of the small spur's end from adjacent black strokes."
+    }
+  ],
+  "overall_note": "Large lettering obscures short portions of the central routes, while a scan seam changes colour and registration across the tile. The thin red diagonal across the upper half and the green polygon outlines were read as non-road lines. Doubtful edge traces and the angular strip at the top are retained with boundary alternatives, making two junction counts conditional."
+}

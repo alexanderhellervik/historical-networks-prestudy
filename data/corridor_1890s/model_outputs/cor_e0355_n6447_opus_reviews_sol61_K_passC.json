@@ -1,0 +1,181 @@
+{
+  "tile_id": "cor_e0355_n6447",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown-tinted band with dotted edges runs from the west edge near (0,25-40) east to about (160,8), close to the top edge. This matches the sheet's Sämre körväg drawing, the same style as the magenta roads in the worked example.",
+      "uncertainty_note": "At the top-left corner the band is narrow and partly cut by the tile edge. Its exact course at the eastern end, near the buildings at (200-260,0-40), is unclear."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Near (160-180,0-8) the brown dotted roads converge and run out over the top edge, so a short stub to the tile edge there is consistent with the drawing.",
+      "uncertainty_note": "The feature is only a few pixels long under its label and I cannot see its exact course. It may duplicate the end of f01 or f03 instead of being a separate branch leaving to the north."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line runs almost vertically from the top-edge cluster near (158,10) down to the junction with f05 near (162,55), then continues south as f07.",
+      "uncertainty_note": "This is a short segment, and the top end merges with f01 and f02."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the western end of the brown dotted road leaving the west edge near (0,148) and climbing NE through the pink field. It is continuous with f05.",
+      "uncertainty_note": "The split between f04 and f05 is only the overlay's segmentation. The drawn road is continuous through it."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown band with dotted edges runs clearly from about (35,125) NE to (160,55), where it meets the north-south brown road (f03/f07).",
+      "uncertainty_note": "Low uncertainty."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A pair of thin black parallel lines with an uncoloured interior runs SSE from the f04/f05 road near (28,130) to about (70,258), where it reaches the black field boundary. This looks like a narrow double-line field road.",
+      "uncertainty_note": "It has no brown road tint, so it could instead be a pair of ditches or a field-boundary strip. I also cannot see the road at the southern end beyond the field edge."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted line continues south from the junction at (162,55) through (178,110) to about (185,195), next to the small black cross symbol.",
+      "uncertainty_note": "Below about v=200 the brown tint fades into the pale band. The overlay's end at about (175,235) may run 30-40 px past the visible road, so this could be a dead end or could join the pale band."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the clearest road on the tile: a brown band with dotted edges from the south edge at about (180,1000) through (195,800), (175,700), (190,620), (250,500) and (300,420). It crosses the sheet seam at about u=330, v=365, then runs up the west side of the hatched pond to (335,245).",
+      "uncertainty_note": "The two sheet halves join at v≈365 with a slight offset. I cannot fully separate the overlay's f08 and f09 lines along the dotted loop (350,235)-(440,228)-(490,100)-(560,5). I assume one of them covers the loop; if neither does, that loop is a miss."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted road comes down from the loop apex near (585,5) through (620,100) and (645,235), turns east at (665,285), and runs below the 'Åvalls T.' lettering to about (845,312).",
+      "uncertainty_note": "The overlay stops at the vertical grey line at u≈850, but the drawn road continues without a break into f10."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the same brown dotted road as f09, continuing east from about (870,316) through (960,298) and bending north to leave the east edge at about v=230-250.",
+      "uncertainty_note": "Its final rise along the east edge, up to about (995,195), is hard to see because there is a dark symbol at the edge. The exit point may be about 30-50 px further south than drawn."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a pale uncoloured strip about 10-15 px wide. In the top half it runs from (440,100) SW to (180,330), at the edge of the pink field. Below the seam it continues from (185,380) to (130,620), then (160,740) to (45,1000), where faint grey parallel edges are visible. It has no brown tint and no dotted edges. Its northernmost part, from (490,0) to (435,105), lies on a black field-boundary line rather than on any road band.",
+      "uncertainty_note": "The strip is continuous across the tile and the seam, which argues for an uncoloured road. But the worked example treats similar pale strips without road colour as not roads, and the strip could be a wash edge or an erased line. If it is a road, the top segment (490,0)-(435,105) is still on the wrong line."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows the crimson line that crosses the lower-right quadrant from (1000,420) through (630,690) and (480,860) to (380,1000). On this sheet crimson lines are boundaries; the worked example reads them as Gräns. However, a pale strip runs along its NW side from (960,440) to (620,700), and lower down it becomes a crimson-plus-black double line.",
+      "uncertainty_note": "If the pale strip is an uncoloured double-line road, this is a road (possibly double_line_wide) with a boundary along one side. If not, it is a boundary only. The black dashed skifteslinjer parallel to the red lines, and the T with a second crimson line at (630,690), favour the boundary reading."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[128, 612], [195, 600], [280, 588], [350, 587], [440, 612], [500, 640], [535, 675], [550, 720], [555, 770]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "A thin brown-orange line without dotted edges, like the Gångstig lines in the worked example. It runs east from the small double-line structure near (125,612), crosses f08 at about (193,601), passes north of the large hatched marsh, and curves south to meet the f12 crimson line near (555,770).",
+      "uncertainty_note": "The western end at (125,612) is unclear. It may join the pale strip (f11) or the small double structure there. It might continue past the crimson line into the fields, towards (600,830)-(700,870)-(790,1000).",
+      "alternatives": ["continues SE beyond (555,770) through (600,830), (700,870), (770,930) to the south edge near (790,1000)", "western end stops at f08 (193,601) instead of continuing to u≈128"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[595, 5], [700, 15], [800, 28], [900, 45], [960, 60], [1000, 72]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin brown line runs east along the top of the tile from the apex of the dotted road loop near (590,5) to the east edge at about v=70.",
+      "uncertainty_note": "The line has a slight purplish tone and runs close to the top edge. It could be a boundary rather than a footpath, and its western end may just leave the tile at the top edge instead of joining the loop.",
+      "alternatives": ["boundary line, not a road", "starts at the top edge near (610,0) without joining the f08/f09 loop"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[185, 888], [280, 898], [370, 912], [395, 870], [430, 835]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin red-brown line leaves the f08 road at about (185,888), runs east to (370,912), then turns NE towards the small hatched pond near (430,840).",
+      "uncertainty_note": "Its colour lies between the footpath brown and the boundary crimson, and its end near the pond is unclear. It could be a boundary.",
+      "alternatives": ["boundary line, not a road", "eastern end continues to the crimson line near (470,860)"]
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[0, 690], [80, 688], [155, 690], [178, 692]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A thin brownish line enters at the west edge near v=690 and runs east, just below a black field line, to meet f08 at about (178,692).",
+      "uncertainty_note": "The line is faint and runs next to a black boundary line, so it may be part of that boundary rather than a separate footpath.",
+      "alternatives": ["part of the field boundary, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [162, 8],
+      "what_is_contested": "How many branches meet at the top-edge cluster: f01 from the west, f03 from the south, and whether f02 is a real separate branch leaving north or east.",
+      "evidence_note": "The brown dotted roads converge right at the tile edge next to buildings and a green plot. The tile edge cuts the drawing, so the branch count cannot be confirmed."
+    },
+    {
+      "uv": [30, 130],
+      "what_is_contested": "Whether the narrow double line f06 actually connects to the f04/f05 road, and whether it is a road at all.",
+      "evidence_note": "The thin black double lines start at the brown road band, but they carry no road tint."
+    },
+    {
+      "uv": [588, 5],
+      "what_is_contested": "Whether the dotted-road loop touches or exits the top edge at its apex, and whether the thin brown line m02 branches from it.",
+      "evidence_note": "The loop apex is within about 5 px of the tile edge, and the thin line starts at the same point."
+    },
+    {
+      "uv": [855, 313],
+      "what_is_contested": "Whether there is any junction here. The overlay breaks the road into f09 and f10 at the vertical grey line.",
+      "evidence_note": "The brown dotted road is drawn continuously through this point. The vertical grey line at u≈850-860 runs the full tile height and does not look like a road."
+    },
+    {
+      "uv": [193, 601],
+      "what_is_contested": "Whether the thin brown line m01 crosses f08 (a 4-way crossing) or meets it as a T from the east only.",
+      "evidence_note": "West of f08 the thin line is short and faint before it reaches the small double structure at about (125,612)."
+    },
+    {
+      "uv": [630, 690],
+      "what_is_contested": "Whether the T where two crimson lines meet is a road junction. That holds only if f12 and the crimson line running SE to (1000,930) are roads, which the overlay leaves unmapped.",
+      "evidence_note": "Both lines are crimson, as boundaries are on this sheet, and pale strips run alongside them. Parallel black dashed skifteslinjer lie between them."
+    },
+    {
+      "uv": [555, 770],
+      "what_is_contested": "Whether the thin brown line m01 ends at the f12 crimson line, crosses it, or continues SE into the fields.",
+      "evidence_note": "Brown line fragments continue south-east among the field-boundary lines but cannot be traced reliably."
+    }
+  ],
+  "overall_note": "The brown dotted Sämre körväg network (f01-f10) matches the drawing well; the f09/f10 split is not a real break. The two longest overlay features are undecidable: f11 follows an uncoloured pale strip and f12 a crimson line that this sheet normally uses for boundaries. The overlay misses four thin brown footpath-like lines, the clearest being m01, north of the large marsh."
+}

@@ -1,0 +1,184 @@
+{
+  "tile_id": "cor_e0353_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[508,0],[491,27],[477,48],[466,61],[444,75],[423,94],[408,117],[394,143],[374,166],[351,188],[328,209],[308,231],[292,257],[278,288],[265,323],[253,361],[244,402],[238,443],[237,482],[231,520],[225,558],[214,589],[201,625],[187,662],[171,698],[149,735],[124,769],[97,794],[74,814],[43,830],[0,846]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark outlines enclose a brown band approximately 12–18 px wide; its width and casing persist around the curves.",
+      "uncertainty_note": "The outlines are locally blurred, but the course and both branch attachments are visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[74,814],[99,840],[127,871],[156,900],[184,929],[211,958],[239,983],[257,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow brown strip with two dark margins, one carrying repeated short dark marks, leaves the broad cased line diagonally.",
+      "uncertainty_note": "The individual marks are soft, making the distinction between continuous and dotted margins imperfect.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be described as a paired dotted track rather than a clearly continuous double-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[466,61],[489,85],[518,112],[548,139],[579,167],[610,195],[639,224],[665,247],[680,265],[674,282],[680,303],[688,326],[680,347],[678,365],[696,386],[725,410],[756,431]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two close dark traces enclose a pale brown strip; repeated dark dots or short strokes follow a margin. The paired trace bends beneath the Jakobstorp lettering and reappears below it.",
+      "uncertainty_note": "Lettering masks short portions around v 290–330; the aligned paired drawing above and below supports carrying this feature through.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The intermittently dotted margins could be classified as an unspecified track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[756,431],[771,404],[784,378],[796,352],[804,338],[817,326],[833,322]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow brown, dark-edged trace runs upward from the three-way meeting; paired margins remain visible between angular blue enclosure outlines.",
+      "uncertainty_note": "The upper end enters overlapping dark building marks and the large T symbol. No continuation beyond that overlap is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the upper endpoint, a short access trace and an enclosure edge cannot be cleanly separated."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[756,431],[744,454],[731,478],[717,497]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two closely spaced dark margins with brown between them continue diagonally downward; the trace reaches several small angular marks beside the end of Källebacken.",
+      "uncertainty_note": "The lower meeting is crowded by enclosure strokes and lettering; j04 depends on reading the southeast arm as an access track.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The lower portion could be an indistinct track whose apparent southeast branch is an enclosure edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[717,497],[704,514],[691,530],[680,545]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A short diagonal trace with intermittent paired dark marks extends southwest through the label's final strokes toward a solid black rectangular mark.",
+      "uncertainty_note": "Lettering and the black rectangle obscure the margins and terminal position; the final few pixels may belong to the symbol rather than the track.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The visible paired portions may be the same narrow track symbol as f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some of the apparent terminal trace may consist of lettering or building strokes rather than a separate road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[717,497],[734,503],[751,516],[767,524]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A pale narrow strip between close dark-blue edges extends southeast from the meeting and reaches heavy black marks beside a small outlined symbol.",
+      "uncertainty_note": "This may be a short access track, but its edges also resemble the adjoining angular enclosure outlines. The black terminal marks prevent tracing it farther.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read as a narrow paired access track branching from f05."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read as a non-road enclosure boundary; under this reading j04 has only two road arms and is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[1000,505],[981,530],[958,557],[935,583],[915,608],[897,632],[880,657],[864,682],[847,709],[830,736],[810,763],[787,789],[762,814],[747,837],[731,864]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A brown diagonal band has two close dark margins with repeated short marks. It passes a solid black transverse mark near [839,716] and crosses a thinner red line near [756,817].",
+      "uncertainty_note": "The trace becomes difficult to separate from blue enclosure edges beside the lower buildings. It stops where that separation fails; the red crossing line does not clearly form a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The margins could be treated as an unspecified paired dotted track symbol. A continuation toward f09 is possible, but its intervening course is not securely readable."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[638,1000],[648,981],[658,965],[677,977],[698,990],[716,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "At the bottom edge, a short brown trace with close dark, intermittently marked margins rises northeast to an angular meeting, from which a red-brown trace runs southeast back to the edge.",
+      "uncertainty_note": "The two limbs may constitute a turning track, or may be separate road and boundary strokes. No northeast branch or connection through the nearby buildings is sufficiently clear to trace.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read both limbs as one narrow track turning near [658,965]."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read only the southwest limb as a road fragment ending at [658,965], with the southeast limb a non-road property boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Both limbs could be enclosure or property-boundary linework."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [466,61],
+      "branch_count": 3,
+      "evidence_note": "The wide brown band continues in two directions; a narrower paired brown trace attaches to its southeast margin, giving three visible arms."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [74,814],
+      "branch_count": 3,
+      "evidence_note": "The broad, dark-cased band continues northeast and west-southwest; a narrow brown, intermittently marked pair leaves southeast."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [756,431],
+      "branch_count": 3,
+      "evidence_note": "Three narrow brown traces with close dark margins meet: one from the northwest, one from the northeast and one continuing southwest."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [717,497],
+      "branch_count": 3,
+      "evidence_note": "A paired diagonal trace continues northeast–southwest, with a pale strip between close blue edges extending southeast; the third road arm is uncertain because enclosure and lettering strokes overlap here."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [686,858,746,967],
+      "why": "Small building symbols, angular blue enclosure edges and faint brown marks overlap; a possible continuation of the diagonal track cannot be distinguished reliably."
+    }
+  ],
+  "overall_note": "The principal difficulty is separating short access traces from enclosure edges beside the named buildings. The thin red crossing line, blue water outlines and angular field outlines were not counted as roads, except where a plausible road reading is explicitly retained as uncertain. No connection between f08 and f09 is asserted."
+}

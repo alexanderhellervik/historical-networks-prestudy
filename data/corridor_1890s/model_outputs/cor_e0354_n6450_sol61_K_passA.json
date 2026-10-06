@@ -1,0 +1,137 @@
+{
+  "tile_id": "cor_e0354_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 509], [32, 513], [65, 510], [105, 502], [145, 498], [182, 494], [218, 498], [255, 508], [292, 515], [332, 519], [375, 521], [416, 522], [455, 522], [492, 526], [522, 537], [549, 558], [574, 588], [597, 602], [633, 607], [666, 610], [697, 623], [728, 628], [765, 633], [798, 637], [824, 638], [851, 626], [887, 614], [925, 604], [962, 589], [1000, 574]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two heavy, continuous dark margins enclose a reddish-brown band roughly 12–20 px wide; the band remains visible beneath parts of the large italic lettering.",
+      "uncertainty_note": "The broad road is clear. Junctions j01 and j03 depend on the doubtful adjoining features being roads.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[332, 519], [352, 501], [391, 475], [397, 442], [406, 409], [422, 373], [438, 340], [452, 317], [475, 297], [510, 278], [545, 258], [580, 239], [613, 220], [648, 198], [680, 180], [702, 169], [735, 151], [767, 124], [797, 94], [830, 61], [861, 33], [891, 14], [918, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow reddish stroke with a pale yellow fringe and intermittent dark edging curves away from the broad road, then runs diagonally across the horizontal marsh hatching; no consistently legible dotted pair is visible.",
+      "uncertainty_note": "This is a road candidate, but its smooth reddish symbol also resembles the tile's boundary strokes. A separate reddish line diverging toward approximately [848, 0] is read as a boundary rather than an additional road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The reddish stroke and adjacent dark edge could represent a narrowly cased road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could instead be a property boundary; under that reading remove this feature and junction j01."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[492, 526], [504, 503], [514, 475], [521, 445], [527, 415], [533, 384], [544, 358], [559, 342], [579, 341], [600, 349], [620, 352]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrow pink-brown strip has closely spaced dark edges, with conspicuous dark dots or short broken marks along its western edge; it bends beside small black rectangular symbols.",
+      "uncertainty_note": "The northward spur is reasonably clear. Its eastern end meets black symbols and lettering; the reddish line visible farther east could continue the track, but could also be boundary linework, so the spur is stopped here.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken western edge could partly belong to the adjacent parcel outline rather than a consistently paired road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[765, 633], [764, 650], [752, 672], [740, 691], [729, 718], [719, 744], [709, 772], [700, 805], [688, 833], [672, 858], [651, 884], [637, 905], [626, 928], [618, 956]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A single sequence of dark dots and short strokes descends southwestward, generally beside a separate thin blue line; no broad filled casing is visible.",
+      "uncertainty_note": "The marks support a dotted path reading, but some appear elongated enough for a boundary interpretation. The connection at the broad road is faint, and the southern end becomes indistinct where reddish transverse linework crosses it.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks could be the tile's dotted or broken path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The marks could instead form a boundary; under that reading remove this feature and junction j03."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[1000, 715], [989, 728], [985, 759], [982, 792], [978, 824], [970, 852], [955, 879], [937, 905], [914, 933], [890, 963], [869, 987], [858, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown band curves along the eastern edge, with dark stippled or short broken marks on its margins; its paired edges are clearest on the lower diagonal portion.",
+      "uncertainty_note": "The upper entry is partly clipped and crowded by dark and blue linework. No connection to the broad east–west road is visible inside the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Where one margin is faint, the symbol could be read as a reddish line accompanied by a separate dotted line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0, 42], [18, 34], [34, 27]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short oblique reddish-purple stroke with adjacent dark edging clips the upper-left corner and merges into dense dark lettering and horizontal hatching.",
+      "uncertainty_note": "Too little unobscured line is present to establish whether this is a narrow road or boundary, or to follow it farther.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The adjacent strokes could be the margins of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The stroke could be a boundary beside the hatched polygon."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [332, 519],
+      "branch_count": 3,
+      "evidence_note": "The narrow reddish candidate reaches the northern casing of the broad brown band, which continues east and west; three branches are present only if f02 is a road."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [492, 526],
+      "branch_count": 3,
+      "evidence_note": "The narrow stippled pink-brown strip meets the north side of the broad, dark-cased band; the broad band continues on both sides."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [765, 633],
+      "branch_count": 3,
+      "evidence_note": "The dotted candidate approaches the southern edge of the broad brown band, which continues east and west; its final connecting marks are faint, so this three-branch junction is tentative."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [585, 330, 675, 378],
+      "why": "Bold italic lettering and small black rectangular symbols overlap the possible eastern continuation of f03; road edges cannot be separated confidently from reddish boundary linework."
+    },
+    {
+      "bbox_uv": [0, 0, 48, 31],
+      "why": "Clipped lettering and dense horizontal hatching obscure any continuation of the short upper-left candidate."
+    },
+    {
+      "bbox_uv": [128, 512, 235, 587],
+      "why": "Dense lettering and black building-like marks prevent a reliable reading of possible very short connectors immediately south of the broad road."
+    }
+  ],
+  "overall_note": "The broad east–west road and the two narrow reddish-brown strips are the clearest road symbols. Smooth reddish boundaries and the southern dotted line make the other candidates uncertain, and their alternatives are retained explicitly. Thin blue lines, black parcel outlines, and the remaining smooth reddish parcel lines were read as non-road linework."
+}

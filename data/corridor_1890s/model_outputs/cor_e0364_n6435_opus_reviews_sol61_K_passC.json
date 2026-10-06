@@ -1,0 +1,183 @@
+{
+  "tile_id": "cor_e0364_n6435",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Label sits at the top edge near u~305 where the thick crimson field/estate boundary and a brown road trace run close together among buildings, cut off by the tile edge; the thin overlay stroke cannot be separated from either.",
+      "uncertainty_note": "If it follows the crimson line it is a boundary, not a road; if it follows the brown trace descending to ~(330,95) it is the head of the western road. Not decidable at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Around (330-400, 55-100) near the 'B' farm there are building symbols, the crimson boundary and short brown fragments; a brown link from the west end of f07 (~400,55) to the western road at ~(330,95) is plausible but not clearly drawn.",
+      "uncertainty_note": "Could be a real connector road between the two brown roads or a reading of building/yard outlines."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Short feature in the dense building cluster at the top edge (u 320-360, v 0-60); dark building fills and the crimson line dominate and no continuous road symbol can be followed.",
+      "uncertainty_note": "May duplicate f01/f02 or be a yard track; not resolvable."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the top edge near u~410-440 a brown line seems to continue the f07 road north-west toward the 'Torfströfabrik' buildings, but it is partly hidden by lettering and the tile edge.",
+      "uncertainty_note": "Plausibly the northward continuation of f07 off the tile; course and existence not certain."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of black dots on an orange wash runs from the G farm (~275,380) south-west along the forest/meadow edge to the left edge at ~(0,830); above the farm a brown wavy trace continues up to ~(330,95). Orange colouring marks it as a way rather than a boundary.",
+      "uncertainty_note": "Dot row could be the single-dot Gångstig or the double-dot Sämre körväg; the upper brown part looks like a drawn road (double_line_narrow), so the class may change along the line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin single orange-brown line runs from the left edge at ~(0,370) north-east to ~(215,290) toward the western road; same colour and weight as the thin lines read as Gångstig in the example tile.",
+      "uncertainty_note": "Beyond u~215 it is lost under the 'eberg' lettering, so its connection to the road at ~(300,270) is inferred; a hand-coloured boundary cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Clear brown banded road from the B farm (~410,60) diagonally across the hatched field below 'Orrekullen' to ~(790,235).",
+      "uncertainty_note": "Class at this resolution between double_line_narrow and single_line; existence certain."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown road leaves the G farm (~865,100) south-east along the field edge to the right edge at ~(1000,320).",
+      "uncertainty_note": "Partly hugs a black field outline; road symbol itself is clear."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown road with dotted edges runs from the G farm area down past ~(800,235), alongside the crimson field boundary, to ~(760,510).",
+      "uncertainty_note": "Between v 235 and 350 the brown road runs right beside the crimson boundary, so the exact side may be off by a few px."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown banded road branches east from the main N-S road near (765,508) along the south edge of the right-hand field to the right edge (~1000,450).",
+      "uncertainty_note": "Exact join point with f09/f12 is a few px uncertain."
+    },
+    {
+      "reviewed_feature_id": "f11",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Label lies on the brown N-S road where it crosses the east-west crimson boundary around (755,520-545); the road is continuous there.",
+      "uncertainty_note": "Feature is short and its extent is hard to see; it may only be a connector between f09 and f12. If it instead follows the crimson line it would be a boundary."
+    },
+    {
+      "reviewed_feature_id": "f12",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown road with dark dotted edges curving from ~(750,540) through (690,650), (685,720) to ~(710,810).",
+      "uncertainty_note": "Edge dots suggest the Sämre körväg form; class only."
+    },
+    {
+      "reviewed_feature_id": "f13",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [[695, 443], [745, 452], [758, 505]],
+      "evidence_note": "A thin orange line appears to come from the west at ~(695,443), run east under the 'Uggeltorp' area edge and then turn down to meet the main road near (758,505); the overlay seems to draw only the southern leg.",
+      "uncertainty_note": "Faint thin line next to a crimson boundary curve; could be a short path, a ditch or a boundary tint."
+    },
+    {
+      "reviewed_feature_id": "f14",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Brown road continues south-south-west from the fork at ~(710,810) to the bottom edge at ~(655,1000).",
+      "uncertainty_note": "Low."
+    },
+    {
+      "reviewed_feature_id": "f15",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Second brown road leaves the fork at ~(715,820) south-east to the bottom edge at ~(800,995).",
+      "uncertainty_note": "Low; fork position a few px uncertain."
+    },
+    {
+      "reviewed_feature_id": "f16",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Around (0-90, 890-940) only the thick crimson boundary and black/pink field outlines are drawn; no brown band or dotted road symbol.",
+      "uncertainty_note": "Overlay stroke here is short and hard to locate; if it continues the f05 dot row back into the tile it could be a road, but no dots are visible here."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[625, 795], [650, 830], [672, 862], [700, 862]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Thin orange-brown single line running south-east from ~(625,795) toward the main brown road just below the f14/f15 fork.",
+      "uncertainty_note": "Thin orange lines here may be paths (as in the example) or ditches/boundary tints; the end at the road is not crisp.",
+      "alternatives": ["ditch or boundary, not a road"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[610, 840], [660, 850], [705, 860]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "Second thin orange line from ~(610,840) east to the road near (705,860).",
+      "uncertainty_note": "May join m01 rather than the road; could be a ditch.",
+      "alternatives": ["part of m01", "not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [757, 515],
+      "what_is_contested": "Number of branches and exact positions: f09, f10, f12, f13 (and f11) meet within ~30 px, crossed by a crimson boundary.",
+      "evidence_note": "f10 seems to leave slightly north (~765,505) of where f13 arrives and the crimson line crosses (~755,540); could be one 4-way node or two close 3-way nodes."
+    },
+    {
+      "uv": [710, 812],
+      "what_is_contested": "Fork position of f14/f15 and whether thin lines m01/m02 join here or slightly lower.",
+      "evidence_note": "Two brown roads diverge here; thin orange lines approach from the west around v 830-865."
+    },
+    {
+      "uv": [330, 95],
+      "what_is_contested": "Which lines meet near the B farm: western road (f05 upper part), f01-f04, and a possible link to f07.",
+      "evidence_note": "Buildings, crimson boundary and lettering crowd the area; branch count not readable."
+    },
+    {
+      "uv": [795, 235],
+      "what_is_contested": "Whether f07 joins the N-S road f09 or ends at the crimson field corner.",
+      "evidence_note": "f07's east end coincides with a corner of the crimson boundary next to the brown N-S road."
+    },
+    {
+      "uv": [295, 272],
+      "what_is_contested": "Existence of the f06 junction with the western road.",
+      "evidence_note": "f06's thin line fades under the 'eberg' lettering around u 215-290."
+    }
+  ],
+  "overall_note": "The brown roads (f07-f10, f12, f14, f15) and the dotted path f05 are clearly drawn and the overlay follows them; crimson lines on this sheet are boundaries, not roads. The top-edge cluster near the B farm (f01-f04) cannot be resolved, and the thin orange lines (f06, f13, m01, m02) could be paths or boundaries/ditches."
+}

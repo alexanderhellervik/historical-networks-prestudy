@@ -1,0 +1,120 @@
+{
+  "tile_id": "cor_e0346_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[523, 0], [519, 13], [514, 28], [507, 46]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre stroke has short, heavier dark marks along its right side; apparent edge spacing is approximately 4–7 px. It reaches a dark building outline.",
+      "uncertainty_note": "The short exposed segment does not resolve two independent road edges. Stop at the building outline; continuation between the buildings is not certain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre stroke and interrupted dark flank may form a narrowly cased track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The dark marks could instead belong to a boundary or adjoining polygon outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 428], [45, 438], [95, 452], [145, 469], [195, 485], [245, 502], [295, 520], [345, 536], [395, 553], [445, 574], [495, 590], [545, 607], [595, 625], [645, 641], [680, 652]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two very pale gray diagonal strokes, roughly 15–25 px apart, enclose a lighter band. A stronger red line runs above them; horizontal hatching remains visible across parts of the pale band.",
+      "uncertainty_note": "This is a doubtful road reading: the diffuse edges and surviving hatching also support a crease or discoloration. Coordinates follow the approximate band centre, with about 10 px local uncertainty; stop before the heavy pink and black crossing.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If both pale strokes are deliberate casing, they describe a broad double-line road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The entire band may be a paper crease or scan shadow rather than a drawn road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[744, 668], [768, 692], [795, 717], [823, 741], [851, 754], [875, 739], [899, 725], [915, 729], [947, 750], [977, 764], [1000, 768]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A pale gray stroke follows approximately 10–20 px below a thin, continuous red angular line. The intervening strip is cream; large black lettering lies immediately above it.",
+      "uncertainty_note": "A second road edge is not securely distinguishable from shading beside the red boundary. Its connection with f02 beneath the broad pink line is uncertain, so the features are separate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The red upper stroke and gray lower stroke could bound a road that follows the angular course."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red stroke may be solely a property boundary, with the lower gray trace representing discoloration."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 850], [22, 858], [46, 877], [72, 901], [97, 926], [121, 950], [143, 975], [160, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "An ochre diagonal stroke about 4–7 px wide carries heavy, interrupted dark edging. Large black letters overlap its lower portion; ochre remains visible between their strokes and at the bottom edge.",
+      "uncertainty_note": "The interrupted marks do not clearly resolve into two road flanks and could be a colored boundary. Continuation through the lettering follows the visible ochre fragments.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The narrow ochre strip and dark edging resemble the example's track symbol."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark interrupted stroke could be the principal path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary interpretation remains possible because some dark marks resemble alternating dashes and dots."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[916, 1000], [934, 978], [956, 960], [977, 945], [1000, 931]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre strip has closely spaced dark, broken flanks, approximately 5–8 px apart. Separate oval tree symbols sit above it.",
+      "uncertainty_note": "Only a short corner segment is exposed, and individual edge marks are blurred; the two-flank reading is tentative.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken dark marks could constitute a dotted or dashed track symbol rather than continuous casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A colored boundary with an interrupted black stroke cannot be completely excluded."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [499, 38, 518, 64],
+      "why": "Heavy building outlines merge with the end of f01, preventing a reliable continuation."
+    },
+    {
+      "bbox_uv": [244, 442, 285, 503],
+      "why": "Diffuse gray smearing interrupts fine strokes and makes possible additional branches indistinguishable from image damage."
+    },
+    {
+      "bbox_uv": [680, 633, 744, 677],
+      "why": "Broad pink coloring and heavy black boundary marks conceal the possible connection between the pale traces f02 and f03."
+    }
+  ],
+  "overall_note": "The short ochre strokes resemble the example's tracks, but their broken edging leaves boundary alternatives. The pale central traces are substantially less secure and may be image artifacts. Broad pink dash-and-dot lines and straight red parcel lines were read as boundaries; no three-branch road junction is legible."
+}

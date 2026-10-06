@@ -1,0 +1,106 @@
+{
+  "tile_id": "cor_e0351_n6449",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The label sits at about (22,167), where the dotted line (f03) begins at the lower edge of the pink field of the '...spås' farm. I cannot see a separate polyline in f01's colour. At that spot the tile shows only the field edge, a blue water line and the first dots of the path.",
+      "uncertainty_note": "f01 may be a very short stub at the tile edge or may duplicate the start of f03. Neither its course nor its extent can be judged."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The line runs from about (30,150) to (195,75) along the lower edge of the pink arable patch around '...spås'. That edge is a solid dark field outline with a thin blue water or ditch line beside it. There are no dots, no paired road casing and no road colouring.",
+      "uncertainty_note": "The dark outline and the blue line run almost parallel, so they could be misread as a narrow double-line road. I read them as a field edge plus a ditch."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a clear line of regular black dots, the Gångstig symbol: from (35,160) down to (105,345), then ESE past (250,465), (350,545), (500,545), (640,630) and (760,720), then along the north side of the bog near (840,740), and then SE to (900,840) and the east edge at about (1000,858). The line crosses the pink dash-dot boundary near (650,625).",
+      "uncertainty_note": "The overlay does not show f03's class, so I cannot tell whether we agree on class. The vocabulary has no 'dotted' class, so I used dashed_line for this dotted path. Between about u 760 and 860 the path runs on the dotted rim of a hatched bog, so it is ambiguous whether the dots there are path or bog outline. The course is the same either way."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The short vertical stroke at about u 835-840, v 25-85 lies on a solid dark-brown line among the field and plot outlines next to the Eskedalen buildings. It has no dotted or double-line road symbol.",
+      "uncertainty_note": "This is a crowded area with lettering and building outlines, and the line could be a short farm-access edge. Nothing at this position reads as a road symbol."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "f05 is drawn as a closed, near-elliptical loop around the 'N:4' enclosure, from about (740,200) through (800,95) and (860,320). The only line near its lower-left arc is a brown/rust dotted line, which marks the edge of the enclosure (a field boundary, fence or hedge style). It is not a black Gångstig dotted line or a road casing. The upper and left parts of the loop cross open ground and lettering where nothing is drawn.",
+      "uncertainty_note": "The brown dotted line could conceivably be a path along the field edge. Even so, f05's loop does not follow it for most of its length."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between the main boundary at about (745,30) and the Eskedalen buildings near (840,80), there is a pair of roughly parallel thin lines: a dark navy line and a crimson line. The crimson line continues ESE to about (1000,190). On this sheet thin crimson lines are boundaries, and the navy line looks like a field outline.",
+      "uncertainty_note": "The two lines are about 10 px apart, so they could form a narrow double-line access road to the farm. They could also be a field edge running beside a boundary. The drawing does not decide this. I lean towards not a road."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a line of regular black dots near the right edge, from about (962,25) at the crimson line along the top down to about (990,320). It uses the same symbol as f03 (Gångstig).",
+      "uncertainty_note": "Below about v 320 the dots run into the dark field outlines at the right edge, so the exact southern end is unclear. They may continue off the tile."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[305, 792], [420, 742], [470, 692], [530, 645], [600, 582], [630, 548]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A continuous thin curving red-orange line crosses the coniferous forest from the bog edge near (305,792) NE to the pink dash-dot boundary near (630,548). Its curving course and warm tint fit the thin brown-orange single lines that the worked example reads as paths.",
+      "uncertainty_note": "This is low confidence as a road. The colour is close to the crimson used for boundaries on this sheet, and the line ends at the main boundary instead of crossing it. Those points favour a boundary.",
+      "alternatives": ["boundary (thin crimson hemman/skifte line), not a road", "single_line path; the short red line from (368,675) to (435,610) may be a branch of the same system"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[700, 455], [790, 470], [860, 500], [930, 540], [1000, 578]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A thin red-brown curving line runs from the main boundary at (700,455) east to the right tile edge near (1000,578). A second similar line from about (785,360) meets it at about (800,470).",
+      "uncertainty_note": "Low confidence as a road, for the same reasons as m01. It is a solid thin reddish line with no dots or casing, so it is more likely a coloured boundary.",
+      "alternatives": ["boundary, not a road", "single_line track with a branch north to (785,360)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [32, 157],
+      "what_is_contested": "Whether f03 ends at the field edge of the '...spås' farm, and how f01 and f02 relate to it (three lines, or one path end).",
+      "evidence_note": "The dots stop at the pink field outline, and a blue water line and a dark field edge run off to the NE. No road symbol continues beyond that point."
+    },
+    {
+      "uv": [790, 30],
+      "what_is_contested": "How many lines actually meet near the Eskedalen buildings (f04, f06, the crimson line and the main boundary), and whether any of them is a road.",
+      "evidence_note": "Lettering, building outlines, a crimson line, a navy line and the dash-dot pink boundary all converge here. No dotted or double-line road symbol is unambiguous."
+    },
+    {
+      "uv": [855, 755],
+      "what_is_contested": "Whether f03 runs on the dotted rim of the bog between u 760 and 860 or as a separate line beside it, and where the path leaves the bog edge.",
+      "evidence_note": "The bog outline and the path both use black dots, and here they coincide."
+    },
+    {
+      "uv": [800, 470],
+      "what_is_contested": "Whether this T-meeting of two thin red lines (m02 and its northern branch) is a road junction or a meeting of boundaries.",
+      "evidence_note": "The line colour is between road brown and boundary crimson, and neither line carries a road symbol."
+    }
+  ],
+  "overall_note": "The only clear road symbols on the tile are the black dotted Gångstig lines (f03, f07). The heavy dash-dot line with a pink band running N-S is a boundary, and the overlay rightly leaves it out. f02, f04 and f05 lie on field edges or a brown-dotted enclosure line, not on road symbols, and the thin curving red lines (m01, m02) are recorded only as low-confidence candidates that may well be boundaries."
+}

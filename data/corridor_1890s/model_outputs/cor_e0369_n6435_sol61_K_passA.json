@@ -1,0 +1,137 @@
+{
+  "tile_id": "cor_e0369_n6435",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[574, 0], [593, 13], [606, 38], [623, 64], [647, 87], [678, 106], [713, 119], [750, 130], [789, 142], [829, 157], [868, 173], [907, 192]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A curved narrow strip has a strong reddish continuous edge and a close dark, intermittently dotted edge, approximately 6–10 px apart.",
+      "uncertainty_note": "The individual dots soften in places, but the paired edges and curve remain visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[969, 0], [956, 44], [942, 89], [926, 139], [907, 192]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two close edges enclose a pale strip: a reddish continuous edge and a dark edge with small dot-like marks.",
+      "uncertainty_note": "The paired strokes become crowded by lettering and other marks near the junction.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[907, 192], [930, 198], [953, 205], [977, 215], [1000, 226]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow pale band with close reddish and dark edges curves rightward above the small red-filled rectangular symbol; dark dots occur along the upper edge.",
+      "uncertainty_note": "The nearby rectangular outlines and lettering crowd the lower edge, making its exact position less clear.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some of the lower stroke could belong to the adjacent outlined enclosure rather than a separate road edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[907, 192], [877, 221], [846, 252], [814, 283], [780, 316], [745, 350], [712, 384], [679, 417], [646, 450], [613, 484], [584, 511], [568, 518], [539, 548], [511, 577], [482, 606], [453, 636], [426, 664], [397, 692], [369, 720]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The northeastern portion has a reddish edge and a close dark dotted edge around a narrow pale strip. Southwest of approximately [568,518], the drawing becomes essentially a single straight red stroke with a dark fringe.",
+      "uncertainty_note": "The northeastern portion reads as a road, including through the large black lettering where its course is visible on both sides. The southwestern continuation may instead be a boundary; j02 is conditional on treating that continuation as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "One continuous road, with its second edge poorly reproduced southwest of [568,518]."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Split at [568,518]: the northeastern portion is a double_line_narrow road ending beside the small angular black outline, while the southwestern red line is a boundary and j02 is absent."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 375], [9, 416], [19, 457], [26, 483], [41, 504], [73, 527], [111, 552], [151, 577], [193, 603], [235, 630], [277, 658], [320, 688], [369, 720]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A continuous reddish stroke bends sharply near [26,483], then runs southeast. A weaker dark or gray parallel stroke is visible locally, enclosing a narrow pale band; no consistent dotted margin is resolved.",
+      "uncertainty_note": "The apparent second edge is faint, so a road and a colored boundary remain competing readings. The thin red line joining near [235,630] lacks a clear road symbol and is not counted as a road branch.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint parallel stroke is the second edge of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The red stroke is a boundary; its nearby faint parallel mark is incidental rather than road casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[369, 720], [409, 747], [451, 773], [494, 797], [536, 820], [578, 839], [621, 856], [652, 868], [694, 885], [736, 902], [777, 918]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A reddish continuous upper stroke and a weaker dark lower stroke enclose a pale strip, locally about 8–15 px wide. Blue-green polygon outlines lie immediately alongside parts of the lower stroke.",
+      "uncertainty_note": "The lower stroke may be road casing or the edge of the adjacent colored polygons. Large black lettering obscures the southeastern continuation, which is not carried through.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two strokes outline a narrow road continuing southeast into the lettering."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A red boundary runs beside land-cover outlines, producing the appearance of paired road edges."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0, 179], [33, 151], [65, 123], [95, 94], [126, 63], [157, 32], [190, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Very faint gray oblique strokes form an irregular narrow band, approximately 5–12 px across, crossing the stronger red and blue lines without a visible branch.",
+      "uncertainty_note": "The gray strokes are worn and discontinuous; they could be a lightly drawn track, boundary-related marks, or reproduction artifacts. The waypoints follow the visible band's approximate middle.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Two faded edges outline a lightly drawn track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes are non-road boundary marks or image artifacts."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [907, 192],
+      "branch_count": 4,
+      "evidence_note": "Close reddish and dark-edged strips converge from the curved west approach, the north approach, the southwest diagonal, and the short eastward approach. Small black marks crowd the meeting point, but all four approaches are visible."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [369, 720],
+      "branch_count": 3,
+      "evidence_note": "A straight red diagonal touches the bending red-and-faint-dark band, giving three possible road branches. This junction is provisional: it disappears if the diagonal is a boundary or the lower band is not a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [775, 885, 1000, 990],
+      "why": "Large heavy black lettering overlaps the possible southeastern road continuation; separate road edges cannot be followed reliably through it."
+    }
+  ],
+  "overall_note": "The close dotted and reddish edges make the upper approaches the clearest roads. Straighter red strokes and faint parallel marks support competing road and boundary readings, retained explicitly here. No continuation is invented beneath the lower lettering."
+}

@@ -1,0 +1,72 @@
+{
+  "tile_id": "cor_e0345_n6429",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[728,0],[713,29],[695,59],[675,88],[658,117],[646,145],[639,173],[641,206],[646,238],[653,270],[664,300],[677,329],[691,359],[706,390],[725,420],[748,451],[774,483],[797,516],[816,548],[825,578],[827,597],[822,624],[815,650],[815,677],[824,703],[839,729],[859,754],[881,780],[902,809],[917,839],[929,870],[936,900],[937,928],[934,955],[934,980],[934,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "One narrow ochre trace carries closely spaced dark dots and short strokes, generally about 12–20 px apart; no clear pair of continuous casing lines or regular flanking tree rows. The trace crosses thin green lines and passes beneath lettering near [640,180].",
+      "uncertainty_note": "The aligned drawing above and below the lettering supports continuation. The distinction between a dotted line and a continuous line with dotted edging is uncertain. Its meeting with f03 is conditional on that faint trace being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "A fine continuous ochre spine is visible beneath the interrupted dark marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The resolution does not consistently separate the dark marks from possible narrow edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[881,0],[907,10],[936,23],[966,37],[1000,51]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A thin ochre line with repeated dark dots or short strokes clips the upper-right corner. Several outlined oval symbols sit above it, without forming regular rows on both sides.",
+      "uncertainty_note": "The short visible segment resembles f01, but its dark marks partly merge with the ochre spine.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre component can also be read as a continuous single line with intermittent dark emphasis."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[892,1000],[912,979],[934,955],[955,933],[976,911],[1000,885]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A very pale grey diagonal band has approximately parallel fine traces, separated by several pixels in its clearer portions. It crosses the ochre dotted line near [934,955]; no dark casing, dot sequence or joining symbol is clear.",
+      "uncertainty_note": "Both its status as a drawn track and its precise centre are doubtful. It may be a faint double-line road, a non-road line or a paper/scanning mark; the apparent crossing is not a certain road junction.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The pale parallel traces could be the two edges of a narrow track."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "One trace may be the drawn line and the other a pale adjacent mark."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary, paper crease or scanning mark would explain the faint band without a road interpretation."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [934,955],
+      "branch_count": 4,
+      "evidence_note": "Conditional four-branch crossing: the dark dotted ochre trace continues approximately vertically, while the much paler grey trace continues diagonally through it. No joining dot, widening or interruption establishes a junction; this entry applies only if f03 is a road meeting f01."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The two ochre traces resemble the dotted paths in the worked example. Straight red or pink lines, blue water outlines, thin green lines and hatched-area margins were read as non-roads. The faint southeast diagonal and its apparent junction remain uncertain."
+}

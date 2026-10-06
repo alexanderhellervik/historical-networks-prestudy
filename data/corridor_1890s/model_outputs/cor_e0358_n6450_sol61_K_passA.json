@@ -1,0 +1,116 @@
+{
+  "tile_id": "cor_e0358_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[423, 0], [398, 41], [372, 83], [345, 121], [312, 163], [279, 203], [244, 245], [210, 282], [177, 310], [147, 335], [124, 370], [105, 406], [86, 445], [65, 480], [40, 514], [22, 550], [14, 588], [0, 627]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A reddish-brown strip approximately 7–12 px wide has two closely spaced, dark stippled edges. It crosses thin blue lines and continues through both tile edges.",
+      "uncertainty_note": "The edges are broken rather than consistently solid, so a dashed-line classification is also reasonable.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired rows of dark dots and short strokes can be read as a broken-line road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 887], [27, 861], [56, 834], [88, 809], [121, 783], [153, 758], [184, 739], [210, 724]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two dark stippled margins enclose reddish-brown colouring, about 8–11 px apart. Large black lettering overlaps the southwestern portion; coloured segments remain visible on both sides.",
+      "uncertainty_note": "The centre beneath the lettering is approximate. The paired broken margins also support a dashed-line classification.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Classify by the repeated dark dots along both margins rather than by their paired arrangement."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[210, 724], [239, 697], [267, 671], [280, 638], [283, 601], [285, 565], [293, 529], [307, 491], [322, 453], [336, 416], [363, 387], [394, 362], [418, 351], [452, 351], [486, 354]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "The reddish strip continues between two dark broken margins. Their separation remains roughly 7–11 px through the bend, with thin blue lines separately visible beside and across it.",
+      "uncertainty_note": "The margins combine dots and short strokes rather than continuous casing.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken paired edges could instead determine the symbol-form class."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[486, 354], [522, 357], [549, 352], [584, 338], [621, 322], [657, 307], [687, 301], [717, 307], [752, 319], [786, 330], [815, 327], [835, 314], [847, 286], [855, 248], [864, 208], [871, 168], [877, 133], [881, 114], [916, 97], [954, 78], [1000, 56]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A narrow reddish-brown band has paired dark dotted edges. It bends beside a separately drawn thin blue line, then turns sharply northeast near (881,114).",
+      "uncertainty_note": "Some edging is faint near the blue-line crossing and the northeastern bend; the coloured band remains traceable.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The two stippled margins also resemble a paired broken-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[210, 724], [222, 745], [241, 760], [268, 769], [301, 773], [326, 777], [344, 778]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short reddish branch leaves the broader diagonal strip. Dark dots flank it, most clearly along its lower margin, before black rectangular symbols interrupt it.",
+      "uncertainty_note": "The paired edges become indistinct at the eastern end. A connection through the black symbols to the nearby dotted line cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The visible dark stippling may be the defining symbol, with the reddish colouring incidental."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[486, 354], [477, 385], [464, 421], [450, 463], [435, 507], [421, 551], [407, 594], [394, 638], [381, 681], [371, 718], [364, 748]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A single narrow row of dark dots and short strokes runs diagonally southward, with faint ochre colouring between some marks. It is visible above and below the large '2ST' lettering and stops at overlapping black symbols near the lower end.",
+      "uncertainty_note": "The stippling supports a path reading, but worn strokes could represent a broken property boundary. Its continuation or connection at the southern symbols is unreadable.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road property boundary; the reproduction does not consistently resolve the individual marks."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [210, 724],
+      "branch_count": 3,
+      "evidence_note": "The paired dark stippled edges and reddish fill of the diagonal line continue in two directions; a similarly coloured, narrowly edged branch curves southeast from the same point."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [486, 354],
+      "branch_count": 3,
+      "evidence_note": "The reddish strip with paired stippled margins continues east and west. A finer dark dotted row leaves its southern side; lettering overlaps the first portion of that branch."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [337, 742, 394, 800],
+      "why": "Black building symbols and lettering overlap the ends of the reddish branch and diagonal dotted line, preventing a reliable reading of any connection between them."
+    }
+  ],
+  "overall_note": "The reddish strips with paired stippled edges are the clearest road symbols; their broken margins make the symbol-form class debatable. The finer diagonal dotted line is retained as a possible path with a boundary alternative, and no connection is inferred through the southern building symbols."
+}

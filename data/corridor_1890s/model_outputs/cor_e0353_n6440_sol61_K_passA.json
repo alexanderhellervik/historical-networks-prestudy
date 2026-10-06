@@ -1,0 +1,125 @@
+{
+  "tile_id": "cor_e0353_n6440",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[310, 0], [280, 24], [249, 42], [216, 53], [195, 60], [187, 79], [185, 111], [189, 134], [181, 161], [162, 195], [143, 226], [137, 258], [134, 298], [131, 339], [128, 383], [126, 426], [123, 472], [118, 516], [112, 559], [114, 597], [115, 626], [115, 649]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow brown band follows two close, irregular rows of dark stippled marks, roughly 6–10 px apart; angular solid black parcel outlines attach alongside it.",
+      "uncertainty_note": "The stippled brown symbol resembles the road highlighted in the worked example. Junctions j02 and j03 depend on interpreting the attached outlined strips as tracks.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches could be a reinforced parcel edge; the brown infill and paired stippling favour a road reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 659], [35, 656], [74, 653], [115, 649]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A nearly straight brown strip has close dark, stippled margins and visibly reaches the north–south brown strip.",
+      "uncertainty_note": "Its straight course also coincides with the edge of a peach-coloured polygon, making a parcel-edge reading possible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a coloured field or property boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[115, 649], [157, 647], [199, 645], [251, 642], [246, 622], [226, 602], [211, 570], [195, 540], [183, 512], [176, 487], [175, 470]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j04"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "The horizontal brown stippled band bends into an oblique brown band with dark irregular margins, about 8–12 px across, beside several solid black outlines and a small reddish circular mark.",
+      "uncertainty_note": "The northern termination is crowded by black outlines and the reddish mark. Connection to f04 is possible but is not carried through; portions also coincide with a coloured polygon edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The oblique portion could be a reinforced field edge rather than a track."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "It may connect through the crowded northern endpoint to f04, forming one continuous course."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[123, 472], [140, 471], [155, 469], [173, 468]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close solid dark outlines enclose a pale strip roughly 7–10 px wide; the western end touches the brown vertical band, while the eastern end meets crowded angular outlines.",
+      "uncertainty_note": "This could be a short access track or the outline of a narrow projecting parcel. The eastern connection to f03 is unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The paired outlines could case a short access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be two sides of a narrow parcel; under that reading j02 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[114, 597], [150, 598], [188, 600], [211, 600], [226, 602]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03", "j04"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "Two dark, mostly continuous outlines surround a narrow pale horizontal strip, roughly 6–10 px wide, between the western brown band and the oblique brown band.",
+      "uncertainty_note": "The strip resembles both a cased connection and a long narrow enclosed parcel. Both junctions are conditional on the track interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Could be a short cased track connecting the two brown courses."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could be a closed parcel outline; under that reading j03 and j04 are not road junctions."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [115, 649],
+      "branch_count": 3,
+      "evidence_note": "Three brown stippled arms visibly meet: one upward and two nearly horizontal, with similar width and dark margins."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [123, 472],
+      "branch_count": 3,
+      "evidence_note": "A short pair of solid dark outlines touches the brown vertical strip from the right; three branches exist if this pale outlined strip is a track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [114, 597],
+      "branch_count": 3,
+      "evidence_note": "A narrow pale strip between two dark outlines meets the brown vertical band from the right; the third road branch is conditional on the strip being a track."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [226, 602],
+      "branch_count": 3,
+      "evidence_note": "The horizontal paired outlines touch the oblique brown band, which continues in both directions; three road branches exist only under the track reading of f05."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [165, 454, 207, 503],
+      "why": "Solid black outlines, a reddish circular mark and nearby numerals crowd the possible connection between f03 and f04."
+    }
+  ],
+  "overall_note": "The brown stippled courses provide the strongest road evidence, but some coincide with polygon edges. Two short outlined strips are retained as doubtful tracks, with conditional junctions. Blue water lines, angular parcel outlines, and the eastern dash-and-dot boundary are excluded."
+}

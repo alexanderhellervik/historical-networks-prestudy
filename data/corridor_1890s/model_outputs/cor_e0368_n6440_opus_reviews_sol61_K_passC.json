@@ -1,0 +1,27 @@
+{
+  "tile_id": "cor_e0368_n6440",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous line of evenly spaced single dots runs from the left edge at about (0,578) under the purple-edged hatched polygon to (250,592) and (310,600), bends SE through (345,632), (390,648), (470,688), (520,712), then runs ESE through (600,725), (700,745), (800,770), (870,790) and (940,815) to the right edge at about (1000,820). It is plain dots with no dashes, which matches the legend's Gångstig rather than any boundary symbol (the boundaries here are black long dashes or straight red/purple lines). The dots are reddish-brown in the middle stretch and heavier black toward the right. The overlay polyline stays on these dots along its whole length.",
+      "uncertainty_note": "The overlay's class label is not visible to me, so I give only my own class: a dotted path, which the vocabulary closest maps to dashed_line. Alternative reading: a dotted outline of a wet-meadow or bog area. I rate this less likely because the land cover looks the same on both sides of the line, and the area outlines on this tile (the hatched bands) are drawn with finer, greyer stipple. Near the right edge the line crosses a black dashed boundary at about (900,805). It is not fully clear whether the dots reach the edge at (1000,820) or stop just short of it."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [880, 980],
+      "what_is_contested": "Whether the small black cross or X-shaped mark and the short strokes beside the brown building symbol at the bottom edge (about u 820-900, v 960-1000) are the start of short tracks or a junction entering the tile from the south. They might instead be building or other point symbols.",
+      "evidence_note": "Only a few pixels of short dark strokes are visible before the tile edge, so no line can be followed into the tile. I have not recorded it as a missed road."
+    },
+    {
+      "uv": [310, 600],
+      "what_is_contested": "Whether the sharp bend in the dotted path here is a plain bend or a junction where a western branch along the hatched polygon edge meets the SE-running path.",
+      "evidence_note": "The dots continue without a break around the bend. No third dotted line leaves this point, so I read it as a bend with two branches, but the dots are sparse just here."
+    }
+  ],
+  "overall_note": "The only road symbol I can identify on this tile is the long dotted path (Gångstig form) that crosses it from west to east, and the overlay's f01 follows it closely. All other long lines are boundaries: the straight red/purple lines and the black long-dash lines cut across the terrain without regard to it, and the stippled lines outline the hatched wet areas. I found no further roads for the overlay to have missed, apart from a possible track stub at the bottom edge that I cannot judge."
+}

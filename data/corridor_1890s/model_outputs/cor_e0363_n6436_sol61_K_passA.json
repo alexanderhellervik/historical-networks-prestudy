@@ -1,0 +1,51 @@
+{
+  "tile_id": "cor_e0363_n6436",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 612], [30, 606], [62, 600], [99, 603], [135, 605], [173, 597], [208, 589], [244, 583], [270, 587], [304, 595], [342, 603], [375, 602], [410, 598], [439, 592], [458, 589]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre-brown stroke crosses the pale ground, with intermittent dark marginal marks; two separate casing lines are not consistently resolved.",
+      "uncertainty_note": "The course is visible to approximately (458,589), where it merges with a heavy blue-black oblique stroke. Continuation beyond that point is unresolved and has not been traced.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The ochre stroke could represent a single drawn path line with irregular dark marks alongside."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The intermittent marginal marks could be two narrowly spaced road edges, blurred together in this scan."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 204], [42, 216], [82, 227], [118, 244], [146, 267], [172, 276], [199, 276], [230, 292], [248, 315], [266, 338], [299, 354], [321, 369], [357, 368], [392, 378], [423, 383], [451, 373], [483, 359], [504, 350], [535, 350], [559, 353], [581, 359], [585, 368], [578, 387], [566, 399], [567, 429], [573, 459], [578, 482], [581, 509], [579, 531], [566, 554], [547, 576], [522, 595], [519, 619], [524, 641], [527, 662], [537, 685], [558, 686], [579, 700], [613, 715], [649, 728], [678, 744], [684, 768], [702, 800], [719, 832], [722, 847], [743, 862], [768, 869], [780, 886], [804, 904], [827, 921], [845, 941], [853, 959], [880, 973], [890, 991], [902, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A continuous red-brown band follows the edge of the horizontal hatching, accompanied by heavy blue-black ink and locally a finer parallel dark stroke several pixels away.",
+      "uncertainty_note": "This is a doubtful road candidate: its apparent paired edges could be casing, but its coincidence with the hatch limit and unevenly weighted strokes also support a boundary interpretation. Lettering crosses the eastern bend, with the course visible immediately above and below.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the red-brown band lies between two road edges, the visible separation supports narrow casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The coloured band may accompany a boundary or land-cover outline rather than a road; under that reading this feature should be excluded from the road network."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [444, 577, 487, 617],
+      "why": "The narrow ochre line merges with a heavy oblique blue-black stroke; its termination or continuation cannot be distinguished."
+    }
+  ],
+  "overall_note": "The narrow ochre line is the clearest track candidate, although its symbol form is unresolved. The long red-brown feature remains ambiguous between road casing and a boundary. No three-branch road junction is securely visible."
+}

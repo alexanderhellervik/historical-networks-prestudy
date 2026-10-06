@@ -1,0 +1,238 @@
+{
+  "tile_id": "cor_e0353_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[386, 0], [397, 33], [416, 68], [424, 102], [429, 143], [430, 178], [428, 203], [425, 232], [410, 258], [379, 276], [336, 284], [302, 294], [282, 310], [267, 341], [237, 357], [215, 371], [193, 401], [170, 420], [150, 435], [138, 469], [118, 499], [88, 530], [51, 549], [15, 562], [9, 592], [8, 637], [7, 684], [2, 719], [0, 733]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow ochre-brown ribbon has closely spaced dark margins, with conspicuous repeated dots along its sides; the margins are roughly 5–9 px apart.",
+      "uncertainty_note": "The pink boundary temporarily overlaps the ribbon near [428,203], but its aligned continuation is visible on both sides.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 332], [44, 351], [87, 375], [119, 404], [150, 435], [180, 472], [216, 514], [248, 529], [291, 547], [342, 568], [395, 590], [448, 613], [501, 636], [550, 657], [594, 681], [621, 658], [649, 637], [676, 613]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02", "j03"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin dark stroke and a reddish stroke enclose a narrow pale strip, about 4–8 px wide in the clearer western section; the trace bends sharply at [594,681].",
+      "uncertainty_note": "The reddish component resembles other boundary strokes. The paired appearance supports a road reading, but a boundary following parcel edges is also plausible; the eastern end merges into the broad pink band.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two close margins may be road casing."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "May instead be a non-road boundary accompanied by a parcel outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0, 253], [39, 257], [77, 264], [109, 273], [151, 281], [176, 289], [190, 319], [202, 344], [215, 371]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "One fine ochre stroke runs beneath the small outlined rectangle around [109,273], then curves beside a black parcel outline toward the brown dotted ribbon.",
+      "uncertainty_note": "The southern portion partly coincides with a parcel edge; the ochre stroke could represent that edge rather than a path.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road field or parcel edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[215, 371], [226, 395], [243, 420], [256, 434], [276, 436]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A fine ochre line leaves the dotted ribbon and curves toward closely grouped black and red building marks; no consistently separate casing is visible.",
+      "uncertainty_note": "The line becomes inseparable from the building marks near [276,436]. Its continuation and connections within the cluster are unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Could be an ochre parcel edge beside the buildings."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[311, 425], [326, 409], [336, 399]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A short, fine ochre diagonal is visible between the black building marks and thick strokes of the Ryd lettering.",
+      "uncertainty_note": "Both ends are obscured. It may belong to the same path as f06, but the intervening course cannot be read securely.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible single-stroke path continuing toward f06."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel outline."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[383, 346], [406, 323], [436, 298], [461, 299], [483, 308], [495, 318]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "A slender ochre curve passes below the outlined quadrilateral near [425,290]; a faint grey companion is present locally, without consistent spacing.",
+      "uncertainty_note": "The southwestern end disappears into the Ryd lettering and may connect to f05. The eastern visible end meets a dark outline, which could make the entire curve a parcel edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "May be a non-road field outline rather than a path."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The intermittent grey companion may be a second road margin."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[349, 491], [370, 521], [411, 544], [451, 561], [475, 569], [494, 572]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "One weak ochre stroke curves below the N°2 lettering and follows the edge of the peach-coloured area to a black outline at [494,572].",
+      "uncertainty_note": "Its northern continuation is hidden by lettering. The close agreement with the coloured parcel edge makes a non-road reading substantial.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible fine single-line path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road land-cover or parcel edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[674, 274], [702, 276], [735, 266], [771, 262], [809, 257], [835, 269], [860, 287], [887, 311], [917, 331], [947, 339], [975, 340], [1000, 350]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A separate row of fairly evenly spaced, heavy black dots curves below the pink boundary; it lacks a continuous parallel road margin.",
+      "uncertainty_note": "The dotted symbol supports a footpath reading, but dots marking an edge or hedge are also possible. Its western origin is mixed with the boundary marks.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "A dotted path could be grouped with discontinuous single-line road symbols."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "May instead be a non-road dotted edge or hedge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[594, 681], [599, 704], [610, 732], [620, 755]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A slender ochre-reddish stroke leaves the angular paired trace and bends downward; a darker adjoining stroke is visible intermittently.",
+      "uncertainty_note": "It disappears into the L.Ryd lettering. This may be a path, a boundary, or two coincident lines; connection to f10 is unproven.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible single-line path toward the lower visible ochre trace."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[633, 831], [634, 858], [640, 888], [643, 916], [649, 935], [670, 954], [691, 976], [709, 1000]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "One fine ochre line emerges below the lettering, runs beside scattered oval and star-shaped symbols, and bends southeast toward the bottom edge.",
+      "uncertainty_note": "Its upper continuation is obscured. A parcel-edge reading remains possible, and it has not been connected through the lettering to f09.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road parcel or land-cover edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0, 785], [32, 789], [58, 801], [82, 799], [115, 797], [151, 795], [181, 796], [200, 802], [222, 821], [249, 839], [278, 851], [304, 840], [330, 825], [356, 811], [382, 802], [404, 823], [433, 834], [456, 842]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow brown-ochre ribbon with repeated dark dots and closely spaced margins follows a conspicuously angular course; the margins are approximately 5–9 px apart.",
+      "uncertainty_note": "The eastern end becomes weak among small oval symbols and intersecting outlines. A further southeast continuation is possible but not securely traceable.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[0, 976], [35, 965], [61, 955], [79, 946], [96, 938], [124, 937], [155, 946], [182, 963], [199, 984], [211, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Fine grey and ochre strokes form a narrow strip entering the lower-left corner, then run close to the broad pink band; their separation is only several pixels.",
+      "uncertainty_note": "The strokes partly merge with the pink boundary. They may depict a narrow road alongside it, or additional boundary and parcel-edge strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow road casing beside the pink boundary."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary or parcel outline."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [215, 371],
+      "branch_count": 4,
+      "evidence_note": "The brown dotted ribbon supplies two branches; fine ochre strokes approach from the northwest and leave southeast toward the buildings. Four road branches result if those ochre strokes are paths."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [150, 435],
+      "branch_count": 4,
+      "evidence_note": "The brown dotted ribbon crosses the narrow grey-reddish paired trace, with both traces visible on either side. Four branches result under the road reading of f02."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [594, 681],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the angular grey-reddish trace meet a fine ochre-reddish stroke descending toward the lettering. This is a candidate three-branch junction because the traces also admit boundary readings."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [266, 405, 381, 496],
+      "why": "Black and red building marks, the Ryd descender and N°2 lettering obscure the fine ochre traces and prevent reliable connections between their visible fragments."
+    },
+    {
+      "bbox_uv": [600, 750, 655, 835],
+      "why": "Thick L.Ryd lettering obscures the possible continuation between f09 and f10."
+    },
+    {
+      "bbox_uv": [453, 831, 507, 879],
+      "why": "The eastern end of the brown dotted trace weakens among oval symbols and intersecting parcel outlines, preventing a secure continuation."
+    }
+  ],
+  "overall_note": "The brown dotted ribbons are the clearest tracks. Fine ochre strokes and narrow grey-reddish paired traces admit path and parcel-boundary readings, so their alternatives and candidate junctions retain that uncertainty. Broad pink dash-and-dot bands, blue-green drainage lines and clearly closed parcel outlines were excluded."
+}

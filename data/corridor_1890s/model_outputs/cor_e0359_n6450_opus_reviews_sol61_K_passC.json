@@ -1,0 +1,48 @@
+{
+  "tile_id": "cor_e0359_n6450",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the top-left corner, from about (0,50) to (95,0), there is a dark solid line with a row of orange-brown dots along its lower side. This matches the legend's Bättre körväg form (a solid line with a dotted line beside it) and the brownish road colouring this sheet uses. The overlay polyline lies on it.",
+      "uncertainty_note": "Only about 110 px of it is inside the tile, and it lies next to an orange-coloured field (åker) at the left edge, so it could be a field margin instead. The class cannot be checked against the overlay colour; my class is a symbol-form guess."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint grey double line runs just inside (east of) the crimson boundary from the bend near (103,240) down to the left edge at about v 740-770. Where it crosses the hatched wet area at lower left it shows as a light strip that interrupts the hatching. The other crimson boundaries on the tile have no such companion line, so it reads as a separate uncoloured double-line road following the boundary. The overlay follows it.",
+      "uncertainty_note": "The segment from the bend at (103,240) north-east to the top edge near (300,0) is very faint; I see it only weakly beside the red line. The whole line could also be the black base drawing of the boundary, offset from its red colour band, rather than a road."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A row of black dots with a finer orange dotted row beside it runs from the top-right water at about (890,10), down to (686,262), along the west shore of the large hatched water to (760,530), then (805,620), (855,790), (840,900) and the bottom edge near (818,1000). Plain dots with road colouring match the legend's Gångstig / Sämre körväg forms, not any boundary symbol, which all use dashes. The overlay follows this course.",
+      "uncertainty_note": "Between (686,262) and (865,50) the overlay is a straight chord, while the dots curve slightly west of it (by up to about 20-25 px near (730,185)). The overlay also stops about 50 px short of the top edge, where the dots merge into the dotted shoreline of the top-right water. Whether it is one dotted row (Gångstig) or two (Sämre körväg) is not decidable at this resolution."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [103, 240],
+      "what_is_contested": "Whether the f02 grey double line really continues north-east from this bend along the boundary to the top edge, or exists only south of the bend.",
+      "evidence_note": "South of the bend the grey double line is clear, including the light strip through the hatched wet area. North-east of the bend only a very faint grey trace beside the crimson line can be seen."
+    },
+    {
+      "uv": [770, 140],
+      "what_is_contested": "Whether the black dotted row and the orange dotted row in the upper right are one road drawn as two dot rows, or two separate lines that diverge, giving a fork somewhere near (700,230).",
+      "evidence_note": "Between about (700,230) and (850,60) the black dots and the orange dots are clearly apart, by about 10-20 px. Further south they run close together along the shore."
+    },
+    {
+      "uv": [885, 20],
+      "what_is_contested": "Whether f03 ends at the shore of the top-right water or continues to the top edge.",
+      "evidence_note": "The path's dots run into the black-dotted shoreline of the hatched water, and the two kinds of dots cannot be told apart there."
+    }
+  ],
+  "overall_note": "The tile is mostly bog and wetland with crimson boundary lines, plus a straight grey vertical construction line at about u 505, which I do not read as a road. The only roads I can see are the overlay's three features: a corner road (f01), a grey double line beside the western boundary (f02), and a dotted path or poorer cart road along the large water (f03). Faint black dashes near the left edge (about (40,190) to (5,470)) look like a Skifteslinje (boundary) rather than a road, so I do not record them as a missed feature."
+}

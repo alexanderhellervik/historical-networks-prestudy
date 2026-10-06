@@ -1,0 +1,88 @@
+{
+  "tile_id": "cor_e0340_n6422",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[491, 0], [530, 6], [574, 13], [612, 24], [643, 39], [674, 58], [706, 76], [739, 93], [772, 110], [805, 127], [824, 145], [835, 163], [844, 179]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "An orange band between two heavy dark margins runs from the top edge into the bend; the margins are approximately 10–16 px apart where both are visible.",
+      "uncertainty_note": "The upper margin is cropped near the entry. The course is clear, but the wide/narrow distinction is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The same paired margins could be described as narrow; no numerical width threshold is supplied."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[844, 179], [857, 194], [876, 202], [895, 207], [914, 203], [932, 192], [946, 190], [968, 198], [1000, 209]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "Two heavy dark edges enclose an orange strip approximately 10–16 px wide, continuing through several rounded bends to the right edge.",
+      "uncertainty_note": "The course is clear; the width class has the same ambiguity as f01.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A narrow paired-line classification is also possible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[844, 179], [831, 199], [811, 216], [793, 222], [777, 220], [762, 217], [743, 221], [720, 231], [695, 246], [671, 261], [652, 277], [638, 296], [631, 314], [634, 333], [642, 357], [649, 381], [653, 406], [650, 429], [641, 450], [638, 469]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A narrower orange stroke with dark edging branches southwest, curves south, crosses the thin blue-green lines, and reaches clustered black and ochre marks.",
+      "uncertainty_note": "The two margins become indistinct near the southern end. Its continuation through the building marks, including any connection to f04, cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches resolve as an orange stroke with irregular dark dots rather than two consistently continuous margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[607, 480], [593, 502], [577, 527], [558, 553], [541, 579], [524, 605], [510, 633], [499, 661], [488, 690], [477, 719], [466, 748], [456, 779], [450, 808], [447, 838], [441, 861], [435, 874]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A single chain of regularly separated dark dots runs southwest and then south, generally a few pixels west of the solid outline of the long orange polygon; black rectangular marks interrupt both ends.",
+      "uncertainty_note": "The dotted symbol resembles the model's footpath symbol, but the supplied classes do not explicitly include dotted lines. Neither endpoint has a certain visible connection through the black marks.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if this class includes a regularly dotted path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A parcel-edge interpretation remains possible because much of the dotted course follows the adjacent polygon, although the dots form a separate line."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [844, 179],
+      "branch_count": 3,
+      "evidence_note": "Three orange bands with dark margins meet in a widened bend: one approaches from the northwest, one leaves eastward, and one bends southwest. The meeting occupies roughly 20 px, so the coordinate represents its center."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [596, 435, 655, 494],
+      "why": "Heavy black building marks, orange fill and overlapping outlines prevent a reliable reading of the short connection between the cased road and dotted course."
+    },
+    {
+      "bbox_uv": [423, 852, 466, 889],
+      "why": "Black and red rectangular symbols obscure the termination of the dotted course."
+    }
+  ],
+  "overall_note": "The main difficulty is distinguishing the dotted course from the adjacent parcel outline and reading its ends beneath building symbols. Red angular lines with pale parallel margins match the boundary treatment in the worked example and are excluded. No connection between f03 and f04 is asserted."
+}

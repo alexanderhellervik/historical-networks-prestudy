@@ -1,0 +1,93 @@
+{
+  "tile_id": "cor_e0362_n6450",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 56], [43, 79], [88, 104], [135, 128], [182, 150], [212, 119], [244, 84], [270, 58], [299, 33], [342, 19], [389, 7], [437, 16], [481, 24], [520, 34], [554, 50], [588, 73], [620, 99], [652, 120], [686, 109], [718, 92], [750, 69], [783, 40], [820, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Narrow reddish strip with dark edging approximately 6–10 px apart; the paired edges are clearest around bends. Thin blue-green lines cross or approach it among the star symbols.",
+      "uncertainty_note": "The narrow casing supports a track reading, but the reddish colouring also occurs on angular boundary lines elsewhere in the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possible boundary rather than road; the two edges are not equally distinct throughout."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[864, 0], [886, 20], [911, 43], [938, 66], [966, 89], [1000, 113]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Diagonal reddish band between two dark edges roughly 8–12 px apart; blue-green outlines intersect it near the upper edge.",
+      "uncertainty_note": "This portion is clipped by the tile. Its connection to f01 lies outside the face and is not reported.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A coloured boundary is an alternative if the apparent casing represents adjacent strokes."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[686, 109], [699, 128], [711, 147], [719, 163], [713, 179], [702, 192], [687, 200], [678, 204]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "Two close curved dark strokes enclose a reddish trace, approximately 7–12 px wide, turning toward a red rectangular building symbol.",
+      "uncertainty_note": "The trace meets the building symbol at its southwestern end; no continuation through that symbol is established.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The close strokes could partly describe the enclosure beside the building rather than a separate track."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[604, 1000], [642, 972], [680, 943], [720, 912], [759, 880], [792, 847], [824, 814], [858, 783], [893, 754], [922, 731], [942, 720], [960, 716], [980, 718], [1000, 723]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two strong, continuous dark edges enclose a broad brown-red band about 15–22 px wide. Small blue-green outlines and star symbols sit beside its northwestern edge.",
+      "uncertainty_note": "The paired-edge course is clear within the tile.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 883], [25, 869], [49, 839], [77, 807], [109, 772], [143, 728], [178, 687], [215, 646], [247, 605], [279, 563], [311, 523], [343, 481], [375, 440], [407, 399], [439, 358], [469, 324], [491, 305], [516, 294], [551, 290], [587, 286], [616, 285], [653, 276], [696, 267], [742, 260], [789, 251], [837, 245], [881, 249], [908, 260], [939, 275], [960, 270], [979, 255], [990, 266], [1000, 279]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A thin dark blue-gray stroke, generally 2–4 px wide, runs diagonally and then turns east below the large lettering. A faint companion trace appears on parts of the diagonal, but consistent casing or dots are not resolved.",
+      "uncertainty_note": "This is a doubtful road candidate: a boundary or ditch reading is at least as plausible. Its intersections with coloured divisions and enclosure outlines are not counted as road junctions.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Possible path following the continuous dark stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible narrow track where the faint companion trace is visible."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Possible non-road boundary or ditch; the course joins other thin enclosure strokes."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [686, 109],
+      "branch_count": 3,
+      "evidence_note": "Three narrow edged strokes meet: two continue along the upper reddish route, and one curves southeast toward the red building rectangle. This is a road junction only under the proposed road reading of those strokes."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The broad lower-right road is clear; narrower reddish strokes are harder to distinguish from coloured boundaries. The central thin line is retained as an explicitly uncertain candidate, while the angular red divisions crossing the horizontal hatching are read as boundaries."
+}

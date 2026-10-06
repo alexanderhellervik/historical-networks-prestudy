@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0357_n6422",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-washed line with black dots runs from the top edge near u≈120 down to about (155,65), where it meets the long orange line f02. The orange colour is the road colour used on the neighbouring example tile.",
+      "uncertainty_note": "Short segment. The drawn polyline sits a few px west of the orange line at the top edge, which is within tolerance. I read the class as a single dotted/orange line, but it could be a Sämre körväg drawn faintly."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous black-dotted line with an orange wash arcs from (155,65) through (250,145), (330,185) and (400,198), then rises through (480,140) to about (580,95). The overlay follows it closely.",
+      "uncertainty_note": "It is clearly a coloured road line, not a plain black ägogräns. The class could be dotted single or a faint double-dotted Sämre körväg; I cannot separate the two at this resolution."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same orange-dotted line continues NE from about (585,90) through (600,60) and (650,30) to the top edge near u≈700, just west of the red boundary.",
+      "uncertainty_note": "Near the top edge it runs close to the red hemman boundary and black-dotted field edges, but the orange colour stays traceable."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin solid orange line leaves the f02/f03 line near (585,90) and runs SSW through (565,150) to end at about (535,240), above the striped field strips. It is like the thin orange gångstig lines on the example tile.",
+      "uncertainty_note": "It ends without reaching another line, so it is a dead end. It is orange, not blue/green, so I do not read it as a stream, but a thin faint stream cannot be fully excluded."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "An orange-washed dotted line runs from about (825,75) east through (900,92) and (960,120) to the right edge near (1000,150).",
+      "uncertainty_note": "The western end is uncertain: it may join an orange line running south past the marsh (see m01) or continue west to the top edge. Neither is shown by the overlay."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown/orange line with black dots comes in from the left edge at v≈605. It runs east to about (170,615), bends south around the 'Öd' place name through (215,690), (205,800) and (165,910), and leaves the bottom edge near u≈120.",
+      "uncertainty_note": "On the western part the overlay sits slightly below the line, but within tolerance. It is clearly orange/brown-coloured. The class could be dotted single or a Sämre körväg."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (150,70) towards the left edge near v≈200 there are only black dotted lines (field/vegetation edges) crossing the long black dashed skifteslinje. I see no orange road wash along this course.",
+      "uncertainty_note": "A pair of parallel dotted lines here could be read as a faint Sämre körväg leaving the f01/f02 junction. Without colour I lean to field boundary, but the drawing does not decide it."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline follows a thin, perfectly straight ruled line at v≈398-415 that crosses the whole lake (open water) from edge to edge. On the far left it follows the red boundary line. A road would not be drawn across open water, and this line has no road symbol or colour.",
+      "uncertainty_note": "It is most likely a construction/sheet line or a boundary through the lake (the red dash-dot sockengräns also runs in the water). A winter road (Vinterväg, a double dashed line) is the only road reading possible, but the line is a single solid hairline, which does not match that symbol."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[828, 72], [818, 110], [812, 170], [815, 215], [820, 248]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A thin orange line runs south from near the western end of f05, along the west side of the hatched marsh/reed patch at u≈800-850, and ends at the lake shore near (820,248). It is coloured like f04.",
+      "uncertainty_note": "It runs right along the marsh edge, so it could be a coloured outline of the marsh or a ditch rather than a path to the shore. Where it joins f05 at the top is not clear.",
+      "alternatives": ["edge of the marsh/reed area, not a road", "path continuing north to the top edge instead of joining f05"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[855, 578], [920, 574], [1000, 570]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A faintly orange-tinted dotted line runs east from the red vertical boundary at u≈852 to the right edge at v≈570.",
+      "uncertainty_note": "Low confidence. The tint is faint and could be paper toning; the line may be a plain black-dotted field boundary like the many others on this tile.",
+      "alternatives": ["field/ägogräns dotted line, not a road"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [152, 68],
+      "what_is_contested": "Number of branches: f01 and f02 clearly meet here. A third, south-west branch (f07) is doubtful.",
+      "evidence_note": "The orange road wash continues only along f01 and f02. The south-west direction shows only black dotted lines, which this sheet uses for field edges."
+    },
+    {
+      "uv": [585, 92],
+      "what_is_contested": "Exact position and form of the junction where thin f04 leaves the f02/f03 line. It may branch slightly east of the point where f02 turns north into f03.",
+      "evidence_note": "Three orange lines converge in an area about 20 px wide. The thin f04 line fades close to the dotted line."
+    },
+    {
+      "uv": [826, 75],
+      "what_is_contested": "Whether f05 ends here, joins the southward orange line m01, or continues west/north to the top edge.",
+      "evidence_note": "Orange line work at the head of the marsh is short and faint, and it is crossed by the black dashed skifteslinje and the marsh outline."
+    }
+  ],
+  "overall_note": "Roads on this tile are the orange/brown-washed lines (f01–f06); the many plain black dotted lines are field edges and the long black dashed lines are skifteslinjer. f08 follows a straight hairline across open water and is not a road. The thick black line with a pink band at the bottom (300,1000)–(760,820)–(1000,830) is read as a coloured administrative boundary, not a road, though a red-washed main road cannot be fully excluded."
+}

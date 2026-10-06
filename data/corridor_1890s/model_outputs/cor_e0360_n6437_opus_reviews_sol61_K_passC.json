@@ -1,0 +1,82 @@
+{
+  "tile_id": "cor_e0360_n6437",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The polyline does trace a real drawn line: a row of bold black dots with a thin orange band beside it, running from about (50,85) via (110,310) and (160,440) to (100,640) and the left edge near (0,700). The bold dots look like the dotted outlines of the hatched mires, and a black dot or dash-dot line with a coloured band alongside is how a parish-type boundary with boundary colouring is drawn. Against that, roads on this sheet are drawn in brown/orange ink in the worked example.",
+      "uncertainty_note": "I lean towards a boundary (sockengräns-like, with colour band) rather than a road, but a single dotted line with brown colouring could also be a coloured gångstig. At this resolution I cannot read the dot/dash rhythm well enough to choose between the boundary and path legend symbols."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "There is a thin solid orange line from the f01 line near (110,310) west to the left edge near (0,285), running along the top of the hatched mire. It has no black dot row with it. The colour matches the f01 band and the f03 line.",
+      "uncertainty_note": "It could be a short path (brown ink, like the example's gångstigar) or a stretch of boundary colouring that branches off the f01 line. It is short, it hugs a mire edge, and it goes nowhere visible within the tile, so it does not decide."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree_with_different_class",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous thin solid orange-brown line runs from just right of the lettered 's' near (340,225) via (400,130) and (510,95) to the top edge near (555,0). The overlay follows it closely. On the neighbouring example tile, lines in this ink and weight were read as gångstig/roads, and it is not the crimson or black dash-dot boundary style.",
+      "uncertainty_note": "I cannot see the overlay's class from the image, so this class is my own call: a thin single line, possibly a gångstig. It could instead be a boundary colour band. Its south-west end stops at the 's' lettering and the dash-dot boundary, so a dead end or a hidden continuation are both possible."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the same bold black dot row with an orange band as f01. It re-enters from the left edge near (0,745), follows the hatched mire margin to about (60,800), then runs down to (75,930) and east to about (170,955) and the bottom edge near (180,1000). The overlay traces it correctly.",
+      "uncertainty_note": "This is the same ambiguity as f01: it looks like a boundary with boundary colouring (my lean) rather than a road, but a coloured dotted path is not ruled out."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint, fine single row of small dots runs from the f04 line near (75,885) north-east via about (200,835) and (330,800) to the junction of the dash-dot boundary, the crimson line and the stream near (470,765). The fine single dotted line matches the Gångstig symbol. The overlay lies on it, perhaps 10 px north of it in the middle stretch.",
+      "uncertainty_note": "The dots are very faint and are interrupted between mire patches. It is not certain whether the path stops at (470,765) or carries on across the stream along the crimson line."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the short north-western continuation of the f01 dotted line with its orange band, from about (50,85) along the lower edge of the top-left hatched mire to the left edge near (0,45). The drawn line is there.",
+      "uncertainty_note": "It shares f01's road-versus-boundary ambiguity. The dots here also merge with the mire's own dotted outline, which makes a boundary or mire edge more likely than a road."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [470, 765],
+      "what_is_contested": "Whether the dotted path f05 ends here or continues east across the stream, and whether this is a road junction at all or only a meeting of boundaries.",
+      "evidence_note": "Four things meet here: the black dash-dot boundary coming down from (175,0), the crimson line going east to (1000,735), the dark-red line along the stream, and the faint f05 dots. Apart from the dots, all of these look like boundary or water lines."
+    },
+    {
+      "uv": [110, 310],
+      "what_is_contested": "Whether f02 really branches from the f01 line here, making a three-way junction, and whether either line is a road.",
+      "evidence_note": "The plain orange line f02 meets the dotted orange-banded line at about (110,310). Neither is clearly a road symbol."
+    },
+    {
+      "uv": [0, 720],
+      "what_is_contested": "Whether f01 (leaving the left edge near (0,700)) and f04 (re-entering near (0,745)) are one continuous line that loops just outside the tile.",
+      "evidence_note": "Both are the same bold-dot line with an orange band and reach the left edge about 45 px apart."
+    },
+    {
+      "uv": [75, 885],
+      "what_is_contested": "Whether the f05 path actually joins the f04 line here or ends just short of it.",
+      "evidence_note": "The faint dots fade out near the bold dotted line, and no clear connecting dots are visible."
+    },
+    {
+      "uv": [340, 225],
+      "what_is_contested": "Whether f03 dead-ends here or continues under the 's' lettering to meet the dash-dot boundary near (295,235).",
+      "evidence_note": "The orange line stops at the edge of the large letter 's', which could hide a short continuation."
+    }
+  ],
+  "overall_note": "Apart from the faint dotted gångstig f05 and the thin orange line f03, this tile shows no clear road symbols. The other strong lines are boundaries (black dash-dot, crimson, dark red along the stream) or water and mire outlines. The bold dotted orange-banded line (f01, f04, f06) is the main open question: I lean towards a boundary with boundary colouring, but I cannot rule out a coloured path, so I left it as cannot_tell."
+}

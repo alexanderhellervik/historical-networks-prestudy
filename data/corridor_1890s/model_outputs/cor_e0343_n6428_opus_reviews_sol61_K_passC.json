@@ -1,0 +1,62 @@
+{
+  "tile_id": "cor_e0343_n6428",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay follows a dotted line with a fine brownish line beside it. It runs from the top edge near (420,0) past the small ring at (430,15), down through (440,120), (480,220) and (515,330) to the meeting point at (558,400). From there it turns SE through (600,470) to (650,545), then east along the field edge through (750,530) to the village mark at 'Kl' near (850,480). The overlay polyline stays on this dotted line the whole way. Dotted single line matches Gångstig, possibly Sämre körväg; I map it to dashed_line. The overlay's class is not visible to me.",
+      "uncertainty_note": "On this sheet black dotted lines also outline land-use areas (the hatched wet meadow at u 160-370 is outlined the same way). The SE and E part (558,400)-(650,545)-(850,480) partly encloses a wooded area, so it could be an area boundary rather than a path. The brown tint and the fact that it connects the dotted network to the village point to a path. The top section is more clearly brown-accompanied than the SE section."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line with a faint brown line runs from the west edge at about (0,548) ENE through (170,520), (300,455), (380,422) and (470,392) to the dotted-line meeting at about (550,395). It cuts straight across the hatched wet-meadow area rather than outlining it, which an area boundary would not do. This points to a path. The overlay follows it closely.",
+      "uncertainty_note": "Gångstig and Sämre körväg are hard to tell apart at this resolution (single vs double row of dots). Because the line is dotted, it could also be read as a land-use boundary, but the crossing of the hatched area argues against that."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay runs from (560,400) NE along the black-outlined NW edge of the long, narrow pink strips (575,395)-(915,140) and ends near (930,145) at the lake shore and black dot. The line it traces is the outline of a coloured parcel, not a road symbol. No dotted, double or brown line follows that edge. A very faint pale band seems to run parallel a little further NW, roughly (590,370)-(750,250)-(900,110)-(1000,35), but I cannot resolve it as a road.",
+      "uncertainty_note": "If the faint pale band is a road (e.g. a lightly drawn körväg towards the NE), the overlay is roughly right in direction but on the parcel edge instead of the road. If the band is only paper discolouration, f03 is not a road. The drawing does not decide this. Alternatives are partly_agree with course (560,395)-(700,270)-(850,150)-(1000,35), or disagree_not_a_road."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-brown fine line (looks paired or dotted in brown) leaves the village mark at 'Kl' near (850,485). It curves SE through (900,515), (935,570) and (955,630), passes just east of Flatevatten at (955,680), and leaves the tile towards the east edge near (1000,775). Brown is the road colour on this sheet, as in the worked example's Sämre körväg. The overlay follows it, though it starts at (880,510) and skips the first ~40 m from (850,485).",
+      "uncertainty_note": "The class is uncertain: I cannot tell a brown double line from a brown dotted line at this resolution, so it could be Sämre körväg (double_line_narrow) or a path (dashed_line). Near (950,650) the course crosses the red boundary and the 'Flatevatten' lettering, which obscures it for a short stretch."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[224, 1000], [245, 950], [276, 893]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "dead_end"],
+      "evidence_note": "In the lower-left part of the tile, an orange-brown thin single line runs from the bottom edge near (224,1000) NNE to about (276,893). It is the same brown tone that this sheet uses for roads. It is not the crimson of the boundaries, nor the grey-green of the ditch and stream lines around it.",
+      "uncertainty_note": "This is short, and its northern end fades out among the grey-green lines around (280,890), so it may be a stub of a path from the tile to the south or just a coloured land-use edge. A second, fainter brownish line near (300,1000)-(330,930) may belong to the same path system, but I cannot confirm it.",
+      "alternatives": ["not a road: coloured land-use or parcel edge", "dashed_line footpath continuing faintly north to the stream at about (300,800)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [558, 400],
+      "what_is_contested": "Number of branches: three dotted branches (north to the top edge, west = f02, SE = f01 continuation) clearly meet here. A possible fourth branch NE (f03 or a faint pale band) is uncertain. The exact meeting point is also blurred by the lake tip and the corner of the pink strip.",
+      "evidence_note": "The dotted lines converge on the tip of Matebrunnssjön at about (555,400), right where the pink strip begins. Nearby, the red boundary turns at (505,350) and the red dashed lake boundary starts at (520,430). These are boundaries, not road branches, but they crowd the spot."
+    },
+    {
+      "uv": [850, 485],
+      "what_is_contested": "Whether f01 (dotted, arriving from the west) and f04 (brown, leaving to the SE) actually connect at the village 'Kl'. Is this a single junction, or two lines that end separately at the settlement?",
+      "evidence_note": "The dotted line ends at the small red-brown building mark near (820-850,480-490). The brown line starts right beside it. The overlay leaves a gap of about 40 px between the end of f01 (850,480) and the start of f04 (880,510)."
+    }
+  ],
+  "overall_note": "The roads I can see are a dotted path network meeting at the tip of Matebrunnssjön (f01, f02) and a brown road leaving the village 'Kl' to the SE (f04). The NE line f03 traces a parcel outline and cannot be confirmed as a road. The long straight thin line at v≈640-655 crosses both lakes and is not a road. Crimson lines and black dashed lines are boundaries."
+}

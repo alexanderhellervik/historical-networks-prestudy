@@ -1,0 +1,87 @@
+{
+  "tile_id": "cor_e0345_n6434",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [
+        [0, 935], [29, 932], [65, 936], [105, 935],
+        [144, 929], [181, 920], [201, 908], [211, 889],
+        [214, 872], [211, 865], [226, 846], [246, 822],
+        [266, 800], [286, 781], [307, 768], [327, 757],
+        [340, 745], [350, 720], [360, 704], [377, 709],
+        [396, 722], [423, 714], [451, 710], [478, 711],
+        [501, 701], [523, 680], [552, 658], [581, 635],
+        [611, 615], [640, 599], [665, 586], [689, 568],
+        [712, 548], [734, 528], [754, 504], [775, 478],
+        [789, 466], [816, 459], [847, 451], [876, 442],
+        [902, 430], [925, 413], [947, 396], [969, 378],
+        [989, 363], [1000, 353]
+      ],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "An ochre strip has closely spaced dark dots or short strokes along two narrow margins, approximately 4–7 px apart. It bends between black polygon outlines and small rectangular symbols; the dotted strip continues on both sides of the broad pink crossing near [789,466].",
+      "uncertainty_note": "The course is comparatively clear. The close, broken margins support either a broken-line classification or a narrow double-line classification.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dotted margins can be read as the edges of a narrow road rather than as one broken-line symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [
+        [143, 337], [141, 371], [137, 410], [132, 448],
+        [124, 486], [122, 519], [118, 550], [115, 580],
+        [111, 610], [107, 647], [101, 683], [97, 719],
+        [96, 750], [94, 768]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "A slender brown-black trace contains intermittent dark marks and locally continuous sections, without clear wide casing. It runs beside horizontal hatching and black polygon outlines, passing close to several rectangular symbols.",
+      "uncertainty_note": "This may be a fine track or path, but a field edge, hedge or ditch-edge reading is also possible. Lettering and intersecting strokes prevent a secure northern continuation; its southern end overlaps the broad pink line, so no continuation is supplied.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks could represent a dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace may instead be a non-road edge or hedge associated with the adjacent polygons and hatching."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [
+        [478, 296], [511, 284], [550, 278], [589, 275],
+        [628, 271], [666, 267], [701, 261], [735, 251]
+      ],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Fine grey-brown interrupted strokes form approximately parallel traces, roughly 5–12 px apart, above the central pink bend. Additional fine horizontal strokes lie alongside; neither a heavy casing nor a distinct ochre centre is clear.",
+      "uncertainty_note": "A narrow broken-line track is possible, but the parallel traces may belong to the outline and hatching of the adjoining patch. Both ends overlap other linework; their connections are unresolved.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "If the parallel interrupted traces are road margins, they indicate a narrow dotted or broken-line track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A non-road reading as patch outline and hatching remains plausible."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [125, 282, 165, 337],
+      "why": "Heavy lettering overlaps fine brown-black and blue strokes, preventing a secure continuation of the western candidate trace."
+    }
+  ],
+  "overall_note": "One ochre dotted track is clear; two finer candidates retain possible non-road readings. The broad pink lines carry boundary-style black marks and are excluded as roads. No meeting of three road branches is sufficiently supported."
+}

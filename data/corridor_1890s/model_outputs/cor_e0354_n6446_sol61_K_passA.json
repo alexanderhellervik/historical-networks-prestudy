@@ -1,0 +1,84 @@
+{
+  "tile_id": "cor_e0354_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 79], [40, 72], [80, 64], [120, 52], [157, 37], [184, 24], [201, 18], [230, 43], [260, 70], [291, 99], [322, 128], [350, 146], [390, 134], [434, 120], [479, 106], [524, 92], [571, 77], [618, 63], [665, 48], [711, 34], [758, 19], [804, 5], [821, 0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A narrow yellow-orange strip has fine reddish-dark edges approximately 5–8 px apart; portions lie beside or merge with a much broader pink band carrying heavy black marks.",
+      "uncertainty_note": "The course beside the pink band, especially the turn near [350,146], is less distinct than the northeastern segment. A boundary-colouring edge rather than a separate road is an alternative reading of the northwestern portion.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The northwestern portion could be an edge of the broad coloured boundary rather than paired road strokes; the northeastern narrow line remains visibly distinct."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 347], [34, 357], [73, 368], [111, 373], [150, 383], [190, 388], [230, 395], [271, 403], [310, 410], [350, 410], [391, 416], [432, 423], [469, 430], [493, 431], [524, 425], [550, 421], [573, 428], [598, 440], [614, 446], [624, 472], [639, 495], [657, 503], [696, 502], [735, 506], [775, 509], [814, 513], [852, 520], [891, 531], [929, 540], [966, 549], [1000, 553]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "One row of fairly regular, rounded dark dots, roughly 10–15 px apart, follows a bending course without continuous casing or a second parallel row.",
+      "uncertainty_note": "The drawing closely resembles the legend's Gångstig symbol. Its marks are dots rather than dashes, so none of the supplied form classes matches exactly.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if this class includes a single dotted, discontinuous stroke."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[499, 895], [530, 885], [562, 875], [591, 866], [614, 852], [632, 834], [637, 807], [637, 780], [647, 752], [661, 727], [678, 702], [698, 685], [734, 683], [773, 683], [811, 683], [836, 687], [858, 704], [882, 724], [909, 743], [941, 753], [973, 761], [1000, 768]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "An orange-brown strip approximately 8–12 px wide is bordered by two dark, closely spaced rows of short marks or dots; these remain visible around its bends.",
+      "uncertainty_note": "At [499,895] the coloured strip meets an angular blue-green outline and its paired marks become indistinct. It is unclear whether this is a deliberate endpoint or an obscured continuation; no continuation is traced.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired borders are discontinuous and locally merge into a heavy brown stroke, making the precise symbol-form class uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0, 229], [42, 217], [84, 205], [126, 194], [168, 183], [210, 172], [252, 162], [294, 151], [327, 145], [350, 146]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A broad pink band carries heavy dark elongated marks and dots; an intermittent finer reddish edge runs roughly parallel to it.",
+      "uncertainty_note": "This is a weak candidate for a road coinciding with the coloured boundary. The heavy pattern itself favours a boundary reading, and separate road casing cannot be followed reliably; the associated three-branch junction is conditional on this candidate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible if the finer parallel edge and an underlying stroke represent a road obscured by boundary colouring."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Boundary only, with no independently drawn road; under this reading remove this feature and j01."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [350, 146],
+      "branch_count": 3,
+      "evidence_note": "The fine orange-edged line turns between northwestern and northeastern arms where the broad pink southwestern band joins it; three road branches are possible only if f04 contains a separate road stroke."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [325, 125, 371, 167],
+      "why": "Fine orange-red edges overlap broad pink colouring and heavy black boundary marks, preventing a firm separation of strokes or confirmation of the candidate junction."
+    }
+  ],
+  "overall_note": "The central dotted path and southeastern paired orange-brown route are the clearest road symbols. Broad pink boundary colouring complicates the upper route, so the southwestern candidate and its junction remain explicitly conditional. Other straight dash-and-dot lines and blue-green outlines were read as boundaries or water/land-cover lines."
+}

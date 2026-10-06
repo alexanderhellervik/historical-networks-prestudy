@@ -1,0 +1,104 @@
+{
+  "tile_id": "cor_e0358_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[414, 0], [433, 36], [450, 73], [459, 103], [459, 133], [451, 171], [435, 209], [410, 233], [377, 256], [344, 280], [311, 307], [281, 335], [258, 353]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow ochre-red stroke curves between repeated dark dots and short strokes. Dark edge-like ink appears intermittently, but two separate continuous edges are not consistently distinguishable; lettering overlaps the southern portion.",
+      "uncertainty_note": "The course remains discernible through the lettering, then disappears into the thick horizontal join. It may continue as f02, but the lateral offset across the join prevents a certain connection.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark marks could represent one interrupted line over an ochre stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches could show a narrow continuous edge beside an interrupted second edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[291, 379], [285, 403], [292, 429], [313, 447], [347, 458], [383, 468], [421, 475], [458, 491], [490, 513], [522, 540], [551, 558], [580, 571], [616, 570], [649, 575], [677, 587], [700, 609], [722, 637], [747, 660], [777, 683], [801, 710], [819, 746], [838, 777], [866, 798], [880, 820], [880, 853], [869, 888], [858, 919], [841, 953], [818, 983], [807, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A sinuous ochre stroke carries closely spaced dark dots and short strokes, substantially shorter than the crossing boundary dashes. A second parallel edge is not reliably visible, and no paired tree symbols accompany it.",
+      "uncertainty_note": "Its northern end is hidden by the horizontal join; continuation to f01 is possible but uncertain. Crossings with long dashed lines and thin green lines do not visibly add road branches.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks may be a single interrupted path symbol."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre stroke and intermittent dark edging could represent a narrow road with two differently drawn sides."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[108, 0], [88, 17], [73, 37], [63, 59], [47, 82], [32, 105], [16, 124], [0, 136]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Short dark marks follow a narrow ochre trace curving through the upper-left corner, beside a small dark-outlined polygon. The marks are much shorter than the nearby long boundary dashes; clear continuous casing is absent.",
+      "uncertainty_note": "The trace is distinguishable, but its small marks do not establish whether it has one interrupted line or two narrow edges.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read as one row of dark dots and short dashes."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre trace may retain a faint second edge beside the dark marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[82, 1000], [105, 975], [131, 946], [159, 918], [190, 895], [225, 873], [259, 851], [295, 827], [329, 804], [365, 780], [397, 755], [424, 729], [444, 705], [452, 693]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin ochre-brown stroke runs diagonally and bends near its northeastern tip. No consistently separate second edge, dark dot row, casing, or flanking symbols can be resolved.",
+      "uncertainty_note": "This is a doubtful road or track candidate: the plain coloured stroke could instead be a boundary or another annotation. Its northeastern end fades, with no certain continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a boundary or other non-road coloured line; no diagnostic road edging is visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 11], [18, 6], [38, 0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A very short red-brown diagonal clips the top-left corner, with darker ink along part of its edge. The visible length is insufficient to establish paired edges or a repeating mark pattern.",
+      "uncertainty_note": "Retained as an ambiguous clipping candidate. Its colour and straight course also resemble the red boundary strokes elsewhere on the tile.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Could be a single coloured road stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Could instead be a coloured property boundary."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 349, 1000, 394],
+      "why": "A thick, slightly sloping dark horizontal join masks underlying marks; its precise covered interval varies across the tile."
+    }
+  ],
+  "overall_note": "The dotted ochre curves are the strongest road or path readings, but their edge structure leaves the symbol class uncertain. The horizontal join prevents a certain connection between f01 and f02, and two plain coloured candidates remain ambiguous. Long parallel dashes, the diagonal boundary, and thin green water-like outlines were excluded; no meeting of three road branches is visible."
+}

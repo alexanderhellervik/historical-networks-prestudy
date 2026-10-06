@@ -1,0 +1,78 @@
+{
+  "tile_id": "cor_e0359_n6441",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A reddish-brown double line, matching the colour the worked example reads as Sämre körväg, comes in at the bottom edge near u 740-760 and runs NE through the Slättebacken infields (about (800,960), (850,945)) towards the farm cluster at about (905,865). The overlay line follows it.",
+      "uncertainty_note": "At this resolution the brown line is a narrow double line, but I cannot tell dotted from solid edges, so the class could be single_line. The overlay's class is not readable from its colour, so I give my own class. The exact point where f01 hands over to f03 is unclear."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same reddish-brown road line turns at about (910-935, 858) beside the farm with the red building and runs SSE past (950,900) and (965,950) to the bottom edge near u 975. The overlay line follows it.",
+      "uncertainty_note": "Where the line runs between the village field patches it partly merges with field outlines, so its exact course near v 880-920 could be off by 10-15 px."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "This is the NE continuation of the brown road from about (860,935) up to the bend at about (915,858), where it meets f02. A brown line is visible there along the edge of the farm block.",
+      "uncertainty_note": "I cannot tell whether f03 is a separate branch or just the end of the f01 road. The brown line could also continue north into the farmyard (about (905,840)) instead of only turning SE."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the bottom-left corner a thin orange-brown dotted line runs from the left edge at about v 920 down to the bottom edge near u 50, beside the small field patches. The neighbouring example reads this kind of line as Gångstig.",
+      "uncertainty_note": "The segment is short and at the tile corner. It could be a field or tomt outline with brown edging rather than a path."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The northern part follows a hair-thin, perfectly straight grey line at u ≈ 255-262. That line runs from the top edge across the whole tile (through about (245,600) to (240,1000)), crossing woodland, a stream and the heavy boundary without any change, which fits a construction or survey line, not a road symbol. The southern zig-zag (about (220,340)-(275,440)) crosses only forest stars, a small marsh and very faint pencil-like traces. I see no dotted or double road line there.",
+      "uncertainty_note": "Faint grey traces near (215-270, 250-340) might be a very faint path, but I cannot resolve any path dots there."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The long E-W part runs just south of a thin crimson line from (270,635) to (1000,597). The worked example reads this colour and weight as a boundary (Gräns), not a road. The pale strip along it is the edge of a lighter-tinted patch of paper (it also outlines the diagonal edge (270,635)-(320,460)), not a road band. The western leg (255,500)-(218,635) runs over plain forest with no drawn line at all.",
+      "uncertainty_note": "If the pale strip along the red line were meant as an undrawn road it would follow the red line, about 10-20 px north of the overlay course. I consider this unlikely because the strip outlines the whole patch."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[860, 948], [930, 940], [1000, 930]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j1"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A reddish line seems to run east from the brown road near (860,948) towards the right edge at about v 930, through the Slättebacken infields.",
+      "uncertainty_note": "Low confidence. It may be a reddish field or tomt boundary inside the village and not a road. I cannot see a double or dotted structure.",
+      "alternatives": ["field or tomt boundary inside the village (not a road)", "a path (dashed_line) between infields"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [912, 860],
+      "what_is_contested": "The number of branches. The brown road from the SW (f01/f03) meets the road running SSE (f02). It is unclear whether a third branch continues north into the farmyard by the red building at about (905,840), and whether f01 and f03 are one road or two.",
+      "evidence_note": "The brown lines merge with the farm-block outlines and the village wash here, so I cannot separate the branch ends."
+    },
+    {
+      "uv": [860, 948],
+      "what_is_contested": "Whether a junction exists at all. A possible eastward branch (m01) leaves the f01 road here.",
+      "evidence_note": "The reddish line towards the right edge could be a field boundary rather than a road, so this junction may not exist."
+    }
+  ],
+  "overall_note": "The only clearly drawn roads are the reddish-brown lines inside the Slättebacken village in the bottom-right corner (f01-f03), plus a possible short footpath in the bottom-left corner (f04). The heavy black line with the pink band from (0,515) to (1000,345), the thin crimson lines and the long-dashed diagonals look like boundaries (with colour band, crimson and skifte/hemman dashes), so I did not read them as roads. f05 and f06 follow a straight construction line and a boundary/paper-patch edge rather than drawn roads."
+}

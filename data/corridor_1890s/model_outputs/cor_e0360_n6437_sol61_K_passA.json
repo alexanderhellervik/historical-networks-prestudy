@@ -1,0 +1,128 @@
+{
+  "tile_id": "cor_e0360_n6437",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[51,94],[62,133],[76,173],[90,212],[104,252],[111,285],[112,317],[116,354],[130,393],[147,430],[159,449],[159,474],[147,509],[130,545],[117,575],[110,609],[101,642],[75,660],[45,678],[16,693],[0,704]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "One row of dark dots and short strokes follows a narrow orange-brown trace. No clearly separated pair of continuous casing lines is visible.",
+      "uncertainty_note": "The upper end merges with the broken outline and hatching. Junction j01 depends on reading f02 as a road.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The orange-brown trace appears continuous in places and could be treated as the primary line beneath the dark marks."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,279],[23,282],[48,290],[72,305],[91,313],[112,317]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A thin orange-brown line curves into f01, without visible paired casing or a regular sequence of dark dots. Black lettering partly overlaps its western portion.",
+      "uncertainty_note": "The orange trace is visible on both sides of the lettering, but its symbol is less distinctive than f01's dotted trace. Its status as a road, and consequently j01, is uncertain.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could instead be a land-use or parcel edge; no distinctive road casing is visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[555,0],[550,23],[540,54],[531,80],[521,94],[509,100],[488,94],[464,96],[437,106],[409,123],[384,144],[362,170],[346,194],[340,213],[338,231]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","dead_end"],
+      "evidence_note": "One narrow orange-brown stroke bends repeatedly. It has occasional darker flecks, but no clear second line, regular dashes or flanking tree symbols.",
+      "uncertainty_note": "The stroke visibly stops at [338,231]. Road interpretation is uncertain because the symbol is a plain coloured line.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "An unclosed land-use or property edge is also possible; the drawing does not distinguish that reading securely."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[0,753],[20,774],[45,796],[60,801],[84,792],[89,810],[83,842],[79,870],[78,891],[73,918],[80,938],[95,941],[123,932],[148,935],[163,947],[179,968],[178,991],[178,1000]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A single succession of dark dots and short strokes sits on an orange-brown trace. Its bends pass close to horizontal hatching; no separate continuous casing is clear.",
+      "uncertainty_note": "Some dark marks merge with nearby hatched-polygon outlines. Junction j02 is conditional on interpreting the faint f05 as a path.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "The thin orange backbone could be read as the main continuous line, with the dark marks superimposed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[78,891],[107,875],[141,855],[175,837],[213,819],[251,805],[285,793],[320,784],[359,773],[396,760],[428,750],[455,741],[475,744]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A very fine grey-blue succession of small dots crosses the unhatched spaces diagonally. It lacks orange backing and visible paired casing; the eastern end approaches heavier long black dashes.",
+      "uncertainty_note": "The dots are faint, especially near the eastern endpoint; waypoint positions there are approximate. No continuation through the heavier black line is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary or other survey line remains possible. Faintness makes the presence of any longer intervening marks difficult to establish."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[0,37],[18,57],[34,73],[51,94]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Heavy broken dark marks follow the edge of horizontal hatching toward f01. Brown-orange colouring is locally visible, but there is no independently resolved road line.",
+      "uncertainty_note": "This is a doubtful possible continuation of f01. The marks may belong entirely to the hatched-area outline; their separation cannot be read confidently.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The broken marks could continue the dotted route into the corner."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The same marks can be read as a land-cover outline rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [112,317],
+      "branch_count": 3,
+      "evidence_note": "The narrow orange line f02 reaches the dotted orange-backed f01, whose dark marks continue in both directions. Three branches are visible if f02 is a road; no junction symbol or casing is present."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [78,891],
+      "branch_count": 3,
+      "evidence_note": "Fine grey-blue dots extend northeast from the orange-backed dark dotted trace, which continues upward and downward. This gives three branches if f05 is a path; the contact is faint."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0,46,66,107],
+      "why": "Horizontal hatching, its broken dark outline and the possible route continuation merge."
+    },
+    {
+      "bbox_uv": [455,728,490,765],
+      "why": "The faint dotted line becomes difficult to separate from heavier black dashes and nearby coloured strokes."
+    },
+    {
+      "bbox_uv": [537,503,1000,631],
+      "why": "Large black lettering locally conceals fine linework within its strokes."
+    }
+  ],
+  "overall_note": "The western dotted orange-backed traces most closely resemble the worked example's paths. The plain orange strokes, faint diagonal dots and corner continuation admit other readings, recorded above. The long black dashes, red lines and blue-green outlines were read as boundaries or water/land-cover linework."
+}

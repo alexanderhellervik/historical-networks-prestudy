@@ -1,0 +1,135 @@
+{
+  "tile_id": "cor_e0369_n6438",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the left edge, around (0,415)-(60,402), a short brown band with dotted edges, like the brown roads elsewhere on the tile, runs into the hamlet marked T/B. The overlay follows it.",
+      "uncertainty_note": "The segment is very short and is crowded by building symbols, so its exact end inside the hamlet near (60-110,405-420) is unclear."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear brown dotted-edged band runs from about (335,428) through (440,355) and (470,342) to (640,342). It crosses the thin red line near (505,340). This matches the Sämre körväg drawing on the example sheet.",
+      "uncertainty_note": "The west end near (335,428) seems to stop at a field or forest edge. It may continue faintly beyond that."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted band runs from about (640,340) through (700,313) across the main red road, then on through (830,298) and (950,280) to the right edge near (1000,240).",
+      "uncertainty_note": "Between (640,340) and the main road, the band is short and faint. It is not fully certain that it crosses the main road rather than joining it."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A continuous brown dotted band runs from the f02/f03 junction at (640,342). It loops south past the small building at (650,410), then follows (655,445), (600,465), (550,468), (520,510), (445,585), (400,610) and (300,660) to the sheet seam near (275,688).",
+      "uncertainty_note": "Near (440,590) it runs close to where the blue line starts. The continuation across the sheet seam is offset by a few pixels."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the sheet seam, a broad brown band with dotted borders runs from about (272,692) through (240,750), (200,790), (130,830) and (60,860) to the left edge near (0,905). It looks like a continuation of f04.",
+      "uncertainty_note": "This part is on a different sheet, below the join, so the brown colour is slightly stronger. The band itself is clear."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short brown dotted line runs from the thin red line near (418,483), down past the letter T at (425,520), and joins f04 near (445,585).",
+      "uncertainty_note": "It is narrower than f02 and f04 and could be a single dotted path (Gångstig). It is unclear whether it continues north of the red line to the small buildings at about (410,450)."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "In the top-right corner, a brown dotted band runs from the top edge near (860,0) through (940,20) and (975,45) to the right edge near (1000,75).",
+      "uncertainty_note": "Only a short corner segment is inside the tile."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[442, 45], [490, 22], [540, 0]],
+      "evidence_note": "A brown dotted line leaves the main red road at about (442,45) and runs up to the right, reaching the top edge near (540,0). The overlay stops after roughly 40 px, near (480,30).",
+      "uncertainty_note": "The segment is right at the top margin and partly under the map frame and lettering, so the exact exit point is approximate."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the seam there is a line of heavy black dots, with a thin reddish line beside it, from about (90,765) to (245,690). Further west, a fainter dotted line continues to about (0,820). It has no brown road colour. Its single dot row could be the Gångstig symbol, but it could equally be a boundary dot pattern like the black dashed lines nearby.",
+      "uncertainty_note": "The line is either a footpath (Gångstig) or a property or field boundary, and the drawing does not settle which. If it is a path, its course matches the overlay."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The overlay runs about 10-15 px east of a thin, continuous red single line from (548,168) to (478,472), following a pale grey-green strip. There is no brown road band at this position. The thin red line connects to the long red line from the left edge to (478,475), and together they read as a coloured boundary. On the example sheet, a thin red line like this was read as Gräns. The pale strip looks like a ditch or meadow strip.",
+      "uncertainty_note": "Hand-coloured red could in principle mark a minor road. If so, the course would be the red line itself, (548,168)-(525,280)-(505,380)-(478,472), not the overlay's course."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[370, 0], [450, 55], [555, 160], [700, 305], [850, 466], [1000, 522]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j1"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "The main diagonal road is a wide double line with black edges and carmine fill (Landsväg/Bygdeväg). It crosses the whole tile from the top edge near u=370 to the right edge near v=522.",
+      "uncertainty_note": "None about whether this is a road or its class. The waypoints are within about 10 px.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[850, 470], [764, 588], [692, 690], [614, 798], [534, 898], [466, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j1"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A second wide double line with carmine fill branches from m01 at about (850,468). It runs southwest across the sheet seam at about (690,690) to the bottom edge near u=466.",
+      "uncertainty_note": "There is a small lateral offset at the sheet seam. Below the seam it might be drawn slightly narrower, but it is the same road.",
+      "alternatives": ["double_line_narrow"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [850, 468],
+      "what_is_contested": "The number of branches. It is a clear 3-way junction of m01 with m02, but the blue line from (440,590) to (1000,345) passes through the same point and could be misread as a fourth branch.",
+      "evidence_note": "The blue line is thin, single and uncased, which reads as a stream or ditch, not a road."
+    },
+    {
+      "uv": [640, 342],
+      "what_is_contested": "Which lines meet here: f02, f03 and f04. It is unclear whether f02 and f03 form one through road with f04 branching off, or whether f03 is a separate line that just ends here.",
+      "evidence_note": "The brown bands converge beside a building symbol at (650,350). The f03 segment between this point and the main road is short and faint."
+    },
+    {
+      "uv": [418, 483],
+      "what_is_contested": "Whether this is a junction at all. f06 meets the thin red line here, but it may simply end there or carry on north to the buildings around (410,450).",
+      "evidence_note": "The thin red line is read as a boundary, and no brown band is visible north of it."
+    },
+    {
+      "uv": [270, 690],
+      "what_is_contested": "Continuity and position across the sheet seam. f04 (upper sheet) and f05 (lower sheet) are probably one road, offset at the join. The dotted line f09 also ends here, so this may be a meeting of three lines.",
+      "evidence_note": "The dark seam line at v about 680-700 interrupts every line, and the two sheets do not register exactly."
+    },
+    {
+      "uv": [442, 45],
+      "what_is_contested": "Whether f08 branches off the main road here, and where it starts exactly.",
+      "evidence_note": "The brown dotted line touches the casing of the main road under the dark top-margin lettering."
+    }
+  ],
+  "overall_note": "The overlay captures the brown dotted-edged minor roads (Sämre körväg style) well. It misses both wide carmine main roads, m01 and m02, and cuts f08 short. f10 follows a pale strip beside a thin red line that reads as a boundary, and f09 cannot be told apart from a boundary. A faint, uncoloured pair of parallel lines from about (805,700) to (770,1000) was not counted as a road, because it carries no road colour."
+}

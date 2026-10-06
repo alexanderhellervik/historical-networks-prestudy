@@ -1,0 +1,298 @@
+{
+  "tile_id": "cor_e0370_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[307,0],[308,31],[297,65],[285,103],[266,139],[257,177],[251,215],[234,254],[220,298],[206,343],[194,390],[181,442],[177,500],[158,540],[150,580],[147,609],[129,630],[101,650],[68,673],[32,697],[0,723]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j01","j02","j06","j07"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two relatively heavy, continuous dark edges enclose a pale reddish strip roughly 10–18 px wide; a separate, broader coloured and outlined strip runs alongside on the left.",
+      "uncertainty_note": "The closely adjacent outlines make the exact centre difficult to place, especially around v=500–620. No alternating railway blocks are apparent.",
+      "alternatives": [{"proposed_class":"double_line_narrow","note":"The apparent width includes thick ink and colour spread; the underlying paired road edges may be narrower."}]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[251,215],[288,206],[327,197],[367,187],[409,176],[453,167],[503,155],[548,142],[594,128],[640,113],[687,97]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j05","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two close dark dotted or short-stroked margins flank a reddish centre; the paired band remains visible along the diagonal.",
+      "uncertainty_note": "The red overprint makes individual dots merge in places.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The margins are broken rather than continuously drawn."}]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[585,0],[611,24],[640,54],[668,80],[687,97],[716,125],[746,152],[767,182],[777,211],[807,243],[844,274],[879,299],[915,320],[956,338],[1000,353]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A diagonal band has two dark, closely spaced broken margins with red colour between them; its southeast portion shows especially distinct paired dots.",
+      "uncertainty_note": "A pale patch weakens the margins near [760,190], but their alignment on both sides supports continuity.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The paired edges consist mainly of dots and short strokes."}]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[297,65],[318,67],[340,69],[352,70]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A short, nearly horizontal pair of dark dotted edges leads into the black and red rectangular building symbols.",
+      "uncertainty_note": "Its terminal strokes merge with the building enclosure; no passage through that enclosure is asserted.",
+      "alternatives": [{"proposed_class":"unknown","note":"Some terminal strokes could belong to the dotted enclosure rather than an access track."}]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[404,77],[429,80],[454,80],[472,84],[470,65],[463,43],[460,20],[458,0]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","edge_of_tile"],
+      "evidence_note": "Close dark dotted strokes run beside the eastern building enclosure, turn near [472,84], and continue upward beside a thin red line.",
+      "uncertainty_note": "The horizontal strokes may be enclosure edges, and the upward strokes may mark a property division. The connection around the bend is less clear than the other paired tracks.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"If the two dotted margins form a continuous access track, this is its visible course."},
+        {"proposed_class":"unknown","note":"Alternatively these are adjoining enclosure and boundary lines, with no road connection."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[503,155],[489,185],[477,216],[463,250],[449,283],[434,318],[423,353],[413,387],[410,421],[400,453],[375,484],[352,515],[326,550],[300,585],[269,624]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05","j08"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two close rows of dark dots descend from the upper diagonal, bend alongside black and red building rectangles, and continue southwest; short turquoise strokes occur alongside.",
+      "uncertainty_note": "The pale patches and building outlines weaken the upper-middle margins. The lower paired dots are clearer.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The road edges are dotted throughout much of the course."},
+        {"proposed_class":"unknown","note":"Some strokes beside the upper building could instead belong to its enclosure."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[777,211],[756,248],[734,285],[711,323],[688,361],[666,398],[643,437],[620,475],[598,514],[579,550],[558,587],[537,625],[530,640]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow pair of dark dotted edges follows the steep southwest diagonal; a stronger red straight stroke accompanies its upper portion.",
+      "uncertainty_note": "The dotted course disappears into the pale repairs near [530,640]. It may continue to f11, but the intervening drawing is insufficient to assert that connection.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The visible margins are composed of separate dots and short strokes."},
+        {"proposed_class":"unknown","note":"Part of the upper symbol could be a boundary alongside, or instead of, a track; the strong red stroke alone is not treated as a road."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[777,211],[784,242],[781,280],[777,319],[775,358],[776,398],[783,433],[803,464],[826,501],[851,540],[866,565],[874,580],[864,605],[847,633],[826,662],[807,690],[791,714],[778,737]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j04","j14","j13"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Close dotted margins descend almost vertically, then bend southeast and southwest. Darker short strokes occur along the sloping middle section and beside the garden and building symbols below.",
+      "uncertainty_note": "Lettering overlaps the bend around [874,580]. The margins on either side support the indicated continuation, although a boundary interpretation remains possible for the upper portion.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Most visible edges are broken or dotted."},
+        {"proposed_class":"unknown","note":"The nearly vertical upper segment could be a dotted property boundary rather than a track."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[177,500],[196,529],[222,566],[249,603],[269,624],[291,663],[317,702],[342,747],[355,781],[364,816]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j06","j08","j09"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two narrow rows of dark dots form a southeast diagonal, with a visible oblique branch joining around [269,624]; the lower end meets another paired dotted band.",
+      "uncertainty_note": "The pale rectangle partly weakens the final section, but dots remain visible approaching the lower meeting.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The paired margins are dotted, without continuous casing."}]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[147,609],[164,631],[181,651],[195,671],[208,690]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07"],
+      "endpoint_flags": ["junction","dead_end"],
+      "evidence_note": "A short pair of dark dotted lines leaves the solid-edged band and runs beside red and black rectangular building marks.",
+      "uncertainty_note": "The final dots merge into the black building and enclosure strokes.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The access is represented by broken dotted edges."}]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[476,753],[461,775],[443,794],[431,820],[424,848],[426,878],[432,908],[436,930]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j10","j11"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "Paired dark dotted strokes emerge beside the lower lettering patch, meet a transverse dotted band, and bend down alongside black building and garden outlines.",
+      "uncertainty_note": "The north end is hidden by the pale repair. A connection to f07 is plausible but unconfirmed; strokes next to the buildings are partly merged.",
+      "alternatives": [{"proposed_class":"unknown","note":"Some of the southern strokes may be enclosure edges rather than the continuation of the track."}]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[111,978],[145,966],[181,955],[217,948],[246,944],[283,940],[323,937],[365,934],[406,932],[436,930],[477,926],[510,923],[530,922],[532,900],[530,874],[526,853],[567,829],[607,803],[648,782],[690,766],[734,751],[778,737],[821,723],[864,714],[910,707],[954,697],[981,689],[1000,680]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j12","j11","j13"],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Two rows of dark dots run across the lower tile, turn along the right side of a rectangular garden enclosure, and continue northeast before curving east; their spacing is generally about 8–12 px.",
+      "uncertainty_note": "Building and enclosure marks obscure the western continuation. The turn near [526,853] lies against a pale patch, but the dotted approach and departure support the bend.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The paired edges are broken rather than solid."},
+        {"proposed_class":"unknown","note":"The short north–south section beside the lower garden might be an enclosure edge joining two separate tracks."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[246,944],[243,916],[239,886],[228,846],[264,837],[309,828],[346,821],[364,816],[401,804],[443,794]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j12","j09","j10"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A paired dotted band turns from a near-vertical leg into an east-northeast course; two other dotted diagonals meet it at separate positions.",
+      "uncertainty_note": "A pale rectangle weakens the corner and middle section. Remaining dots support the course, but the exact corner near [228,846] is approximate.",
+      "alternatives": [{"proposed_class":"dashed_line","note":"The edges are rows of dots and occasional short strokes."}]
+    },
+    {
+      "feature_id": "f14",
+      "waypoints_uv": [[246,944],[249,969],[251,992],[252,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j12"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "Faint narrow broken strokes continue downward from the lower transverse dotted band; nearby red lettering partly overlaps them.",
+      "uncertainty_note": "The short continuation could be a path, but the drawing does not clearly distinguish it from a parcel or enclosure line.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"The faint broken continuation may represent a minor path."},
+        {"proposed_class":"unknown","note":"Alternatively it is a non-road division; in that reading j12 has three road branches."}
+      ]
+    },
+    {
+      "feature_id": "f15",
+      "waypoints_uv": [[436,930],[435,953],[433,977],[434,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j11"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A fine, nearly vertical dark line with faint neighbouring broken marks extends below the lower dotted band; slight blue-green colour occurs alongside.",
+      "uncertainty_note": "This may be a minor path, a ditch, or an enclosure continuation. The symbol is too weak to distinguish those readings.",
+      "alternatives": [
+        {"proposed_class":"single_line","note":"If read as a path, its clearest component is a single fine line."},
+        {"proposed_class":"unknown","note":"If it is a ditch or boundary, j11 has three road branches."}
+      ]
+    },
+    {
+      "feature_id": "f16",
+      "waypoints_uv": [[874,580],[910,581],[944,574],[975,559],[1000,545]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j14"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow dark broken band, locally showing two close rows, leaves the bend beneath heavy italic lettering and curves toward the right edge.",
+      "uncertainty_note": "The lettering conceals the attachment and part of the paired pattern. A road branch is supported but not certain; it could instead be a dotted division.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"The locally paired dots resemble the clearer tracks elsewhere on the tile."},
+        {"proposed_class":"unknown","note":"If the strokes are a boundary rather than a road, j14 has only two road branches and is not a road junction."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [297,65],
+      "branch_count": 3,
+      "evidence_note": "A short horizontal pair of dotted strokes attaches to the east side of the continuous paired dark band, whose two through branches remain visible."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [251,215],
+      "branch_count": 3,
+      "evidence_note": "The red-centred paired dotted diagonal terminates against the continuous dark double line, forming a three-arm meeting."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [687,97],
+      "branch_count": 3,
+      "evidence_note": "Three red-centred arms with close broken dark margins converge: southwest, northwest and southeast."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [777,211],
+      "branch_count": 4,
+      "evidence_note": "The paired dotted diagonal continues northwest–southeast while a steep southwest dotted band and an almost vertical dotted band leave its bend; pale repair weakens the precise attachment."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [503,155],
+      "branch_count": 3,
+      "evidence_note": "A descending pair of dark dotted strokes attaches to the lower side of the red-centred paired diagonal, which continues in both directions."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [177,500],
+      "branch_count": 3,
+      "evidence_note": "A southeast pair of dotted strokes leaves the right margin of the continuous dark paired band; both through directions remain visible."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [147,609],
+      "branch_count": 3,
+      "evidence_note": "A short southeast dotted pair departs beside the bend of the solid paired band and runs toward black rectangular symbols."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [269,624],
+      "branch_count": 3,
+      "evidence_note": "Three close dotted bands meet in a Y: northwest, northeast and southeast; individual dark dots remain visible around the centre."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [364,816],
+      "branch_count": 3,
+      "evidence_note": "A southeast-descending dotted pair ends at the west–east dotted band; the pale rectangle weakens but does not entirely remove the meeting strokes."
+    },
+    {
+      "junction_id": "j10",
+      "uv": [443,794],
+      "branch_count": 3,
+      "evidence_note": "A transverse dotted pair joins the southwest-descending paired track, which continues toward the black building marks below."
+    },
+    {
+      "junction_id": "j11",
+      "uv": [436,930],
+      "branch_count": 4,
+      "evidence_note": "The lower paired dotted band has west and east arms, a dotted approach from the north and a faint fine continuation south; the fourth arm is uncertain."
+    },
+    {
+      "junction_id": "j12",
+      "uv": [246,944],
+      "branch_count": 4,
+      "evidence_note": "The lower dotted band continues west–east, with a clearer paired leg north and a faint broken continuation south beside red lettering; the fourth arm is uncertain."
+    },
+    {
+      "junction_id": "j13",
+      "uv": [778,737],
+      "branch_count": 3,
+      "evidence_note": "The lower curved paired dotted band continues southwest and east while another dotted band descends beside the garden enclosure from the north."
+    },
+    {
+      "junction_id": "j14",
+      "uv": [874,580],
+      "branch_count": 3,
+      "evidence_note": "A dotted course bends from northwest to southwest, with a faint eastward broken band beneath heavy lettering; the eastward road interpretation is uncertain."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [579,174,832,226],
+      "why": "A pale rectangular repair weakens the diagonal margins and the exact upper fork position."
+    },
+    {
+      "bbox_uv": [374,225,883,484],
+      "why": "Several overlapping pale rectangular patches interrupt fine strokes around the lettering. This bounding box includes readable portions, which are traced where margins survive."
+    },
+    {
+      "bbox_uv": [477,641,628,743],
+      "why": "Stepped pale repairs conceal the intervening course between the upper southwest track and its possible lower continuation."
+    },
+    {
+      "bbox_uv": [476,743,577,848],
+      "why": "Lettering and pale rectangular repairs hide fine lines above and beside the lower building enclosure."
+    },
+    {
+      "bbox_uv": [170,745,372,848],
+      "why": "A pale lettering repair weakens the lower diagonal and transverse dotted margins; only surviving strokes support the reported courses."
+    }
+  ],
+  "overall_note": "The clearest tracks have paired dotted margins, while the western through line has continuous paired edges. Pale rectangular repairs and heavy lettering conceal several attachments, so the long southwest course is reported in separate pieces. Faint lower continuations and the rightward branch retain explicit boundary, enclosure or ditch alternatives."
+}

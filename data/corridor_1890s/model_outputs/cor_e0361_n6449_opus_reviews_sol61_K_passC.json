@@ -1,0 +1,109 @@
+{
+  "tile_id": "cor_e0361_n6449",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange-brown line runs from the top edge near (660,0) down-left via (640,50) and (610,100) to about (575,135). This is the same thin coloured stroke that the worked example reads as Gångstig, and it is not a black dashed or dotted boundary.",
+      "uncertainty_note": "The stroke is faint and crosses green stream lines near the top; the exact meeting point with f03/f04 is uncertain by about 10 px."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [[615, 985], [560, 900], [500, 810], [430, 700], [365, 620], [330, 575], [310, 545], [340, 490], [375, 440], [400, 400], [430, 340], [455, 300], [468, 268]],
+      "evidence_note": "A brown hatched double line clearly runs from the bottom near (615,985) NW to a bend at (310,545). From there it runs NE along the forest edge to the 'T' (torp) mark of Kohagen at about (470,265). The overlay continues it NE from (480,255) to (575,140). On the bare tile that stretch shows only black dashed/solid boundary lines and the edge of the green meadow, with no brown road stroke.",
+      "uncertainty_note": "The overlay also tracks this road correctly. The only disagreement is the final leg beyond the torp, which I read as not drawn. The road probably ends at the torp, but a faint link to the path junction at (575,135) cannot be wholly excluded."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin orange line leaves the top edge near (425,0), curves through (460,50) and (535,85), and reaches about (575,135). It is the same stroke style as f01 and f04.",
+      "uncertainty_note": "This could be a coloured land-type edge rather than a path. Its smooth curve and its meeting with the other orange strokes make a path more likely."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A faint thin brown-orange line runs from about (580,145) south through the enclosed meadow via (595,250) and (615,320) to its SW corner near (640,375). The overlay follows it.",
+      "uncertainty_note": "The line is very faint inside the enclosure, and its course in the upper part (580-600, 150-250) runs close to the dark blue stream, so it is hard to separate. Its end at the enclosure corner may be a dead end."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown hatched double road runs from the bottom edge near (785,1000) NE to the sheet seam at u~845, about (840,915). It continues on the right-hand sheet. The overlay follows it.",
+      "uncertainty_note": "The two map sheets are joined at u~845-850 with a small offset, so the exact course across the seam is approximate."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown double road runs on the right-hand sheet from about (850,890) NE to about (945,785), where f08 branches off. The overlay polyline lies on it.",
+      "uncertainty_note": "The road is wider and darker here than on the left sheet, so it could be double_line_wide. I keep narrow for consistency with its continuation."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown double road continues from (945,785) NE to the right edge near (1000,700).",
+      "uncertainty_note": "The class is the same open question as for f06."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrower brown line, paired with a dark line, branches SE from the road near (945,790) to the right edge near (1000,860).",
+      "uncertainty_note": "It is narrower than the main road and could be a single brown line next to a parcel boundary. In that case the class would be single_line."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin brown line leaves the road just right of the seam at about (852,892) and runs south/SE below the '2G' label towards the farm buildings ('42') and the bottom edge.",
+      "uncertainty_note": "It is short and partly overlaps the seam and the parcel lines around the farm. Its exact end (the farm at about (930,960) or the bottom edge) is not clear."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Only the label is visible, at the top-left corner (about (20,8)). That corner of the bare tile holds hill hachures and green stream/meadow lines, with no road, track or path stroke.",
+      "uncertainty_note": "No visible polyline is drawn for f10 on the overlay. If it is a tiny stub along the top edge, I still see no road symbol under it."
+    }
+  ],
+  "features": [],
+  "contested_junctions": [
+    {
+      "uv": [575, 135],
+      "what_is_contested": "The number of branches. Three thin orange paths (f01, f03, f04) meet here. The overlay adds a fourth branch (the f02 extension from the Kohagen torp), which I do not see drawn.",
+      "evidence_note": "The orange strokes from north-west, north-east and south converge near (570-580, 125-145), where a dark blue stream also passes. No brown stroke links this point to (470,265)."
+    },
+    {
+      "uv": [468, 268],
+      "what_is_contested": "Whether this is a dead end of the brown road at the Kohagen torp or a junction from which the road continues NE.",
+      "evidence_note": "The brown road ends at the 'T' symbol after 'Kohagen'. Only black boundary lines continue beyond it."
+    },
+    {
+      "uv": [848, 892],
+      "what_is_contested": "The exact position of the junction where f09 leaves the main road. It lies right on the join between two map sheets, which are slightly offset.",
+      "evidence_note": "There is a vertical seam at u~845-850. The road segments on either side (f05, f06) do not line up exactly."
+    },
+    {
+      "uv": [945, 787],
+      "what_is_contested": "Whether f08 is a road branch (a three-way junction) or a brown-edged parcel boundary touching the road.",
+      "evidence_note": "The SE-running line is narrower than the main road, though it has the same brown colouring."
+    }
+  ],
+  "overall_note": "The main brown double road (f02) is real but ends at the Kohagen torp; I see no road on the overlay's extension NE to (575,135). The thin orange strokes in the north (f01, f03, f04) read as footpaths, as the thin orange line is read in the worked example. Black dashed lines are boundaries, and black dotted lines along the green meadow strips look like land-type edges rather than Gångstig; the dark blue line is a stream, so I recorded no missed roads."
+}

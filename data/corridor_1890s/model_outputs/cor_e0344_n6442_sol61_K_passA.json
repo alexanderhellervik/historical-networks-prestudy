@@ -1,0 +1,51 @@
+{
+  "tile_id": "cor_e0344_n6442",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 103], [39, 126], [81, 152], [121, 177], [151, 194]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "One thin, pale grey diagonal trace is visible, without clear casing or regularly spaced dots; conifer symbols occur on both sides.",
+      "uncertainty_note": "A path is possible, but the trace could be a boundary or surface mark. It becomes indistinguishable at the broad diagonal crease; no continuation is reported.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If this is a path, its visible portion appears to use one continuous stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: a faint boundary or mark on the sheet."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0, 894], [30, 883], [60, 872], [83, 864], [104, 855], [112, 857], [119, 866], [134, 860], [144, 869]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A thin dark trace runs approximately parallel to a heavier blue stroke, enclosing a pale strip roughly 10–18 px wide; the thin trace makes several small angular bends.",
+      "uncertainty_note": "This could be a short cased track, but the thin stroke also resembles a filled-area boundary beside a watercourse. The strokes converge near the eastern endpoint, where a separate road continuation cannot be established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible track reading if both parallel strokes constitute one road symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road reading: the upper stroke bounds the adjoining filled area and the heavier blue stroke represents water."
+        }
+      ]
+    }
+  ],
+  "junctions": [],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [126, 175, 174, 214],
+      "why": "The broad diagonal crease masks the endpoint and any continuation of the faint upper-left trace."
+    }
+  ],
+  "overall_note": "No unequivocal road symbol is visible; both reported features are doubtful candidates. The bold blue lines connected to the lake appear to be watercourses, while the other prominent outlines follow coloured or hatched areas. Faint strokes and the diagonal crease make the two candidate readings uncertain."
+}

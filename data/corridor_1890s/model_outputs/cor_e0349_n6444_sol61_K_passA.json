@@ -1,0 +1,142 @@
+{
+  "tile_id": "cor_e0349_n6444",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[370, 0], [349, 15], [339, 43], [322, 69], [296, 94], [282, 117], [274, 148], [272, 178], [268, 205], [259, 225], [238, 239], [212, 248], [186, 257], [165, 271], [150, 296], [130, 307], [118, 325], [114, 341], [118, 360], [113, 377], [95, 395], [80, 414], [69, 438], [60, 462], [53, 483], [43, 508], [40, 537], [35, 568], [35, 597], [39, 620], [32, 643], [19, 666], [0, 686]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A winding, continuous reddish stroke, approximately 3–5 px wide, has a narrow dark edge in places. No consistently separated pair of outlines or flanking tree rows is visible; it crosses blue strokes and horizontal hatching.",
+      "uncertainty_note": "The course is readable, but identification as a road is uncertain: the continuous red treatment also permits a boundary reading. Apparent dark edging is insufficient to establish narrow double-line casing.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a red property or other boundary rather than a road."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches could be a narrow red-filled road between dark outlines, but two separate outlines are not consistently resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[17, 861], [33, 850], [47, 840], [57, 830], [75, 838], [97, 839], [109, 828], [113, 808], [128, 796], [146, 794], [166, 781], [183, 769], [191, 751], [196, 727], [202, 702], [208, 685], [226, 674], [251, 665], [278, 655], [306, 646], [334, 631], [360, 617], [388, 607], [419, 596], [447, 591], [478, 586], [503, 581], [525, 568], [547, 546], [566, 522], [583, 497], [593, 479], [610, 468], [632, 456], [658, 444], [681, 429], [704, 412], [728, 398], [747, 382], [767, 363], [791, 347], [815, 332], [838, 317], [860, 300], [879, 281]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One chain of conspicuous dark round dots, roughly 4–7 px across and generally 12–20 px apart, follows a winding diagonal. A faint ochre or reddish trace lies beneath portions; there is no continuous casing or second parallel dot row.",
+      "uncertainty_note": "The marks are dots rather than elongated dashes; dashed_line is used for this interrupted symbol. Lettering confuses the southwestern continuation and hides the northeastern continuation, so neither gap is completed. The red branch at j01 may instead be a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A strictly literal classification could leave the single dotted symbol unknown because dotted_line is not an available class."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The northeastern dots may connect to f03 beneath the lettering, but that connection and its precise course are unresolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[1000, 86], [991, 101], [983, 114], [978, 126]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short diagonal chain of dark separated marks with a narrow reddish or ochre trace enters the right edge. Its lower end approaches a heavy black italic letter stroke; no separate continuous casing is clear.",
+      "uncertainty_note": "The exposed fragment appears to share f02's dotted treatment, but the lettering prevents a certain connection. The exact lower endpoint is approximate where dots begin to merge with the letter.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short exposed fragment does not resolve whether the marks belong to a dotted path or a closely marked, narrow road."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possibly the continuation of f02 through the intervening lettering; retained as a separate fragment."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[146, 794], [160, 802], [181, 806], [201, 803], [221, 794], [242, 786], [263, 785], [284, 790], [305, 798], [329, 808], [352, 819], [376, 831], [400, 843], [424, 852], [445, 869], [463, 889], [481, 909], [503, 922], [528, 930], [550, 931], [575, 927], [601, 917], [626, 908], [652, 899], [674, 894], [686, 890]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A continuous, thin reddish line with intermittent dark edging leaves the dotted chain and curves across horizontal hatching below the large lettering. It crosses a thick blue stroke near its eastern end and reaches the straight red north–south line.",
+      "uncertainty_note": "Road identity is uncertain because a boundary could have the same red treatment. The eastern endpoint is the visible contact with the straight red line, not evidence of a physical road terminus; no road continuation is established there. The contact at j01 is approximate.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a winding property boundary; in that reading j01 is not a road junction."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Intermittent dark edging might represent two close outlines with red between them, but the separation is not consistently visible."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[807, 736], [786, 750], [762, 762], [746, 774], [735, 795], [729, 822], [724, 849], [718, 876], [712, 903], [707, 927], [699, 950]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "dead_end"],
+      "evidence_note": "One narrow continuous red stroke curves southwest from the dark vertical sheet join, with occasional dark edging. It crosses a black dashed line and several thin blue-green strokes before contacting the straight red line near its lower end.",
+      "uncertainty_note": "This could be a boundary rather than a road. The northeastern course disappears at the sheet join; the southwestern endpoint marks the visible contact with the straight red line, without establishing a road continuation.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a curved red boundary connecting with the straight north–south boundary."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "A close pair of dark edges around the red stroke is possible, but not clearly resolved."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[776, 1000], [789, 980], [802, 966], [810, 955]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A short, thin reddish stroke with a darker edge enters through the bottom and bends northeast toward the sheet join. No dot row, wide casing or flanking symbols is distinguishable.",
+      "uncertainty_note": "The fragment is road-like but could be a red boundary. Its continuation near the sheet join is not sufficiently distinct to trace or connect to another feature.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Possibly a boundary fragment rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [146, 794],
+      "branch_count": 3,
+      "evidence_note": "The single dark dotted chain continues southwest and northeast, while a thin continuous red stroke appears to touch it and leave toward the southeast. This is a provisional three-branch road junction: if the red stroke is a boundary, only the through path remains."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [0, 850, 29, 893],
+      "why": "Heavy black lettering merges with the southwestern end of the dotted trace, preventing a certain trace to the edge."
+    },
+    {
+      "bbox_uv": [878, 126, 981, 284],
+      "why": "Large italic lettering overlaps the possible connection between f02 and f03; letter strokes and path marks cannot be reliably separated throughout the gap."
+    },
+    {
+      "bbox_uv": [799, 723, 831, 752],
+      "why": "The dark sheet join hides or interrupts the continuation of f05."
+    },
+    {
+      "bbox_uv": [798, 944, 830, 978],
+      "why": "The short red fragment f06 becomes indistinct near the sheet join."
+    }
+  ],
+  "overall_note": "The diagonal dotted path is the clearest road or track symbol; the winding red candidates retain boundary alternatives. The straight red north–south line, black boundary dash patterns, and blue-green water lines are read as non-roads using the worked example, so their crossings do not create road junctions. Lettering and the sheet join prevent several continuations from being established."
+}

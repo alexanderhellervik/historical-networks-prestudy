@@ -1,0 +1,130 @@
+{
+  "tile_id": "cor_e0362_n6431",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The broad brown-filled double road runs from the bend at about (410,545) south-west past (300,610), (170,665) and (60,690) towards the house at the west edge, and the polyline sits on it.",
+      "uncertainty_note": "Under the road colour I could not see whether f01 also covers the stretch from (545,410) to (410,545). The class is inferred from width and colour, read against the Landsväg/Bygdeväg symbol."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "partly_agree_course_differs",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [[650, 215], [628, 250], [605, 290], [588, 335], [565, 380], [545, 408]],
+      "evidence_note": "There is only one road between (650,215) and (545,410): the broad brown main road. f02 runs about 25-35 px east of it, over the purple boundary and the farm marks near 'Skenet', where nothing separate is drawn as a road.",
+      "uncertainty_note": "f02 may be meant as the middle part of the main road, or as an upward continuation of f05. Either way the drawn road is the main-road band, not the course shown."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_wide",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The broad brown double road enters at the top edge near u=600 and curves through (630,110) and (648,180) to (650,215). The polyline follows it.",
+      "uncertainty_note": "The class depends on reading this brown band as the wider Landsväg/Bygdeväg symbol."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thinner brown road runs north-east above 'Grill…' from about (700,150) through (760,115) and (860,75). The polyline follows it.",
+      "uncertainty_note": "The polyline appears to stop near (920,50), but the brown line goes on to the top edge near (990,5) (added as m02). The road may be a single brown line, not a narrow double one."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown road leaves the main road near (550,405), arches east over 'Skenet' to (700,430), and runs south past (760,560), (805,650) and (840,790) to the right edge near (1000,910). The polyline follows it closely.",
+      "uncertainty_note": "Where it meets the main road at its west end is uncertain (see contested junctions). Its width is between the main road and the thin lines."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted line runs from the top edge near (455,0) down through (452,100) and curves to the farm '3 T' at about (415,210). This is the Gångstig form.",
+      "uncertainty_note": "None that matters. The exact end at the farm buildings is a few px uncertain."
+    },
+    {
+      "reviewed_feature_id": "f07",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A dotted path runs from the house at about (290,305) south-east through (340,370) and (365,440) towards the main road. The polyline lies on it.",
+      "uncertainty_note": "The polyline stops near (380,510). The dots appear to go on to the main road near (405,535), so the end may be truncated. Near (380,500) a short solid black curve also bends east and could be part of the same route."
+    },
+    {
+      "reviewed_feature_id": "f08",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A short brown link runs from the main road at about (650,215) east to (690,205), where the north-east road (f04) turns up. This short segment is drawn in brown.",
+      "uncertainty_note": "It is short, and it could equally be counted as the first metres of f04."
+    },
+    {
+      "reviewed_feature_id": "f09",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At the west edge the main road reaches a house at about (35,712). The polyline runs from there to the edge at about (0,770), where the drawing is crowded by the house, the field edges and the brown road ends.",
+      "uncertainty_note": "I cannot tell whether the brown road leaves the tile at about v=720-735 (straight on) or turns south-west to about v=770 as f09 draws it. If it goes straight on, f09 is off course."
+    },
+    {
+      "reviewed_feature_id": "f10",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Two thin parallel black lines run straight from about (310,740) to (470,855) across the 'Torpet II' field. They carry no brown road colour.",
+      "uncertainty_note": "Uncoloured parallel thin lines could be a minor cart track, a ditch pair or a field division. In the worked example uncoloured lines were not roads, which argues against f10, but the double form also fits a körväg."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[480, 588], [420, 615], [360, 640], [300, 672]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "South of the main road and parallel to it, a faint thin dotted or double line runs from near (480,588) west-south-west to about (300,672), through the conifer and tree symbols.",
+      "uncertainty_note": "It is faint, with no brown colour. It may be a Sämre körväg drawn as a dotted double line, or a field or meadow edge. Both ends are unclear.",
+      "alternatives": ["dashed_line (Sämre körväg / Gångstig)", "not a road: field or meadow edge"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[920, 50], [960, 28], [992, 6]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "The brown north-east road (f04) goes on beyond where the overlay stops and reaches the top edge near (990,5).",
+      "uncertainty_note": "This may be only a truncation of f04 rather than a separate missed road.",
+      "alternatives": ["merge into f04"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [550, 405],
+      "what_is_contested": "Where and how the Skenet road (f05) joins the main road. The proposal links it to f02, which runs east of the main road; I read the branch as leaving the main road band itself at about (545-560, 400-410).",
+      "evidence_note": "The brown curve of f05 meets the main road where purple boundaries also cross, so the exact meeting point is a few tens of px uncertain."
+    },
+    {
+      "uv": [650, 215],
+      "what_is_contested": "This is a three-way junction: main road north (f03), main road south (f02 or the main band), and the brown link east to the north-east road (f08/f04). Whether f08 is a separate segment or the start of f04 is a matter of segmentation.",
+      "evidence_note": "The brown road bends sharply here, and a purple boundary leaves south-east from nearly the same point."
+    },
+    {
+      "uv": [405, 540],
+      "what_is_contested": "Whether the dotted path (f07) and the short solid curve near (380,500) reach the main road here, and so whether this is a junction at all.",
+      "evidence_note": "The main road bends at this point, and the dotted line and the black curve fade into boundary lines just before the brown band."
+    },
+    {
+      "uv": [38, 712],
+      "what_is_contested": "Whether the main road divides at the house by the west edge (f01 straight on and f09 south-west) or leaves the tile as a single line.",
+      "evidence_note": "The house symbol, the field outlines and the road edges overlap within about 40 px of the edge."
+    }
+  ],
+  "overall_note": "The tile has a broad brown main road (top edge to the west edge), a brown north-east road and a brown road curving south-east, plus two dotted footpaths, and the proposal captures all of these. Its main error is f02, which runs east of the main road instead of on it; f09 and f10 cannot be decided from the drawing. The purple lines are boundaries and are not read as roads."
+}

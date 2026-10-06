@@ -1,0 +1,246 @@
+{
+  "tile_id": "cor_e0350_n6438",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[1000,379],[975,397],[951,419],[933,440],[922,459],[920,486],[925,514],[920,542],[906,565],[886,586],[861,608],[833,630],[802,650],[771,673],[740,698],[710,724],[681,751],[655,778],[634,809],[618,841],[606,874],[600,910],[596,950],[593,990],[592,1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j03","j04","j05"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A broad red-brown band, approximately 12–18 px wide, lies between two heavy, substantially continuous dark edges.",
+      "uncertainty_note": "Lettering overlaps the middle section, but both margins remain traceable on either side. The narrower eastern connection at j04 is less distinct than the main band.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,420],[38,430],[79,431],[112,441],[138,461],[156,492],[165,521],[173,548],[191,568],[225,583],[262,606],[296,629],[331,649],[343,681],[351,716],[374,742],[396,760],[405,778],[400,808],[403,842],[432,859],[467,880],[505,902],[539,930],[566,960],[593,990]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j05","j06"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre to reddish strip has dark margins, much of them rendered as closely spaced dots or short marks; its width is mostly about 5–9 px.",
+      "uncertainty_note": "The margins become indistinct beneath the central lettering and at small black symbols. The dotted western connection at j06 may instead be a boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Several stretches resolve primarily into two rows of dark dots rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[331,649],[354,628],[376,607],[396,588],[414,563],[437,531],[462,495],[488,458],[514,428],[542,391],[566,354],[585,325],[591,301],[599,276],[610,250],[606,224],[600,199],[605,174],[613,151]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "An ochre strip runs between a fine dark edge and a conspicuous row of dark dots; the paired marks are clearest along the long diagonal.",
+      "uncertainty_note": "The southwest portion passes beneath lettering, with matching marks visible on both sides. At the horizontal sheet seam, its endpoint does not align closely enough with f04 to assert continuity.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Near the upper symbols, one margin merges with black polygon outlines and the paired road symbol is less clear."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[638,144],[652,116],[674,89],[698,60],[724,35],[753,14],[782,0]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Closely spaced heavy dark dots follow a faint ochre trace beside the hatched polygon; continuous parallel casing is not clearly visible.",
+      "uncertainty_note": "The lower end disappears into the sheet seam. It may continue as f03, but the visible endpoints are displaced.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The faint ochre trace and adjacent dark marks could be the degraded margins of a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted boundary beside the hatched polygon remains a possible reading."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[585,325],[607,351],[629,379],[653,412],[674,448],[688,482],[703,524],[714,565],[734,601],[762,626],[782,641],[802,650]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A thin ochre band has a fine dark margin and repeated dark dots along the opposite side; both converge into the broad red band at its southeast end.",
+      "uncertainty_note": "Large lettering masks short portions near both ends. The visible ochre strip and marginal dots support carrying the line through those portions.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some central stretches show only one continuous stroke beside dots, making the exact symbol form uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[1000,63],[978,94],[956,123],[934,149]],
+      "proposed_class": "dashed_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A diagonal ochre trace with repeated dark dots runs along the southeast side of the hatched area.",
+      "uncertainty_note": "Its lower end meets the sheet seam; f07 begins nearby below it, but the displacement prevents a certain connection.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The dotted marks could belong to a boundary following the hatched area's edge."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[913,159],[902,184],[894,212],[891,244],[891,279],[886,315],[878,348],[864,379],[846,405],[829,423]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A narrow ochre stroke descends with dark marks beside it; portions show an apparent second edge, while others merge with dotted polygon outlines.",
+      "uncertainty_note": "The upper connection across the seam is unresolved. The lower end enters a small outlined, orange-filled symbol, so a connection to f08 or f09 is not asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre stroke and flanking dark marks may represent a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A property boundary with colour along one side is also consistent with parts of the drawing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[643,259],[666,278],[693,299],[720,320],[746,344],[768,370],[790,397],[813,414]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A faint diagonal ochre trace lies beside intermittent dark marks and heavier dotted outlines; separate parallel margins are not consistently distinguishable.",
+      "uncertainty_note": "This is a doubtful road candidate. Black symbols and lettering conceal its northwest connection, and the southeast end merges with an outlined symbol; no junction is claimed at either end.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The ochre trace could be a narrow road whose margins overlap nearby outlines."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The trace may instead be part of a field or property boundary; its course through the dotted outlines is uncertain."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[842,437],[864,450],[884,466],[903,478],[920,486]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin pale ochre connector with intermittent dark edging approaches the west margin of the broad red road.",
+      "uncertainty_note": "The northwest end is lost among small outlines and dots. Its apparent meeting with f01 is visible, but this short trace could be a boundary rather than a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Faint paired edging suggests a narrow road."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A boundary terminating against the broad road is a competing interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[0,867],[43,869],[86,872],[128,877],[169,881],[207,887],[249,889],[289,886],[328,873],[366,856],[403,842]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j06"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Repeated dark dots form a roughly horizontal, then northeast-curving trace; locally a second dotted row appears, without dependable continuous casing.",
+      "uncertainty_note": "This is a doubtful road candidate: much of the trace follows a coloured polygon edge. Its apparent meeting with f02 is included as a conditional junction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dots could depict a path or a degraded dotted track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted parcel boundary is an equally plausible interpretation."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[0,816],[27,798],[57,781],[88,764],[115,752],[140,746]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A short diagonal chain of dark dots and small marks lies along a pale ochre and green colour boundary; no clear casing is visible.",
+      "uncertainty_note": "A path is possible, but the marks may simply delineate the coloured polygon. The northeast end merges into its corner outline.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The closely repeated marks could represent a dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "A field or property boundary remains a competing reading."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [331,649],
+      "branch_count": 3,
+      "evidence_note": "Three narrow ochre courses with dark marginal marks converge beneath lettering; the northeast course joins the west-to-south curved strip."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [585,325],
+      "branch_count": 3,
+      "evidence_note": "The narrow ochre strip continues north and southwest, while a similarly dotted, ochre-edged branch separates toward the southeast."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [802,650],
+      "branch_count": 3,
+      "evidence_note": "A narrow dotted ochre branch meets the west side of the broad, dark-cased red band, which continues in both directions."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [920,486],
+      "branch_count": 3,
+      "evidence_note": "A faint narrow ochre trace appears to meet the continuous broad red band from the northwest; three branches result if that trace is a road."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [593,990],
+      "branch_count": 3,
+      "evidence_note": "The southeast-running dotted ochre strip meets the broad red band just above the bottom edge; the broad band continues about 10 px farther within the tile."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [403,842],
+      "branch_count": 3,
+      "evidence_note": "The doubtful western dotted trace reaches the bend of the narrow ochre strip; three apparent branches are present if the dotted trace is a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [590,131,660,174],
+      "why": "The horizontal sheet seam interrupts and displaces the northern ochre and dotted traces, preventing a certain connection between f03 and f04."
+    },
+    {
+      "bbox_uv": [901,135,959,179],
+      "why": "The sheet seam obscures the possible continuation between the upper diagonal dotted trace and the lower ochre line."
+    },
+    {
+      "bbox_uv": [612,225,668,280],
+      "why": "Dense black lettering and outlined symbols prevent resolving the northwest connection of the doubtful diagonal trace f08."
+    },
+    {
+      "bbox_uv": [800,397,853,445],
+      "why": "Small outlined orange-filled symbols and overlapping dots conceal whether the nearby narrow traces connect or terminate separately."
+    }
+  ],
+  "overall_note": "The broad red road and the principal narrow ochre routes are the clearest readings. Dotted traces near coloured polygon edges admit boundary interpretations, and their conditional junctions are identified in the notes. Connections hidden by the sheet seam or dense symbols are left unresolved."
+}

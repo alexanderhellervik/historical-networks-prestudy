@@ -1,0 +1,290 @@
+{
+  "tile_id": "cor_e0348_n6445",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[74,0],[96,42],[115,79],[132,108],[165,113],[181,132],[193,165],[213,179],[247,183],[272,215],[288,252],[307,292],[323,333],[337,372],[359,415],[335,440],[307,465],[281,482],[274,512],[276,553],[282,593],[291,635],[302,678],[314,721],[328,761],[348,800],[368,842],[384,885],[396,930],[398,963],[370,982],[344,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02","j03","j08"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish-orange strip has close dark margins with repeated short marks or dots. Both margins are clearest on the long southern section; small red and black rectangular symbols sit alongside several bends.",
+      "uncertainty_note": "The margins locally merge into one dark dotted trace. Continuation through lettering near v=200 and v=840 is supported by aligned drawing on both sides. Junctions j01, j02 and j08 involve faint candidate tracks.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Some stretches could be read as a single dotted symbol over a coloured band rather than two separate margins."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[513,0],[550,24],[584,46],[618,75],[631,100],[635,128],[651,141],[674,147],[687,168],[696,207],[701,246],[708,289],[715,329],[711,354],[701,384],[696,407],[715,441],[743,467],[770,485],[786,491]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j05"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A reddish band with close dark, partly dotted margins bends repeatedly. Near its southern end it runs into a red circular or block-like symbol surrounded by heavy black strokes.",
+      "uncertainty_note": "The course beneath the large lettering is supported by visible drawing immediately above and below. The terminal symbol masks whether this road directly joins f04. Junction j05 depends on interpreting the faint crossing trace f07 as a track.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "Where the margins merge, the symbol could instead be a dotted trace on a coloured strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,845],[24,863],[55,882],[87,902],[112,926],[131,958],[151,982],[184,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish-orange strip crosses the lower-left corner between close dark broken margins. Blue strokes cross or run beside it, remaining distinguishable from its reddish centre.",
+      "uncertainty_note": "The dark edges partly merge near the blue crossing and the bottom margin, but the coloured strip remains traceable.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The broken margins are insufficiently separated in a few places to exclude a single dotted symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[398,963],[434,968],[474,978],[515,987],[550,990],[567,981],[578,955],[582,921],[580,887],[588,853],[606,817],[619,781],[626,742],[629,701],[628,661],[626,621],[632,587],[640,566],[662,550],[698,545],[732,546],[757,535],[773,518],[783,501]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03","j04","j07"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "One row of conspicuous separated black dots or very short strokes follows a faint ochre trace without visible parallel casing. It bends east along the bottom, then north and northeast.",
+      "uncertainty_note": "The class describes a discontinuous line, although the marks are mostly dots. Continuation through the lower lettering is supported on both sides. The northern endpoint disappears into the heavy symbol beside f02; j07 is conditional on f07 being a track.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "A dotted path symbol does not exactly match a class named dashed_line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[606,817],[638,815],[671,808],[698,787],[728,778],[751,760],[774,743],[799,734],[827,734],[848,737],[869,728],[880,703],[896,677],[919,659]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A single row of dark round marks follows a faint orange trace northeast from f04. Near the eastern end the marks approach dark outlines and horizontal hatching.",
+      "uncertainty_note": "The eastern continuation cannot be separated confidently from the hatched patch's outline. A boundary interpretation remains possible because part of the dotted trace follows that outline.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The marks are dots rather than elongated dashes; near the eastern end they might belong to an outline or boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[165,113],[200,97],[236,81],[270,66],[296,64],[335,61],[373,55],[406,51],[445,55],[484,61],[520,68],[536,76],[554,101]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01","j06","j10"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two faint grey strokes, generally about 8–12 px apart, form a pale curved strip above the large lettering. Their weight is much lighter than the reddish routes, and there is no clear red centre.",
+      "uncertainty_note": "This could be an uncoloured track, a pair of parcel limits, or a band formed by adjacent outlines. All three listed junctions depend on the track interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "If the paired strokes are intentional road margins, they depict a narrow uncoloured track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: adjacent field or property outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[544,0],[550,24],[551,61],[554,101],[564,141],[577,184],[591,226],[607,268],[623,310],[640,352],[657,395],[678,438],[702,480],[724,517],[737,546]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05","j06","j07"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A faint oblique band has two roughly parallel grey strokes, locally about 8–15 px apart, with occasional darker fragments. It crosses the reddish northern route and reaches the dotted southern trace.",
+      "uncertainty_note": "The drawing could represent a track or neighbouring boundary strokes. Its visible alignment supports carrying it beneath the lettering, but the apparent road contacts are conditional on its interpretation.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road alternative: an uncoloured track with two pale margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a property division or other paired linear drawing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[0,107],[28,130],[55,153],[76,180],[99,215],[122,250],[147,287],[170,319],[198,353],[223,390],[244,432],[264,463],[281,482]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02","j09"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A pale strip bounded by close grey strokes runs diagonally southeast. Blue and heavier dark outlines lie immediately alongside and sometimes overlap it; small rectangular symbols interrupt its upper portion.",
+      "uncertainty_note": "A narrow track is plausible, but parts of the apparent pair may instead be water or parcel outlines. The course beneath the upper lettering is approximate. Junction counts at both contacts depend on the track reading.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road alternative: pale paired margins of a narrow track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: adjacent stream, ditch or parcel outlines creating an apparent strip."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[0,293],[37,312],[65,336],[91,365],[117,396],[143,428],[173,462],[204,479],[238,486],[264,482],[281,482]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A faint grey line follows a heavier dark or blue line, leaving a narrow pale interval between them. The pair curves southeast and then east toward the reddish route.",
+      "uncertainty_note": "The two strokes could be road margins, but the heavier stroke also resembles the surrounding polygon outlines. Lettering partly masks the middle section; the reported interpolation follows aligned visible strokes.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road alternative: a pale narrow track with unequal margin weights."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a parcel outline accompanied by another faint line."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[498,448],[501,485],[507,525],[512,565],[522,607],[535,649],[550,691],[568,730],[582,754],[560,776],[523,801],[526,841],[529,882],[530,923],[531,963],[533,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A pale grey stroke runs close to a heavier angular polygon edge, often producing a band about 6–12 px wide. The pair bends sharply near v=755 and v=800 before continuing nearly vertically.",
+      "uncertainty_note": "The apparent track may consist entirely of adjacent parcel outlines. Its northern origin cannot be distinguished from the angular outline, and thin strokes beneath the lower lettering are difficult to separate.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road alternative: two unequal margins enclosing a narrow uncoloured strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: an outlined parcel edge with a neighbouring boundary or printing trace."
+        }
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[55,153],[81,142],[107,124],[132,108]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j08","j09"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two light grey strokes enclose a short pale diagonal strip between the upper reddish bend and the pale trace beside blue lines.",
+      "uncertainty_note": "This short connection could be a track, but neighbouring coloured outlines make the margin count uncertain. Both junctions are conditional.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road alternative: a short paired-margin connector."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: adjacent parcel or water outlines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[296,64],[304,101],[314,139],[322,169]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j10"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A faint, nearly straight grey pair descends from the northern pale strip. The strokes are close and light, with scattered oval vegetation marks nearby.",
+      "uncertainty_note": "The pair may be a track or parcel division. It becomes inseparable from lettering and nearby dark symbols near its southern endpoint; no continuation is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Road alternative: a pale track with close parallel margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a property or field division."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [165,113],
+      "branch_count": 3,
+      "evidence_note": "Two reddish, dark-edged arms continue around the bend; a faint grey pair extends northeast. Three branches apply if f06 is a track."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [281,482],
+      "branch_count": 4,
+      "evidence_note": "The reddish route has northeast and south arms. Two pale paired traces approach from northwest and west beside blue or dark outlines; four branches depend on both candidate traces being tracks."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [398,963],
+      "branch_count": 3,
+      "evidence_note": "The reddish paired-margin route arrives from north and turns southwest; a separate row of black dots extends east from the bend."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [606,817],
+      "branch_count": 3,
+      "evidence_note": "Three single dotted arms meet: one toward the north, one southwest and one east-northeast. A thinner blue-grey line also passes nearby."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [550,24],
+      "branch_count": 4,
+      "evidence_note": "The reddish paired route crosses a much lighter oblique grey band. Four branches apply only if that pale band is a track rather than another linear symbol."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [554,101],
+      "branch_count": 3,
+      "evidence_note": "A faint curved grey pair from the west reaches a faint oblique grey pair continuing above and below. The three-branch reading depends on both pairs representing tracks."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [737,546],
+      "branch_count": 3,
+      "evidence_note": "A faint grey oblique band reaches a bend in the black dotted trace, whose other arms extend west and northeast. Three branches apply if the grey band is a track."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [132,108],
+      "branch_count": 3,
+      "evidence_note": "The reddish route continues northwest and east; a pale paired strip reaches it from southwest. The third branch is a candidate track."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [55,153],
+      "branch_count": 3,
+      "evidence_note": "A short pale paired strip reaches a longer pale diagonal trace near blue strokes and small rectangular symbols. Three branches depend on reading these pale traces as tracks."
+    },
+    {
+      "junction_id": "j10",
+      "uv": [296,64],
+      "branch_count": 3,
+      "evidence_note": "The northern pale curved pair continues east and west, while another faint pair descends south. The three-branch interpretation is conditional on their being tracks."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [294,169,357,262],
+      "why": "Heavy lettering and nearby black and red symbols mask the faint descending pair; its continuation and any subsidiary connection cannot be established."
+    },
+    {
+      "bbox_uv": [773,478,807,509],
+      "why": "A red symbol and heavy black strokes obscure the precise contact between the reddish route and the dotted trace."
+    },
+    {
+      "bbox_uv": [908,640,978,684],
+      "why": "Horizontal hatching and heavy patch outlines prevent separating the eastern dotted trace from a possible continuation or outline."
+    }
+  ],
+  "overall_note": "The reddish routes and southern dotted traces are the strongest road readings. Faint paired traces are included as candidate tracks with explicit non-road alternatives; their junction branch counts are conditional on those readings. Blue outlines, smooth red divisions and angular polygon edges were particularly difficult to separate from the pale candidates."
+}

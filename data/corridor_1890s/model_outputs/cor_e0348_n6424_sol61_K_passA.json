@@ -1,0 +1,238 @@
+{
+  "tile_id": "cor_e0348_n6424",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,292],[40,262],[82,232],[122,205],[157,174],[179,146],[198,109],[222,76],[249,86],[285,97],[312,94],[342,87],[376,72],[416,60],[444,57],[465,43],[493,48],[521,41],[551,31],[585,15],[620,4],[641,0]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A narrow reddish band has dark edges about 3–6 px apart; short dark marks are especially visible along its lower side near the small outlined rectangles.",
+      "uncertainty_note": "The reddish colouring alone is not diagnostic, but the paired edges and intermittent marks support a road reading. Some sections could instead be a highlighted boundary.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"A boundary interpretation remains possible where the paired marks merge into one coloured stroke."}
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[440,0],[426,22],[414,42],[416,60],[435,86],[452,115],[471,152],[488,187],[504,220],[507,250],[520,273],[530,293],[525,313],[518,332]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "One winding row of dark dots and short strokes lies on a thin brown trace, without a clearly separated second edge.",
+      "uncertainty_note": "Its southern continuation becomes confused with the large lettering and nearby blue line. It is not carried to the diagonal candidate below.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The dotted trace could be a boundary; the partly hidden continuation could also connect with f04."}
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[0,612],[49,590],[99,568],[150,546],[201,524],[251,502],[301,480],[351,458],[401,436],[451,414],[501,395],[552,373],[601,352],[650,331],[700,309],[750,289],[790,272],[826,257],[862,242]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03","j04"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "A nearly straight red stroke has a fine dark companion and pale intervening colour, generally about 3–5 px wide. At its northeastern end it meets broad pink-purple linework.",
+      "uncertainty_note": "The apparent narrow casing supports a road reading, but its straight course and connection with coloured boundary linework support a boundary reading. The possible road cannot be distinguished within the purple line beyond the endpoint.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the red and dark parallel strokes as the two edges of a narrow road."},
+        {"proposed_class":"unknown","note":"Read the entire diagonal as a highlighted boundary, in which case its recorded junctions are not road junctions."}
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[552,373],[541,399],[536,430],[525,458],[521,483],[509,519],[500,553],[493,589],[489,621],[482,652],[474,684],[452,705],[424,729]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j03","j05"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow brown trace with a row of dark dots and short dashes follows the right side of black-outlined peach shapes; green curls and scattered black symbols lie beside it.",
+      "uncertainty_note": "The dot spacing resembles a path, but parts coincide with outlines of coloured patches. Lettering interrupts the lower end, so a connection with f07 or f08 is not asserted.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Some or all of this trace could be a boundary around the coloured patches rather than a path."}
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[521,483],[544,470],[568,463],[596,463],[622,472],[645,489],[670,513],[692,533],[712,542]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j05","j06"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A curved brown line carries closely spaced dark dots or short strokes; a second edge is not consistently distinguishable. Pale green marks lie just below several sections.",
+      "uncertainty_note": "This can be read as a dotted path joining the north–south trace, or as the edge of a coloured land-cover patch.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Treat the brown dotted curve as a path."},
+        {"proposed_class":"unknown","note":"Treat it as a land-cover or property outline, removing its road branches at j05 and j06."}
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[790,272],[820,281],[846,289],[851,307],[827,330],[799,356],[778,380],[765,402],[765,426],[771,445],[765,462],[746,482],[729,511],[712,542],[714,573],[715,607]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04","j06","j07"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "A brown trace with dark interrupted marks bends around pale green areas and then follows the left edge of a peach polygon. Its width varies from a single dotted stroke to a narrow dark-and-brown pair.",
+      "uncertainty_note": "The same marks could outline land-cover and parcel shapes. The bend beside the peach polygon is particularly doubtful as a road.",
+      "alternatives": [
+        {"proposed_class":"dashed_line","note":"Read the interrupted brown trace as one continuous path."},
+        {"proposed_class":"unknown","note":"Read the trace as patch and parcel boundaries; its three listed junctions would then lose these road branches."}
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[380,574],[376,593],[363,623],[352,650],[353,675],[363,694],[384,708],[407,722],[420,730]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Two close dark-brown strokes, roughly 3–7 px apart, curve beside peach and pale green fills. The northern end touches heavy blue and black marks; the southern end enters large lettering.",
+      "uncertainty_note": "This could be a narrow track, but the paired strokes may belong to adjacent outlines. Neither a northern continuation nor its possible meeting with f04 is sufficiently visible.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Read the apparent pair as adjacent parcel or water-related outlines rather than a track."}
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[449,763],[463,775],[478,783],[503,775],[530,766],[556,751],[576,730],[590,701],[607,675],[631,652],[660,633],[687,617],[715,607],[747,602],[775,596],[803,591]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j07","j08","j09"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A winding brown band has close dark margins and intermittent dark marks, about 4–8 px across. The band is visible on both sides of the large lettering in its middle section.",
+      "uncertainty_note": "The visible sections support carrying the line through the middle lettering. Its western continuation is hidden among lettering and small black rectangular marks; several adjoining branches remain doubtful.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Parts of the brown band could be coincident coloured-patch boundaries rather than a single road."}
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[86,978],[118,972],[151,958],[182,945],[212,935],[246,929],[280,929],[318,936],[341,914],[366,888],[395,868],[419,847],[442,823],[462,805],[478,783]],
+      "proposed_class": "dashed_line",
+      "junction_ids": ["j08"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A thin brown line with dark dots winds between heavy blue outlines and small black marks. It generally lacks a distinct second parallel margin.",
+      "uncertainty_note": "At the southwestern end its marks merge with a peach polygon outline, so no continuation is supplied. A boundary reading remains possible where it follows coloured edges.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"The dotted line could partly or wholly be a boundary rather than a path."}
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[477,828],[479,854],[477,879],[468,905],[456,925],[456,948],[462,968],[452,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "Close dark and brown strokes enclose a narrow pale strip, approximately 4–9 px wide, beside black-outlined peach shapes. Small black marks obscure the northern approach.",
+      "uncertainty_note": "The strip could be a lane or an elongated parcel bounded by separate lines. Its connection to the cluster around f08 and f09 is hidden and is not asserted.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the paired strokes as the edges of a narrow lane."},
+        {"proposed_class":"unknown","note":"Read the strokes as parcel outlines, with no road along the strip."}
+      ]
+    },
+    {
+      "feature_id": "f11",
+      "waypoints_uv": [[589,1000],[621,975],[656,949],[692,922],[727,892],[759,863],[783,835],[800,804],[805,772],[804,737],[805,705],[799,676],[792,650],[793,620],[803,591],[828,603],[849,629],[868,661],[890,700],[920,729],[950,706],[978,683],[1000,672]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "A red-brown winding band has dark edging and intermittent dark dots, with an apparent spacing of about 3–6 px. It forms a sharp bend near the small black and peach marks at its central meeting.",
+      "uncertainty_note": "The repeated paired marks resemble the example's cart-track symbol, but the line also follows polygon edges and could be a highlighted boundary.",
+      "alternatives": [
+        {"proposed_class":"unknown","note":"Read the red-brown line as a boundary; j09 would then not have its southern and southeastern road branches."}
+      ]
+    },
+    {
+      "feature_id": "f12",
+      "waypoints_uv": [[803,591],[816,566],[837,540],[864,514],[895,488],[929,459]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j09"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow brown trace with dark edging runs northeast alongside peach and pale green shapes. At the end it meets the broad purple band and heavy black marks.",
+      "uncertainty_note": "This may be a track or simply a shared polygon edge. Its course cannot be separated from the purple boundary linework beyond the endpoint.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the close brown and dark strokes as a narrow track."},
+        {"proposed_class":"unknown","note":"Read the trace as a parcel or land-cover boundary."}
+      ]
+    },
+    {
+      "feature_id": "f13",
+      "waypoints_uv": [[460,0],[461,22],[465,43]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A short red-brown vertical stroke with a dark companion reaches the reddish upper line; nearby black marks make its spacing difficult to resolve.",
+      "uncertainty_note": "A short road branch and a coloured boundary are both plausible readings.",
+      "alternatives": [
+        {"proposed_class":"double_line_narrow","note":"Read the dark companion as a second road margin."},
+        {"proposed_class":"unknown","note":"Read the short stroke as a boundary, removing its branch at j02."}
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [416,60],
+      "branch_count": 4,
+      "evidence_note": "The reddish paired line runs left and right while a dotted brown trace reaches it from above and continues below. Four apparent branches are present under the road reading of f01 and f02."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [465,43],
+      "branch_count": 3,
+      "evidence_note": "The upper red-brown line has left and right arms, and a short near-vertical red-dark stroke reaches it from the top. The third road branch is provisional because f13 may be a boundary."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [552,373],
+      "branch_count": 3,
+      "evidence_note": "The red diagonal passes through in two directions; a brown interrupted line descends from its lower side beside the small hatched patch. This is a road junction only if f03 is a road."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [790,272],
+      "branch_count": 3,
+      "evidence_note": "Two arms of the narrow red diagonal meet a brown curved trace leaving toward the right and downward. Both the diagonal's road status and the departing trace are uncertain."
+    },
+    {
+      "junction_id": "j05",
+      "uv": [521,483],
+      "branch_count": 3,
+      "evidence_note": "The north–south dotted brown trace has an eastward curved dotted arm at the same point. The third branch depends on reading f05 as a path rather than a patch outline."
+    },
+    {
+      "junction_id": "j06",
+      "uv": [712,542],
+      "branch_count": 3,
+      "evidence_note": "Brown interrupted traces arrive from the northwest and northeast, with a dark-brown continuation downward beside a peach polygon. All three apparent road branches are provisional."
+    },
+    {
+      "junction_id": "j07",
+      "uv": [715,607],
+      "branch_count": 3,
+      "evidence_note": "The winding brown band has western and eastern arms; a thinner dark-brown line reaches its upper side. The upper arm could instead be a polygon boundary."
+    },
+    {
+      "junction_id": "j08",
+      "uv": [478,783],
+      "branch_count": 3,
+      "evidence_note": "A brown band continues left and right, and a thin dotted brown trace approaches from the southwest beside small black marks. The separately reported southern strip is obscured and is not counted."
+    },
+    {
+      "junction_id": "j09",
+      "uv": [803,591],
+      "branch_count": 4,
+      "evidence_note": "Brown-red linework has western, southern, southeastern and northeastern arms around a compact dark meeting. Four road branches are conditional on the track readings of f11 and f12."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [468,336,524,403],
+      "why": "Large black letter strokes overlap the dotted northern trace and nearby blue and red lines; its continuation cannot be separated reliably."
+    },
+    {
+      "bbox_uv": [408,711,450,755],
+      "why": "Heavy lettering covers the possible meeting of the two winding brown traces, preventing a reliable connection or branch count."
+    },
+    {
+      "bbox_uv": [455,788,503,829],
+      "why": "Dense black rectangles, lettering and overlapping thin outlines obscure the approach of the southern narrow strip."
+    }
+  ],
+  "overall_note": "Brown dotted paths and close reddish line pairs are the principal road candidates, but several also follow coloured polygon edges. Doubtful candidates are retained with boundary alternatives, and junction counts involving them are provisional. Obscured connections have not been completed."
+}

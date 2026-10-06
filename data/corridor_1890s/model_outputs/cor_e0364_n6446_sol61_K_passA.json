@@ -1,0 +1,138 @@
+{
+  "tile_id": "cor_e0364_n6446",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,331],[24,362],[48,395],[70,425],[86,448],[119,472],[152,490],[184,511],[215,536],[248,561],[281,587],[312,615],[343,645],[372,674],[401,701],[430,728],[455,758],[479,789],[503,822],[526,855],[548,889],[566,918],[575,930],[590,955],[609,982],[622,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two dark edges, predominantly rows of dots about 10–18 px apart, enclose a pale reddish strip. The upper-left portion has more continuous edges; aligned dotted edges resume beyond the broad diagonal coloured ribbon.",
+      "uncertainty_note": "The course is clear over most of its length. Near [575,930], blue-green strokes and reddish lines overlap the dotted edges, reducing the precision of the crossing and junction.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Most of the edges consist of separate dots or short marks rather than continuous lines."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[1000,645],[982,664],[953,684],[921,705],[889,725],[856,746],[824,764],[795,782],[770,799],[748,820],[730,843],[717,865],[711,886],[716,906],[716,923],[713,937]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two approximately parallel dark dotted edges enclose a narrow tan-red strip. Black lettering overlaps the eastern portion; black building blocks and red squares sit beside the lower bend.",
+      "uncertainty_note": "The aligned edges support continuation beneath the lettering. Below [713,937], coloured strokes and heavier linework prevent a secure connection to the short lower fragment f03.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired edges are chiefly dotted."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The lower bend may include a short single-edge path; its second edge becomes difficult to distinguish."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[716,973],[712,986],[708,1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","edge_of_tile"],
+      "evidence_note": "A narrow reddish stroke with adjacent dark marks descends beside a blue-green line; the marks do not resolve into two consistently separate road edges.",
+      "uncertainty_note": "This could be a continuation of f02, but the intervening drawing is obscured. It could instead belong entirely to the adjacent coloured line.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible short continuation of the paired dotted track f02."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative reading: water-edge or boundary linework rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[269,1000],[284,974],[302,947],[320,923],[332,899],[341,884],[355,904],[373,923],[395,918],[417,931],[440,945],[464,947],[490,943],[516,935],[545,930],[575,930]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A faint narrow corridor has intermittent dark edging and some reddish colour. Near [341,884] it passes beside black rectangular marks; farther east it bends along a heavy angular outline before reaching the diagonal dotted track.",
+      "uncertainty_note": "The southwestern portion is faint, and parts of the eastern edging coincide with polygon outlines. A continuous track is plausible, but a mixture of path and boundary strokes is also supported.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some portions appear to have two closely spaced edges around a pale strip."
+        },
+        {
+          "proposed_class": "single_line",
+          "note": "Some portions resolve as only one fine intermittent line."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative reading: the apparent course combines a short path near the black blocks with field-outline or boundary strokes farther east."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[615,653],[624,678],[638,704],[653,729],[669,747]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "A fine diagonal succession of small dark marks crosses pale ground between heavier angular outlines. No continuous casing or clearly paired second row is visible.",
+      "uncertainty_note": "The marks could indicate a dotted path, but their spacing and interruptions also permit a boundary reading. Neither end resolves into a definite road connection.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible uncased dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative reading: a fine property or subdivision boundary."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[700,560],[704,583],[708,608],[714,632],[716,647]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured","obscured"],
+      "evidence_note": "Small dark separated marks run just outside a heavier black outline. They appear as one thin row, without a coloured interior or continuous casing.",
+      "uncertainty_note": "A short dotted path is possible, but the close association with the polygon edge supports a boundary interpretation. The marks become too indistinct to extend the course.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Possible short dotted path."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Alternative reading: boundary marks accompanying the adjacent polygon outline."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [575,930],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted diagonal strip continues on two sides, while a faint reddish, intermittently edged line approaches from the left. Blue-green strokes overlap the meeting; the third branch depends on the road reading of f04."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [561,908,605,951],
+      "why": "Dotted track edges, reddish strokes and blue-green linework overlap; the exact branch connection cannot be separated confidently."
+    },
+    {
+      "bbox_uv": [696,935,737,978],
+      "why": "Heavy coloured lines and nearby symbols obscure whether the upper dotted track connects to the short lower reddish fragment."
+    }
+  ],
+  "overall_note": "The paired dotted tracks are substantially clearer than the faint single-row candidates. The southwestern course and its junction remain conditional because intermittent strokes coincide with polygon outlines. Broad coloured ribbons and heavy angular land-cover outlines were not treated as roads solely because they form continuous lines."
+}

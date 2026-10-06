@@ -1,0 +1,83 @@
+{
+  "tile_id": "cor_e0361_n6451",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A narrow brown band of two fine lines with dots between them (the dotted körväg form) runs from about (345,628) NE to (410,595), dips SE to (460,635) just north of the red G building, then rises NE to (535,600) at the red boundary. The polyline follows this band.",
+      "uncertainty_note": "Between u 380 and 440 the band runs through the lettering 'Smedbäcken', so its exact wiggle there is partly hidden. The class could be Sämre or Bättre körväg; at this resolution I cannot tell whether one edge is a solid line."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same brown dotted double band runs from the red boundary at about (540,600), SE along the north edge of the G plot to (612,628), then nearly straight east through (770,610) to the sheet seam at about (905,598). It continues past the seam to the right edge at about (1000,578).",
+      "uncertainty_note": "The two sheets are pasted together at u about 905 with a small offset, so the course right at the seam is approximate."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear brown dotted double band leaves the farm building B at about (655,455) and runs SSE through (710,530) to meet the east-west road at about (770,610).",
+      "uncertainty_note": "Course and existence are clear. Only the class (Sämre vs Bättre körväg) is uncertain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "single_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A thin solid orange-brown line runs from the field corner at about (205,200) SSE through (255,320) to the red boundary at about (300,410). On the neighbouring example sheet a thin orange line of this kind is read as Gångstig. It is clearly different from the black dashed skifteslinjer and the crimson boundaries nearby.",
+      "uncertainty_note": "The line has no dots, so a coloured field or ownership line is a possible alternative to a footpath. Neither end shows a clear connection to another road."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A brown dotted double band runs from about (180,462) SE through (240,505) and (300,570) to about (345,628), where it meets f01. A brown-edged line also runs from (180,462) WSW to about (115,497).",
+      "uncertainty_note": "West of u about 115 the line runs into the crimson diagonal boundary and a small outlined plot. If the overlay's line continues NW along that boundary toward (40,430), that part is a boundary rather than a road and the agreement covers only u>=115."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The label sits beside the small building 'B' at about (300,638), roughly 40 px west of where f05 and f01 meet (345,628). At this resolution I see no separate dotted band leading from the road to the house. The house plot outline and the '5' parcel number fill that gap.",
+      "uncertainty_note": "A short access spur to the house is plausible and would be normal for this sheet, but the drawing does not show it distinctly."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 460], [45, 450], [110, 498]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A brownish-orange line enters the left edge at about v 460 and runs to about (45,450), roughly in line with the western end of f05. It may be the westward continuation of the f05 road past the small plot at (40-100, 410-480).",
+      "uncertainty_note": "Low confidence. It is short, has no clear dots, and lies amid the crimson boundary, a blue line and plot outlines. The connection to f05 between u 45 and 110 is not visible.",
+      "alternatives": ["coloured boundary or field edge, not a road", "single_line footpath continuing f05 west off the tile"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [345, 628],
+      "what_is_contested": "The number of branches. f05 from the NW and f01 from the NE clearly meet here. Whether a third branch (f06) leads west to house B, or the road ends at the house plot, is not decidable.",
+      "evidence_note": "The meeting point sits on the edge of the house B plot, next to the 'Smedbäcken' lettering and the parcel number '5', which hide fine detail."
+    },
+    {
+      "uv": [540, 600],
+      "what_is_contested": "The position and nature of the f01/f02 join. It is where the dotted band crosses the crimson diagonal boundary at the NE corner of the G plot. Whether this is a continuous road or two roads meeting at the plot is unclear.",
+      "evidence_note": "The band bends sharply here and overlaps both the boundary and the plot outline."
+    },
+    {
+      "uv": [180, 462],
+      "what_is_contested": "Whether the road branches or ends here. f05 bends at this point, and it is unclear whether a branch continues WSW to (115,497) and on to the left edge (m01).",
+      "evidence_note": "Brown-edged lines leave the corner both SE (clearly dotted) and WSW (less clearly road-like), along the outline of a small field."
+    }
+  ],
+  "overall_note": "The roads on this tile are brown dotted double bands that join farm B (NE), the G building and house B (Smedbäcken) to an east-west road leaving the tile to the east. The overlay's f01–f05 follow drawn roads; f06 is not distinguishable. The thick crimson band with black ticks across the top looks like a railway or a major boundary, not a road symbol. The black dashed lines and thin crimson and blue lines are boundaries, skifteslinjer or streams, not roads."
+}

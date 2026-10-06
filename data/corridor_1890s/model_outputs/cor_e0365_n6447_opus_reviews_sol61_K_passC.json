@@ -1,0 +1,75 @@
+{
+  "tile_id": "cor_e0365_n6447",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A road drawn as two parallel rows of fine dots (matches the Sämre körväg model symbol) enters at the top edge near u 340, runs SSE past (400,215) where the red boundary line crosses it, bends through (470,300) and (515,370), runs almost straight south along u 520-535 between the marsh hatching and the field, and reaches the sheet seam near (560,650). The overlay polyline tracks the western dotted row the whole way.",
+      "uncertainty_note": "Course is clear. The class is a judgement: the symbol is a narrow double row of dots rather than two solid lines, so double_line_narrow is the nearest symbol-form class. The overlay sits on one edge of the symbol rather than the centreline (offset about 5 px)."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A single row of heavy, evenly spaced dots (Gångstig symbol) leaves the double-dotted road near (565,650), runs NE through (620,580) and (690,460) to (720,420), skirts the west edge of the large hatched marsh up to (765,322), then turns ENE to leave the tile at the east edge near (1000,258). The overlay follows it closely.",
+      "uncertainty_note": "The dots are bolder and more regular than the fine dotted outlines of the marsh and forest patches, so I read this as a path rather than an area outline. I used dashed_line as the nearest class for a single dotted line. Between v 450 and 560 the overlay is a few px west of the dots."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Below the seam (lower part of the tile, from a different, misregistered sheet with colour fringing), a narrow double-line road continues from about (560,665) SSE to about (588,750) beside the 'T' croft mark, then curves SSW and SW through (560,840), (530,910) and (480,960) to the bottom edge near (420,1000). The overlay follows this band.",
+      "uncertainty_note": "The join across the seam at v 645-665 is offset because the two sheets do not register, so the first 50 px are uncertain. Close to the croft at (560-600,750-800) the road lines merge with building and field outlines, and the exact course there is not certain."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Along (645,1000)-(690,930)-(890,870) the lower sheet shows faint pale curves, dotted outlines of meadow and marsh patches, and large faded forest stars. I cannot pick out a continuous double or dotted road symbol along the overlay course. Its NE end does reach the dark lines at the corner of the field marked 42.",
+      "uncertainty_note": "This part of the scan is low-contrast and blurred. A faint track could exist here, or the line could be a patch outline. Neither reading is decided by what is visible."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "From (0,800) to (340,878) the overlay crosses the horizontally hatched wetland (vass/sidvallsäng) in the lower-left sheet and the dark boundary line near u 230. The only lines nearby are the dotted outline of the hatched area (curving around (20-130,760-830)) and the hatching itself. I see no road symbol following this course.",
+      "uncertainty_note": "The lower sheet is blurred and colour-fringed, so a very faint path under the hatching cannot be fully excluded. A road would not normally be drawn across open wetland hatching without its own symbol."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[892, 880], [930, 920], [965, 950], [1000, 975]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "In the lower-right corner, below the field marked 42, two dark roughly parallel lines run from about (892,880) SE to the east edge near v 975. They meet the dark and red lines at the field corner where the overlay's f04 ends.",
+      "uncertainty_note": "Low confidence. These lines may be field or property boundaries (one of them is red-tinged) rather than a road. They are recorded only because the proposal's f04 seems to lead into them.",
+      "alternatives": ["field/property boundary (not a road)", "continuation of a track coming from f04"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [562, 652],
+      "what_is_contested": "The position of the f01/f02 junction, and whether the path meets the road just above the seam or at it",
+      "evidence_note": "The dotted path reaches the double-dotted road right at the horizontal seam between two sheets. The lower sheet is shifted, so the junction position is uncertain by about 10-20 px."
+    },
+    {
+      "uv": [580, 775],
+      "what_is_contested": "Whether a short branch leaves the road west or east at the 'T' croft",
+      "evidence_note": "Croft buildings, field outlines and the road's double lines meet here in the blurred lower sheet. Short line pieces could be spurs to the croft or just building outlines."
+    },
+    {
+      "uv": [890, 875],
+      "what_is_contested": "Whether a junction exists here at all (end of f04 and start of m01)",
+      "evidence_note": "Several dark and red lines meet at the corner of field 42. It is unclear whether any of them is a road or whether all are boundaries."
+    }
+  ],
+  "overall_note": "The upper sheet clearly shows a double-dotted körväg (f01) and a single-dotted footpath (f02) meeting at the sheet seam; both match the proposal. In the lower, misregistered and blurred sheet, the road's continuation (f03) is credible, but f04 cannot be judged and f05 crosses wetland hatching with no road symbol. The red line crossing f01 is a boundary, and the grey dashed line at upper left is a skifteslinje, not a road."
+}

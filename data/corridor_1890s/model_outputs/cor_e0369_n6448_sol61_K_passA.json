@@ -1,0 +1,201 @@
+{
+  "tile_id": "cor_e0369_n6448",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0, 311], [28, 282], [48, 256], [72, 222], [97, 190], [122, 168], [161, 142], [201, 122], [240, 105], [282, 86], [324, 72], [364, 57], [401, 48], [443, 37], [481, 27], [514, 27], [550, 35], [589, 46], [629, 61], [669, 74], [700, 70], [736, 64], [776, 56], [820, 49], [858, 43], [872, 41]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "Two parallel rows of dark dots, approximately 8–12 px apart, enclose a pale ochre strip; the paired marking remains visible across the upper face.",
+      "uncertainty_note": "The eastern end enters dense garden and building detail; its continuation there cannot be separated reliably from compartment outlines.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[54, 0], [72, 31], [90, 62], [110, 96], [124, 117], [139, 112], [153, 105], [158, 122], [161, 142]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Closely spaced parallel dark dotted edges descend diagonally, turn around a small angular enclosure, and meet the paired dotted road.",
+      "uncertainty_note": "The short return from the bend near [153,105] to the main road is faint and partly coincides with an enclosure edge.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The short southern return could be an enclosure outline rather than a road connection; under that reading j01 is unconfirmed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[254, 24], [263, 43], [273, 65], [282, 86]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["dead_end", "junction"],
+      "evidence_note": "A short diagonal marking has close dark stippled edges beside conifer symbols and reaches the paired dotted road.",
+      "uncertainty_note": "Its road-like paired appearance is difficult to separate from the edge of the small symbol-filled enclosure. The northern endpoint is the last readable marking, not an inferred physical terminus.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the stippled edges as a short paired-line track joining f01."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the diagonal as an enclosure boundary; under that reading it is not a road and j02 is unconfirmed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[1000, 553], [983, 587], [961, 621], [936, 653], [910, 685], [884, 718], [862, 749], [850, 776], [849, 806], [853, 839], [863, 873], [879, 905], [899, 938], [923, 969], [950, 1000]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two continuous dark outlines, roughly 12–18 px apart, case a peach-brown strip; no alternating railway blocks or transverse sleepers are visible.",
+      "uncertainty_note": "The centreline is approximate where the dark casing thickens on bends.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[0, 961], [39, 948], [78, 939], [119, 929], [159, 919], [187, 911], [206, 911], [225, 913], [241, 923], [250, 940], [252, 961], [250, 982], [249, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "Two dark dotted rows enclose a narrow ochre strip, running diagonally from the left edge and bending south beside black and red rectangular symbols.",
+      "uncertainty_note": "Building symbols partly cover the eastern bend, but paired dots on both sides establish the continuing southward course.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[206, 911], [203, 898], [201, 883]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short narrow dark marking with dot-like interruptions leaves the paired road along the right side of a thinly outlined enclosure and reaches a red rectangle.",
+      "uncertainty_note": "The marking overlaps the enclosure edge and disappears at the building symbol; no continuation above it is asserted.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the interrupted marking as a short path approaching the building."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It could be the enclosure's eastern outline rather than a path; under that reading j03 is unconfirmed."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[866, 155], [862, 199], [858, 244], [851, 290], [842, 337], [831, 381], [821, 425], [811, 469], [802, 513], [795, 550], [795, 575], [798, 590], [791, 601], [764, 613], [728, 628], [696, 641], [671, 650], [660, 675], [653, 702], [648, 727], [646, 750], [642, 773], [622, 772], [604, 783], [590, 805], [579, 828], [572, 852], [568, 883]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "One relatively heavy row of closely spaced dark dots follows the long bending course; there is no second casing line or regular long-dash boundary pattern.",
+      "uncertainty_note": "A dotted path is the leading reading, but dotted_line is not an available class. Some stretches coincide with enclosure edges; the upper connection is hidden by garden detail and the lower continuation by overprinting.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Use dashed_line if closely spaced dots are treated as very short interrupted strokes."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Some or all of the dotted course could mark an enclosure boundary rather than a path."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[565, 948], [563, 973], [561, 1000]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short near-vertical row of dark dots is visible below the large lettering and continues to the bottom edge without a clear second line.",
+      "uncertainty_note": "It aligns approximately with f07, but the intervening lettering and coloured crossing prevent a certain connection; the two traces are therefore separate.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Interpret the dots as an interrupted path symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be the continuation of f07, or an independent dotted boundary marking."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[969, 1000], [985, 982], [995, 965], [1000, 951]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A curved dark stippled marking clips the lower-right corner beside a pink-red stroke; clipping makes the presence of a second parallel edge difficult to establish.",
+      "uncertainty_note": "This is a doubtful road candidate: the stippling may case a narrow track, or accompany a coloured boundary.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Read the dark stippling as paired edges around a narrow coloured road strip."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the red stroke and adjacent stippling as a boundary rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f10",
+      "waypoints_uv": [[648, 727], [671, 727], [692, 730], [703, 732]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j04"],
+      "endpoint_flags": ["junction", "dead_end"],
+      "evidence_note": "A faint row of small blue-grey dot-like marks extends east from the heavier dotted course across the upper edge of a pale green patch and ends at a continuous dark outline.",
+      "uncertainty_note": "The lighter colour and coincidence with the green patch's edge favour a land-cover outline, but a short dotted path arm cannot be excluded.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Read the faint marks as a short interrupted path branching from f07."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Read the marks as the green patch's boundary; under that reading this is not a road and j04 does not exist."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [161, 142],
+      "branch_count": 3,
+      "evidence_note": "The two dark dotted edges of the ochre main strip continue southwest and northeast; a short, fainter paired marking approaches from the north. The third arm is uncertain as noted on f02."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [282, 86],
+      "branch_count": 3,
+      "evidence_note": "The paired dark dotted main strip continues west and east, while a short stippled diagonal reaches it from the northwest. Counting that diagonal as a road is conditional on f03."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [206, 911],
+      "branch_count": 3,
+      "evidence_note": "The paired dotted ochre strip continues west and east; a narrow dark interrupted marking meets its northern side beside an outlined enclosure. The northern arm may instead be an enclosure edge."
+    },
+    {
+      "junction_id": "j04",
+      "uv": [648, 727],
+      "branch_count": 3,
+      "evidence_note": "The heavier single dark dotted course continues north and south, with a much fainter blue-grey dotted arm extending east. This is a conditional junction because the eastern arm may be a land-cover outline."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [855, 28, 977, 161],
+      "why": "Dense garden compartment lines, stippling and building symbols prevent reliable separation of small access paths from garden outlines and obscure the connection between f01 and f07."
+    },
+    {
+      "bbox_uv": [538, 889, 597, 949],
+      "why": "Large dark lettering overlaps the possible dotted continuation between f07 and f08; the intervening course cannot be established confidently."
+    }
+  ],
+  "overall_note": "Paired dotted tracks and the wider continuously cased road are the clearest readings; single dotted markings and short enclosure-side traces are less certain. Junctions involving doubtful arms are conditional on those arms being roads. The winding red strokes beside blue water outlines and the thin angular parcel outlines were read as non-road markings."
+}

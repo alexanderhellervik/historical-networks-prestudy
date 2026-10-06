@@ -1,0 +1,118 @@
+{
+  "tile_id": "cor_e0367_n6451",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[0,452],[50,452],[100,449],[145,443],[190,435],[220,433],[260,435],[300,437],[350,435],[390,432],[430,428],[475,422],[519,417],[560,412],[605,407],[650,401],[695,397],[740,391],[780,383],[820,375],[860,364],[900,351],[925,339],[950,326],[977,316],[1000,310]],
+      "proposed_class": "double_line_wide",
+      "junction_ids": ["j02","j03"],
+      "endpoint_flags": ["edge_of_tile","edge_of_tile"],
+      "evidence_note": "Two continuous dark margins, approximately 8–14 px apart, enclose yellow-buff colouring; the lower margin is generally heavier. Red building rectangles sit alongside several stretches.",
+      "uncertainty_note": "The route is clear. The two listed connections are conditional on interpreting the short adjoining marks as tracks.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[0,659],[35,655],[75,657],[115,662],[150,666],[181,672],[215,688],[250,710],[282,735],[315,767],[358,804],[395,828],[434,849],[473,867],[505,884],[536,909],[577,929],[611,920],[649,905],[688,887],[724,869],[758,854],[785,853],[816,861],[848,872],[878,886],[907,909],[935,934],[960,947],[980,950]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","obscured"],
+      "evidence_note": "Two closely spaced rows of small dark dots enclose a narrow pale strip. The same paired-dot drawing continues through the bends and past the lower building groups.",
+      "uncertainty_note": "This is a clear track, but paired dots have no exact counterpart in the supplied class names. Its eastern end disappears into heavy black lettering; continuation to the tile edge is not established.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if this class includes dotted, interrupted margins as well as elongated dashes."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Applicable if paired narrow margins qualify regardless of their dotted construction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[358,804],[345,826],[329,853],[316,878],[305,902],[293,925],[276,941],[254,949],[239,959],[232,967]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "Two rows of dark dots branch from the lower track and curve toward the green enclosure and red rectangles. Their spacing and weight resemble the parent track.",
+      "uncertainty_note": "The paired-dot symbol lacks an exact class in the list. The terminal dots merge with a heavy black mark beside the enclosure, so the trace stops there.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Applicable if dotted tracks belong to the interrupted-line class."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Applicable if the class describes paired margins independently of continuity."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[519,417],[518,438],[517,460]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A narrow pale strip with close, dark interrupted traces descends beside the left edge of a green rectangular enclosure. A heavy black block sits at its lower end.",
+      "uncertainty_note": "This may be a short access track, but the marks may instead belong to the enclosure edge. The lower end is hidden by the black block.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "Short track reading if the interrupted traces are paired road margins."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: stippled or segmented enclosure edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[347,410],[350,435],[354,451],[356,465]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["dead_end","dead_end"],
+      "evidence_note": "A fine gray-black stem projects above the upper road. Below it, two fine angular sides approximately 12–18 px apart enclose a pale strip and meet a short transverse lower stroke.",
+      "uncertainty_note": "A short crossing track is possible, but the closed lower outline strongly supports an enclosure interpretation. The connection between the single upper stem and the lower paired mark is uncertain; the waypoints represent the crossing-track alternative.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Possible for the paired portion below the upper road if it is a short track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "Non-road alternative: a narrow closed enclosure below the road, with a separate fine line above."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [358,804],
+      "branch_count": 3,
+      "evidence_note": "Paired dotted margins form three arms toward the upper left, lower right and lower left; the southwest arm separates visibly at this bend."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [519,417],
+      "branch_count": 3,
+      "evidence_note": "The continuous cased road has two through arms, and close interrupted marks meet its lower margin beside the green enclosure. Three branches are conditional on those marks being an access track."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [350,435],
+      "branch_count": 4,
+      "evidence_note": "Fine marks occur above and below the two continuous road margins. Four branches are conditional on the upper stem and lower paired outline forming one crossing track."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [979,931,1000,968],
+      "why": "Heavy black lettering overlaps the paired dotted track, preventing a reliable trace of its terminal course."
+    }
+  ],
+  "overall_note": "The upper cased road and lower paired dotted tracks are clear, although the dotted symbol has no exact class in the supplied list. Short marks adjoining the upper road admit enclosure interpretations, and their junction counts are conditional. The blue-green ribbon with a red central line and the other red parcel lines were read as water or boundaries."
+}

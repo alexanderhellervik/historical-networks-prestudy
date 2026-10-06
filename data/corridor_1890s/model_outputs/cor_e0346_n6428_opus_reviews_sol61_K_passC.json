@@ -1,0 +1,108 @@
+{
+  "tile_id": "cor_e0346_n6428",
+  "reviews": [
+    {
+      "reviewed_feature_id": "f01",
+      "verdict": "disagree_not_a_road",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "At u 0-100, v 480-530 the drawn polyline runs along the north outline of the pink (tomt/building) patch and the dotted outline of the green garden at L. Dalen; there is no separate road casing, dotting or red road wash distinct from the building/garden outlines there.",
+      "uncertainty_note": "The farm complex is cramped and partly cut by the west edge; a short farm access entering from the west cannot be fully excluded, but nothing visible draws it."
+    },
+    {
+      "reviewed_feature_id": "f02",
+      "verdict": "cannot_tell",
+      "proposed_class": "unknown",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "Between the farm buildings (~145,605) and the start of the dotted road (~220,648) the ground is covered by the lettering 'L. Dalen'; no road line is visible through or beside the letters.",
+      "uncertainty_note": "A connection from the farmyard to the road junction is likely in reality, but the drawing here is hidden by the name, so its existence and course cannot be read."
+    },
+    {
+      "reviewed_feature_id": "f03",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A clear black dotted line with a pink/red wash runs from ~(222,650) east-south-east to ~(400,702), climbs north-east to ~(580,625) and (660,548), dips to ~(780,615) and runs east to the edge at ~(1000,565); the overlay follows it closely.",
+      "uncertainty_note": "Dotted symbol could be read as Gångstig or Sämre körväg; the red wash suggests a cart track, but the symbol form is dotted in either case. The exact western start (~205 vs ~222) is under the 'D' of Dalen."
+    },
+    {
+      "reviewed_feature_id": "f04",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red-washed road with dark edge line runs from ~(225,655) south-south-east along the east side of the large building to ~(272,782); overlay follows it.",
+      "uncertainty_note": "At this resolution the casing could be a single dark line with red colour beside it (single_line) rather than two parallel edges."
+    },
+    {
+      "reviewed_feature_id": "f05",
+      "verdict": "agree",
+      "proposed_class": "double_line_narrow",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "The same red-washed road continues from ~(272,785) south-east to ~(330,830), east to ~(400,845), then bends south past the west side of the garden at u~410-415 to the bottom edge at ~(415,1000); overlay follows it.",
+      "uncertainty_note": "Same class doubt as f04 (double vs single line with red wash). A small loop/pond at ~(420-440,930-970) touches the road but is not a branch."
+    },
+    {
+      "reviewed_feature_id": "f06",
+      "verdict": "agree",
+      "proposed_class": "dashed_line",
+      "corrected_waypoints_uv": [],
+      "evidence_note": "A red dotted line leaves the f04/f05 bend near ~(270,790), runs south-west to ~(240,820) and then nearly straight south at u~230-240 to the bottom edge at ~(228,1000); overlay follows it.",
+      "uncertainty_note": "The top 30 px where it leaves the red road are faint, so the exact junction point is uncertain (see contested junctions)."
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "m01",
+      "waypoints_uv": [[0, 412], [70, 445], [135, 475], [180, 540], [222, 640]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "Two thin parallel uncoloured lines with a pale strip between them run from the 'bracket' at ~(130-155,470) south-east past the '58' and deciduous symbols toward the f03/f04 junction at L. Dalen; a similar pale corridor continues north-west toward the west edge around v~410.",
+      "uncertainty_note": "No road colour or dotting; this may be a meadow/field strip or boundary pair rather than a road. The north-western part to the edge is faint.",
+      "alternatives": ["field or meadow strip edges (not a road)", "farm track only between (135,475) and the junction, not reaching the west edge"]
+    },
+    {
+      "feature_id": "m02",
+      "waypoints_uv": [[0, 132], [45, 95], [100, 40], [150, 0]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "A thin orange-brown solid line crosses the top-left corner diagonally from the west edge at v~132 to the top edge at u~150, distinct from the green-grey forest/meadow outlines.",
+      "uncertainty_note": "Brown/red thin lines on this sheet can also be boundaries; without casing or dots this is not certain to be a road.",
+      "alternatives": ["boundary line (Gräns)"]
+    },
+    {
+      "feature_id": "m03",
+      "waypoints_uv": [[912, 92], [945, 140], [1000, 192]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end", "edge_of_tile"],
+      "evidence_note": "A thin orange-brown solid line runs from near the hatched marsh by the lake at ~(912,92) south-east to the east edge at ~(1000,192), beside the blue stream.",
+      "uncertainty_note": "Same colour as m02; could be a boundary following the stream/marsh rather than a road. Its north-west end near the marsh is unclear.",
+      "alternatives": ["boundary line (Gräns)"]
+    },
+    {
+      "feature_id": "m04",
+      "waypoints_uv": [[1000, 770], [930, 820], [860, 850], [750, 862], [650, 860]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A faint pair of thin lines enters from the east edge near v~770 among the deciduous symbols and runs south-west, then westward along v~850-860 north of the deciduous grove.",
+      "uncertainty_note": "Very faint and uncoloured; more likely a field/forest edge than a road. Included so the possibility is recorded, low confidence.",
+      "alternatives": ["field or forest edge (not a road)"]
+    }
+  ],
+  "contested_junctions": [
+    {
+      "uv": [222, 648],
+      "what_is_contested": "Number of branches and exact position: f03 and f04 clearly meet here; whether f02 (westward to the farm) and m01 (north-west approach) also join is unclear.",
+      "evidence_note": "The meeting point lies under the lettering 'L. Dalen' beside the building; the dotted road and the red road both reach ~(220-230,650) but the farm side is hidden by text."
+    },
+    {
+      "uv": [270, 788],
+      "what_is_contested": "Where f06 leaves the red road: at the f04/f05 bend (~270,788) or slightly further south-west (~245,815).",
+      "evidence_note": "The red dotted line is faint in its upper 30 px where it approaches the red road bend."
+    }
+  ],
+  "overall_note": "The overlay's main roads (dotted red track f03, red road f04/f05 and dotted branch f06) are clearly drawn and agreed; f01 coincides with building/garden outlines and f02 is hidden under lettering. The long straight thin lines at v~720-745 and u~510 look like sheet/survey lines and the black dash line at bottom-left like a boundary, so they are not counted as roads. The missed candidates m01-m04 are uncertain and could be boundaries or field edges."
+}

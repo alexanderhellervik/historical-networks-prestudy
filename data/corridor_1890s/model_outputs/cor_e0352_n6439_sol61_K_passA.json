@@ -1,0 +1,77 @@
+{
+  "tile_id": "cor_e0352_n6439",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[924, 0], [929, 50], [934, 100], [939, 150], [944, 200], [949, 250], [954, 300], [956, 350], [957, 390], [957, 416], [960, 445], [964, 466]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "obscured"],
+      "evidence_note": "A narrow reddish strip has closely spaced dark, intermittently dotted margins, approximately 6–10 px apart. Below v350, the marks overlap dark outlines and oval tree symbols.",
+      "uncertainty_note": "The road reading is supported by the paired marks, but their interrupted form makes the class uncertain. Stop where the margins become inseparable from adjacent symbols.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The two dark margins can be read as narrow road casing."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The repeated dark marks may constitute a paired broken-line track symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[877, 343], [901, 363], [928, 390], [957, 416]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["obscured", "junction"],
+      "evidence_note": "One faint gray-brown diagonal stroke crosses the peach wash and touches the reddish strip; no clear parallel margin or regular dots are visible.",
+      "uncertainty_note": "This is a doubtful road candidate. A field division is at least as plausible; the western end merges into the heavy shoreline outline.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If a path, its visible symbol is a single faint stroke."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be a field or property division rather than a road; under that reading j01 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[977, 486], [990, 494], [1000, 498]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "edge_of_tile"],
+      "evidence_note": "A short brown-dark stroke bends right toward the edge beside pale blue-green wash and oval symbols; separate margins are poorly resolved.",
+      "uncertainty_note": "Possibly the continuation of f01, but the intervening marks do not establish that connection securely.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "May be the same paired road symbol as f01, partly covered by adjoining marks."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "May instead belong to the enclosing land-cover outline."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [957, 416],
+      "branch_count": 3,
+      "evidence_note": "The faint diagonal stroke touches the north–south reddish strip. This is a provisional three-branch junction only if f02 is a road."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [951, 454, 985, 490],
+      "why": "Dark outlines, reddish marks and tree symbols overlap; the connection between f01 and f03 cannot be separated confidently."
+    }
+  ],
+  "overall_note": "Most of the face contains water, with heavy blue-black shoreline outlines and short reed strokes. The road candidate near the right edge is clearer above the overlapping symbols; the faint diagonal branch remains doubtful."
+}

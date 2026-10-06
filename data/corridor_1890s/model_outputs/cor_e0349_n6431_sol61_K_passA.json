@@ -1,0 +1,147 @@
+{
+  "tile_id": "cor_e0349_n6431",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[484, 0], [477, 34], [467, 70], [452, 112], [440, 148], [424, 186], [414, 226], [407, 265], [398, 307], [388, 339], [378, 366], [379, 395], [385, 427], [386, 457], [382, 486], [382, 511], [387, 530]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile", "junction"],
+      "evidence_note": "A narrow reddish-brown band has two dark, irregularly broken margins, generally about 6–10 px apart. It remains visible across the heavy blue-black crossing line.",
+      "uncertainty_note": "The course is clear, but the margins alternate between continuous strokes and dot-like marks; the symbol-form class is less certain.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The dark margins could be read as two rows of short marks rather than continuous casing."
+        }
+      ]
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[387, 530], [381, 563], [375, 603], [365, 638], [349, 660], [323, 681], [297, 708], [275, 738], [253, 772], [230, 805], [204, 835], [171, 866], [136, 894], [102, 921], [69, 955], [40, 983], [22, 1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction", "edge_of_tile"],
+      "evidence_note": "A reddish-brown strip continues between two dark, uneven margins approximately 6–10 px apart. Small rectangular marks and peach-coloured, black-outlined polygons occur alongside.",
+      "uncertainty_note": "The course is well supported. Some stretches have dotted or broken margins rather than clearly continuous paired lines.",
+      "alternatives": [
+        {
+          "proposed_class": "dashed_line",
+          "note": "The paired dark marks may constitute a broken-line road symbol."
+        }
+      ]
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[387, 530], [400, 515], [415, 504], [434, 509], [452, 515], [468, 518], [486, 509], [505, 491], [519, 472]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j01", "j02"],
+      "endpoint_flags": ["junction", "junction"],
+      "evidence_note": "A narrow brown trace branches from the broader brown strip, bends beside dark rectangular marks, crosses the grey seam, and continues toward a small reddish square. Dark edging is visible intermittently.",
+      "uncertainty_note": "Matching brown strokes on both sides support carrying the trace through the seam, but its exact position there is uncertain by roughly 10 px. The eastern connection is partly blended with the square symbol.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "Several stretches resolve as only one brown stroke."
+        },
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Intermittent paired dark margins may belong to a narrowly cased trace."
+        }
+      ]
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[519, 472], [532, 442], [546, 411], [558, 382], [573, 350], [587, 317], [600, 285], [616, 249], [633, 214], [645, 185], [646, 173], [639, 158]],
+      "proposed_class": "single_line",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A thin brown stroke with intermittent dark dots or short edging runs diagonally upward. Its upper end reaches a heavy black rectangular mark beside a black-outlined peach polygon.",
+      "uncertainty_note": "The stroke is locally thicker or paired, making its class uncertain. It stops at the black symbol; no continuation through that symbol is established.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "Some stretches appear to have two close dark edges with brown between them."
+        },
+        {
+          "proposed_class": "dashed_line",
+          "note": "The intermittent dark marks could be the defining road symbol rather than edging."
+        }
+      ]
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[519, 472], [529, 483]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction", "obscured"],
+      "evidence_note": "A short brown, dark-edged arm extends southeast into the reddish square with a heavy black outline.",
+      "uncertainty_note": "This may be a separate short approach, but it may instead be part of the square symbol or the broadened end of the adjoining trace. Junction j02 is provisional for this reason.",
+      "alternatives": [
+        {
+          "proposed_class": "single_line",
+          "note": "If separate from the square, the arm could be a short single-stroke approach."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "It may be symbol edging rather than a road; that reading removes f05 and leaves only two road branches at j02."
+        }
+      ]
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[281, 681], [267, 699], [244, 718], [220, 742], [202, 765], [193, 786], [192, 796]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": [],
+      "endpoint_flags": ["obscured", "obscured"],
+      "evidence_note": "Two thin grey-black strokes enclose a pale curved strip, approximately 7–15 px wide, between peach-coloured outlined shapes. Small outlined rectangular marks lie near its upper end.",
+      "uncertainty_note": "This is a doubtful track reading: the strokes may instead be the facing edges of separate field polygons. Neither a connection to the brown road nor continuation beyond either end is clear.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "The paired strokes may be field margins enclosing an uncoloured gap rather than a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[22, 0], [15, 15], [9, 30], [0, 45]],
+      "proposed_class": "single_line",
+      "junction_ids": [],
+      "endpoint_flags": ["edge_of_tile", "edge_of_tile"],
+      "evidence_note": "One irregular, fairly heavy black stroke clips the upper-left corner; no parallel casing or brown fill is visible.",
+      "uncertainty_note": "The short clipped segment does not establish its function. It is retained as a possible path, with a field-edge reading equally plausible.",
+      "alternatives": [
+        {
+          "proposed_class": "unknown",
+          "note": "This could be a field or land-cover outline rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [387, 530],
+      "branch_count": 3,
+      "evidence_note": "The brown strip has visible upward and downward arms, while a narrower brown stroke joins from the upper right; their dark margins merge at the bend."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [519, 472],
+      "branch_count": 3,
+      "evidence_note": "Brown strokes appear to meet from the southwest and northeast, with a short southeast arm entering a black-edged reddish square. The third arm is provisional because it blends with that symbol."
+    }
+  ],
+  "unreadable_areas": [
+    {
+      "bbox_uv": [433, 457, 461, 539],
+      "why": "The grey vertical seam and overlapping dark marks suppress fine line detail; the brown crossing can be aligned from its visible approaches, but its exact casing cannot be read."
+    },
+    {
+      "bbox_uv": [419, 670, 445, 902],
+      "why": "The narrow fold shadow blurs and interrupts fine strokes and polygon edges, preventing confident identification of any additional short paths within it."
+    }
+  ],
+  "overall_note": "The brown traces provide the clearest road evidence, while broken edging makes some symbol-form classes uncertain. The pale paired trace and upper-left corner stroke are retained as doubtful candidates, and the small square makes j02 provisional. Pink-accented patterned lines and blue water lines were read as non-roads."
+}

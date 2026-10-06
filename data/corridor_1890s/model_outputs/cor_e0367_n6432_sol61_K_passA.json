@@ -1,0 +1,149 @@
+{
+  "tile_id": "cor_e0367_n6432",
+  "features": [
+    {
+      "feature_id": "f01",
+      "waypoints_uv": [[557,1000],[565,961],[576,922],[589,885],[605,849],[623,812],[636,779],[646,744],[653,708]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A narrow ochre strip has closely spaced dark dotted edges. Beside the black rectangular building symbol, both edges remain traceable; a thin red line approaches and partly accompanies the strip farther south.",
+      "uncertainty_note": "The adjoining thin red line is read as a boundary, not another road branch.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f02",
+      "waypoints_uv": [[653,708],[670,673],[681,638],[694,601],[705,564],[715,531],[729,496],[746,459],[767,421],[789,382],[813,347],[835,318],[849,303]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01","j02"],
+      "endpoint_flags": ["junction","junction"],
+      "evidence_note": "Two close dark dotted edges flank a continuous ochre band. The band curves northeast and crosses a thin, straight red line near [746,459].",
+      "uncertainty_note": "The red crossing line has a different symbol and is read as a boundary; its crossing is not counted as a road junction.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f03",
+      "waypoints_uv": [[849,303],[876,286],[909,271],[944,262],[978,258],[1000,257]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "A narrow ochre band with dark stippled edges continues east from the meeting of three similarly drawn bands, flattening toward the tile edge.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f04",
+      "waypoints_uv": [[578,297],[611,281],[647,263],[681,246],[713,235],[735,243],[754,262],[775,283],[795,290],[819,285],[837,289],[849,303]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j02"],
+      "endpoint_flags": ["obscured","junction"],
+      "evidence_note": "A winding ochre strip edged with close dark dots runs between the blue, heavily outlined river and the eastern road. Its western end meets the river casing and a thin red diagonal.",
+      "uncertainty_note": "The western endpoint is obscured by the river rim and red-line overlap. No bridge or certain continuation across the blue band is visible.",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f05",
+      "waypoints_uv": [[653,708],[689,715],[732,723],[774,732],[819,741],[859,748],[870,754],[860,790],[850,829],[839,869],[826,908],[812,949],[791,1000]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j01"],
+      "endpoint_flags": ["junction","edge_of_tile"],
+      "evidence_note": "An ochre band bordered by dark dots branches east beside the black building enclosure, then turns sharply south at approximately [870,754]. The paired edging continues to the bottom border.",
+      "uncertainty_note": "",
+      "alternatives": []
+    },
+    {
+      "feature_id": "f06",
+      "waypoints_uv": [[258,1000],[254,952],[250,905],[245,856],[239,809],[235,766],[236,731],[242,694],[247,652],[248,611],[245,574],[240,532]],
+      "proposed_class": "double_line_narrow",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "A near-vertical ochre strip has two close dark dotted margins. It crosses the long black dashed enclosure around the 'N°8' lettering and becomes faint at its northern end.",
+      "uncertainty_note": "Its apparent meeting with the pale transverse line is uncertain because the transverse symbol is faded. Junction j03 is conditional on that line being a road.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The road may instead end beneath the faded drawing near [240,532], with no road junction there."
+        }
+      ]
+    },
+    {
+      "feature_id": "f07",
+      "waypoints_uv": [[0,536],[48,523],[97,512],[146,501],[186,491],[208,488],[224,502],[235,519],[240,532]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["edge_of_tile","junction"],
+      "evidence_note": "Two very pale, roughly parallel gray-brown strokes enclose a light strip. They rise gently eastward, then bend downward near [208,488] toward the northern end of the dotted vertical strip.",
+      "uncertainty_note": "The pale strokes could depict a road, field edges or a ditch. Their meeting with f06 and f08 is visible only at low contrast.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "If these are road margins, their relatively broad separation supports a wider double-line symbol."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The paired strokes may be field or ditch boundaries rather than a road; under this reading j03 is not a road junction."
+        }
+      ]
+    },
+    {
+      "feature_id": "f08",
+      "waypoints_uv": [[240,532],[283,526],[326,517],[370,508],[416,500],[461,491],[486,486]],
+      "proposed_class": "unknown",
+      "junction_ids": ["j03"],
+      "endpoint_flags": ["junction","obscured"],
+      "evidence_note": "A pale, approximately parallel pair of gray-brown strokes continues east-northeast from [240,532], enclosing a light band and reaching the thin red boundary near [486,486].",
+      "uncertainty_note": "Road versus field-edge or ditch interpretation remains unresolved. At the eastern end the pale drawing merges with other thin lines, so no continuation is traced.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_wide",
+          "note": "The separated pale strokes could be the margins of a wider road continuous with f07."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The strokes could outline adjoining fields or a ditch, without representing a road."
+        }
+      ]
+    },
+    {
+      "feature_id": "f09",
+      "waypoints_uv": [[505,682],[543,690],[582,699],[606,705],[622,710]],
+      "proposed_class": "unknown",
+      "junction_ids": [],
+      "endpoint_flags": ["dead_end","obscured"],
+      "evidence_note": "Two thin dark strokes, roughly 5–8 px apart, run east-southeast across the thin red boundary toward the black enclosure. A bluish trace accompanies their lower edge; the eastern end merges into heavier black outlines.",
+      "uncertainty_note": "This may be a short access track, an enclosure edge or a ditch. Its western tip is visible, but connection through the black enclosure to the dotted road is not certain and is not completed.",
+      "alternatives": [
+        {
+          "proposed_class": "double_line_narrow",
+          "note": "The closely spaced strokes could be a narrow double-line access track."
+        },
+        {
+          "proposed_class": "unknown",
+          "note": "The line may belong to the enclosure or drainage drawing rather than a road."
+        }
+      ]
+    }
+  ],
+  "junctions": [
+    {
+      "junction_id": "j01",
+      "uv": [653,708],
+      "branch_count": 3,
+      "evidence_note": "Three ochre bands with close dark dotted margins meet: one approaches from the south, one continues north-northeast, and one turns east. Heavy black enclosure outlines lie immediately west."
+    },
+    {
+      "junction_id": "j02",
+      "uv": [849,303],
+      "branch_count": 3,
+      "evidence_note": "Three similarly narrow, ochre-filled, dark-stippled bands meet: the southwest-running band, the east-running band and the winding band arriving from the west-northwest."
+    },
+    {
+      "junction_id": "j03",
+      "uv": [240,532],
+      "branch_count": 3,
+      "evidence_note": "The dark dotted vertical strip appears to meet pale paired strokes arriving from the northwest and east-northeast. The three-branch road reading is conditional because the pale strokes may instead be field or ditch lines."
+    }
+  ],
+  "unreadable_areas": [],
+  "overall_note": "The clearest roads are ochre bands with closely spaced dark dotted margins. The pale transverse pair and the short line beside the black enclosure remain ambiguous and are included with non-road alternatives. Thin red boundaries, long black dashed parcel outlines and blue river lines are excluded."
+}
